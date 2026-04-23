@@ -1,0 +1,578 @@
+[
+  {
+    "Type": "HTStoreManagementDataAsset",
+    "Name": "StoreManagementDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTStoreManagementDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/StoreManagement/StoreManagementDataAsset",
+    "Properties": {
+      "DT_Item": {
+        "ObjectName": "DataTable'DT_StoreStaticItemData'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreStaticItemData.0"
+      },
+      "DT_StoreWeathervane": {
+        "ObjectName": "DataTable'DT_StoreWeathervane'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreWeathervane.0"
+      },
+      "DT_StoreBrandFitment": {
+        "ObjectName": "DataTable'DT_StoreBrandFitment'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandFitment.0"
+      },
+      "DT_StoreBrandFitmentMesh": {
+        "ObjectName": "DataTable'DT_StoreBrandFitmentMesh'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandFitmentMesh.0"
+      },
+      "DT_StoreBrandOnline": {
+        "ObjectName": "DataTable'DT_StoreBrandOnline'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandOnline.0"
+      },
+      "DT_StoreBrandOnlineWave": {
+        "ObjectName": "DataTable'DT_StoreBrandOnlineWave'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandOnlineWave.0"
+      },
+      "DT_StoreBrandOnlineMenu": {
+        "ObjectName": "DataTable'DT_StoreBrandOnlineMenu'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandOnlineMenu.0"
+      },
+      "DT_StoreBrandOnlineItemConifg": {
+        "ObjectName": "DataTable'DT_StoreBrandOnlineItemConifg'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandOnlineItemConifg.0"
+      },
+      "DT_StoreBrandOnlineClientPool": {
+        "ObjectName": "DataTable'DT_StoreBrandOnlineClientPool'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandOnlineClientPool.0"
+      },
+      "DT_StoreBrandOnlineClientConfig": {
+        "ObjectName": "DataTable'DT_StoreBrandOnlineClientConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandOnlineClientConfig.0"
+      },
+      "DT_StoreBrandOnlineLevelConfig": {
+        "ObjectName": "DataTable'DT_StoreBrandOnlineLevelConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandOnlineLevelConfig.0"
+      },
+      "DT_OnlineSectionConfig": {
+        "ObjectName": "DataTable'DT_StoreBrandOnlineSectionConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandOnlineSectionConfig.0"
+      },
+      "DT_StoreBrand": {
+        "ObjectName": "DataTable'DT_StoreBrand'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrand.0"
+      },
+      "DT_StoreBrandPopularity": {
+        "ObjectName": "DataTable'DT_StoreBrandPopularity'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandPopularity.0"
+      },
+      "DT_Employee": {
+        "ObjectName": "DataTable'DT_StoreEmployee'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreEmployee.0"
+      },
+      "DT_StoreEvent": {
+        "ObjectName": "DataTable'DT_StoreEvent'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreEvent.0"
+      },
+      "DT_StoreBrandIntervalModel": {
+        "ObjectName": "DataTable'DT_StoreBrandIntervalModel'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandIntervalModel.0"
+      },
+      "DT_OnlineEmployee": {
+        "ObjectName": "DataTable'DT_StoreOnlineEmployeeConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreOnlineEmployeeConfig.0"
+      },
+      "RepertoryTimeMap": [
+        {
+          "Key": "2",
+          "Value": 72
+        },
+        {
+          "Key": "1",
+          "Value": 24
+        },
+        {
+          "Key": "0",
+          "Value": 4
+        }
+      ],
+      "StoreBrandRunTimeMax": 4320,
+      "StoreBrandEventCountLimit": 1,
+      "StoreBrandSufficient": 50,
+      "StoreBrandInSufficient": 20,
+      "TrackFixedIconID": "Leon_01_01",
+      "CakeCount": 6,
+      "DoubleHitAwardMap": [
+        {
+          "Key": "1",
+          "Value": 3
+        },
+        {
+          "Key": "2",
+          "Value": 6
+        },
+        {
+          "Key": "3",
+          "Value": 9
+        },
+        {
+          "Key": "4",
+          "Value": 12
+        },
+        {
+          "Key": "5",
+          "Value": 15
+        }
+      ],
+      "TriggerGiveARewardProbability": 0.0,
+      "DriveVisionScore": 20.0,
+      "GiveARewardPer": 0.0,
+      "OnlineSpawnTransfigurationNpcIDMap": [
+        {
+          "Key": "E_Store_Online_Vision_Get",
+          "Value": "Client_AnxiousDanzaburou_LM"
+        },
+        {
+          "Key": "E_Store_Online_Drive_Away",
+          "Value": "Client_AnxiousDanzaburou_LM_2"
+        }
+      ],
+      "ItemEntryNameMap": [
+        {
+          "Key": "Entry_Drink",
+          "Value": {
+            "TableId": "/Game/Text/ST_Store.ST_Store",
+            "Key": "Entry_Drink",
+            "SourceString": "饮料",
+            "LocalizedString": "饮料"
+          }
+        },
+        {
+          "Key": "Entry_StapleFood",
+          "Value": {
+            "TableId": "/Game/Text/ST_Store.ST_Store",
+            "Key": "Entry_StapleFood",
+            "SourceString": "主食",
+            "LocalizedString": "主食"
+          }
+        },
+        {
+          "Key": "Entry_Dessert",
+          "Value": {
+            "TableId": "/Game/Text/ST_Store.ST_Store",
+            "Key": "Entry_Dessert",
+            "SourceString": "甜品",
+            "LocalizedString": "甜品"
+          }
+        }
+      ],
+      "OnlineStamina": "CityStamina",
+      "ExtraOnlinePatienceTime": 0.5,
+      "SpecialOnlineItems": [
+        "Item_sp1"
+      ],
+      "StoreManagerLevelMap": [
+        {
+          "Key": "1",
+          "Value": 8
+        },
+        {
+          "Key": "2",
+          "Value": 75
+        },
+        {
+          "Key": "3",
+          "Value": 200
+        },
+        {
+          "Key": "4",
+          "Value": 500
+        },
+        {
+          "Key": "5",
+          "Value": 750
+        },
+        {
+          "Key": "6",
+          "Value": 1000
+        },
+        {
+          "Key": "7",
+          "Value": 1300
+        },
+        {
+          "Key": "8",
+          "Value": 1600
+        },
+        {
+          "Key": "9",
+          "Value": 3000
+        },
+        {
+          "Key": "10",
+          "Value": 3500
+        },
+        {
+          "Key": "11",
+          "Value": 4000
+        },
+        {
+          "Key": "12",
+          "Value": 4500
+        },
+        {
+          "Key": "13",
+          "Value": 5000
+        },
+        {
+          "Key": "14",
+          "Value": 5500
+        },
+        {
+          "Key": "15",
+          "Value": 6000
+        },
+        {
+          "Key": "16",
+          "Value": 8000
+        },
+        {
+          "Key": "17",
+          "Value": 9000
+        },
+        {
+          "Key": "18",
+          "Value": 10000
+        },
+        {
+          "Key": "19",
+          "Value": 11000
+        },
+        {
+          "Key": "20",
+          "Value": 12000
+        },
+        {
+          "Key": "21",
+          "Value": 13000
+        },
+        {
+          "Key": "22",
+          "Value": 14000
+        },
+        {
+          "Key": "23",
+          "Value": 15000
+        },
+        {
+          "Key": "24",
+          "Value": 20000
+        },
+        {
+          "Key": "25",
+          "Value": 21000
+        },
+        {
+          "Key": "26",
+          "Value": 22000
+        },
+        {
+          "Key": "27",
+          "Value": 23000
+        },
+        {
+          "Key": "28",
+          "Value": 24000
+        },
+        {
+          "Key": "29",
+          "Value": 25000
+        },
+        {
+          "Key": "30",
+          "Value": 26000
+        },
+        {
+          "Key": "31",
+          "Value": 27000
+        },
+        {
+          "Key": "32",
+          "Value": 28000
+        },
+        {
+          "Key": "33",
+          "Value": 29000
+        },
+        {
+          "Key": "34",
+          "Value": 30000
+        },
+        {
+          "Key": "35",
+          "Value": 30000
+        },
+        {
+          "Key": "36",
+          "Value": 30000
+        },
+        {
+          "Key": "37",
+          "Value": 30000
+        },
+        {
+          "Key": "38",
+          "Value": 30000
+        },
+        {
+          "Key": "39",
+          "Value": 30000
+        },
+        {
+          "Key": "40",
+          "Value": 0
+        }
+      ],
+      "ExperienceTransitionPer": 1.0,
+      "WeathervaneManagerLevelUnlock": 20,
+      "StoreItemQualityMap": [
+        {
+          "Key": "3",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_item_kuang05.YH_UI_shangpu_item_kuang05",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_item_kuang04.YH_UI_shangpu_item_kuang04",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_item_kuang03.YH_UI_shangpu_item_kuang03",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "0",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_item_kuang03.YH_UI_shangpu_item_kuang03",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "FadeAwayNiagaraSystemAsset": {
+        "AssetPathName": "/Game/FX/Nia/UI_3D/FantasyBubble/NS_FantasyBubble_005.NS_FantasyBubble_005",
+        "SubPathString": ""
+      },
+      "ManagerLevelUnlockAutoReplenishment": 40,
+      "DeliveryCostPerMap": [
+        {
+          "Key": "0",
+          "Value": 0.8
+        },
+        {
+          "Key": "1",
+          "Value": 0.8
+        },
+        {
+          "Key": "2",
+          "Value": 0.8
+        },
+        {
+          "Key": "3",
+          "Value": 0.8
+        },
+        {
+          "Key": "4",
+          "Value": 0.8
+        },
+        {
+          "Key": "5",
+          "Value": 0.8
+        },
+        {
+          "Key": "6",
+          "Value": 0.8
+        },
+        {
+          "Key": "7",
+          "Value": 0.8
+        },
+        {
+          "Key": "8",
+          "Value": 0.8
+        },
+        {
+          "Key": "9",
+          "Value": 0.8
+        },
+        {
+          "Key": "10",
+          "Value": 0.8
+        },
+        {
+          "Key": "11",
+          "Value": 0.8
+        },
+        {
+          "Key": "12",
+          "Value": 0.8
+        },
+        {
+          "Key": "13",
+          "Value": 0.8
+        },
+        {
+          "Key": "14",
+          "Value": 0.8
+        },
+        {
+          "Key": "15",
+          "Value": 0.6
+        },
+        {
+          "Key": "16",
+          "Value": 0.6
+        },
+        {
+          "Key": "17",
+          "Value": 0.6
+        },
+        {
+          "Key": "18",
+          "Value": 0.6
+        },
+        {
+          "Key": "19",
+          "Value": 0.6
+        },
+        {
+          "Key": "20",
+          "Value": 0.4
+        },
+        {
+          "Key": "21",
+          "Value": 0.4
+        },
+        {
+          "Key": "22",
+          "Value": 0.4
+        },
+        {
+          "Key": "23",
+          "Value": 0.4
+        },
+        {
+          "Key": "24",
+          "Value": 0.4
+        },
+        {
+          "Key": "25",
+          "Value": 0.2
+        },
+        {
+          "Key": "26",
+          "Value": 0.2
+        },
+        {
+          "Key": "27",
+          "Value": 0.2
+        },
+        {
+          "Key": "28",
+          "Value": 0.2
+        },
+        {
+          "Key": "29",
+          "Value": 0.2
+        },
+        {
+          "Key": "30",
+          "Value": 0.0
+        },
+        {
+          "Key": "31",
+          "Value": 0.0
+        },
+        {
+          "Key": "32",
+          "Value": 0.0
+        },
+        {
+          "Key": "33",
+          "Value": 0.0
+        },
+        {
+          "Key": "34",
+          "Value": 0.0
+        },
+        {
+          "Key": "35",
+          "Value": 0.0
+        },
+        {
+          "Key": "36",
+          "Value": 0.0
+        },
+        {
+          "Key": "37",
+          "Value": 0.0
+        },
+        {
+          "Key": "38",
+          "Value": 0.0
+        },
+        {
+          "Key": "39",
+          "Value": 0.0
+        },
+        {
+          "Key": "40",
+          "Value": 0.0
+        }
+      ],
+      "FitmentBtnArray": [
+        {
+          "FitmentItemType": "EStoreFitmentItemType::Fitment_Item_Table",
+          "Text": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Store_173",
+            "SourceString": "桌椅",
+            "LocalizedString": "桌椅"
+          },
+          "BtnIcon": {
+            "AssetPathName": "/Game/UI/UI/store/guanli/YH_UI_icon_Shopdecoration_01.YH_UI_icon_Shopdecoration_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "FitmentItemType": "EStoreFitmentItemType::Fitment_Item_WallPainting",
+          "Text": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Store_174",
+            "SourceString": "墙面",
+            "LocalizedString": "墙面"
+          },
+          "BtnIcon": {
+            "AssetPathName": "/Game/UI/UI/house/YH_UI_icon_place_05.YH_UI_icon_place_05",
+            "SubPathString": ""
+          }
+        },
+        {
+          "FitmentItemType": "EStoreFitmentItemType::Fitment_Item_Furniture",
+          "Text": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Store_175",
+            "SourceString": "摆件",
+            "LocalizedString": "摆件"
+          },
+          "BtnIcon": {
+            "AssetPathName": "/Game/UI/UI/house/YH_UI_icon_place_01.YH_UI_icon_place_01",
+            "SubPathString": ""
+          }
+        }
+      ]
+    }
+  }
+]

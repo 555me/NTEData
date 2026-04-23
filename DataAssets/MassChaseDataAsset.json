@@ -1,0 +1,428 @@
+[
+  {
+    "Type": "HTMassChaseDataAsset",
+    "Name": "MassChaseDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTMassChaseDataAsset'",
+    "Package": "/Game/DataAssets/MassChaseDataAsset",
+    "Properties": {
+      "MassChaseConfigArray": [
+        {},
+        {
+          "PoliceBroadcastMontage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "TargetPlatform": "EChaseConfigPlatform::PC",
+          "TriggerRadius": 3000.0,
+          "ForceTriggerRadius": 2000.0,
+          "TriggerRandomFloat": 1.5,
+          "MovementStyle": {
+            "Name": "Walk Panic",
+            "ID": "FAD91AA7-483CA175-180C5684-7363DEEC"
+          },
+          "KeepDisRadius": 1500.0,
+          "fLastPlayerLocationRecordWaitTimeCD": 2.0,
+          "PoliceClass": {
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Mass/NPC_TirggerShoot/mon_Trigger_CrowdShoot.mon_Trigger_CrowdShoot_C",
+            "SubPathString": ""
+          },
+          "PoliceShuShuClasses": [
+            {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/mon_34/mon_34_Yellow_BP.mon_34_Yellow_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/mon_34/Green/mon_34_Green_BP.mon_34_Green_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/mon_34/Red/mon_34_Red_BP.mon_34_Red_BP_C",
+              "SubPathString": ""
+            }
+          ],
+          "PoliceSpawnOffset": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 22.0
+            },
+            "Scale3D": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          },
+          "PoliceCharacterPeaceTime": 5.0,
+          "ZoneGraphFindPathLaneTag": {
+            "AnyTags": {
+              "Mask": 15360
+            },
+            "AllTags": {
+              "Mask": 0
+            },
+            "NotTags": {
+              "Mask": 512
+            }
+          },
+          "SearchLaneDist": 5000.0,
+          "PeaceModeToBattleDist": 4500.0,
+          "PoliceDestroyDis": 8000.0,
+          "PoliceBornDis": 5000.0,
+          "ShuShuBornDis": 5000.0,
+          "PoliceChaseDis": 10000.0,
+          "ShuShuChaseDis": 10000.0,
+          "ShuShuRevive": 30.0,
+          "PersuadeToSurrenderDis": 3000.0,
+          "fPersuadeToSurrenderTimeCD": 30.0,
+          "fPersuadeToSurrenderWaitTimeCD": 35.0,
+          "PoliceCarClass": {
+            "AssetPathName": "/Game/Blueprints/Vehicle/PoliceCar/BP_APoliceCar.BP_APoliceCar_C",
+            "SubPathString": ""
+          },
+          "PoliceCarChaseDis": 20000.0,
+          "PoliceCarBornDis": 10000.0,
+          "PoliceCarDestroyDis": 10000.0,
+          "PoliceCarPeaceTime": 5.0,
+          "PoliceCarTakeRideOffsetMain": {
+            "X": 0.0,
+            "Y": -220.0,
+            "Z": 0.0
+          },
+          "PoliceCarTakeRideOffsetPassenger": {
+            "X": 0.0,
+            "Y": 260.0,
+            "Z": 0.0
+          },
+          "PoliceCarSpawnFailedDuration": 5.0,
+          "PoliceCarSpawnRetryInterval": 0.5,
+          "ObstacleTemplates": [
+            {
+              "ObjectName": "HTChaseObstacleTemplateConfig'DA_Obstacle_2L500'",
+              "ObjectPath": "/Game/Blueprints/Level/World/ChaseObstacle/DA_Obstacle_2L500.0"
+            },
+            {
+              "ObjectName": "HTChaseObstacleTemplateConfig'DA_Obstacle_4L500'",
+              "ObjectPath": "/Game/Blueprints/Level/World/ChaseObstacle/DA_Obstacle_4L500.0"
+            },
+            {
+              "ObjectName": "HTChaseObstacleTemplateConfig'DA_Obstacle_4XL500X200'",
+              "ObjectPath": "/Game/Blueprints/Level/World/ChaseObstacle/DA_Obstacle_4XL500X200.0"
+            },
+            {
+              "ObjectName": "HTChaseObstacleTemplateConfig'DA_Obstacle_4XL500X1000'",
+              "ObjectPath": "/Game/Blueprints/Level/World/ChaseObstacle/DA_Obstacle_4XL500X1000.0"
+            },
+            {
+              "ObjectName": "HTChaseObstacleTemplateConfig'DA_Obstacle_6XL500X1000'",
+              "ObjectPath": "/Game/Blueprints/Level/World/ChaseObstacle/DA_Obstacle_6XL500X1000.0"
+            }
+          ],
+          "ObstacleSpawnDis": 10000.0,
+          "ObstacleDestroyDis": 13000.0,
+          "DistanceAwayFromIgnorePoint": 10000.0,
+          "PoliceReinforcementsArray": {
+            "MinPoliceNum": 0,
+            "PoliceCharacterSpawnCD": 0.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 0,
+            "PoliceShuShuSpawnCD": 0.0,
+            "PoliceShuShuSpawnNum": 0,
+            "MinPoliceCarNum": 0,
+            "PoliceCarSpawnCD": 0.0,
+            "PoliceCarSpawnNum": 0,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          },
+          "PoliceReinforcementsArray[1]": {
+            "MinPoliceNum": 2,
+            "PoliceCharacterSpawnCD": 5.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 0,
+            "PoliceShuShuSpawnCD": 0.0,
+            "PoliceShuShuSpawnNum": 0,
+            "MinPoliceCarNum": 1,
+            "PoliceCarSpawnCD": 5.0,
+            "PoliceCarSpawnNum": 1,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          },
+          "PoliceReinforcementsArray[2]": {
+            "MinPoliceNum": 4,
+            "PoliceCharacterSpawnCD": 5.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 2,
+            "PoliceShuShuSpawnCD": 5.0,
+            "PoliceShuShuSpawnNum": 1,
+            "MinPoliceCarNum": 2,
+            "PoliceCarSpawnCD": 5.0,
+            "PoliceCarSpawnNum": 1,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          },
+          "PoliceReinforcementsArray[3]": {
+            "MinPoliceNum": 8,
+            "PoliceCharacterSpawnCD": 5.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 3,
+            "PoliceShuShuSpawnCD": 5.0,
+            "PoliceShuShuSpawnNum": 2,
+            "MinPoliceCarNum": 4,
+            "PoliceCarSpawnCD": 5.0,
+            "PoliceCarSpawnNum": 2,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          },
+          "PoliceReinforcementsArray[4]": {
+            "MinPoliceNum": 0,
+            "PoliceCharacterSpawnCD": 0.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 0,
+            "PoliceShuShuSpawnCD": 0.0,
+            "PoliceShuShuSpawnNum": 0,
+            "MinPoliceCarNum": 0,
+            "PoliceCarSpawnCD": 0.0,
+            "PoliceCarSpawnNum": 0,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          },
+          "PoliceReinforcementsArray[5]": {
+            "MinPoliceNum": 0,
+            "PoliceCharacterSpawnCD": 0.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 0,
+            "PoliceShuShuSpawnCD": 0.0,
+            "PoliceShuShuSpawnNum": 0,
+            "MinPoliceCarNum": 0,
+            "PoliceCarSpawnCD": 0.0,
+            "PoliceCarSpawnNum": 0,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          }
+        },
+        {
+          "PoliceBroadcastMontage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "TargetPlatform": "EChaseConfigPlatform::Mobile",
+          "TriggerRadius": 3000.0,
+          "ForceTriggerRadius": 2000.0,
+          "TriggerRandomFloat": 1.5,
+          "MovementStyle": {
+            "Name": "Walk",
+            "ID": "DE269BC9-42C95F54-69DF448E-5EB58987"
+          },
+          "KeepDisRadius": 1500.0,
+          "fLastPlayerLocationRecordWaitTimeCD": 2.0,
+          "PoliceClass": {
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Mass/NPC_TirggerShoot/mon_Trigger_CrowdShoot.mon_Trigger_CrowdShoot_C",
+            "SubPathString": ""
+          },
+          "PoliceShuShuClasses": [
+            {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/mon_34/mon_34_Yellow_BP.mon_34_Yellow_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/mon_34/Green/mon_34_Green_BP.mon_34_Green_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/mon_34/Red/mon_34_Red_BP.mon_34_Red_BP_C",
+              "SubPathString": ""
+            }
+          ],
+          "PoliceSpawnOffset": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 22.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PoliceCharacterPeaceTime": 5.0,
+          "ZoneGraphFindPathLaneTag": {
+            "AnyTags": {
+              "Mask": 15360
+            },
+            "AllTags": {
+              "Mask": 0
+            },
+            "NotTags": {
+              "Mask": 512
+            }
+          },
+          "SearchLaneDist": 4000.0,
+          "PeaceModeToBattleDist": 4500.0,
+          "PoliceDestroyDis": 6000.0,
+          "PoliceBornDis": 4000.0,
+          "ShuShuBornDis": 4000.0,
+          "PoliceChaseDis": 8000.0,
+          "ShuShuChaseDis": 8000.0,
+          "ShuShuRevive": 30.0,
+          "PersuadeToSurrenderDis": 3000.0,
+          "fPersuadeToSurrenderTimeCD": 30.0,
+          "fPersuadeToSurrenderWaitTimeCD": 35.0,
+          "PoliceCarClass": {
+            "AssetPathName": "/Game/Blueprints/Vehicle/PoliceCar/BP_APoliceCar.BP_APoliceCar_C",
+            "SubPathString": ""
+          },
+          "PoliceCarChaseDis": 10000.0,
+          "PoliceCarBornDis": 6000.0,
+          "PoliceCarDestroyDis": 8000.0,
+          "PoliceCarPeaceTime": 5.0,
+          "PoliceCarTakeRideOffsetMain": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "PoliceCarTakeRideOffsetPassenger": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "PoliceCarSpawnFailedDuration": 5.0,
+          "PoliceCarSpawnRetryInterval": 0.5,
+          "ObstacleTemplates": [
+            {
+              "ObjectName": "HTChaseObstacleTemplateConfig'DA_Obstacle_2L500'",
+              "ObjectPath": "/Game/Blueprints/Level/World/ChaseObstacle/DA_Obstacle_2L500.0"
+            },
+            {
+              "ObjectName": "HTChaseObstacleTemplateConfig'DA_Obstacle_4L500'",
+              "ObjectPath": "/Game/Blueprints/Level/World/ChaseObstacle/DA_Obstacle_4L500.0"
+            },
+            {
+              "ObjectName": "HTChaseObstacleTemplateConfig'DA_Obstacle_4XL500X200'",
+              "ObjectPath": "/Game/Blueprints/Level/World/ChaseObstacle/DA_Obstacle_4XL500X200.0"
+            },
+            {
+              "ObjectName": "HTChaseObstacleTemplateConfig'DA_Obstacle_4XL500X1000'",
+              "ObjectPath": "/Game/Blueprints/Level/World/ChaseObstacle/DA_Obstacle_4XL500X1000.0"
+            },
+            {
+              "ObjectName": "HTChaseObstacleTemplateConfig'DA_Obstacle_6XL500X1000'",
+              "ObjectPath": "/Game/Blueprints/Level/World/ChaseObstacle/DA_Obstacle_6XL500X1000.0"
+            }
+          ],
+          "ObstacleSpawnDis": 10000.0,
+          "ObstacleDestroyDis": 13000.0,
+          "DistanceAwayFromIgnorePoint": 10000.0,
+          "PoliceReinforcementsArray": {
+            "MinPoliceNum": 0,
+            "PoliceCharacterSpawnCD": 0.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 0,
+            "PoliceShuShuSpawnCD": 0.0,
+            "PoliceShuShuSpawnNum": 0,
+            "MinPoliceCarNum": 0,
+            "PoliceCarSpawnCD": 0.0,
+            "PoliceCarSpawnNum": 0,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          },
+          "PoliceReinforcementsArray[1]": {
+            "MinPoliceNum": 2,
+            "PoliceCharacterSpawnCD": 5.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 0,
+            "PoliceShuShuSpawnCD": 0.0,
+            "PoliceShuShuSpawnNum": 0,
+            "MinPoliceCarNum": 1,
+            "PoliceCarSpawnCD": 4.0,
+            "PoliceCarSpawnNum": 1,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          },
+          "PoliceReinforcementsArray[2]": {
+            "MinPoliceNum": 3,
+            "PoliceCharacterSpawnCD": 5.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 2,
+            "PoliceShuShuSpawnCD": 5.0,
+            "PoliceShuShuSpawnNum": 1,
+            "MinPoliceCarNum": 2,
+            "PoliceCarSpawnCD": 5.0,
+            "PoliceCarSpawnNum": 2,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          },
+          "PoliceReinforcementsArray[3]": {
+            "MinPoliceNum": 2,
+            "PoliceCharacterSpawnCD": 5.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 2,
+            "PoliceShuShuSpawnCD": 5.0,
+            "PoliceShuShuSpawnNum": 1,
+            "MinPoliceCarNum": 2,
+            "PoliceCarSpawnCD": 5.0,
+            "PoliceCarSpawnNum": 2,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          },
+          "PoliceReinforcementsArray[4]": {
+            "MinPoliceNum": 0,
+            "PoliceCharacterSpawnCD": 0.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 0,
+            "PoliceShuShuSpawnCD": 0.0,
+            "PoliceShuShuSpawnNum": 0,
+            "MinPoliceCarNum": 0,
+            "PoliceCarSpawnCD": 0.0,
+            "PoliceCarSpawnNum": 0,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          },
+          "PoliceReinforcementsArray[5]": {
+            "MinPoliceNum": 0,
+            "PoliceCharacterSpawnCD": 0.0,
+            "PoliceCharacterSpawnNum": 0,
+            "MinPoliceShuShuNum": 0,
+            "PoliceShuShuSpawnCD": 0.0,
+            "PoliceShuShuSpawnNum": 0,
+            "MinPoliceCarNum": 0,
+            "PoliceCarSpawnCD": 0.0,
+            "PoliceCarSpawnNum": 0,
+            "MinPoliceObstacleNum": 0,
+            "PoliceObstacleSpawnCD": 0.0,
+            "PoliceObstacleSpawnNum": 0
+          }
+        }
+      ]
+    }
+  }
+]

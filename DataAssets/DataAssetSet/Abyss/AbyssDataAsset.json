@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "AbyssDataAsset",
+    "Name": "AbyssDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AbyssDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/Abyss/AbyssDataAsset",
+    "Properties": {
+      "CloneDataLayerAssetMap": [
+        {
+          "Key": "EAbyssFightStage::FirstHalf",
+          "Value": {
+            "CloneDataLayerAssetArray": [
+              {
+                "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_Abyss_Battle_001.W_Unload_Abyss_Battle_001",
+                "SubPathString": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EAbyssFightStage::SecondHalf",
+          "Value": {
+            "CloneDataLayerAssetArray": [
+              {
+                "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_Abyss_Battle_002.W_Unload_Abyss_Battle_002",
+                "SubPathString": ""
+              }
+            ]
+          }
+        }
+      ],
+      "SeasonDataTable": {
+        "ObjectName": "DataTable'AbyssCloneSeasonDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Abyss/AbyssCloneSeasonDataTable.0"
+      },
+      "LevelConfigDataTable": {
+        "ObjectName": "DataTable'AbyssCloneLevelDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Abyss/AbyssCloneLevelDataTable.0"
+      },
+      "SpawnMonsterTransformDataTable": {
+        "ObjectName": "DataTable'DT_SpawnMonsterTransform'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Abyss/DT_SpawnMonsterTransform.0"
+      },
+      "AbyssCloneBuffConfig": {
+        "ObjectName": "DataTable'DT_AbyssCloneBuffConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Abyss/DT_AbyssCloneBuffConfig.0"
+      },
+      "AbyssStarRewardConfig": {
+        "ObjectName": "DataTable'DT_AbyssStarReward'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Abyss/DT_AbyssStarReward.0"
+      },
+      "AbyssCommanderBuffConfig": {
+        "ObjectName": "DataTable'DT_AbyssCommanderConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Abyss/DT_AbyssCommanderConfig.0"
+      },
+      "ForbidActionDataTable": {
+        "ObjectName": "DataTable'DT_ForbidActionConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Abyss/DT_ForbidActionConfig.0"
+      },
+      "AbyssAwardActivityDataTable": {
+        "ObjectName": "DataTable'DT_AbyssCommonActivityQuest'",
+        "ObjectPath": "/Game/DataTable/SimpleQuest/DT_AbyssCommonActivityQuest.0"
+      },
+      "OfflineExitClonePosition": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710677,
+          "W": 0.70710677,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Translation": {
+          "X": -32370.26,
+          "Y": -14525.678,
+          "Z": 9019.0
+        }
+      },
+      "ItemConfigDataTable": {
+        "ObjectName": "DataTable'AbyssItemDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Abyss/AbyssItemDataTable.0"
+      },
+      "ShopConfigDataTable": {
+        "ObjectName": "DataTable'AbyssCloneShopDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Abyss/AbyssCloneShopDataTable.0"
+      },
+      "SpawnStart": {
+        "Translation": {
+          "X": -33876.0,
+          "Y": -17868.0,
+          "Z": -28710.0
+        }
+      },
+      "AbyssPositionIconMap": [
+        {
+          "Key": "EAbyssCloneCharacterPosition::FirstHalf",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Abyss/Shop/UI_YH_Us_UpLine_icon.UI_YH_Us_UpLine_icon",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EAbyssCloneCharacterPosition::SecondHalf",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Abyss/Shop/UI_YH_Us_DownLine_icon.UI_YH_Us_DownLine_icon",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EAbyssCloneCharacterPosition::None",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Abyss/Team/UI_YH_Us_leader_Label.UI_YH_Us_leader_Label",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "CantUseSkillGE": {
+        "AssetPathName": "/Game/Blueprints/Abilities/Buff/Level/ZZY/Buff_zzy_CantUseSkill.Buff_zzy_CantUseSkill_C",
+        "SubPathString": ""
+      },
+      "SkillChargingGE": {
+        "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Buff_UltraSkillEnergyAdd.Buff_UltraSkillEnergyAdd_C",
+        "SubPathString": ""
+      },
+      "ClearSkillChargingGE": {
+        "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Buff_UltraSkillEnergySub.Buff_UltraSkillEnergySub_C",
+        "SubPathString": ""
+      },
+      "ForceFightStateGE": {
+        "AssetPathName": "/Game/Blueprints/Abilities/Buff/Common/Player/Buff_Player_ForceFightState.Buff_Player_ForceFightState_C",
+        "SubPathString": ""
+      },
+      "AbyssCommonActivityAwardInfo": {
+        "ItemID": "1020",
+        "Amount": 1
+      },
+      "ShowAbyssCommonActivityTime": {
+        "Ticks": 864000000000
+      }
+    }
+  }
+]

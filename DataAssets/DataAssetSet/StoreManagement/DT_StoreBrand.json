@@ -1,0 +1,884 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_StoreBrand",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrand",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'StoreBrand'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "200": {
+        "BrandUnqiueID": "200",
+        "BrandName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_name_02",
+          "SourceString": "「一咖舍」",
+          "LocalizedString": "「一咖舍」"
+        },
+        "ShortAddressDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_097",
+          "SourceString": "（蓝胡子路店）",
+          "LocalizedString": "（蓝胡子路店）"
+        },
+        "LongAddressDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_164",
+          "SourceString": "桥间地蓝胡子路182号",
+          "LocalizedString": "桥间地蓝胡子路182号"
+        },
+        "StoreTypeDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_164",
+          "SourceString": "桥间地蓝胡子路182号",
+          "LocalizedString": "桥间地蓝胡子路182号"
+        },
+        "StoreSpecialityDes": {
+          "CultureInvariantString": null
+        },
+        "StoreType": "EHTStoreType::E_Store_Small",
+        "StoreHeadIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1001_21.Store_1001_21",
+          "SubPathString": ""
+        },
+        "StoreSucessHeadIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1001_22.Store_1001_22",
+          "SubPathString": ""
+        },
+        "StoreAppearanceIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1001_1.Store_1001_1",
+          "SubPathString": ""
+        },
+        "StoreUnlockCondition": {
+          "ConditionType": "EStoreConditionType::Store_Tycoon_Level",
+          "ConditionData": {
+            "TycoonLevel": 4,
+            "ConditionDes": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "tycoon_numberunlock_04",
+              "SourceString": "「大亨等级」到达4级解锁",
+              "LocalizedString": "「大亨等级」到达4级解锁"
+            }
+          }
+        },
+        "SellingPrice": 5000,
+        "PropertyDatas": [
+          {
+            "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Base_Property",
+            "PropertyData": {
+              "PropertyValue": 2400.0
+            }
+          }
+        ],
+        "OpenStoreLevelSequence": {
+          "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_door_medium.Seq_door_medium",
+          "SubPathString": ""
+        },
+        "LevelSequenceOriginTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.652063,
+            "W": 0.758165,
+            "IsNormalized": true,
+            "Size": 1.0000001,
+            "SizeSquared": 1.0000002
+          },
+          "Translation": {
+            "X": -81820.0,
+            "Y": 153490.0,
+            "Z": 4251.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "StoreBigWorldTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.652063,
+            "W": 0.758165,
+            "IsNormalized": true,
+            "Size": 1.0000001,
+            "SizeSquared": 1.0000002
+          },
+          "Translation": {
+            "X": -81820.0,
+            "Y": 153490.0,
+            "Z": 4251.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "StoreTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -81813.64,
+            "Y": 153485.64,
+            "Z": 4251.6147
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MapIconID": "Store_1001",
+        "BrandIcon": {
+          "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_LOGO01.YH_UI_shangpu_LOGO01",
+          "SubPathString": ""
+        },
+        "StoreBrandHeadLogoMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_ORUGEN.SM_CoffeeShop_ORUGEN",
+          "SubPathString": ""
+        },
+        "StoreBrandHeadMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_Top8x8.SM_CoffeeShop_Top8x8",
+          "SubPathString": ""
+        },
+        "StoreBrandBodyLogoMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_4x4_Out.SM_CoffeeShop_4x4_Out",
+          "SubPathString": ""
+        },
+        "StoreBrandDoor": {
+          "AssetPathName": "/Game/Blueprints/Level/World/Common/AutoDoor/BP_AutoDoor_StoreCoffeeshop_1.BP_AutoDoor_StoreCoffeeshop_1_C",
+          "SubPathString": ""
+        },
+        "WorkingEmployeeIcon": {
+          "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_jiaobiao02.YH_UI_shangpu_jiaobiao02",
+          "SubPathString": ""
+        },
+        "StoreBrandLevelInstance": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_4x4.SM_CoffeeShop_4x4",
+          "SubPathString": ""
+        },
+        "StoreBrandLevelInstanceType": "EDynamicLevelInstance::StoreBrand_One",
+        "EventPool": [],
+        "SeqEndTransferID": "Store_1001",
+        "EmployeeSlotArray": [
+          1,
+          2
+        ],
+        "ItemSlotIndex": 1,
+        "ItemConditionDes": {
+          "CultureInvariantString": null
+        }
+      },
+      "201": {
+        "BrandUnqiueID": "201",
+        "BrandName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_name_02",
+          "SourceString": "「一咖舍」",
+          "LocalizedString": "「一咖舍」"
+        },
+        "ShortAddressDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_100",
+          "SourceString": "（卷叶榕大道店）",
+          "LocalizedString": "（卷叶榕大道店）"
+        },
+        "LongAddressDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_165",
+          "SourceString": "未闻浦卷叶榕大道106号",
+          "LocalizedString": "未闻浦卷叶榕大道106号"
+        },
+        "StoreTypeDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_165",
+          "SourceString": "未闻浦卷叶榕大道106号",
+          "LocalizedString": "未闻浦卷叶榕大道106号"
+        },
+        "StoreSpecialityDes": {
+          "CultureInvariantString": null
+        },
+        "StoreType": "EHTStoreType::E_Store_Middle",
+        "StoreHeadIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1002_21.Store_1002_21",
+          "SubPathString": ""
+        },
+        "StoreSucessHeadIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1002_22.Store_1002_22",
+          "SubPathString": ""
+        },
+        "StoreAppearanceIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1002_1.Store_1002_1",
+          "SubPathString": ""
+        },
+        "StoreUnlockCondition": {
+          "ConditionType": "EStoreConditionType::Store_Manager_Level",
+          "ConditionData": {
+            "ManagerLevel": 5,
+            "ConditionDes": {
+              "TableId": "/Game/Text/ST_Store.ST_Store",
+              "Key": "Reach_Managelevel5",
+              "SourceString": "管理等级到达5级",
+              "LocalizedString": "管理等级到达5级"
+            }
+          }
+        },
+        "SellingPrice": 20000,
+        "PropertyDatas": [
+          {
+            "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Base_Property",
+            "PropertyData": {
+              "PropertyValue": 0.0
+            }
+          }
+        ],
+        "OpenStoreLevelSequence": {
+          "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_door_medium.Seq_door_medium",
+          "SubPathString": ""
+        },
+        "LevelSequenceOriginTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.526257,
+            "W": 0.850325,
+            "IsNormalized": true,
+            "Size": 0.99999946,
+            "SizeSquared": 0.9999989
+          },
+          "Translation": {
+            "X": -166156.67,
+            "Y": 105439.58,
+            "Z": 7114.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "StoreBigWorldTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.526257,
+            "W": 0.850325,
+            "IsNormalized": true,
+            "Size": 0.99999946,
+            "SizeSquared": 0.9999989
+          },
+          "Translation": {
+            "X": -166156.67,
+            "Y": 105439.58,
+            "Z": 7114.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "StoreTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -166126.42,
+            "Y": 105433.85,
+            "Z": 7112.55
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MapIconID": "Store_1001",
+        "BrandIcon": {
+          "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_LOGO01.YH_UI_shangpu_LOGO01",
+          "SubPathString": ""
+        },
+        "StoreBrandHeadLogoMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_ORUGEN.SM_CoffeeShop_ORUGEN",
+          "SubPathString": ""
+        },
+        "StoreBrandHeadMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_Top8x8.SM_CoffeeShop_Top8x8",
+          "SubPathString": ""
+        },
+        "StoreBrandBodyLogoMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_8x8_Out.SM_CoffeeShop_8x8_Out",
+          "SubPathString": ""
+        },
+        "StoreBrandDoor": {
+          "AssetPathName": "/Game/Blueprints/Level/World/Common/AutoDoor/BP_AutoDoor_StoreCoffeeshop_1.BP_AutoDoor_StoreCoffeeshop_1_C",
+          "SubPathString": ""
+        },
+        "WorkingEmployeeIcon": {
+          "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_jiaobiao02.YH_UI_shangpu_jiaobiao02",
+          "SubPathString": ""
+        },
+        "StoreBrandLevelInstance": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_8x8.SM_CoffeeShop_8x8",
+          "SubPathString": ""
+        },
+        "StoreBrandLevelInstanceType": "EDynamicLevelInstance::StoreBrand_Two",
+        "EventPool": [],
+        "SeqEndTransferID": "Store_1002",
+        "EmployeeSlotArray": [
+          3,
+          4
+        ],
+        "ItemSlotIndex": 2,
+        "ItemConditionDes": {
+          "TableId": "/Game/Text/ST_Store.ST_Store",
+          "Key": "store_201_unlock",
+          "SourceString": "购买「一咖舍」(卷叶榕大道店)",
+          "LocalizedString": "购买「一咖舍」(卷叶榕大道店)"
+        }
+      },
+      "202": {
+        "BrandUnqiueID": "202",
+        "BrandName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_name_02",
+          "SourceString": "「一咖舍」",
+          "LocalizedString": "「一咖舍」"
+        },
+        "ShortAddressDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_099",
+          "SourceString": "（水梨子大道店）",
+          "LocalizedString": "（水梨子大道店）"
+        },
+        "LongAddressDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_166",
+          "SourceString": "桥间地水梨子大道北1122号",
+          "LocalizedString": "桥间地水梨子大道北1122号"
+        },
+        "StoreTypeDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_166",
+          "SourceString": "桥间地水梨子大道北1122号",
+          "LocalizedString": "桥间地水梨子大道北1122号"
+        },
+        "StoreSpecialityDes": {
+          "CultureInvariantString": null
+        },
+        "StoreType": "EHTStoreType::E_Store_Middle",
+        "StoreHeadIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1003_21.Store_1003_21",
+          "SubPathString": ""
+        },
+        "StoreSucessHeadIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1003_22.Store_1003_22",
+          "SubPathString": ""
+        },
+        "StoreAppearanceIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1003_1.Store_1003_1",
+          "SubPathString": ""
+        },
+        "StoreUnlockCondition": {
+          "ConditionType": "EStoreConditionType::Store_Manager_Level",
+          "ConditionData": {
+            "ManagerLevel": 10,
+            "ConditionDes": {
+              "TableId": "/Game/Text/ST_Store.ST_Store",
+              "Key": "Reach_Managelevel10",
+              "SourceString": "管理等级到达10级",
+              "LocalizedString": "管理等级到达10级"
+            }
+          }
+        },
+        "SellingPrice": 40000,
+        "PropertyDatas": [
+          {
+            "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Base_Property",
+            "PropertyData": {
+              "PropertyValue": 0.0
+            }
+          }
+        ],
+        "OpenStoreLevelSequence": {
+          "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_door_medium.Seq_door_medium",
+          "SubPathString": ""
+        },
+        "LevelSequenceOriginTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.972247,
+            "W": 0.233958,
+            "IsNormalized": true,
+            "Size": 1.0000002,
+            "SizeSquared": 1.0000006
+          },
+          "Translation": {
+            "X": -130160.0,
+            "Y": 133060.0,
+            "Z": 6717.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "StoreBigWorldTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.972247,
+            "W": 0.233958,
+            "IsNormalized": true,
+            "Size": 1.0000002,
+            "SizeSquared": 1.0000006
+          },
+          "Translation": {
+            "X": -130160.0,
+            "Y": 133060.0,
+            "Z": 6717.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "StoreTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -130170.914,
+            "Y": 133053.88,
+            "Z": 6717.3247
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MapIconID": "Store_1001",
+        "BrandIcon": {
+          "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_LOGO01.YH_UI_shangpu_LOGO01",
+          "SubPathString": ""
+        },
+        "StoreBrandHeadLogoMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_ORUGEN.SM_CoffeeShop_ORUGEN",
+          "SubPathString": ""
+        },
+        "StoreBrandHeadMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_Top8x8.SM_CoffeeShop_Top8x8",
+          "SubPathString": ""
+        },
+        "StoreBrandBodyLogoMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_8x8_Out.SM_CoffeeShop_8x8_Out",
+          "SubPathString": ""
+        },
+        "StoreBrandDoor": {
+          "AssetPathName": "/Game/Blueprints/Level/World/Common/AutoDoor/BP_AutoDoor_StoreCoffeeshop_1.BP_AutoDoor_StoreCoffeeshop_1_C",
+          "SubPathString": ""
+        },
+        "WorkingEmployeeIcon": {
+          "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_jiaobiao02.YH_UI_shangpu_jiaobiao02",
+          "SubPathString": ""
+        },
+        "StoreBrandLevelInstance": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_8x8.SM_CoffeeShop_8x8",
+          "SubPathString": ""
+        },
+        "StoreBrandLevelInstanceType": "EDynamicLevelInstance::StoreBrand_Three",
+        "EventPool": [],
+        "SeqEndTransferID": "Store_1003",
+        "EmployeeSlotArray": [
+          5,
+          6
+        ],
+        "ItemSlotIndex": 3,
+        "ItemConditionDes": {
+          "TableId": "/Game/Text/ST_Store.ST_Store",
+          "Key": "store_202_unlock",
+          "SourceString": "购买「一咖舍」(水梨子大道店)",
+          "LocalizedString": "购买「一咖舍」(水梨子大道店)"
+        }
+      },
+      "203": {
+        "BrandUnqiueID": "203",
+        "BrandName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_name_02",
+          "SourceString": "「一咖舍」",
+          "LocalizedString": "「一咖舍」"
+        },
+        "ShortAddressDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_098",
+          "SourceString": "（姆咪街店）",
+          "LocalizedString": "（姆咪街店）"
+        },
+        "LongAddressDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_167",
+          "SourceString": "桥间地姆咪街88号",
+          "LocalizedString": "桥间地姆咪街88号"
+        },
+        "StoreTypeDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_167",
+          "SourceString": "桥间地姆咪街88号",
+          "LocalizedString": "桥间地姆咪街88号"
+        },
+        "StoreSpecialityDes": {
+          "CultureInvariantString": null
+        },
+        "StoreType": "EHTStoreType::E_Store_Big",
+        "StoreHeadIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1004_21.Store_1004_21",
+          "SubPathString": ""
+        },
+        "StoreSucessHeadIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1004_22.Store_1004_22",
+          "SubPathString": ""
+        },
+        "StoreAppearanceIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1004_1.Store_1004_1",
+          "SubPathString": ""
+        },
+        "StoreUnlockCondition": {
+          "ConditionType": "EStoreConditionType::Store_Manager_Level",
+          "ConditionData": {
+            "ManagerLevel": 17,
+            "ConditionDes": {
+              "TableId": "/Game/Text/ST_Store.ST_Store",
+              "Key": "Reach_Managelevel17",
+              "SourceString": "管理等级到达17级",
+              "LocalizedString": "管理等级到达17级"
+            }
+          }
+        },
+        "SellingPrice": 75000,
+        "PropertyDatas": [
+          {
+            "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Base_Property",
+            "PropertyData": {
+              "PropertyValue": 0.0
+            }
+          }
+        ],
+        "OpenStoreLevelSequence": {
+          "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_door.Seq_door",
+          "SubPathString": ""
+        },
+        "LevelSequenceOriginTransform": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.90738,
+            "W": 0.420311,
+            "IsNormalized": true,
+            "Size": 0.9999999,
+            "SizeSquared": 0.99999976
+          },
+          "Translation": {
+            "X": -131342.4,
+            "Y": 185433.73,
+            "Z": 6638.0986
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "StoreBigWorldTransform": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.90738,
+            "W": 0.420311,
+            "IsNormalized": true,
+            "Size": 0.9999999,
+            "SizeSquared": 0.99999976
+          },
+          "Translation": {
+            "X": -131342.4,
+            "Y": 185433.73,
+            "Z": 6638.0986
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "StoreTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -131341.84,
+            "Y": 185434.39,
+            "Z": 6638.316
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MapIconID": "Store_1001",
+        "BrandIcon": {
+          "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_LOGO01.YH_UI_shangpu_LOGO01",
+          "SubPathString": ""
+        },
+        "StoreBrandHeadLogoMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_ORUGEN.SM_CoffeeShop_ORUGEN",
+          "SubPathString": ""
+        },
+        "StoreBrandHeadMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_Top12x12.SM_CoffeeShop_Top12x12",
+          "SubPathString": ""
+        },
+        "StoreBrandBodyLogoMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_12x12_Out.SM_CoffeeShop_12x12_Out",
+          "SubPathString": ""
+        },
+        "StoreBrandDoor": {
+          "AssetPathName": "/Game/Blueprints/Level/World/Common/AutoDoor/BP_AutoDoor_StoreCoffeeshop_1.BP_AutoDoor_StoreCoffeeshop_1_C",
+          "SubPathString": ""
+        },
+        "WorkingEmployeeIcon": {
+          "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_jiaobiao02.YH_UI_shangpu_jiaobiao02",
+          "SubPathString": ""
+        },
+        "StoreBrandLevelInstance": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_12x12.SM_CoffeeShop_12x12",
+          "SubPathString": ""
+        },
+        "StoreBrandLevelInstanceType": "EDynamicLevelInstance::StoreBrand_Four",
+        "EventPool": [],
+        "SeqEndTransferID": "Store_1004",
+        "EmployeeSlotArray": [
+          7,
+          8
+        ],
+        "ItemSlotIndex": 4,
+        "ItemConditionDes": {
+          "TableId": "/Game/Text/ST_Store.ST_Store",
+          "Key": "store_203_unlock",
+          "SourceString": "购买「一咖舍」(姆咪街店)",
+          "LocalizedString": "购买「一咖舍」(姆咪街店)"
+        }
+      },
+      "204": {
+        "BrandUnqiueID": "204",
+        "BrandName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_name_02",
+          "SourceString": "「一咖舍」",
+          "LocalizedString": "「一咖舍」"
+        },
+        "ShortAddressDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_096",
+          "SourceString": "（半角街店）",
+          "LocalizedString": "（半角街店）"
+        },
+        "LongAddressDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_168",
+          "SourceString": "桥间地半角街广场199号",
+          "LocalizedString": "桥间地半角街广场199号"
+        },
+        "StoreTypeDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Store_168",
+          "SourceString": "桥间地半角街广场199号",
+          "LocalizedString": "桥间地半角街广场199号"
+        },
+        "StoreSpecialityDes": {
+          "CultureInvariantString": null
+        },
+        "StoreType": "EHTStoreType::E_Store_Big",
+        "StoreHeadIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1005_21.Store_1005_21",
+          "SubPathString": ""
+        },
+        "StoreSucessHeadIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1005_22.Store_1005_22",
+          "SubPathString": ""
+        },
+        "StoreAppearanceIcon": {
+          "AssetPathName": "/Game/UI/UI/store/facade/Store_1005_1.Store_1005_1",
+          "SubPathString": ""
+        },
+        "StoreUnlockCondition": {
+          "ConditionType": "EStoreConditionType::Store_Manager_Level",
+          "ConditionData": {
+            "ManagerLevel": 25,
+            "ConditionDes": {
+              "TableId": "/Game/Text/ST_Store.ST_Store",
+              "Key": "Reach_Managelevel25",
+              "SourceString": "管理等级到达25级",
+              "LocalizedString": "管理等级到达25级"
+            }
+          }
+        },
+        "SellingPrice": 100000,
+        "PropertyDatas": [
+          {
+            "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Base_Property",
+            "PropertyData": {
+              "PropertyValue": 0.0
+            }
+          }
+        ],
+        "OpenStoreLevelSequence": {
+          "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_door.Seq_door",
+          "SubPathString": ""
+        },
+        "LevelSequenceOriginTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.058968008,
+            "W": 0.9982599,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0000001
+          },
+          "Translation": {
+            "X": -95960.0,
+            "Y": 160340.0,
+            "Z": 4098.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "StoreBigWorldTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.058968,
+            "W": 0.99826,
+            "IsNormalized": true,
+            "Size": 1.0000001,
+            "SizeSquared": 1.0000004
+          },
+          "Translation": {
+            "X": -95960.0,
+            "Y": 160340.0,
+            "Z": 4098.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "StoreTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -95961.875,
+            "Y": 160344.39,
+            "Z": 4104.6206
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MapIconID": "Store_1001",
+        "BrandIcon": {
+          "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_LOGO01.YH_UI_shangpu_LOGO01",
+          "SubPathString": ""
+        },
+        "StoreBrandHeadLogoMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_ORUGEN.SM_CoffeeShop_ORUGEN",
+          "SubPathString": ""
+        },
+        "StoreBrandHeadMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_Top12x12.SM_CoffeeShop_Top12x12",
+          "SubPathString": ""
+        },
+        "StoreBrandBodyLogoMesh": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_12x12_Out.SM_CoffeeShop_12x12_Out",
+          "SubPathString": ""
+        },
+        "StoreBrandDoor": {
+          "AssetPathName": "/Game/Blueprints/Level/World/Common/AutoDoor/BP_AutoDoor_StoreCoffeeshop_1.BP_AutoDoor_StoreCoffeeshop_1_C",
+          "SubPathString": ""
+        },
+        "WorkingEmployeeIcon": {
+          "AssetPathName": "/Game/UI/UI/store/YH_UI_shangpu_jiaobiao02.YH_UI_shangpu_jiaobiao02",
+          "SubPathString": ""
+        },
+        "StoreBrandLevelInstance": {
+          "AssetPathName": "/Game/Environment/Building/Interior/CoffeeShop_Gamer/SM_CoffeeShop_12x12.SM_CoffeeShop_12x12",
+          "SubPathString": ""
+        },
+        "StoreBrandLevelInstanceType": "EDynamicLevelInstance::StoreBrand_Five",
+        "EventPool": [],
+        "SeqEndTransferID": "Store_1005",
+        "EmployeeSlotArray": [
+          9,
+          10
+        ],
+        "ItemSlotIndex": 5,
+        "ItemConditionDes": {
+          "TableId": "/Game/Text/ST_Store.ST_Store",
+          "Key": "store_204_unlock",
+          "SourceString": "购买「一咖舍」(半角街店)",
+          "LocalizedString": "购买「一咖舍」(半角街店)"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1133 @@
+[
+  {
+    "Type": "HTLotteryModuleBase",
+    "Name": "DA_LotteryModulePermanent",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTLotteryModuleBase'",
+    "Package": "/Game/DataAssets/Lottery/DA_LotteryModulePermanent",
+    "Properties": {
+      "LotteryUIConfig": {
+        "SlotBackTexture2D": {
+          "AssetPathName": "/Game/UI/UI/Gacha/Sideillustrate/YH_UI_puchi_touzhi.YH_UI_puchi_touzhi",
+          "SubPathString": ""
+        },
+        "SlotNameText": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Lottery_Kachimingcheng_changzhu",
+          "SourceString": "世间奇遇",
+          "LocalizedString": "世间奇遇"
+        }
+      },
+      "MainCostItem": {
+        "ItemID": "DiceNormal",
+        "ItemCount": 1
+      },
+      "SSRList": [
+        "1003",
+        "1023",
+        "1025",
+        "1039",
+        "1054",
+        "1055"
+      ],
+      "PoolTypeID": "ECardPoolType::CardPool_NewRole",
+      "PoolGuaranteeCount": 90,
+      "PoolGuaranteeTextID": "BPUI_LotteryModuleEntrance_BigGurantten_Changzhu",
+      "GuaranteeDropId": "drop_Monopoly_gold",
+      "PoolUpgradeCount": 70,
+      "ChaseConfig": [
+        {
+          "ChaseId": "22",
+          "SpawnCellId": "31",
+          "ActivedCellId": "22",
+          "SpawnOffset": {
+            "X": 40.0,
+            "Y": 90.0,
+            "Z": 20.0
+          },
+          "DropID": "drop_Monopoly_chase",
+          "RequireMaxTime": 3,
+          "DiceNum": 2,
+          "ChaseActorClass": {
+            "AssetPathName": "/Game/UI/Blueprints/Monopoly/BP_MonopolyChaseActor.BP_MonopolyChaseActor_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ChaseId": "49",
+          "SpawnCellId": "4",
+          "ActivedCellId": "49",
+          "SpawnOffset": {
+            "X": 40.0,
+            "Y": 90.0,
+            "Z": 20.0
+          },
+          "DropID": "drop_Monopoly_chase",
+          "RequireMaxTime": 3,
+          "DiceNum": 2,
+          "ChaseActorClass": {
+            "AssetPathName": "/Game/UI/Blueprints/Monopoly/BP_MonopolyChaseActor.BP_MonopolyChaseActor_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DiceExtraDropId": "drop_Monopoly_purpleExtra",
+      "PlayerStartCellID": "0",
+      "ModuleDropDatas": [
+        {
+          "CellType": "Permanent_Character_Random5",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character",
+          "DropID": "drop_Monopoly_gold",
+          "MaterialPhaseValue": 4.0,
+          "SkinColor": {
+            "R": 3.0,
+            "G": 1.641397,
+            "B": 0.298366,
+            "A": 1.0,
+            "Hex": "FFFF95"
+          },
+          "Scale3D": {
+            "X": 0.9,
+            "Y": 0.9,
+            "Z": 0.9
+          },
+          "Size": 1.4,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_B.MI_drawcards_Quality_LOGO_B",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_SCharacter_Inst.M_Card_SCharacter_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Common/MI_Box_05.MI_Box_05",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/M_Decal.M_Decal",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Other"
+        },
+        {
+          "CellType": "Permanent_Dice_LessDice",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Dice_1",
+          "DropID": "drop_Monopoly_1roll",
+          "MaterialPhaseValue": 6.0,
+          "SkinColor": {
+            "R": 0.871227,
+            "G": 0.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "F000FF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.0,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 0.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
+        },
+        {
+          "CellType": "Permanent_Dice_MoreDice",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Dice_4",
+          "DropID": "drop_Monopoly_Nroll",
+          "MaterialPhaseValue": 0.0,
+          "SkinColor": {
+            "R": 3.0,
+            "G": 1.641397,
+            "B": 0.298366,
+            "A": 1.0,
+            "Hex": "FFFF95"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.0,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_B.MI_drawcards_Quality_LOGO_B",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Orange_Inst.M_Card_Orange_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Orange"
+        },
+        {
+          "CellType": "Permanent_Box_LowBox",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Box",
+          "DropID": "drop_Monopoly_normal",
+          "MaterialPhaseValue": 9.0,
+          "SkinColor": {
+            "R": 0.871227,
+            "G": 0.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "F000FF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.2,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
+        },
+        {
+          "CellType": "Permanent_Box_HighBox",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_SuperBox",
+          "DropID": "drop_Monopoly_rare",
+          "MaterialPhaseValue": 8.0,
+          "SkinColor": {
+            "R": 3.0,
+            "G": 1.641397,
+            "B": 0.298366,
+            "A": 1.0,
+            "Hex": "FFFF95"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.2,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 0.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_B.MI_drawcards_Quality_LOGO_B",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Orange_Inst.M_Card_Orange_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Orange"
+        },
+        {
+          "CellType": "Permanent_Fork_RandomFork",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Fork_4",
+          "DropID": "drop_Monopoly_purpleFork",
+          "MaterialPhaseValue": 4.0,
+          "SkinColor": {
+            "R": 0.871227,
+            "G": 0.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "F000FF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.0,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 0.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
+        },
+        {
+          "CellType": "Permanent_Character_Yi",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
+          "DropID": "drop_Monopoly_rare_1008",
+          "MaterialPhaseValue": 0.0,
+          "SkinColor": {
+            "R": 0.871227,
+            "G": 0.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "F000FF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.3,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
+        },
+        {
+          "CellType": "Permanent_Character_BoHe",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
+          "DropID": "drop_Monopoly_rare_1019",
+          "MaterialPhaseValue": 2.0,
+          "SkinColor": {
+            "R": 0.871227,
+            "G": 0.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "F000FF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.3,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
+        },
+        {
+          "CellType": "Permanent_Character_ADeLe",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
+          "DropID": "drop_Monopoly_rare_1033",
+          "MaterialPhaseValue": 1.0,
+          "SkinColor": {
+            "R": 0.871227,
+            "G": 0.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "F000FF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.3,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
+        },
+        {
+          "CellType": "Permanent_Character_KaDeJia",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
+          "DropID": "drop_Monopoly_rare_1021",
+          "MaterialPhaseValue": 13.0,
+          "SkinColor": {
+            "R": 0.871227,
+            "G": 0.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "F000FF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.3,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
+        },
+        {
+          "CellType": "Permanent_Character_HaNiYa",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
+          "DropID": "drop_Monopoly_rare_1021",
+          "MaterialPhaseValue": 12.0,
+          "SkinColor": {
+            "R": 0.871227,
+            "G": 0.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "F000FF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.3,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
+        },
+        {
+          "CellType": "Permanent_Character_Haiyue",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
+          "DropID": "drop_Monopoly_rare_1021",
+          "MaterialPhaseValue": 0.0,
+          "SkinColor": {
+            "R": 0.871227,
+            "G": 0.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "F000FF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.3,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_02.MI_UI_Random_02",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
+        },
+        {
+          "CellType": "Permanent_Chess_LessShiWei",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_4",
+          "DropID": "drop_Monopoly_Dice_ticket_01_few",
+          "MaterialPhaseValue": 2.0,
+          "SkinColor": {
+            "R": 0.15419,
+            "G": 1.526265,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "6DFFFF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.0,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 0.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO.MI_drawcards_Quality_LOGO",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Blue"
+        },
+        {
+          "CellType": "Permanent_Chess_MoreShiWei",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_8",
+          "DropID": "drop_Monopoly_Dice_ticket_01_lot",
+          "MaterialPhaseValue": 5.0,
+          "SkinColor": {
+            "R": 0.15419,
+            "G": 1.526265,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "6DFFFF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.0,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 0.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO.MI_drawcards_Quality_LOGO",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Blue"
+        },
+        {
+          "CellType": "Permanent_Chess_MiDie",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_50",
+          "DropID": "drop_Monopoly_Dice_ticket_02",
+          "MaterialPhaseValue": 3.0,
+          "SkinColor": {
+            "R": 0.15419,
+            "G": 1.526265,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "6DFFFF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.0,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 0.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO.MI_drawcards_Quality_LOGO",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Blue"
+        },
+        {
+          "CellType": "Permanent_Chess_LessMiDie",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_30",
+          "DropID": "drop_Monopoly_Dice_ticket_02_few",
+          "MaterialPhaseValue": 10.0,
+          "SkinColor": {
+            "R": 0.15419,
+            "G": 1.526265,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "6DFFFF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.0,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO.MI_drawcards_Quality_LOGO",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Blue"
+        },
+        {
+          "CellType": "Permanent_Chess_ExtraShiWei",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_16",
+          "DropID": "drop_Monopoly_Dice_ticket_01_extra",
+          "MaterialPhaseValue": 9.0,
+          "SkinColor": {
+            "R": 3.0,
+            "G": 1.641397,
+            "B": 0.298366,
+            "A": 1.0,
+            "Hex": "FFFF95"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.0,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 0.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_B.MI_drawcards_Quality_LOGO_B",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Orange_Inst.M_Card_Orange_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Orange"
+        },
+        {
+          "CellType": "Permanent_Character_Random4Character",
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
+          "DropID": "drop_Monopoly_purpleCharacter",
+          "MaterialPhaseValue": 3.0,
+          "SkinColor": {
+            "R": 0.871227,
+            "G": 0.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "F000FF"
+          },
+          "Scale3D": {
+            "X": 0.6,
+            "Y": 0.6,
+            "Z": 0.6
+          },
+          "Size": 1.3,
+          "SkinMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
+            "SubPathString": ""
+          },
+          "ShineColorSwitch": 0.0,
+          "ShineInrensity": 1.0,
+          "ColorShine": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "PlaneMaterialPtr": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
+            "SubPathString": ""
+          },
+          "SkinQualityMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "AwardPlaneMaterialPtr": {
+            "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
+            "SubPathString": ""
+          },
+          "AwardDecalMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FloorMaterialPtr": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
+        }
+      ],
+      "ActivityTrialDatas": [
+        {
+          "MainCharacterId": "1003",
+          "TrialID": "Lottery_Permanent_new",
+          "bNeedTrial": true
+        },
+        {
+          "MainCharacterId": "1023",
+          "TrialID": "Lottery_Permanent_new",
+          "bNeedTrial": true
+        },
+        {
+          "MainCharacterId": "1025",
+          "TrialID": "Lottery_Permanent_new",
+          "bNeedTrial": true
+        },
+        {
+          "MainCharacterId": "1039",
+          "TrialID": "Lottery_Permanent_new",
+          "bNeedTrial": true
+        },
+        {
+          "MainCharacterId": "1054",
+          "TrialID": "Lottery_Permanent_new",
+          "bNeedTrial": true
+        },
+        {
+          "MainCharacterId": "1055",
+          "TrialID": "Lottery_Permanent_new",
+          "bNeedTrial": true
+        }
+      ],
+      "CharacterTitle": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "BPUI_LotteryPoolList2_yixiajuese",
+        "SourceString": "以下角色会出现在棋盘上",
+        "LocalizedString": "以下角色会出现在棋盘上"
+      },
+      "CharacterIds": [
+        "1003",
+        "1023",
+        "1025",
+        "1039",
+        "1054",
+        "1055",
+        "1008",
+        "1019",
+        "1020",
+        "1021",
+        "1033",
+        "1070"
+      ],
+      "ForkIds": [
+        "fork_wuhuakuang",
+        "fork_PaperPlane",
+        "fork_Kite",
+        "fork_yuren",
+        "fork_yaodao",
+        "fork_nonos",
+        "fork_appliance",
+        "fork_vine",
+        "fork_dustbin",
+        "fork_Prokaryon"
+      ],
+      "NormalIds": [
+        "DiceNormal",
+        "Dice_ticket_01",
+        "Dice_ticket_02"
+      ],
+      "MarketplaceDes": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "LotteryDes_JIshishuoming_ChangzhuDes",
+        "SourceString": "1.<Orange>「标准棋盘」</>将在集市永久性开放，可获得非限定道具。\r\n2.消耗捏造骰子将等概率获得1至6点移动点数，并移动至对应格子内获得所示道具。",
+        "LocalizedString": "1.<Orange>「标准棋盘」</>将在集市永久性开放，可获得非限定道具。\r\n2.消耗捏造骰子将等概率获得1至6点移动点数，并移动至对应格子内获得所示道具。"
+      },
+      "CharacterForkProbabilityDes": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "LotteryDes_ChangzhuJuesejihupanhuoqugailv_Des",
+        "SourceString": "<Black>【常驻S级角色】</>\t\r\n1.在标准棋盘中每次掷骰获得常驻S级角色的综合概率（含保底）为<Orange>1.8700%</>，其中在基准棋盘中每次掷骰获得常驻S级角色的基础概率为0.9900%，在变格棋盘中每次掷骰获得常驻S级角色的基础概率为19.5900%。\t\r\n2.棋盘初始为基准棋盘，若连续<Orange>70</>次掷骰没有获得常驻S级角色，将触发「棋盘变格」，大幅提高单次掷骰内获得常驻S级角色的概率，在获得常驻S级角色后，当前棋盘会重新变回基准棋盘。\t\r\n3.若连续<Orange>89</>次掷骰都没有获得常驻S级角色，则下一次掷骰棋子不会移动，并直接获得当前常驻S级角色，即至多<Orange>90</>次掷骰必定获得常驻S级角色。\t\r\n<Black>【集点赠礼】</>\t\r\n1.单次掷骰获得A级道具（包含A级角色和A级弧盘）的等效综合概率为<Orange>22.9800%</>（含保底额外），其中A级角色的等效综合概率为<Orange>11.6700%</>，A级弧盘的等效综合概率为<Orange>11.3100%</>。\t\r\n2.每<Orange>10</>次掷骰必定额外获得1次「集点赠礼」，其中A级角色的概率为<Orange>20%</>，A级弧盘的概率为<Orange>80%</>。\t\r\n<Black>【B级弧盘】</>\r\n单次掷骰获得B级弧盘的综合概率为<Orange>65.3300%</>。所有B级弧盘的获得概率均等。\t",
+        "LocalizedString": "<Black>【常驻S级角色】</>\t\r\n1.在标准棋盘中每次掷骰获得常驻S级角色的综合概率（含保底）为<Orange>1.8700%</>，其中在基准棋盘中每次掷骰获得常驻S级角色的基础概率为0.9900%，在变格棋盘中每次掷骰获得常驻S级角色的基础概率为19.5900%。\t\r\n2.棋盘初始为基准棋盘，若连续<Orange>70</>次掷骰没有获得常驻S级角色，将触发「棋盘变格」，大幅提高单次掷骰内获得常驻S级角色的概率，在获得常驻S级角色后，当前棋盘会重新变回基准棋盘。\t\r\n3.若连续<Orange>89</>次掷骰都没有获得常驻S级角色，则下一次掷骰棋子不会移动，并直接获得当前常驻S级角色，即至多<Orange>90</>次掷骰必定获得常驻S级角色。\t\r\n<Black>【集点赠礼】</>\t\r\n1.单次掷骰获得A级道具（包含A级角色和A级弧盘）的等效综合概率为<Orange>22.9800%</>（含保底额外），其中A级角色的等效综合概率为<Orange>11.6700%</>，A级弧盘的等效综合概率为<Orange>11.3100%</>。\t\r\n2.每<Orange>10</>次掷骰必定额外获得1次「集点赠礼」，其中A级角色的概率为<Orange>20%</>，A级弧盘的概率为<Orange>80%</>。\t\r\n<Black>【B级弧盘】</>\r\n单次掷骰获得B级弧盘的综合概率为<Orange>65.3300%</>。所有B级弧盘的获得概率均等。\t"
+      },
+      "NewRoleBenefitsDes": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "LotteryDes_NewRoleBenefitsDes",
+        "SourceString": "<Black>【新手优惠】</>\r\n1.首次参与「标准棋盘」开始，第1次至第5次十连投掷可享受新手优惠，消耗<Orange>8</>个「捏造骰子」可进行一次十连投掷。\r\n2.从第6次十连投掷起，每次十连投掷将恢复原价。\r\n3.「新手优惠」仅十连投掷可参与，单次投掷无法享受优惠。\r\n<Black>【新手福利】</>\r\n1.首次参与「标准棋盘」中，累计<Orange>50</>次投掷可获得「角色自选」福利，从6位常驻S级角色中任选1位加入队伍。\r\n2.「新手福利」永久生效，仅限1次。",
+        "LocalizedString": "<Black>【新手优惠】</>\r\n1.首次参与「标准棋盘」开始，第1次至第5次十连投掷可享受新手优惠，消耗<Orange>8</>个「捏造骰子」可进行一次十连投掷。\r\n2.从第6次十连投掷起，每次十连投掷将恢复原价。\r\n3.「新手优惠」仅十连投掷可参与，单次投掷无法享受优惠。\r\n<Black>【新手福利】</>\r\n1.首次参与「标准棋盘」中，累计<Orange>50</>次投掷可获得「角色自选」福利，从6位常驻S级角色中任选1位加入队伍。\r\n2.「新手福利」永久生效，仅限1次。"
+      },
+      "ExtraAndRepeatDes": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "LotteryDes_Ewaijianglijichongfuhuode_changzhudes",
+        "SourceString": "当第2~7次获得相同S级角色时，每次会变为获得1个该角色的心象碎片和40个失纬棋子；第8次起，每次变为获得80个失纬棋子。\t\r\n当第2~7次获得相同A级角色时，每次会变为获得1个该角色的心象碎片和6个失纬棋子；第8次起，每次变为获得12个失纬棋子。\t\r\n当通过「标准棋盘」获得A级弧盘时，将额外获得4个失纬棋子。\t\r\n当通过「标准棋盘」获得B级弧盘时，将额外获得20个迷迭棋子。\t",
+        "LocalizedString": "当第2~7次获得相同S级角色时，每次会变为获得1个该角色的心象碎片和40个失纬棋子；第8次起，每次变为获得80个失纬棋子。\t\r\n当第2~7次获得相同A级角色时，每次会变为获得1个该角色的心象碎片和6个失纬棋子；第8次起，每次变为获得12个失纬棋子。\t\r\n当通过「标准棋盘」获得A级弧盘时，将额外获得4个失纬棋子。\t\r\n当通过「标准棋盘」获得B级弧盘时，将额外获得20个迷迭棋子。\t"
+      },
+      "LotteryPoolRule": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "LotteryDes_Changzhujishiguize_Des",
+        "SourceString": "<Black>【学徒宝箱】</>\r\n1.学徒宝箱的进入概率为<Orange>45.9300%</>。\r\n2.学徒宝箱中获得S级角色的概率为<Orange>0.2%</>，获得B级弧盘的概率为<Orange>99.8%</>。\r\n<Black>【勇者宝箱】</>\r\n1.勇者宝箱的进入概率为<Orange>20.0700%</>。\r\n2.勇者宝箱中获得S级角色的概率为<Orange>3%</>，获得B级弧盘的概率为<Orange>97%</>，必定额外获得2个失纬棋子。\r\n<Black>【于此同行】</>\r\n1.于此同行的进入概率为<Orange>10.8600%</>，其中S级角色格的概率为1.1900%，A级角色格的概率为9.6700%。\r\n2.于此同行中必定获得当前格子内所示角色。\r\n<Black>【再来一次/多重惊喜】</>\r\n1.【再来一次】可获得1个捏造骰子，再来一次的进入概率为<Orange>1.5700%</>。\r\n2.【多重惊喜】可获得5个捏造骰子，多重惊喜的进入概率为<Orange>0.3800%</>。\r\n<Black>【失纬棋盒】</>\r\n1.失纬棋盒的进入概率为<Orange>2.3700%</>。\r\n2.失纬棋盒中可获得当前格子内所示数量的失纬棋子。\r\n<Black>【迷迭棋盒】</>\r\n1.迷迭棋盒的进入概率为<Orange>15.4700%</>。\r\n2.迷迭棋盒中可获得当前格子内所示数量的迷迭棋子。\r\n<Black>【弧光盲盒】</>\r\n1.弧光盲盒的进入概率为<Orange>3.3100%</>。\r\n2.弧光盲盒中可随机获得一个当前棋盘内的A级弧盘。\r\n<Black>【沉眠地】</>\r\n1.沉眠地的遭遇概率为<Orange>3.1500%</>。\r\n2.可获得当前格子内所示奖励，并触发「沉眠地」事件，宝藏守护者开始逃离。\r\n3.宝藏守护者会抢先逃离9格，需要在3次掷骰内追上守护者，每次掷骰后守护者都会向前移动2格，追上守护者后可提前结束游戏，成功追上宝藏守护者可获得30个失纬棋子。",
+        "LocalizedString": "<Black>【学徒宝箱】</>\r\n1.学徒宝箱的进入概率为<Orange>45.9300%</>。\r\n2.学徒宝箱中获得S级角色的概率为<Orange>0.2%</>，获得B级弧盘的概率为<Orange>99.8%</>。\r\n<Black>【勇者宝箱】</>\r\n1.勇者宝箱的进入概率为<Orange>20.0700%</>。\r\n2.勇者宝箱中获得S级角色的概率为<Orange>3%</>，获得B级弧盘的概率为<Orange>97%</>，必定额外获得2个失纬棋子。\r\n<Black>【于此同行】</>\r\n1.于此同行的进入概率为<Orange>10.8600%</>，其中S级角色格的概率为1.1900%，A级角色格的概率为9.6700%。\r\n2.于此同行中必定获得当前格子内所示角色。\r\n<Black>【再来一次/多重惊喜】</>\r\n1.【再来一次】可获得1个捏造骰子，再来一次的进入概率为<Orange>1.5700%</>。\r\n2.【多重惊喜】可获得5个捏造骰子，多重惊喜的进入概率为<Orange>0.3800%</>。\r\n<Black>【失纬棋盒】</>\r\n1.失纬棋盒的进入概率为<Orange>2.3700%</>。\r\n2.失纬棋盒中可获得当前格子内所示数量的失纬棋子。\r\n<Black>【迷迭棋盒】</>\r\n1.迷迭棋盒的进入概率为<Orange>15.4700%</>。\r\n2.迷迭棋盒中可获得当前格子内所示数量的迷迭棋子。\r\n<Black>【弧光盲盒】</>\r\n1.弧光盲盒的进入概率为<Orange>3.3100%</>。\r\n2.弧光盲盒中可随机获得一个当前棋盘内的A级弧盘。\r\n<Black>【沉眠地】</>\r\n1.沉眠地的遭遇概率为<Orange>3.1500%</>。\r\n2.可获得当前格子内所示奖励，并触发「沉眠地」事件，宝藏守护者开始逃离。\r\n3.宝藏守护者会抢先逃离9格，需要在3次掷骰内追上守护者，每次掷骰后守护者都会向前移动2格，追上守护者后可提前结束游戏，成功追上宝藏守护者可获得30个失纬棋子。"
+      }
+    }
+  }
+]

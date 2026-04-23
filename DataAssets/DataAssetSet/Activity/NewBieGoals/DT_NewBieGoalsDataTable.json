@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NewBieGoalsDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/Activity/NewBieGoals/DT_NewBieGoalsDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'NewBieGoalsData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewBieGoals_01": {
+        "SimpleQuestID": "NewBieGoals_01",
+        "TextTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "NewBieGoals_01_name",
+          "SourceString": "小吱与思考喵",
+          "LocalizedString": "小吱与思考喵"
+        },
+        "TextContext": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "NewBieGoals_01_desc",
+          "SourceString": "都市大亨升至45级累计领取满阶小吱与思考喵！",
+          "LocalizedString": "都市大亨升至45级累计领取满阶小吱与思考喵！"
+        },
+        "AwardShow": "drop_NewBieGoals_Display_01",
+        "PreCondition": {
+          "TycoonLevel": 44
+        }
+      },
+      "NewBieGoals_02": {
+        "SimpleQuestID": "NewBieGoals_02",
+        "TextTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "NewBieGoals_02_name",
+          "SourceString": "骰子与钥匙",
+          "LocalizedString": "骰子与钥匙"
+        },
+        "TextContext": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "NewBieGoals_02_desc",
+          "SourceString": "猎人等级升至40级期间大量获取！",
+          "LocalizedString": "猎人等级升至40级期间大量获取！"
+        },
+        "AwardShow": "drop_NewBieGoals_Display_02",
+        "PreCondition": {
+          "RoleLevel": 40
+        }
+      },
+      "NewBieGoals_03": {
+        "SimpleQuestID": "NewBieGoals_03",
+        "TextTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "NewBieGoals_03_name",
+          "SourceString": "海月与骰子",
+          "LocalizedString": "海月与骰子"
+        },
+        "TextContext": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "NewBieGoals_03_desc",
+          "SourceString": "累计登录领取「海月」、「银河暂留」与质实骰子。",
+          "LocalizedString": "累计登录领取「海月」、「银河暂留」与质实骰子。"
+        },
+        "AwardShow": "drop_NewBieGoals_Display_03",
+        "PreCondition": {
+          "LoginDay": 14
+        }
+      },
+      "NewBieGoals_04": {
+        "SimpleQuestID": "NewBieGoals_04",
+        "TextTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "NewBieGoals_04_name",
+          "SourceString": "哈尼娅",
+          "LocalizedString": "哈尼娅"
+        },
+        "TextContext": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "NewBieGoals_04_desc",
+          "SourceString": "通关「轨外之境-节理环线」第10关后领取。",
+          "LocalizedString": "通关「轨外之境-节理环线」第10关后领取。"
+        },
+        "AwardShow": "drop_NewBieGoals_Display_04",
+        "PreCondition": {
+          "SeasonID": "Abyss_Common",
+          "SeasonLevel": 10
+        }
+      },
+      "NewBieGoals_05": {
+        "SimpleQuestID": "NewBieGoals_05",
+        "TextTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "NewBieGoals_05_name",
+          "SourceString": "卡带与驱动块",
+          "LocalizedString": "卡带与驱动块"
+        },
+        "TextContext": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "NewBieGoals_05_desc",
+          "SourceString": "完成「探索指南」第8阶段领取一套橙色品质空幕。",
+          "LocalizedString": "完成「探索指南」第8阶段领取一套橙色品质空幕。"
+        },
+        "AwardShow": "drop_NewBieGoals_Display_05",
+        "PreCondition": {
+          "AdventureChapter": 8
+        }
+      }
+    }
+  }
+]

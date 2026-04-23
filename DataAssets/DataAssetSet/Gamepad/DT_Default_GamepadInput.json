@@ -1,0 +1,1236 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Default_GamepadInput",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/Gamepad/DT_Default_GamepadInput",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GamepadAbilityActionsParam'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Jump": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "Gamepad_0",
+          "SourceString": "跳跃",
+          "LocalizedString": "跳跃"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::Jump",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_Jump_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_Jump_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [
+          {
+            "KeyName": "Gamepad_DPad_Up"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Right"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Down"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Left"
+          }
+        ],
+        "bIsPlayerMappable": true
+      },
+      "Melee": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "WB_CharacterAbility_FlateA",
+          "SourceString": "「普通攻击」",
+          "LocalizedString": "「普通攻击」"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::Melee",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_Melee_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_Melee_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [
+          {
+            "KeyName": "Gamepad_DPad_Up"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Right"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Down"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Left"
+          }
+        ],
+        "bIsPlayerMappable": true
+      },
+      "Evade": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "Gamepad_2",
+          "SourceString": "闪避/冲刺",
+          "LocalizedString": "闪避/冲刺"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::Evade",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_Evade_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_Evade_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [
+          {
+            "KeyName": "Gamepad_DPad_Up"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Right"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Down"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Left"
+          }
+        ],
+        "bIsPlayerMappable": true
+      },
+      "SwitchRole_1": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "Gamepad_3",
+          "SourceString": "切换1号角色",
+          "LocalizedString": "切换1号角色"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::SwitchRole_1",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_SwitchRole_1_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_SwitchRole_1_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [
+          {
+            "KeyName": "Gamepad_FaceButton_Left"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Right"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Top"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Bottom"
+          },
+          {
+            "KeyName": "Gamepad_LeftShoulder"
+          },
+          {
+            "KeyName": "Gamepad_RightShoulder"
+          },
+          {
+            "KeyName": "Gamepad_LeftThumbstick"
+          },
+          {
+            "KeyName": "Gamepad_RightThumbstick"
+          },
+          {
+            "KeyName": "Gamepad_LeftTrigger"
+          },
+          {
+            "KeyName": "Gamepad_RightTrigger"
+          }
+        ],
+        "bIsPlayerMappable": true
+      },
+      "SwitchRole_2": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "Gamepad_4",
+          "SourceString": "切换2号角色",
+          "LocalizedString": "切换2号角色"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::SwitchRole_2",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_SwitchRole_2_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_SwitchRole_2_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [
+          {
+            "KeyName": "Gamepad_FaceButton_Left"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Right"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Top"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Bottom"
+          },
+          {
+            "KeyName": "Gamepad_LeftShoulder"
+          },
+          {
+            "KeyName": "Gamepad_RightShoulder"
+          },
+          {
+            "KeyName": "Gamepad_LeftThumbstick"
+          },
+          {
+            "KeyName": "Gamepad_RightThumbstick"
+          },
+          {
+            "KeyName": "Gamepad_LeftTrigger"
+          },
+          {
+            "KeyName": "Gamepad_RightTrigger"
+          }
+        ],
+        "bIsPlayerMappable": true
+      },
+      "SwitchRole_3": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "Gamepad_5",
+          "SourceString": "切换3号角色",
+          "LocalizedString": "切换3号角色"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::SwitchRole_3",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_SwitchRole_3_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_SwitchRole_3_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [
+          {
+            "KeyName": "Gamepad_FaceButton_Left"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Right"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Top"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Bottom"
+          },
+          {
+            "KeyName": "Gamepad_LeftShoulder"
+          },
+          {
+            "KeyName": "Gamepad_RightShoulder"
+          },
+          {
+            "KeyName": "Gamepad_LeftThumbstick"
+          },
+          {
+            "KeyName": "Gamepad_RightThumbstick"
+          },
+          {
+            "KeyName": "Gamepad_LeftTrigger"
+          },
+          {
+            "KeyName": "Gamepad_RightTrigger"
+          }
+        ],
+        "bIsPlayerMappable": true
+      },
+      "SwitchRole_4": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "Gamepad_6",
+          "SourceString": "切换4号角色",
+          "LocalizedString": "切换4号角色"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::SwitchRole_4",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_SwitchRole_4_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_SwitchRole_4_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [
+          {
+            "KeyName": "Gamepad_FaceButton_Left"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Right"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Top"
+          },
+          {
+            "KeyName": "Gamepad_FaceButton_Bottom"
+          },
+          {
+            "KeyName": "Gamepad_LeftShoulder"
+          },
+          {
+            "KeyName": "Gamepad_RightShoulder"
+          },
+          {
+            "KeyName": "Gamepad_LeftThumbstick"
+          },
+          {
+            "KeyName": "Gamepad_RightThumbstick"
+          },
+          {
+            "KeyName": "Gamepad_LeftTrigger"
+          },
+          {
+            "KeyName": "Gamepad_RightTrigger"
+          }
+        ],
+        "bIsPlayerMappable": true
+      },
+      "Skill": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "WB_CharacterAbility_ESkill",
+          "SourceString": "「变轨技能」",
+          "LocalizedString": "「变轨技能」"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::Skill",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_Skill_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_Skill_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [
+          {
+            "KeyName": "Gamepad_DPad_Up"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Right"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Down"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Left"
+          }
+        ],
+        "bIsPlayerMappable": true
+      },
+      "UltSkill": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "WB_CharacterAbility_QSkill",
+          "SourceString": "「极轨终结」",
+          "LocalizedString": "「极轨终结」"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::UltSkill",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_UltSkill_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_UltSkill_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [
+          {
+            "KeyName": "Gamepad_DPad_Up"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Right"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Down"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Left"
+          }
+        ],
+        "bIsPlayerMappable": true
+      },
+      "Interact": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "Gamepad_9",
+          "SourceString": "交互/调弧",
+          "LocalizedString": "交互/调弧"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::Interact",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_Interact_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_Interact_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [
+          {
+            "KeyName": "Gamepad_DPad_Up"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Right"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Down"
+          },
+          {
+            "KeyName": "Gamepad_DPad_Left"
+          }
+        ],
+        "bIsPlayerMappable": true
+      },
+      "Food": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "DefaultKey_46",
+          "SourceString": "进食",
+          "LocalizedString": "进食"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "None",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::None",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": true,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Zoom": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "Gamepad_10",
+          "SourceString": "缩放摄像机",
+          "LocalizedString": "缩放摄像机"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "None",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::None",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "Gamepad_LeftShoulder"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_Zoom_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_Zoom_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "QuickMenu": {
+        "Display": {
+          "CultureInvariantString": null
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "None",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::QuickMenu",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_QuickMenu'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_QuickMenu.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "QuickMenu_0": {
+        "Display": {
+          "CultureInvariantString": null
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "None",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::Menu",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_Menu_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_Menu_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "LeaveVines": {
+        "Display": {
+          "CultureInvariantString": null
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "None",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::LeaveVines",
+        "BP_Priority": 99,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_Evade_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_Evade_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "TrackQuest": {
+        "Display": {
+          "CultureInvariantString": null
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "None",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::TrackQuest",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_TrackQuest_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_TrackQuest_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Aim": {
+        "Display": {
+          "CultureInvariantString": null
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "None",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::Aiming",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_Aim_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_Aim_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "CameraAction": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0049",
+          "SourceString": "视角回正",
+          "LocalizedString": "视角回正"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "None",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_CameraAction_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_CameraAction_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_AimAttack": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0047",
+          "SourceString": "瞄准攻击",
+          "LocalizedString": "瞄准攻击"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_RightTrigger"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_LockTarget": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0048",
+          "SourceString": "索敌/解除索敌",
+          "LocalizedString": "索敌/解除索敌"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_RightThumbstick"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_ResetCamera": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0049",
+          "SourceString": "视角回正",
+          "LocalizedString": "视角回正"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetActionList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_RightThumbstick"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Quickmennu": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0013",
+          "SourceString": "轮盘",
+          "LocalizedString": "轮盘"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetExploreKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_LeftShoulder"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Menu": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0011",
+          "SourceString": "菜单",
+          "LocalizedString": "菜单"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetExploreKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_Special_Right"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_QuestTrack": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0050",
+          "SourceString": "任务追踪",
+          "LocalizedString": "任务追踪"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetExploreKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_LeftThumbstick"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_LeaveCloneSystem": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0051",
+          "SourceString": "离开副本",
+          "LocalizedString": "离开副本"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetExploreKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_Special_Left"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "UI_Skillcontroller_06",
+          "SourceString": "刹车",
+          "LocalizedString": "刹车"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_LeftTrigger"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle_0": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0020",
+          "SourceString": "加速",
+          "LocalizedString": "加速"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_RightTrigger"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle_1": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0022",
+          "SourceString": "转向",
+          "LocalizedString": "转向"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "LeftStickLeftRight",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle_2": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0023",
+          "SourceString": "切换视角",
+          "LocalizedString": "切换视角"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_RightThumbstick"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle_3": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0026",
+          "SourceString": "漂移",
+          "LocalizedString": "漂移"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_FaceButton_Top"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle_5": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0024",
+          "SourceString": "下车",
+          "LocalizedString": "下车"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_FaceButton_Right"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle_6": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0042",
+          "SourceString": "上一首",
+          "LocalizedString": "上一首"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_DPad_Left"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle_7": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0044",
+          "SourceString": "暂停/播放",
+          "LocalizedString": "暂停/播放"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_DPad_Up"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle_8": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0043",
+          "SourceString": "下一首",
+          "LocalizedString": "下一首"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_DPad_Right"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle_9": {
+        "Display": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0057",
+          "SourceString": "打开/关闭顶篷",
+          "LocalizedString": "打开/关闭顶篷"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_LeftThumbstick"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Vehicle_10": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "UI_Skillcontroller_08",
+          "SourceString": "后视镜",
+          "LocalizedString": "后视镜"
+        },
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_RightShoulder"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "UltraSubSkill": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "WB_CharacterAbility_FlateA",
+          "SourceString": "「普通攻击」",
+          "LocalizedString": "「普通攻击」"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "None",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::UltSubSkill",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_UltraSubSkill_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_UltraSubSkill_Gamepad.0"
+        },
+        "bCustomKeys": true,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "GSkill": {
+        "Display": {
+          "CultureInvariantString": null
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "None",
+        "DisplayKey": {
+          "KeyName": "None"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::GSkill",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_GSkill_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_GSkill_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Drum_0": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_Default_GamepadInput_Drum1",
+          "SourceString": "鼓面1",
+          "LocalizedString": "鼓面1"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetDrumKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_DPad_Left"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::None",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_DrumPlay_0_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_DrumPlay_0_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Drum_1": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_Default_GamepadInput_Drum2",
+          "SourceString": "鼓面2",
+          "LocalizedString": "鼓面2"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetDrumKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_DPad_Right"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::None",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_DrumPlay_1_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_DrumPlay_1_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Drum_2": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_Default_GamepadInput_Drum3",
+          "SourceString": "鼓面3",
+          "LocalizedString": "鼓面3"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetDrumKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_LeftThumbstick"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::None",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_DrumPlay_2_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_DrumPlay_2_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      },
+      "Display_Drum_3": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_Default_GamepadInput_Drum4",
+          "SourceString": "鼓面4",
+          "LocalizedString": "鼓面4"
+        },
+        "bIsDisplayOnly": false,
+        "CategoryName": "PanelWidgetDrumKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_FaceButton_Right"
+        },
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::None",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+        },
+        "InputAction": {
+          "ObjectName": "InputAction'IA_DrumPlay_3_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_DrumPlay_3_Gamepad.0"
+        },
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+      }
+    }
+  }
+]

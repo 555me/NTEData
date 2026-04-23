@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "ChatDataAsset",
+    "Name": "ChatDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChatDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/Chat/ChatDataAsset",
+    "Properties": {
+      "NickNameColor": {
+        "R": 1.0,
+        "G": 0.051269,
+        "B": 0.219526,
+        "A": 1.0,
+        "Hex": "FF4081"
+      },
+      "TeamText": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "BPUI_Chat_CmnDec_01",
+        "SourceString": "当前队伍",
+        "LocalizedString": "当前队伍"
+      },
+      "ChatInterval": {
+        "Ticks": 10000000
+      },
+      "TeamSlotTextureMap": [
+        {
+          "Key": "1",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Chat/YH_UI_LiaoTian_Img1P.YH_UI_LiaoTian_Img1P",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Chat/YH_UI_LiaoTian_Img2P.YH_UI_LiaoTian_Img2P",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Chat/YH_UI_LiaoTian_Img3P.YH_UI_LiaoTian_Img3P",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Chat/YH_UI_LiaoTian_Img4P.YH_UI_LiaoTian_Img4P",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "SendMessageAKEvent": {
+        "ObjectName": "AkAudioEvent'Play_Sfx_UI_Click_Catalog_Close'",
+        "ObjectPath": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Click_Catalog_Close.0"
+      },
+      "ReceiveMessageAKEvent": {
+        "ObjectName": "AkAudioEvent'Play_Sfx_UI_Cmn_Tip_Dead'",
+        "ObjectPath": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Cmn_Tip_Dead.0"
+      },
+      "QuickChatMessageDataTable": {
+        "ObjectName": "DataTable'DT_QuickChatMessage'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Chat/DT_QuickChatMessage.0"
+      },
+      "ChatEmojiGroupConfigDataTable": {
+        "ObjectName": "DataTable'DT_ChatEmojiGroupConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Chat/DT_ChatEmojiGroupConfig.0"
+      },
+      "ChatEmojiConfigDataTable": {
+        "ObjectName": "DataTable'DT_ChatEmojiConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Chat/DT_ChatEmojiConfig.0"
+      }
+    }
+  }
+]

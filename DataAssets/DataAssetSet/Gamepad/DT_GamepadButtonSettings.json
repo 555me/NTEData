@@ -1,0 +1,1623 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GamepadButtonSettings",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/Gamepad/DT_GamepadButtonSettings",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GamepadButtonsSettingConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "SelfieActivity": {
+        "UINameToListen": "SelfieActivity",
+        "UINoticeToSend": "OnHTSelfieButtonClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 80.0,
+            "Y": 80.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'UI_YH_TakePhotos_Task_Button_Icon'",
+            "ObjectPath": "/Game/UI/UI/SelfieActivity/UI_YH_TakePhotos_Task_Button_Icon.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 3,
+        "Place": "EQuickMenuSettingsButtonPlace::FaceButton",
+        "SwitchID": "ESwitchType::None"
+      },
+      "RoomPropPanel": {
+        "UINameToListen": "RoomPropPanel",
+        "UINoticeToSend": "OnHTRoomProClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'fangzhi'",
+            "ObjectPath": "/Game/UI/UI/house/fangzhi.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 2,
+        "Place": "EQuickMenuSettingsButtonPlace::FaceButton",
+        "SwitchID": "ESwitchType::None"
+      },
+      "VisionFurniture": {
+        "UINameToListen": "RoomPropPanel",
+        "UINoticeToSend": "OnVisionFurnitureClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'yixiangjiaju'",
+            "ObjectPath": "/Game/UI/UI/house/yixiangjiaju.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 3,
+        "Place": "EQuickMenuSettingsButtonPlace::FaceButton",
+        "SwitchID": "ESwitchType::None"
+      },
+      "StoreBrandComplementEnter": {
+        "UINameToListen": "StoreBrandComplementEnter",
+        "UINoticeToSend": "OnStoreBrandComplementEnterClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'gouwuqingdan'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/gouwuqingdan.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 3,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "ArrestInfo": {
+        "UINameToListen": "ArrestInfo",
+        "UINoticeToSend": "OnBtnArrestClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'shushu'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/shushu.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "StoreBrandEnter": {
+        "UINameToListen": "StoreBrandEnter",
+        "UINoticeToSend": "OnStoreBrandEnterClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_shangpu_wanfalogo'",
+            "ObjectPath": "/Game/UI/UI/store/OnLine/YH_UI_shangpu_wanfalogo.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::FaceButton",
+        "SwitchID": "ESwitchType::GuideStoreBrand"
+      },
+      "InteriorDecorationButton": {
+        "UINameToListen": "RoomPropPanel",
+        "UINoticeToSend": "OnInteriorDecorationButtonClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'yindaorenwu'",
+            "ObjectPath": "/Game/UI/UI/house/yindaorenwu.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::FaceButton",
+        "SwitchID": "ESwitchType::GuideInteriorDecoration"
+      },
+      "InviteCharacterBtn": {
+        "UINameToListen": "RoomPropPanel",
+        "UINoticeToSend": "OnInviteCharacterBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'yaoyue'",
+            "ObjectPath": "/Game/UI/UI/house/yaoyue.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 1,
+        "Place": "EQuickMenuSettingsButtonPlace::FaceButton",
+        "SwitchID": "ESwitchType::None"
+      },
+      "PauseRusumeBtn": {
+        "UINameToListen": "MovablePlayer",
+        "UINoticeToSend": "OnPauseRusumeBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_record_music_play'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_record_music_play.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "PreviousBtn": {
+        "UINameToListen": "MovablePlayer",
+        "UINoticeToSend": "OnPreviousBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_record_music_last'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_record_music_last.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 3,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "ShowMusicListBtn": {
+        "UINameToListen": "MovablePlayer",
+        "UINoticeToSend": "OnShowMusicListBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_car_music_playlist'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_car_music_playlist.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::FaceButton",
+        "SwitchID": "ESwitchType::None"
+      },
+      "ModeBtn": {
+        "UINameToListen": "MovablePlayer",
+        "UINoticeToSend": "OnModeBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_car_music_order'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_car_music_order.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 2,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "OnlyPlayLikeMusic": {
+        "UINameToListen": "MovablePlayer",
+        "UINoticeToSend": "OnOnlyPlayLikeMusicClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_car_music_like_01'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_car_music_like_01.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 1,
+        "Place": "EQuickMenuSettingsButtonPlace::FaceButton",
+        "SwitchID": "ESwitchType::None"
+      },
+      "NextBtn": {
+        "UINameToListen": "MovablePlayer",
+        "UINoticeToSend": "OnNextBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_record_music_next'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_record_music_next.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 1,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "SoundMute": {
+        "UINameToListen": "SoundMuteBtn",
+        "UINoticeToSend": "SoundMuteClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_Icon_shengyin'",
+            "ObjectPath": "/Game/UI/UI/common/function/YH_UI_Icon_shengyin.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 3,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "VehicleShowMusicListBtn": {
+        "UINameToListen": "Vehicle",
+        "UINoticeToSend": "OnShowMusicListBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_car_music_playlist'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_car_music_playlist.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::FaceButton",
+        "SwitchID": "ESwitchType::None"
+      },
+      "VehicleModeBtn": {
+        "UINameToListen": "Vehicle",
+        "UINoticeToSend": "OnModeBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_car_music_order'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_car_music_order.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 2,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "VehicleOnlyPlayLikeMusic": {
+        "UINameToListen": "Vehicle",
+        "UINoticeToSend": "OnOnlyPlayLikeMusicClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_car_music_like_01'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_car_music_like_01.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 1,
+        "Place": "EQuickMenuSettingsButtonPlace::FaceButton",
+        "SwitchID": "ESwitchType::None"
+      },
+      "VehiclePauseRusumeBtn": {
+        "UINameToListen": "Vehicle",
+        "UINoticeToSend": "OnPauseRusumeBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_record_music_play'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_record_music_play.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "VehiclePreviousBtn": {
+        "UINameToListen": "Vehicle",
+        "UINoticeToSend": "OnPreviousBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_record_music_last'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_record_music_last.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 3,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "VehicleNextBtn": {
+        "UINameToListen": "Vehicle",
+        "UINoticeToSend": "OnNextBtnClicked",
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_btn_record_music_next'",
+            "ObjectPath": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_btn_record_music_next.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 1,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      },
+      "Chat": {
+        "UINameToListen": "None",
+        "UINoticeToSend": "None",
+        "UINameToOpen": "Chat",
+        "UIExtendParameter": "None",
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_LiaoTian_Icon_LiaoT1'",
+            "ObjectPath": "/Game/UI/UI/Chat/YH_UI_LiaoTian_Icon_LiaoT1.0"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "QuickMenuIndex_Gamepad": 1,
+        "Place": "EQuickMenuSettingsButtonPlace::Dpad",
+        "SwitchID": "ESwitchType::None"
+      }
+    }
+  }
+]

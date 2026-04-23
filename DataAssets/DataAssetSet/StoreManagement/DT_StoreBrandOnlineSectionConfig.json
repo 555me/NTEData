@@ -1,0 +1,243 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_StoreBrandOnlineSectionConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/StoreManagement/DT_StoreBrandOnlineSectionConfig",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'StoreBrandOnlineSectionConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Section": 1,
+        "SectionTitleDes": {
+          "TableId": "/Game/Text/ST_Store.ST_Store",
+          "Key": "DT_Store_ChrName_1",
+          "SourceString": "目标是咖啡大师",
+          "LocalizedString": "目标是咖啡大师"
+        },
+        "ChallengeLevelIDs": [
+          "100",
+          "101",
+          "102",
+          "103",
+          "104",
+          "105",
+          "106",
+          "107",
+          "108",
+          "109",
+          "110"
+        ],
+        "SectionConditions": [],
+        "SectionConditionDes": {
+          "CultureInvariantString": null
+        },
+        "StarAwards": [
+          {
+            "StarCount": 3,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 6,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 9,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 12,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 15,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 18,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 21,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 24,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 27,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 30,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 33,
+            "DropID": "drop_storeonline_star"
+          }
+        ]
+      },
+      "2": {
+        "Section": 2,
+        "SectionTitleDes": {
+          "TableId": "/Game/Text/ST_Store.ST_Store",
+          "Key": "DT_Store_ChrName_2",
+          "SourceString": "悠哉下午茶大王",
+          "LocalizedString": "悠哉下午茶大王"
+        },
+        "ChallengeLevelIDs": [
+          "201",
+          "202",
+          "203",
+          "204",
+          "205",
+          "206",
+          "207",
+          "208",
+          "209",
+          "210"
+        ],
+        "SectionConditions": [
+          {
+            "SectionConditionType": "EStoreOnlineSectionConditionType::Store_Online_Section_Star_Count",
+            "Section": 1,
+            "StarCount": 20,
+            "StoreBrandIDs": []
+          }
+        ],
+        "SectionConditionDes": {
+          "TableId": "/Game/Text/ST_Store.ST_Store",
+          "Key": "Condition_Unlock_Chapter2",
+          "SourceString": "在第一章中获得20枚星星解锁",
+          "LocalizedString": "在第一章中获得20枚星星解锁"
+        },
+        "StarAwards": [
+          {
+            "StarCount": 3,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 6,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 9,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 12,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 15,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 18,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 21,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 24,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 27,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 30,
+            "DropID": "drop_storeonline_star"
+          }
+        ]
+      },
+      "3": {
+        "Section": 3,
+        "SectionTitleDes": {
+          "TableId": "/Game/Text/ST_Store.ST_Store",
+          "Key": "DT_Store_ChrName_3",
+          "SourceString": "大师之路",
+          "LocalizedString": "大师之路"
+        },
+        "ChallengeLevelIDs": [
+          "301",
+          "302",
+          "303",
+          "304",
+          "305",
+          "306",
+          "307",
+          "308",
+          "309",
+          "310"
+        ],
+        "SectionConditions": [
+          {
+            "SectionConditionType": "EStoreOnlineSectionConditionType::Store_Online_Section_Star_Count",
+            "Section": 2,
+            "StarCount": 20,
+            "StoreBrandIDs": []
+          }
+        ],
+        "SectionConditionDes": {
+          "TableId": "/Game/Text/ST_Store.ST_Store",
+          "Key": "Condition_Unlock_Chapter3",
+          "SourceString": "在第二章中获得20枚星星解锁",
+          "LocalizedString": "在第二章中获得20枚星星解锁"
+        },
+        "StarAwards": [
+          {
+            "StarCount": 3,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 6,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 9,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 12,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 15,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 18,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 21,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 24,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 27,
+            "DropID": "drop_storeonline_star"
+          },
+          {
+            "StarCount": 30,
+            "DropID": "drop_storeonline_star"
+          }
+        ]
+      }
+    }
+  }
+]

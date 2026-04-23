@@ -54,8 +54,8 @@
         "HomePlace": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC1029_006",
-          "SourceString": "/",
-          "LocalizedString": "/"
+          "SourceString": "玉饼街居民协会",
+          "LocalizedString": "玉饼街居民协会"
         },
         "AbilityName": {
           "TableId": "/Game/Text/ST_File.ST_File",
@@ -197,7 +197,7 @@
             "Conditions": [
               {
                 "Firendly": 0,
-                "QuestId": "None",
+                "QuestId": "q110137",
                 "CharacterFileBreakLevel": 0
               }
             ]
@@ -248,13 +248,7 @@
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_chat_001.Play_Vo_Char_NPC1029_chat_001",
               "SubPathString": ""
             },
-            "Conditions": [
-              {
-                "Firendly": 0,
-                "QuestId": "L110266",
-                "CharacterFileBreakLevel": 0
-              }
-            ]
+            "Conditions": []
           },
           {
             "ID": "Daily03",
@@ -634,13 +628,27 @@
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_about_001_01.Play_Vo_Char_NPC1029_about_001_01",
               "SubPathString": ""
             },
-            "Conditions": [
-              {
-                "Firendly": 0,
-                "QuestId": "L110266",
-                "CharacterFileBreakLevel": 0
-              }
-            ]
+            "Conditions": []
+          },
+          {
+            "ID": "Daily22",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "about_PXX",
+              "SourceString": "关于「平行线」",
+              "LocalizedString": "关于「平行线」"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC1029_about_002",
+              "SourceString": "其实平行线的诞生，并不是单纯因为「想组乐队」，而是我想为我们三人找到一个毕业后、长大后也能一直在一起的理由。或许正因为这样，当我无法继续演奏之后，平行线才会直接分崩离析吧……但是，人与人的联系并不是孤零零的直线。即使少了一个交点，也总有机会再次相连。要是我能早点明白这个道理就好了……不过，现在也不晚呢。",
+              "LocalizedString": "其实平行线的诞生，并不是单纯因为「想组乐队」，而是我想为我们三人找到一个毕业后、长大后也能一直在一起的理由。或许正因为这样，当我无法继续演奏之后，平行线才会直接分崩离析吧……但是，人与人的联系并不是孤零零的直线。即使少了一个交点，也总有机会再次相连。要是我能早点明白这个道理就好了……不过，现在也不晚呢。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_about_001_02.Play_Vo_Char_NPC1029_about_001_02",
+              "SubPathString": ""
+            },
+            "Conditions": []
           },
           {
             "ID": "Daily29",
@@ -877,7 +885,7 @@
               "LocalizedString": "同银河一起流转。"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_aoe_UI_001.Play_Vo_Char_NPC1029_aoe_UI_001",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_aoe_001.Play_Vo_Char_NPC1029_aoe_001",
               "SubPathString": ""
             },
             "Conditions": []
@@ -897,7 +905,7 @@
               "LocalizedString": "将浪潮牵引而来。"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_aoe_UI_002.Play_Vo_Char_NPC1029_aoe_UI_002",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_aoe_002.Play_Vo_Char_NPC1029_aoe_002",
               "SubPathString": ""
             },
             "Conditions": []
@@ -917,7 +925,7 @@
               "LocalizedString": "让旋律在此收拢。"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_aoe_UI_003.Play_Vo_Char_NPC1029_aoe_UI_003",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_aoe_003.Play_Vo_Char_NPC1029_aoe_003",
               "SubPathString": ""
             },
             "Conditions": []

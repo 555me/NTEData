@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "HTGroupBehaviorDataAsset",
+    "Name": "GroupBehaviorDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTGroupBehaviorDataAsset'",
+    "Package": "/Game/DataAssets/GroupBehaviorDataAsset",
+    "Properties": {
+      "GroupBehaviorConfigArray": [
+        {
+          "SolarEclipseLocation": {
+            "X": 11420.617,
+            "Y": 6682.6846,
+            "Z": 210.5213
+          },
+          "CustomMontages": [
+            {
+              "PlayCustomMontage": "LookAt",
+              "Proportion": 0.6,
+              "PlayTimes": 1
+            },
+            {
+              "PlayCustomMontage": "Watch",
+              "Proportion": 0.5,
+              "PlayTimes": 1
+            }
+          ],
+          "TriggerRadius": 2000.0,
+          "TriggerRandomFloat": 5.0
+        },
+        {
+          "TriggerCoolDownTime": 30.0,
+          "LuxuryVehicleNoticeWaitTime": 2.0,
+          "LuxuryVehicleNoticeInterval": 5.0,
+          "LuxuryVehicleNoticeMinSpeed": 50.0,
+          "CustomMontages": [
+            {
+              "PlayCustomMontage": "TakePhoto",
+              "Proportion": 1.0,
+              "PlayTimes": 1
+            }
+          ],
+          "TriggerRadius": 750.0,
+          "TriggerRandomFloat": 5.0
+        },
+        {
+          "TriggerCoolDownTime": 30.0,
+          "TriggerAngle": 30.0,
+          "TriggerPossible": 0.7,
+          "CustomMontages": [
+            {
+              "PlayCustomMontage": "Honk",
+              "Proportion": 1.0,
+              "PlayTimes": 1
+            }
+          ],
+          "TriggerRadius": 500.0,
+          "TriggerRandomFloat": 1.5
+        }
+      ]
+    }
+  }
+]

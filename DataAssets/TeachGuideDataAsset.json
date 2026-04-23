@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "HTTeachGuideDataAsset",
+    "Name": "TeachGuideDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTTeachGuideDataAsset'",
+    "Package": "/Game/DataAssets/TeachGuideDataAsset",
+    "Properties": {
+      "DT_TeachGuide": {
+        "ObjectName": "DataTable'TeachGuideDataTable'",
+        "ObjectPath": "/Game/DataTable/TeachGuide/TeachGuideDataTable.0"
+      },
+      "TeachGuideTypeName": [
+        {
+          "Key": "Other",
+          "Value": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "QuestTitle_0",
+            "SourceString": "全部",
+            "LocalizedString": "全部"
+          }
+        },
+        {
+          "Key": "PlayMethod",
+          "Value": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Achievement_Play_Nickname",
+            "SourceString": "玩法",
+            "LocalizedString": "玩法"
+          }
+        },
+        {
+          "Key": "Battle",
+          "Value": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Achievement_Fight_Nickname",
+            "SourceString": "战斗",
+            "LocalizedString": "战斗"
+          }
+        },
+        {
+          "Key": "Basic",
+          "Value": {
+            "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+            "Key": "UI_Tag_XiTong",
+            "SourceString": "基础",
+            "LocalizedString": "基础"
+          }
+        }
+      ],
+      "FirstClickAward": "drop_Annulith_1",
+      "TeachGuideRedPointTag": "Redpoint.Menu.TeachGuide.AllType.{}.New",
+      "TeachGuideRedPointTypeTag": "Redpoint.Menu.TeachGuide.AllType.{}",
+      "TeachGuideRedPointOtherTag": "Redpoint.Menu.TeachGuide.AllType",
+      "TeachGuideTypeNameTagMap": [
+        {
+          "Key": "PlayMethod",
+          "Value": "PlayMethod"
+        },
+        {
+          "Key": "Battle",
+          "Value": "Battle"
+        },
+        {
+          "Key": "Other",
+          "Value": "Other"
+        },
+        {
+          "Key": "Basic",
+          "Value": "Basic"
+        }
+      ]
+    }
+  }
+]

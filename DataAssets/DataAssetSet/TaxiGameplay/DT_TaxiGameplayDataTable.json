@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TaxiGameplayDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TaxiGameplayOrderData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "TaxiOrder001": {
+        "TaxiOrderID": "TaxiOrder001",
+        "SpecialEventType": "ETaxiGameplaySpecialEventType::ETaxiGameplaySpecialEventType_Null",
+        "bRandomGuest": true,
+        "GuestLocationID": "test_Target001",
+        "bRandomGuestTarget": true,
+        "GuestTargetLocationID": "test_Target002",
+        "OrderStateQuestMap": [],
+        "Prop": 100,
+        "ConsumeStamina": 0
+      }
+    }
+  }
+]

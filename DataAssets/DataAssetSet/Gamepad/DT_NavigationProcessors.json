@@ -1,0 +1,169 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NavigationProcessors",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/Gamepad/DT_NavigationProcessors",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'UINavigationProcessor'",
+        "ObjectPath": "/Script/UINavigation"
+      }
+    },
+    "Rows": {
+      "BPUI_AdjustTime": {
+        "AttachPoint": "CanvasPanel_Clock",
+        "WidgetToAttach": {
+          "AssetPathName": "/Script/HTGame.HTUI_GamepadTimerPicker",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": false
+      },
+      "BPUI_BigMapContainer": {
+        "AttachPoint": "OverlayGamepadAttachPoint",
+        "WidgetToAttach": {
+          "AssetPathName": "/Game/UI/Blueprints/Gamepad/Processors/WB_GamepadMapProcessor.WB_GamepadMapProcessor_C",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_Selfie": {
+        "AttachPoint": "CPanelRoot",
+        "WidgetToAttach": {
+          "AssetPathName": "/Script/HTGame.HTUI_GamepadSelfieProcessor",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_RealEstateMapContainer": {
+        "AttachPoint": "OverlayGamepadAttachPoint",
+        "WidgetToAttach": {
+          "AssetPathName": "/Game/UI/Blueprints/Gamepad/Processors/WB_GamepadMapProcessor.WB_GamepadMapProcessor_C",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_HandmadeShelf": {
+        "AttachPoint": "FullPanel",
+        "WidgetToAttach": {
+          "AssetPathName": "/Game/UI/Blueprints/Gamepad/Processors/WB_GamepadHandmadeShelfProcessor.WB_GamepadHandmadeShelfProcessor_C",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BP_MyVehicle": {
+        "AttachPoint": "FullPanel",
+        "WidgetToAttach": {
+          "AssetPathName": "/Script/HTGame.HTUI_GamepadVehicleProcessor",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_VehicleShopMain": {
+        "AttachPoint": "FullPanel",
+        "WidgetToAttach": {
+          "AssetPathName": "/Script/HTGame.HTUI_GamepadVehicleProcessor",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_GashaponMain": {
+        "AttachPoint": "CPanelRoot",
+        "WidgetToAttach": {
+          "AssetPathName": "/Game/UI/Blueprints/Gamepad/Processors/WB_GamepadGashaponMainProcessor.WB_GamepadGashaponMainProcessor_C",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_RoomMainForm": {
+        "AttachPoint": "CanvasPanel_51",
+        "WidgetToAttach": {
+          "AssetPathName": "/Game/UI/Blueprints/Gamepad/Processors/WB_GamepadRoomMainFormProcessor.WB_GamepadRoomMainFormProcessor_C",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "UI_LittleAnimInteract": {
+        "AttachPoint": "MainPanel",
+        "WidgetToAttach": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_GamepadLittleAnimProcessor.BPUI_GamepadLittleAnimProcessor_C",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_RoomFurniturePreviewMainForm": {
+        "AttachPoint": "CanvasPanel_132",
+        "WidgetToAttach": {
+          "AssetPathName": "/Script/HTGame.HTUI_GamepadRoomFurniturePreviewMainFormProcessor",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_AchievementMainForm": {
+        "AttachPoint": "CanvasPanel_0",
+        "WidgetToAttach": {
+          "AssetPathName": "/Game/UI/Blueprints/Gamepad/Processors/WB_GamepadAchievementProgress.WB_GamepadAchievementProgress_C",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_LotteryModuleEntrance": {
+        "AttachPoint": "CanvasPanel_24",
+        "WidgetToAttach": {
+          "AssetPathName": "/Script/HTGame.HTUI_GamepadLotteryProcessor",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "UI_ChuanMahjongMainForm": {
+        "AttachPoint": "CanvasPanel_35",
+        "WidgetToAttach": {
+          "AssetPathName": "/Script/HTGame.HTUI_MahjongMainFormProcessor",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "UI_CharacterNpcInteract": {
+        "AttachPoint": "MainPanel",
+        "WidgetToAttach": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_GamepadCharacterNpcInteract.BPUI_GamepadCharacterNpcInteract_C",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "UI_CharacterNpcInteract1": {
+        "AttachPoint": "MainPanel",
+        "WidgetToAttach": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_GamepadCharacterNpcInteract1.BPUI_GamepadCharacterNpcInteract1_C",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_NewSelfie": {
+        "AttachPoint": "CPanelRoot",
+        "WidgetToAttach": {
+          "AssetPathName": "/Game/UI/Blueprints/Gamepad/Processors/WB_GamepadDroneProcessor.WB_GamepadDroneProcessor_C",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_ShareForm": {
+        "AttachPoint": "CPanelRoot",
+        "WidgetToAttach": {
+          "AssetPathName": "/Script/HTGame.HTUI_GamepadStickerProcessor",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      },
+      "BPUI_LikeabilityChatMain": {
+        "AttachPoint": "CanvasPanel_42",
+        "WidgetToAttach": {
+          "AssetPathName": "/Script/HTGame.HTUI_GamepadLikeabilityChatMainProcessor",
+          "SubPathString": ""
+        },
+        "bEnableKeyboard": true
+      }
+    }
+  }
+]

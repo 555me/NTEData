@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TaxiGameplayBaseFareDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayBaseFareDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TaxiGameplayBaseFareData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "longEx": {
+        "Range": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 180000.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 5.0
+          }
+        },
+        "ConsumeStamina": 4
+      },
+      "long": {
+        "Range": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 150000.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 180000.0
+          }
+        },
+        "ConsumeStamina": 3
+      },
+      "base": {
+        "Range": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 90000.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 150000.0
+          }
+        },
+        "ConsumeStamina": 2
+      },
+      "short": {
+        "Range": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 60000.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 90000.0
+          }
+        },
+        "ConsumeStamina": 1
+      },
+      "shortEx": {
+        "Range": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 60000.0
+          }
+        },
+        "ConsumeStamina": 1
+      }
+    }
+  }
+]

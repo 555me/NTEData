@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "VisionDataAsset",
+    "Name": "DA_Vision",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VisionDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/DA_Vision",
+    "Properties": {
+      "VisionDataTable": {
+        "ObjectName": "DataTable'DT_Vision'",
+        "ObjectPath": "/Game/DataTable/Vision/DT_Vision.0"
+      },
+      "VisionCategoryDataTable": {
+        "ObjectName": "DataTable'DT_VisionCategory'",
+        "ObjectPath": "/Game/DataTable/Vision/DT_VisionCategory.0"
+      },
+      "VisionDifficultyDataTable": {
+        "ObjectName": "DataTable'DT_VisionDifficulty'",
+        "ObjectPath": "/Game/DataTable/Vision/DT_VisionDifficulty.0"
+      },
+      "VisionPropDataTable": {
+        "ObjectName": "DataTable'DT_VisionProp'",
+        "ObjectPath": "/Game/DataTable/Vision/DT_VisionProp.0"
+      },
+      "VisionReceiveAwardDataTable": {
+        "ObjectName": "DataTable'DT_VisionReceiveAward'",
+        "ObjectPath": "/Game/DataTable/Vision/DT_VisionReceiveAward.0"
+      },
+      "VisionManualDataTable": {
+        "ObjectName": "DataTable'DT_VisionManual'",
+        "ObjectPath": "/Game/DataTable/Vision/DT_VisionManual.0"
+      },
+      "VisionFuncText[1]": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "W_HTButton_Com_05_Trace",
+        "SourceString": "追踪异象",
+        "LocalizedString": "追踪异象"
+      },
+      "VisionFuncText[2]": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "W_HTButton_Com_05_DeTrace",
+        "SourceString": "取消追踪",
+        "LocalizedString": "取消追踪"
+      },
+      "VisionFuncText[3]": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "storem_008",
+        "SourceString": "已完成",
+        "LocalizedString": "已完成"
+      },
+      "IncompleteTitleText": {
+        "CultureInvariantString": null
+      },
+      "CompletedTitleText": {
+        "CultureInvariantString": null
+      },
+      "VisionPropUnknownText": {
+        "CultureInvariantString": null
+      },
+      "CommentDefaultSignTitleText": {
+        "CultureInvariantString": "--"
+      },
+      "CommentDefaultOrganizationTitleText": {
+        "CultureInvariantString": null
+      },
+      "CommentDefaultOrganizationText": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "DA_Vision_Organization",
+        "SourceString": "伊波恩古董店",
+        "LocalizedString": "伊波恩古董店"
+      },
+      "RadarForwardOffset": 180.0,
+      "RadarPlaySound": {
+        "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Radar_Lp.Play_Sfx_UI_Radar_Lp",
+        "SubPathString": ""
+      },
+      "RadarStopSound": {
+        "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Stop_Sfx_UI_Radar_Lp.Stop_Sfx_UI_Radar_Lp",
+        "SubPathString": ""
+      },
+      "RadarPlaySoundArroundRange": 500.0,
+      "PlayerEntryVisionAreaTipsText": {
+        "TableId": "/Game/Text/ST_Ui.ST_Ui",
+        "Key": "Vision_VisionDetected",
+        "SourceString": "已进入维特海默值异常波动区域",
+        "LocalizedString": "已进入维特海默值异常波动区域"
+      },
+      "PlayerEntryVisionAreaTipsShowInterval": 3.0,
+      "PlayerEntryVisionAreaTipsMessageItemClass": {
+        "AssetPathName": "/Game/UI/Blueprints/Message/BPUI_VisionareaMessageItem.BPUI_VisionareaMessageItem_C",
+        "SubPathString": ""
+      },
+      "ActiveVisionTipsText": {
+        "TableId": "/Game/Text/ST_Common.ST_Common",
+        "Key": "DA_Vision_NewVisionTaskAppear",
+        "SourceString": "{0}出现了新的异象委托",
+        "LocalizedString": "{0}出现了新的异象委托"
+      },
+      "ActiveVisionTipsMessageItemClass": {
+        "AssetPathName": "/Game/UI/Blueprints/Message/BPUI_VisionActiveMessageItem.BPUI_VisionActiveMessageItem_C",
+        "SubPathString": ""
+      },
+      "VisionFuncUnlockID": "VisionExplore",
+      "AdvVisionSceneDataTable": {
+        "ObjectName": "DataTable'DT_AdvVisionSceneData'",
+        "ObjectPath": "/Game/DataTable/Vision/DT_AdvVisionSceneData.0"
+      },
+      "AdvancedVisionDataTable": {
+        "ObjectName": "DataTable'DT_AdvVision'",
+        "ObjectPath": "/Game/DataTable/Vision/DT_AdvVision.0"
+      },
+      "AdvVisionShowDiffLvlDataTable": {
+        "ObjectName": "DataTable'DT_AdvVisionShowDiffLvl'",
+        "ObjectPath": "/Game/DataTable/Vision/DT_AdvVisionShowDiffLvl.0"
+      },
+      "LoadPolicy": "EHTDataAssetSetLoadPolicy::Cache"
+    }
+  }
+]

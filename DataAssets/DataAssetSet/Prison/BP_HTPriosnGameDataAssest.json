@@ -1,0 +1,1279 @@
+[
+  {
+    "Type": "HTPrisonGameDataAsset",
+    "Name": "BP_HTPriosnGameDataAssest",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTPrisonGameDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/Prison/BP_HTPriosnGameDataAssest",
+    "Properties": {
+      "FinishWatchTowerNum": 5,
+      "SpawnCleanWatchTowerNum": 7,
+      "CleanWatchTowerActor": {
+        "AssetPathName": "/Game/Blueprints/Level/World/Interact/Prison/PrisonWork/TowerClean/BP_HTGraffitiCleanerStaticMesh.BP_HTGraffitiCleanerStaticMesh_C",
+        "SubPathString": ""
+      },
+      "AllCleanWatchTowerTime": 900.0,
+      "ExitCleanWatchTowerDes": {
+        "TableId": "/Game/Text/ST_WorldActor.ST_WorldActor",
+        "Key": "PrisonWork_TowerClean_Interact_Quit_SecConfirm",
+        "SourceString": "是否结束打扫工作？",
+        "LocalizedString": "是否结束打扫工作？"
+      },
+      "PrisonGameUIName": "PrisonGame",
+      "GraffitiCleanerActorInfo": [
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_02",
+            "SourceString": "地面污渍",
+            "LocalizedString": "地面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 228988.0,
+              "Y": 377204.0,
+              "Z": 4310.5
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 5.0,
+              "Z": 5.0
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_02",
+            "SourceString": "地面污渍",
+            "LocalizedString": "地面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 229081.6,
+              "Y": 377540.47,
+              "Z": 4310.5
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.5,
+              "Z": 1.5
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_02",
+            "SourceString": "地面污渍",
+            "LocalizedString": "地面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 228683.0,
+              "Y": 377610.0,
+              "Z": 4310.5
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 3.0,
+              "Z": 3.0
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_02",
+            "SourceString": "地面污渍",
+            "LocalizedString": "地面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": -0.0,
+              "Y": 0.0,
+              "Z": -0.573576,
+              "W": 0.819152,
+              "IsNormalized": true,
+              "Size": 0.9999997,
+              "SizeSquared": 0.9999994
+            },
+            "Translation": {
+              "X": 228835.61,
+              "Y": 376750.56,
+              "Z": 4310.5
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 3.0,
+              "Z": 3.0
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_02",
+            "SourceString": "地面污渍",
+            "LocalizedString": "地面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": -0.0,
+              "Y": 0.0,
+              "Z": -0.819152,
+              "W": 0.573576,
+              "IsNormalized": true,
+              "Size": 0.9999997,
+              "SizeSquared": 0.9999994
+            },
+            "Translation": {
+              "X": 228512.3,
+              "Y": 377153.6,
+              "Z": 4310.5
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 3.0,
+              "Z": 3.0
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_02",
+            "SourceString": "地面污渍",
+            "LocalizedString": "地面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 1.0,
+              "W": 0.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 227943.0,
+              "Y": 377582.0,
+              "Z": 4515.0
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 3.5,
+              "Z": 3.5
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_02",
+            "SourceString": "地面污渍",
+            "LocalizedString": "地面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.642788,
+              "W": 0.766044,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.9999999
+            },
+            "Translation": {
+              "X": 227907.0,
+              "Y": 377203.0,
+              "Z": 4515.0
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 4.0,
+              "Z": 4.0
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_01",
+            "SourceString": "墙面污渍",
+            "LocalizedString": "墙面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.707107,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.707107,
+              "IsNormalized": true,
+              "Size": 1.0000002,
+              "SizeSquared": 1.0000006
+            },
+            "Translation": {
+              "X": 227560.03,
+              "Y": 377434.6,
+              "Z": 4580.7373
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_01",
+            "SourceString": "墙面污渍",
+            "LocalizedString": "墙面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.5,
+              "Y": -0.5,
+              "Z": 0.5,
+              "W": 0.5,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 227628.61,
+              "Y": 377439.0,
+              "Z": 4768.7256
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.5,
+              "Z": 1.5
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_01",
+            "SourceString": "墙面污渍",
+            "LocalizedString": "墙面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.707107,
+              "Y": -0.0,
+              "Z": 0.707107,
+              "W": 0.0,
+              "IsNormalized": true,
+              "Size": 1.0000002,
+              "SizeSquared": 1.0000006
+            },
+            "Translation": {
+              "X": 227711.0,
+              "Y": 377540.0,
+              "Z": 4841.0
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.7,
+              "Z": 1.7
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_01",
+            "SourceString": "墙面污渍",
+            "LocalizedString": "墙面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.707107,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.707107,
+              "IsNormalized": true,
+              "Size": 1.0000002,
+              "SizeSquared": 1.0000006
+            },
+            "Translation": {
+              "X": 227805.0,
+              "Y": 377799.0,
+              "Z": 4687.0
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_01",
+            "SourceString": "墙面污渍",
+            "LocalizedString": "墙面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.707107,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.707107,
+              "IsNormalized": true,
+              "Size": 1.0000002,
+              "SizeSquared": 1.0000006
+            },
+            "Translation": {
+              "X": 228386.0,
+              "Y": 377799.0,
+              "Z": 4880.0
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.4,
+              "Z": 1.4
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_01",
+            "SourceString": "墙面污渍",
+            "LocalizedString": "墙面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.5,
+              "Y": -0.5,
+              "Z": 0.5,
+              "W": 0.5,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 228747.0,
+              "Y": 377799.0,
+              "Z": 4554.0
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 3.5,
+              "Z": 3.5
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_01",
+            "SourceString": "墙面污渍",
+            "LocalizedString": "墙面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.707107,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.707107,
+              "IsNormalized": true,
+              "Size": 1.0000002,
+              "SizeSquared": 1.0000006
+            },
+            "Translation": {
+              "X": 229133.0,
+              "Y": 377799.0,
+              "Z": 4528.0
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 2.5,
+              "Z": 2.5
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_01",
+            "SourceString": "墙面污渍",
+            "LocalizedString": "墙面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.707107,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.707107,
+              "IsNormalized": true,
+              "Size": 1.0000002,
+              "SizeSquared": 1.0000006
+            },
+            "Translation": {
+              "X": 228044.17,
+              "Y": 377798.72,
+              "Z": 4877.206
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.2,
+              "Z": 1.2
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_02",
+            "SourceString": "地面污渍",
+            "LocalizedString": "地面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 229160.0,
+              "Y": 376775.0,
+              "Z": 4310.0
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.7,
+              "Z": 1.7
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_02",
+            "SourceString": "地面污渍",
+            "LocalizedString": "地面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 228503.48,
+              "Y": 376713.5,
+              "Z": 4310.0
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.5,
+              "Z": 1.5
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_02",
+            "SourceString": "地面污渍",
+            "LocalizedString": "地面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 228454.52,
+              "Y": 376907.7,
+              "Z": 4310.0
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.5,
+              "Z": 1.5
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_01",
+            "SourceString": "墙面污渍",
+            "LocalizedString": "墙面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": -0.241845,
+              "Y": 0.664463,
+              "Z": -0.241845,
+              "W": 0.664463,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0000001
+            },
+            "Translation": {
+              "X": 228182.62,
+              "Y": 377034.12,
+              "Z": 4403.1104
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 1.2,
+              "Z": 1.2
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        },
+        {
+          "MaskChannel": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "FGraffitiCleanerActorName": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "UI_PrisonGame_CleanTower_Dirt_01",
+            "SourceString": "墙面污渍",
+            "LocalizedString": "墙面污渍"
+          },
+          "bIsDecal": true,
+          "GraffitiCleanerTransform": {
+            "Rotation": {
+              "X": 0.5,
+              "Y": 0.5,
+              "Z": -0.5,
+              "W": 0.5,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 228386.11,
+              "Y": 377799.47,
+              "Z": 4631.238
+            },
+            "Scale3D": {
+              "X": 0.2,
+              "Y": 2.0,
+              "Z": 2.0
+            }
+          },
+          "MaterialConfigList": [
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_01.MI_GraffiticDecal_01",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 1.0
+            },
+            {
+              "DecalMaterial": {
+                "AssetPathName": "/Game/Environment/Props/WaterGunCleaner/Materials/MI_GraffiticDecal_02.MI_GraffiticDecal_02",
+                "SubPathString": ""
+              },
+              "CleaningSpeed": 0.1
+            }
+          ]
+        }
+      ],
+      "CleanWatchTowerAwards": [
+        {
+          "ItemID": "fons",
+          "Amount": 1
+        }
+      ],
+      "WeaponPluginNameArr": [
+        "Nozzle01",
+        "Nozzle02",
+        "foam"
+      ],
+      "ChangeNozzleAkAudioEvent": {
+        "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_DL_Prison/Items_DL_Prison_WaterGun/Play_Sfx_Items_DL_Prison_WaterGun_Nozzle_Change.Play_Sfx_Items_DL_Prison_WaterGun_Nozzle_Change",
+        "SubPathString": ""
+      },
+      "RotateNozzleAkAudioEvent": {
+        "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_DL_Prison/Items_DL_Prison_WaterGun/Play_Sfx_Items_DL_Prison_WaterGun_Nozzle_TurnLeft.Play_Sfx_Items_DL_Prison_WaterGun_Nozzle_TurnLeft",
+        "SubPathString": ""
+      },
+      "CleanFinishAkAudioEvent": {
+        "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_DL_Prison/Items_DL_Prison_WaterGun/Play_Sfx_Items_DL_Prison_WaterGun_UI_Clear.Play_Sfx_Items_DL_Prison_WaterGun_UI_Clear",
+        "SubPathString": ""
+      },
+      "MaxWashDishesNum": 50,
+      "AllCleanWatchDishTime": 30.0,
+      "FemaleWashDishesGameplayEffectClass": {
+        "AssetPathName": "/Game/Blueprints/Abilities/Buff/Level/XSW/Buff_GA_Female_Prision_Wipe.Buff_GA_Female_Prision_Wipe_C",
+        "SubPathString": ""
+      },
+      "MaleWashDishesGameplayEffectClass": {
+        "AssetPathName": "/Game/Blueprints/Abilities/Buff/Level/XSW/Buff_GA_Female_Prision_Wipe.Buff_GA_Female_Prision_Wipe_C",
+        "SubPathString": ""
+      },
+      "PrisonDishActor": {
+        "AssetPathName": "/Game/Blueprints/Level/World/Interact/Prison/PrisonEscape/PrisonEscape01/BP_PrisonEscape01_plate.BP_PrisonEscape01_plate_C",
+        "SubPathString": ""
+      },
+      "SpawnDishActorTransforms": [
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.21643962,
+            "W": 0.976296,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 233003.58,
+            "Y": 372802.44,
+            "Z": 4502.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.76604444,
+            "W": 0.64278764,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 233051.64,
+            "Y": 372796.47,
+            "Z": 4502.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.57357645,
+            "W": -0.81915206,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 232968.55,
+            "Y": 372829.72,
+            "Z": 4502.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.64278764,
+            "W": 0.76604444,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 233040.28,
+            "Y": 372830.78,
+            "Z": 4502.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.6755902,
+            "W": 0.7372773,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 232956.19,
+            "Y": 372795.16,
+            "Z": 4502.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      ],
+      "SpawnDishActorNum": 3,
+      "DishSpawnOffsetZ": -20.0,
+      "DishRiseTime": 0.8,
+      "LeftStackConfigs": [
+        {
+          "StackLocation": {
+            "X": 233112.0,
+            "Y": 372800.0,
+            "Z": 4504.0
+          },
+          "FlightControlPoints": [
+            {
+              "X": -30.0,
+              "Y": 0.0,
+              "Z": 80.0
+            }
+          ],
+          "MaxDishCount": 10
+        },
+        {
+          "StackLocation": {
+            "X": 233112.0,
+            "Y": 372835.0,
+            "Z": 4504.0
+          },
+          "FlightControlPoints": [],
+          "MaxDishCount": 10
+        }
+      ],
+      "RightStackConfigs": [
+        {
+          "StackLocation": {
+            "X": 232893.0,
+            "Y": 372835.0,
+            "Z": 4504.0
+          },
+          "FlightControlPoints": [
+            {
+              "X": 30.0,
+              "Y": 0.0,
+              "Z": 80.0
+            }
+          ],
+          "MaxDishCount": 10
+        },
+        {
+          "StackLocation": {
+            "X": 232892.0,
+            "Y": 372800.0,
+            "Z": 4504.0
+          },
+          "FlightControlPoints": [],
+          "MaxDishCount": 10
+        }
+      ],
+      "DishFlyToStackTime": 0.8,
+      "ExitWashDishesDes": {
+        "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+        "Key": "Prison_Tips",
+        "SourceString": "现在退出清洗盘子的收益不会保留，确认要退出吗?",
+        "LocalizedString": "现在退出清洗盘子的收益不会保留，确认要退出吗?"
+      },
+      "CleanWatchDishesAwards": [
+        {
+          "ItemID": "fons",
+          "Amount": 1
+        }
+      ]
+    }
+  }
+]

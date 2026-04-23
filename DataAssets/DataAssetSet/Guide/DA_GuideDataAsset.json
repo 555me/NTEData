@@ -1,0 +1,912 @@
+[
+  {
+    "Type": "GuideQuestDataAsset",
+    "Name": "DA_GuideDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GuideQuestDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/Guide/DA_GuideDataAsset",
+    "Properties": {
+      "IgnoreUIClassArray": [
+        "Menu"
+      ],
+      "GuideInteriorDecorationDataTable": {
+        "ObjectName": "DataTable'DT_GuideInteriorDecorationDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Guide/GuideInteriorDecoration/DT_GuideInteriorDecorationDataTable.0"
+      },
+      "InteriorDecorationTypeToDescMap": [
+        {
+          "Key": "EGuideInteriorDecorationType::Unknown",
+          "Value": {
+            "TypeDescTextID": "",
+            "TypeDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::CollectFurniture",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_01",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_01",
+              "SourceString": "累计收藏{0}个家具",
+              "LocalizedString": "累计收藏{0}个家具"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::GetCollectionAward",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_02",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_02",
+              "SourceString": "累计领取{0}次收藏奖励",
+              "LocalizedString": "累计领取{0}次收藏奖励"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::LayoutFurniture",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_03",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_03",
+              "SourceString": "布置指定家具{0}{1}次",
+              "LocalizedString": "布置指定家具{0}{1}次"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::ActivatedTargetSpecialFurniture",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_04",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_04",
+              "SourceString": "激活异象家具{0}{1}次",
+              "LocalizedString": "激活异象家具{0}{1}次"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::ActivatedSpecialFurniture",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_05",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_05",
+              "SourceString": "累计激活{0}次异象家具",
+              "LocalizedString": "累计激活{0}次异象家具"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::UseSpecialFurniture",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_06",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_06",
+              "SourceString": "使用异象家具{0}{1}次",
+              "LocalizedString": "使用异象家具{0}{1}次"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::EnhanceSpecialFurniture",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_07",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_07",
+              "SourceString": "累计强化异象家具{0}次",
+              "LocalizedString": "累计强化异象家具{0}次"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::EnhanceSpecialFurnitureTo",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_08",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_08",
+              "SourceString": "累计将{0}个异象家具强化{1}次",
+              "LocalizedString": "累计将{0}个异象家具强化{1}次"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::GetQualityFurniture",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_09",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_09",
+              "SourceString": "累计获得{0}品质的家具{1}次",
+              "LocalizedString": "累计获得{0}品质的家具{1}次"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::LayoutFurnitureType",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_10",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_10",
+              "SourceString": "布置家具{0}{1}次",
+              "LocalizedString": "布置家具{0}{1}次"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::EnhanceTargetSpecialFurniture",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_11",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_11",
+              "SourceString": "家具{0}升级至{1}级",
+              "LocalizedString": "家具{0}升级至{1}级"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::UnlockRealEstate",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_12",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_12",
+              "SourceString": "解锁{0}套房产",
+              "LocalizedString": "解锁{0}套房产"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::InviteOtherCharacter",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_13",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_13",
+              "SourceString": "邀约过{0}名角色",
+              "LocalizedString": "邀约过{0}名角色"
+            }
+          }
+        },
+        {
+          "Key": "EGuideInteriorDecorationType::FurnitureMaxComfortValue",
+          "Value": {
+            "TypeDescTextID": "gudie_decoration_14",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "gudie_decoration_14",
+              "SourceString": "房屋舒适度达到{0}点",
+              "LocalizedString": "房屋舒适度达到{0}点"
+            }
+          }
+        }
+      ],
+      "FurnitureTypeToDescMap": [
+        {
+          "Key": "EFurnitureType::EHandmadeShelf",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_01",
+            "SourceString": "手办柜",
+            "LocalizedString": "手办柜"
+          }
+        },
+        {
+          "Key": "EFurnitureType::ERecordPlayer",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_02",
+            "SourceString": "唱片机",
+            "LocalizedString": "唱片机"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EEntertainment",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_03",
+            "SourceString": "家庭休闲类家具",
+            "LocalizedString": "家庭休闲类家具"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EFishTank",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_04",
+            "SourceString": "鱼缸",
+            "LocalizedString": "鱼缸"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EAll",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_05",
+            "SourceString": "任意家具",
+            "LocalizedString": "任意家具"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EFlowerPot",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_06",
+            "SourceString": "花瓶",
+            "LocalizedString": "花瓶"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EFlowerBasin",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_07",
+            "SourceString": "花盆",
+            "LocalizedString": "花盆"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EFlowerShelf",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_08",
+            "SourceString": "花架",
+            "LocalizedString": "花架"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EBook",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_09",
+            "SourceString": "书",
+            "LocalizedString": "书"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EDeskLamp",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_10",
+            "SourceString": "台灯",
+            "LocalizedString": "台灯"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EOrnament",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_11",
+            "SourceString": "摆件",
+            "LocalizedString": "摆件"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EBigHandmade",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_12",
+            "SourceString": "大型手办",
+            "LocalizedString": "大型手办"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EChair",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_13",
+            "SourceString": "椅子",
+            "LocalizedString": "椅子"
+          }
+        },
+        {
+          "Key": "EFurnitureType::ETeaTable",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_14",
+            "SourceString": "茶几",
+            "LocalizedString": "茶几"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EPotting",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_15",
+            "SourceString": "盆栽",
+            "LocalizedString": "盆栽"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EPicture",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_18",
+            "SourceString": "画",
+            "LocalizedString": "画"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EBed",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_19",
+            "SourceString": "床",
+            "LocalizedString": "床"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EPingFeng",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_20",
+            "SourceString": "屏风",
+            "LocalizedString": "屏风"
+          }
+        },
+        {
+          "Key": "EFurnitureType::ESwimmingEquipment",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_21",
+            "SourceString": "游泳道具",
+            "LocalizedString": "游泳道具"
+          }
+        },
+        {
+          "Key": "EFurnitureType::ECrafts",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_22",
+            "SourceString": "工艺品",
+            "LocalizedString": "工艺品"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EInstrument",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_23",
+            "SourceString": "乐器",
+            "LocalizedString": "乐器"
+          }
+        },
+        {
+          "Key": "EFurnitureType::ECarpet",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_24",
+            "SourceString": "地毯",
+            "LocalizedString": "地毯"
+          }
+        },
+        {
+          "Key": "EFurnitureType::ESingleSofa",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_25",
+            "SourceString": "沙发",
+            "LocalizedString": "沙发"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EPoster",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_26",
+            "SourceString": "海报",
+            "LocalizedString": "海报"
+          }
+        },
+        {
+          "Key": "EFurnitureType::EWallDecoration",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_27",
+            "SourceString": "墙饰",
+            "LocalizedString": "墙饰"
+          }
+        },
+        {
+          "Key": "EFurnitureType::ESticker",
+          "Value": {
+            "TableId": "/Game/Text/ST_Guide.ST_Guide",
+            "Key": "furniture_type_28",
+            "SourceString": "贴纸",
+            "LocalizedString": "贴纸"
+          }
+        }
+      ],
+      "SpecialFurnitureTypeToDescMap": [
+        {
+          "Key": "ESpecialFurnitureType::Owl",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0001_name_1",
+            "SourceString": "咕咕警报",
+            "LocalizedString": "咕咕警报"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::Telephone",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0002_name_1",
+            "SourceString": "无人来电",
+            "LocalizedString": "无人来电"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::Mamon",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0003_name_1",
+            "SourceString": "玛门",
+            "LocalizedString": "玛门"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::Cheekpouch",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0004_name_1",
+            "SourceString": "仓鼠球",
+            "LocalizedString": "仓鼠球"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::Butler",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0005_name_1",
+            "SourceString": "银边管家",
+            "LocalizedString": "银边管家"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::Mailbox",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0006_name_1",
+            "SourceString": "老旧邮箱",
+            "LocalizedString": "老旧邮箱"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::BrokenBox",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0007_name_1",
+            "SourceString": "破损的木箱",
+            "LocalizedString": "破损的木箱"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::Helmet",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0010_name_1",
+            "SourceString": "压缩嘭嘭朵",
+            "LocalizedString": "压缩嘭嘭朵"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::DreamWeaver",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0008_name_1",
+            "SourceString": "何人的头盔",
+            "LocalizedString": "何人的头盔"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::BangBangFlower",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0009_name_1",
+            "SourceString": "织梦结",
+            "LocalizedString": "织梦结"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::DemonBlade",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0011_name_1",
+            "SourceString": "无名刃",
+            "LocalizedString": "无名刃"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::Knuckles",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0012_name_1",
+            "SourceString": "休憩的拳王",
+            "LocalizedString": "休憩的拳王"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::EmptyArmor",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0013_name_1",
+            "SourceString": "空铠甲",
+            "LocalizedString": "空铠甲"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::GhostCar",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0014_name_1",
+            "SourceString": "仿制幽灵车",
+            "LocalizedString": "仿制幽灵车"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::Skateboard",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0015_name_1",
+            "SourceString": "旧滑板",
+            "LocalizedString": "旧滑板"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::PaperPlane",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0016_name_1",
+            "SourceString": "纸飞机",
+            "LocalizedString": "纸飞机"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::KoiFlagPainting",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0017_name_1",
+            "SourceString": "双鱼旗",
+            "LocalizedString": "双鱼旗"
+          }
+        },
+        {
+          "Key": "ESpecialFurnitureType::RepairRobot",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+            "Key": "SF_0018_name_1",
+            "SourceString": "修车工",
+            "LocalizedString": "修车工"
+          }
+        }
+      ],
+      "GuideStoreBrandDataTable": {
+        "ObjectName": "DataTable'DT_GuideStoreBrandDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Guide/StoreBrand/DT_GuideStoreBrandDataTable.0"
+      },
+      "StoreBrandTypeToDescMap": [
+        {
+          "Key": "EGuideStoreBrandType::Unknown",
+          "Value": {
+            "TypeDescTextID": "",
+            "TypeDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::EquipFood",
+          "Value": {
+            "TypeDescTextID": "guide_store_01",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_01",
+              "SourceString": "一咖舍经营上阵{0}个菜品",
+              "LocalizedString": "一咖舍经营上阵{0}个菜品"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::EquipEmployee",
+          "Value": {
+            "TypeDescTextID": "guide_store_02",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_02",
+              "SourceString": "一咖舍经营上阵{0}个雇员",
+              "LocalizedString": "一咖舍经营上阵{0}个雇员"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::GetAward",
+          "Value": {
+            "TypeDescTextID": "guide_store_03",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_03",
+              "SourceString": "一咖舍经营收取{0}次奖励",
+              "LocalizedString": "一咖舍经营收取{0}次奖励"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::Replenishment",
+          "Value": {
+            "TypeDescTextID": "guide_store_04",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_04",
+              "SourceString": "一咖舍经营进行补货{0}次（一键补货无效）",
+              "LocalizedString": "一咖舍经营进行补货{0}次（一键补货无效）"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::UpgradeEmployeeSkill",
+          "Value": {
+            "TypeDescTextID": "guide_store_05",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_05",
+              "SourceString": "升级{0}次经营相关的城市异能",
+              "LocalizedString": "升级{0}次经营相关的城市异能"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::UpgradeFoodLevel",
+          "Value": {
+            "TypeDescTextID": "guide_store_06",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_06",
+              "SourceString": "升级{0}次菜品等级",
+              "LocalizedString": "升级{0}次菜品等级"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::UpgradeStoreLevel",
+          "Value": {
+            "TypeDescTextID": "guide_store_07",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_07",
+              "SourceString": "升级{0}次店铺等级",
+              "LocalizedString": "升级{0}次店铺等级"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::GrandTotalMoney",
+          "Value": {
+            "TypeDescTextID": "guide_store_08",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_08",
+              "SourceString": "一咖舍经营累计赚取{0}方斯",
+              "LocalizedString": "一咖舍经营累计赚取{0}方斯"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::OpenNewStore",
+          "Value": {
+            "TypeDescTextID": "guide_store_09",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_09",
+              "SourceString": "解锁{0}家一咖舍",
+              "LocalizedString": "解锁{0}家一咖舍"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::ChangeTablesOrChair",
+          "Value": {
+            "TypeDescTextID": "guide_store_10",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_10",
+              "SourceString": "更换{0}次桌椅",
+              "LocalizedString": "更换{0}次桌椅"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::LayoutOrnaments",
+          "Value": {
+            "TypeDescTextID": "guide_store_11",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_11",
+              "SourceString": "更换{0}个摆件",
+              "LocalizedString": "更换{0}个摆件"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::LayoutMural",
+          "Value": {
+            "TypeDescTextID": "guide_store_12",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_12",
+              "SourceString": "更换{0}个壁画",
+              "LocalizedString": "更换{0}个壁画"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::UnlockFood",
+          "Value": {
+            "TypeDescTextID": "guide_store_14",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_14",
+              "SourceString": "解锁{0}个菜品",
+              "LocalizedString": "解锁{0}个菜品"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::RoleStoreSkillComes",
+          "Value": {
+            "TypeDescTextID": "guide_store_15",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_15",
+              "SourceString": "{0}个经营相关的城市异能到达{1}级",
+              "LocalizedString": "{0}个经营相关的城市异能到达{1}级"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::FoodLevelComes",
+          "Value": {
+            "TypeDescTextID": "guide_store_16",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_16",
+              "SourceString": "{0}个菜品等级到达{1}级",
+              "LocalizedString": "{0}个菜品等级到达{1}级"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::StoreLevelComes",
+          "Value": {
+            "TypeDescTextID": "guide_store_17",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_17",
+              "SourceString": "{0}个店铺等级到达{1}级",
+              "LocalizedString": "{0}个店铺等级到达{1}级"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::StoreBrandOnlinePassage",
+          "Value": {
+            "TypeDescTextID": "guide_store_18",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_18",
+              "SourceString": "店长特供玩法通关{0}次",
+              "LocalizedString": "店长特供玩法通关{0}次"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::StoreBrandOnlinePassageWithFullCombo",
+          "Value": {
+            "TypeDescTextID": "guide_store_19",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_19",
+              "SourceString": "店长特供玩法达成营业额并全连击通关{0}次",
+              "LocalizedString": "店长特供玩法达成营业额并全连击通关{0}次"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::SingleStoreBrandOnlineHighestMoney",
+          "Value": {
+            "TypeDescTextID": "guide_store_20",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_20",
+              "SourceString": "单次店长特供玩法最高收益到达{0}方斯",
+              "LocalizedString": "单次店长特供玩法最高收益到达{0}方斯"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::StoreBrandOnlineGrandTotalStar",
+          "Value": {
+            "TypeDescTextID": "guide_store_21",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_21",
+              "SourceString": "店长特供玩法累计获得{0}个星星",
+              "LocalizedString": "店长特供玩法累计获得{0}个星星"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::GrandTotalConsumeStamina",
+          "Value": {
+            "TypeDescTextID": "guide_store_22",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_22",
+              "SourceString": "店长特供玩法累计消耗{0}点都市活力",
+              "LocalizedString": "店长特供玩法累计消耗{0}点都市活力"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::EquipEmployeePassage",
+          "Value": {
+            "TypeDescTextID": "guide_store_23",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_23",
+              "SourceString": "店长特供玩法上阵雇员通关{0}次",
+              "LocalizedString": "店长特供玩法上阵雇员通关{0}次"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::OfflineStoreBrandItemID",
+          "Value": {
+            "TypeDescTextID": "guide_store_24",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_24",
+              "SourceString": "解锁菜品{0}",
+              "LocalizedString": "解锁菜品{0}"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::GreengrocerCount",
+          "Value": {
+            "TypeDescTextID": "guide_store_25",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_25",
+              "SourceString": "菜品{0}累计售卖{1}份",
+              "LocalizedString": "菜品{0}累计售卖{1}份"
+            }
+          }
+        },
+        {
+          "Key": "EGuideStoreBrandType::ReqLevelGreengrocerCount",
+          "Value": {
+            "TypeDescTextID": "guide_store_26",
+            "TypeDesc": {
+              "TableId": "/Game/Text/ST_Guide.ST_Guide",
+              "Key": "guide_store_26",
+              "SourceString": "等级{1}的菜品{0}累计售卖{2}份",
+              "LocalizedString": "等级{1}的菜品{0}累计售卖{2}份"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

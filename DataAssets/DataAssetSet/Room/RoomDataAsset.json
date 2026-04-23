@@ -1,0 +1,659 @@
+[
+  {
+    "Type": "HTRoomDataAsset",
+    "Name": "RoomDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTRoomDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/Room/RoomDataAsset",
+    "Properties": {
+      "DT_RoomDiyConfigData": {
+        "ObjectName": "DataTable'DT_RoomDiyData'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Room/DT_RoomDiyData.0"
+      },
+      "DT_FrunitureLoadData": {
+        "ObjectName": "DataTable'DT_RoomFurnitureLoad'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Room/DT_RoomFurnitureLoad.0"
+      },
+      "DT_MotionData": {
+        "ObjectName": "DataTable'DT_CharacterMotionData'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Room/DT_CharacterMotionData.0"
+      },
+      "DT_RoomFurnitureTransform": {
+        "ObjectName": "DataTable'DT_RoomFurnitureTransform'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Room/DT_RoomFurnitureTransform.0"
+      },
+      "DT_RandomGiftItemConfig": {
+        "ObjectName": "DataTable'DT_RandomGiftItem'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Room/DT_RandomGiftItem.0"
+      },
+      "FurniteurBuffValueDataTable": {
+        "ObjectName": "CurveTable'DT_GlobalFurnitrueData'",
+        "ObjectPath": "/Game/DataTable/Skill/GlobalCharacterData/DT_GlobalFurnitrueData.0"
+      },
+      "DT_SpecialFurnitureData": {
+        "ObjectName": "DataTable'DT_SpecialFurniture'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Room/DT_SpecialFurniture.0"
+      },
+      "MiniMapIconName": "furniture",
+      "MiniMapIconNameInvite": "furniture",
+      "BirthdayGiftID": "drop_steal_Food_chocolate",
+      "SmartObjectOffsetConfigs": [
+        {
+          "CharacterID": "1051",
+          "LocationOffset": {
+            "X": 5.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1046",
+          "LocationOffset": {
+            "X": 8.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1019",
+          "LocationOffset": {
+            "X": 5.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1003",
+          "LocationOffset": {
+            "X": 8.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1010",
+          "LocationOffset": {
+            "X": 10.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1033",
+          "LocationOffset": {
+            "X": 5.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1004",
+          "LocationOffset": {
+            "X": 12.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1039",
+          "LocationOffset": {
+            "X": 7.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1008",
+          "LocationOffset": {
+            "X": 3.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1023",
+          "LocationOffset": {
+            "X": 12.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1025",
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1052",
+          "LocationOffset": {
+            "X": 5.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1054",
+          "LocationOffset": {
+            "X": 3.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1021",
+          "LocationOffset": {
+            "X": 10.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1020",
+          "LocationOffset": {
+            "X": 9.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1055",
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1073",
+          "LocationOffset": {
+            "X": 3.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "CloneID": "DLC_dynamic_Boss017",
+      "FurnitureCacheMap": [
+        {
+          "Key": "SF_0001",
+          "Value": {
+            "FurntiureID": "SF_0001"
+          }
+        },
+        {
+          "Key": "SF_0002",
+          "Value": {
+            "FurntiureID": "SF_0002"
+          }
+        },
+        {
+          "Key": "SF_0003",
+          "Value": {
+            "FurntiureID": "SF_0003"
+          }
+        },
+        {
+          "Key": "SF_0004",
+          "Value": {
+            "FurntiureID": "SF_0004"
+          }
+        },
+        {
+          "Key": "SF_0005",
+          "Value": {
+            "FurntiureID": "SF_0005"
+          }
+        },
+        {
+          "Key": "SF_0006",
+          "Value": {
+            "FurntiureID": "SF_0006"
+          }
+        },
+        {
+          "Key": "SF_0007",
+          "Value": {
+            "FurntiureID": "SF_0007"
+          }
+        },
+        {
+          "Key": "SF_0008",
+          "Value": {
+            "FurntiureID": "SF_0008"
+          }
+        },
+        {
+          "Key": "SF_0009",
+          "Value": {
+            "FurntiureID": "SF_0009"
+          }
+        },
+        {
+          "Key": "SF_0010",
+          "Value": {
+            "FurntiureID": "SF_0010"
+          }
+        },
+        {
+          "Key": "SF_0011",
+          "Value": {
+            "FurntiureID": "SF_0011"
+          }
+        },
+        {
+          "Key": "SF_0012",
+          "Value": {
+            "FurntiureID": "SF_0012"
+          }
+        },
+        {
+          "Key": "SF_0013",
+          "Value": {
+            "FurntiureID": "SF_0013"
+          }
+        },
+        {
+          "Key": "SF_0014",
+          "Value": {
+            "FurntiureID": "SF_0014"
+          }
+        },
+        {
+          "Key": "SF_0015",
+          "Value": {
+            "FurntiureID": "SF_0015"
+          }
+        },
+        {
+          "Key": "SF_0016",
+          "Value": {
+            "FurntiureID": "SF_0016"
+          }
+        },
+        {
+          "Key": "SF_0017",
+          "Value": {
+            "FurntiureID": "SF_0017"
+          }
+        },
+        {
+          "Key": "SF_0018",
+          "Value": {
+            "FurntiureID": "SF_0018"
+          }
+        }
+      ],
+      "HideSkillGameplayEffect": {
+        "AssetPathName": "/Game/Blueprints/Abilities/Buff/Level/WT/Buff_HideSkill_WY_001.Buff_HideSkill_WY_001_C",
+        "SubPathString": ""
+      },
+      "Level_High": 20000,
+      "HandsHoldingIDs": [
+        {
+          "Key": "1010",
+          "Value": "nanali_jh_0002"
+        },
+        {
+          "Key": "1019",
+          "Value": "bohe_jh_0005"
+        },
+        {
+          "Key": "1055",
+          "Value": "jiuyuan_jh_0002"
+        },
+        {
+          "Key": "1039",
+          "Value": "fadiya_jh_0002"
+        },
+        {
+          "Key": "1073",
+          "Value": "xiaozhi_jh_0003"
+        }
+      ],
+      "HandsHoldingSummonDistance": 3000.0,
+      "DailyGiftRefreshProbability": 1.0,
+      "DailyGiftLifeTime": 60,
+      "DailyGiftRefreshTimePeriods": [
+        {
+          "StartHour": 8,
+          "StartMinute": 0,
+          "EndHour": 8,
+          "EndMinute": 59
+        },
+        {
+          "StartHour": 12,
+          "StartMinute": 0,
+          "EndHour": 12,
+          "EndMinute": 59
+        },
+        {
+          "StartHour": 18,
+          "StartMinute": 0,
+          "EndHour": 18,
+          "EndMinute": 59
+        }
+      ],
+      "DailyGiftRefreshTransforms": [
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.9396926,
+            "W": 0.34202015,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -117447.28,
+            "Y": 173155.67,
+            "Z": 11647.853
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9396926,
+            "W": -0.34202012,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": -117347.38,
+            "Y": 172734.95,
+            "Z": 11634.799
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.9848077,
+            "W": 0.1736482,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": -117190.06,
+            "Y": 172001.27,
+            "Z": 11530.066
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.34202015,
+            "W": 0.9396926,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -173810.12,
+            "Y": 119245.77,
+            "Z": 10804.221
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.17364818,
+            "W": 0.9848077,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": -174038.31,
+            "Y": 119362.41,
+            "Z": 10804.221
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.17364818,
+            "W": 0.9848077,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": -172992.53,
+            "Y": 118515.664,
+            "Z": 10825.88
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.6427876,
+            "W": 0.76604444,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": -104595.73,
+            "Y": 121694.87,
+            "Z": 14071.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.087155744,
+            "W": 0.9961947,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -104645.62,
+            "Y": 121422.12,
+            "Z": 14071.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.57357645,
+            "W": 0.81915206,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -104596.28,
+            "Y": 123262.06,
+            "Z": 13964.398
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.76604444,
+            "W": 0.64278764,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 5810.0703,
+            "Y": 35610.68,
+            "Z": 20590.922
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.9961947,
+            "W": 0.08715575,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 5462.181,
+            "Y": 36010.535,
+            "Z": 20597.844
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.76604444,
+            "W": 0.64278764,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 5268.573,
+            "Y": 37562.32,
+            "Z": 20520.771
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -25008.346,
+            "Y": 99477.52,
+            "Z": 17493.533
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -24803.62,
+            "Y": 99874.266,
+            "Z": 17488.492
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.9961947,
+            "W": 0.08715575,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -24009.379,
+            "Y": 99524.86,
+            "Z": 17472.73
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      ],
+      "LoadPolicy": "EHTDataAssetSetLoadPolicy::Cache"
+    }
+  }
+]

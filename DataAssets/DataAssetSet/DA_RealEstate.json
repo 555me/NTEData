@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "RealEstateDataAsset",
+    "Name": "DA_RealEstate",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'RealEstateDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/DA_RealEstate",
+    "Properties": {
+      "RealEstateDataTable": {
+        "ObjectName": "DataTable'DT_RealEstate'",
+        "ObjectPath": "/Game/DataTable/RealEstate/DT_RealEstate.0"
+      },
+      "RealEstateBuildingTypeDataTable": {
+        "ObjectName": "DataTable'DT_RealEstateBuildingType'",
+        "ObjectPath": "/Game/DataTable/RealEstate/DT_RealEstateBuildingType.0"
+      },
+      "RealEstateDataMap": [
+        {
+          "Key": "Comfort",
+          "Value": {
+            "ObjectName": "DataTable'DT_FurnitureComfortDataTable'",
+            "ObjectPath": "/Game/DataTable/RealEstate/DT_FurnitureComfortDataTable.0"
+          }
+        },
+        {
+          "Key": "Fortune",
+          "Value": {
+            "ObjectName": "DataTable'DT_FurnitureFortuneDataTable'",
+            "ObjectPath": "/Game/DataTable/RealEstate/DT_FurnitureFortuneDataTable.0"
+          }
+        },
+        {
+          "Key": "Love",
+          "Value": {
+            "ObjectName": "DataTable'DT_FurnitureLoveDataTable'",
+            "ObjectPath": "/Game/DataTable/RealEstate/DT_FurnitureLoveDataTable.0"
+          }
+        }
+      ],
+      "RealEstateAttributeCollectDataTable": {
+        "ObjectName": "DataTable'DT_FurnitureCollectDataTable'",
+        "ObjectPath": "/Game/DataTable/RealEstate/DT_FurnitureCollectDataTable.0"
+      },
+      "FurnitureAttributeDataTable": {
+        "ObjectName": "DataTable'DT_FurnitureAttributeDataTable'",
+        "ObjectPath": "/Game/DataTable/RealEstate/DT_FurnitureAttributeDataTable.0"
+      },
+      "BuyRealEstateMapIconID": "Shop_Core_0",
+      "BuyRealEstateFixedIconID": "Leon_01_01",
+      "FortuneTotalMax": 1000,
+      "ComfortTotalMax": 1000,
+      "LoveTotalMax": 1000,
+      "CollectTotalMax": 22070,
+      "AttributeIconMap": [
+        {
+          "Key": "Comfort",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/house/FurnitureList/UI_YH_Home_AxIcon_128.UI_YH_Home_AxIcon_128",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "Fortune",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/house/FurnitureList/UI_YH_Home_YsIcon_128.UI_YH_Home_YsIcon_128",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "Love",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/house/FurnitureList/UI_YH_Home_SsIcon_128.UI_YH_Home_SsIcon_128",
+            "SubPathString": ""
+          }
+        }
+      ]
+    }
+  }
+]

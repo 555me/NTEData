@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TaxiGameplayGuestPointRandomRange",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayGuestPointRandomRange",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TaxiGameplayRandomPointBase'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "800_1000": {
+        "RadiusRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 80000
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 100000
+          }
+        },
+        "Prop": 30
+      },
+      "400_800": {
+        "RadiusRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 40000
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 80000
+          }
+        },
+        "Prop": 80
+      },
+      "200_400": {
+        "RadiusRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 20000
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 40000
+          }
+        },
+        "Prop": 10
+      }
+    }
+  }
+]

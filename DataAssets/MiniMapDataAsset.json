@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "MiniMapDataAsset",
+    "Name": "MiniMapDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MiniMapDataAsset'",
+    "Package": "/Game/DataAssets/MiniMapDataAsset",
+    "Properties": {
+      "LevelMiniMapDataTable": {
+        "ObjectName": "DataTable'DT_LevelMiniMap'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_LevelMiniMap.0"
+      },
+      "MiniMapLevelFogBlockDataTable": {
+        "ObjectName": "DataTable'DT_MiniMapFogBlock'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapFogBlock.0"
+      },
+      "MiniMapIconDataTable": {
+        "ObjectName": "DataTable'DT_MiniMapIcon'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapIcon.0"
+      },
+      "MiniMapIconSearchTypeDataTable": {
+        "ObjectName": "DataTable'DT_MapIconSearchType'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_MapIconSearchType.0"
+      },
+      "MiniMapFixedIconsDataTable": {
+        "ObjectName": "DataTable'DT_MiniMapFixedIcons'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapFixedIcons.0"
+      },
+      "MiniMapIconDetailsFuncDataTable": {
+        "ObjectName": "DataTable'DT_MiniMapIconDetailsFunc'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapIconDetailsFunc.0"
+      },
+      "MiniMapCustomIconDataTable": {
+        "ObjectName": "DataTable'DT_MiniMapCustomIcon'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapCustomIcon.0"
+      },
+      "BigMapGuideDataTable": {
+        "ObjectName": "DataTable'DT_BigMapGuide'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_BigMapGuide.0"
+      },
+      "TreasureboxIconID": "Explore_TreasureBox",
+      "TraceAreaDataTable": {
+        "ObjectName": "DataTable'DT_TraceVolumeData'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_TraceVolumeData.0"
+      },
+      "QuestFixMapIconDataTable": {
+        "ObjectName": "DataTable'DT_QuestFixedMapIconData'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData.0"
+      },
+      "IconUpperHeight": 400.0,
+      "IconLowerHeight": 400.0,
+      "IconHeightDirectIconID": "Height",
+      "DrivingStateMiniMapZoomValueSpeedRange": [
+        {
+          "SpeedRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 60.0
+            }
+          },
+          "ZoomValue": 2.0
+        },
+        {
+          "SpeedRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 60.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 1000.0
+            }
+          },
+          "ZoomValue": 2.5
+        }
+      ],
+      "WhiteTextureAsset": {
+        "AssetPathName": "/Game/UI/UI/common/White1x1.White1x1",
+        "SubPathString": ""
+      },
+      "MiniMapNavigationPathLineDataTable": {
+        "ObjectName": "DataTable'DT_MiniMapNavigationPathLine'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapNavigationPathLine.0"
+      }
+    }
+  }
+]

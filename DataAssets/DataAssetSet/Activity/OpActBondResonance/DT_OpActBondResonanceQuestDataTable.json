@@ -1,0 +1,1655 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OpActBondResonanceQuestDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/Activity/OpActBondResonance/DT_OpActBondResonanceQuestDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SimpleQuestStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "OpActBond_dailyquest02": {
+        "QuestId": "OpActBond_dailyquest02",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_dailyquest02",
+          "SourceString": "使用同行角色完成1次「兔子洞」",
+          "LocalizedString": "使用同行角色完成1次「兔子洞」"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "CloneIDArray": [],
+          "CloneType": "ECloneType::AirCurtain_Clone",
+          "CloneDifficultyLevel": 0,
+          "ObjectiveType": "ESimpleQuestObjType::CloneCompleted",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_30",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "EquipmentCloneEnter_001_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_dailyquest03": {
+        "QuestId": "OpActBond_dailyquest03",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_dailyquest03",
+          "SourceString": "赠送同行角色礼物1次",
+          "LocalizedString": "赠送同行角色礼物1次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::SendGift",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_30",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "likeability_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_dailyquest04": {
+        "QuestId": "OpActBond_dailyquest04",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_dailyquest04",
+          "SourceString": "使用同行角色前往「纳库佩达之池」许愿1次",
+          "LocalizedString": "使用同行角色前往「纳库佩达之池」许愿1次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::BlessInPromisePool",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_10",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "FrokPiece_Nakupeda",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_dailyquest05": {
+        "QuestId": "OpActBond_dailyquest05",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_dailyquest05",
+          "SourceString": "使用同行角色前往「魔女之家」占卜1次",
+          "LocalizedString": "使用同行角色前往「魔女之家」占卜1次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "DivinationLevel": 0,
+          "ObjectiveType": "ESimpleQuestObjType::DivinationHouseDivination",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_20",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "DivinationHouse_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_dailyquest06": {
+        "QuestId": "OpActBond_dailyquest06",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_dailyquest06",
+          "SourceString": "为同行角色拍照1次",
+          "LocalizedString": "为同行角色拍照1次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::TakePicture",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_20",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_dailyquest07": {
+        "QuestId": "OpActBond_dailyquest07",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_dailyquest07",
+          "SourceString": "每日登录1次",
+          "LocalizedString": "每日登录1次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::DailySign",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_20",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_dailyquest08": {
+        "QuestId": "OpActBond_dailyquest08",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_dailyquest08",
+          "SourceString": "领取1次「一咖舍」的营业收益",
+          "LocalizedString": "领取1次「一咖舍」的营业收益"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::StoreBrandIncomeCount",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_20",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Store_1001_map_200",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_dailyquest09": {
+        "QuestId": "OpActBond_dailyquest09",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_dailyquest09",
+          "SourceString": "累计使用同行角色击败8个敌人",
+          "LocalizedString": "累计使用同行角色击败8个敌人"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 8
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_30",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest01": {
+        "QuestId": "OpActBond_quest01",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest01",
+          "SourceString": "使用同行角色完成1次「异象巡礼」",
+          "LocalizedString": "使用同行角色完成1次「异象巡礼」"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CloneIDArray": [],
+          "CloneType": "ECloneType::Weekly_Clone",
+          "CloneDifficultyLevel": 0,
+          "ObjectiveType": "ESimpleQuestObjType::CloneCompleted",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_100",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "adventure_WeekClone_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest02": {
+        "QuestId": "OpActBond_quest02",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest02",
+          "SourceString": "使用同行角色完成3次「异象巡礼」",
+          "LocalizedString": "使用同行角色完成3次「异象巡礼」"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CloneIDArray": [],
+          "CloneType": "ECloneType::Weekly_Clone",
+          "CloneDifficultyLevel": 0,
+          "ObjectiveType": "ESimpleQuestObjType::CloneCompleted",
+          "Amount": 3
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_150",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "adventure_WeekClone_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest03": {
+        "QuestId": "OpActBond_quest03",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest03",
+          "SourceString": "使用同行角色完成1次「粉爪大劫案」并成功撤离",
+          "LocalizedString": "使用同行角色完成1次「粉爪大劫案」并成功撤离"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::RobBankSettleCnt",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_100",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "fenzhua_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest04": {
+        "QuestId": "OpActBond_quest04",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest04",
+          "SourceString": "使用同行角色完成3次「粉爪大劫案」并成功撤离",
+          "LocalizedString": "使用同行角色完成3次「粉爪大劫案」并成功撤离"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::RobBankSettleCnt",
+          "Amount": 3
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_150",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "fenzhua_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest05": {
+        "QuestId": "OpActBond_quest05",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest05",
+          "SourceString": "使用同行角色前往「治安所」上交1次失物",
+          "LocalizedString": "使用同行角色前往「治安所」上交1次失物"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::PoliceStationSubmitItem",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_100",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest06": {
+        "QuestId": "OpActBond_quest06",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest06",
+          "SourceString": "使用同行角色前往「治安所」上交3次失物",
+          "LocalizedString": "使用同行角色前往「治安所」上交3次失物"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::PoliceStationSubmitItem",
+          "Amount": 3
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_150",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest07": {
+        "QuestId": "OpActBond_quest07",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest07",
+          "SourceString": "累计赠送同行角色礼物3次",
+          "LocalizedString": "累计赠送同行角色礼物3次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::SendGift",
+          "Amount": 3
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_100",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "likeability_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest08": {
+        "QuestId": "OpActBond_quest08",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest08",
+          "SourceString": "累计赠送同行角色礼物6次",
+          "LocalizedString": "累计赠送同行角色礼物6次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::SendGift",
+          "Amount": 6
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_150",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "likeability_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest09": {
+        "QuestId": "OpActBond_quest09",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest09",
+          "SourceString": "累计赠送同行角色礼物10次",
+          "LocalizedString": "累计赠送同行角色礼物10次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::SendGift",
+          "Amount": 10
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_200",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "likeability_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest10": {
+        "QuestId": "OpActBond_quest10",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest10",
+          "SourceString": "累计使用同行角色击败20个敌人",
+          "LocalizedString": "累计使用同行角色击败20个敌人"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 20
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_100",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest11": {
+        "QuestId": "OpActBond_quest11",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest11",
+          "SourceString": "累计使用同行角色击败50个敌人",
+          "LocalizedString": "累计使用同行角色击败50个敌人"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 50
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_150",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest12": {
+        "QuestId": "OpActBond_quest12",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest12",
+          "SourceString": "累计使用同行角色击败100个敌人",
+          "LocalizedString": "累计使用同行角色击败100个敌人"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 100
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_200",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest13": {
+        "QuestId": "OpActBond_quest13",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest13",
+          "SourceString": "使用同行角色完成1次「异象追猎」",
+          "LocalizedString": "使用同行角色完成1次「异象追猎」"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": true,
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_100",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest14": {
+        "QuestId": "OpActBond_quest14",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest14",
+          "SourceString": "使用同行角色完成3次「异象追猎」",
+          "LocalizedString": "使用同行角色完成3次「异象追猎」"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": true,
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 3
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_150",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "OpActBond_quest15": {
+        "QuestId": "OpActBond_quest15",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "OpActBond_quest15",
+          "SourceString": "使用同行角色处理1次城市违规行径",
+          "LocalizedString": "使用同行角色处理1次城市违规行径"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_BondResonance",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::FinishedCityEvent",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Actbond_exp_100",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      }
+    }
+  }
+]

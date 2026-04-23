@@ -1476,7 +1476,7 @@
                     "Y": 0.0
                   },
                   "ResponseTime": 1.0,
-                  "WidgetID": "CharacterSlot2",
+                  "WidgetID": "Btn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "guide20001_touch",
@@ -1488,7 +1488,7 @@
                   },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "CharacterSlot2"
+                    "Btn"
                   ],
                   "GuardTime": 8.0,
                   "CustomKey": {
@@ -1632,7 +1632,7 @@
                     "Y": 0.0
                   },
                   "ResponseTime": 0.0,
-                  "WidgetID": "CharacterSlot1",
+                  "WidgetID": "Btn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "guide20001_touch",
@@ -1644,7 +1644,7 @@
                   },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "CharacterSlot1"
+                    "Btn"
                   ],
                   "GuardTime": 8.0,
                   "CustomKey": {
@@ -8371,9 +8371,9 @@
               "WidgetID": "WB_CharacterAbilityButton_city",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide10020012_6g",
-                "SourceString": "<img id=\"LJS_Right\"/>选择此角色的<Yellow>都市特技</>",
-                "LocalizedString": "<img id=\"LJS_Right\"/>选择此角色的<Yellow>都市特技</>"
+                "Key": "Guide10020012_6",
+                "SourceString": "按下选择此角色的<Yellow>都市特技</>",
+                "LocalizedString": "按下选择此角色的<Yellow>都市特技</>"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -8386,7 +8386,7 @@
               "CustomKey": {
                 "KeyName": "Gamepad_FaceButton_Bottom"
               },
-              "bUseFastNextStep": false,
+              "bUseFastNextStep": true,
               "bEnableKeyIcon": true,
               "ExWidgetID": "None",
               "IgnoreListViewStep": false
@@ -20072,7 +20072,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "WidgetID": "WidgetSwitcherQuestList",
+                  "WidgetID": "Guide_QuestIntro",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "Guide10035_2",
@@ -20084,7 +20084,7 @@
                   },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "WidgetSwitcherQuestList"
+                    "Guide_QuestIntro"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
@@ -20226,7 +20226,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "WidgetID": "WidgetSwitcherQuestList",
+                  "WidgetID": "Guide_QuestIntro",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "Guide10035_2",
@@ -20238,7 +20238,7 @@
                   },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "WidgetSwitcherQuestList"
+                    "Guide_QuestIntro"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
@@ -23133,14 +23133,23 @@
                   "WidgetID": "FishRodBtn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide10045_1",
-                    "SourceString": "恭喜您成为了海特洛钓客，不装备<Yellow>鱼竿</>和<Yellow>鱼饵</>无法钓鱼，按下<Yellow>装备鱼竿</>",
-                    "LocalizedString": "恭喜您成为了海特洛钓客，不装备<Yellow>鱼竿</>和<Yellow>鱼饵</>无法钓鱼，按下<Yellow>装备鱼竿</>"
+                    "Key": "Guide10045_1g",
+                    "SourceString": "恭喜您成为了海特洛钓客，不装备<Yellow>鱼竿</>和<Yellow>鱼饵</>无法钓鱼，按下<img id=\"1001\"/><Yellow>装备鱼竿</>",
+                    "LocalizedString": "恭喜您成为了海特洛钓客，不装备<Yellow>鱼竿</>和<Yellow>鱼饵</>无法钓鱼，按下<img id=\"1001\"/><Yellow>装备鱼竿</>"
                   },
                   "Context": {
                     "CultureInvariantString": null
                   },
-                  "CurUIActions": [],
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_QuickMenu'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_QuickMenu.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
                   "GuideTriggerEvents": [
                     "FishRodBtn"
                   ],
@@ -23148,7 +23157,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false
@@ -23191,14 +23200,23 @@
                   "WidgetID": "FishBaitBtn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide10045_3",
-                    "SourceString": "接下来，按下<Yellow>装备鱼饵</>",
-                    "LocalizedString": "接下来，按下<Yellow>装备鱼饵</>"
+                    "Key": "Guide10045_3g",
+                    "SourceString": "接下来，按下<img id=\"1001\"/><Yellow>装备鱼饵</>",
+                    "LocalizedString": "接下来，按下<img id=\"1001\"/><Yellow>装备鱼饵</>"
                   },
                   "Context": {
                     "CultureInvariantString": null
                   },
-                  "CurUIActions": [],
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Evade_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Evade_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
                   "GuideTriggerEvents": [
                     "FishBaitBtn"
                   ],
@@ -23206,7 +23224,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false
@@ -27792,7 +27810,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -27937,7 +27955,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -28192,7 +28210,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -28337,7 +28355,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 10.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -28592,7 +28610,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -28723,7 +28741,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "WidgetID": "CharacterSlot2",
+                  "WidgetID": "CharacterSlot1",
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Lingzhou_WeakGuide1",
@@ -28737,7 +28755,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -28992,7 +29010,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -29123,7 +29141,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "WidgetID": "CharacterSlot2",
+                  "WidgetID": "CharacterSlot1",
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Anhun_WeakGuide1",
@@ -29137,7 +29155,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -29392,7 +29410,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -29523,7 +29541,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "WidgetID": "CharacterSlot2",
+                  "WidgetID": "CharacterSlot1",
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Anzhou_WeakGuide1",
@@ -29537,7 +29555,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -29792,7 +29810,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -29923,7 +29941,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "WidgetID": "CharacterSlot2",
+                  "WidgetID": "CharacterSlot1",
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Hunxiang_WeakGuide1",
@@ -29937,7 +29955,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -30192,7 +30210,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -30324,7 +30342,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -30869,7 +30887,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
@@ -31001,7 +31019,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },

@@ -1,0 +1,1162 @@
+[
+  {
+    "Type": "HTLotteryManager",
+    "Name": "DA_LotteryManager",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTLotteryManager'",
+    "Package": "/Game/DataAssets/Lottery/DA_LotteryManager",
+    "Properties": {
+      "ModuleDefaultMap": [
+        {
+          "Key": "Lottery_Nanali",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleNanali'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleNanali.0"
+          }
+        },
+        {
+          "Key": "Lottery_Xun",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleXun'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleXun.0"
+          }
+        },
+        {
+          "Key": "Lottery_Permanent",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModulePermanent'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModulePermanent.0"
+          }
+        }
+      ],
+      "LotteryPortraitDataTable": {
+        "ObjectName": "DataTable'GachaIllustrate'",
+        "ObjectPath": "/Game/DataTable/GaCha/GachaIllustrate.0"
+      },
+      "MonopolyCellDataTable": {
+        "ObjectName": "DataTable'DT_MonopolyCellDataTable'",
+        "ObjectPath": "/Game/DataTable/Monopoly/DT_MonopolyCellDataTable.0"
+      },
+      "ModuleLotteryWidgetMap": [
+        {
+          "Key": "Lottery_Nanali",
+          "Value": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg_nanali.LotteryBg_nanali_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "Lottery_Xun",
+          "Value": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg_Xun.LotteryBg_Xun_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "Lottery_Permanent",
+          "Value": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg_Permanent.LotteryBg_Permanent_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "MonopolyLevelInstance": {
+        "AssetPathName": "/Game/Maps/Map_DLC/DLC_drawcards/DLC_drawcards.DLC_drawcards",
+        "SubPathString": ""
+      },
+      "LevelOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -400000.0
+      },
+      "StartCellPos": {
+        "X": 87.896645,
+        "Y": -80.0,
+        "Z": 178.39336
+      },
+      "CameraInitPos": {
+        "X": 95.46803,
+        "Y": -704.956,
+        "Z": 1002.9971
+      },
+      "XiupaInitPos": {
+        "X": 91.96184,
+        "Y": -80.0,
+        "Z": 206.99905
+      },
+      "CellInfoDatas": [
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Dice_1",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_LessDice",
+            "SourceString": "再来一次",
+            "LocalizedString": "再来一次"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezitouzi.YH_UI_dafuwong_map_gezitouzi",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_touzi.YH_UI_dafuwong_map_gezi_touzi",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Dice_4",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_MoreDice",
+            "SourceString": "多重惊喜",
+            "LocalizedString": "多重惊喜"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezitouzi.YH_UI_dafuwong_map_gezitouzi",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_touzi.YH_UI_dafuwong_map_gezi_touzi",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_Character",
+            "SourceString": "于此同行",
+            "LocalizedString": "于此同行"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_geziSjuese.YH_UI_dafuwong_map_geziSjuese",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_jueseS.YH_UI_dafuwong_map_gezi_jueseS",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_Character",
+            "SourceString": "于此同行",
+            "LocalizedString": "于此同行"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_geziAjuese.YH_UI_dafuwong_map_geziAjuese",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_jueseA.YH_UI_dafuwong_map_gezi_jueseA",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Fork_4",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_RandomFork",
+            "SourceString": "弧光盲盒",
+            "LocalizedString": "弧光盲盒"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_geziAhupan.YH_UI_dafuwong_map_geziAhupan",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_hupan.YH_UI_dafuwong_map_gezi_hupan",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Box",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_LowBox",
+            "SourceString": "学徒宝箱",
+            "LocalizedString": "学徒宝箱"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezidijibaoxiang.YH_UI_dafuwong_map_gezidijibaoxiang",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_baoxiang.YH_UI_dafuwong_map_gezi_baoxiang",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_SuperBox",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_HighBox",
+            "SourceString": "勇者宝箱",
+            "LocalizedString": "勇者宝箱"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezigaojibaoxiang.YH_UI_dafuwong_map_gezigaojibaoxiang",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_gaojibaoxiang.YH_UI_dafuwong_map_gezi_gaojibaoxiang",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_4",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_ShiweiChess",
+            "SourceString": "失纬棋盒",
+            "LocalizedString": "失纬棋盒"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezishiweiqizi.YH_UI_dafuwong_map_gezishiweiqizi",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_shiwei.YH_UI_dafuwong_map_gezi_shiwei",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_8",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_ShiweiChess",
+            "SourceString": "失纬棋盒",
+            "LocalizedString": "失纬棋盒"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezishiweiqizi.YH_UI_dafuwong_map_gezishiweiqizi",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_shiwei.YH_UI_dafuwong_map_gezi_shiwei",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_50",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_MidieChess",
+            "SourceString": "迷迭棋盒",
+            "LocalizedString": "迷迭棋盒"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezimidieqizi.YH_UI_dafuwong_map_gezimidieqizi",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_midie.YH_UI_dafuwong_map_gezi_midie",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_30",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_MidieChess",
+            "SourceString": "迷迭棋盒",
+            "LocalizedString": "迷迭棋盒"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezimidieqizi.YH_UI_dafuwong_map_gezimidieqizi",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_midie.YH_UI_dafuwong_map_gezi_midie",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_16",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Monopoly_CellName_MidieChess",
+            "SourceString": "迷迭棋盒",
+            "LocalizedString": "迷迭棋盒"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_moreqizi.YH_UI_dafuwong_map_moreqizi",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_shiwei.YH_UI_dafuwong_map_gezi_shiwei",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Character_Skin",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "BPUI_LotteryMapDescriptionMain_Juesepifu",
+            "SourceString": "【本期活动】今日穿搭",
+            "LocalizedString": "【本期活动】今日穿搭"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezishizhuang.YH_UI_dafuwong_map_gezishizhuang",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_shizhuang.YH_UI_dafuwong_map_gezi_shizhuang",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Vehicle_Skin",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "BPUI_LotteryMapDescriptionMain_Zaijupifu",
+            "SourceString": "【本期活动】改装时刻·涂装",
+            "LocalizedString": "【本期活动】改装时刻·涂装"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezipenqi.YH_UI_dafuwong_map_gezipenqi",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_qichepenqi.YH_UI_dafuwong_map_gezi_qichepenqi",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Glider_Skin",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "BPUI_LotteryMapDescriptionMain_huaxiangyipifu",
+            "SourceString": "【本期活动】风向标",
+            "LocalizedString": "【本期活动】风向标"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezihuaxiangsan.YH_UI_dafuwong_map_gezihuaxiangsan",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_huaxiangsan.YH_UI_dafuwong_map_gezi_huaxiangsan",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CellClass": "EMonopolyBoardCellType::EMBCT_Cell_Guarantee",
+          "CellDesc": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "TeachGuideDataTable_Heidongtouzhi",
+            "SourceString": "集点馈谢",
+            "LocalizedString": "集点馈谢"
+          },
+          "CellIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_heidongdi.YH_UI_dafuwong_map_gezi_heidongdi",
+            "SubPathString": ""
+          },
+          "MapIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi_heidong.YH_UI_dafuwong_map_gezi_heidong",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "CellBGQualityMap": [
+        {
+          "Key": "EMonopolyCellQuality::EMCQ_Orange",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi03.YH_UI_dafuwong_map_gezi03",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMonopolyCellQuality::EMCQ_Purple",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi02.YH_UI_dafuwong_map_gezi02",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMonopolyCellQuality::EMCQ_Blue",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi01.YH_UI_dafuwong_map_gezi01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMonopolyCellQuality::EMCQ_Other",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_dafuwong_map_gezi03.YH_UI_dafuwong_map_gezi03",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "CellAwardEffectDatas": [
+        {
+          "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+          "AwardParticleAssets": [
+            {
+              "DelayTime": 0.5,
+              "ParticleAsset": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            {
+              "DelayTime": 0.7,
+              "ParticleAsset": {
+                "AssetPathName": "/Game/FX/Nia/Scene/zillionaire/NS_Zillionnaire_02_S.NS_Zillionnaire_02_S",
+                "SubPathString": ""
+              }
+            },
+            {
+              "DelayTime": 1.0,
+              "ParticleAsset": {
+                "AssetPathName": "/Game/FX/Nia/Scene/zillionaire/NS_Zillionnaire_02_1_B_2.NS_Zillionnaire_02_1_B_2",
+                "SubPathString": ""
+              }
+            }
+          ],
+          "SoftAwardSequence": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "SoftAwardSequence_Mobile": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "SequenceOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 150.0
+          },
+          "DelayPlaySequenceTime": 0.0,
+          "DelayShowUITime": 3.0,
+          "XiuPaMontage": {
+            "AssetPathName": "/Game/Characters/Anomaly/Anomaly_006/animation/Anomaly_Gacha_PlayerChessGet3_Montage.Anomaly_Gacha_PlayerChessGet3_Montage",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+          "AwardParticleAssets": [
+            {
+              "DelayTime": 0.5,
+              "ParticleAsset": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            {
+              "DelayTime": 0.7,
+              "ParticleAsset": {
+                "AssetPathName": "/Game/FX/Nia/Scene/zillionaire/NS_Zillionnaire_02_A.NS_Zillionnaire_02_A",
+                "SubPathString": ""
+              }
+            },
+            {
+              "DelayTime": 1.0,
+              "ParticleAsset": {
+                "AssetPathName": "/Game/FX/Nia/Scene/zillionaire/NS_Zillionnaire_02_1_A_1.NS_Zillionnaire_02_1_A_1",
+                "SubPathString": ""
+              }
+            }
+          ],
+          "SoftAwardSequence": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "SoftAwardSequence_Mobile": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "SequenceOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 150.0
+          },
+          "DelayPlaySequenceTime": 0.0,
+          "DelayShowUITime": 3.0,
+          "XiuPaMontage": {
+            "AssetPathName": "/Game/Characters/Anomaly/Anomaly_006/animation/Anomaly_Gacha_PlayerChessGet2_Montage.Anomaly_Gacha_PlayerChessGet2_Montage",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+          "AwardParticleAssets": [
+            {
+              "DelayTime": 0.5,
+              "ParticleAsset": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            {
+              "DelayTime": 0.7,
+              "ParticleAsset": {
+                "AssetPathName": "/Game/FX/Nia/Scene/zillionaire/NS_Zillionnaire_02_B.NS_Zillionnaire_02_B",
+                "SubPathString": ""
+              }
+            },
+            {
+              "DelayTime": 1.0,
+              "ParticleAsset": {
+                "AssetPathName": "/Game/FX/Nia/Scene/zillionaire/NS_Zillionnaire_02_1_B_1.NS_Zillionnaire_02_1_B_1",
+                "SubPathString": ""
+              }
+            }
+          ],
+          "SoftAwardSequence": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "SoftAwardSequence_Mobile": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "SequenceOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 150.0
+          },
+          "DelayPlaySequenceTime": 0.0,
+          "DelayShowUITime": 3.0,
+          "XiuPaMontage": {
+            "AssetPathName": "/Game/Characters/Anomaly/Anomaly_006/animation/Anomaly_Gacha_PlayerChessGet1_Montage.Anomaly_Gacha_PlayerChessGet1_Montage",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "CharacterAwardEffectDatas": [
+        {
+          "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+          "AwardParticleAssets": [],
+          "SoftAwardSequence": {
+            "AssetPathName": "/Game/FX/Nia/Scene/Gacha/Seq_Gacha_S.Seq_Gacha_S",
+            "SubPathString": ""
+          },
+          "SoftAwardSequence_Mobile": {
+            "AssetPathName": "/Game/FX/Nia/Scene/Gacha/MobilePhoneVersion/Seq_Gacha_S_Mobile.Seq_Gacha_S_Mobile",
+            "SubPathString": ""
+          },
+          "SequenceOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 180.0
+          },
+          "DelayPlaySequenceTime": 0.0,
+          "DelayShowUITime": 3.0,
+          "XiuPaMontage": {
+            "AssetPathName": "/Game/Characters/Anomaly/Anomaly_006/animation/Anomaly_Gacha_PlayerChessGet3_Montage.Anomaly_Gacha_PlayerChessGet3_Montage",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+          "AwardParticleAssets": [],
+          "SoftAwardSequence": {
+            "AssetPathName": "/Game/FX/Nia/Scene/Gacha/Seq_Gacha_A.Seq_Gacha_A",
+            "SubPathString": ""
+          },
+          "SoftAwardSequence_Mobile": {
+            "AssetPathName": "/Game/FX/Nia/Scene/Gacha/MobilePhoneVersion/Seq_Gacha_A_Mobile.Seq_Gacha_A_Mobile",
+            "SubPathString": ""
+          },
+          "SequenceOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 180.0
+          },
+          "DelayPlaySequenceTime": 0.0,
+          "DelayShowUITime": 3.0,
+          "XiuPaMontage": {
+            "AssetPathName": "/Game/Characters/Anomaly/Anomaly_006/animation/Anomaly_Gacha_PlayerChessGet2_Montage.Anomaly_Gacha_PlayerChessGet2_Montage",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+          "AwardParticleAssets": [
+            {
+              "DelayTime": 0.5,
+              "ParticleAsset": {
+                "AssetPathName": "/Game/FX/Nia/Scene/zillionaire/NS_Zillionnaire_01.NS_Zillionnaire_01",
+                "SubPathString": ""
+              }
+            },
+            {
+              "DelayTime": 0.7,
+              "ParticleAsset": {
+                "AssetPathName": "/Game/FX/Nia/Scene/zillionaire/NS_Zillionnaire_02_B.NS_Zillionnaire_02_B",
+                "SubPathString": ""
+              }
+            },
+            {
+              "DelayTime": 1.0,
+              "ParticleAsset": {
+                "AssetPathName": "/Game/FX/Nia/Scene/zillionaire/NS_Zillionnaire_02_1_B_1.NS_Zillionnaire_02_1_B_1",
+                "SubPathString": ""
+              }
+            }
+          ],
+          "SoftAwardSequence": {
+            "AssetPathName": "/Game/FX/Nia/Scene/Gacha/Seq_Gacha_A.Seq_Gacha_A",
+            "SubPathString": ""
+          },
+          "SoftAwardSequence_Mobile": {
+            "AssetPathName": "/Game/FX/Nia/Scene/Gacha/MobilePhoneVersion/Seq_Gacha_A_Mobile.Seq_Gacha_A_Mobile",
+            "SubPathString": ""
+          },
+          "SequenceOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 300.0
+          },
+          "DelayPlaySequenceTime": 0.0,
+          "DelayShowUITime": 3.0,
+          "XiuPaMontage": {
+            "AssetPathName": "/Game/Characters/Anomaly/Anomaly_006/animation/Anomaly_Gacha_PlayerChessGet1_Montage.Anomaly_Gacha_PlayerChessGet1_Montage",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkAdditionalAwardMap": [
+        {
+          "Key": "ITEM_QUALITY_PURPLE",
+          "Value": {
+            "ItemID": "Dice_ticket_01",
+            "AdditionalNumType": "EAdditionalAwardNumType::EAANT_Fixed",
+            "Time": 0,
+            "MinTime": 0,
+            "MaxTime": 0,
+            "Amount": 4
+          }
+        },
+        {
+          "Key": "ITEM_QUALITY_BLUE",
+          "Value": {
+            "ItemID": "Dice_ticket_02",
+            "AdditionalNumType": "EAdditionalAwardNumType::EAANT_Fixed",
+            "Time": 0,
+            "MinTime": 0,
+            "MaxTime": 0,
+            "Amount": 20
+          }
+        }
+      ],
+      "ShowAdditionAwards": [
+        "Dice_ticket_01",
+        "Dice_ticket_02"
+      ],
+      "ShowCharacterAwards": [
+        {
+          "CharacterID": "1003",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1004",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1008",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "gold",
+              "Amount": 10000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1010",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1019",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "gold",
+              "Amount": 10000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1020",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "gold",
+              "Amount": 10000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1021",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "gold",
+              "Amount": 10000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1023",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1025",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1033",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "gold",
+              "Amount": 10000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1039",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1052",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1054",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "gold",
+              "Amount": 10000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1055",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "gold",
+              "Amount": 10000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        }
+      ],
+      "GuideData": {
+        "GuideCellType": "None",
+        "GuideCellId": "1",
+        "GuideModuleId": "Lottery_Permanent",
+        "GuideDiceNum": 1,
+        "GuideDropID": "drop_Monopoly_first_drop"
+      },
+      "NeedCollapsedItemCounts": [
+        "EItemType::ITEM_TYPE_FORK",
+        "EItemType::ITEM_TYPE_CHARACTER",
+        "EItemType::ITEM_TYPE_FASHION",
+        "EItemType::ITEM_TYPE_GLIDE",
+        "EItemType::ITEM_TYPE_VEHICLE_SKIN"
+      ],
+      "TexturesStreamMax": [
+        "T_ArchitecturalVision_01_D",
+        "T_ArchitecturalVision_02_D",
+        "T_ArchitecturalVision_03_D"
+      ]
+    }
+  }
+]

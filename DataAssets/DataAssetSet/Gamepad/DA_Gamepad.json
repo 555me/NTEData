@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "UHTGamepadDataAsset",
+    "Name": "DA_Gamepad",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UHTGamepadDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/Gamepad/DA_Gamepad",
+    "Properties": {
+      "InputMappingContext": {
+        "ObjectName": "InputMappingContext'IMC_Default_Gamepad'",
+        "ObjectPath": "/Game/Input/Gamepad/IMC_Default_Gamepad.0"
+      },
+      "MoveAction": {
+        "ObjectName": "InputAction'IA_Move_Stick'",
+        "ObjectPath": "/Game/Input/Gamepad/IA_Move_Stick.0"
+      },
+      "LookAction": {
+        "ObjectName": "InputAction'IA_Look_Stick'",
+        "ObjectPath": "/Game/Input/Gamepad/IA_Look_Stick.0"
+      },
+      "MapAction": {
+        "ObjectName": "InputAction'IA_Map_Gamepad'",
+        "ObjectPath": "/Game/Input/Gamepad/IA_Map_Gamepad.0"
+      },
+      "ResetVehicleKey": {
+        "KeyName": "Gamepad_DPad_Left"
+      },
+      "ZoomAction": [
+        {
+          "ObjectName": "InputAction'IA_Zoom_Gamepad'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_Zoom_Gamepad.0"
+        }
+      ],
+      "ZoomActionPrerequireKey": {
+        "KeyName": "Gamepad_LeftShoulder"
+      },
+      "GamepadInputActionsDataTable": {
+        "ObjectName": "DataTable'DT_Default_GamepadInput'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Gamepad/DT_Default_GamepadInput.0"
+      },
+      "FeedbackEffectDataTable": {
+        "ObjectName": "DataTable'DT_FeedbackEffect'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Gamepad/Feedback/DT_FeedbackEffect.0"
+      },
+      "TriggerEffectDataTable": {
+        "ObjectName": "DataTable'DT_TriggerEffect'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Gamepad/TriggerEffect/DT_TriggerEffect.0"
+      },
+      "LightBarDataTable": {
+        "ObjectName": "DataTable'DT_LightBar'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Gamepad/TriggerEffect/DT_LightBar.0"
+      },
+      "ItemFunctionInputActionsDataTable": {
+        "ObjectName": "DataTable'DT_ItemFunctionInputAction'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Gamepad/ItemFunctionInputAction/DT_ItemFunctionInputAction.0"
+      },
+      "PlaystationDataAsset": {
+        "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DA_Playstation.DA_Playstation",
+        "SubPathString": ""
+      },
+      "SteeringDeadThreshold": 0.15,
+      "UINavigationDataAsset": {
+        "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DA_UINavigation.DA_UINavigation",
+        "SubPathString": ""
+      },
+      "MenuHolderPtr": {
+        "AssetPathName": "/Game/UI/Blueprints/Gamepad/WB_GamepadMenuHolder.WB_GamepadMenuHolder_C",
+        "SubPathString": ""
+      },
+      "GamepadMenuDataTable": {
+        "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_GamepadMenu.DT_GamepadMenu",
+        "SubPathString": ""
+      },
+      "KeyboardMenuDataTable": {
+        "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_KeyboardMenus.DT_KeyboardMenus",
+        "SubPathString": ""
+      },
+      "NavigatedSounds": [
+        {
+          "Key": "Default",
+          "Value": {
+            "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Hand_Shank_Select.Play_Sfx_UI_Hand_Shank_Select",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "SoundActions": [
+        {
+          "Key": "EGamepadSoundAction::CloseUI",
+          "Value": {
+            "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_CharacterAbility_DetailsClose.Play_Sfx_UI_CharacterAbility_DetailsClose",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EGamepadSoundAction::OpenGamepadMenu",
+          "Value": {
+            "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_JiYu_Interface.Play_Sfx_UI_JiYu_Interface",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GamepadIconDataTable": {
+        "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_GamepadIcon.DT_GamepadIcon",
+        "SubPathString": ""
+      },
+      "PlatformIconDataTable": {
+        "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_PlatformIcon.DT_PlatformIcon",
+        "SubPathString": ""
+      },
+      "GamepadButtonsSettingDataTable": {
+        "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_GamepadButtonSettings.DT_GamepadButtonSettings",
+        "SubPathString": ""
+      },
+      "ActiveLayersToFindDataTable": {
+        "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_ActivableLayers.DT_ActivableLayers",
+        "SubPathString": ""
+      },
+      "ViewportLayersToFindDataTable": {
+        "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_ViewportLayers.DT_ViewportLayers",
+        "SubPathString": ""
+      },
+      "XBoxMaxMotionVolumn": 40.0,
+      "CombinationActions": [
+        {
+          "Key": "AbyssCardSkill",
+          "Value": {
+            "Keys": [
+              {
+                "KeyName": "Gamepad_FaceButton_Left"
+              },
+              {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              }
+            ]
+          }
+        }
+      ],
+      "LoadPolicy": "EHTDataAssetSetLoadPolicy::Cache"
+    }
+  }
+]

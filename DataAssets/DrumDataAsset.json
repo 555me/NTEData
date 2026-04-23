@@ -1,0 +1,264 @@
+[
+  {
+    "Type": "HTDrumDataAsset",
+    "Name": "DrumDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTDrumDataAsset'",
+    "Package": "/Game/DataAssets/DrumDataAsset",
+    "Properties": {
+      "PointPrefectTimeRange": {
+        "LowerBound": {
+          "Value": -0.0666
+        },
+        "UpperBound": {
+          "Value": 0.0833
+        }
+      },
+      "PointExcellentTimeRange": {
+        "LowerBound": {
+          "Value": -0.116
+        },
+        "UpperBound": {
+          "Value": 0.133
+        }
+      },
+      "PointPassTimeRange": {
+        "LowerBound": {
+          "Value": -0.133
+        },
+        "UpperBound": {
+          "Value": 0.15
+        }
+      },
+      "PointFailTimeRange": {
+        "LowerBound": {
+          "Value": -0.17
+        },
+        "UpperBound": {
+          "Value": 0.2
+        }
+      },
+      "PointExcellentRate": 0.8,
+      "PointPassRate": 0.5,
+      "PointPrefectScore": 400,
+      "PointExcellentScore": 320,
+      "PointPassScore": 200,
+      "HitContinuePointScore": 0,
+      "BeatDistanceInPlayed": 640.0,
+      "ResultGradeOfS": 0.85,
+      "ResultGradeOfA": 0.8,
+      "ResultGradeOfB": 0.75,
+      "ResultGradeOfC": 0.5,
+      "GradeTextureMap": [
+        {
+          "Key": "EDrumScoreGradeType::ScoreGrade_A",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Wiku/YH_YinY_Rank_A.YH_YinY_Rank_A",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EDrumScoreGradeType::ScoreGrade_B",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Wiku/YH_YinY_Rank_B.YH_YinY_Rank_B",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EDrumScoreGradeType::ScoreGrade_C",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Wiku/YH_YinY_Rank_C.YH_YinY_Rank_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EDrumScoreGradeType::ScoreGrade_D",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Wiku/YH_YinY_Rank_D.YH_YinY_Rank_D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EDrumScoreGradeType::ScoreGrade_S",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Wiku/YH_YinY_Rank_S.YH_YinY_Rank_S",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GradeTipOffset": {
+        "X": 0.0,
+        "Y": -100.0
+      },
+      "AudioEventDataTableMap": [
+        {
+          "Key": "StorySong1",
+          "Value": {
+            "ObjectName": "DataTable'StoreSongDataTable'",
+            "ObjectPath": "/Game/DataTable/Drum/StoreSongDataTable.0"
+          }
+        },
+        {
+          "Key": "StorySong2",
+          "Value": {
+            "ObjectName": "DataTable'StoreSongDataTable'",
+            "ObjectPath": "/Game/DataTable/Drum/StoreSongDataTable.0"
+          }
+        },
+        {
+          "Key": "StorySong3",
+          "Value": {
+            "ObjectName": "DataTable'StoreSongDataTable'",
+            "ObjectPath": "/Game/DataTable/Drum/StoreSongDataTable.0"
+          }
+        },
+        {
+          "Key": "StorySong4",
+          "Value": {
+            "ObjectName": "DataTable'StoreSongDataTable'",
+            "ObjectPath": "/Game/DataTable/Drum/StoreSongDataTable.0"
+          }
+        },
+        {
+          "Key": "FreeSong1",
+          "Value": {
+            "ObjectName": "DataTable'StoreSongDataTable'",
+            "ObjectPath": "/Game/DataTable/Drum/StoreSongDataTable.0"
+          }
+        }
+      ],
+      "DrumBGMSwitchValueMap": [
+        {
+          "Key": "EDrumBgmSwitchValue::CloseHiHat",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-CloseHiHat'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-CloseHiHat.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::CrashCymbal",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-CrashCymbal'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-CrashCymbal.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::FloorTom",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-FloorTom'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-FloorTom.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::HighTom",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-HighTom'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-HighTom.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::LowTom",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-LowTom'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-LowTom.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::OpenHiHat",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-OpenHiHat'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-OpenHiHat.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::RideCymbal",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-RideCymbal'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-RideCymbal.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::SideStick",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-SideStick'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-SideStick.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::Snare",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-Snare'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-Snare.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::Empty_1",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-Empty_1'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-Empty_1.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::Empty_2",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-Empty_2'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-Empty_2.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::Empty_3",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-Empty_3'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-Empty_3.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::Empty_4",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-Empty_4'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-Empty_4.0"
+          }
+        },
+        {
+          "Key": "EDrumBgmSwitchValue::BassDrum",
+          "Value": {
+            "ObjectName": "AkSwitchValue'SW_DrumKeys-BassDrum'",
+            "ObjectPath": "/Game/WwiseAudio/Switches/Default_Work_Unit/Music/SW_DrumKeys/SW_DrumKeys-BassDrum.0"
+          }
+        }
+      ],
+      "FreePlayFunctionId": "WikuFreePlay",
+      "BelongsLevelName": "XL_map_bigworld_test",
+      "MapIconID": "Place_11",
+      "bUnderFog": false,
+      "IconTransform": {
+        "Translation": {
+          "X": -148522.16,
+          "Y": 120966.06,
+          "Z": 6418.566
+        }
+      },
+      "BeginQuestID": "L110201_F",
+      "UnLockedOverrideDesc": {
+        "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+        "Key": "Map_LiveHouse_UnlockDes",
+        "SourceString": "可以消耗城市活力进行演出，根据演出结果获取方斯。营业时间为凌晨3点到15点。\r\n经营多年的Livehouse。虽然场地不大，容纳人数有限，但因其价格亲民，颇受刚起步的乐队青睐。可以消耗城市活力进行演出，根据演出结果获取方斯。\r\n「将散落天际的群星缀连成为熠熠生辉的星座，或许只需要一首歌的时间。」",
+        "LocalizedString": "可以消耗城市活力进行演出，根据演出结果获取方斯。营业时间为凌晨3点到15点。\r\n经营多年的Livehouse。虽然场地不大，容纳人数有限，但因其价格亲民，颇受刚起步的乐队青睐。可以消耗城市活力进行演出，根据演出结果获取方斯。\r\n「将散落天际的群星缀连成为熠熠生辉的星座，或许只需要一首歌的时间。」"
+      },
+      "PreviewAwardDropID": "drop_mug_show",
+      "DrumSongDataTable": {
+        "ObjectName": "DataTable'DT_DrumSongDataTable'",
+        "ObjectPath": "/Game/DataTable/Drum/DT_DrumSongDataTable.0"
+      },
+      "DrumPlayLevelDataTable": {
+        "ObjectName": "DataTable'DT_DrumPlayLevelData'",
+        "ObjectPath": "/Game/DataTable/Drum/DT_DrumPlayLevelData.0"
+      },
+      "bPlayDebug": true,
+      "DrumIconDataTable": {
+        "ObjectName": "DataTable'DT_DrumIconData'",
+        "ObjectPath": "/Game/DataTable/Drum/DT_DrumIconData.0"
+      }
+    }
+  }
+]

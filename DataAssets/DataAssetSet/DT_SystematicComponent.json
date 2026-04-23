@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SystematicComponent",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/DT_SystematicComponent",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'HTSystematicComponentDefinitionRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "GamepadActionComponent": {
+        "Component": {
+          "ObjectName": "Class'HTGamepadActionComponent'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "CreatePolicy": "EHTSystematicComponentCreatePolicy::Client"
+      },
+      "PokemonComponent": {
+        "Component": {
+          "ObjectName": "Class'PokemonComponent'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "CreatePolicy": "EHTSystematicComponentCreatePolicy::Client"
+      },
+      "SystematicGameFeaturesComponent": {
+        "Component": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SystematicGameFeaturesComponent_C'",
+          "ObjectPath": "/Game/DataAssets/DataAssetSet/SystematicComponents/BP_SystematicGameFeaturesComponent.0"
+        },
+        "CreatePolicy": "EHTSystematicComponentCreatePolicy::Server"
+      },
+      "SystematicPlayerComponent": {
+        "Component": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SystematicPlayerComponent_C'",
+          "ObjectPath": "/Game/DataAssets/DataAssetSet/SystematicComponents/BP_SystematicPlayerComponent.0"
+        },
+        "CreatePolicy": "EHTSystematicComponentCreatePolicy::Server"
+      }
+    }
+  }
+]

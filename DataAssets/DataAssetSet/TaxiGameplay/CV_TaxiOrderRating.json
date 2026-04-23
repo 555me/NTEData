@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "CV_TaxiOrderRating",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/TaxiGameplay/CV_TaxiOrderRating",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "Rating": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 140.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 410.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 550.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 740.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 5000.0,
+            "Value": 5.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

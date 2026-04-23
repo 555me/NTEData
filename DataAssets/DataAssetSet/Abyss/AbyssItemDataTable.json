@@ -1,0 +1,2841 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AbyssItemDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/Abyss/AbyssItemDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'AbyssCloneItemConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "AbyssCard_T_001": {
+        "ItemID": "AbyssCard_T_001",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_001_name",
+          "SourceString": "零点重启",
+          "LocalizedString": "零点重启"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_001_des",
+          "SourceString": "激活后，立刻重置当前操控角色「变轨技能」的冷却时间。",
+          "LocalizedString": "激活后，立刻重置当前操控角色「变轨技能」的冷却时间。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_16.YH_shenyuanbuffICON_16",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_T",
+              "SourceString": "特异激活",
+              "LocalizedString": "特异激活"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_01.UI_YH_Tips_Label_Bkg_01",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_reset",
+              "SourceString": "重置",
+              "LocalizedString": "重置"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_05.UI_YH_Tips_Label_Bkg_05",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Stunt/Buff_AbyssCard_T_001/Buff_AbyssCard_T_001.Buff_AbyssCard_T_001_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_T_002": {
+        "ItemID": "AbyssCard_T_002",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_002_name",
+          "SourceString": "原质盈涌",
+          "LocalizedString": "原质盈涌"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_002_des",
+          "SourceString": "激活后，当前操控角色的「终结能量」立刻补充至上限。",
+          "LocalizedString": "激活后，当前操控角色的「终结能量」立刻补充至上限。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_14.YH_shenyuanbuffICON_14",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_T",
+              "SourceString": "特异激活",
+              "LocalizedString": "特异激活"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_01.UI_YH_Tips_Label_Bkg_01",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_burst",
+              "SourceString": "爆发",
+              "LocalizedString": "爆发"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_04.UI_YH_Tips_Label_Bkg_04",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Stunt/Buff_AbyssCard_T_002/Buff_AbyssCard_T_002.Buff_AbyssCard_T_002_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_T_003": {
+        "ItemID": "AbyssCard_T_003",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_003_name",
+          "SourceString": "核心锚定",
+          "LocalizedString": "核心锚定"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_003_des",
+          "SourceString": "激活后，将为范围内生命值上限最高的目标附加持续<lv>30</>秒的「怒火」标记。被「怒火」标记的敌人造成的伤害降低<lv>30%</>，同时队伍成员对其造成的伤害提升<lv>30%</>。",
+          "LocalizedString": "激活后，将为范围内生命值上限最高的目标附加持续<lv>30</>秒的「怒火」标记。被「怒火」标记的敌人造成的伤害降低<lv>30%</>，同时队伍成员对其造成的伤害提升<lv>30%</>。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_15.YH_shenyuanbuffICON_15",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_T",
+              "SourceString": "特异激活",
+              "LocalizedString": "特异激活"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_01.UI_YH_Tips_Label_Bkg_01",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_survive",
+              "SourceString": "生存",
+              "LocalizedString": "生存"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_03.UI_YH_Tips_Label_Bkg_03",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Stunt/Buff_AbyssCard_T_003/Buff_AbyssCard_T_003.Buff_AbyssCard_T_003_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_T_004": {
+        "ItemID": "AbyssCard_T_004",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_004_name",
+          "SourceString": "顷刻裁决",
+          "LocalizedString": "顷刻裁决"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_004_des",
+          "SourceString": "激活后，对场景内所有敌人造成相当于其生命值上限<lv>10%</>的伤害。",
+          "LocalizedString": "激活后，对场景内所有敌人造成相当于其生命值上限<lv>10%</>的伤害。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_13.YH_shenyuanbuffICON_13",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_T",
+              "SourceString": "特异激活",
+              "LocalizedString": "特异激活"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_01.UI_YH_Tips_Label_Bkg_01",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Stunt/Buff_AbyssCard_T_004/Buff_AbyssCard_T_004.Buff_AbyssCard_T_004_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_T_005": {
+        "ItemID": "AbyssCard_T_005",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_005_name",
+          "SourceString": "同调重启",
+          "LocalizedString": "同调重启"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_005_des",
+          "SourceString": "激活后，立刻重置队伍内所有角色「变轨攻击」的冷却时间。",
+          "LocalizedString": "激活后，立刻重置队伍内所有角色「变轨攻击」的冷却时间。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_12.YH_shenyuanbuffICON_12",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_T",
+              "SourceString": "特异激活",
+              "LocalizedString": "特异激活"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_01.UI_YH_Tips_Label_Bkg_01",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_reset",
+              "SourceString": "重置",
+              "LocalizedString": "重置"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_05.UI_YH_Tips_Label_Bkg_05",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Stunt/Buff_AbyssCard_T_005/Buff_AbyssCard_T_005.Buff_AbyssCard_T_005_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_T_006": {
+        "ItemID": "AbyssCard_T_006",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_006_name",
+          "SourceString": "万向涡流",
+          "LocalizedString": "万向涡流"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_T_006_des",
+          "SourceString": "激活后，召唤一个存在<lv>30</>秒的小型「黑洞」，持续牵引周围敌人，每<lv>3</>秒对范围内所有敌人造成<lv>5000</>点固定暗属性异能伤害。",
+          "LocalizedString": "激活后，召唤一个存在<lv>30</>秒的小型「黑洞」，持续牵引周围敌人，每<lv>3</>秒对范围内所有敌人造成<lv>5000</>点固定暗属性异能伤害。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_11.YH_shenyuanbuffICON_11",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_T",
+              "SourceString": "特异激活",
+              "LocalizedString": "特异激活"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_01.UI_YH_Tips_Label_Bkg_01",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_gather",
+              "SourceString": "聚怪",
+              "LocalizedString": "聚怪"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_08.UI_YH_Tips_Label_Bkg_08",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Stunt/Buff_AbyssCard_T_006/Buff_AbyssCard_T_006.Buff_AbyssCard_T_006_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_B_001": {
+        "ItemID": "AbyssCard_B_001",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_001_name",
+          "SourceString": "异能协奏-攻击力",
+          "LocalizedString": "异能协奏-攻击力"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_001_des",
+          "SourceString": "激活后，队伍内全体角色攻击力提升<lv>20%</>，持续<lv>60</>秒。",
+          "LocalizedString": "激活后，队伍内全体角色攻击力提升<lv>20%</>，持续<lv>60</>秒。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_01.YH_shenyuanbuffICON_01",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_B",
+              "SourceString": "常态增益",
+              "LocalizedString": "常态增益"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_04.UI_YH_Tips_Label_Bkg_04",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Bonus/Buff_AbyssCard_B_001/Buff_AbyssCard_B_001.Buff_AbyssCard_B_001_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_B_002": {
+        "ItemID": "AbyssCard_B_002",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_002_name",
+          "SourceString": "异能协奏-防御力",
+          "LocalizedString": "异能协奏-防御力"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_002_des",
+          "SourceString": "激活后，队伍内全体角色防御力提升<lv>25%</>，持续<lv>60</>秒。",
+          "LocalizedString": "激活后，队伍内全体角色防御力提升<lv>25%</>，持续<lv>60</>秒。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_02.YH_shenyuanbuffICON_02",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_B",
+              "SourceString": "常态增益",
+              "LocalizedString": "常态增益"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_04.UI_YH_Tips_Label_Bkg_04",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_survive",
+              "SourceString": "生存",
+              "LocalizedString": "生存"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_03.UI_YH_Tips_Label_Bkg_03",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Bonus/Buff_AbyssCard_B_002/Buff_AbyssCard_B_002.Buff_AbyssCard_B_002_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_B_003": {
+        "ItemID": "AbyssCard_B_003",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_003_name",
+          "SourceString": "异能协奏-生命值",
+          "LocalizedString": "异能协奏-生命值"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_003_des",
+          "SourceString": "激活后，队伍内全体角色生命值提升<lv>20%</>，持续<lv>60</>秒。",
+          "LocalizedString": "激活后，队伍内全体角色生命值提升<lv>20%</>，持续<lv>60</>秒。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_03.YH_shenyuanbuffICON_03",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_B",
+              "SourceString": "常态增益",
+              "LocalizedString": "常态增益"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_04.UI_YH_Tips_Label_Bkg_04",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_survive",
+              "SourceString": "生存",
+              "LocalizedString": "生存"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_03.UI_YH_Tips_Label_Bkg_03",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Bonus/Buff_AbyssCard_B_003/Buff_AbyssCard_B_003.Buff_AbyssCard_B_003_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_B_004": {
+        "ItemID": "AbyssCard_B_004",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_004_name",
+          "SourceString": "异能协奏-暴击率",
+          "LocalizedString": "异能协奏-暴击率"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_004_des",
+          "SourceString": "激活后，队伍内全体角色暴击率提升<lv>16%</>，持续<lv>60</>秒。",
+          "LocalizedString": "激活后，队伍内全体角色暴击率提升<lv>16%</>，持续<lv>60</>秒。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_04.YH_shenyuanbuffICON_04",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_B",
+              "SourceString": "常态增益",
+              "LocalizedString": "常态增益"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_04.UI_YH_Tips_Label_Bkg_04",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Bonus/Buff_AbyssCard_B_004/Buff_AbyssCard_B_004.Buff_AbyssCard_B_004_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_B_005": {
+        "ItemID": "AbyssCard_B_005",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_005_name",
+          "SourceString": "异能协奏-暴击伤害",
+          "LocalizedString": "异能协奏-暴击伤害"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_005_des",
+          "SourceString": "激活后，队伍内全体角色暴击伤害提升<lv>32%</>，持续<lv>60</>秒。",
+          "LocalizedString": "激活后，队伍内全体角色暴击伤害提升<lv>32%</>，持续<lv>60</>秒。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_05.YH_shenyuanbuffICON_05",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_B",
+              "SourceString": "常态增益",
+              "LocalizedString": "常态增益"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_04.UI_YH_Tips_Label_Bkg_04",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Bonus/Buff_AbyssCard_B_005/Buff_AbyssCard_B_005.Buff_AbyssCard_B_005_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_B_006": {
+        "ItemID": "AbyssCard_B_006",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_006_name",
+          "SourceString": "异能协奏-伤害增加",
+          "LocalizedString": "异能协奏-伤害增加"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_006_des",
+          "SourceString": "激活后，队伍内全体角色伤害提升<lv>20%</>，持续<lv>60</>秒。",
+          "LocalizedString": "激活后，队伍内全体角色伤害提升<lv>20%</>，持续<lv>60</>秒。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_06.YH_shenyuanbuffICON_06",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_B",
+              "SourceString": "常态增益",
+              "LocalizedString": "常态增益"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_04.UI_YH_Tips_Label_Bkg_04",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Bonus/Buff_AbyssCard_B_006/Buff_AbyssCard_B_006.Buff_AbyssCard_B_006_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_B_007": {
+        "ItemID": "AbyssCard_B_007",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_007_name",
+          "SourceString": "异能协奏-倾陷强度",
+          "LocalizedString": "异能协奏-倾陷强度"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_007_des",
+          "SourceString": "激活后，队伍内全体角色倾陷强度提高<lv>100</>，持续<lv>60</>秒。",
+          "LocalizedString": "激活后，队伍内全体角色倾陷强度提高<lv>100</>，持续<lv>60</>秒。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_09.YH_shenyuanbuffICON_09",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_B",
+              "SourceString": "常态增益",
+              "LocalizedString": "常态增益"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_04.UI_YH_Tips_Label_Bkg_04",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_Unbal",
+              "SourceString": "倾陷",
+              "LocalizedString": "倾陷"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg.UI_YH_Tips_Label_Bkg",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Bonus/Buff_AbyssCard_B_007/Buff_AbyssCard_B_007.Buff_AbyssCard_B_007_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_B_008": {
+        "ItemID": "AbyssCard_B_008",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_008_name",
+          "SourceString": "异能协奏-环合强度",
+          "LocalizedString": "异能协奏-环合强度"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_B_008_des",
+          "SourceString": "激活后，队伍内全体角色环合强度提高<lv>100</>，持续<lv>60</>秒。",
+          "LocalizedString": "激活后，队伍内全体角色环合强度提高<lv>100</>，持续<lv>60</>秒。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_08.YH_shenyuanbuffICON_08",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_B",
+              "SourceString": "常态增益",
+              "LocalizedString": "常态增益"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_04.UI_YH_Tips_Label_Bkg_04",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_Mag",
+              "SourceString": "异能环合",
+              "LocalizedString": "异能环合"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Bonus/Buff_AbyssCard_B_008/Buff_AbyssCard_B_008.Buff_AbyssCard_B_008_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          },
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/TimesLimit/Buff_AbyssCard_times_1.Buff_AbyssCard_times_1_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_001": {
+        "ItemID": "AbyssCard_P_001",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_001_name",
+          "SourceString": "轨外谐音-光",
+          "LocalizedString": "轨外谐音-光"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_001_des",
+          "SourceString": "队伍角色获得<lv>8%</>光属性异能伤害提升。",
+          "LocalizedString": "队伍角色获得<lv>8%</>光属性异能伤害提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_30.YH_shenyuanbuffICON_30",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_001.Buff_AbyssCard_P_001_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_002": {
+        "ItemID": "AbyssCard_P_002",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_002_name",
+          "SourceString": "轨外谐音-暗",
+          "LocalizedString": "轨外谐音-暗"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_002_des",
+          "SourceString": "队伍角色获得<lv>8%</>暗属性异能伤害提升。",
+          "LocalizedString": "队伍角色获得<lv>8%</>暗属性异能伤害提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_29.YH_shenyuanbuffICON_29",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_002.Buff_AbyssCard_P_002_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_003": {
+        "ItemID": "AbyssCard_P_003",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_003_name",
+          "SourceString": "轨外谐音-灵",
+          "LocalizedString": "轨外谐音-灵"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_003_des",
+          "SourceString": "队伍角色获得<lv>8%</>灵属性异能伤害提升。",
+          "LocalizedString": "队伍角色获得<lv>8%</>灵属性异能伤害提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_27.YH_shenyuanbuffICON_27",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_003.Buff_AbyssCard_P_003_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_004": {
+        "ItemID": "AbyssCard_P_004",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_004_name",
+          "SourceString": "轨外谐音-咒",
+          "LocalizedString": "轨外谐音-咒"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_004_des",
+          "SourceString": "队伍角色获得<lv>8%</>咒属性异能伤害提升。",
+          "LocalizedString": "队伍角色获得<lv>8%</>咒属性异能伤害提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_32.YH_shenyuanbuffICON_32",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_004.Buff_AbyssCard_P_004_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_005": {
+        "ItemID": "AbyssCard_P_005",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_005_name",
+          "SourceString": "轨外谐音-魂",
+          "LocalizedString": "轨外谐音-魂"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_005_des",
+          "SourceString": "队伍角色获得<lv>8%</>魂属性异能伤害提升。",
+          "LocalizedString": "队伍角色获得<lv>8%</>魂属性异能伤害提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_28.YH_shenyuanbuffICON_28",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_005.Buff_AbyssCard_P_005_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_006": {
+        "ItemID": "AbyssCard_P_006",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_006_name",
+          "SourceString": "轨外谐音-相",
+          "LocalizedString": "轨外谐音-相"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_006_des",
+          "SourceString": "队伍角色获得<lv>8%</>相属性异能伤害提升。",
+          "LocalizedString": "队伍角色获得<lv>8%</>相属性异能伤害提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_31.YH_shenyuanbuffICON_31",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_006.Buff_AbyssCard_P_006_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_007": {
+        "ItemID": "AbyssCard_P_007",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_007_name",
+          "SourceString": "轨外谐音-暴击率",
+          "LocalizedString": "轨外谐音-暴击率"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_007_des",
+          "SourceString": "队伍角色获得<lv>6%</>暴击率提升。",
+          "LocalizedString": "队伍角色获得<lv>6%</>暴击率提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_33.YH_shenyuanbuffICON_33",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_007.Buff_AbyssCard_P_007_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_008": {
+        "ItemID": "AbyssCard_P_008",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_008_name",
+          "SourceString": "轨外谐音-攻击力",
+          "LocalizedString": "轨外谐音-攻击力"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_008_des",
+          "SourceString": "队伍角色获得<lv>8%</>攻击力提升。",
+          "LocalizedString": "队伍角色获得<lv>8%</>攻击力提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_34.YH_shenyuanbuffICON_34",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_008.Buff_AbyssCard_P_008_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_009": {
+        "ItemID": "AbyssCard_P_009",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_009_name",
+          "SourceString": "轨外谐音-防御力",
+          "LocalizedString": "轨外谐音-防御力"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_009_des",
+          "SourceString": "队伍角色获得<lv>15%</>防御力提升。",
+          "LocalizedString": "队伍角色获得<lv>15%</>防御力提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_35.YH_shenyuanbuffICON_35",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_survive",
+              "SourceString": "生存",
+              "LocalizedString": "生存"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_03.UI_YH_Tips_Label_Bkg_03",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_009.Buff_AbyssCard_P_009_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_010": {
+        "ItemID": "AbyssCard_P_010",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_010_name",
+          "SourceString": "轨外谐音-生命值",
+          "LocalizedString": "轨外谐音-生命值"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_010_des",
+          "SourceString": "队伍角色获得<lv>8%</>生命值提升。",
+          "LocalizedString": "队伍角色获得<lv>8%</>生命值提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_36.YH_shenyuanbuffICON_36",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_survive",
+              "SourceString": "生存",
+              "LocalizedString": "生存"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_03.UI_YH_Tips_Label_Bkg_03",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_010.Buff_AbyssCard_P_010_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_011": {
+        "ItemID": "AbyssCard_P_011",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_011_name",
+          "SourceString": "轨外谐音-倾陷强度",
+          "LocalizedString": "轨外谐音-倾陷强度"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_011_des",
+          "SourceString": "队伍角色获得<lv>40</>倾陷强度提升。",
+          "LocalizedString": "队伍角色获得<lv>40</>倾陷强度提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_37.YH_shenyuanbuffICON_37",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_Unbal",
+              "SourceString": "倾陷",
+              "LocalizedString": "倾陷"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg.UI_YH_Tips_Label_Bkg",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_011.Buff_AbyssCard_P_011_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_012": {
+        "ItemID": "AbyssCard_P_012",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_012_name",
+          "SourceString": "轨外谐音-环合强度",
+          "LocalizedString": "轨外谐音-环合强度"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_012_des",
+          "SourceString": "队伍角色获得<lv>48</>环合强度提升。",
+          "LocalizedString": "队伍角色获得<lv>48</>环合强度提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_38.YH_shenyuanbuffICON_38",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_Mag",
+              "SourceString": "异能环合",
+              "LocalizedString": "异能环合"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_012.Buff_AbyssCard_P_012_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_013": {
+        "ItemID": "AbyssCard_P_013",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_013_name",
+          "SourceString": "乘虚而入",
+          "LocalizedString": "乘虚而入"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_013_des",
+          "SourceString": "对处于「倾陷」状态下的敌人造成的伤害提升<lv>25%</>。",
+          "LocalizedString": "对处于「倾陷」状态下的敌人造成的伤害提升<lv>25%</>。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_26.YH_shenyuanbuffICON_26",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_013/Buff_AbyssCard_P_013.Buff_AbyssCard_P_013_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_014": {
+        "ItemID": "AbyssCard_P_014",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_014_name",
+          "SourceString": "孤胆英雄",
+          "LocalizedString": "孤胆英雄"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_014_des",
+          "SourceString": "如果队伍中仅编入一名角色，则使其造成的伤害提高<lv>50%</>，最大生命值提高<lv>50%</>。",
+          "LocalizedString": "如果队伍中仅编入一名角色，则使其造成的伤害提高<lv>50%</>，最大生命值提高<lv>50%</>。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_40.YH_shenyuanbuffICON_40",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_survive",
+              "SourceString": "生存",
+              "LocalizedString": "生存"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_03.UI_YH_Tips_Label_Bkg_03",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_014/Buff_AbyssCard_P_014.Buff_AbyssCard_P_014_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      },
+      "AbyssCard_P_015": {
+        "ItemID": "AbyssCard_P_015",
+        "ItemName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_015_name",
+          "SourceString": "轨外谐音-暴击伤害",
+          "LocalizedString": "轨外谐音-暴击伤害"
+        },
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "AbyssCard_P_015_des",
+          "SourceString": "队伍角色获得<lv>16%</>暴击伤害提升。",
+          "LocalizedString": "队伍角色获得<lv>16%</>暴击伤害提升。"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BuffItem/YH_shenyuanbuffICON_39.YH_shenyuanbuffICON_39",
+          "SubPathString": ""
+        },
+        "ViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_P",
+              "SourceString": "被动加持",
+              "LocalizedString": "被动加持"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_06.UI_YH_Tips_Label_Bkg_06",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "tag_output",
+              "SourceString": "输出",
+              "LocalizedString": "输出"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Label_Bkg_07.UI_YH_Tips_Label_Bkg_07",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            },
+            "TagDesc": {
+              "CultureInvariantString": null
+            },
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        ],
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Cards/Passive/Buff_AbyssCard_P_015.Buff_AbyssCard_P_015_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ],
+        "AbyssSkill": {
+          "AbilityClass": null,
+          "InputID": "ESkillInputIDType::InputID_Max"
+        }
+      }
+    }
+  }
+]

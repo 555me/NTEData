@@ -1,0 +1,854 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MenuButton",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/SimpleConfig/DT_MenuButton",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'MenuButtonData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Mall": {
+        "MenuButtonName": "Mall",
+        "FuncUnlockID": "Mall",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Menu_1",
+          "SourceString": "商城",
+          "LocalizedString": "商城"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/shangdian.shangdian",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.Mall",
+        "SwitchID": "ESwitchType::Shop",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "Mall",
+        "bHideInAppleVersion": false
+      },
+      "Activity": {
+        "MenuButtonName": "Activity",
+        "FuncUnlockID": "Activity",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Activity",
+          "SourceString": "活动",
+          "LocalizedString": "活动"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/Activity.Activity",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.ActivityAwardMain",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "ActivityMainForm",
+        "bHideInAppleVersion": true
+      },
+      "CityTycoon": {
+        "MenuButtonName": "CityTycoon",
+        "FuncUnlockID": "CityTycoon",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
+          "Key": "BPUI_TycoonMain_021",
+          "SourceString": "都市大亨",
+          "LocalizedString": "都市大亨"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/FunctionEntrance/dushidaheng.dushidaheng",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.Tycoon",
+        "SwitchID": "ESwitchType::Tycoon",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "CityTycoon",
+        "bHideInAppleVersion": true
+      },
+      "CombatAward": {
+        "MenuButtonName": "CombatAward",
+        "FuncUnlockID": "CombatAward",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_MonthCardandBP.ST_MonthCardandBP",
+          "Key": "BPUI_CombatAwards_001",
+          "SourceString": "环期赏令",
+          "LocalizedString": "环期赏令"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/FunctionEntrance/huanqirenwu.huanqirenwu",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.CombatAward",
+        "SwitchID": "ESwitchType::CombatAward",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "CombatAwardMain",
+        "bHideInAppleVersion": false
+      },
+      "juese": {
+        "MenuButtonName": "Juese",
+        "FuncUnlockID": "juese",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_characterinfo_table_00",
+          "SourceString": "角色",
+          "LocalizedString": "角色"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/renwu_juese.renwu_juese",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.juese",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "CharacterMainform",
+        "bHideInAppleVersion": true
+      },
+      "Notice": {
+        "MenuButtonName": "Notice",
+        "FuncUnlockID": "None",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Menu_Notice",
+          "SourceString": "公告",
+          "LocalizedString": "公告"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_Icon_GongGao.YH_UI_Icon_GongGao",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Notice",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "Notice",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "None",
+        "bHideInAppleVersion": true
+      },
+      "AdjustTime": {
+        "MenuButtonName": "AdjustTime",
+        "FuncUnlockID": "AdjustTime",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "AdjustTime_8",
+          "SourceString": "时间系统",
+          "LocalizedString": "时间系统"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/shijian.shijian",
+          "SubPathString": ""
+        },
+        "RedpointType": "None",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "AdjustTime",
+        "bHideInAppleVersion": true
+      },
+      "Lottery": {
+        "MenuButtonName": "Lottery",
+        "FuncUnlockID": "Lottery",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "BPUI_Menu_Chouka",
+          "SourceString": "集市",
+          "LocalizedString": "集市"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/chouka.chouka",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.Lottery",
+        "SwitchID": "ESwitchType::Lottery",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "LotteryMain",
+        "bHideInAppleVersion": true
+      },
+      "likeability": {
+        "MenuButtonName": "likeability",
+        "FuncUnlockID": "likeability",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Menu_4",
+          "SourceString": "羁遇",
+          "LocalizedString": "羁遇"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/haogandu.haogandu",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.likeability",
+        "SwitchID": "ESwitchType::Likeability",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "LikeabilityMain",
+        "bHideInAppleVersion": true
+      },
+      "Group": {
+        "MenuButtonName": "Group",
+        "FuncUnlockID": "Group",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_characterformation_01",
+          "SourceString": "编队",
+          "LocalizedString": "编队"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/biandui.biandui",
+          "SubPathString": ""
+        },
+        "RedpointType": "None",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "None",
+        "bHideInAppleVersion": true
+      },
+      "friend": {
+        "MenuButtonName": "friend",
+        "FuncUnlockID": "friend",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Menu_10",
+          "SourceString": "好友",
+          "LocalizedString": "好友"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_HY_IconTitle.YH_UI_HY_IconTitle",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.Friend.Apply",
+        "SwitchID": "ESwitchType::Friend",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "Friend",
+        "bHideInAppleVersion": true
+      },
+      "AdventureManual": {
+        "MenuButtonName": "AdventureManual",
+        "FuncUnlockID": "AdventureManual",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0036",
+          "SourceString": "探索指南",
+          "LocalizedString": "探索指南"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/tansuozhinan.tansuozhinan",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.AdventureManual",
+        "SwitchID": "ESwitchType::AdventureManual",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "AdventureManual",
+        "bHideInAppleVersion": true
+      },
+      "Achievement": {
+        "MenuButtonName": "Achievement",
+        "FuncUnlockID": "Achievement",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0031",
+          "SourceString": "成就",
+          "LocalizedString": "成就"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/Achievement/YH_UI_Icon_CiDai.YH_UI_Icon_CiDai",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.Achievement",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "AchievementMain",
+        "bHideInAppleVersion": true
+      },
+      "teachguide": {
+        "MenuButtonName": "teachguide",
+        "FuncUnlockID": "teachguide",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Menu_6",
+          "SourceString": "教学",
+          "LocalizedString": "教学"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_heji.YH_UI_icon_top_heji",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.TeachGuide",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "TeachGuideMainForm",
+        "bHideInAppleVersion": true
+      },
+      "online": {
+        "MenuButtonName": "online",
+        "FuncUnlockID": "online",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_friend_13",
+          "SourceString": "多人游戏",
+          "LocalizedString": "多人游戏"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_LJ_Icon.YH_UI_LJ_Icon",
+          "SubPathString": ""
+        },
+        "RedpointType": "None",
+        "SwitchID": "ESwitchType::Online",
+        "JumpPath": "OnlineLobby",
+        "OnLineJumpPath": "OnlineTeam",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "OnlineLobby",
+        "bHideInAppleVersion": true
+      },
+      "WorldLevelReward": {
+        "MenuButtonName": "WorldLevelReward",
+        "FuncUnlockID": "WorldLevelReward",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "BPUI_Menu_HunterAward",
+          "SourceString": "猎人奖励",
+          "LocalizedString": "猎人奖励"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/lierendengjilingjianglinshi.lierendengjilingjianglinshi",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.RoleLevelReward",
+        "SwitchID": "ESwitchType::RoleLevelReward",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "WorldLevelReward",
+        "bHideInAppleVersion": true
+      },
+      "Manual": {
+        "MenuButtonName": "Manual",
+        "FuncUnlockID": "Manual",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Manual_01",
+          "SourceString": "索引",
+          "LocalizedString": "索引"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_TJ_Icon_DuShi.YH_UI_TJ_Icon_DuShi",
+          "SubPathString": ""
+        },
+        "RedpointType": "None",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "ManualMain",
+        "bHideInAppleVersion": true
+      },
+      "ditu": {
+        "MenuButtonName": "ditu",
+        "FuncUnlockID": "ditu",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_map_01",
+          "SourceString": "地图",
+          "LocalizedString": "地图"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/ditu.ditu",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.BigMap",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "BigMap",
+        "bHideInAppleVersion": true
+      },
+      "Inventory": {
+        "MenuButtonName": "Inventory",
+        "FuncUnlockID": "Inventory",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Menu_2",
+          "SourceString": "背包",
+          "LocalizedString": "背包"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/beibao.beibao",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.Bag",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "Bag",
+        "bHideInAppleVersion": false
+      },
+      "LikeabilityChat": {
+        "MenuButtonName": "LikeabilityChat",
+        "FuncUnlockID": "LikeabilityChat",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Menu_5",
+          "SourceString": "消息",
+          "LocalizedString": "消息"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/xiaoxi.xiaoxi",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.likeabilityChat",
+        "SwitchID": "ESwitchType::Likeability",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "LikeabilityChatMain",
+        "bHideInAppleVersion": true
+      },
+      "Quest": {
+        "MenuButtonName": "Quest",
+        "FuncUnlockID": "Quest",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Menu_7",
+          "SourceString": "任务",
+          "LocalizedString": "任务"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_renwu.YH_UI_icon_top_renwu",
+          "SubPathString": ""
+        },
+        "RedpointType": "Redpoint.Menu.Quest",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": false,
+        "ShowChannelIDArray": [],
+        "InShieldUiId": "QuestPanel",
+        "bHideInAppleVersion": true
+      },
+      "Feedback": {
+        "MenuButtonName": "Feedback",
+        "FuncUnlockID": "Feedback",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Menu_Feedback",
+          "SourceString": "问题反馈",
+          "LocalizedString": "问题反馈"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/FunctionEntrance/kefu.kefu",
+          "SubPathString": ""
+        },
+        "RedpointType": "None",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "https://games.wanmei.com/m/sdk_kf3/index.html",
+        "WebViewUrlMap": [],
+        "OverseaWebViewUrlMap": [
+          {
+            "Key": "EHTRegionType::Region_GLOBAL",
+            "Value": "https://nte.perfectworld.com/cs/support.html?cutOutAdapt=1"
+          }
+        ],
+        "OverseaWebViewPlatformUrlMap": [],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": true,
+        "ShowChannelIDArray": [
+          "laohu_9"
+        ],
+        "InShieldUiId": "None",
+        "bHideInAppleVersion": true
+      },
+      "Community": {
+        "MenuButtonName": "Community",
+        "FuncUnlockID": "Community",
+        "bHideWhenLock": true,
+        "ButtonName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Menu_Community",
+          "SourceString": "官方社区",
+          "LocalizedString": "官方社区"
+        },
+        "ButtonImage": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_community.YH_UI_icon_community",
+          "SubPathString": ""
+        },
+        "RedpointType": "None",
+        "SwitchID": "ESwitchType::None",
+        "JumpPath": "None",
+        "OnLineJumpPath": "None",
+        "bHideWhenSwithcClose": false,
+        "WebViewUrl": "https://www.tajiduo.com/index.html?barStyle=2",
+        "WebViewUrlMap": [
+          {
+            "Key": "EHTPlatformType::Windows",
+            "Value": "https://www.tajiduo.com/bbs/index.html?aa=214232#/home?id=2"
+          },
+          {
+            "Key": "EHTPlatformType::IOS",
+            "Value": "https://www.tajiduo.com/index.html?barStyle=2"
+          },
+          {
+            "Key": "EHTPlatformType::Android",
+            "Value": "https://www.tajiduo.com/index.html?barStyle=2"
+          }
+        ],
+        "OverseaWebViewUrlMap": [
+          {
+            "Key": "EHTRegionType::Region_IWPLAY",
+            "Value": "https://nte.iwplay.com.tw/events/ingame/socialmedia/index.html"
+          },
+          {
+            "Key": "EHTRegionType::Region_GLOBAL",
+            "Value": "https://nte.perfectworld.com/net/260106association/index.html"
+          }
+        ],
+        "OverseaWebViewPlatformUrlMap": [
+          {
+            "Key": "EHTRegionType::Region_IWPLAY",
+            "Value": {
+              "OverseaWebViewUrlMap": [
+                {
+                  "Key": "EHTPlatformType::Windows",
+                  "Value": "https://nte.iwplay.com.tw/events/ingame/socialmedia/index.html"
+                },
+                {
+                  "Key": "EHTPlatformType::IOS",
+                  "Value": "https://nte.iwplay.com.tw/events/ingame/socialmedia/index.html"
+                },
+                {
+                  "Key": "EHTPlatformType::Android",
+                  "Value": "https://nte.iwplay.com.tw/events/ingame/socialmedia/index.html"
+                },
+                {
+                  "Key": "EHTPlatformType::PS5",
+                  "Value": "https://nte.iwplay.com.tw/events/ingame/socialmedia/index.html"
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EHTRegionType::Region_GLOBAL",
+            "Value": {
+              "OverseaWebViewUrlMap": [
+                {
+                  "Key": "EHTPlatformType::Windows",
+                  "Value": "https://nte.perfectworld.com/net/260106association/index.html"
+                },
+                {
+                  "Key": "EHTPlatformType::IOS",
+                  "Value": "https://nte.perfectworld.com/net/260106association/index.html"
+                },
+                {
+                  "Key": "EHTPlatformType::Android",
+                  "Value": "https://nte.perfectworld.com/net/260106association/index.html"
+                },
+                {
+                  "Key": "EHTPlatformType::PS5",
+                  "Value": "https://nte.perfectworld.com/net/260106association/index.html"
+                }
+              ]
+            }
+          }
+        ],
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bOnlineDisabled": false,
+        "bHideWithExaminStatus": true,
+        "ShowChannelIDArray": [
+          "laohu_9"
+        ],
+        "InShieldUiId": "None",
+        "bHideInAppleVersion": true
+      }
+    }
+  }
+]
