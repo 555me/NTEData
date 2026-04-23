@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PromisePoolDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Promise/DT_PromisePoolDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'PromisePoolsConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "BP_WishWell_Base": {
+        "ThrowFonsData": {
+          "CostCapital": "Fons",
+          "CostAmount": 1,
+          "BufferWeightValue": 500.0,
+          "GEEffects": [
+            {
+              "WeightValue": 60,
+              "GEClass": {
+                "ObjectName": "BlueprintGeneratedClass'Buff_WishWell_Destruction_C'",
+                "ObjectPath": "/Game/Blueprints/Level/World/Interact/WishWell/BUFF/Blessing/Buff_WishWell_Destruction.1"
+              },
+              "BuffName": {
+                "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+                "Key": "Buff_WishWell_Destruction_des_brief",
+                "SourceString": "破碎物额外掉落随机数量方斯",
+                "LocalizedString": "破碎物额外掉落随机数量方斯"
+              }
+            },
+            {
+              "WeightValue": 100,
+              "GEClass": {
+                "ObjectName": "BlueprintGeneratedClass'Buff_WishWell_Vehicle_C'",
+                "ObjectPath": "/Game/Blueprints/Level/World/Interact/WishWell/BUFF/Blessing/Buff_WishWell_Vehicle.1"
+              },
+              "BuffName": {
+                "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+                "Key": "Buff_WishWell_Vehicle_des_brief",
+                "SourceString": "降低车辆受到的损坏",
+                "LocalizedString": "降低车辆受到的损坏"
+              }
+            },
+            {
+              "WeightValue": 100,
+              "GEClass": {
+                "ObjectName": "BlueprintGeneratedClass'Buff_WishWell_gacha_purple_C'",
+                "ObjectPath": "/Game/Blueprints/Level/World/Interact/WishWell/BUFF/Blessing/Buff_WishWell_gacha_purple.1"
+              },
+              "BuffName": {
+                "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+                "Key": "Buff_WishWell_gacha_purple_des_brief",
+                "SourceString": "扭蛋机额外获得1个紫色扭蛋",
+                "LocalizedString": "扭蛋机额外获得1个紫色扭蛋"
+              }
+            },
+            {
+              "WeightValue": 20,
+              "GEClass": {
+                "ObjectName": "BlueprintGeneratedClass'Buff_WishWell_gacha_orange_C'",
+                "ObjectPath": "/Game/Blueprints/Level/World/Interact/WishWell/BUFF/Blessing/Buff_WishWell_gacha_orange.1"
+              },
+              "BuffName": {
+                "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+                "Key": "Buff_WishWell_gacha_orange_des_brief",
+                "SourceString": "扭蛋机额外获得1个金色扭蛋",
+                "LocalizedString": "扭蛋机额外获得1个金色扭蛋"
+              }
+            },
+            {
+              "WeightValue": 100,
+              "GEClass": {
+                "ObjectName": "BlueprintGeneratedClass'Buff_WishWell_Vending_C'",
+                "ObjectPath": "/Game/Blueprints/Level/World/Interact/WishWell/BUFF/Blessing/Buff_WishWell_Vending.1"
+              },
+              "BuffName": {
+                "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+                "Key": "Buff_WishWell_Vending_des_brief",
+                "SourceString": "售货机额外赠送道具",
+                "LocalizedString": "售货机额外赠送道具"
+              }
+            },
+            {
+              "WeightValue": 60,
+              "GEClass": {
+                "ObjectName": "BlueprintGeneratedClass'Buff_WishWell_DroppingItem_C'",
+                "ObjectPath": "/Game/Blueprints/Level/World/Interact/WishWell/BUFF/Blessing/Buff_WishWell_DroppingItem.1"
+              },
+              "BuffName": {
+                "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+                "Key": "Buff_WishWell_DroppingItem_des_brief",
+                "SourceString": "「素材道具」概率额外掉落",
+                "LocalizedString": "「素材道具」概率额外掉落"
+              }
+            },
+            {
+              "WeightValue": 60,
+              "GEClass": {
+                "ObjectName": "BlueprintGeneratedClass'Buff_WishWell_DroppingCoin_C'",
+                "ObjectPath": "/Game/Blueprints/Level/World/Interact/WishWell/BUFF/Blessing/Buff_WishWell_DroppingCoin.1"
+              },
+              "BuffName": {
+                "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+                "Key": "Buff_WishWell_DroppingCoin_des_brief",
+                "SourceString": "「甲硬币」概率额外掉落",
+                "LocalizedString": "「甲硬币」概率额外掉落"
+              }
+            }
+          ],
+          "DropWeightValue": 500.0,
+          "DropGroupID": "drop_Wishingpond_fishingup",
+          "PromiseSpiritData": {
+            "SpiritProbability": 1.0,
+            "SpiritGEClass": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_WishWell_Anomaly_032_C'",
+              "ObjectPath": "/Game/Blueprints/Level/World/Interact/WishWell/BUFF/Buff_WishWell_Anomaly_032.1"
+            }
+          },
+          "SequenceId": "SE_World_WishWell_01_all",
+          "DiskDropGroupID": "drop_Nakupeda_succes",
+          "ShowTimer": 4.0
+        },
+        "TakeScoopData": {
+          "EvilValue": 200.0,
+          "DropGroupID": "drop_Wishingpond_fishingup",
+          "AngryProbability": 0.5,
+          "AngrySequenceID": "SE_World_WishWell_02_all",
+          "AngryGEClass": {
+            "ObjectName": "BlueprintGeneratedClass'Buff_WishWell_Punish_C'",
+            "ObjectPath": "/Game/Blueprints/Level/World/Interact/WishWell/BUFF/Buff_WishWell_Punish.0"
+          }
+        }
+      }
+    }
+  }
+]

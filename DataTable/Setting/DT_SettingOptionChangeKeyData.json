@@ -1,0 +1,965 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SettingOptionChangeKeyData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Setting/DT_SettingOptionChangeKeyData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SettingOptionChangeKeyDataRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Key_Bag": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Bag'",
+          "ObjectPath": "/Game/Input/IA_Bag.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "B"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "B"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_1",
+          "SourceString": "背包",
+          "LocalizedString": "背包"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "B"
+        },
+        "IsPlayerAbilityKey": false
+      },
+      "Key_Character": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Character'",
+          "ObjectPath": "/Game/Input/IA_Character.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "C"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "C"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_2",
+          "SourceString": "角色",
+          "LocalizedString": "角色"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "C"
+        },
+        "IsPlayerAbilityKey": false
+      },
+      "Key_CharacterFormation": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_CharacterFormation'",
+          "ObjectPath": "/Game/Input/IA_CharacterFormation.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "L"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "L"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_10",
+          "SourceString": "编队",
+          "LocalizedString": "编队"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "L"
+        },
+        "IsPlayerAbilityKey": false
+      },
+      "Key_Map": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Map'",
+          "ObjectPath": "/Game/Input/IA_Map.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "M"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "M"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_12",
+          "SourceString": "地图",
+          "LocalizedString": "地图"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "M"
+        },
+        "IsPlayerAbilityKey": false
+      },
+      "Key_Quest": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Quest'",
+          "ObjectPath": "/Game/Input/IA_Quest.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "J"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "J"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_11",
+          "SourceString": "任务",
+          "LocalizedString": "任务"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "J"
+        },
+        "IsPlayerAbilityKey": false
+      },
+      "Key_Interact": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Interaction'",
+          "ObjectPath": "/Game/Input/IA_Interaction.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "F"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "F"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_16",
+          "SourceString": "交互",
+          "LocalizedString": "交互"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "F"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_TrackQuest": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_TrackingInputAction'",
+          "ObjectPath": "/Game/Input/IA_TrackingInputAction.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "V"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "V"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_17",
+          "SourceString": "任务追踪",
+          "LocalizedString": "任务追踪"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "V"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_Skill": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_SkillAttack'",
+          "ObjectPath": "/Game/Input/IA_SkillAttack.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "E"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "E"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_18",
+          "SourceString": "变轨技能",
+          "LocalizedString": "变轨技能"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "E"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_UltraSkill": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_UltSkillAttack'",
+          "ObjectPath": "/Game/Input/IA_UltSkillAttack.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "Q"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "A"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_19",
+          "SourceString": "极轨终结",
+          "LocalizedString": "极轨终结"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "Q"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_AdditionalSkill": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_AdditionalSkill'",
+          "ObjectPath": "/Game/Input/IA_AdditionalSkill.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "R"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "R"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_33",
+          "SourceString": "弧盘技能",
+          "LocalizedString": "弧盘技能"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "R"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_Aim": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Aiming'",
+          "ObjectPath": "/Game/Input/IA_Aiming.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "G"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "G"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_20",
+          "SourceString": "瞄准",
+          "LocalizedString": "瞄准"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "G"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_LockTarget": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_LockTarget'",
+          "ObjectPath": "/Game/Input/IA_LockTarget.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "MiddleMouseButton"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "MiddleMouseButton"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_31",
+          "SourceString": "手动锁定/解除锁定",
+          "LocalizedString": "手动锁定/解除锁定"
+        },
+        "KeyDisplay": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_32",
+          "SourceString": "鼠标中键",
+          "LocalizedString": "鼠标中键"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_Item": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Shortcut'",
+          "ObjectPath": "/Game/Input/IA_Shortcut.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "T"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "T"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_21",
+          "SourceString": "使用道具",
+          "LocalizedString": "使用道具"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "T"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_Walk": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_WalkRun'",
+          "ObjectPath": "/Game/Input/IA_WalkRun.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "LeftControl"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "LeftControl"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_22",
+          "SourceString": "走/跑切换",
+          "LocalizedString": "走/跑切换"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "L Ctrl"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_One": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_1KeyBoard'",
+          "ObjectPath": "/Game/Input/IA_1KeyBoard.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "One"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "One"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_23",
+          "SourceString": "切换角色1",
+          "LocalizedString": "切换角色1"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "1"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_Two": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_2KeyBoard'",
+          "ObjectPath": "/Game/Input/IA_2KeyBoard.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "Two"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "Two"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_24",
+          "SourceString": "切换角色2",
+          "LocalizedString": "切换角色2"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "2"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_Three": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_3KeyBoard'",
+          "ObjectPath": "/Game/Input/IA_3KeyBoard.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "Three"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "Three"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_25",
+          "SourceString": "切换角色3",
+          "LocalizedString": "切换角色3"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "3"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_Four": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_4KeyBoard'",
+          "ObjectPath": "/Game/Input/IA_4KeyBoard.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "Four"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "Four"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_26",
+          "SourceString": "切换角色4",
+          "LocalizedString": "切换角色4"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "4"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_Melee": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_MeleeAttack'",
+          "ObjectPath": "/Game/Input/IA_MeleeAttack.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "LeftMouseButton"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "LeftMouseButton"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_28",
+          "SourceString": "普通攻击",
+          "LocalizedString": "普通攻击"
+        },
+        "KeyDisplay": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Key_Melee",
+          "SourceString": "鼠标左击",
+          "LocalizedString": "鼠标左击"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_Evade": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_EvadeAttack'",
+          "ObjectPath": "/Game/Input/IA_EvadeAttack.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "LeftShift"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "LeftShift"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_29",
+          "SourceString": "闪避",
+          "LocalizedString": "闪避"
+        },
+        "KeyDisplay": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Key_Evade",
+          "SourceString": "鼠标右键/L Shift",
+          "LocalizedString": "鼠标右键/L Shift"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_Jump": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Jump'",
+          "ObjectPath": "/Game/Input/IA_Jump.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "SpaceBar"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "SpaceBar"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_3",
+          "SourceString": "跳跃",
+          "LocalizedString": "跳跃"
+        },
+        "KeyDisplay": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Key_Jump",
+          "SourceString": "空格键",
+          "LocalizedString": "空格键"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_FirstPersonView": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_SwitchFirstPersonView'",
+          "ObjectPath": "/Game/Input/IA_SwitchFirstPersonView.0"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "Z"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "W"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Key_FirstPersonView",
+          "SourceString": "切换视角",
+          "LocalizedString": "切换视角"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "Z"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_SwitchMose": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_SwitchMouse'",
+          "ObjectPath": "/Game/Input/IA_SwitchMouse.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "LeftAlt"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "LeftAlt"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_8",
+          "SourceString": "呼出鼠标",
+          "LocalizedString": "呼出鼠标"
+        },
+        "KeyDisplay": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Key_SwitchMose",
+          "SourceString": "按住L Alt",
+          "LocalizedString": "按住L Alt"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_MoveForward": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Move'",
+          "ObjectPath": "/Game/Input/IA_Move.0"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "W"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "Z"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_4",
+          "SourceString": "前进",
+          "LocalizedString": "前进"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "W"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_MoveBack": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Move'",
+          "ObjectPath": "/Game/Input/IA_Move.0"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "S"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "S"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_5",
+          "SourceString": "后退",
+          "LocalizedString": "后退"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "S"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_MoveLeft": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Move'",
+          "ObjectPath": "/Game/Input/IA_Move.0"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "A"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "Q"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_6",
+          "SourceString": "左移",
+          "LocalizedString": "左移"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "A"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_MoveRight": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Move'",
+          "ObjectPath": "/Game/Input/IA_Move.0"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "D"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "D"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_7",
+          "SourceString": "右移",
+          "LocalizedString": "右移"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "D"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_ESC": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_Esc'",
+          "ObjectPath": "/Game/Input/IA_Esc.0"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "Escape"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "Escape"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_9",
+          "SourceString": "菜单/退出",
+          "LocalizedString": "菜单/退出"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "ESC"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_QuickMenu": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_QuickMenu'",
+          "ObjectPath": "/Game/Input/Gamepad/IA_QuickMenu.0"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "Escape"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "Escape"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_3_30",
+          "SourceString": "快捷轮盘",
+          "LocalizedString": "快捷轮盘"
+        },
+        "KeyDisplay": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Key_QuickMenu",
+          "SourceString": "按住TAB",
+          "LocalizedString": "按住TAB"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_SnapSelfie": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_SnapSelfie'",
+          "ObjectPath": "/Game/Input/IA_SnapSelfie.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "F8"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "F8"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
+          "Key": "Selfie_090",
+          "SourceString": "抓拍",
+          "LocalizedString": "抓拍"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "F8"
+        },
+        "IsPlayerAbilityKey": true
+      },
+      "Key_NewSelfie": {
+        "KeyInputAction": {
+          "ObjectName": "InputAction'IA_NewSelfie'",
+          "ObjectPath": "/Game/Input/IA_NewSelfie.1"
+        },
+        "InitialKeyMap": [
+          {
+            "Key": "common",
+            "Value": {
+              "KeyName": "F9"
+            }
+          },
+          {
+            "Key": "french",
+            "Value": {
+              "KeyName": "F9"
+            }
+          }
+        ],
+        "Display": {
+          "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
+          "Key": "Selfie_001",
+          "SourceString": "拍照",
+          "LocalizedString": "拍照"
+        },
+        "KeyDisplay": {
+          "CultureInvariantString": "F9"
+        },
+        "IsPlayerAbilityKey": true
+      }
+    }
+  }
+]

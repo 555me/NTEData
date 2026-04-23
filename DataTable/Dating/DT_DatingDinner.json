@@ -1,0 +1,325 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DatingDinner",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Dating/DT_DatingDinner",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'NPCDatingDinnerEntry'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Budori": {
+        "DinnerActionMap": [
+          {
+            "Key": "EatSushi",
+            "Value": {
+              "Montages": [
+                {
+                  "Role": "EDatingRole::Player",
+                  "ActionMontageMap": [
+                    {
+                      "Key": "1046",
+                      "Value": {
+                        "ObjectName": "AnimMontage'char_m_data_eat_Montage'",
+                        "ObjectPath": "/Game/Characters/Player/046_male/animation/date/char_m_data_eat_Montage.0"
+                      }
+                    },
+                    {
+                      "Key": "1051",
+                      "Value": {
+                        "ObjectName": "AnimMontage'char_f_data_eat_Montage'",
+                        "ObjectPath": "/Game/Characters/Player/051_female/animation/Date/char_f_data_eat_Montage.0"
+                      }
+                    }
+                  ],
+                  "CAS_ActionMap": []
+                }
+              ],
+              "DisplayName": "",
+              "Icon": {
+                "ObjectName": "Texture2D'YH_UI_Likeability_Butten_03'",
+                "ObjectPath": "/Game/UI/UI/likeability/Date/YH_UI_Likeability_Butten_03.0"
+              }
+            }
+          },
+          {
+            "Key": "DrinkBeer",
+            "Value": {
+              "Montages": [
+                {
+                  "Role": "EDatingRole::Player",
+                  "ActionMontageMap": [
+                    {
+                      "Key": "1046",
+                      "Value": {
+                        "ObjectName": "AnimMontage'char_m_data_drink_Montage'",
+                        "ObjectPath": "/Game/Characters/Player/046_male/animation/date/char_m_data_drink_Montage.0"
+                      }
+                    },
+                    {
+                      "Key": "1051",
+                      "Value": {
+                        "ObjectName": "AnimMontage'char_f_data_drink_Montage'",
+                        "ObjectPath": "/Game/Characters/Player/051_female/animation/Date/char_f_data_drink_Montage.0"
+                      }
+                    }
+                  ],
+                  "CAS_ActionMap": []
+                }
+              ],
+              "DisplayName": "",
+              "Icon": {
+                "ObjectName": "Texture2D'YH_UI_Likeability_Butten_01'",
+                "ObjectPath": "/Game/UI/UI/likeability/Date/YH_UI_Likeability_Butten_01.0"
+              }
+            }
+          },
+          {
+            "Key": "CheersBeer",
+            "Value": {
+              "Montages": [
+                {
+                  "Role": "EDatingRole::Both",
+                  "ActionMontageMap": [],
+                  "CAS_ActionMap": [
+                    {
+                      "Key": "1046",
+                      "Value": {
+                        "CASAssetMap": [
+                          {
+                            "Key": "NPC_001",
+                            "Value": {
+                              "ObjectName": "ContextualAnimSceneAsset'ContextAnim_CheersBeer_Mint_M'",
+                              "ObjectPath": "/Game/Blueprints/Character/ContextAnim/Date/Budori/ContextAnim_CheersBeer_Mint_M.0"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "Key": "1051",
+                      "Value": {
+                        "CASAssetMap": [
+                          {
+                            "Key": "NPC_001",
+                            "Value": {
+                              "ObjectName": "ContextualAnimSceneAsset'ContextAnim_CheersBeer_Mint_F'",
+                              "ObjectPath": "/Game/Blueprints/Character/ContextAnim/Date/Budori/ContextAnim_CheersBeer_Mint_F.0"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "DisplayName": "",
+              "Icon": {
+                "ObjectName": "Texture2D'YH_UI_Likeability_Butten_02'",
+                "ObjectPath": "/Game/UI/UI/likeability/Date/YH_UI_Likeability_Butten_02.0"
+              }
+            }
+          }
+        ],
+        "DinnerActorMap": [
+          {
+            "Key": "Player_Sushi",
+            "Value": {
+              "ActorToSpawn": {
+                "AssetPathName": "/Game/Blueprints/Level/World/Date/Budori/BP_HoldingGood_Sushi.BP_HoldingGood_Sushi_C",
+                "SubPathString": ""
+              },
+              "RelativeRole": "EDatingRole::Player",
+              "RelativeTransform": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": -0.0,
+                  "Z": 1.0,
+                  "W": 6.123234E-17,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 61.003,
+                  "Z": 81.5
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "AttachSocketName": "None"
+            }
+          },
+          {
+            "Key": "Player_Beer",
+            "Value": {
+              "ActorToSpawn": {
+                "AssetPathName": "/Game/Blueprints/Level/World/Date/Budori/BP_HoldingGood_Beer.BP_HoldingGood_Beer_C",
+                "SubPathString": ""
+              },
+              "RelativeRole": "EDatingRole::Player",
+              "RelativeTransform": {
+                "Rotation": {
+                  "X": -0.0,
+                  "Y": 0.0,
+                  "Z": -0.70710677,
+                  "W": 0.70710677,
+                  "IsNormalized": true,
+                  "Size": 0.99999994,
+                  "SizeSquared": 0.99999994
+                },
+                "Translation": {
+                  "X": 35.675,
+                  "Y": 53.558,
+                  "Z": 81.5
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "AttachSocketName": "None"
+            }
+          },
+          {
+            "Key": "NPC_Noodles",
+            "Value": {
+              "ActorToSpawn": {
+                "AssetPathName": "/Game/Blueprints/Level/World/Date/Budori/BP_HoldingGood_Noodles.BP_HoldingGood_Noodles_C",
+                "SubPathString": ""
+              },
+              "RelativeRole": "EDatingRole::NPC",
+              "RelativeTransform": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": -0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "AttachSocketName": "Bip001-Prop2"
+            }
+          },
+          {
+            "Key": "NPC_Beer",
+            "Value": {
+              "ActorToSpawn": {
+                "AssetPathName": "/Game/Blueprints/Level/World/Date/Budori/BP_HoldingGood_Beer.BP_HoldingGood_Beer_C",
+                "SubPathString": ""
+              },
+              "RelativeRole": "EDatingRole::NPC",
+              "RelativeTransform": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": -0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 5.721,
+                  "Y": 54.996,
+                  "Z": 81.5
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "AttachSocketName": "None"
+            }
+          },
+          {
+            "Key": "Player_Chopsticks",
+            "Value": {
+              "ActorToSpawn": {
+                "AssetPathName": "/Game/Blueprints/Level/World/Date/Budori/BP_HoldingGood_Chopsticks.BP_HoldingGood_Chopsticks_C",
+                "SubPathString": ""
+              },
+              "RelativeRole": "EDatingRole::Player",
+              "RelativeTransform": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "AttachSocketName": "Bip001-Prop1"
+            }
+          },
+          {
+            "Key": "NPC_Chopsticks",
+            "Value": {
+              "ActorToSpawn": {
+                "AssetPathName": "/Game/Blueprints/Level/World/Date/Budori/BP_HoldingGood_Chopsticks.BP_HoldingGood_Chopsticks_C",
+                "SubPathString": ""
+              },
+              "RelativeRole": "EDatingRole::NPC",
+              "RelativeTransform": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "AttachSocketName": "Bip001-Prop1"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

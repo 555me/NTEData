@@ -1,0 +1,108 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SettingImageQualityData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Setting/DT_SettingImageQualityData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SettingImageQualityData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Custom": {
+        "QualityLevel": -1,
+        "ModifyOptionData": []
+      },
+      "High": {
+        "QualityLevel": 2,
+        "ModifyOptionData": [
+          {
+            "ModifyOptionId": "Graphics_AntiAliasing",
+            "ModifyToIndex": 3
+          },
+          {
+            "ModifyOptionId": "Graphics_Texture",
+            "ModifyToIndex": 2
+          },
+          {
+            "ModifyOptionId": "Graphics_Material",
+            "ModifyToIndex": 2
+          },
+          {
+            "ModifyOptionId": "Graphics_Vegetation",
+            "ModifyToIndex": 2
+          },
+          {
+            "ModifyOptionId": "Graphics_ViewDistance",
+            "ModifyToIndex": 2
+          },
+          {
+            "ModifyOptionId": "Graphics_PostProcess",
+            "ModifyToIndex": 2
+          }
+        ]
+      },
+      "Middle": {
+        "QualityLevel": 1,
+        "ModifyOptionData": [
+          {
+            "ModifyOptionId": "Graphics_AntiAliasing",
+            "ModifyToIndex": 2
+          },
+          {
+            "ModifyOptionId": "Graphics_Texture",
+            "ModifyToIndex": 1
+          },
+          {
+            "ModifyOptionId": "Graphics_Material",
+            "ModifyToIndex": 1
+          },
+          {
+            "ModifyOptionId": "Graphics_Vegetation",
+            "ModifyToIndex": 1
+          },
+          {
+            "ModifyOptionId": "Graphics_ViewDistance",
+            "ModifyToIndex": 1
+          },
+          {
+            "ModifyOptionId": "Graphics_PostProcess",
+            "ModifyToIndex": 1
+          }
+        ]
+      },
+      "Low": {
+        "QualityLevel": 0,
+        "ModifyOptionData": [
+          {
+            "ModifyOptionId": "Graphics_AntiAliasing",
+            "ModifyToIndex": 1
+          },
+          {
+            "ModifyOptionId": "Graphics_Texture",
+            "ModifyToIndex": 0
+          },
+          {
+            "ModifyOptionId": "Graphics_Material",
+            "ModifyToIndex": 0
+          },
+          {
+            "ModifyOptionId": "Graphics_Vegetation",
+            "ModifyToIndex": 0
+          },
+          {
+            "ModifyOptionId": "Graphics_ViewDistance",
+            "ModifyToIndex": 0
+          },
+          {
+            "ModifyOptionId": "Graphics_PostProcess",
+            "ModifyToIndex": 0
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CombatAwardCertificateConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/CombatAward/DT_CombatAwardCertificateConfig",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'HTCombatAwardCertificateConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "InitialCertificate": {
+        "Name": {
+          "TableId": "/Game/Text/ST_MonthCardandBP.ST_MonthCardandBP",
+          "Key": "BPUI_CombatAwards_007",
+          "SourceString": "常规猎人补给",
+          "LocalizedString": "常规猎人补给"
+        },
+        "OriginalPrice": {
+          "CultureInvariantString": null
+        },
+        "AddLevel": 0,
+        "ActiveAwardDrop": "None"
+      },
+      "AdvancedCertificate": {
+        "Name": {
+          "TableId": "/Game/Text/ST_MonthCardandBP.ST_MonthCardandBP",
+          "Key": "BPUI_CombatAwards_002",
+          "SourceString": "精锐猎人补给",
+          "LocalizedString": "精锐猎人补给"
+        },
+        "OriginalPrice": {
+          "CultureInvariantString": null
+        },
+        "AddLevel": 10,
+        "ActiveAwardDrop": "drop_combat_unlock"
+      }
+    }
+  }
+]

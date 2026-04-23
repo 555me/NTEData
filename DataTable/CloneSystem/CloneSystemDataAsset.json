@@ -1,0 +1,236 @@
+[
+  {
+    "Type": "HT_CloneSystemDataAsset",
+    "Name": "CloneSystemDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HT_CloneSystemDataAsset'",
+    "Package": "/Game/DataTable/CloneSystem/CloneSystemDataAsset",
+    "Properties": {
+      "DT_CloneSystemData": {
+        "ObjectName": "DataTable'CloneSystemDataTable'",
+        "ObjectPath": "/Game/DataTable/CloneSystem/CloneSystemDataTable.0"
+      },
+      "DT_CloneOverview": {
+        "ObjectName": "DataTable'DT_CloneOverviewRow'",
+        "ObjectPath": "/Game/DataTable/CloneSystem/DT_CloneOverviewRow.0"
+      },
+      "DT_CloneEnter": {
+        "ObjectName": "DataTable'DT_CloneEnter'",
+        "ObjectPath": "/Game/DataTable/CloneSystem/DT_CloneEnter.0"
+      },
+      "DT_CloneMonsterInfo": {
+        "ObjectName": "DataTable'DT_CloneMonsterInfo'",
+        "ObjectPath": "/Game/DataTable/CloneSystem/DT_CloneMonsterInfo.0"
+      },
+      "ExitGameCoolDownTime": 999,
+      "CloneReliveHPPer": 1.0,
+      "ReceiveAwardDatas": [
+        {
+          "CloneType": "ECloneType::Weekly_Clone",
+          "ReceiveCount": 3
+        }
+      ],
+      "ClonePopupUIDataArray": [
+        {
+          "CloneType": [
+            "ECloneType::Trial_Clone",
+            "ECloneType::Talent_Clone",
+            "ECloneType::ArcDisk_Clone",
+            "ECloneType::AirCurtain_Clone",
+            "ECloneType::Weekly_Clone",
+            "ECloneType::BreakThrough_Clone"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "CloneMainForm",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "CloneSystemChallengeResult",
+            "CloneChallengeResultFailedUI": "CloneSystemChallengeFailed",
+            "OnlineCloneChallengeResultFailedUI": "CloneSystemOnlineChallengeFailed",
+            "CloneAwardUI": "UI_CloneSystemAwards"
+          }
+        },
+        {
+          "CloneType": [
+            "ECloneType::Abyss"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "AbyssCloneFight",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "",
+            "CloneChallengeResultFailedUI": "CloneSystemChallengeFailed",
+            "OnlineCloneChallengeResultFailedUI": "",
+            "CloneAwardUI": ""
+          }
+        },
+        {
+          "CloneType": [
+            "ECloneType::Trial_Player_Clone"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "CloneTeachMainForm",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "TeachCloneSystemChallengeResult",
+            "CloneChallengeResultFailedUI": "CloneSystemChallengeFailed",
+            "OnlineCloneChallengeResultFailedUI": "",
+            "CloneAwardUI": "UI_CloneSystemAwards"
+          }
+        },
+        {
+          "CloneType": [
+            "ECloneType::AdvVision"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "AdvVisionGaming",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "AdvVisionSettle",
+            "CloneChallengeResultFailedUI": "CloneSystemChallengeFailed",
+            "OnlineCloneChallengeResultFailedUI": "",
+            "CloneAwardUI": ""
+          }
+        },
+        {
+          "CloneType": [
+            "ECloneType::MultiVision"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "MultiVisionGaming",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "",
+            "CloneChallengeResultFailedUI": "",
+            "OnlineCloneChallengeResultFailedUI": "SpecialMultiCloneChallengeFailed",
+            "CloneAwardUI": ""
+          }
+        },
+        {
+          "CloneType": [
+            "ECloneType::SingleVision"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "SingleVisionGaming",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "",
+            "CloneChallengeResultFailedUI": "CloneSystemChallengeFailed",
+            "OnlineCloneChallengeResultFailedUI": "",
+            "CloneAwardUI": ""
+          }
+        },
+        {
+          "CloneType": [
+            "ECloneType::RobBank"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "RobBankMain",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "RobBankResult",
+            "CloneChallengeResultFailedUI": "RobBankFailed",
+            "OnlineCloneChallengeResultFailedUI": "",
+            "CloneAwardUI": ""
+          }
+        },
+        {
+          "CloneType": [
+            "ECloneType::Gold_Clone"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "CloneMainForm",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "CloneSystemChallengeResult",
+            "CloneChallengeResultFailedUI": "CloneSystemChallengeFailed",
+            "OnlineCloneChallengeResultFailedUI": "",
+            "CloneAwardUI": "CloneSystemGoldAwards"
+          }
+        },
+        {
+          "CloneType": [
+            "ECloneType::VehicleTrial"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "CloneMainForm",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "",
+            "CloneChallengeResultFailedUI": "",
+            "OnlineCloneChallengeResultFailedUI": "",
+            "CloneAwardUI": ""
+          }
+        }
+      ],
+      "CloneAISpawnManagerGuid": "9E423CD748219FDF1E25398FEA31D0DA",
+      "GoldCloneLevelInstanceDiffVector": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -40000.0
+      },
+      "GoldClonePlayerTransferDiffVector": {
+        "X": -1850.0,
+        "Y": 0.0,
+        "Z": -40000.0
+      },
+      "GoldCloneTransferID": "MammonClone",
+      "GoldCloneCameraRotation": {
+        "Pitch": 0.1,
+        "Yaw": 0.0,
+        "Roll": 0.1
+      },
+      "AutoOnlineCancelMatch": 60.0,
+      "BrokeMatchStateUI": [
+        "CloneSystemMainForm",
+        "Dialogue",
+        "SideDialogue",
+        "DlgInteraction",
+        "NPCShop",
+        "CloneSystemLibraryMainForm",
+        "CloneSystemGoldMainForm",
+        "RobBankMain",
+        "FishMain",
+        "MahjongMainForm",
+        "RacingChooseMode"
+      ],
+      "LimitInputCloneTypes": [
+        "ECloneType::Trial_Clone",
+        "ECloneType::Talent_Clone",
+        "ECloneType::ArcDisk_Clone",
+        "ECloneType::AirCurtain_Clone",
+        "ECloneType::Weekly_Clone",
+        "ECloneType::Gold_Clone"
+      ],
+      "ForceFightStateGE": {
+        "AssetPathName": "/Game/Blueprints/Abilities/Buff/Common/Player/Buff_Player_ForceFightState.Buff_Player_ForceFightState_C",
+        "SubPathString": ""
+      },
+      "RecommendTeamLevelMap": [
+        {
+          "Key": "0",
+          "Value": 20
+        },
+        {
+          "Key": "1",
+          "Value": 30
+        },
+        {
+          "Key": "2",
+          "Value": 40
+        },
+        {
+          "Key": "3",
+          "Value": 50
+        },
+        {
+          "Key": "4",
+          "Value": 60
+        },
+        {
+          "Key": "5",
+          "Value": 70
+        },
+        {
+          "Key": "6",
+          "Value": 80
+        },
+        {
+          "Key": "7",
+          "Value": 80
+        }
+      ]
+    }
+  }
+]

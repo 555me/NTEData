@@ -1,0 +1,2234 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemType",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Inventory/DT_ItemType",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'ItemTypeData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "ITEM_TYPE_VEHICLE_KEY": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_VehicleItemData'",
+          "ObjectPath": "/Game/DataTable/Vehicle/DT_VehicleItemData.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_RENTAL_VEHICLE": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_VehicleItemData'",
+          "ObjectPath": "/Game/DataTable/Vehicle/DT_VehicleItemData.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_EQUIPMENT": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_1",
+          "SourceString": "装备",
+          "LocalizedString": "装备"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/zhuangbei.zhuangbei",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/zhuangbei.zhuangbei",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/zhuangbei.zhuangbei",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/zhuangbei.zhuangbei",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_Equipment'",
+          "ObjectPath": "/Game/DataTable/Equipment/DT_Equipment.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTEquipmentItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_kongmu.YH_UI_icon_top_kongmu",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_kongMu.UI_YH_Tips_Type_kongMu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "EquipTipsBase",
+        "bNeedNeedImmediateSerialize": true,
+        "ItemSlotType": "EItemSlotType::ItemSlot_LevelAdd"
+      },
+      "ITEM_TYPE_CONSUMABLE": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_CHARACTER": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_3",
+          "SourceString": "角色",
+          "LocalizedString": "角色"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_juese.renwu_juese",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_juese.renwu_juese",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_juese.renwu_juese",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_juese.renwu_juese",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_Character'",
+          "ObjectPath": "/Game/DataTable/Character/DT_Character.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTCharacterItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/Character.Character",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JueSeKa.UI_YH_Tips_Type_JueSeKa",
+          "SubPathString": ""
+        },
+        "TipsUIID": "CharacterTipsBase",
+        "bNeedNeedImmediateSerialize": true,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_CAPITAL": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_4",
+          "SourceString": "货币",
+          "LocalizedString": "货币"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_huobi.huoqu_huobi",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_huobi.huoqu_huobi",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_huobi.huoqu_huobi",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_huobi.huoqu_huobi",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_CapitalItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_CapitalItemConfig.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/huoqu_huobi.huoqu_huobi",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_HuoBi.UI_YH_Tips_Type_HuoBi",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": true,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_FORK": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_5",
+          "SourceString": "弧盘",
+          "LocalizedString": "弧盘"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/hupan.hupan",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/hupan.hupan",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/hupan.hupan",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/hupan.hupan",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ForkItemData'",
+          "ObjectPath": "/Game/DataTable/Fork/DT_ForkItemData.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTForkItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_GuPan.UI_YH_Tips_Type_GuPan",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ForkTipsBase",
+        "bNeedNeedImmediateSerialize": true,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Level"
+      },
+      "ITEM_TYPE_QUEST": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_zhuxian.renwu_zhuxian",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_zhuxian.renwu_zhuxian",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_zhuxian.renwu_zhuxian",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_zhuxian.renwu_zhuxian",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_IMPORTANT": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_7",
+          "SourceString": "重要",
+          "LocalizedString": "重要"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_zhongyao.huoqu_zhongyao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_zhongyao.huoqu_zhongyao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_zhongyao.huoqu_zhongyao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_zhongyao.huoqu_zhongyao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_ZhongYao.UI_YH_Tips_Type_ZhongYao",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_FORK_MATERIAL": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_COOK_BOOK": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_COOK_MATERIAL": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_COOK_FOOD": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "item_fork_type_11",
+          "SourceString": "食物",
+          "LocalizedString": "食物"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/daoju_shiwu.daoju_shiwu",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_ShiCai.UI_YH_Tips_Type_ShiCai",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_CHARACTER_FRAGMENT": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_EQUIPMENT_CORE": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_1",
+          "SourceString": "装备",
+          "LocalizedString": "装备"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/zhuangbei.zhuangbei",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/zhuangbei.zhuangbei",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/zhuangbei.zhuangbei",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/zhuangbei.zhuangbei",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_Equipment'",
+          "ObjectPath": "/Game/DataTable/Equipment/DT_Equipment.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTEquipmentItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_kongmu.YH_UI_icon_top_kongmu",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_kongMu.UI_YH_Tips_Type_kongMu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "EquipTipsBase",
+        "bNeedNeedImmediateSerialize": true,
+        "ItemSlotType": "EItemSlotType::ItemSlot_LevelAdd"
+      },
+      "ITEM_TYPE_SHOWCASE": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JiaJu.UI_YH_Tips_Type_JiaJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "FurnitureTipsBase",
+        "bNeedNeedImmediateSerialize": true,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_STOREM": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_FURNITURE": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JiaJu.UI_YH_Tips_Type_JiaJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "FurnitureTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_LIKEABILITY_GIFT": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTLikeabilityGiftItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_EQUIPMENT_MATERIAL": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_MUSIC": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JiaJu.UI_YH_Tips_Type_JiaJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "FurnitureTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_LANDSPACE": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JiaJu.UI_YH_Tips_Type_JiaJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "FurnitureTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_AUTO_USE": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_7",
+          "SourceString": "重要",
+          "LocalizedString": "重要"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_ZhongYao.UI_YH_Tips_Type_ZhongYao",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_FLOWER": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JiaJu.UI_YH_Tips_Type_JiaJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "FurnitureTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_BIG_FLOWER": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JiaJu.UI_YH_Tips_Type_JiaJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "FurnitureTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_FIGURES": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JiaJu.UI_YH_Tips_Type_JiaJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "FurnitureTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_LANDSPACE_CIRCLE": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JiaJu.UI_YH_Tips_Type_JiaJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "FurnitureTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_GACHA_BOX": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JiaJu.UI_YH_Tips_Type_JiaJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "FurnitureTipsBase",
+        "bNeedNeedImmediateSerialize": true,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_LOTTERY": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_VEHICLE_ASSISTANT": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_7",
+          "SourceString": "重要",
+          "LocalizedString": "重要"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_ZhongYao.UI_YH_Tips_Type_ZhongYao",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_DISCOUNT_CARD": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_7",
+          "SourceString": "重要",
+          "LocalizedString": "重要"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_zhongyao.huoqu_zhongyao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_zhongyao.huoqu_zhongyao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_zhongyao.huoqu_zhongyao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_zhongyao.huoqu_zhongyao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_ZhongYao.UI_YH_Tips_Type_ZhongYao",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_EXCHANGE_TICKET": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_SHOP_POINT": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_LOCKER_KEY": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsLocker",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_WORLD_CHANGE": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_FASHION": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_8",
+          "SourceString": "时装",
+          "LocalizedString": "时装"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_juesepifu.YH_UI_icon_top_juesepifu",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_MOVABLEPLAYER": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTMovablePlayerItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_SMART_VEHICLE_KEY": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_VehicleItemData'",
+          "ObjectPath": "/Game/DataTable/Vehicle/DT_VehicleItemData.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_FISH": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "ItemType_Fish",
+          "SourceString": "鱼",
+          "LocalizedString": "鱼"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'StaticFishData'",
+          "ObjectPath": "/Game/DataTable/Fish/StaticFishData.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTFishItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_FISH_BAIT": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "ItemType_FishBait",
+          "SourceString": "鱼饵",
+          "LocalizedString": "鱼饵"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Common/ClawMachine/Doll/1.1",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'StaticFishBaitData'",
+          "ObjectPath": "/Game/DataTable/Fish/StaticFishBaitData.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_FISH_ROD": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "ItemType_FishRod",
+          "SourceString": "鱼竿",
+          "LocalizedString": "鱼竿"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/Environment/Building/Interior/Antiquestore/Build_Yiboen/Textures/01.01",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'StaticFishRodData'",
+          "ObjectPath": "/Game/DataTable/Fish/StaticFishRodData.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_DIVINATION_CRYSTAL": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_ROB_BANK": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/SubfunctionEntrance/maozhuayinhang.maozhuayinhang",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/SubfunctionEntrance/maozhuayinhang.maozhuayinhang",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/SubfunctionEntrance/maozhuayinhang.maozhuayinhang",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/SubfunctionEntrance/maozhuayinhang.maozhuayinhang",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_RobBankItemData'",
+          "ObjectPath": "/Game/DataTable/RobBank/DT_RobBankItemData.0"
+        },
+        "ItemClassOverride": null,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/SubfunctionEntrance/maozhuayinhang.maozhuayinhang",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_Bank.UI_YH_Tips_Type_Bank",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_VEHICLE_SKIN": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_10",
+          "SourceString": "改装件",
+          "LocalizedString": "改装件"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zaijupifu.YH_UI_icon_top_zaijupifu",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_ZhongYao.UI_YH_Tips_Type_ZhongYao",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": true,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_GLIDE": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_9",
+          "SourceString": "滑翔翼",
+          "LocalizedString": "滑翔翼"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_huaxiangyipifu.YH_UI_icon_top_huaxiangyipifu",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_CHARACTER_CARD": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_3",
+          "SourceString": "角色",
+          "LocalizedString": "角色"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_juese.renwu_juese",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_juese.renwu_juese",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_juese.renwu_juese",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/renwu_juese.renwu_juese",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/Character.Character",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JueSeKa.UI_YH_Tips_Type_JueSeKa",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": true,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_LIKEABILITY_RELATION": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_FIGURES_FIRST": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/beibao_daoju.beibao_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_JiaJu.UI_YH_Tips_Type_JiaJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "FurnitureTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_ROB_BANK_IMPORTANT": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_7",
+          "SourceString": "重要",
+          "LocalizedString": "重要"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_ItemConfig'",
+          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_ZhongYao.UI_YH_Tips_Type_ZhongYao",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_LIMITED_COUNT_VEHICLE_KEY": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_VehicleItemData'",
+          "ObjectPath": "/Game/DataTable/Vehicle/DT_VehicleItemData.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      }
+    }
+  }
+]

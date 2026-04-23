@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemEffectTypeData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Food/DT_ItemEffectTypeData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'ItemEffectTypeData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "AddHPInstant": {
+        "EffectTypeName": "单次恢复",
+        "CDType": 0,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_Item_TypeIcon_01.UI_YH_Item_TypeIcon_01",
+          "SubPathString": ""
+        }
+      },
+      "AddHPConstant": {
+        "EffectTypeName": "持续恢复",
+        "CDType": 0,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_Item_TypeIcon_02.UI_YH_Item_TypeIcon_02",
+          "SubPathString": ""
+        }
+      },
+      "Revive": {
+        "EffectTypeName": "复活",
+        "CDType": 1,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_Item_TypeIcon_03.UI_YH_Item_TypeIcon_03",
+          "SubPathString": ""
+        }
+      },
+      "Attack": {
+        "EffectTypeName": "攻击",
+        "CDType": 2,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_Item_TypeIcon_04.UI_YH_Item_TypeIcon_04",
+          "SubPathString": ""
+        }
+      },
+      "Defense": {
+        "EffectTypeName": "防御",
+        "CDType": 2,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_Item_TypeIcon_05.UI_YH_Item_TypeIcon_05",
+          "SubPathString": ""
+        }
+      },
+      "Explore": {
+        "EffectTypeName": "探索",
+        "CDType": 3,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_Item_TypeIcon_06.UI_YH_Item_TypeIcon_06",
+          "SubPathString": ""
+        }
+      },
+      "Special": {
+        "EffectTypeName": "特殊",
+        "CDType": 4,
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/6.6",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

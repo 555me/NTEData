@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_VehicleForkEffectSkillBinding",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Fork/DT_VehicleForkEffectSkillBinding",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'HTVehicleForkEffectSkillBinding'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "RequiredSkillTag": {
+          "TagName": "AI"
+        },
+        "VehicleToEffectConfigMap": []
+      },
+      "NewRow_0": {
+        "RequiredSkillTag": {
+          "TagName": "Vehicle"
+        },
+        "VehicleToEffectConfigMap": [
+          {
+            "Key": "Vehicle010",
+            "Value": {
+              "ObjectName": "HTVehicleForkEffectsDataAsset'DA_Vehicle010ForkEffects'",
+              "ObjectPath": "/Game/DataTable/Fork/DA_Vehicle010ForkEffects.0"
+            }
+          },
+          {
+            "Key": "Vehicle024",
+            "Value": {
+              "ObjectName": "HTVehicleForkEffectsDataAsset'DA_Vehicle024ForkEffects'",
+              "ObjectPath": "/Game/DataTable/Fork/DA_Vehicle024ForkEffects.0"
+            }
+          },
+          {
+            "Key": "Vehicle_010_Mods",
+            "Value": {
+              "ObjectName": "HTVehicleForkEffectsDataAsset'DA_Vehicle010ForkEffects'",
+              "ObjectPath": "/Game/DataTable/Fork/DA_Vehicle010ForkEffects.0"
+            }
+          },
+          {
+            "Key": "Vehicle_024_Mods",
+            "Value": {
+              "ObjectName": "HTVehicleForkEffectsDataAsset'DA_Vehicle024ForkEffects'",
+              "ObjectPath": "/Game/DataTable/Fork/DA_Vehicle024ForkEffects.0"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

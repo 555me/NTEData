@@ -1,0 +1,1496 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AuctionBidChatDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/AuctionShop/DT_AuctionBidChatDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'AuctionBidChatConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "AuctionChat_1_1_player": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_1_1",
+          "SourceString": "我需要这件拍品。",
+          "LocalizedString": "我需要这件拍品。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_1_f'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_1_f.0"
+        },
+        "MaleBidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_1_m'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_1_m.0"
+        },
+        "NpcGender": 1,
+        "bPlayerChat": 1
+      },
+      "AuctionChat_1_2_player": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_1_2",
+          "SourceString": "还在预算范围内。",
+          "LocalizedString": "还在预算范围内。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_2_f'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_2_f.0"
+        },
+        "MaleBidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_2_m'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_2_m.0"
+        },
+        "NpcGender": 1,
+        "bPlayerChat": 1
+      },
+      "AuctionChat_1_3_player": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_1_3",
+          "SourceString": "要向店长预支工资吗……",
+          "LocalizedString": "要向店长预支工资吗……"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_3_f'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_3_f.0"
+        },
+        "MaleBidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_3_m'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_3_m.0"
+        },
+        "NpcGender": 1,
+        "bPlayerChat": 1
+      },
+      "AuctionChat_1_4_player": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_1_4",
+          "SourceString": "要多接几份委托了。",
+          "LocalizedString": "要多接几份委托了。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_4_f'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_4_f.0"
+        },
+        "MaleBidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_4_m'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_4_m.0"
+        },
+        "NpcGender": 1,
+        "bPlayerChat": 1
+      },
+      "AuctionChat_1_5_player": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_1_5",
+          "SourceString": "这件拍品值得这个价。",
+          "LocalizedString": "这件拍品值得这个价。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_5_f'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_5_f.0"
+        },
+        "MaleBidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_5_m'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_5_m.0"
+        },
+        "NpcGender": 1,
+        "bPlayerChat": 1
+      },
+      "AuctionChat_2_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_2_1",
+          "SourceString": "这个数，足够了吧。",
+          "LocalizedString": "这个数，足够了吧。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_2_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_2_2",
+          "SourceString": "今晚全场的消费由本公子买单。",
+          "LocalizedString": "今晚全场的消费由本公子买单。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_2_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_2_3",
+          "SourceString": "这样东西，一定得拍下！",
+          "LocalizedString": "这样东西，一定得拍下！"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_2_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_2_4",
+          "SourceString": "洒洒水啦~",
+          "LocalizedString": "洒洒水啦~"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_2_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_2_5",
+          "SourceString": "哦？事情有意思起来了。",
+          "LocalizedString": "哦？事情有意思起来了。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_2_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_2_6",
+          "SourceString": "都是些小打小闹的，我没兴趣了。",
+          "LocalizedString": "都是些小打小闹的，我没兴趣了。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_6'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_6.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_2_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_2_7",
+          "SourceString": "行吧行吧，本公子今天高抬贵手。",
+          "LocalizedString": "行吧行吧，本公子今天高抬贵手。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_3_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_3_1",
+          "SourceString": "（声音中包含了三分讥笑）",
+          "LocalizedString": "（声音中包含了三分讥笑）"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_3_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_3_2",
+          "SourceString": "（声音中包含了三分凉薄）",
+          "LocalizedString": "（声音中包含了三分凉薄）"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_3_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_3_3",
+          "SourceString": "（声音中包含了三分漫不经心）",
+          "LocalizedString": "（声音中包含了三分漫不经心）"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_3_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_3_4",
+          "SourceString": "（声音中包含了三分不屑）",
+          "LocalizedString": "（声音中包含了三分不屑）"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_3_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_3_5",
+          "SourceString": "（声音中包含了三分满不在乎）",
+          "LocalizedString": "（声音中包含了三分满不在乎）"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_3_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_3_6",
+          "SourceString": "哼\r\n（声音中包含了三分释然）",
+          "LocalizedString": "哼\r\n（声音中包含了三分释然）"
+        },
+        "BidVoice": null,
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_3_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_3_7",
+          "SourceString": "哼\r\n（声音中包含了三分无所谓）",
+          "LocalizedString": "哼\r\n（声音中包含了三分无所谓）"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_4_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_4_1",
+          "SourceString": "计算中，价格合理。",
+          "LocalizedString": "计算中，价格合理。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_4_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_4_2",
+          "SourceString": "仍在预估范围内，可加价。",
+          "LocalizedString": "仍在预估范围内，可加价。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_4_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_4_3",
+          "SourceString": "二次确认。",
+          "LocalizedString": "二次确认。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_4_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_4_4",
+          "SourceString": "启用备选方案。",
+          "LocalizedString": "启用备选方案。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_4_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_4_5",
+          "SourceString": "获得拍品概率符合预期。",
+          "LocalizedString": "获得拍品概率符合预期。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_4_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_4_6",
+          "SourceString": "超出最值，放弃竞价。",
+          "LocalizedString": "超出最值，放弃竞价。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_6'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_6.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_4_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_4_7",
+          "SourceString": "资金重新分配中……放弃竞价。",
+          "LocalizedString": "资金重新分配中……放弃竞价。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_5_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_5_1",
+          "SourceString": "就决定是你了。",
+          "LocalizedString": "就决定是你了。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_5_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_5_2",
+          "SourceString": "相信我们之间的羁绊！",
+          "LocalizedString": "相信我们之间的羁绊！"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_5_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_5_3",
+          "SourceString": "这就是友情的力量！",
+          "LocalizedString": "这就是友情的力量！"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_5_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_5_4",
+          "SourceString": "这个价格绝对会赢的！",
+          "LocalizedString": "这个价格绝对会赢的！"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_5_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_5_5",
+          "SourceString": "这次压上所有的荣誉！",
+          "LocalizedString": "这次压上所有的荣誉！"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_5_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_5_6",
+          "SourceString": "果然还是做不到吗……",
+          "LocalizedString": "果然还是做不到吗……"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_6'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_6.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_5_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_5_7",
+          "SourceString": "还是无法战胜吗……",
+          "LocalizedString": "还是无法战胜吗……"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_6_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_6_1",
+          "SourceString": "就当给喵喵买个玩具。",
+          "LocalizedString": "就当给喵喵买个玩具。"
+        },
+        "BidVoice": null,
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_6_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_6_2",
+          "SourceString": "不过一包口粮的钱。",
+          "LocalizedString": "不过一包口粮的钱。"
+        },
+        "BidVoice": null,
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_6_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_6_3",
+          "SourceString": "新玩意，喵喵说不定感兴趣。",
+          "LocalizedString": "新玩意，喵喵说不定感兴趣。"
+        },
+        "BidVoice": null,
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_6_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_6_4",
+          "SourceString": "为了喵喵还要更努力一些。",
+          "LocalizedString": "为了喵喵还要更努力一些。"
+        },
+        "BidVoice": null,
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_6_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_6_5",
+          "SourceString": "和喵喵的新造型很配呢。",
+          "LocalizedString": "和喵喵的新造型很配呢。"
+        },
+        "BidVoice": null,
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_6_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_6_6",
+          "SourceString": "算了，喵喵说不喜欢这个。",
+          "LocalizedString": "算了，喵喵说不喜欢这个。"
+        },
+        "BidVoice": null,
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_6_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_6_7",
+          "SourceString": "唉，喵喵只是一只小狗罢了。",
+          "LocalizedString": "唉，喵喵只是一只小狗罢了。"
+        },
+        "BidVoice": null,
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_7_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_7_1",
+          "SourceString": "压上下个月的零花钱。",
+          "LocalizedString": "压上下个月的零花钱。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_7_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_7_2",
+          "SourceString": "对不起了绘莉老婆。",
+          "LocalizedString": "对不起了绘莉老婆。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_7_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_7_3",
+          "SourceString": "这张卡里还有点……",
+          "LocalizedString": "这张卡里还有点……"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_7_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_7_4",
+          "SourceString": "拜托拜托给我吧！",
+          "LocalizedString": "拜托拜托给我吧！"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_7_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_7_5",
+          "SourceString": "……已经是极限了。",
+          "LocalizedString": "……已经是极限了。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_7_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_7_6",
+          "SourceString": "拼尽全力还是不够吗……",
+          "LocalizedString": "拼尽全力还是不够吗……"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_6'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_6.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_7_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_7_7",
+          "SourceString": "可恶偏偏昨天补了尾款。",
+          "LocalizedString": "可恶偏偏昨天补了尾款。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_8_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_8_1",
+          "SourceString": "这样东西大人势在必得。",
+          "LocalizedString": "这样东西大人势在必得。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_8_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_8_2",
+          "SourceString": "献给那位大人的东西不可疏漏。",
+          "LocalizedString": "献给那位大人的东西不可疏漏。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_8_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_8_3",
+          "SourceString": "在场的各位可收手了。",
+          "LocalizedString": "在场的各位可收手了。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_8_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_8_4",
+          "SourceString": "计划不可更改。",
+          "LocalizedString": "计划不可更改。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_8_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_8_5",
+          "SourceString": "一切都是为了……",
+          "LocalizedString": "一切都是为了……"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_8_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_8_6",
+          "SourceString": "……去找更好的替代品吧。",
+          "LocalizedString": "……去找更好的替代品吧。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_6'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_6.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_8_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_8_7",
+          "SourceString": "联系拍卖方。",
+          "LocalizedString": "联系拍卖方。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_9_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_9_1",
+          "SourceString": "合理的价格。",
+          "LocalizedString": "合理的价格。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_9_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_9_2",
+          "SourceString": "还能商量。",
+          "LocalizedString": "还能商量。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_9_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_9_3",
+          "SourceString": "竞价是正常的商业行为。",
+          "LocalizedString": "竞价是正常的商业行为。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_9_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_9_4",
+          "SourceString": "稍微有点超预算了。",
+          "LocalizedString": "稍微有点超预算了。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_9_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_9_5",
+          "SourceString": "我加价其余随意。",
+          "LocalizedString": "我加价其余随意。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_9_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_9_6",
+          "SourceString": "技不如人，我放弃。",
+          "LocalizedString": "技不如人，我放弃。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_6'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_6.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_9_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_9_7",
+          "SourceString": "就到这里吧，我放弃。",
+          "LocalizedString": "就到这里吧，我放弃。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_10_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_10_1",
+          "SourceString": "跟。",
+          "LocalizedString": "跟。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_10_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_10_2",
+          "SourceString": "继续。",
+          "LocalizedString": "继续。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_10_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_10_3",
+          "SourceString": "再加。",
+          "LocalizedString": "再加。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_10_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_10_4",
+          "SourceString": "有了。",
+          "LocalizedString": "有了。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_10_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_10_5",
+          "SourceString": "确认。",
+          "LocalizedString": "确认。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_10_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_10_6",
+          "SourceString": "过。",
+          "LocalizedString": "过。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_6'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_6.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_10_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_10_7",
+          "SourceString": "放弃。",
+          "LocalizedString": "放弃。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_11_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_11_1",
+          "SourceString": "它真漂亮。",
+          "LocalizedString": "它真漂亮。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_11_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_11_2",
+          "SourceString": "珍品值得优待。",
+          "LocalizedString": "珍品值得优待。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_11_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_11_3",
+          "SourceString": "我要为你专门准备一个保险箱。",
+          "LocalizedString": "我要为你专门准备一个保险箱。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_11_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_11_4",
+          "SourceString": "跟我回家吧。",
+          "LocalizedString": "跟我回家吧。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_11_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_11_5",
+          "SourceString": "这个价格才配得上它。",
+          "LocalizedString": "这个价格才配得上它。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_11_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_11_6",
+          "SourceString": "艺术无价。",
+          "LocalizedString": "艺术无价。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_6'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_6.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_11_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_11_7",
+          "SourceString": "缺了点缘分呢。",
+          "LocalizedString": "缺了点缘分呢。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_12_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_12_1",
+          "SourceString": "算我请的。",
+          "LocalizedString": "算我请的。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_12_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_12_2",
+          "SourceString": "这一局到我。",
+          "LocalizedString": "这一局到我。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_12_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_13_3",
+          "SourceString": "让游戏更精彩一些。",
+          "LocalizedString": "让游戏更精彩一些。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_12_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_12_4",
+          "SourceString": "有点陪伴感如何？",
+          "LocalizedString": "有点陪伴感如何？"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_12_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_12_5",
+          "SourceString": "再支持一回。",
+          "LocalizedString": "再支持一回。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_12_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_12_6",
+          "SourceString": "下一件或许更好。",
+          "LocalizedString": "下一件或许更好。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_6'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_6.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_12_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_12_7",
+          "SourceString": "预算没带够啊。",
+          "LocalizedString": "预算没带够啊。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_13_1": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_13_1",
+          "SourceString": "添点彩头。",
+          "LocalizedString": "添点彩头。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_1.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_13_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_13_2",
+          "SourceString": "不错不错。",
+          "LocalizedString": "不错不错。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_13_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_13_3",
+          "SourceString": "让游戏更精彩一些。",
+          "LocalizedString": "让游戏更精彩一些。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_13_4": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_13_4",
+          "SourceString": "好机会！",
+          "LocalizedString": "好机会！"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_4.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_13_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_13_5",
+          "SourceString": "再来再来！",
+          "LocalizedString": "再来再来！"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_13_6_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_13_6",
+          "SourceString": "休息时间。",
+          "LocalizedString": "休息时间。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_6'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_6.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionChat_13_7_lose": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionChat_13_7",
+          "SourceString": "就到这里吧。",
+          "LocalizedString": "就到这里吧。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_7'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_7.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionDetail_5": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionDetail_5",
+          "SourceString": "这件拍品属于您",
+          "LocalizedString": "这件拍品属于您"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionDetail_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionDetail_5.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionDetail_3_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionDetail_3_2",
+          "SourceString": "，有人愿意出更高的价格吗？",
+          "LocalizedString": "，有人愿意出更高的价格吗？"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionDetail_3_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionDetail_3_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionDetail_4_2": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionDetail_4_2",
+          "SourceString": "，这件拍品有很高的升值空间。",
+          "LocalizedString": "，这件拍品有很高的升值空间。"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionDetail_4_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionDetail_4_2.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      },
+      "AuctionDetail_5_3": {
+        "bBidding": true,
+        "ChatContext": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "AuctionDetail_5_3",
+          "SourceString": "，还有人感兴趣吗？",
+          "LocalizedString": "，还有人感兴趣吗？"
+        },
+        "BidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionDetail_5_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionDetail_5_3.0"
+        },
+        "MaleBidVoice": null,
+        "NpcGender": 0,
+        "bPlayerChat": 0
+      }
+    }
+  }
+]

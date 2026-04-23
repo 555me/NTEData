@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SubmitItemDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Inventory/DT_SubmitItemDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SubmitItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Submit_Police_Lostthing": {
+        "PieceItems": [
+          {
+            "PieceItemID": "Lost_wallet",
+            "PieceAmount": 1
+          },
+          {
+            "PieceItemID": "CabinetKey_102",
+            "PieceAmount": 1
+          }
+        ],
+        "AwardItemID": "Item_reduce_sin"
+      },
+      "CNPC_117020_comic": {
+        "PieceItems": [
+          {
+            "PieceItemID": "Prison_comic",
+            "PieceAmount": 2
+          }
+        ],
+        "AwardItemID": "Food_116"
+      },
+      "CNPC_117021_soap": {
+        "PieceItems": [
+          {
+            "PieceItemID": "Prison_soap",
+            "PieceAmount": 5
+          }
+        ],
+        "AwardItemID": "Food_116"
+      },
+      "CNPC_117022_poker": {
+        "PieceItems": [
+          {
+            "PieceItemID": "Prison_poker",
+            "PieceAmount": 3
+          }
+        ],
+        "AwardItemID": "Food_116"
+      }
+    }
+  }
+]

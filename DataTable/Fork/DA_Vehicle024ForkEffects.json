@@ -1,0 +1,401 @@
+[
+  {
+    "Type": "HTVehicleForkEffectsDataAsset",
+    "Name": "DA_Vehicle024ForkEffects",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTVehicleForkEffectsDataAsset'",
+    "Package": "/Game/DataTable/Fork/DA_Vehicle024ForkEffects",
+    "Properties": {
+      "ForkTopSpeedIncreaseRate": 0.0,
+      "ForkTorqueIncreaseRate": 0.0,
+      "ForkDamageReductionRate": 0.0,
+      "ForkLightColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 2000.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "VehicleForkBgmID": "NightRun",
+      "EffectDefinitions": [
+        {
+          "EffectName": "WheelEffect",
+          "EffectAsset": {
+            "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_02.Nia_Disk_BlueFire_02",
+            "SubPathString": ""
+          },
+          "SpawnRule": {
+            "SpawnParam": {
+              "LocationType": "EAttachLocation::SnapToTarget",
+              "PoolingMethod": "ENCPoolMethod::None",
+              "bForceCreate": true,
+              "bAutoDestroy": false,
+              "bCheckThirdClientEffect": true,
+              "UseParentBound": true,
+              "bAutoActivate": true,
+              "bAcceptCustomDilation": true,
+              "EntryStateHideParticle": false,
+              "AdaptiveScale": false,
+              "UseAbsolutionRotator": false
+            },
+            "SpawnTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "DelaySpawnDuration": 0.5,
+            "SpawnCountRule": {},
+            "AttachTargetRule": {},
+            "AttachSocketRule": {
+              "SocketName": "root"
+            }
+          },
+          "UpdateRule": {
+            "RelativeLocationSource": {},
+            "RelativeRotationSource": {},
+            "RelativeScale3DSource": {},
+            "FloatParameters": [
+              {
+                "Key": "Speed",
+                "Value": {
+                  "Divisor": 60.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "EffectName": "WheelTailEffect",
+          "EffectAsset": {
+            "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_04.Nia_Disk_BlueFire_04",
+            "SubPathString": ""
+          },
+          "SpawnRule": {
+            "SpawnParam": {
+              "LocationType": "EAttachLocation::SnapToTarget",
+              "PoolingMethod": "ENCPoolMethod::None",
+              "bForceCreate": true,
+              "bAutoDestroy": false,
+              "bCheckThirdClientEffect": true,
+              "UseParentBound": true,
+              "bAutoActivate": true,
+              "bAcceptCustomDilation": true,
+              "EntryStateHideParticle": false,
+              "AdaptiveScale": false,
+              "UseAbsolutionRotator": false
+            },
+            "SpawnTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "DelaySpawnDuration": 0.5,
+            "SpawnCountRule": {},
+            "AttachTargetRule": {},
+            "AttachSocketRule": {
+              "SocketName": "root"
+            }
+          },
+          "UpdateRule": {
+            "RelativeLocationSource": {},
+            "RelativeRotationSource": null,
+            "RelativeScale3DSource": null,
+            "FloatParameters": []
+          }
+        },
+        {
+          "EffectName": "VehicleTireFlameEffect",
+          "EffectAsset": {
+            "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_01.Nia_Disk_BlueFire_01",
+            "SubPathString": ""
+          },
+          "SpawnRule": {
+            "SpawnParam": {
+              "LocationType": "EAttachLocation::SnapToTarget",
+              "PoolingMethod": "ENCPoolMethod::None",
+              "bForceCreate": true,
+              "bAutoDestroy": false,
+              "bCheckThirdClientEffect": true,
+              "UseParentBound": true,
+              "bAutoActivate": true,
+              "bAcceptCustomDilation": true,
+              "EntryStateHideParticle": false,
+              "AdaptiveScale": false,
+              "UseAbsolutionRotator": false
+            },
+            "SpawnTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "DelaySpawnDuration": 0.5,
+            "SpawnCountRule": {},
+            "AttachTargetRule": {
+              "ModuleType": "EVehicleModuleType::EVMT_BackBodyKit"
+            },
+            "AttachSocketRule": {}
+          },
+          "UpdateRule": {
+            "RelativeLocationSource": null,
+            "RelativeRotationSource": null,
+            "RelativeScale3DSource": null,
+            "FloatParameters": [
+              {
+                "Key": "Intensity",
+                "Value": {}
+              }
+            ]
+          }
+        },
+        {
+          "EffectName": "VehicleWindEffect1",
+          "EffectAsset": {
+            "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_07.Nia_Disk_BlueFire_07",
+            "SubPathString": ""
+          },
+          "SpawnRule": {
+            "SpawnParam": {
+              "LocationType": "EAttachLocation::SnapToTarget",
+              "PoolingMethod": "ENCPoolMethod::None",
+              "bForceCreate": true,
+              "bAutoDestroy": false,
+              "bCheckThirdClientEffect": true,
+              "UseParentBound": true,
+              "bAutoActivate": true,
+              "bAcceptCustomDilation": true,
+              "EntryStateHideParticle": false,
+              "AdaptiveScale": false,
+              "UseAbsolutionRotator": false
+            },
+            "SpawnTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "DelaySpawnDuration": 0.0,
+            "SpawnCountRule": {
+              "SpawnCount": 1
+            },
+            "AttachTargetRule": {},
+            "AttachSocketRule": {
+              "SocketName": "VehicleWindEffectSocket"
+            }
+          },
+          "UpdateRule": {
+            "RelativeLocationSource": null,
+            "RelativeRotationSource": null,
+            "RelativeScale3DSource": null,
+            "FloatParameters": [
+              {
+                "Key": "Wind_Dis",
+                "Value": {
+                  "WindSizeCurve": {
+                    "ObjectName": "CurveFloat'WushoutieyuForkVehicleWind1'",
+                    "ObjectPath": "/Game/Curve/Fork/WushoutieyuForkVehicleWind1.0"
+                  }
+                }
+              },
+              {
+                "Key": "Refraction",
+                "Value": {
+                  "WindSizeCurve": {
+                    "ObjectName": "CurveFloat'WushoutieyuForkVehicleWind2'",
+                    "ObjectPath": "/Game/Curve/Fork/WushoutieyuForkVehicleWind2.0"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "EffectName": "VehicleWindEffect2",
+          "EffectAsset": {
+            "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_08.Nia_Disk_BlueFire_08",
+            "SubPathString": ""
+          },
+          "SpawnRule": {
+            "SpawnParam": {
+              "LocationType": "EAttachLocation::SnapToTarget",
+              "PoolingMethod": "ENCPoolMethod::None",
+              "bForceCreate": true,
+              "bAutoDestroy": false,
+              "bCheckThirdClientEffect": true,
+              "UseParentBound": true,
+              "bAutoActivate": true,
+              "bAcceptCustomDilation": true,
+              "EntryStateHideParticle": false,
+              "AdaptiveScale": false,
+              "UseAbsolutionRotator": false
+            },
+            "SpawnTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "DelaySpawnDuration": 0.0,
+            "SpawnCountRule": {
+              "SpawnCount": 1
+            },
+            "AttachTargetRule": {},
+            "AttachSocketRule": {
+              "SocketName": "VehicleWindEffectSocket"
+            }
+          },
+          "UpdateRule": {
+            "RelativeLocationSource": null,
+            "RelativeRotationSource": null,
+            "RelativeScale3DSource": null,
+            "FloatParameters": [
+              {
+                "Key": "Wind_Dis",
+                "Value": {
+                  "WindSizeCurve": {
+                    "ObjectName": "CurveFloat'WushoutieyuForkVehicleWind1'",
+                    "ObjectPath": "/Game/Curve/Fork/WushoutieyuForkVehicleWind1.0"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "EffectName": "VehicleScan",
+          "EffectAsset": {
+            "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_06.Nia_Disk_BlueFire_06",
+            "SubPathString": ""
+          },
+          "SpawnRule": {
+            "SpawnParam": {
+              "LocationType": "EAttachLocation::SnapToTarget",
+              "PoolingMethod": "ENCPoolMethod::None",
+              "bForceCreate": true,
+              "bAutoDestroy": true,
+              "bCheckThirdClientEffect": true,
+              "UseParentBound": true,
+              "bAutoActivate": true,
+              "bAcceptCustomDilation": true,
+              "EntryStateHideParticle": false,
+              "AdaptiveScale": false,
+              "UseAbsolutionRotator": false
+            },
+            "SpawnTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "DelaySpawnDuration": 0.0,
+            "SpawnCountRule": {
+              "SpawnCount": 1
+            },
+            "AttachTargetRule": {},
+            "AttachSocketRule": {
+              "SocketName": "root"
+            }
+          },
+          "UpdateRule": {
+            "RelativeLocationSource": null,
+            "RelativeRotationSource": null,
+            "RelativeScale3DSource": null,
+            "FloatParameters": []
+          }
+        }
+      ]
+    }
+  }
+]

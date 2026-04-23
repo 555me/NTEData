@@ -1,0 +1,3633 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GameplayEffectFoodTipsDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Skill/Buffer/GameplayEffectFoodTipsDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameplayEffectTips'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Food_001": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_001_name",
+          "SourceString": "极点",
+          "LocalizedString": "极点"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0001",
+          "SourceString": "队伍中所有角色攻击力增加75，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加75，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_002": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_002_name",
+          "SourceString": "茶界T-Fusion",
+          "LocalizedString": "茶界T-Fusion"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_hp.bufficon_common_hp",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0002",
+          "SourceString": "队伍中所有角色消耗的体力降低20%，持续900秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色消耗的体力降低20%，持续900秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 1,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_003": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_003_name",
+          "SourceString": "冰点冷萃",
+          "LocalizedString": "冰点冷萃"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0003",
+          "SourceString": "队伍中所有角色体力回复速度提升20%，持续900秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升20%，持续900秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 2,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_004": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_004_name",
+          "SourceString": "魔法膨胀全麦面包",
+          "LocalizedString": "魔法膨胀全麦面包"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0004",
+          "SourceString": "为当前角色恢复生命值上限的12%，并额外恢复850点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的12%，并额外恢复850点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 3,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_005": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_005_name",
+          "SourceString": "坂井蜜瓜包",
+          "LocalizedString": "坂井蜜瓜包"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0005",
+          "SourceString": "为当前角色恢复生命值上限的10%，并在之后的30秒内，每5秒恢复260点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的10%，并在之后的30秒内，每5秒恢复260点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 4,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_006": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_006_name",
+          "SourceString": "酷辣辣辣条",
+          "LocalizedString": "酷辣辣辣条"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0006",
+          "SourceString": "队伍中所有角色暴击率增加4%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加4%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 5,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_007": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_007_name",
+          "SourceString": "炫动",
+          "LocalizedString": "炫动"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0007",
+          "SourceString": "队伍中所有角色攻击力增加50，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加50，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 6,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_008": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_008_name",
+          "SourceString": "炫动「零点」",
+          "LocalizedString": "炫动「零点」"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0008",
+          "SourceString": "队伍中所有角色攻击力增加80，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加80，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 7,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_009": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_009_name",
+          "SourceString": "劲爽「果漾」",
+          "LocalizedString": "劲爽「果漾」"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0009",
+          "SourceString": "队伍中所有角色暴击率增加6.4%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加6.4%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 8,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_010": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_010_name",
+          "SourceString": "劲爽「冰川」",
+          "LocalizedString": "劲爽「冰川」"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0010",
+          "SourceString": "队伍中所有角色暴击伤害增加12.8%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加12.8%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 9,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_011": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_011_name",
+          "SourceString": "劲爽「谜」",
+          "LocalizedString": "劲爽「谜」"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0011",
+          "SourceString": "队伍中所有角色攻击力增加140，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加140，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 10,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_012": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_012_name",
+          "SourceString": "咕比奇原味薯片",
+          "LocalizedString": "咕比奇原味薯片"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0012",
+          "SourceString": "为当前角色恢复生命值上限的24%。",
+          "LocalizedString": "为当前角色恢复生命值上限的24%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 11,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_013": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_013_name",
+          "SourceString": "咕比奇黄瓜薯片",
+          "LocalizedString": "咕比奇黄瓜薯片"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0013",
+          "SourceString": "为当前角色恢复1750点生命值。",
+          "LocalizedString": "为当前角色恢复1750点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 12,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_014": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_014_name",
+          "SourceString": "咕比奇黄油薯片",
+          "LocalizedString": "咕比奇黄油薯片"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0014",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复455生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复455生命值"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 13,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_015": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_015_name",
+          "SourceString": "再来一口！「牛奶味」",
+          "LocalizedString": "再来一口！「牛奶味」"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0015",
+          "SourceString": "队伍中所有角色暴击率增加4.8%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加4.8%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 14,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_016": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_016_name",
+          "SourceString": "再来一口！「巧克力味」",
+          "LocalizedString": "再来一口！「巧克力味」"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0016",
+          "SourceString": "队伍中所有角色暴击伤害增加9.6%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加9.6%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 15,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_017": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_017_name",
+          "SourceString": "咕比脆",
+          "LocalizedString": "咕比脆"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0017",
+          "SourceString": "为当前角色恢复生命值上限的20%。",
+          "LocalizedString": "为当前角色恢复生命值上限的20%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 16,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_018": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_018_name",
+          "SourceString": "鲍勃茶园",
+          "LocalizedString": "鲍勃茶园"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0018",
+          "SourceString": "为当前角色恢复1450点生命值。",
+          "LocalizedString": "为当前角色恢复1450点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 17,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_019": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_019_name",
+          "SourceString": "鲍勃橙意满满",
+          "LocalizedString": "鲍勃橙意满满"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0019",
+          "SourceString": "为当前角色恢复2500点生命值。",
+          "LocalizedString": "为当前角色恢复2500点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 18,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_020": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_020_name",
+          "SourceString": "鲍勃莓莓相遇",
+          "LocalizedString": "鲍勃莓莓相遇"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0020",
+          "SourceString": "为当前角色恢复生命值上限的34%。",
+          "LocalizedString": "为当前角色恢复生命值上限的34%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 19,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_021": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_021_name",
+          "SourceString": "鲍勃惊喜果园",
+          "LocalizedString": "鲍勃惊喜果园"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0021",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复650生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复650生命值"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 20,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_022": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_022_name",
+          "SourceString": "鲍勃阳光牧场",
+          "LocalizedString": "鲍勃阳光牧场"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0022",
+          "SourceString": "为当前角色恢复生命值上限的16%，并在之后的30秒内，每5秒恢复299点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的16%，并在之后的30秒内，每5秒恢复299点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 21,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_023": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_023_name",
+          "SourceString": "噗卡巧克力「经典系列」",
+          "LocalizedString": "噗卡巧克力「经典系列」"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0023",
+          "SourceString": "为当前角色恢复生命值上限的40%。",
+          "LocalizedString": "为当前角色恢复生命值上限的40%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 22,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_024": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_024_name",
+          "SourceString": "噗卡巧克力「果仁风暴」",
+          "LocalizedString": "噗卡巧克力「果仁风暴」"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0024",
+          "SourceString": "为当前角色恢复2950点生命值。",
+          "LocalizedString": "为当前角色恢复2950点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 23,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_025": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_025_name",
+          "SourceString": "噗卡巧克力「热辣挑战」",
+          "LocalizedString": "噗卡巧克力「热辣挑战」"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0025",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复767生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复767生命值"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 24,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_026": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_026_name",
+          "SourceString": "噗卡巧克力「绘莉巡演纪念款」",
+          "LocalizedString": "噗卡巧克力「绘莉巡演纪念款」"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0026",
+          "SourceString": "为当前角色恢复生命值上限的56%。",
+          "LocalizedString": "为当前角色恢复生命值上限的56%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 25,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_027": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_027_name",
+          "SourceString": "噗卡好梦棉花糖",
+          "LocalizedString": "噗卡好梦棉花糖"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0027",
+          "SourceString": "复活选中角色，并额外恢复2200生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复2200生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 26,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_028": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_028_name",
+          "SourceString": "噗卡幸运星",
+          "LocalizedString": "噗卡幸运星"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0028",
+          "SourceString": "为当前角色恢复生命值上限的30%。",
+          "LocalizedString": "为当前角色恢复生命值上限的30%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 27,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_029": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_029_name",
+          "SourceString": "极品豆腐排",
+          "LocalizedString": "极品豆腐排"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0029",
+          "SourceString": "复活选中角色，并恢复生命值上限的30%。",
+          "LocalizedString": "复活选中角色，并恢复生命值上限的30%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 28,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_030": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_030_name",
+          "SourceString": "炸豆腐",
+          "LocalizedString": "炸豆腐"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0030",
+          "SourceString": "为当前角色恢复生命值上限的20%，并在之后的30秒内，每5秒恢复182点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的20%，并在之后的30秒内，每5秒恢复182点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 29,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_031": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_031_name",
+          "SourceString": "手磨纯豆乳",
+          "LocalizedString": "手磨纯豆乳"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0031",
+          "SourceString": "为当前角色恢复1450点生命值，并在之后的30秒内，每5秒恢复182点生命值。",
+          "LocalizedString": "为当前角色恢复1450点生命值，并在之后的30秒内，每5秒恢复182点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 30,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_032": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_032_name",
+          "SourceString": "白雪豆花",
+          "LocalizedString": "白雪豆花"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0032",
+          "SourceString": "为当前角色恢复生命值上限的10%，并在之后的30秒内，每5秒恢复377点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的10%，并在之后的30秒内，每5秒恢复377点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 31,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_033": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_033_name",
+          "SourceString": "超级豚骨拉面",
+          "LocalizedString": "超级豚骨拉面"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0033",
+          "SourceString": "队伍中所有角色攻击力增加100，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加100，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 32,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_034": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_034_name",
+          "SourceString": "时令寿司船",
+          "LocalizedString": "时令寿司船"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0034",
+          "SourceString": "队伍中所有角色暴击率增加8%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加8%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 33,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_035": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_035_name",
+          "SourceString": "酥酥酥天丼",
+          "LocalizedString": "酥酥酥天丼"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0035",
+          "SourceString": "队伍中所有角色暴击伤害增加16%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加16%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 34,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_036": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_036_name",
+          "SourceString": "蜜汁鸡肉串",
+          "LocalizedString": "蜜汁鸡肉串"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0036",
+          "SourceString": "队伍中所有角色攻击力增加75，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加75，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 35,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_037": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_037_name",
+          "SourceString": "炭烤青花鱼",
+          "LocalizedString": "炭烤青花鱼"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0037",
+          "SourceString": "队伍中所有角色暴击率增加6%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加6%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 36,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_038": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_038_name",
+          "SourceString": "千代家自酿生啤",
+          "LocalizedString": "千代家自酿生啤"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_def.bufficon_common_def",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0038",
+          "SourceString": "队伍中所有角色防御力增加50，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色防御力增加50，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 37,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_039": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_039_name",
+          "SourceString": "番茄百分百",
+          "LocalizedString": "番茄百分百"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0039",
+          "SourceString": "队伍中所有角色体力回复速度提升10%，持续900秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升10%，持续900秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 38,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_040": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_040_name",
+          "SourceString": "咔咔蔬菜三明治",
+          "LocalizedString": "咔咔蔬菜三明治"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0040",
+          "SourceString": "复活选中角色，并额外恢复1150生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复1150生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 39,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_041": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_041_name",
+          "SourceString": "热辣烤鸡菠萝丼",
+          "LocalizedString": "热辣烤鸡菠萝丼"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0041",
+          "SourceString": "复活选中角色，并恢复生命值上限的40%。",
+          "LocalizedString": "复活选中角色，并恢复生命值上限的40%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 40,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_044": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_044_name",
+          "SourceString": "咔叽玛薯霸",
+          "LocalizedString": "咔叽玛薯霸"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0044",
+          "SourceString": "队伍中所有角色暴击率增加4%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加4%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 41,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_045": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_045_name",
+          "SourceString": "咔叽玛熔岩瀑布堡",
+          "LocalizedString": "咔叽玛熔岩瀑布堡"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_def.bufficon_common_def",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0045",
+          "SourceString": "队伍中所有角色防御力增加75，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色防御力增加75，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 42,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_046": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_046_name",
+          "SourceString": "咔叽玛火山哞哞堡",
+          "LocalizedString": "咔叽玛火山哞哞堡"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0046",
+          "SourceString": "队伍中所有角色攻击力增加75，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加75，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 43,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_047": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_047_name",
+          "SourceString": "咔叽玛浓情蜜翼",
+          "LocalizedString": "咔叽玛浓情蜜翼"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0047",
+          "SourceString": "队伍中所有角色暴击伤害增加12%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加12%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 44,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_048": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_048_name",
+          "SourceString": "青酱培根司康",
+          "LocalizedString": "青酱培根司康"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0048",
+          "SourceString": "为当前角色恢复生命值上限的20%，并额外回复1450点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的20%，并额外回复1450点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 45,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_049": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_049_name",
+          "SourceString": "斑斓椰果子",
+          "LocalizedString": "斑斓椰果子"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0049",
+          "SourceString": "为当前角色恢复850点生命值，并在之后的30秒内，每5秒恢复377点生命值。",
+          "LocalizedString": "为当前角色恢复850点生命值，并在之后的30秒内，每5秒恢复377点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 46,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_050": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_050_name",
+          "SourceString": "莓果总汇奶油长棍面包",
+          "LocalizedString": "莓果总汇奶油长棍面包"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0050",
+          "SourceString": "为当前角色恢复生命值上限的20%，并额外回复850点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的20%，并额外回复850点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 47,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_051": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_051_name",
+          "SourceString": "玫瑰荔枝蛋糕",
+          "LocalizedString": "玫瑰荔枝蛋糕"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0051",
+          "SourceString": "为当前角色恢复1600点生命值，并在之后的30秒内，每5秒恢复416点生命值。",
+          "LocalizedString": "为当前角色恢复1600点生命值，并在之后的30秒内，每5秒恢复416点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 48,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_052": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_052_name",
+          "SourceString": "奶油柿子千层",
+          "LocalizedString": "奶油柿子千层"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0052",
+          "SourceString": "为当前角色恢复生命值上限的22%，并额外回复1600点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的22%，并额外回复1600点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 49,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_053": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_053_name",
+          "SourceString": "开心果榛子千层",
+          "LocalizedString": "开心果榛子千层"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0053",
+          "SourceString": "为当前角色恢复生命值上限的22%，并在之后的30秒内，每5秒恢复416点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的22%，并在之后的30秒内，每5秒恢复416点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 50,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_054": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_054_name",
+          "SourceString": "夏日冷萃",
+          "LocalizedString": "夏日冷萃"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0054",
+          "SourceString": "队伍中所有角色消耗的体力降低15%，持续900秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色消耗的体力降低15%，持续900秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 51,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_055": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_055_name",
+          "SourceString": "沸腾炼金术",
+          "LocalizedString": "沸腾炼金术"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0055",
+          "SourceString": "队伍中所有角色消耗的体力降低20%，持续900秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色消耗的体力降低20%，持续900秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 52,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_056": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_056_name",
+          "SourceString": "热巧元气弹",
+          "LocalizedString": "热巧元气弹"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0056",
+          "SourceString": "队伍中所有角色体力回复速度提升20%，持续900秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升20%，持续900秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 53,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_057": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_057_name",
+          "SourceString": "白胡子拍档",
+          "LocalizedString": "白胡子拍档"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0057",
+          "SourceString": "队伍中所有角色体力回复速度提升20%，持续900秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升20%，持续900秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 54,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_058": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_058_name",
+          "SourceString": "砂海白",
+          "LocalizedString": "砂海白"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0058",
+          "SourceString": "队伍中所有角色体力回复速度提升15%，持续900秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升15%，持续900秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 55,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_059": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_059_name",
+          "SourceString": "海特威",
+          "LocalizedString": "海特威"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0059",
+          "SourceString": "队伍中所有角色攻击力增加100，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加100，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 56,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_060": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_060_name",
+          "SourceString": "心迷宫",
+          "LocalizedString": "心迷宫"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0060",
+          "SourceString": "队伍中所有角色暴击率增加12%，持续600秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加12%，持续600秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 57,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_060_01": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_060_01_name",
+          "SourceString": "海盐心迷宫",
+          "LocalizedString": "海盐心迷宫"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0060",
+          "SourceString": "队伍中所有角色暴击率增加12%，持续600秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加12%，持续600秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 58,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_061": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_061_name",
+          "SourceString": "浪人的班卓琴",
+          "LocalizedString": "浪人的班卓琴"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0061",
+          "SourceString": "队伍中所有角色暴击伤害增加24%，持续600秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加24%，持续600秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 59,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_062": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_062_name",
+          "SourceString": "角斗士之歌",
+          "LocalizedString": "角斗士之歌"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0062",
+          "SourceString": "队伍中所有角色攻击力增加150，持续600秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加150，持续600秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 60,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_063": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_063_name",
+          "SourceString": "猫猫猛锤荔浦芋头布丁奶茶",
+          "LocalizedString": "猫猫猛锤荔浦芋头布丁奶茶"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0063",
+          "SourceString": "队伍中所有角色攻击力增加75，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加75，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 61,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_064": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_064_name",
+          "SourceString": "猫猫噗通噗通黑糖丸子脏脏茶",
+          "LocalizedString": "猫猫噗通噗通黑糖丸子脏脏茶"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_def.bufficon_common_def",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0064",
+          "SourceString": "队伍中所有角色防御力增加75，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色防御力增加75，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 62,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_065": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_065_name",
+          "SourceString": "猫猫讨厌柠檬冰茶",
+          "LocalizedString": "猫猫讨厌柠檬冰茶"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0065",
+          "SourceString": "队伍中所有角色暴击率增加6%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加6%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 63,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_066": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_066_name",
+          "SourceString": "猫猫惬意鱼治摸茶",
+          "LocalizedString": "猫猫惬意鱼治摸茶"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0066",
+          "SourceString": "队伍中所有角色暴击伤害增加12%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加12%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 64,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_067": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_067_name",
+          "SourceString": "经典提拉米苏",
+          "LocalizedString": "经典提拉米苏"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0067",
+          "SourceString": "为当前角色恢复生命值上限的32%。",
+          "LocalizedString": "为当前角色恢复生命值上限的32%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 65,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_068": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_068_name",
+          "SourceString": "奶油香草梦",
+          "LocalizedString": "奶油香草梦"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0068",
+          "SourceString": "为当前角色恢复2350点生命值。",
+          "LocalizedString": "为当前角色恢复2350点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 66,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_069": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_069_name",
+          "SourceString": "缤纷果香派对",
+          "LocalizedString": "缤纷果香派对"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0069",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复611生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复611生命值"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 67,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_070": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_070_name",
+          "SourceString": "莓莓四重奏",
+          "LocalizedString": "莓莓四重奏"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0070",
+          "SourceString": "为当前角色恢复1150点生命值，并在之后的30秒内，每5秒恢复299点生命值。",
+          "LocalizedString": "为当前角色恢复1150点生命值，并在之后的30秒内，每5秒恢复299点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 68,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_071": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_071_name",
+          "SourceString": "坚果焦糖爆爆杯",
+          "LocalizedString": "坚果焦糖爆爆杯"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0071",
+          "SourceString": "为当前角色恢复生命值上限的16%，并额外回复1150点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的16%，并额外回复1150点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 69,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_072": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_072_name",
+          "SourceString": "炭火脆皮烤肉",
+          "LocalizedString": "炭火脆皮烤肉"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0072",
+          "SourceString": "复活选中角色，并额外恢复700生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复700生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 70,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_073": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_073_name",
+          "SourceString": "蒜香筋道烤肉",
+          "LocalizedString": "蒜香筋道烤肉"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0073",
+          "SourceString": "复活选中角色，并额外恢复700生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复700生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 71,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_074": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_074_name",
+          "SourceString": "孜然飘香烤肉",
+          "LocalizedString": "孜然飘香烤肉"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0074",
+          "SourceString": "复活选中角色，并额外恢复700生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复700生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 72,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_075": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_075_name",
+          "SourceString": "人间土豆",
+          "LocalizedString": "人间土豆"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0075",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复338生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复338生命值"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 73,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_076": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_076_name",
+          "SourceString": "烤玉米",
+          "LocalizedString": "烤玉米"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0076",
+          "SourceString": "复活选中角色，并额外恢复100生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复100生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 74,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_077": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_077_name",
+          "SourceString": "大肉包",
+          "LocalizedString": "大肉包"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0077",
+          "SourceString": "为当前角色恢复生命值上限的20%。",
+          "LocalizedString": "为当前角色恢复生命值上限的20%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 75,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_078": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_078_name",
+          "SourceString": "巨嘴奶黄包",
+          "LocalizedString": "巨嘴奶黄包"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0078",
+          "SourceString": "为当前角色恢复1450点生命值。",
+          "LocalizedString": "为当前角色恢复1450点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 76,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_079": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_079_name",
+          "SourceString": "叉烧包",
+          "LocalizedString": "叉烧包"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0079",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复377生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复377生命值"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 77,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_080": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_080_name",
+          "SourceString": "蟹粉小笼",
+          "LocalizedString": "蟹粉小笼"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0080",
+          "SourceString": "为当前角色恢复700点生命值，并在之后的30秒内，每5秒恢复182点生命值。",
+          "LocalizedString": "为当前角色恢复700点生命值，并在之后的30秒内，每5秒恢复182点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 78,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_081": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_081_name",
+          "SourceString": "猫丸秘制豚骨拉面",
+          "LocalizedString": "猫丸秘制豚骨拉面"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0081",
+          "SourceString": "为当前角色恢复生命值上限的24%，并在之后的30秒内，每5秒恢复143点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的24%，并在之后的30秒内，每5秒恢复143点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 79,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_082": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_082_name",
+          "SourceString": "猫丸秘制鸡白汤拉面",
+          "LocalizedString": "猫丸秘制鸡白汤拉面"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0082",
+          "SourceString": "为当前角色恢复生命值上限的24%，并在之后的30秒内，每5秒恢复143点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的24%，并在之后的30秒内，每5秒恢复143点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 80,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_083": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_083_name",
+          "SourceString": "猫丸秘制豆乳拉面",
+          "LocalizedString": "猫丸秘制豆乳拉面"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0083",
+          "SourceString": "为当前角色恢复2200点生命值，并在之后的30秒内，每5秒恢复182点生命值。",
+          "LocalizedString": "为当前角色恢复2200点生命值，并在之后的30秒内，每5秒恢复182点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 81,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_084": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_084_name",
+          "SourceString": "猫丸秘制辛红拉面",
+          "LocalizedString": "猫丸秘制辛红拉面"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0084",
+          "SourceString": "为当前角色恢复生命值上限的30%，并额外回复700点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的30%，并额外回复700点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 82,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_085": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_085_name",
+          "SourceString": "经典三重奏",
+          "LocalizedString": "经典三重奏"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0085",
+          "SourceString": "为当前角色恢复3250点生命值。",
+          "LocalizedString": "为当前角色恢复3250点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 83,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_086": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_086_name",
+          "SourceString": "浓香火腿披萨",
+          "LocalizedString": "浓香火腿披萨"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0086",
+          "SourceString": "为当前角色恢复3250点生命值。",
+          "LocalizedString": "为当前角色恢复3250点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 84,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_087": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_087_name",
+          "SourceString": "番茄罗勒通心粉",
+          "LocalizedString": "番茄罗勒通心粉"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0087",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复845生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复845生命值"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 85,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_088": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_088_name",
+          "SourceString": "肉酱千层面",
+          "LocalizedString": "肉酱千层面"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0088",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复845生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复845生命值"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 86,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_089": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_089_name",
+          "SourceString": "柠檬气泡水",
+          "LocalizedString": "柠檬气泡水"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0089",
+          "SourceString": "为当前角色恢复生命值上限的22%，并在之后的30秒内，每5秒恢复416点生命值。",
+          "LocalizedString": "为当前角色恢复生命值上限的22%，并在之后的30秒内，每5秒恢复416点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 87,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_090": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_090_name",
+          "SourceString": "辣鸡扒咖喱饭",
+          "LocalizedString": "辣鸡扒咖喱饭"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0090",
+          "SourceString": "复活选中角色，并恢复生命值上限的14%。",
+          "LocalizedString": "复活选中角色，并恢复生命值上限的14%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 88,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_091": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_091_name",
+          "SourceString": "巨型汉堡肉",
+          "LocalizedString": "巨型汉堡肉"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0091",
+          "SourceString": "复活选中角色，并额外恢复1000生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复1000生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 89,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_092": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_092_name",
+          "SourceString": "缤纷轻食沙拉",
+          "LocalizedString": "缤纷轻食沙拉"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0092",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复572生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复572生命值"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 90,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_093": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_093_name",
+          "SourceString": "元气儿童套餐",
+          "LocalizedString": "元气儿童套餐"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0093",
+          "SourceString": "为当前角色恢复生命值上限的30%。",
+          "LocalizedString": "为当前角色恢复生命值上限的30%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 91,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_094": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_094_name",
+          "SourceString": "清凉凉提神药",
+          "LocalizedString": "清凉凉提神药"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0094",
+          "SourceString": "队伍中所有角色体力回复速度提升20%，持续900秒。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升20%，持续900秒。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 92,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_095": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_095_name",
+          "SourceString": "净化守护含片",
+          "LocalizedString": "净化守护含片"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0095",
+          "SourceString": "为当前角色恢复1000点生命值，并在之后的30秒内，每5秒恢复260点生命值。",
+          "LocalizedString": "为当前角色恢复1000点生命值，并在之后的30秒内，每5秒恢复260点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 93,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_096": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_096_name",
+          "SourceString": "明亮~wink大作战！",
+          "LocalizedString": "明亮~wink大作战！"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0096",
+          "SourceString": "队伍中所有角色消耗的体力降低20%，持续900秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色消耗的体力降低20%，持续900秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 94,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_097": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_097_name",
+          "SourceString": "大防御家！",
+          "LocalizedString": "大防御家！"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_def.bufficon_common_def",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0097",
+          "SourceString": "队伍中所有角色防御力增加175，持续600秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色防御力增加175，持续600秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 95,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_098": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_098_name",
+          "SourceString": "竹本！Vitamin！",
+          "LocalizedString": "竹本！Vitamin！"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0098",
+          "SourceString": "队伍中所有角色暴击率增加10%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加10%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 96,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_100": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_100_name",
+          "SourceString": "番茄百分百果冻",
+          "LocalizedString": "番茄百分百果冻"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0100",
+          "SourceString": "为当前角色恢复2350点生命值。",
+          "LocalizedString": "为当前角色恢复2350点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 97,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_101": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_101_name",
+          "SourceString": "番茄百分百果汁",
+          "LocalizedString": "番茄百分百果汁"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0101",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复611生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复611生命值"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 98,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_102": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_102_name",
+          "SourceString": "番茄百分百奶昔",
+          "LocalizedString": "番茄百分百奶昔"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_healing.bufficon_common_healing",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0102",
+          "SourceString": "为当前角色恢复1150点生命值，并在之后的30秒内，每5秒恢复299点生命值。",
+          "LocalizedString": "为当前角色恢复1150点生命值，并在之后的30秒内，每5秒恢复299点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 99,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_103": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_103_name",
+          "SourceString": "惠比寿宫廷小塔",
+          "LocalizedString": "惠比寿宫廷小塔"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0103",
+          "SourceString": "队伍中所有角色攻击力增加125，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加125，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 100,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_104": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_104_name",
+          "SourceString": "大将军章鱼烧",
+          "LocalizedString": "大将军章鱼烧"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0103",
+          "SourceString": "队伍中所有角色攻击力增加125，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加125，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 101,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_105": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Food_105_name",
+          "SourceString": "绵软番茄",
+          "LocalizedString": "绵软番茄"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0105",
+          "SourceString": "为当前角色恢复生命值上限的50%。",
+          "LocalizedString": "为当前角色恢复生命值上限的50%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 102,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_106": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Food_106_name",
+          "SourceString": "盐盐轻语",
+          "LocalizedString": "盐盐轻语"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0106",
+          "SourceString": "为当前角色恢复生命值上限的50%。",
+          "LocalizedString": "为当前角色恢复生命值上限的50%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 103,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_107": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Food_107_name",
+          "SourceString": "霜云交响",
+          "LocalizedString": "霜云交响"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0107",
+          "SourceString": "为当前角色恢复生命值上限的50%。",
+          "LocalizedString": "为当前角色恢复生命值上限的50%。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 104,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_108": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Food_108_name",
+          "SourceString": "经典番茄",
+          "LocalizedString": "经典番茄"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0108",
+          "SourceString": "队伍中所有角色攻击力增加200，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加200，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 105,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_109": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Food_109_name",
+          "SourceString": "盐盐王牌",
+          "LocalizedString": "盐盐王牌"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0109",
+          "SourceString": "队伍中所有角色攻击力增加200，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加200，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 106,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_110": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Food_110_name",
+          "SourceString": "冰霜交响",
+          "LocalizedString": "冰霜交响"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0110",
+          "SourceString": "队伍中所有角色攻击力增加200，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色攻击力增加200，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 107,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_111": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Food_111_name",
+          "SourceString": "硬核番茄",
+          "LocalizedString": "硬核番茄"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0111",
+          "SourceString": "队伍中所有角色暴击率增加20%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加20%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 108,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_112": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Food_112_name",
+          "SourceString": "盐盐烈风",
+          "LocalizedString": "盐盐烈风"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0112",
+          "SourceString": "队伍中所有角色暴击率增加20%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加20%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 109,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_113": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Food_113_name",
+          "SourceString": "霜铁交响",
+          "LocalizedString": "霜铁交响"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0113",
+          "SourceString": "队伍中所有角色暴击率增加20%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加20%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 110,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_114": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Food_114_name",
+          "SourceString": "「惬意猫猫鱼」",
+          "LocalizedString": "「惬意猫猫鱼」"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0114",
+          "SourceString": "队伍中所有角色暴击率增加6%，持续180秒。多人游戏时，仅对自己的角色生效。",
+          "LocalizedString": "队伍中所有角色暴击率增加6%，持续180秒。多人游戏时，仅对自己的角色生效。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 111,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Food_115": {
+        "Name": {
+          "Namespace": "GameplayEffectFoodTipsDataTable",
+          "Key": "Food_115_Name",
+          "SourceString": "NSLOCTEXT(\"\", \"7F1058D04B84C7BBEF54C4B25A058BB3\", \"<!>????ײ?)\"",
+          "LocalizedString": "NSLOCTEXT(\"\", \"7F1058D04B84C7BBEF54C4B25A058BB3\", \"<!>????ײ?)\""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0115",
+          "SourceString": "为当前角色恢复2500点生命值。",
+          "LocalizedString": "为当前角色恢复2500点生命值。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 112,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      }
+    }
+  }
+]

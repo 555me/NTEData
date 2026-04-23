@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PlayerFightActionData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Skill/FightAction/DT_PlayerFightActionData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'PlayerFightActionConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Stand": {
+        "ActionWeigt": 0.0
+      },
+      "Moveing": {
+        "ActionWeigt": 0.0
+      },
+      "Jump": {
+        "ActionWeigt": 1.0
+      },
+      "NormalAttack": {
+        "ActionWeigt": 1.0
+      },
+      "Doge": {
+        "ActionWeigt": 2.0
+      },
+      "ExtremeDodge": {
+        "ActionWeigt": 4.0
+      },
+      "Skill": {
+        "ActionWeigt": 3.0
+      },
+      "Ultra": {
+        "ActionWeigt": 6.0
+      },
+      "QTE": {
+        "ActionWeigt": 4.0
+      },
+      "Block": {
+        "ActionWeigt": 5.0
+      },
+      "SwitchRole": {
+        "ActionWeigt": 1.0
+      },
+      "BeAttack": {
+        "ActionWeigt": -1.0
+      }
+    }
+  }
+]

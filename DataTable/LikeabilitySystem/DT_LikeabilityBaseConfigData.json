@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LikeabilityBaseConfigData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/LikeabilitySystem/DT_LikeabilityBaseConfigData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'LikeabilityBaseConfigData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "AddLiveabilityChatActiveTimes": 3,
+        "MaxLiveabilityChatActiveTimes": 5,
+        "MaxQuestNum": 3,
+        "TotalQuestNum": 5,
+        "SendGiftTimes": 3,
+        "TotalSendGiftTimes": 10,
+        "SystemReadChatMinTime": 5.0,
+        "SystemReadChatMaxTime": 6.0,
+        "ChatPopUpDelayTime": 1.0,
+        "NoticeTimePerDay": 8,
+        "AwardRedPointTag": "Redpoint.Menu.likeability.Award.{}",
+        "ChatRedPointTag": "Redpoint.Menu.LikeabilityChat.Chat.{}",
+        "TaskChatRedPointTag": "Redpoint.Menu.likeability.TaskChat.{}",
+        "UnlockCityAbilityLevelLimit": 4,
+        "FunctionUnlockId": "Likeability",
+        "FunctionUnlockTechID": "Likeability"
+      }
+    }
+  }
+]

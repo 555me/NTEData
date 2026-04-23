@@ -1,0 +1,522 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StaticFishRodData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Fish/StaticFishRodData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'StaticItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "FishRod01": {
+        "ItemType": "EItemType::ITEM_TYPE_FISH_ROD",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/FishRod_01.FishRod_01",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod01_name",
+          "SourceString": "新手鱼竿",
+          "LocalizedString": "新手鱼竿"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_GREEN",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod01_usedesc",
+          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较低。\r\n鱼线耐久度：12",
+          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较低。\r\n鱼线耐久度：12"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod01_desc",
+          "SourceString": "适于新手使用的木质鱼竿，因其较高的性价比，经常位居钓鱼爱好者网站中钓竿排行榜前十。",
+          "LocalizedString": "适于新手使用的木质鱼竿，因其较高的性价比，经常位居钓鱼爱好者网站中钓竿排行榜前十。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "Endurance": 12,
+          "FishRodAddFishWeightMap": [],
+          "ItemActorClass_Female": {
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female.WeaponRod_Fish_Female_C",
+            "SubPathString": ""
+          },
+          "ItemActorClass_Male": {
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Male.WeaponRod_Fish_Male_C",
+            "SubPathString": ""
+          }
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "FishRod02": {
+        "ItemType": "EItemType::ITEM_TYPE_FISH_ROD",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/FishRod_02.FishRod_02",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod02_name",
+          "SourceString": "中级鱼竿",
+          "LocalizedString": "中级鱼竿"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod02_usedesc",
+          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度中等。同时将略微提高上钩的鱼的重量。\r\n鱼线耐久度：18",
+          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度中等。同时将略微提高上钩的鱼的重量。\r\n鱼线耐久度：18"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod02_desc",
+          "SourceString": "颇受钓鱼爱好者青睐的玻璃纤维制鱼竿，较高的材料强度使其更为耐用。",
+          "LocalizedString": "颇受钓鱼爱好者青睐的玻璃纤维制鱼竿，较高的材料强度使其更为耐用。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "Endurance": 18,
+          "FishRodAddFishWeightMap": [
+            {
+              "Key": "ITEM_QUALITY_GREEN",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 75.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_BLUE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 150.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_PURPLE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 280.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_ORANGE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 375.0
+                  }
+                ],
+                "FishKingRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 1000.0,
+                    "MaxValue": 5000.0
+                  }
+                ]
+              }
+            }
+          ],
+          "ItemActorClass_Female": {
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female1.WeaponRod_Fish_Female1_C",
+            "SubPathString": ""
+          },
+          "ItemActorClass_Male": {
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Male1.WeaponRod_Fish_Male1_C",
+            "SubPathString": ""
+          }
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "FishRod03": {
+        "ItemType": "EItemType::ITEM_TYPE_FISH_ROD",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/FishRod_03.FishRod_03",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod03_name",
+          "SourceString": "高级鱼竿",
+          "LocalizedString": "高级鱼竿"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod03_usedesc",
+          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较高。同时将小幅提高上钩的鱼的重量。\r\n鱼线耐久度：28",
+          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较高。同时将小幅提高上钩的鱼的重量。\r\n鱼线耐久度：28"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod03_desc",
+          "SourceString": "采用了碳纤维材料的钓竿，又称碳素竿，具有轻、坚实、抗拉强度高的特点，其酷炫的造型让无数钓鱼爱好者趋之若鹜。",
+          "LocalizedString": "采用了碳纤维材料的钓竿，又称碳素竿，具有轻、坚实、抗拉强度高的特点，其酷炫的造型让无数钓鱼爱好者趋之若鹜。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "Endurance": 28,
+          "FishRodAddFishWeightMap": [
+            {
+              "Key": "ITEM_QUALITY_GREEN",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 400.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_BLUE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 960.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_PURPLE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 300.0,
+                    "MaxValue": 1325.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_ORANGE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 400.0,
+                    "MaxValue": 1850.0
+                  }
+                ],
+                "FishKingRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 5000.0,
+                    "MaxValue": 16000.0
+                  }
+                ]
+              }
+            }
+          ],
+          "ItemActorClass_Female": {
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female2.WeaponRod_Fish_Female2_C",
+            "SubPathString": ""
+          },
+          "ItemActorClass_Male": {
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Male2.WeaponRod_Fish_Male2_C",
+            "SubPathString": ""
+          }
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "FishRod04": {
+        "ItemType": "EItemType::ITEM_TYPE_FISH_ROD",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/FishRod_04.FishRod_04",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod04_name",
+          "SourceString": "钓王鱼竿",
+          "LocalizedString": "钓王鱼竿"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod04_usedesc",
+          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度极高。同时将较大提高上钩的鱼的重量。\r\n鱼线耐久度：40",
+          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度极高。同时将较大提高上钩的鱼的重量。\r\n鱼线耐久度：40"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishRod04_desc",
+          "SourceString": "采用航空级别的钛合金材料，并施加镀金工艺的最高级鱼竿，只有被成为钓鱼界王者之人才有资格拥有它。",
+          "LocalizedString": "采用航空级别的钛合金材料，并施加镀金工艺的最高级鱼竿，只有被成为钓鱼界王者之人才有资格拥有它。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "Endurance": 40,
+          "FishRodAddFishWeightMap": [
+            {
+              "Key": "ITEM_QUALITY_GREEN",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 201.0,
+                    "MaxValue": 800.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_BLUE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 401.0,
+                    "MaxValue": 2000.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_PURPLE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 490.0,
+                    "MaxValue": 2700.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_ORANGE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 725.0,
+                    "MaxValue": 4900.0
+                  }
+                ],
+                "FishKingRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 13835.0,
+                    "MaxValue": 25000.0
+                  }
+                ]
+              }
+            }
+          ],
+          "ItemActorClass_Female": {
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female3.WeaponRod_Fish_Female3_C",
+            "SubPathString": ""
+          },
+          "ItemActorClass_Male": {
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Male3.WeaponRod_Fish_Male3_C",
+            "SubPathString": ""
+          }
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

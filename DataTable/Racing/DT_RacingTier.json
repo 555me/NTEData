@@ -1,0 +1,2465 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RacingTier",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Racing/DT_RacingTier",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'RacingTierData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "RacingRank_1_1": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_1_4",
+          "SourceString": "新人车手Ⅳ",
+          "LocalizedString": "新人车手Ⅳ"
+        },
+        "TierColor": {
+          "R": 0.527115,
+          "G": 0.423268,
+          "B": 0.258183,
+          "A": 1.0,
+          "Hex": "C0AE8B"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_01.UI_YH_Racing_Rank_Icon_01",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 1000,
+        "DowngradeBufferScore": 32,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 350
+          },
+          {
+            "Key": "2",
+            "Value": 295
+          },
+          {
+            "Key": "3",
+            "Value": 235
+          },
+          {
+            "Key": "4",
+            "Value": 175
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -35
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 35
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -30
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 30
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -24
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 24
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -18
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 18
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": 0
+          },
+          {
+            "Key": "2",
+            "Value": 0
+          },
+          {
+            "Key": "3",
+            "Value": 0
+          },
+          {
+            "Key": "4",
+            "Value": 0
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 30,
+        "AwardsDropID": "drop_RacingRank_R1_Lv1",
+        "NextSeasonStartScore": 0,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 1
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 30
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 31
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 40
+            }
+          }
+        ]
+      },
+      "RacingRank_1_2": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_1_3",
+          "SourceString": "新人车手Ⅲ",
+          "LocalizedString": "新人车手Ⅲ"
+        },
+        "TierColor": {
+          "R": 0.527115,
+          "G": 0.423268,
+          "B": 0.258183,
+          "A": 1.0,
+          "Hex": "C0AE8B"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_01.UI_YH_Racing_Rank_Icon_01",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 2000,
+        "DowngradeBufferScore": 32,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 325
+          },
+          {
+            "Key": "2",
+            "Value": 265
+          },
+          {
+            "Key": "3",
+            "Value": 195
+          },
+          {
+            "Key": "4",
+            "Value": 130
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -32
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 32
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -26
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 26
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -20
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 20
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -13
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 13
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": 0
+          },
+          {
+            "Key": "2",
+            "Value": 0
+          },
+          {
+            "Key": "3",
+            "Value": 0
+          },
+          {
+            "Key": "4",
+            "Value": 0
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 30,
+        "AwardsDropID": "drop_RacingRank_R1_Lv2",
+        "NextSeasonStartScore": 0,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 1
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 30
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 31
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 40
+            }
+          }
+        ]
+      },
+      "RacingRank_1_3": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_1_2",
+          "SourceString": "新人车手Ⅱ",
+          "LocalizedString": "新人车手Ⅱ"
+        },
+        "TierColor": {
+          "R": 0.527115,
+          "G": 0.423268,
+          "B": 0.258183,
+          "A": 1.0,
+          "Hex": "C0AE8B"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_01.UI_YH_Racing_Rank_Icon_01",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 3000,
+        "DowngradeBufferScore": 32,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 295
+          },
+          {
+            "Key": "2",
+            "Value": 235
+          },
+          {
+            "Key": "3",
+            "Value": 155
+          },
+          {
+            "Key": "4",
+            "Value": 88
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -28
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 28
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -23
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 23
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -16
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 16
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -9
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 9
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": 0
+          },
+          {
+            "Key": "2",
+            "Value": 0
+          },
+          {
+            "Key": "3",
+            "Value": 0
+          },
+          {
+            "Key": "4",
+            "Value": 0
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 30,
+        "AwardsDropID": "drop_RacingRank_R1_Lv3",
+        "NextSeasonStartScore": 1000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 1
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 30
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 31
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 40
+            }
+          }
+        ]
+      },
+      "RacingRank_1_4": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_1_1",
+          "SourceString": "新人车手Ⅰ",
+          "LocalizedString": "新人车手Ⅰ"
+        },
+        "TierColor": {
+          "R": 0.527115,
+          "G": 0.423268,
+          "B": 0.258183,
+          "A": 1.0,
+          "Hex": "C0AE8B"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_01.UI_YH_Racing_Rank_Icon_01",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 4000,
+        "DowngradeBufferScore": 32,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 250
+          },
+          {
+            "Key": "2",
+            "Value": 192
+          },
+          {
+            "Key": "3",
+            "Value": 115
+          },
+          {
+            "Key": "4",
+            "Value": 50
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -25
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 25
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -19
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 19
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -12
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 12
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -25
+          },
+          {
+            "Key": "2",
+            "Value": -20
+          },
+          {
+            "Key": "3",
+            "Value": -12
+          },
+          {
+            "Key": "4",
+            "Value": 31
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 30,
+        "AwardsDropID": "drop_RacingRank_R1_Lv4",
+        "NextSeasonStartScore": 1000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 1
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 30
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 31
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 40
+            }
+          }
+        ]
+      },
+      "RacingRank_2_1": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_2_4",
+          "SourceString": "业余车手Ⅳ",
+          "LocalizedString": "业余车手Ⅳ"
+        },
+        "TierColor": {
+          "R": 0.012286,
+          "G": 0.571125,
+          "B": 0.300544,
+          "A": 1.0,
+          "Hex": "1DC795"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_02.UI_YH_Racing_Rank_Icon_02",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 5000,
+        "DowngradeBufferScore": 32,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 232
+          },
+          {
+            "Key": "2",
+            "Value": 170
+          },
+          {
+            "Key": "3",
+            "Value": 90
+          },
+          {
+            "Key": "4",
+            "Value": 24
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -20
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 20
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -17
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 17
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -8
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 8
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -29
+          },
+          {
+            "Key": "2",
+            "Value": -23
+          },
+          {
+            "Key": "3",
+            "Value": -14
+          },
+          {
+            "Key": "4",
+            "Value": 36
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 30,
+        "AwardsDropID": "drop_RacingRank_R2_Lv1",
+        "NextSeasonStartScore": 1000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 41
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 70
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 71
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 80
+            }
+          }
+        ]
+      },
+      "RacingRank_2_2": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_2_3",
+          "SourceString": "业余车手Ⅲ",
+          "LocalizedString": "业余车手Ⅲ"
+        },
+        "TierColor": {
+          "R": 0.012286,
+          "G": 0.571125,
+          "B": 0.300544,
+          "A": 1.0,
+          "Hex": "1DC795"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_02.UI_YH_Racing_Rank_Icon_02",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 6000,
+        "DowngradeBufferScore": 32,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 218
+          },
+          {
+            "Key": "2",
+            "Value": 152
+          },
+          {
+            "Key": "3",
+            "Value": 70
+          },
+          {
+            "Key": "4",
+            "Value": 0
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -16
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 16
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -15
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 15
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -6
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 6
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -23
+          },
+          {
+            "Key": "2",
+            "Value": -18
+          },
+          {
+            "Key": "3",
+            "Value": -11
+          },
+          {
+            "Key": "4",
+            "Value": 28
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 30,
+        "AwardsDropID": "drop_RacingRank_R2_Lv2",
+        "NextSeasonStartScore": 2000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 41
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 70
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 71
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 80
+            }
+          }
+        ]
+      },
+      "RacingRank_2_3": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_2_2",
+          "SourceString": "业余车手Ⅱ",
+          "LocalizedString": "业余车手Ⅱ"
+        },
+        "TierColor": {
+          "R": 0.012286,
+          "G": 0.571125,
+          "B": 0.300544,
+          "A": 1.0,
+          "Hex": "1DC795"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_02.UI_YH_Racing_Rank_Icon_02",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 7000,
+        "DowngradeBufferScore": 25,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 205
+          },
+          {
+            "Key": "2",
+            "Value": 135
+          },
+          {
+            "Key": "3",
+            "Value": 51
+          },
+          {
+            "Key": "4",
+            "Value": -20
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -14
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 14
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -14
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 14
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -18
+          },
+          {
+            "Key": "2",
+            "Value": -15
+          },
+          {
+            "Key": "3",
+            "Value": -9
+          },
+          {
+            "Key": "4",
+            "Value": 23
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 30,
+        "AwardsDropID": "drop_RacingRank_R2_Lv3",
+        "NextSeasonStartScore": 2000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 41
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 70
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 71
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 80
+            }
+          }
+        ]
+      },
+      "RacingRank_2_4": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_2_1",
+          "SourceString": "业余车手Ⅰ",
+          "LocalizedString": "业余车手Ⅰ"
+        },
+        "TierColor": {
+          "R": 0.012286,
+          "G": 0.571125,
+          "B": 0.300544,
+          "A": 1.0,
+          "Hex": "1DC795"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_02.UI_YH_Racing_Rank_Icon_02",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 8000,
+        "DowngradeBufferScore": 45,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 192
+          },
+          {
+            "Key": "2",
+            "Value": 120
+          },
+          {
+            "Key": "3",
+            "Value": 35
+          },
+          {
+            "Key": "4",
+            "Value": -38
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -13
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 13
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -12
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 12
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -34
+          },
+          {
+            "Key": "2",
+            "Value": -28
+          },
+          {
+            "Key": "3",
+            "Value": 48
+          },
+          {
+            "Key": "4",
+            "Value": 43
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 50,
+        "AwardsDropID": "drop_RacingRank_R2_Lv4",
+        "NextSeasonStartScore": 2000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 41
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 70
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 71
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 80
+            }
+          }
+        ]
+      },
+      "RacingRank_3_1": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_3_4",
+          "SourceString": "职业车手Ⅳ",
+          "LocalizedString": "职业车手Ⅳ"
+        },
+        "TierColor": {
+          "R": 0.015996,
+          "G": 0.361307,
+          "B": 0.768151,
+          "A": 1.0,
+          "Hex": "22A2E3"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_03.UI_YH_Racing_Rank_Icon_03",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 9000,
+        "DowngradeBufferScore": 55,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 175
+          },
+          {
+            "Key": "2",
+            "Value": 100
+          },
+          {
+            "Key": "3",
+            "Value": 21
+          },
+          {
+            "Key": "4",
+            "Value": -50
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -11
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 11
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -10
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 10
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -47
+          },
+          {
+            "Key": "2",
+            "Value": -38
+          },
+          {
+            "Key": "3",
+            "Value": 30
+          },
+          {
+            "Key": "4",
+            "Value": 59
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 60,
+        "AwardsDropID": "drop_RacingRank_R3_Lv1",
+        "NextSeasonStartScore": 3000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 81
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 110
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 111
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 120
+            }
+          }
+        ]
+      },
+      "RacingRank_3_2": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_3_3",
+          "SourceString": "职业车手Ⅲ",
+          "LocalizedString": "职业车手Ⅲ"
+        },
+        "TierColor": {
+          "R": 0.015996,
+          "G": 0.361307,
+          "B": 0.768151,
+          "A": 1.0,
+          "Hex": "22A2E3"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_03.UI_YH_Racing_Rank_Icon_03",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 10000,
+        "DowngradeBufferScore": 65,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 162
+          },
+          {
+            "Key": "2",
+            "Value": 88
+          },
+          {
+            "Key": "3",
+            "Value": 10
+          },
+          {
+            "Key": "4",
+            "Value": -58
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -10
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 10
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -9
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 9
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -6
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 6
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -56
+          },
+          {
+            "Key": "2",
+            "Value": -45
+          },
+          {
+            "Key": "3",
+            "Value": 15
+          },
+          {
+            "Key": "4",
+            "Value": 71
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 70,
+        "AwardsDropID": "drop_RacingRank_R3_Lv2",
+        "NextSeasonStartScore": 3000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 81
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 110
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 111
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 120
+            }
+          }
+        ]
+      },
+      "RacingRank_3_3": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_3_2",
+          "SourceString": "职业车手Ⅱ",
+          "LocalizedString": "职业车手Ⅱ"
+        },
+        "TierColor": {
+          "R": 0.015996,
+          "G": 0.361307,
+          "B": 0.768151,
+          "A": 1.0,
+          "Hex": "22A2E3"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_03.UI_YH_Racing_Rank_Icon_03",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 11000,
+        "DowngradeBufferScore": 70,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 150
+          },
+          {
+            "Key": "2",
+            "Value": 75
+          },
+          {
+            "Key": "3",
+            "Value": 0
+          },
+          {
+            "Key": "4",
+            "Value": -66
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -9
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 9
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -8
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 8
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -6
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 6
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -66
+          },
+          {
+            "Key": "2",
+            "Value": -53
+          },
+          {
+            "Key": "3",
+            "Value": 15
+          },
+          {
+            "Key": "4",
+            "Value": 83
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 75,
+        "AwardsDropID": "drop_RacingRank_R3_Lv3",
+        "NextSeasonStartScore": 4000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 81
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 110
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 111
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 120
+            }
+          }
+        ]
+      },
+      "RacingRank_3_4": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_3_1",
+          "SourceString": "职业车手Ⅰ",
+          "LocalizedString": "职业车手Ⅰ"
+        },
+        "TierColor": {
+          "R": 0.015996,
+          "G": 0.361307,
+          "B": 0.768151,
+          "A": 1.0,
+          "Hex": "22A2E3"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_03.UI_YH_Racing_Rank_Icon_03",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 12000,
+        "DowngradeBufferScore": 82,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 138
+          },
+          {
+            "Key": "2",
+            "Value": 65
+          },
+          {
+            "Key": "3",
+            "Value": -8
+          },
+          {
+            "Key": "4",
+            "Value": -72
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -8
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 8
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -7
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 7
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -7
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 7
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -75
+          },
+          {
+            "Key": "2",
+            "Value": -60
+          },
+          {
+            "Key": "3",
+            "Value": 10
+          },
+          {
+            "Key": "4",
+            "Value": 94
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 85,
+        "AwardsDropID": "drop_RacingRank_R3_Lv4",
+        "NextSeasonStartScore": 4000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 81
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 110
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 111
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 120
+            }
+          }
+        ]
+      },
+      "RacingRank_4_1": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_4_4",
+          "SourceString": "传奇车手Ⅳ",
+          "LocalizedString": "传奇车手Ⅳ"
+        },
+        "TierColor": {
+          "R": 0.428691,
+          "G": 0.076185,
+          "B": 0.686686,
+          "A": 1.0,
+          "Hex": "AF4ED8"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_04.UI_YH_Racing_Rank_Icon_04",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 13000,
+        "DowngradeBufferScore": 95,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 126
+          },
+          {
+            "Key": "2",
+            "Value": 56
+          },
+          {
+            "Key": "3",
+            "Value": -15
+          },
+          {
+            "Key": "4",
+            "Value": -76
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -7
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 7
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -6
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 6
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -8
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 8
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -83
+          },
+          {
+            "Key": "2",
+            "Value": -66
+          },
+          {
+            "Key": "3",
+            "Value": 20
+          },
+          {
+            "Key": "4",
+            "Value": 104
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 85,
+        "AwardsDropID": "drop_RacingRank_R4_Lv1",
+        "NextSeasonStartScore": 5000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 121
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 150
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 151
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 160
+            }
+          }
+        ]
+      },
+      "RacingRank_4_2": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_4_3",
+          "SourceString": "传奇车手Ⅲ",
+          "LocalizedString": "传奇车手Ⅲ"
+        },
+        "TierColor": {
+          "R": 0.428691,
+          "G": 0.076185,
+          "B": 0.686686,
+          "A": 1.0,
+          "Hex": "AF4ED8"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_04.UI_YH_Racing_Rank_Icon_04",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 14000,
+        "DowngradeBufferScore": 105,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 116
+          },
+          {
+            "Key": "2",
+            "Value": 48
+          },
+          {
+            "Key": "3",
+            "Value": -21
+          },
+          {
+            "Key": "4",
+            "Value": -81
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -6
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 6
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -8
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 8
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -92
+          },
+          {
+            "Key": "2",
+            "Value": -73
+          },
+          {
+            "Key": "3",
+            "Value": 30
+          },
+          {
+            "Key": "4",
+            "Value": 115
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 90,
+        "AwardsDropID": "drop_RacingRank_R4_Lv2",
+        "NextSeasonStartScore": 5000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 121
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 150
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 151
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 160
+            }
+          }
+        ]
+      },
+      "RacingRank_4_3": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_4_2",
+          "SourceString": "传奇车手Ⅱ",
+          "LocalizedString": "传奇车手Ⅱ"
+        },
+        "TierColor": {
+          "R": 0.428691,
+          "G": 0.076185,
+          "B": 0.686686,
+          "A": 1.0,
+          "Hex": "AF4ED8"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_04.UI_YH_Racing_Rank_Icon_04",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 15000,
+        "DowngradeBufferScore": 115,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 108
+          },
+          {
+            "Key": "2",
+            "Value": 41
+          },
+          {
+            "Key": "3",
+            "Value": -25
+          },
+          {
+            "Key": "4",
+            "Value": -86
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -6
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 6
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -8
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 8
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -100
+          },
+          {
+            "Key": "2",
+            "Value": -80
+          },
+          {
+            "Key": "3",
+            "Value": 36
+          },
+          {
+            "Key": "4",
+            "Value": 125
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 95,
+        "AwardsDropID": "drop_RacingRank_R4_Lv3",
+        "NextSeasonStartScore": 6000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 121
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 150
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 151
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 160
+            }
+          }
+        ]
+      },
+      "RacingRank_4_4": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_4_1",
+          "SourceString": "传奇车手Ⅰ",
+          "LocalizedString": "传奇车手Ⅰ"
+        },
+        "TierColor": {
+          "R": 0.428691,
+          "G": 0.076185,
+          "B": 0.686686,
+          "A": 1.0,
+          "Hex": "AF4ED8"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_04.UI_YH_Racing_Rank_Icon_04",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": 16000,
+        "DowngradeBufferScore": 125,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 100
+          },
+          {
+            "Key": "2",
+            "Value": 35
+          },
+          {
+            "Key": "3",
+            "Value": -30
+          },
+          {
+            "Key": "4",
+            "Value": -90
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -8
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 8
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": -107
+          },
+          {
+            "Key": "2",
+            "Value": -86
+          },
+          {
+            "Key": "3",
+            "Value": 45
+          },
+          {
+            "Key": "4",
+            "Value": 134
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 100,
+        "AwardsDropID": "drop_RacingRank_R4_Lv4",
+        "NextSeasonStartScore": 7000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 161
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 190
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 191
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 200
+            }
+          }
+        ]
+      },
+      "RacingRank_5_1": {
+        "TierText": {
+          "TableId": "/Game/Text/Dialogue/ST_Racing.ST_Racing",
+          "Key": "RacingRank_5_1",
+          "SourceString": "超凡车手",
+          "LocalizedString": "超凡车手"
+        },
+        "TierColor": {
+          "R": 0.799103,
+          "G": 0.462077,
+          "B": 0.023153,
+          "A": 1.0,
+          "Hex": "E7B52A"
+        },
+        "TierIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/Rank/UI_YH_Racing_Rank_Icon_05.UI_YH_Racing_Rank_Icon_05",
+          "SubPathString": ""
+        },
+        "TierQualityImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/PVPRank/RankAward/UI_YH_Racing_‌Rank_Reward_IconBkg_01.UI_YH_Racing_‌Rank_Reward_IconBkg_01",
+          "SubPathString": ""
+        },
+        "UpgradeScore": -1,
+        "DowngradeBufferScore": 100,
+        "RankScore": [
+          {
+            "Key": "1",
+            "Value": 25
+          },
+          {
+            "Key": "2",
+            "Value": 15
+          },
+          {
+            "Key": "3",
+            "Value": -15
+          },
+          {
+            "Key": "4",
+            "Value": -25
+          }
+        ],
+        "RankSupplemenScoreLimit": [
+          {
+            "Key": "1",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": -5
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 5
+              }
+            }
+          }
+        ],
+        "RankConsecutiveFailedAddValue": [
+          {
+            "Key": "1",
+            "Value": 0
+          },
+          {
+            "Key": "2",
+            "Value": 0
+          },
+          {
+            "Key": "3",
+            "Value": 0
+          },
+          {
+            "Key": "4",
+            "Value": 0
+          }
+        ],
+        "ConsecutiveFailedValueThreshold": 1000,
+        "ConsecutiveFailedValueMax": 1500,
+        "WithdrawPunishmentScore": 35,
+        "AwardsDropID": "drop_RacingRank_R5_Lv1",
+        "NextSeasonStartScore": 8000,
+        "RandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 161
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 190
+            }
+          }
+        ],
+        "EasyRandomRobotInfoRanges": [
+          {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 191
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 200
+            }
+          }
+        ]
+      }
+    }
+  }
+]

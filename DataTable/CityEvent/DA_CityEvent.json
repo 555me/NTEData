@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "CityEventDataAsset",
+    "Name": "DA_CityEvent",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CityEventDataAsset'",
+    "Package": "/Game/DataTable/CityEvent/DA_CityEvent",
+    "Properties": {
+      "CityEventLibraryDataTable": {
+        "ObjectName": "DataTable'DT_CityEventLibrary'",
+        "ObjectPath": "/Game/DataTable/CityEvent/DT_CityEventLibrary.0"
+      },
+      "CityEventAreaDataTable": {
+        "ObjectName": "DataTable'DT_CityEventAreaConfig'",
+        "ObjectPath": "/Game/DataTable/CityEvent/DT_CityEventAreaConfig.0"
+      },
+      "CityEventUIDataTable": {
+        "ObjectName": "DataTable'DT_CityEventUIConfig'",
+        "ObjectPath": "/Game/DataTable/CityEvent/DT_CityEventUIConfig.0"
+      },
+      "LoadPolicy": "EHTDataAssetSetLoadPolicy::Cache"
+    }
+  }
+]

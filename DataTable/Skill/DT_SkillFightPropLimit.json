@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SkillFightPropLimit",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Skill/DT_SkillFightPropLimit",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FightPropLimitParam'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "HPMaxBase": {
+        "LimitMin": 1.0,
+        "LimitMax": 100000000.0
+      },
+      "HPMaxUp": {
+        "LimitMin": 0.0,
+        "LimitMax": 20.0
+      },
+      "HPMaxAdd": {
+        "LimitMin": 0.0,
+        "LimitMax": 100000000.0
+      },
+      "HPCurrent": {
+        "LimitMin": 0.0,
+        "LimitMax": 2.2E+09
+      },
+      "AtkBase": {
+        "LimitMin": 0.0,
+        "LimitMax": 100000000.0
+      },
+      "AtkUp": {
+        "LimitMin": -0.9,
+        "LimitMax": 9.0
+      },
+      "AtkAdd": {
+        "LimitMin": 0.0,
+        "LimitMax": 100000.0
+      },
+      "AtkRateBase": {
+        "LimitMin": 0.0,
+        "LimitMax": 999999.0
+      },
+      "DamageBaseAdd": {
+        "LimitMin": 0.0,
+        "LimitMax": 1000000.0
+      },
+      "HealUp": {
+        "LimitMin": -0.9,
+        "LimitMax": 3.0
+      },
+      "HealBeUp": {
+        "LimitMin": -0.9,
+        "LimitMax": 3.0
+      }
+    }
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CommonStaminaData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/StaminaSystem/DT_CommonStaminaData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'CommonStaminaData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "CityStamina": {
+        "StaminaName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "CityStamina_name",
+          "SourceString": "都市活力",
+          "LocalizedString": "都市活力"
+        },
+        "CapitalRecoveryValue": 100,
+        "MaxCaptitalRecoveryTimes": 10,
+        "CaptitalItemID": "Annulith",
+        "PotionItemID": "CityStamina_addpotion",
+        "bIsWeeklyRecovery": true,
+        "bUseMaxRight": true,
+        "bUseConsumeRight": true,
+        "bUseFurnitureAdd": false,
+        "ExchangeItems": [
+          {
+            "ItemID": "fons",
+            "Amount": 1000.0
+          }
+        ],
+        "CapitalPriceDatas": [
+          {
+            "Times": 2,
+            "Price": 100
+          },
+          {
+            "Times": 5,
+            "Price": 150
+          },
+          {
+            "Times": 10,
+            "Price": 200
+          }
+        ],
+        "RecoveryData": {
+          "InitValue": 100,
+          "MaxValue": 100,
+          "RecoveryInterval": 0,
+          "RecoveryValue": 0,
+          "ShowItemID": "CityStamina",
+          "bAddCurValueOnMaxChange": true
+        },
+        "BakRecoveryData": null,
+        "FurnitureType": "ESpecialFurnitureType::None",
+        "IntervalFurnitureType": "ESpecialFurnitureType::None",
+        "AddProgressFurnitureType": "ESpecialFurnitureType::None",
+        "MaxRecoveryValue": 5000,
+        "PushMsgDatas": [
+          {
+            "EventId": "1",
+            "CommonStaminaPushMsgType": "ECommonStaminaPushMsgType::Weekly",
+            "PushMsgTitle": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "CityStamina_Msg_TItle",
+              "SourceString": "都市活力",
+              "LocalizedString": "都市活力"
+            },
+            "PushMsgBody": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "CityStamina_Msg_Action",
+              "SourceString": "都市活力已全部恢复",
+              "LocalizedString": "都市活力已全部恢复"
+            },
+            "PushMsgAction": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "CityStamina_Msg_Action",
+              "SourceString": "都市活力已全部恢复",
+              "LocalizedString": "都市活力已全部恢复"
+            },
+            "Hour": 5,
+            "DelayTime": 3
+          }
+        ]
+      },
+      "Stamina": {
+        "StaminaName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_energy",
+          "SourceString": "本性像素",
+          "LocalizedString": "本性像素"
+        },
+        "CapitalRecoveryValue": 60,
+        "MaxCaptitalRecoveryTimes": 6,
+        "CaptitalItemID": "Annulith",
+        "PotionItemID": "Stamina_addpotion",
+        "bIsWeeklyRecovery": false,
+        "bUseMaxRight": false,
+        "bUseConsumeRight": false,
+        "bUseFurnitureAdd": true,
+        "ExchangeItems": [],
+        "CapitalPriceDatas": [
+          {
+            "Times": 2,
+            "Price": 60
+          },
+          {
+            "Times": 6,
+            "Price": 120
+          }
+        ],
+        "RecoveryData": {
+          "InitValue": 240,
+          "MaxValue": 240,
+          "RecoveryInterval": 360,
+          "RecoveryValue": 1,
+          "ShowItemID": "Stamina",
+          "bAddCurValueOnMaxChange": false
+        },
+        "BakRecoveryData": null,
+        "FurnitureType": "ESpecialFurnitureType::DreamWeaver",
+        "IntervalFurnitureType": "ESpecialFurnitureType::None",
+        "AddProgressFurnitureType": "ESpecialFurnitureType::DreamWeaver",
+        "MaxRecoveryValue": 2400,
+        "PushMsgDatas": [
+          {
+            "EventId": "2",
+            "CommonStaminaPushMsgType": "ECommonStaminaPushMsgType::Max",
+            "PushMsgTitle": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Stamina_Msg_Title",
+              "SourceString": "本性像素",
+              "LocalizedString": "本性像素"
+            },
+            "PushMsgBody": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Stamina_Msg_Body",
+              "SourceString": "本性像素已达到存储上限",
+              "LocalizedString": "本性像素已达到存储上限"
+            },
+            "PushMsgAction": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Stamina_Msg_Action",
+              "SourceString": "本性像素已达到存储上限",
+              "LocalizedString": "本性像素已达到存储上限"
+            },
+            "Hour": 0,
+            "DelayTime": 3
+          },
+          {
+            "EventId": "3",
+            "CommonStaminaPushMsgType": "ECommonStaminaPushMsgType::Hourly",
+            "PushMsgTitle": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Stamina_Msg_Title",
+              "SourceString": "本性像素",
+              "LocalizedString": "本性像素"
+            },
+            "PushMsgBody": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Stamina_Msg_Body",
+              "SourceString": "本性像素已达到存储上限",
+              "LocalizedString": "本性像素已达到存储上限"
+            },
+            "PushMsgAction": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Stamina_Msg_Action",
+              "SourceString": "本性像素已达到存储上限",
+              "LocalizedString": "本性像素已达到存储上限"
+            },
+            "Hour": 11,
+            "DelayTime": 3
+          },
+          {
+            "EventId": "4",
+            "CommonStaminaPushMsgType": "ECommonStaminaPushMsgType::Hourly",
+            "PushMsgTitle": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Stamina_Msg_Title",
+              "SourceString": "本性像素",
+              "LocalizedString": "本性像素"
+            },
+            "PushMsgBody": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Stamina_Msg_Action",
+              "SourceString": "本性像素已达到存储上限",
+              "LocalizedString": "本性像素已达到存储上限"
+            },
+            "PushMsgAction": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Stamina_Msg_Action",
+              "SourceString": "本性像素已达到存储上限",
+              "LocalizedString": "本性像素已达到存储上限"
+            },
+            "Hour": 17,
+            "DelayTime": 3
+          }
+        ]
+      }
+    }
+  }
+]

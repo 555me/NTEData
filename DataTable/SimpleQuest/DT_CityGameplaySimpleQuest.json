@@ -1,0 +1,369 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CityGameplaySimpleQuest",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/SimpleQuest/DT_CityGameplaySimpleQuest",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SimpleQuestStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "ActCityGameplayQuest01": {
+        "QuestId": "ActCityGameplayQuest01",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ActCityGameplayQuest01_desc",
+          "SourceString": "完成{0}次「雨燕出行 」。",
+          "LocalizedString": "完成{0}次「雨燕出行 」。"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CityQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::TaxiGameplayFinishedCnt",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_NewbieCityGameReward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "UrbanGameplay",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "ActCityGameplayQuest02": {
+        "QuestId": "ActCityGameplayQuest02",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ActCityGameplayQuest02_desc",
+          "SourceString": "完成{0}次「同城派送」。",
+          "LocalizedString": "完成{0}次「同城派送」。"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CityQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::TakeOrders",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_NewbieCityGameReward_02",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "UrbanGameplay",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "ActCityGameplayQuest03": {
+        "QuestId": "ActCityGameplayQuest03",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ActCityGameplayQuest03_desc",
+          "SourceString": "「海上钓客」达到{0}级。",
+          "LocalizedString": "「海上钓客」达到{0}级。"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CityQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::FishLevel",
+          "Amount": 2
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_NewbieCityGameReward_03",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "UrbanGameplay",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "ActCityGameplayQuest04": {
+        "QuestId": "ActCityGameplayQuest04",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ActCityGameplayQuest04_desc",
+          "SourceString": "「都市大亨」达到{0}级。",
+          "LocalizedString": "「都市大亨」达到{0}级。"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CityQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "TycoonLevel": 10,
+          "ObjectiveType": "ESimpleQuestObjType::CityTycoonLevel",
+          "Amount": 10
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_NewbieCityGameReward_04",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "citytycoon_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "ActCityGameplayQuest05": {
+        "QuestId": "ActCityGameplayQuest05",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ActCityGameplayQuest05_desc",
+          "SourceString": "累计消耗{0}点都市活力。",
+          "LocalizedString": "累计消耗{0}点都市活力。"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CityQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "StaminaName": "CityStamina",
+          "ObjectiveType": "ESimpleQuestObjType::CommonStaminaTotalUsed",
+          "Amount": 300
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_NewbieCityGameReward_05",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "UrbanGameplay",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      }
+    }
+  }
+]

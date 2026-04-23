@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ChangeWeatherConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/AdjustTime/DT_ChangeWeatherConfig",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'ChangeWeatherConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Weather_Defulat": {
+        "WeatherIndex": "EWeatherIndex::Weather_Defulat",
+        "WeatherDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Wearher_Defulat",
+          "SourceString": "随机",
+          "LocalizedString": "随机"
+        },
+        "RandomRate": 0.0,
+        "WeatherTexture": {
+          "AssetPathName": "/Game/UI/UI/AdjustTime/UI_YH_Weather_Tips_01.UI_YH_Weather_Tips_01",
+          "SubPathString": ""
+        },
+        "UnlockDesc": {
+          "CultureInvariantString": null
+        },
+        "bAutoUnlock": true,
+        "UnlockCondition": null,
+        "ButtonTexture": {
+          "AssetPathName": "/Game/UI/UI/AdjustTime/UI_YH_Weather_Button_Random.UI_YH_Weather_Button_Random",
+          "SubPathString": ""
+        }
+      },
+      "Weather_Sunny": {
+        "WeatherIndex": "EWeatherIndex::Weather_Sunny",
+        "WeatherDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Wearher_Sunny",
+          "SourceString": "晴天",
+          "LocalizedString": "晴天"
+        },
+        "RandomRate": 0.79,
+        "WeatherTexture": {
+          "AssetPathName": "/Game/UI/UI/AdjustTime/UI_YH_Weather_Tips_01.UI_YH_Weather_Tips_01",
+          "SubPathString": ""
+        },
+        "UnlockDesc": {
+          "CultureInvariantString": null
+        },
+        "bAutoUnlock": true,
+        "UnlockCondition": null,
+        "ButtonTexture": {
+          "AssetPathName": "/Game/UI/UI/AdjustTime/UI_YH_Weather_Button_Sunny.UI_YH_Weather_Button_Sunny",
+          "SubPathString": ""
+        }
+      },
+      "Weather_Rain": {
+        "WeatherIndex": "EWeatherIndex::Weather_Rain",
+        "WeatherDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Wearher_Rain",
+          "SourceString": "雨天",
+          "LocalizedString": "雨天"
+        },
+        "RandomRate": 0.2,
+        "WeatherTexture": {
+          "AssetPathName": "/Game/UI/UI/AdjustTime/UI_YH_Weather_Tips_02.UI_YH_Weather_Tips_02",
+          "SubPathString": ""
+        },
+        "UnlockDesc": {
+          "CultureInvariantString": null
+        },
+        "bAutoUnlock": true,
+        "UnlockCondition": null,
+        "ButtonTexture": {
+          "AssetPathName": "/Game/UI/UI/AdjustTime/UI_YH_Weather_Button_Cloudy.UI_YH_Weather_Button_Cloudy",
+          "SubPathString": ""
+        }
+      },
+      "Weather_Snow": {
+        "WeatherIndex": "EWeatherIndex::Weather_Snow",
+        "WeatherDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Wearher_Snow",
+          "SourceString": "雪天",
+          "LocalizedString": "雪天"
+        },
+        "RandomRate": 0.01,
+        "WeatherTexture": {
+          "AssetPathName": "/Game/UI/UI/AdjustTime/UI_YH_Weather_Tips_03.UI_YH_Weather_Tips_03",
+          "SubPathString": ""
+        },
+        "UnlockDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Wearher_Snow_Lock",
+          "SourceString": "完成支线任务 <blue>「 写给你的逆行诗 」</>解锁",
+          "LocalizedString": "完成支线任务 <blue>「 写给你的逆行诗 」</>解锁"
+        },
+        "bAutoUnlock": false,
+        "UnlockCondition": {
+          "QuestId": "S111135"
+        },
+        "ButtonTexture": {
+          "AssetPathName": "/Game/UI/UI/AdjustTime/UI_YH_Weather_Button_Snow.UI_YH_Weather_Button_Snow",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

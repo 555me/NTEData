@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ShopMontageDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Shop/DT_ShopMontageDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'ShopMontageData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "kajimaopen": {
+        "ShopID": "Shop_009_Test",
+        "MontageType": "EShopMontageType::Open",
+        "MontageRandomData": [
+          {
+            "Montage": {
+              "AssetPathName": "/Game/Characters/Npc/NPC_Sub/NPC_Sub_mm/montage/npc_sub_mm_sp_crossstand_loop_simple_Montage.npc_sub_mm_sp_crossstand_loop_simple_Montage",
+              "SubPathString": ""
+            },
+            "VoiceRandomData": [
+              {
+                "Voice": {
+                  "DialogSoundEvent": {
+                    "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/SD/Play_Vo_SD_S0022_01_NPC06003_001.Play_Vo_SD_S0022_01_NPC06003_001",
+                    "SubPathString": ""
+                  },
+                  "RTPCConfigs": [
+                    {
+                      "RTPCName": "",
+                      "RTPCValue": 0.0
+                    }
+                  ],
+                  "AuxBus": [
+                    {
+                      "Key": "",
+                      "Value": 0.0
+                    }
+                  ]
+                },
+                "Weight": 1.0
+              },
+              {
+                "Voice": {
+                  "DialogSoundEvent": {
+                    "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/SD/Play_Vo_SD_S0022_01_NPC06003_002.Play_Vo_SD_S0022_01_NPC06003_002",
+                    "SubPathString": ""
+                  },
+                  "RTPCConfigs": [],
+                  "AuxBus": []
+                },
+                "Weight": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      "kajimaclosewithoutbuy": {
+        "ShopID": "Shop_009_Test",
+        "MontageType": "EShopMontageType::CloseWithoutBuy",
+        "MontageRandomData": [
+          {
+            "Montage": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceRandomData": [
+              {
+                "Voice": {
+                  "DialogSoundEvent": {
+                    "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/SD/Play_Vo_SD_S0022_01_NPC06012_002.Play_Vo_SD_S0022_01_NPC06012_002",
+                    "SubPathString": ""
+                  },
+                  "RTPCConfigs": [],
+                  "AuxBus": []
+                },
+                "Weight": 1.0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

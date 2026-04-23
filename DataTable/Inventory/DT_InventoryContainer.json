@@ -1,0 +1,768 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_InventoryContainer",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Inventory/DT_InventoryContainer",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'InventoryContainerData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "CARD": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_CHARACTER"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "CultureInvariantString": null
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": true
+      },
+      "CONSUMABLE": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_CONSUMABLE",
+          "EItemType::ITEM_TYPE_FORK_MATERIAL",
+          "EItemType::ITEM_TYPE_COOK_BOOK",
+          "EItemType::ITEM_TYPE_LIKEABILITY_GIFT",
+          "EItemType::ITEM_TYPE_EQUIPMENT_MATERIAL",
+          "EItemType::ITEM_TYPE_EXCHANGE_TICKET",
+          "EItemType::ITEM_TYPE_SHOP_POINT",
+          "EItemType::ITEM_TYPE_LOCKER_KEY",
+          "EItemType::ITEM_TYPE_FISH_BAIT"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [
+          {
+            "ExcludeLevels": [
+              "DLC_Bank_Safety",
+              "DLC_Hospital_FB"
+            ]
+          },
+          {
+            "ExcludeAreas": [
+              "008"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 4,
+        "bCanRepeat": false
+      },
+      "CAPITAL": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_CAPITAL"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "CultureInvariantString": null
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      },
+      "EQUIP": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_EQUIPMENT",
+          "EItemType::ITEM_TYPE_EQUIPMENT_CORE"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 2000,
+        "ShowInBagTabConditions": [
+          {
+            "ExcludeLevels": [
+              "DLC_Bank_Safety",
+              "DLC_Hospital_FB"
+            ]
+          },
+          {
+            "ExcludeAreas": [
+              "008"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_kongmu.YH_UI_icon_top_kongmu",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_kongmu.YH_UI_icon_top_kongmu",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_kongmu.YH_UI_icon_top_kongmu",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_kongmu.YH_UI_icon_top_kongmu",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_characterinfo_table_04",
+          "SourceString": "空幕",
+          "LocalizedString": "空幕"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 12,
+        "bCanRepeat": true
+      },
+      "FORK": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FORK"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 2000,
+        "ShowInBagTabConditions": [
+          {
+            "ExcludeLevels": [
+              "DLC_Bank_Safety",
+              "DLC_Hospital_FB"
+            ]
+          },
+          {
+            "ExcludeAreas": [
+              "008"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_characterinfo_table_02",
+          "SourceString": "弧盘",
+          "LocalizedString": "弧盘"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 12,
+        "bCanRepeat": true
+      },
+      "STORE": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_COOK_MATERIAL",
+          "EItemType::ITEM_TYPE_STOREM"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [
+          {
+            "ExcludeLevels": [
+              "DLC_Bank_Safety",
+              "DLC_Hospital_FB"
+            ]
+          },
+          {
+            "ExcludeAreas": [
+              "008"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_15",
+          "SourceString": "物料",
+          "LocalizedString": "物料"
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 4,
+        "bCanRepeat": false
+      },
+      "FOOD": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_COOK_FOOD"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [
+          {
+            "ExcludeLevels": [
+              "DLC_Bank_Safety",
+              "DLC_Hospital_FB"
+            ]
+          },
+          {
+            "ExcludeAreas": [
+              "008"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/daoju_shiwu.daoju_shiwu",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/daoju_shiwu.daoju_shiwu",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/daoju_shiwu.daoju_shiwu",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/daoju_shiwu.daoju_shiwu",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_16",
+          "SourceString": "食物",
+          "LocalizedString": "食物"
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 4,
+        "bCanRepeat": false
+      },
+      "IMPORTANT": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_QUEST",
+          "EItemType::ITEM_TYPE_IMPORTANT",
+          "EItemType::ITEM_TYPE_CHARACTER_FRAGMENT",
+          "EItemType::ITEM_TYPE_VEHICLE_ASSISTANT",
+          "EItemType::ITEM_TYPE_DISCOUNT_CARD",
+          "EItemType::ITEM_TYPE_WORLD_CHANGE",
+          "EItemType::ITEM_TYPE_MOVABLEPLAYER",
+          "EItemType::ITEM_TYPE_VEHICLE_KEY",
+          "EItemType::ITEM_TYPE_SMART_VEHICLE_KEY",
+          "EItemType::ITEM_TYPE_Lottery",
+          "EItemType::ITEM_TYPE_FISH_ROD",
+          "EItemType::ITEM_TYPE_DIVINATION_CRYSTAL",
+          "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+          "EItemType::ITEM_TYPE_ROB_BANK",
+          "EItemType::ITEM_TYPE_CHARACTER_CARD",
+          "EItemType::ITEM_TYPE_LIMITED_COUNT_VEHICLE_KEY"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [
+          {
+            "ExcludeLevels": [
+              "DLC_Bank_Safety",
+              "DLC_Hospital_FB"
+            ]
+          },
+          {
+            "ExcludeAreas": [
+              "008"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_03",
+          "SourceString": "重要物品",
+          "LocalizedString": "重要物品"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 4,
+        "bCanRepeat": false
+      },
+      "HOME": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_SHOWCASE",
+          "EItemType::ITEM_TYPE_FURNITURE",
+          "EItemType::ITEM_TYPE_MUSIC",
+          "EItemType::ITEM_TYPE_LANDSPACE",
+          "EItemType::ITEM_TYPE_FLOWERPOT",
+          "EItemType::ITEM_TYPE_FIGURES",
+          "EItemType::ITEM_TYPE_FLOWER",
+          "EItemType::ITEM_TYPE_BIG_FLOWER",
+          "EItemType::ITEM_TYPE_LANDSPACE_CIRCLE"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [
+          {
+            "ExcludeLevels": [
+              "DLC_Bank_Safety",
+              "DLC_Hospital_FB"
+            ]
+          },
+          {
+            "ExcludeAreas": [
+              "008"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_Icon_house.YH_UI_Icon_house",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_Icon_house.YH_UI_Icon_house",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_Icon_house.YH_UI_Icon_house",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_Icon_house.YH_UI_Icon_house",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_14",
+          "SourceString": "家具",
+          "LocalizedString": "家具"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 4,
+        "bCanRepeat": false
+      },
+      "AUTOUSE": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_AUTO_USE",
+          "EItemType::ITEM_TYPE_FASHION",
+          "EItemType::ITEM_TYPE_GLIDE"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1,
+        "ShowInBagTabConditions": [],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "CultureInvariantString": null
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      },
+      "INVISIBLE": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_GACHA_BOX",
+          "EItemType::ITEM_TYPE_VEHICLE_SKIN"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "CultureInvariantString": "<!>隐藏道具"
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      },
+      "FISH": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FISH"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "CultureInvariantString": "<!>鱼类"
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": true
+      },
+      "ROBBANK": {
+        "ContainItemTypes": [],
+        "ExtraDisplayItemTypes": [
+          "EItemType::ITEM_TYPE_ROB_BANK",
+          "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT"
+        ],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [
+          {
+            "LimitLevels": [
+              "DLC_Bank_Safety"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/SubfunctionEntrance/maozhuayinhang.maozhuayinhang",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/SubfunctionEntrance/maozhuayinhang.maozhuayinhang",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/SubfunctionEntrance/maozhuayinhang.maozhuayinhang",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/SubfunctionEntrance/maozhuayinhang.maozhuayinhang",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_bank_Safety_Name",
+          "SourceString": "粉爪大劫案",
+          "LocalizedString": "粉爪大劫案"
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      },
+      "FIGURES_FIRST": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FIGURES_FIRST"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "CultureInvariantString": null
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      },
+      "HOSPITAL": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_QUEST",
+          "EItemType::ITEM_TYPE_IMPORTANT"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [
+          "PortableVision_Hospital_Smoke",
+          "BandageClue_1",
+          "BandageClue_2",
+          "BandageClue_3",
+          "BandageClue_4",
+          "BandageClue_5",
+          "MysteriousVisitorClue_1",
+          "MysteriousVisitorClue_2",
+          "MysteriousVisitorClue_3",
+          "MysteriousVisitorClue_4",
+          "MysteriousVisitorClue_5",
+          "ExperimentClue_1",
+          "ClinicRoomKey_1f",
+          "StairwellKey_1f",
+          "SmallWardKey_2f",
+          "BigWardKey_2f",
+          "HallKey_2f",
+          "StairwellKey_2f",
+          "ExperimentClue_2",
+          "ExperimentClue_3",
+          "ExperimentClue_4",
+          "ExperimentClue_5",
+          "ExperimentClue_6",
+          "ElevatorCard_Hospital",
+          "NorthSidekey_3F",
+          "SouthSidekey_3F",
+          "SouthOfficekey_3F",
+          "HospitalJigsaw_1",
+          "HospitalJigsaw_2",
+          "HospitalJigsawFake_2",
+          "HospitalJigsaw_Toilet",
+          "HospitalJigsaw_Hidden",
+          "MetaClue_1"
+        ],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [
+          {
+            "LimitLevels": [
+              "DLC_Hospital_FB"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Achievement_Play_Nickname",
+          "SourceString": "玩法",
+          "LocalizedString": "玩法"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      },
+      "PRISON": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_QUEST",
+          "EItemType::ITEM_TYPE_COOK_FOOD"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [
+          "Prison_Spoon",
+          "Prison_figues",
+          "Prison_Paralyser",
+          "Prison_Towerkey",
+          "Prison_BedSheet",
+          "Prison_Uniform",
+          "Prison_erodent",
+          "Prison_stick",
+          "Prison_comic",
+          "Prison_soap",
+          "Prison_poker",
+          "Prison_gameboy",
+          "Prison_walkman",
+          "Food_115",
+          "Food_116",
+          "Food_117",
+          "Prison_SideDoorkey"
+        ],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [
+          {
+            "LimitAreas": [
+              "008"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Achievement_Play_Nickname",
+          "SourceString": "玩法",
+          "LocalizedString": "玩法"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      }
+    }
+  }
+]

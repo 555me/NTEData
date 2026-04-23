@@ -1,0 +1,1969 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CombatAwardQuest",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/SimpleQuest/DT_CombatAwardQuest",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SimpleQuestStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "CombatAwardDailyQuest_01": {
+        "QuestId": "CombatAwardDailyQuest_01",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardDailyQuest_01",
+          "SourceString": "每日登录1次",
+          "LocalizedString": "每日登录1次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::DailySign",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 200,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardDailyQuest_02": {
+        "QuestId": "CombatAwardDailyQuest_02",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardDailyQuest_02",
+          "SourceString": "任意消耗本性像素",
+          "LocalizedString": "任意消耗本性像素"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "StaminaName": "Stamina",
+          "ObjectiveType": "ESimpleQuestObjType::CommonStaminaUsed",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 300,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "map_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardDailyQuest_03": {
+        "QuestId": "CombatAwardDailyQuest_03",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardDailyQuest_03",
+          "SourceString": "每日活跃到达100点",
+          "LocalizedString": "每日活跃到达100点"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::ActivationValue",
+          "Amount": 100
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 300,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "adventure_daily_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardDailyQuest_04": {
+        "QuestId": "CombatAwardDailyQuest_04",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardDailyQuest_04",
+          "SourceString": "本日获得10000方斯",
+          "LocalizedString": "本日获得10000方斯"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Daily",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "fons"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 10000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 200,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "UrbanGameplay",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardWeeklyQuest_01": {
+        "QuestId": "CombatAwardWeeklyQuest_01",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardWeeklyQuest_01",
+          "SourceString": "本周消耗720点本性像素",
+          "LocalizedString": "本周消耗720点本性像素"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Weekly",
+        "ObjectiveInfo": {
+          "StaminaName": "Stamina",
+          "ObjectiveType": "ESimpleQuestObjType::CommonStaminaUsed",
+          "Amount": 720
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 1000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "map_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardWeeklyQuest_02": {
+        "QuestId": "CombatAwardWeeklyQuest_02",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardWeeklyQuest_02",
+          "SourceString": "本周消耗200点都市活力",
+          "LocalizedString": "本周消耗200点都市活力"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Weekly",
+        "ObjectiveInfo": {
+          "StaminaName": "CityStamina",
+          "ObjectiveType": "ESimpleQuestObjType::CommonStaminaUsed",
+          "Amount": 200
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 800,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "UrbanGameplay",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardWeeklyQuest_03": {
+        "QuestId": "CombatAwardWeeklyQuest_03",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardWeeklyQuest_03",
+          "SourceString": "本周赚取300000方斯",
+          "LocalizedString": "本周赚取300000方斯"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Weekly",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "fons"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 300000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 1000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "UrbanGameplay",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardWeeklyQuest_04": {
+        "QuestId": "CombatAwardWeeklyQuest_04",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardWeeklyQuest_04",
+          "SourceString": "本周空幕「倒带」10次",
+          "LocalizedString": "本周空幕「倒带」10次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Weekly",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::EquipmentLottery",
+          "Amount": 10
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 800,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "EquipmentLottery_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardWeeklyQuest_05": {
+        "QuestId": "CombatAwardWeeklyQuest_05",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardWeeklyQuest_05",
+          "SourceString": "本周通关3次兔子洞",
+          "LocalizedString": "本周通关3次兔子洞"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Weekly",
+        "ObjectiveInfo": {
+          "CloneIDArray": [],
+          "CloneType": "ECloneType::AirCurtain_Clone",
+          "CloneDifficultyLevel": 0,
+          "ObjectiveType": "ESimpleQuestObjType::CloneCompleted",
+          "Amount": 3
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 800,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "EquipmentCloneEnter_001_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardWeeklyQuest_06": {
+        "QuestId": "CombatAwardWeeklyQuest_06",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardWeeklyQuest_06",
+          "SourceString": "本周通关2次异象巡礼",
+          "LocalizedString": "本周通关2次异象巡礼"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Weekly",
+        "ObjectiveInfo": {
+          "CloneIDArray": [],
+          "CloneType": "ECloneType::Weekly_Clone",
+          "CloneDifficultyLevel": 0,
+          "ObjectiveType": "ESimpleQuestObjType::CloneCompleted",
+          "Amount": 2
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 1000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "WeeklyClone_Boss05_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardWeeklyQuest_07": {
+        "QuestId": "CombatAwardWeeklyQuest_07",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardWeeklyQuest_07",
+          "SourceString": "本周消耗100000甲硬币",
+          "LocalizedString": "本周消耗100000甲硬币"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Weekly",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": true,
+          "ItemIDArray": [
+            "gold"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 100000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 800,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardWeeklyQuest_08": {
+        "QuestId": "CombatAwardWeeklyQuest_08",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardWeeklyQuest_08",
+          "SourceString": "本周赠送10次礼物",
+          "LocalizedString": "本周赠送10次礼物"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::Weekly",
+        "ObjectiveInfo": {
+          "SubQuests": [],
+          "ObjectiveType": "ESimpleQuestObjType::SendGift",
+          "Amount": 10
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_limitexp",
+              "Amount": 1000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "likeability_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardOnceQuest_01": {
+        "QuestId": "CombatAwardOnceQuest_01",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest_01",
+          "SourceString": "通关正篇-「生意经与招财宝」",
+          "LocalizedString": "通关正篇-「生意经与招财宝」"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "SubQuests": [
+            "q110088"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::SubQuest",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "questpanel_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardOnceQuest_02": {
+        "QuestId": "CombatAwardOnceQuest_02",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest_02",
+          "SourceString": "通关正篇-「成交？成交！」",
+          "LocalizedString": "通关正篇-「成交？成交！」"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "SubQuests": [
+            "q110394"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::SubQuest",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "questpanel_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardOnceQuest_03": {
+        "QuestId": "CombatAwardOnceQuest_03",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest_03",
+          "SourceString": "通关番外-「某传奇乐队（吗？）的第一页」",
+          "LocalizedString": "通关番外-「某传奇乐队（吗？）的第一页」"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "SubQuests": [
+            "L110266"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::SubQuest",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "questpanel_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardOnceQuest_04": {
+        "QuestId": "CombatAwardOnceQuest_04",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest_04",
+          "SourceString": "养成4个角色到达50级",
+          "LocalizedString": "养成4个角色到达50级"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "NotifyItemType": "ENotifyItemType::NOTIFY_CHARACTER_LEVEL",
+          "Level": 50,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "ObjectiveType": "ESimpleQuestObjType::ItemLevel",
+          "Amount": 4
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "characterinfo_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardOnceQuest_05": {
+        "QuestId": "CombatAwardOnceQuest_05",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest_05",
+          "SourceString": "养成4个弧盘到达50级",
+          "LocalizedString": "养成4个弧盘到达50级"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "NotifyItemType": "ENotifyItemType::NOTIFY_FORK_STRENGTHENLEVEL",
+          "Level": 50,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "ObjectiveType": "ESimpleQuestObjType::ItemLevel",
+          "Amount": 4
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "fork_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardOnceQuest_06": {
+        "QuestId": "CombatAwardOnceQuest_06",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest_06",
+          "SourceString": "养成2个空幕「卡带」到达20级",
+          "LocalizedString": "养成2个空幕「卡带」到达20级"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "NotifyItemType": "ENotifyItemType::NOTIFY_EQUIPMENT_STRENGTHEN_LEVEL",
+          "Level": 20,
+          "ItemType": "EItemType::ITEM_TYPE_EQUIPMENT_CORE",
+          "ObjectiveType": "ESimpleQuestObjType::ItemLevel",
+          "Amount": 2
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "equipment_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardOnceQuest_07": {
+        "QuestId": "CombatAwardOnceQuest_07",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest_07",
+          "SourceString": "养成8个空幕「驱动块」到达20级",
+          "LocalizedString": "养成8个空幕「驱动块」到达20级"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "NotifyItemType": "ENotifyItemType::NOTIFY_EQUIPMENT_STRENGTHEN_LEVEL",
+          "Level": 20,
+          "ItemType": "EItemType::ITEM_TYPE_EQUIPMENT",
+          "ObjectiveType": "ESimpleQuestObjType::ItemLevel",
+          "Amount": 8
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "equipment_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardOnceQuest_08": {
+        "QuestId": "CombatAwardOnceQuest_08",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest_08",
+          "SourceString": "通关「轨外之境-节理环线」第8关",
+          "LocalizedString": "通关「轨外之境-节理环线」第8关"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "AbyssID": "Abyss_Common",
+          "AbyssLevel": 8,
+          "ObjectiveType": "ESimpleQuestObjType::AbyssCompleted",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_exp",
+              "Amount": 2500,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "abyss_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardOnceQuest_09": {
+        "QuestId": "CombatAwardOnceQuest_09",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest_09",
+          "SourceString": "在「斯卡布罗集市」中累计掷骰30次",
+          "LocalizedString": "在「斯卡布罗集市」中累计掷骰30次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::RollDice",
+          "Amount": 30
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_exp",
+              "Amount": 3000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Monopoly_UI",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      },
+      "CombatAwardOnceQuest_10": {
+        "QuestId": "CombatAwardOnceQuest_10",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest_10",
+          "SourceString": "在「奇迹盒盒」中累计开启30次",
+          "LocalizedString": "在「奇迹盒盒」中累计开启30次"
+        },
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::ForkLottery",
+          "Amount": 30
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Combat_exp",
+              "Amount": 2500,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "ForkLotterynShop",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 2026,
+            "Month": 5,
+            "Day": 27,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 2026,
+            "Month": 6,
+            "Day": 1,
+            "Hour": 16,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
+      }
+    }
+  }
+]

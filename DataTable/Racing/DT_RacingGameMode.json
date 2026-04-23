@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RacingGameMode",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Racing/DT_RacingGameMode",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'RacingGameModeData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "PVE": {
+        "UseVehicleKeyTypes": [
+          "EVehicleKeyUseType::EKUT_Car",
+          "EVehicleKeyUseType::EKUT_Kart"
+        ]
+      },
+      "PVP": {
+        "UseVehicleKeyTypes": [
+          "EVehicleKeyUseType::EKUT_Car",
+          "EVehicleKeyUseType::EKUT_Kart"
+        ]
+      },
+      "InviteMode": {
+        "UseVehicleKeyTypes": [
+          "EVehicleKeyUseType::EKUT_Car",
+          "EVehicleKeyUseType::EKUT_Kart"
+        ]
+      }
+    }
+  }
+]

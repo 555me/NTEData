@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_IdleBlend",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Camera/DT_IdleBlend",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'IdleLagSpeedAndMaxDistance'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "IdleTime": 1.0,
+        "LagSpeedCurveFloatValue": {
+          "ObjectName": "CurveFloat'Player1001_CameraLagSpeed'",
+          "ObjectPath": "/Game/Curve/Camera/Player/Player1001_CameraLagSpeed.0"
+        },
+        "LagMaxDistanceCurveFloatValue": null
+      }
+    }
+  }
+]
