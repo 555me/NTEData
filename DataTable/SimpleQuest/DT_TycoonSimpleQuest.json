@@ -605,13 +605,17 @@
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
-          "ItemID": "WeaponGacha",
-          "Shops": [
-            "FonsLimitTimeShop1"
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "fons"
           ],
-          "bCityShop": false,
-          "ObjectiveType": "ESimpleQuestObjType::ShopBuy",
-          "Amount": 1
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 100
         },
         "QuestAwardData": {
           "AwardGroupID": "None",

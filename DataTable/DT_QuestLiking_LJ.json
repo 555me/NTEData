@@ -49578,7 +49578,7 @@
               "TrackLocation": {
                 "X": 25295.754,
                 "Y": 68832.516,
-                "Z": 6379.566
+                "Z": 6349.566
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -49892,7 +49892,7 @@
               "TrackLocation": {
                 "X": 22640.113,
                 "Y": 65550.4,
-                "Z": 6367.198
+                "Z": 6337.198
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -57870,9 +57870,9 @@
             "TrackInfo": {
               "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": -5922.0,
+                "X": -6006.0,
                 "Y": -7629.0,
-                "Z": 1385.8442
+                "Z": 1355.8442
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -58043,9 +58043,9 @@
               "ShowCenter": false,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
-                "X": 20.0,
-                "Y": 0.0,
-                "Z": 0.0
+                "X": 170.0,
+                "Y": 45.0,
+                "Z": 120.0
               },
               "TrackMapName": "DLC_Museum_Lamp_Story2",
               "bNeedCrossBox": false,
@@ -61407,7 +61407,71 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
-          null
+          {
+            "VehicleArray": [],
+            "bByCarType": false,
+            "VehicleType": "EVehicleKeyUseType::EKUT_Car",
+            "bByMultiCarType": true,
+            "MultiVehicleType": [
+              "EVehicleKeyUseType::EKUT_Car",
+              "EVehicleKeyUseType::EKUT_Kart"
+            ],
+            "ObjectiveID": "1",
+            "ObjectiveTips": "买车",
+            "ObjectiveType": "EObjectiveType::EOT_VEHICLE_BUY",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/NPC_09201/BP_NPC_09201.BP_NPC_09201_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest.ST_SideQuest",
+              "Key": "B110021_ObjDes_1",
+              "SourceString": "购买一辆心仪的车辆",
+              "LocalizedString": "购买一辆心仪的车辆"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -132436.81,
+                "Y": 176989.88,
+                "Z": 6804.3184
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "XL_map_bigworld_test",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
         ],
         "QuestType": "EQuestType::EQT_BREAKTHROUGH",
         "bNeedRedpoint": false,

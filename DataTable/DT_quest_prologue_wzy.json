@@ -15441,11 +15441,11 @@
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": false,
+              "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
+                "X": 10032.43,
+                "Y": -21691.072,
+                "Z": 19.147926
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -28229,14 +28229,16 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
+            "ConvoyProtectTime": 15.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",

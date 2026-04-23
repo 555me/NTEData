@@ -65,6 +65,33 @@
             "bAddToCharacter": true
           }
         ]
+      },
+      "abyss_2_buff_01": {
+        "BuffName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "Buff_Abyss_Phase_002_name",
+          "SourceString": "逐光之影",
+          "LocalizedString": "逐光之影"
+        },
+        "BuffDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "Buff_Abyss_Phase_002_des",
+          "SourceString": "己方编队角色造成的光属性和暗属性异能伤害提高25%，并且对于倾陷状态的敌人造成的伤害提高15%。",
+          "LocalizedString": "己方编队角色造成的光属性和暗属性异能伤害提高25%，并且对于倾陷状态的敌人造成的伤害提高15%。"
+        },
+        "BuffIcon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BUFF/Ayss_buff_03.Ayss_buff_03",
+          "SubPathString": ""
+        },
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Phases/P2/Buff_Abyss_Phase_002.Buff_Abyss_Phase_002_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ]
       }
     }
   }

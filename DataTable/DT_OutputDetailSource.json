@@ -15969,7 +15969,7 @@
         },
         "LevelName": "",
         "Path": "",
-        "UnlockFuncID": "likeability",
+        "UnlockFuncID": "Likeability",
         "FindPathid": "None",
         "FindMapFixedIcon": "None",
         "JumpToUIData": {
@@ -16013,7 +16013,7 @@
         },
         "LevelName": "",
         "Path": "",
-        "UnlockFuncID": "likeability",
+        "UnlockFuncID": "Likeability",
         "FindPathid": "None",
         "FindMapFixedIcon": "None",
         "JumpToUIData": {
@@ -16057,7 +16057,7 @@
         },
         "LevelName": "",
         "Path": "",
-        "UnlockFuncID": "likeability",
+        "UnlockFuncID": "Likeability",
         "FindPathid": "None",
         "FindMapFixedIcon": "None",
         "JumpToUIData": {
@@ -16101,7 +16101,7 @@
         },
         "LevelName": "",
         "Path": "",
-        "UnlockFuncID": "likeability",
+        "UnlockFuncID": "Likeability",
         "FindPathid": "None",
         "FindMapFixedIcon": "None",
         "JumpToUIData": {
@@ -16145,7 +16145,7 @@
         },
         "LevelName": "",
         "Path": "",
-        "UnlockFuncID": "likeability",
+        "UnlockFuncID": "Likeability",
         "FindPathid": "None",
         "FindMapFixedIcon": "None",
         "JumpToUIData": {
@@ -16189,7 +16189,7 @@
         },
         "LevelName": "",
         "Path": "",
-        "UnlockFuncID": "likeability",
+        "UnlockFuncID": "Likeability",
         "FindPathid": "None",
         "FindMapFixedIcon": "None",
         "JumpToUIData": {
@@ -16412,10 +16412,13 @@
         "FindPathid": "None",
         "FindMapFixedIcon": "None",
         "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_FishMapPoint",
-          "UIParaming": [],
+          "QuestUIType": "EQuestUIType::QUT_FishFuc",
+          "UIParaming": [
+            "FishFuncMain",
+            "FishFuncGrade"
+          ],
           "JumpConfig": null,
-          "UnlockFunctionID": "None",
+          "UnlockFunctionID": "Fishing",
           "UnlockNoticeMessage": {
             "CultureInvariantString": null
           },
@@ -16436,7 +16439,10 @@
           "SubPathString": ""
         },
         "ContentDesc": {
-          "CultureInvariantString": "粉爪大劫案"
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "fenzhua_map_name",
+          "SourceString": "粉爪大劫案",
+          "LocalizedString": "粉爪大劫案"
         },
         "Location": {
           "X": 0.0,
@@ -16488,7 +16494,7 @@
         },
         "LevelName": "",
         "Path": "",
-        "UnlockFuncID": "likeability",
+        "UnlockFuncID": "Likeability",
         "FindPathid": "None",
         "FindMapFixedIcon": "None",
         "JumpToUIData": {
@@ -16502,6 +16508,142 @@
           "UnlockFunctionID": "None",
           "UnlockNoticeMessage": {
             "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "SpecialFurniture_0010": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "SpecialFurniture_0010",
+          "SourceString": "异像家具：压缩嘭嘭朵",
+          "LocalizedString": "异像家具：压缩嘭嘭朵"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "gachashop_JumpTo_1": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "gachashop_name",
+          "SourceString": "集市兑换",
+          "LocalizedString": "集市兑换"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "Mall&9&0",
+        "UnlockFuncID": "Mall",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "Mall",
+            "MultiShop1",
+            "",
+            "0"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "Lottery",
+          "UnlockNoticeMessage": {
+            "TableId": "/Game/Text/ST_Output.ST_Output",
+            "Key": "UnlockMsg_MainQuest",
+            "SourceString": "推进主线任务解锁",
+            "LocalizedString": "推进主线任务解锁"
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "gachashop_JumpTo_2": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "gachashop_name",
+          "SourceString": "集市兑换",
+          "LocalizedString": "集市兑换"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "Mall&9&1",
+        "UnlockFuncID": "Mall",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "Mall",
+            "MultiShop1",
+            "",
+            "1"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "Lottery",
+          "UnlockNoticeMessage": {
+            "TableId": "/Game/Text/ST_Output.ST_Output",
+            "Key": "UnlockMsg_MainQuest",
+            "SourceString": "推进主线任务解锁",
+            "LocalizedString": "推进主线任务解锁"
           },
           "SwitchArray": [],
           "DynamicParam": {
