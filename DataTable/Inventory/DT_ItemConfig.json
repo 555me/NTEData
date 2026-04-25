@@ -42798,7 +42798,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "Furniture_draw_Mysterious",
+        "OutputSourceID": "Quest_s110820",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -42884,7 +42884,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "Furniture_draw_Mysterious",
+        "OutputSourceID": "Quest_s110820",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -43047,7 +43047,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "Furniture_Jukebox_001",
+        "OutputSourceID": "None",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -101208,6 +101208,80 @@
         "ElementData": null,
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "fork_choosebox": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/treasure.treasure",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/treasure.treasure",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "fork_choosebox_name",
+          "SourceString": "「猛虎特刊」S弧盘随机箱",
+          "LocalizedString": "「猛虎特刊」S弧盘随机箱"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "fork_choosebox_des",
+          "SourceString": "25%概率获得限定S级弧盘「预备备」，15%概率获得S级弧盘「现实避难所」、15%概率获得S级弧盘「漆黑青春妄想」、15%概率获得S级弧盘「好狗狗走四方」、15%概率获得S级弧盘「茶花会」、15%概率获得S级弧盘「焰魂狂飙」。",
+          "LocalizedString": "25%概率获得限定S级弧盘「预备备」，15%概率获得S级弧盘「现实避难所」、15%概率获得S级弧盘「漆黑青春妄想」、15%概率获得S级弧盘「好狗狗走四方」、15%概率获得S级弧盘「茶花会」、15%概率获得S级弧盘「焰魂狂飙」。"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "TreasureBoxType": "EItemTreasureBoxType::ITEM_TREASURE_BOX_TYPE_RAND",
+            "DropID": "drop_frokchoose",
+            "OpenUIName": ""
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
         "PlayerViewTagArray": [],
         "bIsLimitAmount": false,
         "bIsManual": false,
