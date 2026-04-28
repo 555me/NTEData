@@ -55015,7 +55015,7 @@
           "SourceString": "魔法丝线",
           "LocalizedString": "魔法丝线"
         },
-        "MaxAmount": 999,
+        "MaxAmount": 9999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -67829,6 +67829,80 @@
           {
             "TreasureBoxType": "EItemTreasureBoxType::ITEM_TREASURE_BOX_TYPE_OPTIONAL",
             "DropID": "drop_weeklycloneboss_selectbox_01",
+            "OpenUIName": "ConsumableUseTreasureBox"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "characterbox_permanentSSR": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/character_ssrbox.character_ssrbox",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/character_ssrbox.character_ssrbox",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "character_ssrbox_name",
+          "SourceString": "S级常驻角色自选箱",
+          "LocalizedString": "S级常驻角色自选箱"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "characterbox_permanentSSR_usedesc",
+          "SourceString": "使用后可从早雾、哈索尔、白藏、法帝娅、达芙蒂尔、九原中选择一名角色加入队伍。",
+          "LocalizedString": "使用后可从早雾、哈索尔、白藏、法帝娅、达芙蒂尔、九原中选择一名角色加入队伍。"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "TreasureBoxType": "EItemTreasureBoxType::ITEM_TREASURE_BOX_TYPE_OPTIONAL",
+            "DropID": "drop_characterbox_permanentSSR",
             "OpenUIName": "ConsumableUseTreasureBox"
           }
         ],
