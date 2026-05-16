@@ -9,41 +9,41 @@
       "ActivatedStar": {
         "AssetPathName": "/Game/UI/UI/Taxi/UI_YH_CityGameplay_Details_List_Icon.UI_YH_CityGameplay_Details_List_Icon",
         "SubPathString": ""
-      },
+},
       "InActivatedStar": {
         "AssetPathName": "/Game/UI/UI/Taxi/UI_YH_CityGameplay_Details_List_Icon_01.UI_YH_CityGameplay_Details_List_Icon_01",
         "SubPathString": ""
-      },
+},
       "TaxiGameplaySatisfactionNotifyArray": [
         {
           "LowerBound": {
             "Type": "ERangeBoundTypes::Exclusive",
             "Value": 0.0
-          },
+},
           "UpperBound": {
             "Type": "ERangeBoundTypes::Exclusive",
             "Value": 0.25
-          }
+}
         },
         {
           "LowerBound": {
             "Type": "ERangeBoundTypes::Exclusive",
             "Value": 0.25
-          },
+},
           "UpperBound": {
             "Type": "ERangeBoundTypes::Exclusive",
             "Value": 0.5
-          }
+}
         },
         {
           "LowerBound": {
             "Type": "ERangeBoundTypes::Exclusive",
             "Value": 0.5
-          },
+},
           "UpperBound": {
             "Type": "ERangeBoundTypes::Exclusive",
             "Value": 0.75
-          }
+}
         }
       ],
       "InterestTextMap": [
@@ -51,19 +51,15 @@
           "Key": "ETaxiGameplayInterestsType::ETaxiGameplayInterestsType_Base",
           "Value": {
             "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-            "Key": "TaxiGameplay_012",
-            "SourceString": "每单基础车费",
-            "LocalizedString": "每单基础车费"
-          }
+            "Key": "TaxiGameplay_012"
+}
         },
         {
           "Key": "ETaxiGameplayInterestsType::ETaxiGameplayInterestsType_Tips",
           "Value": {
             "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-            "Key": "TaxiGameplay_013",
-            "SourceString": "每单额外小费",
-            "LocalizedString": "每单额外小费"
-          }
+            "Key": "TaxiGameplay_013"
+}
         }
       ],
       "SelfCityGameplayID": "Taxi",
@@ -72,7 +68,7 @@
         "UseFortuitousMeetingProp": 0.2,
         "AddLikeabilityValue": 50,
         "FirstProp": 200
-      },
+},
       "TaxiGameplayStateInfoMap": [
         {
           "Key": "ETaxiGameplayState::ETaxiGameplayState_WaitOrder",
@@ -81,15 +77,13 @@
             "bShowNotify": true,
             "StateText": {
               "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-              "Key": "TaxiGameplay_008",
-              "SourceString": "匹配订单中",
-              "LocalizedString": "匹配订单中"
-            },
+              "Key": "TaxiGameplay_008"
+},
             "NotifyShowTime": 0.0,
             "StateImage": {
               "AssetPathName": "/Game/UI/UI/TakeOrders/UI_YH_SH_TimeIcon.UI_YH_SH_TimeIcon",
               "SubPathString": ""
-            },
+},
             "NotifyTextColor": {
               "SpecifiedColor": {
                 "R": 1.0,
@@ -97,9 +91,9 @@
                 "B": 0.088656,
                 "A": 1.0,
                 "Hex": "FFF554"
-              },
+},
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-            }
+}
           }
         },
         {
@@ -109,15 +103,13 @@
             "bShowNotify": true,
             "StateText": {
               "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-              "Key": "TaxiGameplay_009",
-              "SourceString": "已为您接取新订单",
-              "LocalizedString": "已为您接取新订单"
-            },
+              "Key": "TaxiGameplay_009"
+},
             "NotifyShowTime": 3.0,
             "StateImage": {
               "AssetPathName": "/Game/UI/UI/TakeOrders/UI_YH_SH_TimeIcon.UI_YH_SH_TimeIcon",
               "SubPathString": ""
-            },
+},
             "NotifyTextColor": {
               "SpecifiedColor": {
                 "R": 1.0,
@@ -125,9 +117,9 @@
                 "B": 0.052861,
                 "A": 1.0,
                 "Hex": "FF6941"
-              },
+},
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-            }
+}
           }
         },
         {
@@ -137,12 +129,12 @@
             "bShowNotify": false,
             "StateText": {
               "CultureInvariantString": null
-            },
+},
             "NotifyShowTime": 0.0,
             "StateImage": {
               "AssetPathName": "",
               "SubPathString": ""
-            },
+},
             "NotifyTextColor": {
               "SpecifiedColor": {
                 "R": 1.0,
@@ -150,9 +142,9 @@
                 "B": 1.0,
                 "A": 1.0,
                 "Hex": "FF00FF"
-              },
+},
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-            }
+}
           }
         }
       ],
@@ -162,15 +154,13 @@
           "Value": {
             "TypeText": {
               "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-              "Key": "TaxiGameplay_001",
-              "SourceString": "基础车费",
-              "LocalizedString": "基础车费"
-            },
+              "Key": "TaxiGameplay_001"
+},
             "FormatName": "TaxiGameplayBaseNum",
             "TypeImage": {
               "AssetPathName": "/Game/UI/UI/Taxi/TaxiNew/UI_YH_CityGameplay_Taxi01_List_Icon_02.UI_YH_CityGameplay_Taxi01_List_Icon_02",
               "SubPathString": ""
-            }
+}
           }
         },
         {
@@ -178,15 +168,13 @@
           "Value": {
             "TypeText": {
               "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-              "Key": "TaxiGameplay_002",
-              "SourceString": "耐心值",
-              "LocalizedString": "耐心值"
-            },
+              "Key": "TaxiGameplay_002"
+},
             "FormatName": "TaxiGameplayPercentNum",
             "TypeImage": {
               "AssetPathName": "/Game/UI/UI/Taxi/TaxiNew/UI_YH_CityGameplay_Taxi01_List_Icon_01.UI_YH_CityGameplay_Taxi01_List_Icon_01",
               "SubPathString": ""
-            }
+}
           }
         },
         {
@@ -194,15 +182,13 @@
           "Value": {
             "TypeText": {
               "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-              "Key": "TaxiGameplay_003",
-              "SourceString": "额外小费",
-              "LocalizedString": "额外小费"
-            },
+              "Key": "TaxiGameplay_003"
+},
             "FormatName": "TaxiGameplayBaseNum",
             "TypeImage": {
               "AssetPathName": "/Game/UI/UI/Taxi/TaxiNew/UI_YH_CityGameplay_Taxi01_List_Icon_03.UI_YH_CityGameplay_Taxi01_List_Icon_03",
               "SubPathString": ""
-            }
+}
           }
         },
         {
@@ -210,15 +196,13 @@
           "Value": {
             "TypeText": {
               "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-              "Key": "TaxiGameplay_004",
-              "SourceString": "总计车费",
-              "LocalizedString": "总计车费"
-            },
+              "Key": "TaxiGameplay_004"
+},
             "FormatName": "TaxiGameplayBaseNum",
             "TypeImage": {
               "AssetPathName": "",
               "SubPathString": ""
-            }
+}
           }
         },
         {
@@ -226,15 +210,13 @@
           "Value": {
             "TypeText": {
               "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-              "Key": "TaxiGameplay_005",
-              "SourceString": "本单评分",
-              "LocalizedString": "本单评分"
-            },
+              "Key": "TaxiGameplay_005"
+},
             "FormatName": "TaxiGameplayPercentNum",
             "TypeImage": {
               "AssetPathName": "",
               "SubPathString": ""
-            }
+}
           }
         }
       ],
@@ -242,21 +224,21 @@
         {
           "Key": "ETaxiGameplayDriverBonusType::ETaxiGameplayDriverBonusType_Positive",
           "Value": "TaxiGameplayDriverBounsTypePositive"
-        },
+},
         {
           "Key": "ETaxiGameplayDriverBonusType::ETaxiGameplayDriverBonusType_Negative",
           "Value": "TaxiGameplayDriverBounsTypeNegative"
-        }
+}
       ],
       "DriverRatingRangeTextMap": [
         {
           "Key": "1",
           "Value": "TaxiGameplayRatingRangeSingle"
-        },
+},
         {
           "Key": "2",
           "Value": "TaxiGameplayRatingRange"
-        }
+}
       ],
       "StaminaName": "CityStamina",
       "TaxiTakeOrderProtectedTime": 3.0,
@@ -271,14 +253,14 @@
           "Value": {
             "ObjectName": "DataTable'DT_TaxiGameplayGuestPointRandomRange'",
             "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayGuestPointRandomRange.0"
-          }
+}
         },
         {
           "Key": "ETaxiGameplayTargetLocationType::ETaxiGameplayTargetLocationType_GuestTarget",
           "Value": {
             "ObjectName": "DataTable'DT_TaxiGameplayGuestTargetPointRandomRange'",
             "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayGuestTargetPointRandomRange.0"
-          }
+}
         }
       ],
       "SubtractSatisfactionTime": 2.0,
@@ -286,46 +268,46 @@
       "TaxiOrderRatingCurveTable": {
         "ObjectName": "CurveTable'CV_TaxiOrderRating'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/CV_TaxiOrderRating.0"
-      },
+},
       "TaxiOrderRatingCurveName": "Rating",
       "FixDistanceCurveTable": {
         "ObjectName": "CurveTable'CV_TaxiFixDistance'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/CV_TaxiFixDistance.0"
-      },
+},
       "FixDistanceCurveName": "FixParameter",
       "DT_TaxiGameplayRatingDataTable": {
         "ObjectName": "DataTable'DT_TaxiGameplayRatingDataTable'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayRatingDataTable.0"
-      },
+},
       "DT_TaxiGameplayBaseFareDataTable": {
         "ObjectName": "DataTable'DT_TaxiGameplayBaseFareDataTable'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayBaseFareDataTable.0"
-      },
+},
       "DT_TaxiGameplayVehicleDataTable": {
         "ObjectName": "DataTable'DT_TaxiGameplayVehicleDataTable'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayVehicleDataTable.0"
-      },
+},
       "DT_TaxiGameplayDriverDataTable": {
         "ObjectName": "DataTable'DT_TaxiGameplayDriverDataTable'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayDriverDataTable.0"
-      },
+},
       "DT_TaxiGameplayOrderTable": {
         "ObjectName": "DataTable'DT_TaxiGameplayDataTable'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayDataTable.0"
-      },
+},
       "DT_TaxiGameplayTargetLocationTable": {
         "ObjectName": "DataTable'DT_TaxiGameplayTargetLocationDataTable'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayTargetLocationDataTable.0"
-      },
+},
       "DT_TaxiGameplayPassengerDialogue": {
         "ObjectName": "DataTable'DT_TaxiGameplayPassengerDialogue'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayPassengerDialogue.0"
-      },
+},
       "DT_TaxiGameplayPassengerNPCTable": {
         "ObjectName": "DataTable'DT_TaxiGameplayPassengerNPCDataTable'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/TaxiGameplay/DT_TaxiGameplayPassengerNPCDataTable.0"
-      },
+},
       "LoadPolicy": "EHTDataAssetSetLoadPolicy::Cache"
-    }
+}
   }
 ]

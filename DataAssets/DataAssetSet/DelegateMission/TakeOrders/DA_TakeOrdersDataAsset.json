@@ -11,27 +11,27 @@
         {
           "MapName": "Testmap_liuyang",
           "RefreshPointCnt": 5
-        },
+},
         {
           "MapName": "XL_map_bigworld_test",
           "RefreshPointCnt": 6
-        }
+}
       ],
       "ValidVehicleArray": [
         {
           "VehicleName": "Vehicle009a_toq",
           "VehicleEnduranceCoefficient": 0.04
-        }
+}
       ],
       "SpecialFurnitureMapPointArray": [
         {
           "MapName": "Testmap_liuyang",
           "RefreshPointCnt": 1
-        },
+},
         {
           "MapName": "XL_map_bigworld_test",
           "RefreshPointCnt": 1
-        }
+}
       ],
       "SpecialFurnitureRefreshDay": 5,
       "SpFurnitureCoefficientApplyArray": [
@@ -43,127 +43,121 @@
             "LowerBound": {
               "Type": "ERangeBoundTypes::Inclusive",
               "Value": 90
-            },
+},
             "UpperBound": {
               "Type": "ERangeBoundTypes::Open",
               "Value": 100
-            }
+}
           },
           "SettleGrade": "ETakeOrdersSettleGrade::Grade_S",
           "GradeIcon": {
             "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_delivered_S.YH_UI_weituo_delivered_S",
             "SubPathString": ""
-          },
+},
           "LevelEffectIcon": {
             "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_face_S.YH_UI_weituo_face_S",
             "SubPathString": ""
-          }
+}
         },
         {
           "Range": {
             "LowerBound": {
               "Type": "ERangeBoundTypes::Inclusive",
               "Value": 80
-            },
+},
             "UpperBound": {
               "Type": "ERangeBoundTypes::Exclusive",
               "Value": 90
-            }
+}
           },
           "SettleGrade": "ETakeOrdersSettleGrade::Grade_A",
           "GradeIcon": {
             "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_delivered_.YH_UI_weituo_delivered_",
             "SubPathString": ""
-          },
+},
           "LevelEffectIcon": {
             "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_face_A.YH_UI_weituo_face_A",
             "SubPathString": ""
-          }
+}
         },
         {
           "Range": {
             "LowerBound": {
               "Type": "ERangeBoundTypes::Inclusive",
               "Value": 60
-            },
+},
             "UpperBound": {
               "Type": "ERangeBoundTypes::Exclusive",
               "Value": 80
-            }
+}
           },
           "SettleGrade": "ETakeOrdersSettleGrade::Grade_B",
           "GradeIcon": {
             "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_delivered_B.YH_UI_weituo_delivered_B",
             "SubPathString": ""
-          },
+},
           "LevelEffectIcon": {
             "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_face_B.YH_UI_weituo_face_B",
             "SubPathString": ""
-          }
+}
         },
         {
           "Range": {
             "LowerBound": {
               "Type": "ERangeBoundTypes::Inclusive",
               "Value": 0
-            },
+},
             "UpperBound": {
               "Type": "ERangeBoundTypes::Exclusive",
               "Value": 60
-            }
+}
           },
           "SettleGrade": "ETakeOrdersSettleGrade::Grade_C",
           "GradeIcon": {
             "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_delivered_C.YH_UI_weituo_delivered_C",
             "SubPathString": ""
-          },
+},
           "LevelEffectIcon": {
             "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_face_C.YH_UI_weituo_face_C",
             "SubPathString": ""
-          }
+}
         }
       ],
       "SingleOptionSatisfactionRange": {
         "LowerBound": {
           "Type": "ERangeBoundTypes::Inclusive"
-        },
+},
         "UpperBound": {
           "Type": "ERangeBoundTypes::Inclusive",
           "Value": 10
-        }
+}
       },
       "TotalRandomEventSatisfactionRange": {
         "LowerBound": {
           "Type": "ERangeBoundTypes::Inclusive"
-        },
+},
         "UpperBound": {
           "Type": "ERangeBoundTypes::Inclusive",
           "Value": 20
-        }
+}
       },
       "DurabilityFailedText": {
         "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
-        "Key": "TakeOrders_ComDec_011",
-        "SourceString": "货物耐久度过低，请重新派送！",
-        "LocalizedString": "货物耐久度过低，请重新派送！"
-      },
+        "Key": "TakeOrders_ComDec_011"
+},
       "TimeZeroFailedText": {
         "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
-        "Key": "TakeOrders_ComDec_010",
-        "SourceString": "派送时间超时，请重新派送！",
-        "LocalizedString": "派送时间超时，请重新派送！"
-      },
+        "Key": "TakeOrders_ComDec_010"
+},
       "ConfirmLeaveVehicleText": {
         "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
-        "Key": "TakeOrders_ComDec_009",
-        "SourceString": "中途离开车辆会导致本单派送失败（可重新接取），是否确认下车？",
-        "LocalizedString": "中途离开车辆会导致本单派送失败（可重新接取），是否确认下车？"
-      },
+        "Key": "TakeOrders_ComDec_009"
+},
       "GetOnVehicleEffectsArray": [
         {
           "AssetPathName": "/Game/Blueprints/Abilities/Buff/Share/Buff_Share_CantBeDamage.Buff_Share_CantBeDamage_C",
           "SubPathString": ""
-        }
+}
       ],
       "ConsumeStaminaName": "CityStamina",
       "FixedPointIDArray": [
@@ -174,15 +168,15 @@
       "DT_TakeOrdersDataTable": {
         "ObjectName": "DataTable'DT_TakeOrdersDataTable'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/DelegateMission/TakeOrders/DT_TakeOrdersDataTable.0"
-      },
+},
       "DT_TakeOrdersOrderTypeDataTable": {
         "ObjectName": "DataTable'DT_TakeOrdersGoodsTypeDataTable'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/DelegateMission/TakeOrders/DT_TakeOrdersGoodsTypeDataTable.0"
-      },
+},
       "DT_TakeOrdersPointDataTable": {
         "ObjectName": "DataTable'DT_TakeOrdersPointDataTable'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/DelegateMission/TakeOrders/DT_TakeOrdersPointDataTable.0"
-      }
+}
     }
   }
 ]
