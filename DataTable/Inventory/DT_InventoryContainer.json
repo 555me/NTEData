@@ -64,7 +64,9 @@
           {
             "ExcludeLevels": [
               "DLC_Bank_Safety",
-              "DLC_Hospital_FB"
+              "DLC_Hospital_FB",
+              "Maps_4N",
+              "Maps_4NT"
             ]
           },
           {
@@ -144,7 +146,9 @@
           {
             "ExcludeLevels": [
               "DLC_Bank_Safety",
-              "DLC_Hospital_FB"
+              "DLC_Hospital_FB",
+              "Maps_4N",
+              "Maps_4NT"
             ]
           },
           {
@@ -190,7 +194,9 @@
           {
             "ExcludeLevels": [
               "DLC_Bank_Safety",
-              "DLC_Hospital_FB"
+              "DLC_Hospital_FB",
+              "Maps_4N",
+              "Maps_4NT"
             ]
           },
           {
@@ -237,7 +243,9 @@
           {
             "ExcludeLevels": [
               "DLC_Bank_Safety",
-              "DLC_Hospital_FB"
+              "DLC_Hospital_FB",
+              "Maps_4N",
+              "Maps_4NT"
             ]
           },
           {
@@ -283,7 +291,9 @@
           {
             "ExcludeLevels": [
               "DLC_Bank_Safety",
-              "DLC_Hospital_FB"
+              "DLC_Hospital_FB",
+              "Maps_4N",
+              "Maps_4NT"
             ]
           },
           {
@@ -344,7 +354,9 @@
           {
             "ExcludeLevels": [
               "DLC_Bank_Safety",
-              "DLC_Hospital_FB"
+              "DLC_Hospital_FB",
+              "Maps_4N",
+              "Maps_4NT"
             ]
           },
           {
@@ -398,7 +410,9 @@
           {
             "ExcludeLevels": [
               "DLC_Bank_Safety",
-              "DLC_Hospital_FB"
+              "DLC_Hospital_FB",
+              "Maps_4N",
+              "Maps_4NT"
             ]
           },
           {
@@ -437,7 +451,8 @@
         "ContainItemTypes": [
           "EItemType::ITEM_TYPE_AUTO_USE",
           "EItemType::ITEM_TYPE_FASHION",
-          "EItemType::ITEM_TYPE_GLIDE"
+          "EItemType::ITEM_TYPE_GLIDE",
+          "EItemType::ITEM_TYPE_FINAL_TOWER_AUTO_USE"
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
@@ -529,7 +544,8 @@
 }
         },
         "Showname": {
-          "CultureInvariantString": "<!>鱼类"
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "ItemType_Fish"
 },
         "bShowAllType": false,
         "ContainSortTypes": 0,
@@ -742,6 +758,328 @@
         "bShowAllType": true,
         "ContainSortTypes": 0,
         "bCanRepeat": false
+},
+      "FINAL_TOWER_WEAPON": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FINAL_TOWER_WEAPON"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 200,
+        "ShowInBagTabConditions": [
+          {
+            "LimitLevels": [
+              "Maps_4N",
+              "Maps_4NT"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+}
+        },
+        "Showname": {
+          "Namespace": "",
+          "Key": "41899EEC42529F5221ADAF8CD7AD3917"
+},
+        "bShowAllType": true,
+        "ContainSortTypes": 12,
+        "bCanRepeat": true
+},
+      "FINAL_TOWER_CHEST": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FINAL_TOWER_CHEST"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 200,
+        "ShowInBagTabConditions": [
+          {
+            "LimitLevels": [
+              "Maps_4N",
+              "Maps_4NT"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+}
+        },
+        "Showname": {
+          "Namespace": "",
+          "Key": "42369621463E0A6BAB8A83B3628FC8CE"
+},
+        "bShowAllType": true,
+        "ContainSortTypes": 12,
+        "bCanRepeat": true
+},
+      "FINAL_TOWER_LEGS": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FINAL_TOWER_LEGS"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 200,
+        "ShowInBagTabConditions": [
+          {
+            "LimitLevels": [
+              "Maps_4N",
+              "Maps_4NT"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+}
+        },
+        "Showname": {
+          "Namespace": "",
+          "Key": "55F6EBD24C66A21D4AD59882A6A7CD7B"
+},
+        "bShowAllType": true,
+        "ContainSortTypes": 12,
+        "bCanRepeat": true
+},
+      "FINAL_TOWER_SHOULDER": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FINAL_TOWER_SHOULDER"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 200,
+        "ShowInBagTabConditions": [
+          {
+            "LimitLevels": [
+              "Maps_4N",
+              "Maps_4NT"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+}
+        },
+        "Showname": {
+          "Namespace": "",
+          "Key": "7A12A8974488A1E12EE929B9727027CE"
+},
+        "bShowAllType": true,
+        "ContainSortTypes": 12,
+        "bCanRepeat": true
+},
+      "FINAL_TOWER_SHOES": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FINAL_TOWER_SHOES"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 200,
+        "ShowInBagTabConditions": [
+          {
+            "LimitLevels": [
+              "Maps_4N",
+              "Maps_4NT"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+}
+        },
+        "Showname": {
+          "Namespace": "",
+          "Key": "DD634C4549A31782D4B0089600BCE093"
+},
+        "bShowAllType": true,
+        "ContainSortTypes": 12,
+        "bCanRepeat": true
+},
+      "FINAL_TOWER_ACCESSORY": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY1",
+          "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY2"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 200,
+        "ShowInBagTabConditions": [
+          {
+            "LimitLevels": [
+              "Maps_4N",
+              "Maps_4NT"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+}
+        },
+        "Showname": {
+          "Namespace": "",
+          "Key": "970C674D4ACDA51F56EAE0A896EBB88F"
+},
+        "bShowAllType": true,
+        "ContainSortTypes": 12,
+        "bCanRepeat": true
+},
+      "FINAL_TOWER_CONSUMABLE": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 200,
+        "ShowInBagTabConditions": [
+          {
+            "LimitLevels": [
+              "Maps_4N",
+              "Maps_4NT"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+}
+        },
+        "Showname": {
+          "Namespace": "",
+          "Key": "3CFCE4694AA8D250BB9E0CA6A171976A"
+},
+        "bShowAllType": true,
+        "ContainSortTypes": 12,
+        "bCanRepeat": true
+},
+      "FINAL_TOWER_CHARACTER": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_FINAL_TOWER_CHARACTER"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [],
+        "ContainerCapacity": 200,
+        "ShowInBagTabConditions": [],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+},
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+}
+        },
+        "Showname": {
+          "Namespace": "",
+          "Key": "7BEE88E54C73DE75419955B311495450"
+},
+        "bShowAllType": true,
+        "ContainSortTypes": 12,
+        "bCanRepeat": true
 }
     }
   }

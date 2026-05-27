@@ -1,0 +1,350 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DiyBossOptions",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/BossDIY/DT_DiyBossOptions",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DiyBossOptionRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "TimeOP001": {
+        "OptionType": "EDiyBossOptionType::TimeComplete",
+        "OptionNode": {
+          "LimitSeconds": 300,
+          "Score": 50
+        }
+      },
+      "TimeOP002": {
+        "OptionType": "EDiyBossOptionType::TimeComplete",
+        "OptionNode": {
+          "LimitSeconds": 180,
+          "Score": 100
+        }
+      },
+      "TimeOP003": {
+        "OptionType": "EDiyBossOptionType::TimeComplete",
+        "OptionNode": {
+          "LimitSeconds": 120,
+          "Score": 150
+        }
+      },
+      "LifeOP001": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 10,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_HP_Lv1.Buff_BossDIY_HP_Lv1_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 50
+        }
+      },
+      "LifeOP002": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 25,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_HP_Lv2.Buff_BossDIY_HP_Lv2_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 100
+        }
+      },
+      "LifeOP003": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 50,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_HP_Lv3.Buff_BossDIY_HP_Lv3_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 150
+        }
+      },
+      "LightOP001": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 5,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistCosmos_Lv1.Buff_BossDIY_ResistCosmos_Lv1_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 40
+        }
+      },
+      "LightOP002": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 10,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistCosmos_Lv2.Buff_BossDIY_ResistCosmos_Lv2_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 80
+        }
+      },
+      "LightOP003": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 15,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistCosmos_Lv3.Buff_BossDIY_ResistCosmos_Lv3_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 100
+        }
+      },
+      "LingOP001": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 5,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistNature_Lv1.Buff_BossDIY_ResistNature_Lv1_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 40
+        }
+      },
+      "LingOP002": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 10,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistNature_Lv2.Buff_BossDIY_ResistNature_Lv2_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 80
+        }
+      },
+      "LingOP003": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 15,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistNature_Lv3.Buff_BossDIY_ResistNature_Lv3_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 100
+        }
+      },
+      "ZhouOP001": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 5,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistIncantation_Lv1.Buff_BossDIY_ResistIncantation_Lv1_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 40
+        }
+      },
+      "ZhouOP002": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 10,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistIncantation_Lv2.Buff_BossDIY_ResistIncantation_Lv2_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 80
+        }
+      },
+      "ZhouOP003": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 15,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistIncantation_Lv3.Buff_BossDIY_ResistIncantation_Lv3_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 100
+        }
+      },
+      "AnOP001": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 5,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistChaos_Lv1.Buff_BossDIY_ResistChaos_Lv1_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 40
+        }
+      },
+      "AnOP002": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 10,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistChaos_Lv2.Buff_BossDIY_ResistChaos_Lv2_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 80
+        }
+      },
+      "AnOP003": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 15,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistChaos_Lv3.Buff_BossDIY_ResistChaos_Lv3_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 100
+        }
+      },
+      "HunOP001": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 5,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistPhyche_Lv1.Buff_BossDIY_ResistPhyche_Lv1_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 40
+        }
+      },
+      "HunOP002": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 10,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistPhyche_Lv2.Buff_BossDIY_ResistPhyche_Lv2_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 80
+        }
+      },
+      "HunOP003": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 15,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_ResistPhyche_Lv3.Buff_BossDIY_ResistPhyche_Lv3_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 100
+        }
+      },
+      "XiangOP001": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 5,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_Resistlakshana_Lv1.Buff_BossDIY_Resistlakshana_Lv1_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 40
+        }
+      },
+      "XiangOP002": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 10,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_Resistlakshana_Lv2.Buff_BossDIY_Resistlakshana_Lv2_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 80
+        }
+      },
+      "XiangOP003": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 15,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_Resistlakshana_Lv3.Buff_BossDIY_Resistlakshana_Lv3_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 100
+        }
+      },
+      "Attack001": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 10,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_Atk_Lv1.Buff_BossDIY_Atk_Lv1_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 50
+        }
+      },
+      "Attack002": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 25,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_Atk_Lv2.Buff_BossDIY_Atk_Lv2_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 100
+        }
+      },
+      "Attack003": {
+        "OptionType": "EDiyBossOptionType::BossAttrAdd",
+        "OptionNode": {
+          "AddPercent": 50,
+          "BossBuffs": [
+            {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/BossDIY/Buff_BossDIY_Atk_Lv3.Buff_BossDIY_Atk_Lv3_C",
+              "SubPathString": ""
+            }
+          ],
+          "Score": 150
+        }
+      }
+    }
+  }
+]

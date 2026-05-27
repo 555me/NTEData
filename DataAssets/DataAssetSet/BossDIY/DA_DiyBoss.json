@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "DiyBossDataAsset",
+    "Name": "DA_DiyBoss",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DiyBossDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/BossDIY/DA_DiyBoss",
+    "Properties": {
+      "TotalScoreTitleMap": [
+        {
+          "Key": "15000",
+          "Value": "Title_DiyBoss_001"
+}
+      ],
+      "LevelStateTextMap": [
+        {
+          "Key": "EDiyBossState::Locked",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Unlock"
+}
+        },
+        {
+          "Key": "EDiyBossState::NotChallenge",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Stage_NotChallenge"
+}
+        },
+        {
+          "Key": "EDiyBossState::NotClear",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Stage_NotClear"
+}
+        },
+        {
+          "Key": "EDiyBossState::Clear",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Stage_Clear"
+}
+        }
+      ],
+      "LevelDifficultTextMap": [
+        {
+          "Key": "1",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Diff1"
+}
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Diff2"
+}
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Diff3"
+}
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Diff4"
+}
+        }
+      ],
+      "DiyBossStageDataTable": null,
+      "DiyBossOptionsDataTable": null,
+      "LoadPolicy": "EHTDataAssetSetLoadPolicy::253"
+}
+  }
+]

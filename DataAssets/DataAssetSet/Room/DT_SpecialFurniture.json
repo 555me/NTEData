@@ -112,17 +112,18 @@
 }
         ],
         "ActivateData": {
-          "ActivateType": "EFurnitureActivateType::CostItem",
+          "ActivateType": "EFurnitureActivateType::Interact",
           "Conditions": [
             {
-              "TargetId": "Visions_furniture_01_unlock",
+              "TargetId": "None",
               "Count": 1,
-              "SourceID": "Visions_furniture_01_unlock",
+              "SourceID": "None",
               "ActivateDescription": {
-                "CultureInvariantString": null
+                "TableId": "/Game/Text/ST_furniture.ST_furniture",
+                "Key": "SF_0001_activiate_tools"
 },
               "ActivateIcon": {
-                "AssetPathName": "",
+                "AssetPathName": "/Game/UI/UI/minimap/minimapicon/TakeOrders/YH_UI_Takeorders_01.YH_UI_Takeorders_01",
                 "SubPathString": ""
 }
             }
@@ -155,6 +156,7 @@
         "HosuesIDs": [
           "bigword_LL_1",
           "bigword_LL_2",
+          "bigword_LL_3",
           "bigword_LLL_1",
           "bigword_LLL_2",
           "bigword_L_1"
@@ -315,6 +317,7 @@
         "HosuesIDs": [
           "bigword_LL_1",
           "bigword_LL_2",
+          "bigword_LL_3",
           "bigword_LLL_1",
           "bigword_LLL_2",
           "bigword_L_1"
@@ -1304,7 +1307,12 @@
                 "MaterialType": "EFurnitureUpgradeMaterialType::Item"
 }
             ],
-            "FurnitureRewardData": null,
+            "FurnitureRewardData": {
+              "DropID": "drop_furniture_equipment_lv9",
+              "BenefitCount": 1,
+              "BenefitRefreshDays": 1,
+              "BenefitRefreshWeekDay": 0
+},
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
               "Key": "SF_0004_UiShow_009"
@@ -1340,7 +1348,12 @@
 }
             ],
             "UpgradeMaterials": [],
-            "FurnitureRewardData": null,
+            "FurnitureRewardData": {
+              "DropID": "drop_furniture_equipment_lv10",
+              "BenefitCount": 1,
+              "BenefitRefreshDays": 1,
+              "BenefitRefreshWeekDay": 0
+},
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
               "Key": "SF_0004_UiShow_010"
@@ -1405,7 +1418,8 @@
         "CharacterID": "None",
         "HosuesIDs": [
           "bigword_LL_1",
-          "bigword_LL_2"
+          "bigword_LL_2",
+          "bigword_LL_3"
         ],
         "UpgradeProgressIcon": {
           "AssetPathName": "",
@@ -1964,6 +1978,7 @@
         "HosuesIDs": [
           "bigword_LL_1",
           "bigword_LL_2",
+          "bigword_LL_3",
           "bigword_LLL_1"
         ],
         "UpgradeProgressIcon": {
@@ -2523,6 +2538,7 @@
         "CharacterID": "None",
         "HosuesIDs": [
           "bigword_LL_1",
+          "bigword_LL_3",
           "bigword_LLL_1"
         ],
         "UpgradeProgressIcon": {
@@ -2805,7 +2821,7 @@
 }
             ],
             "FurnitureRewardData": {
-              "DropID": "None",
+              "DropID": "drop_furniture_box_lv5",
               "BenefitCount": 1,
               "BenefitRefreshDays": 1,
               "BenefitRefreshWeekDay": 0
@@ -2934,7 +2950,7 @@
 }
             ],
             "FurnitureRewardData": {
-              "DropID": "drop_furniture_box_lv7",
+              "DropID": "drop_furniture_box_lv8",
               "BenefitCount": 1,
               "BenefitRefreshDays": 1,
               "BenefitRefreshWeekDay": 0
@@ -3088,6 +3104,7 @@
         "CharacterID": "None",
         "HosuesIDs": [
           "bigword_LL_2",
+          "bigword_LL_3",
           "bigword_LLL_1"
         ],
         "UpgradeProgressIcon": {
@@ -3375,6 +3392,7 @@
         "CharacterID": "None",
         "HosuesIDs": [
           "bigword_LL_1",
+          "bigword_LL_3",
           "bigword_LLL_1"
         ],
         "UpgradeProgressIcon": {
@@ -4007,14 +4025,15 @@
             "UpgradeMaterials": [
               {
                 "MaterialID": "None",
-                "Count": 100,
+                "Count": 400,
                 "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
 }
             ],
             "FurnitureRewardData": {
               "UnitTime": 259200,
               "UnitValue": 1,
-              "MaxValue": 2
+              "MaxValue": 2,
+              "DropID": "Visions_furniture_10_Output"
 },
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -4049,14 +4068,15 @@
             "UpgradeMaterials": [
               {
                 "MaterialID": "None",
-                "Count": 240,
+                "Count": 700,
                 "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
 }
             ],
             "FurnitureRewardData": {
               "UnitTime": 226800,
               "UnitValue": 1,
-              "MaxValue": 3
+              "MaxValue": 3,
+              "DropID": "Visions_furniture_10_Output"
 },
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -4091,14 +4111,15 @@
             "UpgradeMaterials": [
               {
                 "MaterialID": "None",
-                "Count": 400,
+                "Count": 1000,
                 "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
 }
             ],
             "FurnitureRewardData": {
               "UnitTime": 194400,
               "UnitValue": 1,
-              "MaxValue": 4
+              "MaxValue": 4,
+              "DropID": "Visions_furniture_10_Output"
 },
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -4133,14 +4154,15 @@
             "UpgradeMaterials": [
               {
                 "MaterialID": "None",
-                "Count": 600,
+                "Count": 1500,
                 "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
 }
             ],
             "FurnitureRewardData": {
               "UnitTime": 158400,
               "UnitValue": 1,
-              "MaxValue": 5
+              "MaxValue": 5,
+              "DropID": "Visions_furniture_10_Output"
 },
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -4175,14 +4197,15 @@
             "UpgradeMaterials": [
               {
                 "MaterialID": "None",
-                "Count": 800,
+                "Count": 2000,
                 "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
 }
             ],
             "FurnitureRewardData": {
               "UnitTime": 122400,
               "UnitValue": 1,
-              "MaxValue": 6
+              "MaxValue": 6,
+              "DropID": "Visions_furniture_10_Output"
 },
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -4218,7 +4241,8 @@
             "FurnitureRewardData": {
               "UnitTime": 86400,
               "UnitValue": 1,
-              "MaxValue": 7
+              "MaxValue": 7,
+              "DropID": "Visions_furniture_10_Output"
 },
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -4244,7 +4268,7 @@
           "Conditions": [
             {
               "TargetId": "None",
-              "Count": 1,
+              "Count": 100,
               "SourceID": "None",
               "ActivateDescription": {
                 "TableId": "/Game/Text/ST_furniture.ST_furniture",
@@ -4288,7 +4312,7 @@
           "bigword_L_1"
         ],
         "UpgradeProgressIcon": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/TakeOrders/rain.rain",
           "SubPathString": ""
 },
         "ProgressDescription": {
@@ -5337,6 +5361,7 @@
         "CharacterID": "None",
         "HosuesIDs": [
           "bigword_L_1",
+          "bigword_LL_3",
           "bigword_LLL_1"
         ],
         "UpgradeProgressIcon": {
@@ -6274,6 +6299,7 @@
         "PreUnlockMaxLevel": 2,
         "CharacterID": "None",
         "HosuesIDs": [
+          "bigword_LL_3",
           "bigword_LLL_2"
         ],
         "UpgradeProgressIcon": {
@@ -8148,7 +8174,13 @@
                 "Key": "SF_0018_up_des_lv5"
 }
             ],
-            "UpgradeMaterials": [],
+            "UpgradeMaterials": [
+              {
+                "MaterialID": "None",
+                "Count": 4500000,
+                "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
+}
+            ],
             "FurnitureRewardData": {
               "UnitTime": 240,
               "EnergyValue": 50,
@@ -8157,6 +8189,84 @@
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
               "Key": "SF_0018_UiShow_005"
+},
+            "BenefitCount": 0,
+            "BenefitRefreshDays": 0,
+            "DropID": "None",
+            "Coefficient": 0.0,
+            "FixValue": 0.0,
+            "AttributeID": "None",
+            "BuffEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "BuffProp": "None",
+            "ConsumeReduceType": "EStrengthConsumeReduceType::ConsumeReduceMax",
+            "ConsumeReduceValue": 0.0
+},
+          {
+            "Level": 6,
+            "UpgradeDescription": {
+              "TableId": "/Game/Text/ST_furniture.ST_furniture",
+              "Key": "SF_0018_lv06_desc"
+},
+            "TipUpgradeDescriptions": [
+              {
+                "TableId": "/Game/Text/ST_furniture.ST_furniture",
+                "Key": "SF_0018_up_des_lv6"
+}
+            ],
+            "UpgradeMaterials": [
+              {
+                "MaterialID": "None",
+                "Count": 6000000,
+                "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
+}
+            ],
+            "FurnitureRewardData": {
+              "UnitTime": 240,
+              "EnergyValue": 55,
+              "EnergyMaxValue": 58500
+},
+            "NpcInteractUIDescription": {
+              "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+              "Key": "SF_0018_UiShow_006"
+},
+            "BenefitCount": 0,
+            "BenefitRefreshDays": 0,
+            "DropID": "None",
+            "Coefficient": 0.0,
+            "FixValue": 0.0,
+            "AttributeID": "None",
+            "BuffEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "BuffProp": "None",
+            "ConsumeReduceType": "EStrengthConsumeReduceType::ConsumeReduceMax",
+            "ConsumeReduceValue": 0.0
+},
+          {
+            "Level": 7,
+            "UpgradeDescription": {
+              "TableId": "/Game/Text/ST_furniture.ST_furniture",
+              "Key": "SF_0018_lv07_desc"
+},
+            "TipUpgradeDescriptions": [
+              {
+                "TableId": "/Game/Text/ST_furniture.ST_furniture",
+                "Key": "SF_0018_up_des_lv7"
+}
+            ],
+            "UpgradeMaterials": [],
+            "FurnitureRewardData": {
+              "UnitTime": 240,
+              "EnergyValue": 60,
+              "EnergyMaxValue": 63000
+},
+            "NpcInteractUIDescription": {
+              "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+              "Key": "SF_0018_UiShow_007"
 },
             "BenefitCount": 0,
             "BenefitRefreshDays": 0,
@@ -8213,12 +8323,13 @@
           "Key": "SF_0018_InteractHint"
 },
         "InteractDelayTime": 0.0,
-        "UnlockHouseID": "None",
+        "UnlockHouseID": "bigword_LL_3",
         "PreUnlockMaxLevel": 5,
         "CharacterID": "None",
         "HosuesIDs": [
           "bigword_LL_1",
           "bigword_LL_2",
+          "bigword_LL_3",
           "bigword_LLL_1",
           "bigword_LLL_2",
           "bigword_L_1"

@@ -8,7 +8,7 @@
     "CurveTableMode": "SimpleCurves",
     "Rows": {
       "Buff_Abyss_Phase_001_CD1": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
           {
             "Time": 1.0,
@@ -20,7 +20,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Buff_Abyss_Phase_001_CD2": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
           {
             "Time": 1.0,
@@ -32,7 +32,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Buff_Abyss_Phase_001_Up": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
           {
             "Time": 1.0,
@@ -44,7 +44,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Buff_Abyss_Phase_000_DmgUp": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
           {
             "Time": 1.0,
@@ -56,7 +56,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Buff_Abyss_Phase_002_UnbalDmgUp": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
           {
             "Time": 1.0,
@@ -68,11 +68,59 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Buff_Abyss_Phase_002_DmgUp": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
           {
             "Time": 1.0,
             "Value": 0.25
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Buff_Abyss_Phase_003_Atk": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.2
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Buff_Abyss_Phase_003_Up": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.3
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Buff_Abyss_Phase_004_Up": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.4
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Buff_Abyss_Phase_004_CD": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 12.0
           }
         ],
         "DefaultValue": 3.4028235E+38,

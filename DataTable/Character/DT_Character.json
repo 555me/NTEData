@@ -33,6 +33,7 @@
           "Key": "Role_Name_003"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -53,6 +54,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -279,8 +282,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_Sagiri"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -396,6 +406,7 @@
           "Key": "Role_Name_004"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -416,6 +427,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -531,7 +544,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 9.0,
+          "CameraUpHeight": 6.0,
           "CameraOffsets": -10.0,
           "ForkMeshOffsets": 2.0,
           "EquipmentHandMeshOffsets": 0.0,
@@ -563,43 +576,88 @@
             "SubPathString": ""
 },
           "bIsHoldWeapon": false,
-          "MotionData": [],
-          "FashionList": [],
-          "DefaultFashionID": "None",
-          "UnlockLevel": 0,
-          "bTeachingEnable": false,
+          "MotionData": [
+            "anhunqu_0001",
+            "anhunqu_0002",
+            "anhunqu_0003",
+            "anhunqu_0004",
+            "anhunqu_0005",
+            "anhunqu_0006",
+            "anhunqu_0008",
+            "anhunqu_0009",
+            "anhunqu_0010",
+            "anhunqu_0011",
+            "anhunqu_0012",
+            "anhunqu_0013",
+            "anhunqu_jh_0001",
+            "anhunqu_jh_0002",
+            "anhunqu_jh_0003",
+            "anhunqu_jh_0004"
+          ],
+          "FashionList": [
+            {
+              "FashionID": "Fashion_1004_nighty",
+              "FashionItemID": "EquipmentUpMaterial_lv3",
+              "FashionIconInviteForm": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/UI_Mask_Fashion_Character_anhunqu.UI_Mask_Fashion_Character_anhunqu",
+                "SubPathString": ""
+},
+              "FashionIconNpcForm": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/UI_Mask_Fashion_UI_anhunqu.UI_Mask_Fashion_UI_anhunqu",
+                "SubPathString": ""
+},
+              "FashionSmallIcon": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/BPUI_CharacterChange6.BPUI_CharacterChange6",
+                "SubPathString": ""
+},
+              "CharacterClass": {
+                "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_004/BP_CompanionCharacter_004.BP_CompanionCharacter_004_C",
+                "SubPathString": ""
+}
+            }
+          ],
+          "DefaultFashionID": "Fashion_1004_nighty",
+          "UnlockLevel": 4,
+          "bTeachingEnable": true,
           "CharacterIllustration": {
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_anhunqu.YH_UI_shizhuang_big_anhunqu",
             "SubPathString": ""
 },
-          "CharacterTrackId": "None",
+          "CharacterTrackId": "Likeability_008",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
 },
           "LikeabilityID": "1004",
-          "bCheckShowTime": true,
+          "bCheckShowTime": false,
           "ShowTime": {
             "MainlandTime": {
-              "Year": 2026,
-              "Month": 5,
-              "Day": 28,
-              "Hour": 6,
-              "minute": 30,
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
               "Second": 0
 },
             "OverseaTime": {
-              "Year": 2026,
-              "Month": 6,
-              "Day": 2,
-              "Hour": 22,
-              "minute": 30,
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_lacrimosa"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::female"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -686,8 +744,8 @@
           }
         ],
         "bIsLimitAmount": false,
-        "bIsManual": false,
-        "bIsInvite": false,
+        "bIsManual": true,
+        "bIsInvite": true,
         "bIsDropActor": false,
         "DropActorClass": {
           "AssetPathName": "",
@@ -715,6 +773,7 @@
           "Key": "Role_Name_008"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -735,6 +794,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -830,7 +891,7 @@
             }
           ],
           "AwakenSpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/baomicelinshi/BPUI_CharacterAwakenSpine_yi.BPUI_CharacterAwakenSpine_yi_C",
+            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/BPUI_CharacterAwakenSpine_1008.BPUI_CharacterAwakenSpine_1008_C",
             "SubPathString": ""
 },
           "MaxAwakenAwardDropId": "drop_BusinessCard_Characterawaken_skia",
@@ -850,7 +911,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 55.0,
+          "CameraUpHeight": 46.0,
           "CameraOffsets": 30.0,
           "ForkMeshOffsets": 41.0,
           "EquipmentHandMeshOffsets": 31.0,
@@ -917,8 +978,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_skia"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -1007,6 +1075,7 @@
           "Key": "Role_Name_010"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1027,6 +1096,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -1142,7 +1213,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 9.0,
+          "CameraUpHeight": 6.0,
           "CameraOffsets": -10.0,
           "ForkMeshOffsets": -2.0,
           "EquipmentHandMeshOffsets": -10.0,
@@ -1251,8 +1322,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_Nanally"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::female"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -1368,6 +1446,7 @@
           "Key": "Role_Name_019"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1388,6 +1467,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -1483,7 +1564,7 @@
             }
           ],
           "AwakenSpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/baomicelinshi/BPUI_CharacterAwakenSpine_bohe.BPUI_CharacterAwakenSpine_bohe_C",
+            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/BPUI_CharacterAwakenSpine_1019.BPUI_CharacterAwakenSpine_1019_C",
             "SubPathString": ""
 },
           "MaxAwakenAwardDropId": "drop_BusinessCard_Characterawaken_Mint",
@@ -1503,7 +1584,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 28.0,
+          "CameraUpHeight": 18.0,
           "CameraOffsets": 0.0,
           "ForkMeshOffsets": 8.0,
           "EquipmentHandMeshOffsets": 0.0,
@@ -1611,8 +1692,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_Mint"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::female"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -1701,6 +1789,7 @@
           "Key": "Role_Name_020"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1721,6 +1810,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -1836,7 +1927,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 20.0,
+          "CameraUpHeight": 13.0,
           "CameraOffsets": -6.0,
           "ForkMeshOffsets": 1.5,
           "EquipmentHandMeshOffsets": -6.0,
@@ -1903,8 +1994,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_Haniel"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -1993,6 +2091,7 @@
           "Key": "Role_Name_021"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -2013,6 +2112,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -2128,7 +2229,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 7.0,
+          "CameraUpHeight": 5.0,
           "CameraOffsets": -12.0,
           "ForkMeshOffsets": -5.0,
           "EquipmentHandMeshOffsets": -14.0,
@@ -2195,8 +2296,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_edgar"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -2285,6 +2393,7 @@
           "Key": "Role_Name_023"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -2305,6 +2414,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -2420,7 +2531,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 45.0,
+          "CameraUpHeight": 36.0,
           "CameraOffsets": 14.5,
           "ForkMeshOffsets": 24.0,
           "EquipmentHandMeshOffsets": 14.5,
@@ -2511,8 +2622,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_cang"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -2628,6 +2746,7 @@
           "Key": "Role_Name_025"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -2648,6 +2767,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -2743,7 +2864,7 @@
             }
           ],
           "AwakenSpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/baomicelinshi/BPUI_CharacterAwakenSpine_hasuoer.BPUI_CharacterAwakenSpine_hasuoer_C",
+            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/BPUI_CharacterAwakenSpine_1025.BPUI_CharacterAwakenSpine_1025_C",
             "SubPathString": ""
 },
           "MaxAwakenAwardDropId": "drop_BusinessCard_Characterawaken_Hathor",
@@ -2763,7 +2884,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 29.0,
+          "CameraUpHeight": 19.0,
           "CameraOffsets": 1.0,
           "ForkMeshOffsets": 9.0,
           "EquipmentHandMeshOffsets": 1.0,
@@ -2830,8 +2951,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_Hathor"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -2920,6 +3048,7 @@
           "Key": "Role_Name_033"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -2940,6 +3069,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -3055,7 +3186,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 43.0,
+          "CameraUpHeight": 36.0,
           "CameraOffsets": 14.0,
           "ForkMeshOffsets": 23.5,
           "EquipmentHandMeshOffsets": 14.0,
@@ -3122,8 +3253,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_Adler"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -3239,6 +3377,7 @@
           "Key": "Role_Name_039"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -3259,6 +3398,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -3374,7 +3515,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 36.0,
+          "CameraUpHeight": 28.0,
           "CameraOffsets": 11.5,
           "ForkMeshOffsets": 20.0,
           "EquipmentHandMeshOffsets": 11.5,
@@ -3479,8 +3620,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_fadia"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::female"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -3569,6 +3717,7 @@
           "Key": "Role_Name_009"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -3585,6 +3734,8 @@
         "ToolDatas": [],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -3680,7 +3831,7 @@
             }
           ],
           "AwakenSpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/baomicelinshi/BPUI_CharacterAwakenSpine_nanzhu.BPUI_CharacterAwakenSpine_nanzhu_C",
+            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/BPUI_CharacterAwakenSpine_1046.BPUI_CharacterAwakenSpine_1046_C",
             "SubPathString": ""
 },
           "MaxAwakenAwardDropId": "None",
@@ -3700,7 +3851,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 38.0,
+          "CameraUpHeight": 30.0,
           "CameraOffsets": 12.0,
           "ForkMeshOffsets": 21.0,
           "EquipmentHandMeshOffsets": 12.0,
@@ -3767,8 +3918,10 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
-}
-        },
+},
+          "AwakenAwards": [],
+          "CharGenderType": "ECharGenderType::male"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -3884,6 +4037,7 @@
           "Key": "Role_Name_009"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -3900,6 +4054,8 @@
         "ToolDatas": [],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -3995,7 +4151,7 @@
             }
           ],
           "AwakenSpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/baomicelinshi/BPUI_CharacterAwakenSpine_nvzhu.BPUI_CharacterAwakenSpine_nvzhu_C",
+            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/BPUI_CharacterAwakenSpine_1051.BPUI_CharacterAwakenSpine_1051_C",
             "SubPathString": ""
 },
           "MaxAwakenAwardDropId": "None",
@@ -4015,7 +4171,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 28.0,
+          "CameraUpHeight": 18.0,
           "CameraOffsets": 0.0,
           "ForkMeshOffsets": 8.0,
           "EquipmentHandMeshOffsets": 0.0,
@@ -4082,8 +4238,10 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
-}
-        },
+},
+          "AwakenAwards": [],
+          "CharGenderType": "ECharGenderType::female"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -4199,6 +4357,7 @@
           "Key": "Role_Name_052"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -4219,6 +4378,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -4314,7 +4475,7 @@
             }
           ],
           "AwakenSpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/baomicelinshi/BPUI_CharacterAwakenSpine_xun.BPUI_CharacterAwakenSpine_xun_C",
+            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/BPUI_CharacterAwakenSpine_1052.BPUI_CharacterAwakenSpine_1052_C",
             "SubPathString": ""
 },
           "MaxAwakenAwardDropId": "drop_BusinessCard_Characterawaken_Jin",
@@ -4334,7 +4495,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 38.0,
+          "CameraUpHeight": 32.0,
           "CameraOffsets": 12.0,
           "ForkMeshOffsets": 21.0,
           "EquipmentHandMeshOffsets": 12.0,
@@ -4366,23 +4527,59 @@
             "SubPathString": ""
 },
           "bIsHoldWeapon": false,
-          "MotionData": [],
-          "FashionList": [],
-          "DefaultFashionID": "None",
-          "UnlockLevel": 0,
+          "MotionData": [
+            "xun_0001",
+            "xun_0002",
+            "xun_0003",
+            "xun_0004",
+            "xun_0005",
+            "xun_0006",
+            "xun_0007",
+            "xun_0008",
+            "xun_0009",
+            "xun_jh_0001",
+            "xun_jh_0002",
+            "xun_jh_0003",
+            "xun_jh_0004",
+            "xun_jh_0005"
+          ],
+          "FashionList": [
+            {
+              "FashionID": "Fashion_1052_nighty",
+              "FashionItemID": "EquipmentUpMaterial_lv3",
+              "FashionIconInviteForm": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/UI_Mask_Fashion_Character_xun.UI_Mask_Fashion_Character_xun",
+                "SubPathString": ""
+},
+              "FashionIconNpcForm": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/UI_Mask_Fashion_UI_xun.UI_Mask_Fashion_UI_xun",
+                "SubPathString": ""
+},
+              "FashionSmallIcon": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/BPUI_CharacterChange5.BPUI_CharacterChange5",
+                "SubPathString": ""
+},
+              "CharacterClass": {
+                "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/BP_CompanionCharacter_009.BP_CompanionCharacter_009_C",
+                "SubPathString": ""
+}
+            }
+          ],
+          "DefaultFashionID": "Fashion_1052_nighty",
+          "UnlockLevel": 4,
           "bTeachingEnable": true,
           "CharacterIllustration": {
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_xun.YH_UI_shizhuang_big_xun",
             "SubPathString": ""
 },
-          "CharacterTrackId": "None",
+          "CharacterTrackId": "Likeability_006",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
 },
           "LikeabilityID": "1029",
-          "bCheckShowTime": true,
+          "bCheckShowTime": false,
           "ShowTime": {
             "MainlandTime": {
               "Year": 2026,
@@ -4401,8 +4598,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_Jin"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::female"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -4490,7 +4694,7 @@
         ],
         "bIsLimitAmount": false,
         "bIsManual": true,
-        "bIsInvite": false,
+        "bIsInvite": true,
         "bIsDropActor": false,
         "DropActorClass": {
           "AssetPathName": "",
@@ -4518,6 +4722,7 @@
           "Key": "Role_Name_005"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -4536,6 +4741,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -4631,7 +4838,7 @@
             }
           ],
           "AwakenSpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/baomicelinshi/BPUI_CharacterAwakenSpine_dafudier.BPUI_CharacterAwakenSpine_dafudier_C",
+            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/BPUI_CharacterAwakenSpine_1054.BPUI_CharacterAwakenSpine_1054_C",
             "SubPathString": ""
 },
           "MaxAwakenAwardDropId": "drop_BusinessCard_Characterawaken_daffodill",
@@ -4651,7 +4858,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 36.0,
+          "CameraUpHeight": 30.0,
           "CameraOffsets": 11.5,
           "ForkMeshOffsets": 20.0,
           "EquipmentHandMeshOffsets": 11.5,
@@ -4718,8 +4925,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_daffodill"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -4835,6 +5049,7 @@
           "Key": "Role_Name_055"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -4853,6 +5068,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -4968,7 +5185,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 36.0,
+          "CameraUpHeight": 30.0,
           "CameraOffsets": 11.5,
           "ForkMeshOffsets": 20.0,
           "EquipmentHandMeshOffsets": 11.5,
@@ -5041,7 +5258,7 @@
           ],
           "DefaultFashionID": "Fashion_1055_nighty",
           "UnlockLevel": 4,
-          "bTeachingEnable": true,
+          "bTeachingEnable": false,
           "CharacterIllustration": {
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_jiuyuan.YH_UI_shizhuang_big_jiuyuan",
             "SubPathString": ""
@@ -5072,8 +5289,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_Kuhara"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::female"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -5189,6 +5413,7 @@
           "Key": "Role_Name_004"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -5209,6 +5434,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -5365,7 +5592,7 @@
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_anhunqu.YH_UI_shizhuang_big_anhunqu",
             "SubPathString": ""
 },
-          "CharacterTrackId": "None",
+          "CharacterTrackId": "Likeability_008",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
@@ -5391,8 +5618,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_lacrimosa"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -5508,17 +5742,18 @@
           "Key": "Role_Name_070"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "F_NPC026_006"
+          "Key": "F_NPC1029_006"
 },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "F_NPC026_007"
+          "Key": "F_NPC1029_007"
 },
         "LimitScenes": [],
         "ToolDatas": [
@@ -5528,6 +5763,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -5643,7 +5880,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 28.0,
+          "CameraUpHeight": 42.0,
           "CameraOffsets": 40.0,
           "ForkMeshOffsets": 48.0,
           "EquipmentHandMeshOffsets": 40.0,
@@ -5710,8 +5947,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_mitsuki"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [
@@ -5800,6 +6044,7 @@
           "Key": "Role_Name_073"
 },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -5820,6 +6065,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -5935,7 +6182,7 @@
             "Y": 1.0,
             "Z": 1.0
 },
-          "CameraUpHeight": 28.0,
+          "CameraUpHeight": 18.0,
           "CameraOffsets": 0.0,
           "ForkMeshOffsets": 8.0,
           "EquipmentHandMeshOffsets": 0.0,
@@ -6013,7 +6260,7 @@
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_xiaozhi.YH_UI_shizhuang_big_xiaozhi",
             "SubPathString": ""
 },
-          "CharacterTrackId": "None",
+          "CharacterTrackId": "Likeability_014",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
@@ -6039,8 +6286,15 @@
               "Second": 0
 },
             "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_chiichan"
 }
-        },
+          ],
+          "CharGenderType": "ECharGenderType::female"
+},
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [

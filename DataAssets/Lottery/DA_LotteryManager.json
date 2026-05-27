@@ -22,12 +22,68 @@
 }
         },
         {
+          "Key": "Lottery_AnHunQu",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModule_AnHunQu'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModule_AnHunQu.0"
+}
+        },
+        {
           "Key": "Lottery_Permanent",
           "Value": {
             "ObjectName": "HTLotteryModuleBase'DA_LotteryModulePermanent'",
             "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModulePermanent.0"
 }
+        },
+        {
+          "Key": "Lottery_Kaesi",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleKaesi'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleKaesi.0"
+}
         }
+      ],
+      "MonopolyModuleDefines": [
+        {
+          "ModuleID": "Lottery_Nanali",
+          "LotteryModuleWidget": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg_nanali.LotteryBg_nanali_C",
+            "SubPathString": ""
+},
+          "Priority": 1
+},
+        {
+          "ModuleID": "Lottery_Xun",
+          "LotteryModuleWidget": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg_Xun.LotteryBg_Xun_C",
+            "SubPathString": ""
+},
+          "Priority": 2
+},
+        {
+          "ModuleID": "Lottery_Permanent",
+          "LotteryModuleWidget": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg_Permanent.LotteryBg_Permanent_C",
+            "SubPathString": ""
+},
+          "Priority": 0
+},
+        {
+          "ModuleID": "Lottery_AnHunQu",
+          "LotteryModuleWidget": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg/LotteryBg_AnHunQu.LotteryBg_AnHunQu_C",
+            "SubPathString": ""
+},
+          "Priority": 3
+},
+        {
+          "ModuleID": "Lottery_Kaesi",
+          "LotteryModuleWidget": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg/LotteryBg_Kaesi.LotteryBg_Kaesi_C",
+            "SubPathString": ""
+},
+          "Priority": 4
+}
       ],
       "LotteryPortraitDataTable": {
         "ObjectName": "DataTable'GachaIllustrate'",
@@ -37,29 +93,6 @@
         "ObjectName": "DataTable'DT_MonopolyCellDataTable'",
         "ObjectPath": "/Game/DataTable/Monopoly/DT_MonopolyCellDataTable.0"
 },
-      "ModuleLotteryWidgetMap": [
-        {
-          "Key": "Lottery_Nanali",
-          "Value": {
-            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg_nanali.LotteryBg_nanali_C",
-            "SubPathString": ""
-}
-        },
-        {
-          "Key": "Lottery_Xun",
-          "Value": {
-            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg_Xun.LotteryBg_Xun_C",
-            "SubPathString": ""
-}
-        },
-        {
-          "Key": "Lottery_Permanent",
-          "Value": {
-            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg_Permanent.LotteryBg_Permanent_C",
-            "SubPathString": ""
-}
-        }
-      ],
       "MonopolyLevelInstance": {
         "AssetPathName": "/Game/Maps/Map_DLC/DLC_drawcards/DLC_drawcards.DLC_drawcards",
         "SubPathString": ""
@@ -1080,6 +1113,111 @@
 },
               "ItemID": "gold",
               "Amount": 10000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+},
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ]
+        },
+        {
+          "CharacterID": "1070",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "gold",
+              "Amount": 10000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+},
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ]
+        },
+        {
+          "CharacterID": "1056",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+},
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ]
+        },
+        {
+          "CharacterID": "1071",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Annulith",
+              "Amount": 20,
               "bHiddenAmount": false,
               "bIsReplaceItem": false,
               "ExtraItemNetInfo": {

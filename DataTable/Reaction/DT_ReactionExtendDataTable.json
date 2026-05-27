@@ -531,6 +531,84 @@
         "Desc": {
           "CultureInvariantString": "暗魂拓展：黯星状态结束后，目标受到多次魂伤害"
         }
+      },
+      "1076": {
+        "Name": {
+          "CultureInvariantString": "真红"
+        },
+        "ReactionDataArray": [
+          {
+            "BackChargeMul": 1.0,
+            "ReactionAbilityID": "GA_Shinku_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Shinku076_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_076_Shinku/PassiveEffect/Buff_Shinku076_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "CultureInvariantString": "前台角色获得充能时，后台角色获得等量充能。"
+        }
+      },
+      "1036": {
+        "Name": {
+          "CultureInvariantString": "残虹"
+        },
+        "ReactionDataArray": [
+          {
+            "TargetGEClass": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Reaction_5_new_1036_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction5/New/Buff_Reaction_5_new_1036.1"
+            },
+            "ReactionAbilityID": "GA_Zankou_Passive1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Zankou_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_036_Zankou/PassiveEffect/Buff_Zankou_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "CultureInvariantString": "浊燃效果可叠层。对浊燃状态下的目标施加Dot伤害时，施加x层浊燃，已有浊燃的伤害、元素类型、持续时间跟随新效果，Buff层数+x。浊燃上限x层。"
+        }
+      },
+      "1071": {
+        "Name": {
+          "CultureInvariantString": "卡厄斯"
+        },
+        "ReactionDataArray": [
+          {
+            "DamageTargetGEClass": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Reaction_3_new_1071_Damage_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction3/New/GE_Reaction_3_new_1071_Damage.1"
+            },
+            "ReactionAbilityID": "GA_Chaos_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Chaos071_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_071_Chaos/PassiveEffect/Buff_Chaos071_Passive1.1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "CultureInvariantString": "解除迟缓时，卡厄斯根据本次迟缓持续时间对目标造成高额伤害，每持续1秒提升x%，上限x%"
+        }
       }
     }
   }

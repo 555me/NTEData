@@ -2268,7 +2268,7 @@
             "LevelUpData": {
               "EffectFigureDataList": [
                 {
-                  "NameID": "Melee_Heterochrome_Show",
+                  "NameID": "Melee_Heterochrome_Show2",
                   "bIsPercent": false
 }
               ]
@@ -2277,6 +2277,26 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
               "Key": "GA_Lacrimosa_Melee_Heterochrome_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_Melee_Heterochrome_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Melee_Heterochrome_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_Melee2_Heterochrome_des"
 },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
@@ -15732,6 +15752,26 @@
               "Key": "GA_daffodill_UltraSkill_exunbal_num"
 },
             "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Daffodill_UltraInsightTargetDur",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
+              "Key": "GA_daffodill_UltraSkill_dongcha_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
+              "Key": "GA_daffodill_UltraSkill_dongcha_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
 }
         ],
         "bStolenAbility": false,
@@ -19300,6 +19340,556 @@
           "SubPathString": ""
 }
       },
+      "GA_Zankou_Melee": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Melee_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee1_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee1_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee2_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee2_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee2_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee3_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee3_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_PerfectEvade_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_PerfectEvade_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_PerfectEvade_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_Melee1.Mitsuki_Melee1",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_Melee1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee1_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee1_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_Melee2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee2_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee2_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_Melee3_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee3_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee3_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_Melee4_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee4_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee4_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_AirAttack_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "AirAttack_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "AirAttack_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_EvadeBranch_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranch_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranch_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_PerfectEvadeAtk_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "PerfectEvadeAttack_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "PerfectEvadeAttack_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_PerfectAtkBullet_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "PerfectEvadeAttackEvade_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "PerfectEvadeAttackEvade_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Melee_Heterochrome_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee_Heterochrome_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee_Heterochrome_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "SkillCostName": "None"
+},
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranchPowerCost_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranchPowerCost_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "SkillCostName": "None"
+},
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranchPowerCostLow_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranchPowerCostLow_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+}
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Zankou_MeleeMagic": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Zankou_Skill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Skill_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Skill_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Skill_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Skill_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_Skill.Mitsuki_Skill",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_Skill_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill1_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill1_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill1Effect_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill1Effect_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill2_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill2_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Mitsuki_Skill"
+},
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "SkillCoolDown_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "SkillCoolDown_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Skill_Heterochrome_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill_Heterochrome_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill_Heterochrome_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+}
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Zankou_QTE": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_QTE_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_QTE_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_QTE_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_QTE.Mitsuki_QTE",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_QTE_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "QTE_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "QTE_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+}
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
       "GA_Zankou_UltraSkill": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
@@ -19458,6 +20048,491 @@
         ],
         "Icon": {
           "AssetPathName": "/Game/UI/UI_Icon/Skill/Daffodill_UltraSkill.Daffodill_UltraSkill",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Zankou_Passive1": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Passive_1_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Passive_1_des"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Passive_1_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_Pas1.Mitsuki_Pas1",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Zankou_Passive2": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Passive_1_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Passive_1_des"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Passive_1_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_Pas1.Mitsuki_Pas1",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Zankou_InvisibleSkill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+          "Key": "GA_Nanally_Skill_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Skill_des_12"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Skill_des_short"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Skill_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+}
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Nanally_Skill.Nanally_Skill",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Nanally_Skill1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Skill_1_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Skill_1_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Nanally_Skill"
+},
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Skill_cooldown_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Skill_cooldown_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Skill_Heterochrome_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Skill_Heterochrome_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Melee_Heterochrome_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Nanally_CritDamageUp",
+                  "bIsPercent": true
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Skill_critdmg_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Skill_critdmg_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+}
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Zankou_RemoveGSkill": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Nanally_RemoveSkill.Nanally_RemoveSkill",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female051_UltraSkill_UnArmed_pvp": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_unarmed_ultral.female051_unarmed_ultral",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female046_UltraSkill_UnArmed_pvp": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_unarmed_ultral.female051_unarmed_ultral",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female046_UltraSkill_UnArmed": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_unarmed_ultral.female051_unarmed_ultral",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female051_UltraSkill_UnArmed": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_unarmed_ultral.female051_unarmed_ultral",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female046_UltraSkill_boss34_NotCharacter": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_boss34_ultral.female051_boss34_ultral",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female046_UltraSkill_boss34": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_boss34_ultral.female051_boss34_ultral",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female051_UltraSkill_boss34": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_boss34_ultral.female051_boss34_ultral",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female051_Skill_UnArmed": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_unarmed_skill.female051_unarmed_skill",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female051_Melee_UnArmed": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_unarmed_melee.female051_unarmed_melee",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female046_Melee_UnArmed": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_unarmed_melee.female051_unarmed_melee",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Female046_Skill_UnArmed": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_unarmed_skill.female051_unarmed_skill",
           "SubPathString": ""
 },
         "ExtendIcon": {

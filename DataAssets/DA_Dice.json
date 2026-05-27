@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "HTDiceDataAsset",
+    "Name": "DA_Dice",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTDiceDataAsset'",
+    "Package": "/Game/DataAssets/DA_Dice",
+    "Properties": {
+      "DiceConfigTable": {
+        "ObjectName": "DataTable'DT_DiceConfIDTable'",
+        "ObjectPath": "/Game/DataTable/DT_DiceConfIDTable.0"
+      },
+      "DiceResultTables": [
+        {
+          "Key": "Test_ResultTable",
+          "Value": {
+            "ObjectName": "DataTable'DT_DiceResultTable'",
+            "ObjectPath": "/Game/DataTable/DT_DiceResultTable.0"
+          }
+        }
+      ]
+    }
+  }
+]

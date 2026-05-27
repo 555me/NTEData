@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "HTOpActNoteBookDataAsset",
+    "Name": "DA_OpActNoteBook",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTOpActNoteBookDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/Activity/NoteBook/DA_OpActNoteBook",
+    "Properties": {
+      "QuestDataTable": {
+        "ObjectName": "DataTable'DT_OpActNoteBookQuestDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/NoteBook/DT_OpActNoteBookQuestDataTable.0"
+      },
+      "PreviewAward": "drop_bagel_preview",
+      "QuestTypeParamMaps": [
+        {
+          "RequestParamName": "needArticleViewCount",
+          "ReplyParamName": "articleViewCount",
+          "QuestObjType": "ESimpleQuestObjType::NoteBookViews"
+        },
+        {
+          "RequestParamName": "needArticleBeLikedCount",
+          "ReplyParamName": "articleBeLikedCount",
+          "QuestObjType": "ESimpleQuestObjType::NoteBookBeLiked"
+        },
+        {
+          "RequestParamName": "needFollowUserCount",
+          "ReplyParamName": "followUserCount",
+          "QuestObjType": "ESimpleQuestObjType::NoteBookFollow"
+        },
+        {
+          "RequestParamName": "needArticlePublishCount",
+          "ReplyParamName": "articlePublishCount",
+          "QuestObjType": "ESimpleQuestObjType::NoteBookPublish"
+        },
+        {
+          "RequestParamName": "needArticleLikeCount",
+          "ReplyParamName": "articleLikeCount",
+          "QuestObjType": "ESimpleQuestObjType::NoteBookLikeCount"
+        },
+        {
+          "RequestParamName": "needCommentCount",
+          "ReplyParamName": "commentCount",
+          "QuestObjType": "ESimpleQuestObjType::NoteBookComment"
+        }
+      ]
+    }
+  }
+]

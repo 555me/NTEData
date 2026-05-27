@@ -526,65 +526,6 @@
           }
         ]
       },
-      "HTRoomVolume_s111100_Inner_1F": {
-        "CurAreaId": "HTRoomVolume_s111100_Inner_1F",
-        "LevelMap": "XL_map_bigworld_test",
-        "Priority": 1,
-        "ParentAreaId": "None",
-        "ExitMapIcon": "A_Tower_1F_to_TF",
-        "bShowExitIcon": true,
-        "AreaBox": {
-          "Min": {
-            "X": 21367.023,
-            "Y": 39112.473,
-            "Z": 4001.0796
-          },
-          "Max": {
-            "X": 28942.113,
-            "Y": 47330.63,
-            "Z": 17125.193
-          },
-          "IsValid": 1
-        },
-        "Location": {
-          "X": 25154.568,
-          "Y": 43221.55,
-          "Z": 10563.137
-        },
-        "SubAreaEntranceList": [
-          {
-            "Key": "HTRoomVolume_s111100_Inner_TF",
-            "Value": "A_Tower_1F_to_TF"
-          }
-        ]
-      },
-      "HTRoomVolume_s111100_Inner_TF": {
-        "CurAreaId": "HTRoomVolume_s111100_Inner_TF",
-        "LevelMap": "XL_map_bigworld_test",
-        "Priority": 2,
-        "ParentAreaId": "HTRoomVolume_s111100_Inner_1F",
-        "ExitMapIcon": "A_Tower_TF_to_1F",
-        "bShowExitIcon": true,
-        "AreaBox": {
-          "Min": {
-            "X": 22122.6,
-            "Y": 39661.883,
-            "Z": 9815.831
-          },
-          "Max": {
-            "X": 28663.566,
-            "Y": 46044.844,
-            "Z": 63767.7
-          },
-          "IsValid": 1
-        },
-        "Location": {
-          "X": 25393.084,
-          "Y": 42853.363,
-          "Z": 36791.766
-        },
-        "SubAreaEntranceList": []
-      },
       "HTRoomVolume1L": {
         "CurAreaId": "HTRoomVolume1L",
         "LevelMap": "XL_map_bigworld_test",
@@ -1137,21 +1078,21 @@
         "bShowExitIcon": true,
         "AreaBox": {
           "Min": {
-            "X": 23399.885,
-            "Y": 41340.098,
-            "Z": 51976.242
+            "X": 23633.068,
+            "Y": 41625.227,
+            "Z": 52110.242
           },
           "Max": {
-            "X": 27399.885,
-            "Y": 45340.098,
-            "Z": 52576.242
+            "X": 26993.932,
+            "Y": 44985.504,
+            "Z": 52570.242
           },
           "IsValid": 1
         },
         "Location": {
-          "X": 25399.885,
-          "Y": 43340.098,
-          "Z": 52276.242
+          "X": 25312.95,
+          "Y": 43305.074,
+          "Z": 52340.242
         },
         "SubAreaEntranceList": []
       },
@@ -1164,26 +1105,30 @@
         "bShowExitIcon": true,
         "AreaBox": {
           "Min": {
-            "X": 24812.95,
-            "Y": 42805.074,
-            "Z": 4200.0
+            "X": 24927.0,
+            "Y": 42920.0,
+            "Z": 7556.0
           },
           "Max": {
-            "X": 25812.95,
-            "Y": 43805.074,
-            "Z": 54200.0
+            "X": 25700.0,
+            "Y": 43690.0,
+            "Z": 53356.0
           },
           "IsValid": 1
         },
         "Location": {
           "X": 25312.95,
           "Y": 43305.074,
-          "Z": 29200.0
+          "Z": 30456.0
         },
         "SubAreaEntranceList": [
           {
             "Key": "HTRoomVolume_SkyTower_Bar",
             "Value": "SkyTower_Bar_Entrance"
+          },
+          {
+            "Key": "HTRoomVolume_SkyTower_Terrace",
+            "Value": "SkyTower_Terrace_Entrance"
           }
         ]
       },
@@ -1196,21 +1141,21 @@
         "bShowExitIcon": true,
         "AreaBox": {
           "Min": {
-            "X": 21483.592,
-            "Y": 39016.125,
-            "Z": 3891.173
+            "X": 21208.166,
+            "Y": 39200.164,
+            "Z": 7609.7725
           },
           "Max": {
-            "X": 29483.592,
-            "Y": 47016.125,
-            "Z": 11891.173
+            "X": 29417.834,
+            "Y": 47410.836,
+            "Z": 12065.0
           },
           "IsValid": 1
         },
         "Location": {
-          "X": 25483.592,
-          "Y": 43016.125,
-          "Z": 7891.1733
+          "X": 25312.95,
+          "Y": 43305.074,
+          "Z": 9909.772
         },
         "SubAreaEntranceList": [
           {
@@ -1218,6 +1163,33 @@
             "Value": "SkyTower_Elevator_Entrance"
           }
         ]
+      },
+      "HTRoomVolume_SkyTower_Terrace": {
+        "CurAreaId": "HTRoomVolume_SkyTower_Terrace",
+        "LevelMap": "XL_map_bigworld_test",
+        "Priority": 4,
+        "ParentAreaId": "HTRoomVolume_SkyTower_Elevator",
+        "ExitMapIcon": "SkyTower_Terrace_Exit",
+        "bShowExitIcon": true,
+        "AreaBox": {
+          "Min": {
+            "X": 23512.95,
+            "Y": 41505.074,
+            "Z": 52640.38
+          },
+          "Max": {
+            "X": 27112.95,
+            "Y": 45105.074,
+            "Z": 76640.375
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 25312.95,
+          "Y": 43305.074,
+          "Z": 64640.38
+        },
+        "SubAreaEntranceList": []
       }
     }
   }

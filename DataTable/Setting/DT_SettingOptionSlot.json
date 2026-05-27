@@ -2003,7 +2003,7 @@
 },
       "JoyStickMode": {
         "Category": "ESettingCategory::System",
-        "PlatformToDisplay": 511,
+        "PlatformToDisplay": 268,
         "Showname": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "JoyStickMode"
@@ -2035,7 +2035,7 @@
         "OpenUIButtonName": {
           "CultureInvariantString": null
 },
-        "ShowInputType": "ESettingInputType::All",
+        "ShowInputType": "ESettingInputType::NotGamePad",
         "ComboBoxOptionEvent": {},
         "SliderValueEvent": null,
         "Condition": null,
@@ -2676,6 +2676,46 @@
         "Condition": null,
         "bPlaystationShow": true
 },
+      "VehicleThirdPersonCameraAdditionalHeight": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "VehicleThirdPersonCameraAdditionalHeight"
+},
+        "ChooseType": "ESettingChooseType::SliderProgress",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingSliderOption'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingSliderOption.0"
+},
+          "RowName": "VehicleThirdPersonCameraAdditionalHeight"
+},
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": -5
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 5
+}
+        },
+        "SliderStepSize": 0.1,
+        "bIsForceShowFloat": true,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+},
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": null,
+        "SliderValueEvent": {},
+        "Condition": null,
+        "bPlaystationShow": true
+},
       "SteeringSensitivity": {
         "Category": "ESettingCategory::System",
         "PlatformToDisplay": 511,
@@ -2753,6 +2793,46 @@
         "ShowInputType": "ESettingInputType::GamePad",
         "ComboBoxOptionEvent": null,
         "SliderValueEvent": {},
+        "Condition": null,
+        "bPlaystationShow": true
+},
+      "AutoDrivingAdjustCamera": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "AutoDrivingAdjustCamera"
+},
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+},
+          "RowName": "AutoDrivingAdjustCamera"
+},
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 10
+}
+        },
+        "SliderStepSize": 0.1,
+        "bIsForceShowFloat": true,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+},
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
         "Condition": null,
         "bPlaystationShow": true
 },
@@ -3456,7 +3536,7 @@
         "ShowInputType": "ESettingInputType::All",
         "ComboBoxOptionEvent": null,
         "SliderValueEvent": null,
-        "Condition": null,
+        "Condition": {},
         "bPlaystationShow": false
 },
       "Graphics_NPCQuality": {
@@ -3496,7 +3576,7 @@
         "ShowInputType": "ESettingInputType::All",
         "ComboBoxOptionEvent": {},
         "SliderValueEvent": null,
-        "Condition": null,
+        "Condition": {},
         "bPlaystationShow": false
 },
       "Graphics_HmsXeg": {

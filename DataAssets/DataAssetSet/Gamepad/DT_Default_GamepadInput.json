@@ -913,13 +913,13 @@
 },
       "Display_Vehicle_6": {
         "Display": {
-          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
-          "Key": "GamepadTips_0042"
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_2_2"
 },
         "bIsDisplayOnly": true,
         "CategoryName": "PanelWidgetVehicleKeysList",
         "DisplayKey": {
-          "KeyName": "Gamepad_DPad_Left"
+          "KeyName": "Gamepad_LeftShoulder"
 },
         "KeyName": "None",
         "AbilityAction": "EGamepadAbilityActions::CameraAction",
@@ -934,13 +934,13 @@
 },
       "Display_Vehicle_7": {
         "Display": {
-          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
-          "Key": "GamepadTips_0044"
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "UI_Race_Battle_09"
 },
         "bIsDisplayOnly": true,
         "CategoryName": "PanelWidgetVehicleKeysList",
         "DisplayKey": {
-          "KeyName": "Gamepad_DPad_Up"
+          "KeyName": "Gamepad_DPad_Right"
 },
         "KeyName": "None",
         "AbilityAction": "EGamepadAbilityActions::CameraAction",
@@ -956,12 +956,12 @@
       "Display_Vehicle_8": {
         "Display": {
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
-          "Key": "GamepadTips_0043"
+          "Key": "GamepadTips_0091"
 },
         "bIsDisplayOnly": true,
         "CategoryName": "PanelWidgetVehicleKeysList",
         "DisplayKey": {
-          "KeyName": "Gamepad_DPad_Right"
+          "KeyName": "Gamepad_FaceButton_Left"
 },
         "KeyName": "None",
         "AbilityAction": "EGamepadAbilityActions::CameraAction",
@@ -982,7 +982,7 @@
         "bIsDisplayOnly": true,
         "CategoryName": "PanelWidgetVehicleKeysList",
         "DisplayKey": {
-          "KeyName": "Gamepad_LeftThumbstick"
+          "KeyName": "Gamepad_DPad_Up"
 },
         "KeyName": "None",
         "AbilityAction": "EGamepadAbilityActions::CameraAction",
@@ -1004,6 +1004,48 @@
         "CategoryName": "PanelWidgetVehicleKeysList",
         "DisplayKey": {
           "KeyName": "Gamepad_RightShoulder"
+},
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+},
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+},
+      "Display_Vehicle_11": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "UI_Skillcontroller_09"
+},
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_FaceButton_Bottom"
+},
+        "KeyName": "None",
+        "AbilityAction": "EGamepadAbilityActions::CameraAction",
+        "BP_Priority": 0,
+        "PrerequireKey": {
+          "KeyName": "None"
+},
+        "InputAction": null,
+        "bCustomKeys": false,
+        "KeysToIgnore": [],
+        "bIsPlayerMappable": false
+},
+      "Display_Vehicle_12": {
+        "Display": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "Vheicle_SkillController_OpenAutopilot"
+},
+        "bIsDisplayOnly": true,
+        "CategoryName": "PanelWidgetVehicleKeysList",
+        "DisplayKey": {
+          "KeyName": "Gamepad_DPad_Down"
 },
         "KeyName": "None",
         "AbilityAction": "EGamepadAbilityActions::CameraAction",
@@ -1058,102 +1100,6 @@
         "InputAction": {
           "ObjectName": "InputAction'IA_GSkill_Gamepad'",
           "ObjectPath": "/Game/Input/Gamepad/IA_GSkill_Gamepad.0"
-},
-        "bCustomKeys": false,
-        "KeysToIgnore": [],
-        "bIsPlayerMappable": false
-},
-      "Display_Drum_0": {
-        "Display": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "DT_Default_GamepadInput_Drum1"
-},
-        "bIsDisplayOnly": false,
-        "CategoryName": "PanelWidgetDrumKeysList",
-        "DisplayKey": {
-          "KeyName": "Gamepad_DPad_Left"
-},
-        "KeyName": "None",
-        "AbilityAction": "EGamepadAbilityActions::None",
-        "BP_Priority": 0,
-        "PrerequireKey": {
-          "KeyName": "None"
-},
-        "InputAction": {
-          "ObjectName": "InputAction'IA_DrumPlay_0_Gamepad'",
-          "ObjectPath": "/Game/Input/Gamepad/IA_DrumPlay_0_Gamepad.0"
-},
-        "bCustomKeys": false,
-        "KeysToIgnore": [],
-        "bIsPlayerMappable": false
-},
-      "Display_Drum_1": {
-        "Display": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "DT_Default_GamepadInput_Drum2"
-},
-        "bIsDisplayOnly": false,
-        "CategoryName": "PanelWidgetDrumKeysList",
-        "DisplayKey": {
-          "KeyName": "Gamepad_DPad_Right"
-},
-        "KeyName": "None",
-        "AbilityAction": "EGamepadAbilityActions::None",
-        "BP_Priority": 0,
-        "PrerequireKey": {
-          "KeyName": "None"
-},
-        "InputAction": {
-          "ObjectName": "InputAction'IA_DrumPlay_1_Gamepad'",
-          "ObjectPath": "/Game/Input/Gamepad/IA_DrumPlay_1_Gamepad.0"
-},
-        "bCustomKeys": false,
-        "KeysToIgnore": [],
-        "bIsPlayerMappable": false
-},
-      "Display_Drum_2": {
-        "Display": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "DT_Default_GamepadInput_Drum3"
-},
-        "bIsDisplayOnly": false,
-        "CategoryName": "PanelWidgetDrumKeysList",
-        "DisplayKey": {
-          "KeyName": "Gamepad_LeftThumbstick"
-},
-        "KeyName": "None",
-        "AbilityAction": "EGamepadAbilityActions::None",
-        "BP_Priority": 0,
-        "PrerequireKey": {
-          "KeyName": "None"
-},
-        "InputAction": {
-          "ObjectName": "InputAction'IA_DrumPlay_2_Gamepad'",
-          "ObjectPath": "/Game/Input/Gamepad/IA_DrumPlay_2_Gamepad.0"
-},
-        "bCustomKeys": false,
-        "KeysToIgnore": [],
-        "bIsPlayerMappable": false
-},
-      "Display_Drum_3": {
-        "Display": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "DT_Default_GamepadInput_Drum4"
-},
-        "bIsDisplayOnly": false,
-        "CategoryName": "PanelWidgetDrumKeysList",
-        "DisplayKey": {
-          "KeyName": "Gamepad_FaceButton_Right"
-},
-        "KeyName": "None",
-        "AbilityAction": "EGamepadAbilityActions::None",
-        "BP_Priority": 0,
-        "PrerequireKey": {
-          "KeyName": "None"
-},
-        "InputAction": {
-          "ObjectName": "InputAction'IA_DrumPlay_3_Gamepad'",
-          "ObjectPath": "/Game/Input/Gamepad/IA_DrumPlay_3_Gamepad.0"
 },
         "bCustomKeys": false,
         "KeysToIgnore": [],

@@ -3843,10 +3843,10 @@
       "battle_54": {
         "Amout": 10,
         "AchievementMainType": "AchievementMainType::MainTypeFight",
-        "Type": "EAchievementTask::SubmitQuest",
+        "Type": "EAchievementTask::SlayGEExtend",
         "ConditionData": [
           {
-            "Tag": "Ability_UltraSkill",
+            "Tag": "State.Damage.UltraSkill",
             "Type": "EHTAchievement::TAG"
 }
         ],
@@ -3896,10 +3896,10 @@
       "battle_55": {
         "Amout": 50,
         "AchievementMainType": "AchievementMainType::MainTypeFight",
-        "Type": "EAchievementTask::SubmitQuest",
+        "Type": "EAchievementTask::SlayGEExtend",
         "ConditionData": [
           {
-            "Tag": "Ability_UltraSkill",
+            "Tag": "State.Damage.UltraSkill",
             "Type": "EHTAchievement::TAG"
 }
         ],
@@ -3949,10 +3949,10 @@
       "battle_56": {
         "Amout": 200,
         "AchievementMainType": "AchievementMainType::MainTypeFight",
-        "Type": "EAchievementTask::SubmitQuest",
+        "Type": "EAchievementTask::SlayGEExtend",
         "ConditionData": [
           {
-            "Tag": "Ability_UltraSkill",
+            "Tag": "State.Damage.UltraSkill",
             "Type": "EHTAchievement::TAG"
 }
         ],
@@ -17551,7 +17551,12 @@
         "Amout": 10,
         "AchievementMainType": "AchievementMainType::MainTypeCity",
         "Type": "EAchievementTask::SubmitItem",
-        "ConditionData": [],
+        "ConditionData": [
+          {
+            "Tag": "Submit_Police_Lostthing",
+            "Type": "EHTAchievement::TAG"
+}
+        ],
         "ConditionGroups": [],
         "UpdateType": "EAchievementProgressUpdate::SUM",
         "bIsConditionValueUpdateProgress": false,
@@ -17599,7 +17604,12 @@
         "Amout": 50,
         "AchievementMainType": "AchievementMainType::MainTypeCity",
         "Type": "EAchievementTask::SubmitItem",
-        "ConditionData": [],
+        "ConditionData": [
+          {
+            "Tag": "Submit_Police_Lostthing",
+            "Type": "EHTAchievement::TAG"
+}
+        ],
         "ConditionGroups": [],
         "UpdateType": "EAchievementProgressUpdate::SUM",
         "bIsConditionValueUpdateProgress": false,
@@ -17647,7 +17657,12 @@
         "Amout": 100,
         "AchievementMainType": "AchievementMainType::MainTypeCity",
         "Type": "EAchievementTask::SubmitItem",
-        "ConditionData": [],
+        "ConditionData": [
+          {
+            "Tag": "Submit_Police_Lostthing",
+            "Type": "EHTAchievement::TAG"
+}
+        ],
         "ConditionGroups": [],
         "UpdateType": "EAchievementProgressUpdate::SUM",
         "bIsConditionValueUpdateProgress": false,
@@ -21071,6 +21086,263 @@
           "SubPathString": ""
 },
         "Quality": "EHTAchievementQuality::Normal",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+},
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+},
+      "quest_31": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeQuest",
+        "Type": "EAchievementTask::SubmitQuest",
+        "ConditionData": [
+          {
+            "Tag": "q1105992",
+            "Type": "EHTAchievement::TAG"
+}
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+},
+            "ItemID": "Annulith",
+            "Amount": 20,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "quest_31_Title"
+},
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "quest_31_Content"
+},
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/4_3.4_3",
+          "SubPathString": ""
+},
+        "Quality": "EHTAchievementQuality::EXECELLENT",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+},
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+},
+      "Play_45": {
+        "Amout": 10000,
+        "AchievementMainType": "AchievementMainType::MainTypePlay",
+        "Type": "EAchievementTask::ItemGet",
+        "ConditionData": [
+          {
+            "Tag": "ArticleCoin",
+            "Type": "EHTAchievement::TAG"
+}
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+},
+            "ItemID": "Annulith",
+            "Amount": 5,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+},
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+},
+            "ItemID": "Title_Bagel_001",
+            "Amount": 1,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_45_Title"
+},
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_45_Content"
+},
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/5.5",
+          "SubPathString": ""
+},
+        "Quality": "EHTAchievementQuality::Normal",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+},
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+},
+      "Play_46": {
+        "Amout": 50000,
+        "AchievementMainType": "AchievementMainType::MainTypePlay",
+        "Type": "EAchievementTask::ItemGet",
+        "ConditionData": [
+          {
+            "Tag": "ArticleCoin",
+            "Type": "EHTAchievement::TAG"
+}
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+},
+            "ItemID": "Annulith",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+},
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+},
+            "ItemID": "Title_Bagel_002",
+            "Amount": 1,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_46_Title"
+},
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_46_Content"
+},
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/5_2.5_2",
+          "SubPathString": ""
+},
+        "Quality": "EHTAchievementQuality::High",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+},
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+},
+      "Play_47": {
+        "Amout": 100000,
+        "AchievementMainType": "AchievementMainType::MainTypePlay",
+        "Type": "EAchievementTask::ItemGet",
+        "ConditionData": [
+          {
+            "Tag": "ArticleCoin",
+            "Type": "EHTAchievement::TAG"
+}
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+},
+            "ItemID": "Annulith",
+            "Amount": 20,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+},
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+},
+            "ItemID": "Title_Bagel_003",
+            "Amount": 1,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_47_Title"
+},
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_47_Content"
+},
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/5_3.5_3",
+          "SubPathString": ""
+},
+        "Quality": "EHTAchievementQuality::EXECELLENT",
         "bIsHideNotAchieve": false,
         "bIsHost": false,
         "bRecordHistoryProgress": false,

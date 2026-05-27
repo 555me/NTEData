@@ -1919,6 +1919,882 @@
 },
           "OverseaUseUTCTime": true
 }
+      },
+      "CombatAwardOnceQuest2_01": {
+        "QuestId": "CombatAwardOnceQuest2_01",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest2_01"
+},
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "SubQuests": [
+            "q1105992"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::SubQuest",
+          "Amount": 1
+},
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "questpanel_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+}
+      },
+      "CombatAwardOnceQuest2_02": {
+        "QuestId": "CombatAwardOnceQuest2_02",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest2_02"
+},
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CloneIDArray": [
+            "WeeklyClone_Boss26"
+          ],
+          "CloneType": "ECloneType::Weekly_Clone",
+          "CloneDifficultyLevel": 0,
+          "ObjectiveType": "ESimpleQuestObjType::CloneCompleted",
+          "Amount": 3
+},
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "WeeklyClone_Boss26_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+}
+      },
+      "CombatAwardOnceQuest2_03": {
+        "QuestId": "CombatAwardOnceQuest2_03",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest2_03"
+},
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": true,
+          "ItemIDArray": [
+            "gold"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 500000
+},
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+}
+      },
+      "CombatAwardOnceQuest2_04": {
+        "QuestId": "CombatAwardOnceQuest2_04",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest2_04"
+},
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": true,
+          "ItemIDArray": [
+            "fons"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 2000000
+},
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+}
+      },
+      "CombatAwardOnceQuest2_05": {
+        "QuestId": "CombatAwardOnceQuest2_05",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest2_05"
+},
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "NotifyItemType": "ENotifyItemType::NOTIFY_EQUIPMENT_STRENGTHEN_LEVEL",
+          "Level": 20,
+          "ItemType": "EItemType::ITEM_TYPE_EQUIPMENT_CORE",
+          "ObjectiveType": "ESimpleQuestObjType::ItemLevel",
+          "Amount": 1
+},
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "equipment_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+}
+      },
+      "CombatAwardOnceQuest2_06": {
+        "QuestId": "CombatAwardOnceQuest2_06",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest2_06"
+},
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "NotifyItemType": "ENotifyItemType::NOTIFY_EQUIPMENT_STRENGTHEN_LEVEL",
+          "Level": 20,
+          "ItemType": "EItemType::ITEM_TYPE_EQUIPMENT",
+          "ObjectiveType": "ESimpleQuestObjType::ItemLevel",
+          "Amount": 4
+},
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Combat_exp",
+              "Amount": 2000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "equipment_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+}
+      },
+      "CombatAwardOnceQuest2_07": {
+        "QuestId": "CombatAwardOnceQuest2_07",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest2_07"
+},
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "AbyssID": "Abyss_2",
+          "AbyssLevel": 8,
+          "ObjectiveType": "ESimpleQuestObjType::AbyssCompleted",
+          "Amount": 1
+},
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Combat_exp",
+              "Amount": 2500,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "abyss_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": true,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 2026,
+            "Month": 5,
+            "Day": 29,
+            "Hour": 5,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 2026,
+            "Month": 6,
+            "Day": 3,
+            "Hour": 21,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 2026,
+            "Month": 6,
+            "Day": 12,
+            "Hour": 4,
+            "minute": 59,
+            "Second": 59
+},
+          "OverseaTime": {
+            "Year": 2026,
+            "Month": 6,
+            "Day": 17,
+            "Hour": 20,
+            "minute": 59,
+            "Second": 59
+},
+          "OverseaUseUTCTime": true
+}
+      },
+      "CombatAwardOnceQuest2_08": {
+        "QuestId": "CombatAwardOnceQuest2_08",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest2_08"
+},
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "AbyssID": "Abyss_3",
+          "AbyssLevel": 8,
+          "ObjectiveType": "ESimpleQuestObjType::AbyssCompleted",
+          "Amount": 1
+},
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Combat_exp",
+              "Amount": 2500,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "abyss_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": true,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 2026,
+            "Month": 6,
+            "Day": 12,
+            "Hour": 5,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 2026,
+            "Month": 6,
+            "Day": 17,
+            "Hour": 21,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 2026,
+            "Month": 6,
+            "Day": 26,
+            "Hour": 4,
+            "minute": 59,
+            "Second": 59
+},
+          "OverseaTime": {
+            "Year": 2026,
+            "Month": 7,
+            "Day": 1,
+            "Hour": 20,
+            "minute": 59,
+            "Second": 59
+},
+          "OverseaUseUTCTime": true
+}
+      },
+      "CombatAwardOnceQuest2_09": {
+        "QuestId": "CombatAwardOnceQuest2_09",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest2_09"
+},
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::RollDice",
+          "Amount": 30
+},
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Combat_exp",
+              "Amount": 3000,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "Monopoly_UI",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+}
+      },
+      "CombatAwardOnceQuest2_10": {
+        "QuestId": "CombatAwardOnceQuest2_10",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CombatAwardOnceQuest2_10"
+},
+        "SimpleQuestType": "ESimpleQuestType::CombatAwardQuest",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::ForkLottery",
+          "Amount": 30
+},
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Combat_exp",
+              "Amount": 2500,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "ForkLotterynShop",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 2026,
+            "Month": 5,
+            "Day": 27,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 2026,
+            "Month": 6,
+            "Day": 1,
+            "Hour": 16,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+}
       }
     }
   }

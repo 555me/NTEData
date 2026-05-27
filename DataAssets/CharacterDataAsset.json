@@ -167,6 +167,13 @@
             "ObjectName": "DataTable'1070FileDataTable'",
             "ObjectPath": "/Game/DataTable/Character/File/1070FileDataTable.0"
 }
+        },
+        {
+          "Key": "1071",
+          "Value": {
+            "ObjectName": "DataTable'1071FileDataTable'",
+            "ObjectPath": "/Game/DataTable/Character/File/1071FileDataTable.0"
+}
         }
       ],
       "OpenCameraAnimSequence": true,
@@ -385,8 +392,32 @@
         },
         {
           "Key": "1036",
-          "Value": null
+          "Value": {
+            "ObjectName": "DataTable'1036AwakenEffect'",
+            "ObjectPath": "/Game/DataTable/Character/Awaken/1036AwakenEffect.0"
 }
+        },
+        {
+          "Key": "ft_character_mint",
+          "Value": {
+            "ObjectName": "DataTable'ft_character_mintAwakenEffect_Test'",
+            "ObjectPath": "/Game/Maps_4NT/DataTable/ft_character_mintAwakenEffect_Test.0"
+}
+        },
+        {
+          "Key": "ft_character_1051",
+          "Value": {
+            "ObjectName": "DataTable'ft_character_1051AwakenEffect_Test'",
+            "ObjectPath": "/Game/Maps_4NT/DataTable/ft_character_1051AwakenEffect_Test.0"
+}
+        },
+        {
+          "Key": "ft_character_1046",
+          "Value": {
+            "ObjectName": "DataTable'ft_character_1046AwakenEffect_Test'",
+            "ObjectPath": "/Game/Maps_4NT/DataTable/ft_character_1046AwakenEffect_Test.0"
+}
+        }
       ],
       "EquipmentGeometryIconMap": [
         {
@@ -1115,6 +1146,14 @@
         "EquipmentUpMaterial_lv2",
         "EquipmentUpMaterial_lv3"
       ],
+      "GashaponLotteryDataTable": {
+        "ObjectName": "DataTable'DT_GashaponLotteryData'",
+        "ObjectPath": "/Game/DataTable/GashaponLottery/DT_GashaponLotteryData.0"
+},
+      "GashaponLotteryGlobalDataTable": {
+        "ObjectName": "DataTable'DT_GashaponLotteryGlobal'",
+        "ObjectPath": "/Game/DataTable/GashaponLottery/DT_GashaponLotteryGlobal.0"
+},
       "TipsHideAmountIDList": [
         "HunterLvExp",
         "Equipment_cell_r_show",
@@ -1264,13 +1303,25 @@
       "FashionRecommendDataArray": [
         {
           "ShopID": "FashionShop",
-          "GoodID": "FashionShop_01",
+          "GoodID": "FashionShop_09",
           "TabIcon": {
-            "AssetPathName": "/Game/UI/UI/shop/AppearanceShop/YH_UI_img_activity_recommend_fashion_tab.YH_UI_img_activity_recommend_fashion_tab",
+            "AssetPathName": "/Game/UI/UI/shop/AppearanceShop/YH_UI_img_activity_recommend_fashion_tab3.YH_UI_img_activity_recommend_fashion_tab3",
             "SubPathString": ""
 },
           "SpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Shop/Recommend/BPUI_FashionRecommend_1010_3.BPUI_FashionRecommend_1010_3_C",
+            "AssetPathName": "/Game/UI/Blueprints/Shop/Recommend/BPUI_FashionRecommend_1004_01.BPUI_FashionRecommend_1004_01_C",
+            "SubPathString": ""
+}
+        },
+        {
+          "ShopID": "FashionShop",
+          "GoodID": "FashionShop_10",
+          "TabIcon": {
+            "AssetPathName": "/Game/UI/UI/shop/AppearanceShop/YH_UI_img_activity_recommend_fashion_tab4.YH_UI_img_activity_recommend_fashion_tab4",
+            "SubPathString": ""
+},
+          "SpineUI": {
+            "AssetPathName": "/Game/UI/Blueprints/Shop/Recommend/BPUI_FashionRecommend_1004_02.BPUI_FashionRecommend_1004_02_C",
             "SubPathString": ""
 }
         }
@@ -1417,7 +1468,8 @@
             "SourceID": "MonsterDrop_Material_04"
 }
         ],
-        "OpenHunterLevel": 30
+        "OpenHunterLevel": 30,
+        "EquipCoreEmptyJumpID": "EquipmentCloneEnter_001_map"
 },
       "EquipCoreDecomposeItem": [
         {

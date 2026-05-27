@@ -191,95 +191,6 @@
         "ShowSupportDelayTime": 1.0,
         "HideUITime": 1.5
 },
-      "1004": {
-        "Desc": "安魂曲-三测不上-任务没配",
-        "Conditions": [
-          {
-            "CharacterID": "1004"
-}
-        ],
-        "ConditionType": "ESupportConditionType::And",
-        "CharacterClass": {
-          "AssetPathName": "/Game/Blueprints/Character/Player/Player_004_Lacrimosa.Player_004_Lacrimosa_C",
-          "SubPathString": ""
-},
-        "SpawnOffLocation": {
-          "X": 50.0,
-          "Y": 0.0,
-          "Z": 0.0
-},
-        "BeginBuffs": [
-          {
-            "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Heal/Buff_GA_Support_Common_Heal.Buff_GA_Support_Common_Heal_C",
-            "SubPathString": ""
-},
-          {
-            "AssetPathName": "/Game/Blueprints/Abilities/Support/Support_Player_004_Lacrimosa/Buff_Support_Player_004_Lacrimosa.Buff_Support_Player_004_Lacrimosa_C",
-            "SubPathString": ""
-}
-        ],
-        "Tips": [
-          {
-            "Key": "ESupportCharacterTips::Entry",
-            "Value": {
-              "TipTexts": [
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
-                  "Key": "SSD_NPC004_Admission_001_001"
-},
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
-                  "Key": "SSD_NPC004_Admission_002_001"
-},
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
-                  "Key": "SSD_NPC004_Admission_003_001"
-}
-              ]
-            }
-          },
-          {
-            "Key": "ESupportCharacterTips::AddHP",
-            "Value": {
-              "TipTexts": [
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
-                  "Key": "SSD_NPC004_UseProp_001_001"
-},
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
-                  "Key": "SSD_NPC004_UseProp_002_001"
-},
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
-                  "Key": "SSD_NPC004_UseProp_003_001"
-}
-              ]
-            }
-          },
-          {
-            "Key": "ESupportCharacterTips::Leave",
-            "Value": {
-              "TipTexts": [
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
-                  "Key": "SSD_NPC004_Leave_001_001"
-},
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
-                  "Key": "SSD_NPC004_Leave_002_001"
-},
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
-                  "Key": "SSD_NPC004_Leave_003_001"
-}
-              ]
-            }
-          }
-        ],
-        "ShowSupportDelayTime": 1.0,
-        "HideUITime": 1.5
-},
       "1008": {
         "Desc": "翳",
         "Conditions": [
@@ -1124,13 +1035,16 @@
         "HideUITime": 1.5
 },
       "1052": {
-        "Desc": "浔-三测不上-任务没配",
+        "Desc": "浔",
         "Conditions": [
           {
             "CharacterID": "1052"
+},
+          {
+            "QuestId": "q110066"
 }
         ],
-        "ConditionType": "ESupportConditionType::And",
+        "ConditionType": "ESupportConditionType::Or",
         "CharacterClass": {
           "AssetPathName": "/Game/Blueprints/Character/Player/Player_052_Jin.Player_052_Jin_C",
           "SubPathString": ""
@@ -1504,7 +1418,7 @@
           "SubPathString": ""
 },
         "SpawnOffLocation": {
-          "X": 300.0,
+          "X": 50.0,
           "Y": 0.0,
           "Z": 0.0
 },
@@ -1596,7 +1510,7 @@
           "SubPathString": ""
 },
         "SpawnOffLocation": {
-          "X": 300.0,
+          "X": 50.0,
           "Y": 0.0,
           "Z": 0.0
 },
@@ -1669,6 +1583,451 @@
             }
           }
         ],
+        "ShowSupportDelayTime": 1.0,
+        "HideUITime": 1.5
+},
+      "1004": {
+        "Desc": "1.1 安魂曲",
+        "Conditions": [
+          {
+            "CharacterID": "1004"
+},
+          {
+            "QuestId": "L110109"
+}
+        ],
+        "ConditionType": "ESupportConditionType::Or",
+        "CharacterClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Player/Player_004_Lacrimosa.Player_004_Lacrimosa_C",
+          "SubPathString": ""
+},
+        "SpawnOffLocation": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "BeginBuffs": [
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Heal/Buff_GA_Support_Common_Heal.Buff_GA_Support_Common_Heal_C",
+            "SubPathString": ""
+},
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Support_Player_004_Lacrimosa/Buff_Support_Player_004_Lacrimosa.Buff_Support_Player_004_Lacrimosa_C",
+            "SubPathString": ""
+}
+        ],
+        "Tips": [
+          {
+            "Key": "ESupportCharacterTips::Entry",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC004_Admission_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC004_Admission_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC004_Admission_003_001"
+}
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::AddHP",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC004_UseProp_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC004_UseProp_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC004_UseProp_003_001"
+}
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::Leave",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC004_Leave_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC004_Leave_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC004_Leave_003_001"
+}
+              ]
+            }
+          }
+        ],
+        "ShowSupportDelayTime": 1.0,
+        "HideUITime": 1.5
+},
+      "1071": {
+        "Desc": "1.1卡厄斯-已完成配置，但未开放Boss支援",
+        "Conditions": [
+          {
+            "CharacterID": "1071"
+},
+          {
+            "QuestId": "q110493"
+}
+        ],
+        "ConditionType": "ESupportConditionType::Or",
+        "CharacterClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Player/player_071_Chaos.player_071_Chaos_C",
+          "SubPathString": ""
+},
+        "SpawnOffLocation": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "BeginBuffs": [
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Atk/Buff_GA_Support_Common_AtkUP.Buff_GA_Support_Common_AtkUP_C",
+            "SubPathString": ""
+}
+        ],
+        "Tips": [
+          {
+            "Key": "ESupportCharacterTips::Entry",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC024_Admission_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC024_Admission_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC024_Admission_003_001"
+}
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::AddAttack",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC024_UseProp_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC024_UseProp_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC024_UseProp_003_001"
+}
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::Leave",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC024_Leave_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC024_Leave_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC024_Leave_003_001"
+}
+              ]
+            }
+          }
+        ],
+        "ShowSupportDelayTime": 1.0,
+        "HideUITime": 1.5
+},
+      "1076": {
+        "Desc": "1.2 真红-未完成配置",
+        "Conditions": [
+          {
+            "CharacterID": "1076"
+}
+        ],
+        "ConditionType": "ESupportConditionType::Or",
+        "CharacterClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Player/player_076_shinku.player_076_shinku_C",
+          "SubPathString": ""
+},
+        "SpawnOffLocation": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "BeginBuffs": [
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Atk/Buff_GA_Support_Common_AtkUP.Buff_GA_Support_Common_AtkUP_C",
+            "SubPathString": ""
+}
+        ],
+        "Tips": [
+          {
+            "Key": "ESupportCharacterTips::Entry",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC032_Admission_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC032_Admission_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC032_Admission_003_001"
+}
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::AddAttack",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC032_UseProp_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC032_UseProp_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC032_UseProp_003_001"
+}
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::Leave",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC032_Leave_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC032_Leave_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC032_Leave_003_001"
+}
+              ]
+            }
+          }
+        ],
+        "ShowSupportDelayTime": 1.0,
+        "HideUITime": 1.5
+},
+      "1075": {
+        "Desc": "1.2 伊洛伊-未完成配置",
+        "Conditions": [
+          {
+            "CharacterID": "1075"
+},
+          {
+            "QuestId": "q1105992"
+}
+        ],
+        "ConditionType": "ESupportConditionType::Or",
+        "CharacterClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Player/Player_075_Oneiroi.Player_075_Oneiroi_C",
+          "SubPathString": ""
+},
+        "SpawnOffLocation": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "BeginBuffs": [
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Heal/Buff_GA_Support_Common_Heal.Buff_GA_Support_Common_Heal_C",
+            "SubPathString": ""
+},
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Atk/Buff_GA_Support_Common_AtkUP.Buff_GA_Support_Common_AtkUP_C",
+            "SubPathString": ""
+}
+        ],
+        "Tips": [
+          {
+            "Key": "ESupportCharacterTips::Entry",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_Admission_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_Admission_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_Admission_003_001"
+}
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::AddAttack",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_UseProp_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_UseProp_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_UseProp_003_001"
+}
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::Leave",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_Leave_001_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_Leave_002_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_Leave_003_001"
+}
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::AddHP",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_UseProp_004_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_UseProp_005_001"
+},
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC028_UseProp_006_001"
+}
+              ]
+            }
+          }
+        ],
+        "ShowSupportDelayTime": 1.0,
+        "HideUITime": 1.5
+},
+      "Empty_01": {
+        "Desc": "1.3 灵可-未完成配置-译文key调整中",
+        "Conditions": [],
+        "ConditionType": "ESupportConditionType::Or",
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "SpawnOffLocation": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "BeginBuffs": [
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Heal/Buff_GA_Support_Common_Heal.Buff_GA_Support_Common_Heal_C",
+            "SubPathString": ""
+}
+        ],
+        "Tips": [],
+        "ShowSupportDelayTime": 1.0,
+        "HideUITime": 1.5
+},
+      "Empty_02": {
+        "Desc": "1.4 黑羽-未完成配置",
+        "Conditions": [],
+        "ConditionType": "ESupportConditionType::Or",
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "SpawnOffLocation": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "BeginBuffs": [
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Heal/Buff_GA_Support_Common_Heal.Buff_GA_Support_Common_Heal_C",
+            "SubPathString": ""
+}
+        ],
+        "Tips": [],
+        "ShowSupportDelayTime": 1.0,
+        "HideUITime": 1.5
+},
+      "Empty_03": {
+        "Desc": "1.4 明音-未完成配置",
+        "Conditions": [],
+        "ConditionType": "ESupportConditionType::Or",
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "SpawnOffLocation": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "BeginBuffs": [
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Heal/Buff_GA_Support_Common_Heal.Buff_GA_Support_Common_Heal_C",
+            "SubPathString": ""
+}
+        ],
+        "Tips": [],
         "ShowSupportDelayTime": 1.0,
         "HideUITime": 1.5
 }

@@ -39,11 +39,12 @@
                   "CAS_ActionMap": []
                 }
               ],
-              "DisplayName": "吃寿司",
+              "DisplayName": "",
               "Icon": {
                 "ObjectName": "Texture2D'YH_UI_Likeability_Butten_03'",
                 "ObjectPath": "/Game/UI/UI/likeability/Date/YH_UI_Likeability_Butten_03.0"
-              }
+              },
+              "DateEatMontageName": "Date_Eat"
             }
           },
           {
@@ -71,11 +72,12 @@
                   "CAS_ActionMap": []
                 }
               ],
-              "DisplayName": "喝啤酒",
+              "DisplayName": "",
               "Icon": {
                 "ObjectName": "Texture2D'YH_UI_Likeability_Butten_01'",
                 "ObjectPath": "/Game/UI/UI/likeability/Date/YH_UI_Likeability_Butten_01.0"
-              }
+              },
+              "DateEatMontageName": "Date_Eat"
             }
           },
           {
@@ -117,11 +119,12 @@
                   ]
                 }
               ],
-              "DisplayName": "干杯",
+              "DisplayName": "",
               "Icon": {
                 "ObjectName": "Texture2D'YH_UI_Likeability_Butten_02'",
                 "ObjectPath": "/Game/UI/UI/likeability/Date/YH_UI_Likeability_Butten_02.0"
-              }
+              },
+              "DateEatMontageName": "Date_Eat"
             }
           }
         ],
@@ -226,7 +229,7 @@
             "Key": "NPC_Beer",
             "Value": {
               "ActorToSpawn": {
-                "AssetPathName": "/Game/Blueprints/Level/World/Date/Budori/BP_HoldingGood_Beer.BP_HoldingGood_Beer_C",
+                "AssetPathName": "/Game/Blueprints/Level/World/Date/Budori/BP_HoldingGood_NPCBeer.BP_HoldingGood_NPCBeer_C",
                 "SubPathString": ""
               },
               "RelativeRole": "EDatingRole::NPC",
@@ -316,6 +319,123 @@
                 }
               },
               "AttachSocketName": "Bip001-Prop1"
+            }
+          }
+        ]
+      },
+      "Icecream": {
+        "DinnerActionMap": [
+          {
+            "Key": "CheersBeerqqq",
+            "Value": {
+              "Montages": [
+                {
+                  "Role": "EDatingRole::Both",
+                  "ActionMontageMap": [],
+                  "CAS_ActionMap": [
+                    {
+                      "Key": "1046",
+                      "Value": {
+                        "CASAssetMap": [
+                          {
+                            "Key": "NPC_004",
+                            "Value": {
+                              "ObjectName": "ContextualAnimSceneAsset'ContextAnim_EatIcecream_lacrimosa_m02'",
+                              "ObjectPath": "/Game/Blueprints/Character/ContextAnim/Date/Icecream/ContextAnim_EatIcecream_lacrimosa_m02.0"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "Key": "1051",
+                      "Value": {
+                        "CASAssetMap": [
+                          {
+                            "Key": "NPC_004",
+                            "Value": {
+                              "ObjectName": "ContextualAnimSceneAsset'ContextAnim_EatIcecream_lacrimosa_F'",
+                              "ObjectPath": "/Game/Blueprints/Character/ContextAnim/Date/Icecream/ContextAnim_EatIcecream_lacrimosa_F.0"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "DisplayName": "",
+              "Icon": {
+                "ObjectName": "Texture2D'YH_UI_Likeability_Butten_05'",
+                "ObjectPath": "/Game/UI/UI/likeability/Date/YH_UI_Likeability_Butten_05.0"
+              },
+              "DateEatMontageName": "Date_icecream"
+            }
+          }
+        ],
+        "DinnerActorMap": [
+          {
+            "Key": "NPC_icecream",
+            "Value": {
+              "ActorToSpawn": {
+                "AssetPathName": "/Game/Blueprints/Level/World/Date/Icecream/BP_HoldingGood_icecream_npc.BP_HoldingGood_icecream_npc_C",
+                "SubPathString": ""
+              },
+              "RelativeRole": "EDatingRole::NPC",
+              "RelativeTransform": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "AttachSocketName": "None"
+            }
+          },
+          {
+            "Key": "Player_icecream",
+            "Value": {
+              "ActorToSpawn": {
+                "AssetPathName": "/Game/Blueprints/Level/World/Date/Icecream/BP_HoldingGood_icecream_player.BP_HoldingGood_icecream_player_C",
+                "SubPathString": ""
+              },
+              "RelativeRole": "EDatingRole::Player",
+              "RelativeTransform": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "AttachSocketName": "None"
             }
           }
         ]

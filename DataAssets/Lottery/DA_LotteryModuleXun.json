@@ -281,7 +281,7 @@
             "AssetPathName": "",
             "SubPathString": ""
 },
-          "CellQuality": "EMonopolyCellQuality::EMCQ_None"
+          "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
 },
         {
           "CellType": "Xun_Box_HighBox",
@@ -922,7 +922,7 @@
         {
           "CellType": "Xun_OutFits_Character",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Character_Skin",
-          "DropID": "drop_Monopoly_fashion_vehicleSkin_jin",
+          "DropID": "drop_Monopoly_fashion_character_jin",
           "MaterialPhaseValue": 10.0,
           "SkinColor": {
             "R": 3.0,
@@ -963,11 +963,11 @@
             "SubPathString": ""
 },
           "AwardDecalMaterialPtr": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/FX/Mat/Common/MI_Box_05.MI_Box_05",
             "SubPathString": ""
 },
           "FloorMaterialPtr": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/M_Decal.M_Decal",
             "SubPathString": ""
 },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Orange"
@@ -1194,12 +1194,12 @@
         {
           "MainCharacterId": "1020",
           "TrialID": "Lottery_Xun",
-          "bNeedTrial": true
+          "bNeedTrial": false
 },
         {
           "MainCharacterId": "1070",
           "TrialID": "Lottery_Xun",
-          "bNeedTrial": true
+          "bNeedTrial": false
 },
         {
           "MainCharacterId": "1008",
@@ -1216,7 +1216,7 @@
         "Key": "BPUI_LotteryPoolList_Fashion_xunDes"
 },
       "SkinIds": [
-        "Fashion_vehicleSkin_1052_V016",
+        "Fashion_character_1052_01",
         "Fashion_vehicle_1052_V024",
         "Fashion_glide_1052"
       ],
@@ -1227,16 +1227,27 @@
         "1008"
       ],
       "ForkIds": [
+        "1052_LotteryShow_xun",
+        "1020_LotteryShow_xun",
+        "1008_LotteryShow_xun",
+        "1070_LotteryShow_xun",
+        "1019_LotteryShow_extra",
+        "1021_LotteryShow_extra",
+        "1033_LotteryShow_extra",
+        "None",
+        "None",
         "fork_wuhuakuang",
         "fork_PaperPlane",
         "fork_Kite",
         "fork_yuren",
         "fork_yaodao",
+        "None",
         "fork_nonos",
         "fork_appliance",
-        "fork_vine",
         "fork_dustbin",
-        "fork_Prokaryon"
+        "fork_vine",
+        "fork_Prokaryon",
+        "None"
       ],
       "NormalIds": [
         "Dicelimite",
@@ -1249,7 +1260,7 @@
 },
       "PoolSubDes": {
         "TableId": "/Game/Text/ST_Ui.ST_Ui",
-        "Key": "LotteryDes_Zhuangbanliyu_Xun_Des"
+        "Key": "LotteryDes_Zhuangbanliyu_Des"
 },
       "CharacterForkProbabilityDes": {
         "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -1305,22 +1316,22 @@
 }
         },
         {
-          "DropID": "drop_Monopoly_fashion_vehicleSkin_jin",
+          "DropID": "drop_Monopoly_fashion_character_jin",
           "GiftName": {
-            "TableId": "/Game/Text/ST_Ui.ST_Ui",
-            "Key": "BPUI_LotteryLimitedGiftMain_VehicleSkin_jin"
+            "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+            "Key": "Fashion_1052_1_Name"
 },
           "NeedMaxCount": 200,
           "PreviewIconId": {
-            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_zixuan_xun02.YH_UI_zixuan_xun02",
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_zixuan_Outfit02.YH_UI_zixuan_Outfit02",
             "SubPathString": ""
 },
           "PreviewIconId_Activity": {
-            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_Activity_Hotori_yulan2.YH_UI_Activity_Hotori_yulan2",
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_Activity_Hotori_yulaxun.YH_UI_Activity_Hotori_yulaxun",
             "SubPathString": ""
 },
           "ActivityBigImage": {
-            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_Activity_Hotori_livery1.YH_UI_Activity_Hotori_livery1",
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_Activity_Hotori_Outfitxun1.YH_UI_Activity_Hotori_Outfitxun1",
             "SubPathString": ""
 }
         }

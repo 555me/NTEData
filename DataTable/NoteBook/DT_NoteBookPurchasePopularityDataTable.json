@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NoteBookPurchasePopularityDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/NoteBook/DT_NoteBookPurchasePopularityDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'ArticlePurchasePopularityConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "packageId": "zeroPurchase",
+        "costFons": 0,
+        "purchasePopularity": 10,
+        "durationInHours": 10,
+        "firstLikeCountLower": 2,
+        "firstLikeCountUpper": 4,
+        "firstViewCountLower": 15,
+        "firstViewCountUpper": 25,
+        "lastLikeCountLower": 2,
+        "lastLikeCountUpper": 4,
+        "lastViewCountLower": 15,
+        "lastViewCountUpper": 25,
+        "PreViewCountLower": 75,
+        "PreViewCountUpper": 125,
+        "PreLikeCountLower": 10,
+        "PreLikeCountUpper": 20,
+        "executeCount": 5,
+        "intervalHour": 2
+      }
+    }
+  }
+]

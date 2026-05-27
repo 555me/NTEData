@@ -3528,11 +3528,11 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 10.0
+            "Value": 50.0
           },
           {
             "Time": 5.0,
-            "Value": 10.0
+            "Value": 50.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -3852,11 +3852,11 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 3.0
+            "Value": 70.0
           },
           {
             "Time": 5.0,
-            "Value": 3.0
+            "Value": 70.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -4045,6 +4045,78 @@
           {
             "Time": 5.0,
             "Value": 5.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "buff_GoldWool_Up": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.25
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.3125
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.375
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.4375
+          },
+          {
+            "Time": 5.0,
+            "Value": 0.5
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "buff_GoldWool_CritDamageUp": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.4
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.6
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.7
+          },
+          {
+            "Time": 5.0,
+            "Value": 0.8
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "buff_GoldWool_CD": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 20.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
