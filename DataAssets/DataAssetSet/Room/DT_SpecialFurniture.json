@@ -112,18 +112,17 @@
 }
         ],
         "ActivateData": {
-          "ActivateType": "EFurnitureActivateType::Interact",
+          "ActivateType": "EFurnitureActivateType::CostItem",
           "Conditions": [
             {
-              "TargetId": "None",
+              "TargetId": "Visions_furniture_01_unlock",
               "Count": 1,
-              "SourceID": "None",
+              "SourceID": "Visions_furniture_01_unlock",
               "ActivateDescription": {
-                "TableId": "/Game/Text/ST_furniture.ST_furniture",
-                "Key": "SF_0001_activiate_tools"
+                "CultureInvariantString": null
 },
               "ActivateIcon": {
-                "AssetPathName": "/Game/UI/UI/minimap/minimapicon/TakeOrders/YH_UI_Takeorders_01.YH_UI_Takeorders_01",
+                "AssetPathName": "",
                 "SubPathString": ""
 }
             }
@@ -1305,12 +1304,7 @@
                 "MaterialType": "EFurnitureUpgradeMaterialType::Item"
 }
             ],
-            "FurnitureRewardData": {
-              "DropID": "drop_furniture_equipment_lv9",
-              "BenefitCount": 1,
-              "BenefitRefreshDays": 1,
-              "BenefitRefreshWeekDay": 0
-},
+            "FurnitureRewardData": null,
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
               "Key": "SF_0004_UiShow_009"
@@ -1346,12 +1340,7 @@
 }
             ],
             "UpgradeMaterials": [],
-            "FurnitureRewardData": {
-              "DropID": "drop_furniture_equipment_lv10",
-              "BenefitCount": 1,
-              "BenefitRefreshDays": 1,
-              "BenefitRefreshWeekDay": 0
-},
+            "FurnitureRewardData": null,
             "NpcInteractUIDescription": {
               "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
               "Key": "SF_0004_UiShow_010"
@@ -2816,7 +2805,7 @@
 }
             ],
             "FurnitureRewardData": {
-              "DropID": "drop_furniture_box_lv5",
+              "DropID": "None",
               "BenefitCount": 1,
               "BenefitRefreshDays": 1,
               "BenefitRefreshWeekDay": 0
@@ -2945,7 +2934,7 @@
 }
             ],
             "FurnitureRewardData": {
-              "DropID": "drop_furniture_box_lv8",
+              "DropID": "drop_furniture_box_lv7",
               "BenefitCount": 1,
               "BenefitRefreshDays": 1,
               "BenefitRefreshWeekDay": 0
@@ -4018,7 +4007,7 @@
             "UpgradeMaterials": [
               {
                 "MaterialID": "None",
-                "Count": 400,
+                "Count": 100,
                 "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
 }
             ],
@@ -4060,7 +4049,7 @@
             "UpgradeMaterials": [
               {
                 "MaterialID": "None",
-                "Count": 700,
+                "Count": 240,
                 "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
 }
             ],
@@ -4102,7 +4091,7 @@
             "UpgradeMaterials": [
               {
                 "MaterialID": "None",
-                "Count": 1000,
+                "Count": 400,
                 "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
 }
             ],
@@ -4144,7 +4133,7 @@
             "UpgradeMaterials": [
               {
                 "MaterialID": "None",
-                "Count": 1500,
+                "Count": 600,
                 "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
 }
             ],
@@ -4186,7 +4175,7 @@
             "UpgradeMaterials": [
               {
                 "MaterialID": "None",
-                "Count": 2000,
+                "Count": 800,
                 "MaterialType": "EFurnitureUpgradeMaterialType::Progress"
 }
             ],
@@ -4255,7 +4244,7 @@
           "Conditions": [
             {
               "TargetId": "None",
-              "Count": 100,
+              "Count": 1,
               "SourceID": "None",
               "ActivateDescription": {
                 "TableId": "/Game/Text/ST_furniture.ST_furniture",
@@ -4299,7 +4288,7 @@
           "bigword_L_1"
         ],
         "UpgradeProgressIcon": {
-          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/TakeOrders/rain.rain",
+          "AssetPathName": "",
           "SubPathString": ""
 },
         "ProgressDescription": {

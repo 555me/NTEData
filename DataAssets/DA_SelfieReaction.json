@@ -7,16 +7,15 @@
     "Package": "/Game/DataAssets/DA_SelfieReaction",
     "Properties": {
       "SelfieReactionConfig": {
-        "bEnablePedestrianSelfieReaction": false,
-        "MaxSelfieNPCCount": 10,
-        "SelfieRadius": 200.0,
         "SelfiePointRadius": 30.0,
+        "SelfieHalfAngle": 60.0,
         "FrustumDetectConfig": {
-          "MinDistance": 0.0,
-          "MaxDistance": 600.0,
+          "MaxDistance": 1500.0,
           "FrustumScale": 0.5,
-          "MaxReactionAngle": 90.0,
-          "EnterCooldown": 20.0
+          "UpdateInterval": 1.0,
+          "MaxReactionAngle": 60.0,
+          "EnterCooldown": 20.0,
+          "DebugDraw": "EDrawDebugTrace::Persistent"
         }
       }
     }

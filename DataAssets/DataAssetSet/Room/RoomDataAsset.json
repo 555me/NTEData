@@ -36,7 +36,7 @@
       },
       "MiniMapIconName": "furniture",
       "MiniMapIconNameInvite": "furniture",
-      "BirthdayGiftID": "drop_roombirthdaygift",
+      "BirthdayGiftID": "drop_steal_Food_chocolate",
       "SmartObjectOffsetConfigs": [
         {
           "CharacterID": "1051",
@@ -169,7 +169,7 @@
         {
           "CharacterID": "1073",
           "LocationOffset": {
-            "X": 5.0,
+            "X": 3.0,
             "Y": 0.0,
             "Z": 0.0
           }
@@ -311,19 +311,28 @@
         {
           "Key": "1073",
           "Value": "xiaozhi_jh_0003"
-        },
-        {
-          "Key": "1052",
-          "Value": "xun_jh_0003"
         }
       ],
       "HandsHoldingSummonDistance": 3000.0,
+      "DailyGiftRefreshProbability": 1.0,
       "DailyGiftLifeTime": 60,
       "DailyGiftRefreshTimePeriods": [
         {
-          "StartHour": 5,
+          "StartHour": 8,
           "StartMinute": 0,
-          "EndHour": 23,
+          "EndHour": 8,
+          "EndMinute": 59
+        },
+        {
+          "StartHour": 12,
+          "StartMinute": 0,
+          "EndHour": 12,
+          "EndMinute": 59
+        },
+        {
+          "StartHour": 18,
+          "StartMinute": 0,
+          "EndHour": 18,
           "EndMinute": 59
         }
       ],

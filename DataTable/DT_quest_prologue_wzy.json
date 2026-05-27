@@ -3397,9 +3397,9 @@
             "TrackInfo": {
               "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -90724.52,
-                "Y": 150706.02,
-                "Z": 4183.579
+                "X": -90680.0,
+                "Y": 151057.0,
+                "Z": 4136.1777
 },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -3527,7 +3527,7 @@
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_010/BP_NPC_010_q110040.BP_NPC_010_q110040_C",
               "SubPathString": ""
 },
             "MonsterTrackIcon": {
@@ -5712,7 +5712,7 @@
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_011/BP_NPC_011_q110040.BP_NPC_011_q110040_C",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_010/BP_NPC_010_q110040.BP_NPC_010_q110040_C",
               "SubPathString": ""
 },
             "MonsterTrackIcon": {
@@ -14769,11 +14769,11 @@
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": true,
+              "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": 10032.43,
-                "Y": -21691.072,
-                "Z": 19.147926
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
 },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -23845,7 +23845,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_017/BP_NPC_017_q110300.BP_NPC_017_q110300_C",
               "SubPathString": ""
 },
             "MonsterTrackIcon": {
@@ -24842,7 +24842,7 @@
             "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_017/BP_NPC_017_q110300.BP_NPC_017_q110300_C",
               "SubPathString": ""
 },
             "MonsterTrackIcon": {
@@ -27125,16 +27125,14 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 15.0,
-            "ConvoyLocation": {
-              "X": 0.0,
-              "Y": 0.0,
-              "Z": 0.0
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
 },
-            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -43997,8 +43995,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "q110385",
-          "q110385_failedCount"
+          "q110385"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -44228,122 +44225,6 @@
             "Roll": 0.0
 }
         },
-        "TrialCharacterID": "None",
-        "ActivateYahahaID": "None",
-        "bChangeTrackAnim": false,
-        "CustomTrackText": {
-          "CultureInvariantString": null
-}
-      },
-      "q110385_failedCount": {
-        "QuestId": "q110385_failedCount",
-        "QuestName": {
-          "CultureInvariantString": "#隐藏任务#跑酷失败计数"
-},
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
-        "DisplayMapName": "None",
-        "TrackMapName": "None",
-        "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
-        "ObjectivesInfo": [
-          {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-},
-            "ObjectiveID": "1",
-            "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
-            "Amount": 10,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-},
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-},
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "CultureInvariantString": null
-},
-            "CompletedDescription": {
-              "CultureInvariantString": null
-},
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null,
-            "ShortcutJumpData": null
-}
-        ],
-        "QuestType": "EQuestType::EQT_EASTER_EGG",
-        "bNeedRedpoint": false,
-        "bLoop": false,
-        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
-        "bMainQuestAutoSpeak": true,
-        "bShowQuestAcceptTips": false,
-        "bShowQuestCompleteTip": false,
-        "HideOrShowMainFormWidgets": null,
-        "bHideQuestMark": false,
-        "bHideTrackMark": false,
-        "ShowAcceptMsg": false,
-        "ShowSubmitMsg": false,
-        "bNeedPlayAnimation": true,
-        "bUseSpecialQuestSettleUI": false,
-        "bForceHybridQuest": false,
-        "PanelDescription": {
-          "CultureInvariantString": null
-},
-        "UnlockTeleportID": "None",
-        "BuffInfo": null,
-        "TrackQuestConditionRange": null,
-        "TrackConditionList": [],
-        "PreQuests": [
-          {
-            "PreQuestName": "q1103841",
-            "ObjectiveID": "1"
-}
-        ],
-        "PreQuestConditionType": "EQuestConditionType::And",
-        "NeedLevel": 0,
-        "NeedYahahaID": "None",
-        "NeedVisionID": "None",
-        "NeedTycoonLevel": 0,
-        "AcceptQuestConditionRange": null,
-        "NeedConditionType": "EQuestConditionType::And",
-        "bNotSatisfyCanNotAccept": false,
-        "SatisfyData": null,
-        "LimitMapName": "None",
-        "QuestResetTime": null,
-        "FailedData": null,
-        "NextQuests": [],
-        "bAutoNext": true,
-        "NeedSubmit": false,
-        "PatcherTag": "None",
-        "QuestSubmitDescription": {
-          "CultureInvariantString": null
-},
-        "SubmitConsume": null,
-        "UIParamString": "",
-        "bFreezeSinPoint": false,
-        "bNeedTmporaryTrack": true,
-        "bForceTrack": false,
-        "bForceTrackExceptMain": false,
-        "bCanMainQuestChangeTrack": false,
-        "LikeabilityData": null,
-        "QuestAward": null,
-        "QuestTimeLock": null,
-        "QuestWeatherLock": null,
-        "ReloadLocation": null,
         "TrialCharacterID": "None",
         "ActivateYahahaID": "None",
         "bChangeTrackAnim": false,

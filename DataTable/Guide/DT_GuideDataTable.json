@@ -1416,7 +1416,7 @@
                     "Y": 0.0
 },
                   "ResponseTime": 1.0,
-                  "WidgetID": "CharacterSlot2",
+                  "WidgetID": "Btn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "guide20001_touch"
@@ -1426,7 +1426,7 @@
 },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "CharacterSlot2"
+                    "Btn"
                   ],
                   "GuardTime": 8.0,
                   "CustomKey": {
@@ -1566,7 +1566,7 @@
                     "Y": 0.0
 },
                   "ResponseTime": 0.0,
-                  "WidgetID": "CharacterSlot1",
+                  "WidgetID": "Btn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "guide20001_touch"
@@ -1576,7 +1576,7 @@
 },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "CharacterSlot1"
+                    "Btn"
                   ],
                   "GuardTime": 8.0,
                   "CustomKey": {
@@ -1600,7 +1600,7 @@
         "BeforeGuideStartAddQuestArray": [],
         "AfterGuideEndAddQuestArray": []
       },
-      "//Guide20002": {
+      "Guide20002": {
         "GuideAnnottation": "（画框世界）闪避反击- 闪避",
         "bForceGuide": true,
         "GuideFunctionID": "None",
@@ -1735,7 +1735,7 @@
         "BeforeGuideStartAddQuestArray": [],
         "AfterGuideEndAddQuestArray": []
       },
-      "//Guide200021": {
+      "Guide200021": {
         "GuideAnnottation": "（画框世界）闪避反击-反击",
         "bForceGuide": true,
         "GuideFunctionID": "None",
@@ -2605,18 +2605,18 @@
       },
       "Guide10011": {
         "GuideAnnottation": "弧盘-装配与升级",
-        "bForceGuide": false,
+        "bForceGuide": true,
         "GuideFunctionID": "None",
         "bNeedAllComplete": false,
         "DefaultGuide": {
           "MutualExclusionGuideIDs": [],
           "GuideStepDatas": [
             {
-              "DescPos": {
-                "X": 0.0,
-                "Y": 0.0
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
 },
-              "ResponseTime": 0.0,
               "WidgetID": "ButtonCharacterInfo2",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2648,11 +2648,11 @@
               "IgnoreListViewStep": false
 },
             {
-              "DescPos": {
-                "X": 0.0,
-                "Y": 0.0
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
 },
-              "ResponseTime": 0.0,
               "WidgetID": "CharacterInfo_1019",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2675,11 +2675,11 @@
               "IgnoreListViewStep": false
 },
             {
-              "DescPos": {
-                "X": 0.0,
-                "Y": 0.0
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
 },
-              "ResponseTime": 0.0,
               "WidgetID": "RadionProp2",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2702,11 +2702,11 @@
               "IgnoreListViewStep": false
 },
             {
-              "DescPos": {
-                "X": 0.0,
-                "Y": 0.0
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
 },
-              "ResponseTime": 0.0,
               "WidgetID": "BtnEquipOpen",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2729,11 +2729,11 @@
               "IgnoreListViewStep": false
 },
             {
-              "DescPos": {
-                "X": 0.0,
-                "Y": 0.0
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
 },
-              "ResponseTime": 0.0,
               "WidgetID": "BtnEquip",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2756,11 +2756,11 @@
               "IgnoreListViewStep": false
 },
             {
-              "DescPos": {
-                "X": 0.0,
-                "Y": 0.0
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
 },
-              "ResponseTime": 0.0,
               "WidgetID": "BtnDevelop",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2783,11 +2783,11 @@
               "IgnoreListViewStep": false
 },
             {
-              "DescPos": {
-                "X": 0.0,
-                "Y": 0.0
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
 },
-              "ResponseTime": 0.0,
               "WidgetID": "BtnAuto",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2810,11 +2810,11 @@
               "IgnoreListViewStep": false
 },
             {
-              "DescPos": {
-                "X": 0.0,
-                "Y": 0.0
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
 },
-              "ResponseTime": 0.0,
               "WidgetID": "BtnStrengthen",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2848,11 +2848,11 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "MenuBtn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2884,11 +2884,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "MenuButton_Juese",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2911,11 +2911,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "CharacterInfo_1019",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2938,11 +2938,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "RadionProp2",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2965,11 +2965,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "BtnEquipOpen",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -2986,20 +2986,21 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "BtnEquip",
                   "Desc": {
-                    "CultureInvariantString": null
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10011_4"
 },
                   "Context": {
                     "CultureInvariantString": null
@@ -3018,11 +3019,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "BtnDevelop",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3045,11 +3046,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "BtnAuto",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3072,11 +3073,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "BtnStrengthen",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3102,7 +3103,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false
@@ -3119,11 +3120,11 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "ButtonCharacterInfo2",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3155,11 +3156,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "CharacterInfo_1019",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3182,11 +3183,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "RadionProp2",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3209,11 +3210,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "BtnEquipOpen",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3236,11 +3237,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "BtnEquip",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3263,11 +3264,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "BtnDevelop",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3284,17 +3285,17 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "BtnAuto",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3317,11 +3318,11 @@
                   "IgnoreListViewStep": false
 },
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "ResponseTime": 0.0,
                   "WidgetID": "BtnStrengthen",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -7941,7 +7942,7 @@
               "CustomKey": {
                 "KeyName": "Gamepad_FaceButton_Bottom"
 },
-              "bUseFastNextStep": false,
+              "bUseFastNextStep": true,
               "bEnableKeyIcon": true,
               "ExWidgetID": "None",
               "IgnoreListViewStep": false
@@ -8183,29 +8184,20 @@
                   "WidgetID": "WB_CharacterAbilityButton_city",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide10020012_6g"
+                    "Key": "Guide10020012_6"
 },
                   "Context": {
                     "CultureInvariantString": null
 },
-                  "CurUIActions": [
-                    {
-                      "ImageID": "1001",
-                      "CurUIAction": {
-                        "ObjectName": "InputAction'IA_Move_Stick'",
-                        "ObjectPath": "/Game/Input/Gamepad/IA_Move_Stick.0"
-},
-                      "TrigInputEvent": "EInputEvent::IE_Pressed"
-}
-                  ],
+                  "CurUIActions": [],
                   "GuideTriggerEvents": [
                     "WB_CharacterAbilityButton_city"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
-                    "KeyName": "Gamepad_FaceButton_Right"
+                    "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "bUseFastNextStep": false,
+                  "bUseFastNextStep": true,
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false
@@ -13427,8 +13419,8 @@
                     {
                       "ImageID": "1001",
                       "CurUIAction": {
-                        "ObjectName": "InputAction'IA_UltSkill_Gamepad'",
-                        "ObjectPath": "/Game/Input/Gamepad/IA_UltSkill_Gamepad.0"
+                        "ObjectName": "InputAction'IA_Melee_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Melee_Gamepad.0"
 },
                       "TrigInputEvent": "EInputEvent::IE_Pressed"
 }
@@ -13440,7 +13432,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "bUseFastNextStep": false,
+                  "bUseFastNextStep": true,
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false
@@ -18990,7 +18982,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "WidgetID": "WidgetSwitcherQuestList",
+                  "WidgetID": "Guide_QuestIntro",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "Guide10035_2"
@@ -19000,7 +18992,7 @@
 },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "WidgetSwitcherQuestList"
+                    "Guide_QuestIntro"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
@@ -19134,7 +19126,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "WidgetID": "WidgetSwitcherQuestList",
+                  "WidgetID": "Guide_QuestIntro",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "Guide10035_2"
@@ -19144,7 +19136,7 @@
 },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "WidgetSwitcherQuestList"
+                    "Guide_QuestIntro"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
@@ -20567,7 +20559,9 @@
         "GuideEffectArray": [],
         "bCanRepeat": false,
         "BeforeGuideStartAddQuestArray": [],
-        "AfterGuideEndAddQuestArray": []
+        "AfterGuideEndAddQuestArray": [
+          "B110005"
+        ]
       },
       "Guide10042": {
         "GuideAnnottation": "都市大亨-可升级（暂未使用）",
@@ -21869,12 +21863,21 @@
                   "WidgetID": "FishRodBtn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide10045_1"
+                    "Key": "Guide10045_1g"
 },
                   "Context": {
                     "CultureInvariantString": null
 },
-                  "CurUIActions": [],
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_QuickMenu'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_QuickMenu.0"
+},
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+}
+                  ],
                   "GuideTriggerEvents": [
                     "FishRodBtn"
                   ],
@@ -21882,7 +21885,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false
@@ -21923,12 +21926,21 @@
                   "WidgetID": "FishBaitBtn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide10045_3"
+                    "Key": "Guide10045_3g"
 },
                   "Context": {
                     "CultureInvariantString": null
 },
-                  "CurUIActions": [],
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Evade_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Evade_Gamepad.0"
+},
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+}
+                  ],
                   "GuideTriggerEvents": [
                     "FishBaitBtn"
                   ],
@@ -21936,7 +21948,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false
@@ -22484,7 +22496,7 @@
       },
       "Guide10046": {
         "GuideAnnottation": "智能车钥匙",
-        "bForceGuide": false,
+        "bForceGuide": true,
         "GuideFunctionID": "None",
         "bNeedAllComplete": false,
         "DefaultGuide": {
@@ -22553,8 +22565,8 @@
                     {
                       "ImageID": "1001",
                       "CurUIAction": {
-                        "ObjectName": "InputAction'IA_QuickMenu'",
-                        "ObjectPath": "/Game/Input/Gamepad/IA_QuickMenu.0"
+                        "ObjectName": "InputAction'IA_Shortcut_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Shortcut_Gamepad.0"
 },
                       "TrigInputEvent": "EInputEvent::IE_Pressed"
 }
@@ -26302,7 +26314,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -26441,7 +26453,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -26684,7 +26696,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -26823,7 +26835,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 10.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -27066,7 +27078,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -27193,7 +27205,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "WidgetID": "CharacterSlot2",
+                  "WidgetID": "CharacterSlot1",
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Lingzhou_WeakGuide1"
@@ -27205,7 +27217,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -27448,7 +27460,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -27575,7 +27587,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "WidgetID": "CharacterSlot2",
+                  "WidgetID": "CharacterSlot1",
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Anhun_WeakGuide1"
@@ -27587,7 +27599,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -27830,7 +27842,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -27957,7 +27969,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "WidgetID": "CharacterSlot2",
+                  "WidgetID": "CharacterSlot1",
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Anzhou_WeakGuide1"
@@ -27969,7 +27981,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -28212,7 +28224,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -28339,7 +28351,7 @@
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
-                  "WidgetID": "CharacterSlot2",
+                  "WidgetID": "CharacterSlot1",
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Hunxiang_WeakGuide1"
@@ -28351,7 +28363,7 @@
                   "GuideTriggerEvents": [
                     "CharacterSlot2"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -28594,7 +28606,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -28704,7 +28716,7 @@
               "GuideStepDatas": [
                 {
                   "bGuard": true,
-                  "bCanClickNextStep": true,
+                  "bCanClickNextStep": false,
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -28720,7 +28732,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -29241,7 +29253,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -29351,7 +29363,7 @@
               "GuideStepDatas": [
                 {
                   "bGuard": true,
-                  "bCanClickNextStep": true,
+                  "bCanClickNextStep": false,
                   "CustomNextStepKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
@@ -29367,7 +29379,7 @@
                   "GuideTriggerEvents": [
                     "GuideCP"
                   ],
-                  "GuardTime": 8.0,
+                  "GuardTime": 1.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
 },
