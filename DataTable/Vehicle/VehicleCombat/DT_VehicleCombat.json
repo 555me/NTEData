@@ -11,6 +11,421 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "TestFightData": {
+        "Buff": {
+          "ObjectName": "BlueprintGeneratedClass'Buff_CarWeaponTest_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/GLT/Buff_CarWeaponTest.1"
+        },
+        "WeaponBase": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Buff/Level/GLT/BP_VehicleWeaponTest.BP_VehicleWeaponTest_C",
+          "SubPathString": ""
+        },
+        "SocketOffsetTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CrossHairWidget": "VehicleCombatTest",
+        "CameraSettingModifier": null,
+        "RecoilProfile": {
+          "PitchKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          },
+          "YawKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          },
+          "KickStiffness": 40.0,
+          "RecoveryStiffness": 8.0,
+          "RecoveryDelay": 0.1,
+          "MaxAccumulatedPitch": 30.0,
+          "PitchCompensationRatio": 1.0,
+          "YawCompensationRatio": 0.4,
+          "MobileOptRatio": 1.0,
+          "GamepadOptRatio": 1.0,
+          "AutoRemoveTime": 2.0
+        }
+      },
+      "PIstol": {
+        "Buff": {
+          "ObjectName": "BlueprintGeneratedClass'Buff_CarWeapon_Pistol_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/Buff_CarWeapon_Pistol.1"
+        },
+        "WeaponBase": {
+          "AssetPathName": "/Game/Blueprints/Actors/ScrimmageWeapon/BP_VehicleWeapon_Pistol.BP_VehicleWeapon_Pistol_C",
+          "SubPathString": ""
+        },
+        "SocketOffsetTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 60.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CrossHairWidget": "VehicleCombatShoot_pistol",
+        "CameraSettingModifier": {
+          "ObjectName": "BlueprintGeneratedClass'CameraMod_Test_VehicleMod_General_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/GLT/CameraEffect/CameraMod_Test_VehicleMod_General.0"
+        },
+        "RecoilProfile": {
+          "PitchKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": {
+              "ObjectName": "CurveFloat'Curve_Combat_Pistol_Pitch'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/CameraFix/Curve_Combat_Pistol_Pitch.0"
+            }
+          },
+          "YawKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": {
+              "ObjectName": "CurveFloat'Curve_Combat_Pistol_Yaw'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/CameraFix/Curve_Combat_Pistol_Yaw.0"
+            }
+          },
+          "KickStiffness": 40.0,
+          "RecoveryStiffness": 8.0,
+          "RecoveryDelay": 0.4,
+          "MaxAccumulatedPitch": 30.0,
+          "PitchCompensationRatio": 1.0,
+          "YawCompensationRatio": 0.4,
+          "MobileOptRatio": 0.5,
+          "GamepadOptRatio": 0.5,
+          "AutoRemoveTime": 2.0
+        }
+      },
+      "ShotGun": {
+        "Buff": {
+          "ObjectName": "BlueprintGeneratedClass'Buff_CarWeapon_Shotgun_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/Buff_CarWeapon_Shotgun.1"
+        },
+        "WeaponBase": {
+          "AssetPathName": "/Game/Blueprints/Actors/ScrimmageWeapon/BP_VehicleWeapon_ShotGun.BP_VehicleWeapon_ShotGun_C",
+          "SubPathString": ""
+        },
+        "SocketOffsetTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 60.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CrossHairWidget": "VehicleCombatShoot_shotgun",
+        "CameraSettingModifier": {
+          "ObjectName": "BlueprintGeneratedClass'CameraMod_Test_VehicleMod_General_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/GLT/CameraEffect/CameraMod_Test_VehicleMod_General.0"
+        },
+        "RecoilProfile": {
+          "PitchKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": {
+              "ObjectName": "CurveFloat'Curve_Combat_Shotgun_Pitch'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/CameraFix/Curve_Combat_Shotgun_Pitch.0"
+            }
+          },
+          "YawKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": {
+              "ObjectName": "CurveFloat'Curve_Combat_Shotgun_Yaw'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/CameraFix/Curve_Combat_Shotgun_Yaw.0"
+            }
+          },
+          "KickStiffness": 40.0,
+          "RecoveryStiffness": 8.0,
+          "RecoveryDelay": 1.0,
+          "MaxAccumulatedPitch": 30.0,
+          "PitchCompensationRatio": 0.8,
+          "YawCompensationRatio": 0.1,
+          "MobileOptRatio": 0.5,
+          "GamepadOptRatio": 0.5,
+          "AutoRemoveTime": 2.0
+        }
+      },
+      "WaterGun": {
+        "Buff": {
+          "ObjectName": "BlueprintGeneratedClass'Buff_CarWeapon_WaterGun_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/Buff_CarWeapon_WaterGun.1"
+        },
+        "WeaponBase": {
+          "AssetPathName": "/Game/Blueprints/Actors/ScrimmageWeapon/BP_VehicleWeapon_WaterGun.BP_VehicleWeapon_WaterGun_C",
+          "SubPathString": ""
+        },
+        "SocketOffsetTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 60.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CrossHairWidget": "VehicleCombatShoot_WaterGun",
+        "CameraSettingModifier": {
+          "ObjectName": "BlueprintGeneratedClass'CameraMod_Test_VehicleMod_General_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/GLT/CameraEffect/CameraMod_Test_VehicleMod_General.0"
+        },
+        "RecoilProfile": {
+          "PitchKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": {
+              "ObjectName": "CurveFloat'Curve_Combat_Pistol_Pitch'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/CameraFix/Curve_Combat_Pistol_Pitch.0"
+            }
+          },
+          "YawKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": {
+              "ObjectName": "CurveFloat'Curve_Combat_Pistol_Yaw'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/CameraFix/Curve_Combat_Pistol_Yaw.0"
+            }
+          },
+          "KickStiffness": 40.0,
+          "RecoveryStiffness": 8.0,
+          "RecoveryDelay": 0.3,
+          "MaxAccumulatedPitch": 30.0,
+          "PitchCompensationRatio": 1.0,
+          "YawCompensationRatio": 0.4,
+          "MobileOptRatio": 1.0,
+          "GamepadOptRatio": 1.0,
+          "AutoRemoveTime": 2.0
+        }
+      },
+      "Gatlin": {
+        "Buff": {
+          "ObjectName": "BlueprintGeneratedClass'Buff_CarWeapon_Gatlin_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/Buff_CarWeapon_Gatlin.1"
+        },
+        "WeaponBase": {
+          "AssetPathName": "/Game/Blueprints/Actors/ScrimmageWeapon/BP_VehicleWeapon_Gatlin.BP_VehicleWeapon_Gatlin_C",
+          "SubPathString": ""
+        },
+        "SocketOffsetTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 60.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CrossHairWidget": "VehicleCombatShoot_Gatlin",
+        "CameraSettingModifier": {
+          "ObjectName": "BlueprintGeneratedClass'CameraMod_Test_VehicleMod_General_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/GLT/CameraEffect/CameraMod_Test_VehicleMod_General.0"
+        },
+        "RecoilProfile": {
+          "PitchKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": {
+              "ObjectName": "CurveFloat'Curve_Combat_Gatlin_Pitch'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/CameraFix/Curve_Combat_Gatlin_Pitch.0"
+            }
+          },
+          "YawKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": {
+              "ObjectName": "CurveFloat'Curve_Combat_Gatlin_Yaw'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/CameraFix/Curve_Combat_Gatlin_Yaw.0"
+            }
+          },
+          "KickStiffness": 40.0,
+          "RecoveryStiffness": 8.0,
+          "RecoveryDelay": 0.5,
+          "MaxAccumulatedPitch": 30.0,
+          "PitchCompensationRatio": 0.8,
+          "YawCompensationRatio": 0.4,
+          "MobileOptRatio": 0.2,
+          "GamepadOptRatio": 0.2,
+          "AutoRemoveTime": 2.0
+        }
+      },
+      "RPG": {
+        "Buff": {
+          "ObjectName": "BlueprintGeneratedClass'Buff_CarWeapon_RPG_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/Buff_CarWeapon_RPG.1"
+        },
+        "WeaponBase": {
+          "AssetPathName": "/Game/Blueprints/Actors/ScrimmageWeapon/BP_VehicleWeapon_RPG.BP_VehicleWeapon_RPG_C",
+          "SubPathString": ""
+        },
+        "SocketOffsetTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 60.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CrossHairWidget": "VehicleCombatShoot_RPG",
+        "CameraSettingModifier": {
+          "ObjectName": "BlueprintGeneratedClass'CameraMod_Test_VehicleMod_General_C'",
+          "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/GLT/CameraEffect/CameraMod_Test_VehicleMod_General.0"
+        },
+        "RecoilProfile": {
+          "PitchKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": {
+              "ObjectName": "CurveFloat'Curve_Combat_RPG_Pitch'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/ScrimmageWeapon/CameraFix/Curve_Combat_RPG_Pitch.0"
+            }
+          },
+          "YawKickByShotIndex": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          },
+          "KickStiffness": 40.0,
+          "RecoveryStiffness": 8.0,
+          "RecoveryDelay": 0.1,
+          "MaxAccumulatedPitch": 30.0,
+          "PitchCompensationRatio": 1.0,
+          "YawCompensationRatio": 0.4,
+          "MobileOptRatio": 1.0,
+          "GamepadOptRatio": 1.0,
+          "AutoRemoveTime": 2.0
+        }
+      }
+    }
   }
 ]
