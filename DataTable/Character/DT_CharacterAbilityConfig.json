@@ -18503,7 +18503,7 @@
       "1071": {
         "CharacterAbilityList": [
           {
-            "Key": "GA_Shinku_Melee",
+            "Key": "GA_Chaos_Melee",
             "Value": {
               "AbilityType": "ECharacterAbilityType::Proactive",
               "AbilityIndex": 1,
@@ -18731,7 +18731,7 @@
             }
           },
           {
-            "Key": "GA_Shinku_Skill",
+            "Key": "GA_Chaos_Skill",
             "Value": {
               "AbilityType": "ECharacterAbilityType::Proactive",
               "AbilityIndex": 2,
@@ -18959,7 +18959,7 @@
             }
           },
           {
-            "Key": "GA_Shinku_UltraSkill",
+            "Key": "GA_Chaos_UltraSkill",
             "Value": {
               "AbilityType": "ECharacterAbilityType::Proactive",
               "AbilityIndex": 3,
@@ -19187,7 +19187,7 @@
             }
           },
           {
-            "Key": "GA_Shinku_QTE",
+            "Key": "GA_Chaos_QTE",
             "Value": {
               "AbilityType": "ECharacterAbilityType::Proactive",
               "AbilityIndex": 4,
@@ -19449,7 +19449,7 @@
             }
           },
           {
-            "Key": "GA_Shinku_Passive_2",
+            "Key": "GA_Chaos_Passive_2",
             "Value": {
               "AbilityType": "ECharacterAbilityType::Passive",
               "AbilityIndex": 2,
@@ -19483,7 +19483,147 @@
         ],
         "BeginningList": [],
         "PeculiarityList": [],
-        "CityList": [],
+        "CityList": [
+          {
+            "Key": "City_Ability_Chaos_01",
+            "Value": {
+              "AbilityType": "ECharacterAbilityType::City",
+              "AbilityIndex": 1,
+              "bShowDetailInfo": false,
+              "LevelsCostItems": [
+                {
+                  "Level": 0,
+                  "RequireTupoLevel": 0,
+                  "RequireAwakenLevel": 0,
+                  "CostItems": [
+                    {
+                      "ID": "CityAbility_UpMaterial",
+                      "Number": 2,
+                      "bHiddenAmount": false
+                    },
+                    {
+                      "ID": "fons",
+                      "Number": 500,
+                      "bHiddenAmount": false
+                    }
+                  ]
+                },
+                {
+                  "Level": 1,
+                  "RequireTupoLevel": 0,
+                  "RequireAwakenLevel": 0,
+                  "CostItems": [
+                    {
+                      "ID": "CityAbility_UpMaterial",
+                      "Number": 4,
+                      "bHiddenAmount": false
+                    },
+                    {
+                      "ID": "fons",
+                      "Number": 1500,
+                      "bHiddenAmount": false
+                    }
+                  ]
+                },
+                {
+                  "Level": 2,
+                  "RequireTupoLevel": 0,
+                  "RequireAwakenLevel": 0,
+                  "CostItems": [
+                    {
+                      "ID": "CityAbility_UpMaterial",
+                      "Number": 10,
+                      "bHiddenAmount": false
+                    },
+                    {
+                      "ID": "fons",
+                      "Number": 3600,
+                      "bHiddenAmount": false
+                    }
+                  ]
+                },
+                {
+                  "Level": 3,
+                  "RequireTupoLevel": 0,
+                  "RequireAwakenLevel": 0,
+                  "CostItems": [
+                    {
+                      "ID": "CityAbility_UpMaterial",
+                      "Number": 16,
+                      "bHiddenAmount": false
+                    },
+                    {
+                      "ID": "fons",
+                      "Number": 6400,
+                      "bHiddenAmount": false
+                    }
+                  ]
+                },
+                {
+                  "Level": 4,
+                  "RequireTupoLevel": 0,
+                  "RequireAwakenLevel": 0,
+                  "CostItems": [
+                    {
+                      "ID": "CityAbility_UpMaterial",
+                      "Number": 24,
+                      "bHiddenAmount": false
+                    },
+                    {
+                      "ID": "fons",
+                      "Number": 10000,
+                      "bHiddenAmount": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Key": "City_Ability_Chaos_sp01",
+            "Value": {
+              "AbilityType": "ECharacterAbilityType::City",
+              "AbilityIndex": 2,
+              "bShowDetailInfo": false,
+              "LevelsCostItems": [
+                {
+                  "Level": 0,
+                  "RequireTupoLevel": 0,
+                  "RequireAwakenLevel": 0,
+                  "CostItems": [
+                    {
+                      "ID": "CityAbility_UpMaterial",
+                      "Number": 2,
+                      "bHiddenAmount": false
+                    },
+                    {
+                      "ID": "fons",
+                      "Number": 500,
+                      "bHiddenAmount": false
+                    }
+                  ]
+                },
+                {
+                  "Level": 1,
+                  "RequireTupoLevel": 0,
+                  "RequireAwakenLevel": 1,
+                  "CostItems": [
+                    {
+                      "ID": "CityAbility_UpMaterial",
+                      "Number": 4,
+                      "bHiddenAmount": false
+                    },
+                    {
+                      "ID": "fons",
+                      "Number": 1500,
+                      "bHiddenAmount": false
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
         "CommonList": []
       },
       "1073": {
