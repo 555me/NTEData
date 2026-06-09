@@ -28372,6 +28372,62 @@
         "RegionShowType": "ETitleDisplayRegion::All",
         "IsLockHide": false
 },
+      "V026_Tyre_04": {
+        "ModuleID": "V026_Tyre_04",
+        "VehicleID": "Vehicle026",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V026_Tyre_04_name"
+},
+        "ModuleProps": {
+          "bIsTireInited": false,
+          "FrontTyreFriction": {
+            "FrictionMultiplier_Normal": 3.0,
+            "FrictionMultiplier_Wet": 2.8,
+            "FrictionMultiplier_Snow": 2.7,
+            "FrictionMultiplier_Broken": 0.1,
+            "BrakeFrictionScale_Wet": 0.6,
+            "BrakeFrictionScale_Snow": 0.6
+},
+          "RearTyreFriction": {
+            "FrictionMultiplier_Normal": 3.0,
+            "FrictionMultiplier_Wet": 2.8,
+            "FrictionMultiplier_Snow": 2.7,
+            "FrictionMultiplier_Broken": 0.1,
+            "BrakeFrictionScale_Wet": 0.6,
+            "BrakeFrictionScale_Snow": 0.6
+}
+        },
+        "ModuleProperties": {
+          "ModuleType": "EVehicleModuleType::EVMT_None",
+          "Priority": 0,
+          "PropertyList": []
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V026_Tyre_04_desc"
+},
+        "ModuleType": "EVehicleModuleType::EVMT_Tyre",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 0,
+        "ModifyCostId": "Fons",
+        "ModifyPrice": 0,
+        "BasePropsScore": [],
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_luntai.YH_UI_CarComponent_luntai",
+          "SubPathString": ""
+},
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_luntai.YH_UI_CarComponent_luntai",
+          "SubPathString": ""
+},
+        "CityShopExtensionData": null,
+        "FeatureActiveData": null,
+        "JumpToUISourceId": "None",
+        "RegionShowType": "ETitleDisplayRegion::All",
+        "IsLockHide": false
+},
       "V026_Color_01": {
         "ModuleID": "V026_Color_01",
         "VehicleID": "Vehicle026",
@@ -29255,11 +29311,11 @@
         "ModuleProps": {
           "MaxRaise_Front": 6.0,
           "MaxDrop_Front": 10.0,
-          "DamingRatio_Front": 1.0,
+          "DamingRatio_Front": 0.01,
           "SpringRate_Front": 360.0,
           "MaxRaise_Rear": 9.0,
           "MaxDrop_Rear": 10.0,
-          "DamingRatio_Rear": 1.0,
+          "DamingRatio_Rear": 0.01,
           "SpringRate_Rear": 270.0
 },
         "ModuleProperties": {
@@ -29281,6 +29337,62 @@
           {
             "Key": "EVehicleModuleScoreType::UI_SuspensionHeight",
             "Value": 4.0
+},
+          {
+            "Key": "EVehicleModuleScoreType::UI_SuspensionDamp",
+            "Value": 4.0
+}
+        ],
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xuangua.YH_UI_CarComponent_xuangua",
+          "SubPathString": ""
+},
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xuangua.YH_UI_CarComponent_xuangua",
+          "SubPathString": ""
+},
+        "CityShopExtensionData": null,
+        "FeatureActiveData": null,
+        "JumpToUISourceId": "None",
+        "RegionShowType": "ETitleDisplayRegion::All",
+        "IsLockHide": false
+},
+      "V026_Suspension_03": {
+        "ModuleID": "V026_Suspension_03",
+        "VehicleID": "Vehicle026",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V026_Suspension_03_name"
+},
+        "ModuleProps": {
+          "MaxRaise_Front": 9.0,
+          "MaxDrop_Front": 10.0,
+          "DamingRatio_Front": 0.95,
+          "SpringRate_Front": 360.0,
+          "MaxRaise_Rear": 12.0,
+          "MaxDrop_Rear": 14.0,
+          "DamingRatio_Rear": 0.95,
+          "SpringRate_Rear": 340.0
+},
+        "ModuleProperties": {
+          "ModuleType": "EVehicleModuleType::EVMT_None",
+          "Priority": 0,
+          "PropertyList": []
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V026_Suspension_03_desc"
+},
+        "ModuleType": "EVehicleModuleType::EVMT_Suspension",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 0,
+        "ModifyCostId": "Fons",
+        "ModifyPrice": 0,
+        "BasePropsScore": [
+          {
+            "Key": "EVehicleModuleScoreType::UI_SuspensionHeight",
+            "Value": 5.0
 },
           {
             "Key": "EVehicleModuleScoreType::UI_SuspensionDamp",
