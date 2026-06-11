@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<ResList version="1.1.9" tag="baseTag">
+<ResList version="1.1.10" tag="baseTag">
 	<Res filename="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/libcef.dll" filesize="153114624" md5="3a1cb9e5814c6a22261824396f79b55d"/>
 	<Res filename="Client/WindowsNoEditor/Engine/Plugins/Runtime/Nvidia/DLSS/Binaries/ThirdParty/Win64/nvngx_dlss.dll" filesize="54778992" md5="a30d0cfbec9d48dcd5f314aea1bde86d"/>
-	<Res filename="Client/WindowsNoEditor/HT/Binaries/Win64/HTGame.exe" filesize="254449248" md5="fbea37fefa38ecbb76f30affb1312645"/>
+	<Res filename="Client/WindowsNoEditor/HT/Binaries/Win64/HTGame.exe" filesize="254449248" md5="b5e7dc3b6dbcafecc8e00361e7c8c222" check="1"/>
 	<Res filename="Client/WindowsNoEditor/HT/Content/Movies/FFMpeg/advert/Preview_1.mp4" filesize="254158072" md5="74f5236a11eef97217611f96632684fb"/>
 	<Res filename="Client/WindowsNoEditor/HT/Content/Movies/FFMpeg/advert/Preview_2.mp4" filesize="108337766" md5="a6fb75d321049b8020d2d8c80e69b13d"/>
 	<Res filename="Client/WindowsNoEditor/HT/Content/Movies/FFMpeg/advert/advert_2.mp4" filesize="77267299" md5="42ce9077a6ea2f8a1d6ea8b9fd1a3370"/>
@@ -165,39 +165,21 @@
 		<Block index="2" start="1073741824" size="391917264" md5="8f902efdbdc7a04eb77fd4da589e949c"/>
 	</Res>
 	<Package>
-		<Pak md5="194a48f76b85422d8a06325ac1e0d568" filesize="87426042">
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.sig" start="3074" offset="3220" size="532" md5="7c77c96160c20bb4b0259afad5004e72" check="1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.sig" start="3752" offset="3898" size="532" md5="7c694303cba4499780ef89b2625fc21c" check="1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.sig" start="4430" offset="4576" size="532" md5="2060de19a3481526056da0aa79491b4e" check="1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.sig" start="5108" offset="5254" size="540" md5="6051debd4983acbd37ddc8c3e073ca5b" check="1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/global.utoc" start="5794" offset="5926" size="1894" md5="ed5e3966faf3277d5c6fd13c8d36653f" check="1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.pak" start="7820" offset="7966" size="14134" md5="a5ce218ea6a42340508588a1816bb2c4"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.sig" start="22100" offset="22246" size="21208" md5="6987d75ab3d82c03050e8b29bc37b420"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.pak" start="43454" offset="43600" size="29755" md5="3fb5485878210f14af27ad3de92063d9" check="1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.pak" start="73355" offset="73501" size="43385" md5="5f4b7d46d7d94fefc4b5b753a8e97f3b"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Base.dat" start="116886" offset="117032" size="74420" md5="6f3535403508d2317b7243aa6d2830fe"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.pak" start="191452" offset="191598" size="156532" md5="c65ca30b6b560f2d8fcdb617820a0c7a"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.sig" start="348130" offset="348276" size="171764" md5="97fe5ad45689b9fe92c0992c17f934ab" check="1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.utoc" start="520040" offset="520187" size="445476" md5="a07a9f346fcbefc7f04053b8933e9079"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.utoc" start="965663" offset="965810" size="857412" md5="8c059c0348792a2c295688e59b00a303"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.utoc" start="1823222" offset="1823369" size="1466820" md5="f16e4baba6d7aba6e410495a2c42a0d1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.utoc" start="3290189" offset="3290336" size="1724340" md5="cd7b8bd206a5c4f8bb40ba8c5c9b378c"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.utoc" start="5014676" offset="5014823" size="5417846" md5="6b7ad7ac31ab112ef044d57068636cd8"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/global.ucas" start="10432669" offset="10432801" size="5504080" md5="267749238f5abaf16dd91f68cf167bc1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.utoc" start="15936881" offset="15937028" size="6855110" md5="e0888d003a64970f36a3c339425ce835"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/HTGameBase.dll" start="22792138" offset="22792270" size="28455392" md5="02764f9c53233cc4551b3f23c7399aec" check="1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Base64.dll" start="51247662" offset="51247810" size="36178232" md5="58cac85907aafb5ddf7dbbb13e83971c" check="1"/>
+		<Pak md5="08d0d4fdf91bc2db3366bebeaa31e327" filesize="64709898">
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Base.dat" start="468" offset="614" size="74868" md5="efc961701d3aa365a321ad143253f351"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/HTGameBase.dll" start="75482" offset="75614" size="28455904" md5="19a9efc4adf5b30abaeccc801192d4d6" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Base64.dll" start="28531518" offset="28531666" size="36178232" md5="d06c7a55fa1ea697311ac617d00b44b3" check="1"/>
 		</Pak>
 		<Pak md5="e542bef3ddad75cff835dc3a9214ce2a" filesize="535205587">
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-BASE.sys" start="130680624" offset="130680770" size="3288760" md5="5d48eca681b31f1e66b0f28f15e34113"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Service64.exe" start="127405305" offset="127405456" size="3275168" md5="0957deba0ba33acb7b33513ee20cad4a"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Tray.exe" start="190294283" offset="190294429" size="4237656" md5="b4d2227230c8f7d3b93d53b3c41c25ca"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Setup64.exe" start="55161176" offset="55161325" size="981848" md5="e66cfe10ab6e09a584f84b04d6140935"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-BOOT.sys" start="58152101" offset="58152247" size="1076336" md5="49810b19bdaf9271390ac95c9d2d2ec9"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/88bb766f0cc321759ed2eeb0bc06be5d/0f28a6e9088d5c973c9d6961a810c387.hpw" start="285715499" offset="285715724" size="5754520" md5="0f39216e0881c7eefbcd96cb5e1751be"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/88bb766f0cc321759ed2eeb0bc06be5d/0a30119fe690b02858f068588b10f7f9.hpw" start="268931991" offset="268932216" size="5495680" md5="377ac5db2893e26b960d232bda606979"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/dfba89a600b608b2b724efe1f06f599a/350d66d99f43a45b9f469d94e9b6c8d1.hpw" start="500173685" offset="500173910" size="11648534" md5="63eda7826bcc5c18fe901655fdf27175"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/dfba89a600b608b2b724efe1f06f599a/958b49792e369e4d3df8a70cc6f1a6f8.hpw" start="511822444" offset="511822669" size="11659884" md5="9c1696f2cc78af01abbef72194050b1f"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-BASE.sys" start="130680624" offset="130680770" size="3288760" md5="5d48eca681b31f1e66b0f28f15e34113"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-BOOT.sys" start="58152101" offset="58152247" size="1076336" md5="49810b19bdaf9271390ac95c9d2d2ec9"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Service64.exe" start="127405305" offset="127405456" size="3275168" md5="0957deba0ba33acb7b33513ee20cad4a"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Setup64.exe" start="55161176" offset="55161325" size="981848" md5="e66cfe10ab6e09a584f84b04d6140935"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Tray.exe" start="190294283" offset="190294429" size="4237656" md5="b4d2227230c8f7d3b93d53b3c41c25ca"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Movies/NTE-LOGO_overseaEn.mp4" start="54214312" offset="54214452" size="946724" md5="5f7c75f61c5d01c9b57c7a651c072cb5"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Movies/SphereVideo-Emoji.mp4" start="74937790" offset="74937929" size="1376540" md5="ff9913f82fb5a7c3f107f8c127aabce7"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Movies/NTE-LOGO.mp4" start="46376878" offset="46377008" size="822762" md5="b59c4ecc160f284cecdb77b7ac03d860"/>
@@ -544,6 +526,26 @@
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/icudtl.dat" start="468640263" offset="468640411" size="10413488" md5="80a7528515595d8b0bf99a477a7eff0d"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/Resources/icudtl.dat" start="479053899" offset="479054057" size="10413488" md5="80a7528515595d8b0bf99a477a7eff0d"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Extras/Redist/en-us/vc_redist.arm64.exe" start="523482553" offset="523482699" size="11722888" md5="18f5153933cf0fb60583340c213e9fe1"/>
+		</Pak>
+		<Pak md5="194a48f76b85422d8a06325ac1e0d568" filesize="87426042">
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.sig" start="3074" offset="3220" size="532" md5="7c77c96160c20bb4b0259afad5004e72" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.sig" start="3752" offset="3898" size="532" md5="7c694303cba4499780ef89b2625fc21c" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.sig" start="4430" offset="4576" size="532" md5="2060de19a3481526056da0aa79491b4e" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.sig" start="5108" offset="5254" size="540" md5="6051debd4983acbd37ddc8c3e073ca5b" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/global.utoc" start="5794" offset="5926" size="1894" md5="ed5e3966faf3277d5c6fd13c8d36653f" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.pak" start="7820" offset="7966" size="14134" md5="a5ce218ea6a42340508588a1816bb2c4"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.sig" start="22100" offset="22246" size="21208" md5="6987d75ab3d82c03050e8b29bc37b420"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.pak" start="43454" offset="43600" size="29755" md5="3fb5485878210f14af27ad3de92063d9" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.pak" start="73355" offset="73501" size="43385" md5="5f4b7d46d7d94fefc4b5b753a8e97f3b"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.pak" start="191452" offset="191598" size="156532" md5="c65ca30b6b560f2d8fcdb617820a0c7a"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.sig" start="348130" offset="348276" size="171764" md5="97fe5ad45689b9fe92c0992c17f934ab" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.utoc" start="520040" offset="520187" size="445476" md5="a07a9f346fcbefc7f04053b8933e9079"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.utoc" start="965663" offset="965810" size="857412" md5="8c059c0348792a2c295688e59b00a303"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.utoc" start="1823222" offset="1823369" size="1466820" md5="f16e4baba6d7aba6e410495a2c42a0d1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.utoc" start="3290189" offset="3290336" size="1724340" md5="cd7b8bd206a5c4f8bb40ba8c5c9b378c"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.utoc" start="5014676" offset="5014823" size="5417846" md5="6b7ad7ac31ab112ef044d57068636cd8"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/global.ucas" start="10432669" offset="10432801" size="5504080" md5="267749238f5abaf16dd91f68cf167bc1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.utoc" start="15936881" offset="15937028" size="6855110" md5="e0888d003a64970f36a3c339425ce835"/>
 		</Pak>
 		<Pak md5="25978887679b2601047d2eeb9d34631c" filesize="119704183">
 			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/dfba89a600b608b2b724efe1f06f599a/d56c82e0a7367b14f4070411d12a09d9.hpw" start="14333300" offset="14333525" size="5548397" md5="f6f8b56e4c9d698375a0850889e30f08"/>
