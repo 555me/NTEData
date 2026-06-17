@@ -19417,7 +19417,7 @@
         ],
         "PassiveAbilityList": [
           {
-            "Key": "GA_Chaos071_Passive_1",
+            "Key": "GA_Chaos_Passive_1",
             "Value": {
               "AbilityType": "ECharacterAbilityType::Passive",
               "AbilityIndex": 1,
@@ -19449,7 +19449,7 @@
             }
           },
           {
-            "Key": "GA_Chaos071_Passive_2",
+            "Key": "GA_Chaos_Passive_2",
             "Value": {
               "AbilityType": "ECharacterAbilityType::Passive",
               "AbilityIndex": 2,
@@ -19482,7 +19482,17 @@
           }
         ],
         "BeginningList": [],
-        "PeculiarityList": [],
+        "PeculiarityList": [
+          {
+            "Key": "GA_Chaos071_Passive_3",
+            "Value": {
+              "AbilityType": "ECharacterAbilityType::Peculiarity",
+              "AbilityIndex": 1,
+              "bShowDetailInfo": false,
+              "LevelsCostItems": []
+            }
+          }
+        ],
         "CityList": [
           {
             "Key": "City_Ability_Chaos_01",
@@ -19593,29 +19603,12 @@
                   "CostItems": [
                     {
                       "ID": "CityAbility_UpMaterial",
-                      "Number": 2,
+                      "Number": 24,
                       "bHiddenAmount": false
                     },
                     {
                       "ID": "fons",
-                      "Number": 500,
-                      "bHiddenAmount": false
-                    }
-                  ]
-                },
-                {
-                  "Level": 1,
-                  "RequireTupoLevel": 0,
-                  "RequireAwakenLevel": 1,
-                  "CostItems": [
-                    {
-                      "ID": "CityAbility_UpMaterial",
-                      "Number": 4,
-                      "bHiddenAmount": false
-                    },
-                    {
-                      "ID": "fons",
-                      "Number": 1500,
+                      "Number": 10000,
                       "bHiddenAmount": false
                     }
                   ]

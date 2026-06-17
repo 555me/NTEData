@@ -4188,7 +4188,7 @@
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
               {
-                "AddWeightPercent": 0.4,
+                "AddWeightPercent": 0.25,
                 "bInFormation": false
 }
             ]
@@ -4365,6 +4365,47 @@
         ],
         "AbilityGroupType": [
           "ECharacterCityAbilityGroupType::GROUP_OTHER"
+        ]
+      },
+      "City_Ability_Chaos_sp01": {
+        "GroupId": "City_Ability_Chaos_sp01",
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/CityAbilityIcon/YH_UI_Skill_kes_jycm.YH_UI_Skill_kes_jycm",
+          "SubPathString": ""
+},
+        "Description": {
+          "CultureInvariantString": "<!>卡厄斯觉醒-1-x"
+},
+        "AbilityName": {
+          "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+          "Key": "City_Ability_Chaos_sp01_name"
+},
+        "AbilityCityAttributeArray": [
+          {
+            "AttributeID": "City_Ability_Chaos_sp01",
+            "AttributeLevel": 1,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性2"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Chaos_sp01_lv1"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "ExtraBeacons": 1,
+                "bInFormation": false
+}
+            ]
+          }
+        ],
+        "AbilityGroupType": [
+          "ECharacterCityAbilityGroupType::GROUP_EXPLORE"
         ]
       }
     }

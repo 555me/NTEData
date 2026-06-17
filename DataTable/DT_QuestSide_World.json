@@ -1469,18 +1469,17 @@
           "Key": "TextMessage_001"
 }
       },
-      "WQ100203": {
-        "QuestId": "WQ100203",
+      "---废弃任务-改为自动完成---": {
+        "QuestId": "None",
         "QuestName": {
-          "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
-          "Key": "WQ100203_QuestName"
+          "CultureInvariantString": null
 },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
-        "DisplayMapName": "BanJiaoJie",
-        "TrackMapName": "XL_map_bigworld_test",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": true,
+        "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": false,
@@ -1541,9 +1540,160 @@
             "BuffInfo": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
+},
+          {
+            "ChatItemIDArray": [
+              "None"
+            ],
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_CHAT_END",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100204_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
 }
         ],
-        "QuestType": "EQuestType::EQT_SIDE",
+        "QuestType": "EQuestType::EQT_MAX",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+},
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+},
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+}
+      },
+      "WQ100203": {
+        "QuestId": "WQ100203",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+          "Key": "WQ100203_QuestName"
+},
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "BanJiaoJie",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "ConvoyProtectTime": 1.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "bBindOnTracking": true,
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+}
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
         "bNeedRedpoint": false,
         "bLoop": false,
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
@@ -1620,12 +1770,16 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ChatItemIDArray": [
-              "None"
-            ],
+            "ConvoyProtectTime": 1.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_CHAT_END",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -1638,8 +1792,7 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
-              "Key": "WQ100204_ObjDes_1"
+              "CultureInvariantString": null
 },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -1656,7 +1809,7 @@
             "ShortcutJumpData": null
 }
         ],
-        "QuestType": "EQuestType::EQT_SIDE",
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
         "bNeedRedpoint": false,
         "bLoop": false,
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
@@ -1707,12 +1860,7 @@
         "bForceTrackExceptMain": false,
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
-        "QuestAward": {
-          "AwardGroupID": "worldquest1",
-          "SimpleAwards": [],
-          "bShowAwardWindow": false,
-          "bShowInPanel": true
-},
+        "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -3779,7 +3927,7 @@
         "QuestId": "WQ100401",
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
-          "Key": "WQ100401_QuestName"
+          "Key": "WQ100406_QuestName"
 },
         "ChapterID": "WQ1004",
         "ChapterProgress": 1.0,
@@ -4800,7 +4948,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 25946.914,
+                "Y": 10537.791,
+                "Z": 7924.8643
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -4832,7 +5002,12 @@
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
-        "PreQuests": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "q110056",
+            "ObjectiveID": "1"
+}
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",
@@ -4846,7 +5021,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "WQ100502"
+          "WQ100501_2"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -4888,14 +5063,11 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": false,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-},
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -4917,7 +5089,257 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 30544.285,
+                "Y": 13576.042,
+                "Z": 8046.298
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "2",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 32318.805,
+                "Y": 13576.041,
+                "Z": 8046.298
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "3",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 32318.805,
+                "Y": 10547.128,
+                "Z": 8046.298
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "4",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 29730.178,
+                "Y": 10547.128,
+                "Z": 8046.298
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "5",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 30566.576,
+                "Y": 11429.291,
+                "Z": 8046.298
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -4951,7 +5373,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "WQ100501",
+            "PreQuestName": "WQ100501_2",
             "ObjectiveID": "1"
 }
         ],
@@ -4966,7 +5388,36 @@
         "SatisfyData": null,
         "LimitMapName": "None",
         "QuestResetTime": null,
-        "FailedData": null,
+        "FailedData": {
+          "QuestFailedDescription": {
+            "CultureInvariantString": null
+},
+          "RollbackQuestID": "WQ100501_2",
+          "FailRollbackLocation": {
+            "X": 27170.357,
+            "Y": 13010.023,
+            "Z": 7913.841
+},
+          "FailRollbackRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+},
+          "TransferLoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+          "FailRollbackMap": "XL_map_bigworld_test",
+          "AutoRollback": true,
+          "AutoTeleport": true,
+          "NeedShowFailUI": true,
+          "FailedTrackLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "FailedTrackTarget": {
+            "AssetPathName": "",
+            "SubPathString": ""
+}
+        },
         "NextQuests": [
           "WQ100503"
         ],
@@ -5020,7 +5471,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/NPC_Sub_109/NPC_10902/BP_NPC_10902_WQ100503.BP_NPC_10902_WQ100503_C",
               "SubPathString": ""
 },
             "MonsterTrackIcon": {
@@ -5039,7 +5490,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 27608.646,
+                "Y": 10774.944,
+                "Z": 7913.841
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -5132,14 +5605,11 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": false,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-},
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -5153,7 +5623,7 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
-              "Key": "WQ100504_ObjDes_1"
+              "Key": "WQ100502_ObjDes_1"
 },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -5161,7 +5631,371 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 36816.176,
+                "Y": 13177.951,
+                "Z": 8080.5005
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "2",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 38185.11,
+                "Y": 13853.258,
+                "Z": 8080.5005
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "3",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 34764.027,
+                "Y": 13853.258,
+                "Z": 8080.5005
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "4",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 34764.027,
+                "Y": 10435.182,
+                "Z": 8080.5005
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "5",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 34764.027,
+                "Y": 6629.254,
+                "Z": 8080.5005
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "6",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 37069.047,
+                "Y": 6469.0625,
+                "Z": 8080.5005
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "7",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 36104.54,
+                "Y": 7066.136,
+                "Z": 8080.5005
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -5210,7 +6044,36 @@
         "SatisfyData": null,
         "LimitMapName": "None",
         "QuestResetTime": null,
-        "FailedData": null,
+        "FailedData": {
+          "QuestFailedDescription": {
+            "CultureInvariantString": null
+},
+          "RollbackQuestID": "WQ100503",
+          "FailRollbackLocation": {
+            "X": 27319.486,
+            "Y": 10477.706,
+            "Z": 7913.841
+},
+          "FailRollbackRotation": {
+            "Pitch": 0.0,
+            "Yaw": -332.48227,
+            "Roll": 0.0
+},
+          "TransferLoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+          "FailRollbackMap": "XL_map_bigworld_test",
+          "AutoRollback": true,
+          "AutoTeleport": true,
+          "NeedShowFailUI": true,
+          "FailedTrackLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "FailedTrackTarget": {
+            "AssetPathName": "",
+            "SubPathString": ""
+}
+        },
         "NextQuests": [
           "WQ100505"
         ],
@@ -5264,7 +6127,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/NPC_Sub_109/NPC_10902/BP_NPC_10902_WQ100505.BP_NPC_10902_WQ100505_C",
               "SubPathString": ""
 },
             "MonsterTrackIcon": {
@@ -5283,7 +6146,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 35202.01,
+                "Y": 6789.368,
+                "Z": 7913.841
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -5379,7 +6264,7 @@
             "BeginTime": 8.0,
             "EndTime": 20.0,
             "WaittingDays": 1,
-            "ObjectiveID": "None",
+            "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CHANGE_TIME",
             "Amount": 1,
@@ -5454,7 +6339,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "WQ100507"
+          "WQ100506_2"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -5497,14 +6382,11 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": false,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-},
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -5518,7 +6400,7 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
-              "Key": "WQ100507_0bjDes_1"
+              "Key": "WQ100502_ObjDes_1"
 },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -5526,7 +6408,257 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 39273.61,
+                "Y": 8153.231,
+                "Z": 8107.898
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "2",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 42090.7,
+                "Y": 8153.231,
+                "Z": 8107.898
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "3",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 42188.29,
+                "Y": 10407.49,
+                "Z": 8262.958
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "4",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 42108.703,
+                "Y": 14287.839,
+                "Z": 8107.898
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "5",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 40002.387,
+                "Y": 14287.839,
+                "Z": 8107.898
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -5560,7 +6692,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "WQ100506",
+            "PreQuestName": "WQ100506_2",
             "ObjectiveID": "1"
 }
         ],
@@ -5575,7 +6707,36 @@
         "SatisfyData": null,
         "LimitMapName": "None",
         "QuestResetTime": null,
-        "FailedData": null,
+        "FailedData": {
+          "QuestFailedDescription": {
+            "CultureInvariantString": null
+},
+          "RollbackQuestID": "WQ100506_2",
+          "FailRollbackLocation": {
+            "X": 35031.375,
+            "Y": 8444.572,
+            "Z": 7913.841
+},
+          "FailRollbackRotation": {
+            "Pitch": 0.0,
+            "Yaw": 53.43766,
+            "Roll": 0.0
+},
+          "TransferLoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+          "FailRollbackMap": "XL_map_bigworld_test",
+          "AutoRollback": true,
+          "AutoTeleport": true,
+          "NeedShowFailUI": true,
+          "FailedTrackLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "FailedTrackTarget": {
+            "AssetPathName": "",
+            "SubPathString": ""
+}
+        },
         "NextQuests": [
           "WQ100508"
         ],
@@ -5629,7 +6790,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/NPC_Sub_109/NPC_10902/BP_NPC_10902_WQ100508.BP_NPC_10902_WQ100508_C",
               "SubPathString": ""
 },
             "MonsterTrackIcon": {
@@ -5648,7 +6809,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 35084.375,
+                "Y": 7108.827,
+                "Z": 7913.841
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -5741,14 +6924,11 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": false,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-},
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -5762,7 +6942,7 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
-              "Key": "WQ100509_0bjDes_1"
+              "Key": "WQ100502_ObjDes_1"
 },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -5770,7 +6950,485 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 35903.92,
+                "Y": 6014.9033,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "2",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 36558.42,
+                "Y": 5913.2183,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "3",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 37202.883,
+                "Y": 6116.826,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "4",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 37851.07,
+                "Y": 5914.692,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "5",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 38506.2,
+                "Y": 6107.4414,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "6",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 39153.36,
+                "Y": 5915.6387,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "7",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 40523.867,
+                "Y": 6219.095,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "8",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 42316.637,
+                "Y": 5779.0093,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "9",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 43364.203,
+                "Y": 6017.375,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -5819,7 +7477,36 @@
         "SatisfyData": null,
         "LimitMapName": "None",
         "QuestResetTime": null,
-        "FailedData": null,
+        "FailedData": {
+          "QuestFailedDescription": {
+            "CultureInvariantString": null
+},
+          "RollbackQuestID": "WQ100508",
+          "FailRollbackLocation": {
+            "X": 34880.695,
+            "Y": 6943.3076,
+            "Z": 7913.841
+},
+          "FailRollbackRotation": {
+            "Pitch": 0.0,
+            "Yaw": -321.12885,
+            "Roll": 0.0
+},
+          "TransferLoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+          "FailRollbackMap": "XL_map_bigworld_test",
+          "AutoRollback": true,
+          "AutoTeleport": true,
+          "NeedShowFailUI": true,
+          "FailedTrackLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "FailedTrackTarget": {
+            "AssetPathName": "",
+            "SubPathString": ""
+}
+        },
         "NextQuests": [
           "WQ100510"
         ],
@@ -5873,7 +7560,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/NPC_Sub_109/NPC_10902/BP_NPC_10902_WQ100510.BP_NPC_10902_WQ100510_C",
               "SubPathString": ""
 },
             "MonsterTrackIcon": {
@@ -5892,7 +7579,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 43536.367,
+                "Y": 6698.168,
+                "Z": 7913.841
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -5988,7 +7697,7 @@
             "BeginTime": 8.0,
             "EndTime": 20.0,
             "WaittingDays": 1,
-            "ObjectiveID": "None",
+            "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CHANGE_TIME",
             "Amount": 1,
@@ -6063,7 +7772,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "WQ100512"
+          "WQ100511_2"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -6106,14 +7815,11 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": false,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-},
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -6127,7 +7833,7 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
-              "Key": "WQ100512_0bjDes_1"
+              "Key": "WQ100502_ObjDes_1"
 },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -6135,7 +7841,1112 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 38240.566,
+                "Y": 13519.1045,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "2",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 34793.805,
+                "Y": 13876.379,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "3",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 34793.805,
+                "Y": 8672.185,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "4",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 37514.977,
+                "Y": 8647.629,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "5",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 36735.27,
+                "Y": 9364.327,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "6",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 39413.664,
+                "Y": 8114.543,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "7",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 42143.527,
+                "Y": 8114.543,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "8",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 42156.45,
+                "Y": 10410.492,
+                "Z": 8281.1455
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "9",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 42143.527,
+                "Y": 14334.749,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "10",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 34782.36,
+                "Y": 14402.602,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "11",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 34782.36,
+                "Y": 6196.693,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "12",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 35901.344,
+                "Y": 6014.724,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "13",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 36546.65,
+                "Y": 5915.2524,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "14",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 37200.047,
+                "Y": 6111.354,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "15",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 37861.195,
+                "Y": 5915.42,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "16",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 38498.363,
+                "Y": 6114.185,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "17",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 39153.953,
+                "Y": 5912.4097,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "18",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 40523.867,
+                "Y": 6219.095,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "19",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 42316.637,
+                "Y": 5779.0093,
+                "Z": 7984.5894
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+},
+          {
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
+            "ObjectiveID": "20",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": 43283.453,
+                "Y": 6012.414,
+                "Z": 8048.6787
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -6169,7 +8980,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "WQ100511",
+            "PreQuestName": "WQ100511_2",
             "ObjectiveID": "1"
 }
         ],
@@ -6184,7 +8995,36 @@
         "SatisfyData": null,
         "LimitMapName": "None",
         "QuestResetTime": null,
-        "FailedData": null,
+        "FailedData": {
+          "QuestFailedDescription": {
+            "CultureInvariantString": null
+},
+          "RollbackQuestID": "WQ100511_2",
+          "FailRollbackLocation": {
+            "X": 34782.582,
+            "Y": 12459.819,
+            "Z": 7913.841
+},
+          "FailRollbackRotation": {
+            "Pitch": 0.0,
+            "Yaw": 349.0,
+            "Roll": 0.0
+},
+          "TransferLoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+          "FailRollbackMap": "XL_map_bigworld_test",
+          "AutoRollback": true,
+          "AutoTeleport": true,
+          "NeedShowFailUI": true,
+          "FailedTrackLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "FailedTrackTarget": {
+            "AssetPathName": "",
+            "SubPathString": ""
+}
+        },
         "NextQuests": [
           "WQ100513"
         ],
@@ -6238,7 +9078,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/NPC_Sub_109/NPC_10902/BP_NPC_10902_WQ100513.BP_NPC_10902_WQ100513_C",
               "SubPathString": ""
 },
             "MonsterTrackIcon": {
@@ -6257,7 +9097,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 43536.367,
+                "Y": 6698.168,
+                "Z": 7913.841
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -6307,8 +9169,155 @@
         "LimitMapName": "None",
         "QuestResetTime": null,
         "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": false,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+},
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "drop_WQ1005",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+},
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+}
+      },
+      "WQ100501_2": {
+        "QuestId": "WQ100501_2",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+          "Key": "WQ100502_QuestName"
+},
+        "ChapterID": "WQ1005",
+        "ChapterProgress": 1.5,
+        "DisplayMapName": "JiaXiaoFangChengShi",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": false,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/NPC_Sub_109/NPC_10902/BP_NPC_10902_WQ100502.BP_NPC_10902_WQ100502_C",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100502_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 27555.082,
+                "Y": 13014.168,
+                "Z": 7913.841
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+}
+        ],
+        "QuestType": "EQuestType::EQT_SIDE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+          "Key": "WQ100502_QuestPanel"
+},
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "WQ100501",
+            "ObjectiveID": "1"
+}
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
         "NextQuests": [
-          "WQ100514"
+          "WQ100502"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -6334,6 +9343,296 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
+}
+      },
+      "WQ100506_2": {
+        "QuestId": "WQ100506_2",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+          "Key": "WQ100507_QuestName"
+},
+        "ChapterID": "WQ1005",
+        "ChapterProgress": 6.5,
+        "DisplayMapName": "JiaXiaoFangChengShi",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": false,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/NPC_Sub_109/NPC_10902/BP_NPC_10902_WQ100506.BP_NPC_10902_WQ100506_C",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100505_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 35161.918,
+                "Y": 8643.538,
+                "Z": 7913.841
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+}
+        ],
+        "QuestType": "EQuestType::EQT_SIDE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+          "Key": "WQ100507_QuestPanel"
+},
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "WQ100506",
+            "ObjectiveID": "1"
+}
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "WQ100507"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+},
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "TextMessage_002"
+}
+      },
+      "WQ100511_2": {
+        "QuestId": "WQ100511_2",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+          "Key": "WQ100512_QuestName"
+},
+        "ChapterID": "WQ1005",
+        "ChapterProgress": 11.5,
+        "DisplayMapName": "JiaXiaoFangChengShi",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": false,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/NPC_Sub_109/NPC_10902/BP_NPC_10902_WQ100511.BP_NPC_10902_WQ100511_C",
+              "SubPathString": ""
+},
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+              "Key": "WQ100505_ObjDes_1"
+},
+            "CompletedDescription": {
+              "CultureInvariantString": null
+},
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 35026.684,
+                "Y": 12423.992,
+                "Z": 7913.841
+},
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+},
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+}
+        ],
+        "QuestType": "EQuestType::EQT_SIDE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+          "Key": "WQ100507_QuestPanel"
+},
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "WQ100511",
+            "ObjectiveID": "1"
+}
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "WQ100512"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+},
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "TextMessage_002"
 }
       }
     }

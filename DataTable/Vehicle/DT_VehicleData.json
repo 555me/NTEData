@@ -18405,6 +18405,358 @@
         "IsShowEndurance": true,
         "CanTryDrive": true,
         "CanTryDriveCloneID": "DLC_RT_C1_clone"
+},
+      "Vehicle007_drivingschool": {
+        "VehicleID": "Vehicle007_drivingschool",
+        "PreVehicleNumId": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Vehicle007_uid"
+},
+        "IsUseNameplate": false,
+        "NameplateBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "NameplateBgMaterialIndex": 0,
+        "IsUseNameplateSpecialShow": false,
+        "GetVehicleSourceType": "EGetVehicleSourceType::GetVehicle_Shop",
+        "Name": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_name"
+},
+        "Brand": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Trademark_003_name"
+},
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des"
+},
+        "bDefaultUnLock": false,
+        "bCanModified": true,
+        "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
+        "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
+        "DriveAnimType": "EVehicleDriveAnimType::VDAT_Car",
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_ICON03.YH_UI_car_ICON03",
+          "SubPathString": ""
+},
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_ICON03.YH_UI_car_ICON03",
+          "SubPathString": ""
+},
+        "InVehicleTemple": {
+          "AssetPathName": "/Game/Blueprints/Vehicle/Vehicle_007/BP_Vehicle_007_DrivingSchool.BP_Vehicle_007_DrivingSchool_C",
+          "SubPathString": ""
+},
+        "ModulePreviewCamera": [
+          {
+            "Key": "EVehicleModuleType::EVMT_Engine",
+            "Value": {
+              "Rotation": {
+                "X": 0.033134,
+                "Y": 0.170458,
+                "Z": -0.18791,
+                "W": 0.966714,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.99999994
+},
+              "Translation": {
+                "X": 200.0,
+                "Y": 200.0,
+                "Z": 106.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Brake",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+},
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Gearbox",
+            "Value": {
+              "Rotation": {
+                "X": 0.033134,
+                "Y": 0.170458,
+                "Z": -0.18791,
+                "W": 0.966714,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.99999994
+},
+              "Translation": {
+                "X": 200.0,
+                "Y": 200.0,
+                "Z": 106.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Suspension",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+},
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Color",
+            "Value": {
+              "Rotation": {
+                "X": 0.015134,
+                "Y": 0.085832,
+                "Z": -0.172987,
+                "W": 0.98106,
+                "IsNormalized": true,
+                "Size": 0.9999997,
+                "SizeSquared": 0.9999994
+},
+              "Translation": {
+                "X": 50.0,
+                "Y": 310.0,
+                "Z": 80.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_FrontBodyKit",
+            "Value": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+},
+              "Translation": {
+                "X": 100.0,
+                "Y": 30.0,
+                "Z": -50.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_BackBodyKit",
+            "Value": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.891007,
+                "W": 0.45399,
+                "IsNormalized": true,
+                "Size": 1.0000001,
+                "SizeSquared": 1.0000004
+},
+              "Translation": {
+                "X": 1106.0,
+                "Y": 500.0,
+                "Z": -40.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Spoiler",
+            "Value": {
+              "Rotation": {
+                "X": 0.085625,
+                "Y": 0.059955,
+                "Z": -0.814665,
+                "W": 0.570434,
+                "IsNormalized": true,
+                "Size": 1.0000001,
+                "SizeSquared": 1.0000002
+},
+              "Translation": {
+                "X": 1000.0,
+                "Y": 600.0,
+                "Z": 90.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Decal",
+            "Value": {
+              "Rotation": {
+                "X": 0.015134,
+                "Y": 0.085832,
+                "Z": -0.172987,
+                "W": 0.98106,
+                "IsNormalized": true,
+                "Size": 0.9999997,
+                "SizeSquared": 0.9999994
+},
+              "Translation": {
+                "X": 50.0,
+                "Y": 310.0,
+                "Z": 80.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Wheel",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+},
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Tyre",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+},
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          }
+        ],
+        "UnLockID": "None",
+        "TrackGoalOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+},
+        "RepairCurrentId": "Fons",
+        "EnduranceProps": null,
+        "RepairTireCost": 100.0,
+        "RepairSpecialGlassCost": 200.0,
+        "ExplosionExtraCost": 800.0,
+        "IsSpawnNear": false,
+        "SpawnDirection": "ESpawnActorByPlayerDirection::Right",
+        "SpawnDistance": 150.0,
+        "WholeVehiclePreviewTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+},
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+}
+        },
+        "JumpToUISourceId": "VehicleShop01",
+        "BasePropsScore": [],
+        "SortLevel": 3,
+        "IsUseCustomPlate": true,
+        "IsShowEndurance": true,
+        "CanTryDrive": true,
+        "CanTryDriveCloneID": "DLC_RT_C1_clone"
 }
     }
   }

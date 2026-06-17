@@ -1679,7 +1679,7 @@
         "HideUITime": 1.5
 },
       "1071": {
-        "Desc": "1.1卡厄斯-已完成配置，但未开放Boss支援",
+        "Desc": "1.1卡厄斯",
         "Conditions": [
           {
             "CharacterID": "1071"
@@ -1701,6 +1701,10 @@
         "BeginBuffs": [
           {
             "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Atk/Buff_GA_Support_Common_AtkUP.Buff_GA_Support_Common_AtkUP_C",
+            "SubPathString": ""
+},
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Support_Player_071_Chaos/Buff_Support_Player_071_Chaos.Buff_Support_Player_071_Chaos_C",
             "SubPathString": ""
 }
         ],
@@ -1771,6 +1775,9 @@
         "Conditions": [
           {
             "CharacterID": "1076"
+},
+          {
+            "QuestId": "q110003"
 }
         ],
         "ConditionType": "ESupportConditionType::Or",

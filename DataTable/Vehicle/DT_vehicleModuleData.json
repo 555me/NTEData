@@ -4930,7 +4930,7 @@
         "BasePropsScore": [
           {
             "Key": "EVehicleModuleScoreType::UI_SuspensionHeight",
-            "Value": 8.0
+            "Value": 4.0
 },
           {
             "Key": "EVehicleModuleScoreType::UI_SuspensionDamp",
@@ -14080,6 +14080,63 @@
         "CityShopExtensionData": null,
         "FeatureActiveData": null,
         "JumpToUISourceId": "None",
+        "RegionShowType": "ETitleDisplayRegion::All",
+        "IsLockHide": false
+},
+      "V010_Color_99": {
+        "ModuleID": "V010_Color_99",
+        "VehicleID": "Vehicle010",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V010_Decal_002_name"
+},
+        "ModuleProps": {
+          "ColorID": {
+            "PropName": "None",
+            "PropValue": 0.0,
+            "ModifyType": "EPropertyModifyType::EPMT_Replace"
+}
+        },
+        "ModuleProperties": {
+          "ModuleType": "EVehicleModuleType::EVMT_None",
+          "Priority": 0,
+          "PropertyList": []
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V010_Decal_002_desc"
+},
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 0,
+        "ModifyCostId": "Fons",
+        "ModifyPrice": 500,
+        "BasePropsScore": [],
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_V010_Decal_02.YH_UI_car_icon_V010_Decal_02",
+          "SubPathString": ""
+},
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_V010_Decal_02.YH_UI_car_icon_V010_Decal_02",
+          "SubPathString": ""
+},
+        "CityShopExtensionData": null,
+        "FeatureActiveData": {
+          "FeatureId": "None",
+          "Requires": [
+            {
+              "ActiveType": "EFeatureActiveType::EFAT_Item",
+              "MaxValue": 1,
+              "UnlockGuide": {
+                "TableId": "/Game/Text/ST_Output.ST_Output",
+                "Key": "CardDraw_name"
+},
+              "ID": "Fashion_vehicle_1071_V010"
+}
+          ]
+        },
+        "JumpToUISourceId": "Monopoly",
         "RegionShowType": "ETitleDisplayRegion::All",
         "IsLockHide": false
 },
@@ -30367,6 +30424,44 @@
 },
         "UnLockSelectedIcon": {
           "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hub01.YH_UI_car_icon_hub01",
+          "SubPathString": ""
+},
+        "CityShopExtensionData": null,
+        "FeatureActiveData": null,
+        "JumpToUISourceId": "None",
+        "RegionShowType": "ETitleDisplayRegion::All",
+        "IsLockHide": false
+},
+      "Vehicle010_Skin001": {
+        "ModuleID": "Vehicle010_Skin001",
+        "VehicleID": "Vehicle010",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Vehicle_Default_Original"
+},
+        "ModuleProps": null,
+        "ModuleProperties": {
+          "ModuleType": "EVehicleModuleType::EVMT_Skin",
+          "Priority": 0,
+          "PropertyList": []
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V010_Original_desc"
+},
+        "ModuleType": "EVehicleModuleType::EVMT_Skin",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 0,
+        "ModifyCostId": "Fons",
+        "ModifyPrice": 500,
+        "BasePropsScore": [],
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_lahua01.YH_UI_car_icon_lahua01",
+          "SubPathString": ""
+},
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_lahua01.YH_UI_car_icon_lahua01",
           "SubPathString": ""
 },
         "CityShopExtensionData": null,

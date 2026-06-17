@@ -86,7 +86,7 @@
               }
             ],
             "SpawnSoftClass": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Weapon/Player/Fashion/Weapon_Female051_Player_Fork.Weapon_Female051_Player_Fork_C",
               "SubPathString": ""
             }
           },
@@ -162,7 +162,7 @@
               }
             ],
             "SpawnSoftClass": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Weapon/Player/Fashion/Weapon_Female051_Player_Fork.Weapon_Female051_Player_Fork_C",
               "SubPathString": ""
             }
           }
@@ -664,6 +664,86 @@
             ],
             "SpawnSoftClass": {
               "AssetPathName": "/Game/Characters/Player/004_lacrimosa/Weapon_Player_Lacrimosa_004/LAC_Weapon_Big_fork.LAC_Weapon_Big_fork_C",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "fork_goldwool": {
+        "WeaponList": [
+          {
+            "CharacterID": "1071",
+            "ForkWeaponClass": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ForkEffects": [
+              {
+                "Key": "Weapon_Hand_L1",
+                "Value": {
+                  "ParticleEffectParamsArray": [
+                    {
+                      "bUseSoftObject": true,
+                      "SoftPSTemplate": {
+                        "AssetPathName": "/Game/FX/Nia/Player/FX_chaos/NS_Fork_Chaos_Weapon2.NS_Fork_Chaos_Weapon2",
+                        "SubPathString": ""
+                      },
+                      "bCheckAppearance": false,
+                      "PSTemplate": null,
+                      "AddTags": [
+                        "ForceShowInCamera"
+                      ],
+                      "LocationOffset": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                      },
+                      "RotationOffset": {
+                        "Pitch": 0.0,
+                        "Yaw": 0.0,
+                        "Roll": 0.0
+                      },
+                      "Scale": {
+                        "X": 1.0,
+                        "Y": 1.0,
+                        "Z": 1.0
+                      },
+                      "SocketName": "wep3_skin_bone01",
+                      "Attached": true,
+                      "IgnoreHitEffectOpt": false,
+                      "UseParentBoundBox": false,
+                      "bAcceptCustomDilation": true,
+                      "bAttachRootComponent": false,
+                      "AdaptiveScale": false,
+                      "UserParameters": [],
+                      "DirectionForce": null,
+                      "SavedParticleSystem": {
+                        "ObjectName": "NiagaraSystem'NS_Fork_Chaos_Weapon2'",
+                        "ObjectPath": "/Game/FX/Nia/Player/FX_chaos/NS_Fork_Chaos_Weapon2.20"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "ForkSkeletalMesh": [
+              {
+                "Key": "Weapon_Hand_R1",
+                "Value": {
+                  "ForkWeaponMeshSoft": {
+                    "AssetPathName": "/Game/Characters/Player/071_chaos/weapon/weapon_char_Chaos_01_fork.weapon_char_Chaos_01_fork",
+                    "SubPathString": ""
+                  },
+                  "ForkWeaponMaterialMapSoft": [],
+                  "ForkWeaponAnimClassSoft": {
+                    "AssetPathName": "",
+                    "SubPathString": ""
+                  }
+                }
+              }
+            ],
+            "SpawnSoftClass": {
+              "AssetPathName": "",
               "SubPathString": ""
             }
           }

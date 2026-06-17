@@ -356,18 +356,13 @@
         "QuestId": "OpActCombatChampionshipQuest06",
         "QuestName": {
           "TableId": "/Game/Text/ST_UI_Wy.ST_UI_Wy",
-          "Key": "ui_combatchampionship_08"
+          "Key": "ui_combatchampionship_05"
 },
         "SimpleQuestType": "ESimpleQuestType::OpActivity_CombatChampionship",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
-          "GameplayTags": [
-            {
-              "TagName": "Ability.SlamSkill"
-}
-          ],
-          "ObjectiveType": "ESimpleQuestObjType::AbilityUsed",
-          "Amount": 1
+          "ObjectiveType": "ESimpleQuestObjType::CombatChampionshipRepeatChallenge",
+          "Amount": 5
 },
         "QuestAwardData": {
           "AwardGroupID": "drop_prisonfight_guide",
