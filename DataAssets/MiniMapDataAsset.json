@@ -10,6 +10,26 @@
         "ObjectName": "DataTable'DT_LevelMiniMap'",
         "ObjectPath": "/Game/DataTable/MiniMap/DT_LevelMiniMap.0"
       },
+      "LevelGameplayAreaMiniMapDataTable": {
+        "ObjectName": "DataTable'DT_LevelGameplayAreaMiniMap'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_LevelGameplayAreaMiniMap.0"
+      },
+      "MiniMapFloorAreaDataTable": {
+        "ObjectName": "DataTable'DT_MiniMapFloorArea'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapFloorArea.0"
+      },
+      "MiniMapFloorDataTable": {
+        "ObjectName": "DataTable'DT_MiniMapFloor'",
+        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapFloor.0"
+      },
+      "FloorSelectionIcon": {
+        "AssetPathName": "/Game/UI/UI/minimap/minimapUIAssets/FTMaps/YH_UIzhenghong_map_xiachengICON.YH_UIzhenghong_map_xiachengICON",
+        "SubPathString": ""
+      },
+      "GroundSelectionIcon": {
+        "AssetPathName": "/Game/UI/UI/minimap/minimapUIAssets/FTMaps/YH_UIzhenghong_map_dangqianICON.YH_UIzhenghong_map_dangqianICON",
+        "SubPathString": ""
+      },
       "MiniMapLevelFogBlockDataTable": {
         "ObjectName": "DataTable'DT_MiniMapFogBlock'",
         "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapFogBlock.0"
@@ -18,26 +38,14 @@
         "ObjectName": "DataTable'DT_MiniMapIcon'",
         "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapIcon.0"
       },
-      "MiniMapIconSearchTypeDataTable": {
-        "ObjectName": "DataTable'DT_MapIconSearchType'",
-        "ObjectPath": "/Game/DataTable/MiniMap/DT_MapIconSearchType.0"
-      },
+      "MiniMapIconSearchTypeDataTable": null,
       "MiniMapFixedIconsDataTable": {
         "ObjectName": "DataTable'DT_MiniMapFixedIcons'",
         "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapFixedIcons.0"
       },
-      "MiniMapIconDetailsFuncDataTable": {
-        "ObjectName": "DataTable'DT_MiniMapIconDetailsFunc'",
-        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapIconDetailsFunc.0"
-      },
-      "MiniMapCustomIconDataTable": {
-        "ObjectName": "DataTable'DT_MiniMapCustomIcon'",
-        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapCustomIcon.0"
-      },
-      "BigMapGuideDataTable": {
-        "ObjectName": "DataTable'DT_BigMapGuide'",
-        "ObjectPath": "/Game/DataTable/MiniMap/DT_BigMapGuide.0"
-      },
+      "MiniMapIconDetailsFuncDataTable": null,
+      "MiniMapCustomIconDataTable": null,
+      "BigMapGuideDataTable": null,
       "TreasureboxIconID": "Explore_TreasureBox",
       "TraceAreaDataTable": {
         "ObjectName": "DataTable'DT_TraceVolumeData'",
@@ -47,9 +55,17 @@
         "ObjectName": "DataTable'DT_QuestFixedMapIconData'",
         "ObjectPath": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData.0"
       },
+      "LevelSelfMapIconIDOverride": [
+        {
+          "Key": "Maps_4N",
+          "Value": "Self_FT"
+        }
+      ],
       "IconUpperHeight": 400.0,
       "IconLowerHeight": 400.0,
       "IconHeightDirectIconID": "Height",
+      "IconUpperFloorIconID": "UpperFloor",
+      "IconLowerUpperFloorIconID": "LowerFloor",
       "DrivingStateMiniMapZoomValueSpeedRange": [
         {
           "SpeedRange": {
@@ -82,10 +98,30 @@
         "AssetPathName": "/Game/UI/UI/common/White1x1.White1x1",
         "SubPathString": ""
       },
-      "MiniMapNavigationPathLineDataTable": {
-        "ObjectName": "DataTable'DT_MiniMapNavigationPathLine'",
-        "ObjectPath": "/Game/DataTable/MiniMap/DT_MiniMapNavigationPathLine.0"
-      }
+      "MiniMapNavigationPathLineDataTable": null,
+      "FloorMaskColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.8,
+        "Hex": "CC000000"
+      },
+      "QuestMiniMapFixedIconMap": [
+        {
+          "Key": "XL_map_bigworld_test",
+          "Value": {
+            "ObjectName": "DataTable'DT_QuestFixedMapIconData'",
+            "ObjectPath": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData.0"
+          }
+        },
+        {
+          "Key": "Maps_4N",
+          "Value": {
+            "ObjectName": "DataTable'DT_QuestFixedMapIconData_4N'",
+            "ObjectPath": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData_4N.0"
+          }
+        }
+      ]
     }
   }
 ]

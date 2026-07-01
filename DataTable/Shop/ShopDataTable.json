@@ -3089,6 +3089,25 @@
           "SubPathString": ""
 }
       },
+      "Shop_023_04_sp": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_023_name"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
       "Shop_023_05_01": {
         "ChainShopID": "Shop_023",
         "ShopType": "EShopType::NPC_SHOP",
@@ -4398,6 +4417,26 @@
           "SubPathString": ""
 }
       },
+      "DyeShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::MALL_SHOP",
+        "CurrencyID": [
+          "Fons",
+          "RiftcrystalAdd"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "MallShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
+          "Key": "DyeShop"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
       "GlideShop": {
         "ChainShopID": "None",
         "ShopType": "EShopType::MALL_SHOP",
@@ -4779,6 +4818,24 @@
           "SubPathString": ""
 }
       },
+      "FonsLimitTimeShop4": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::FONS_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "FonsLimitTimeShop",
+        "ShopName": {
+          "CultureInvariantString": null
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
       "SpecialOfferGiftShop": {
         "ChainShopID": "None",
         "ShopType": "EShopType::GIFT_SHOP",
@@ -4897,7 +4954,7 @@
       },
       "FTSheepShop": {
         "ChainShopID": "None",
-        "ShopType": "EShopType::MALL_SHOP",
+        "ShopType": "EShopType::ACTIVITY_SHOP",
         "CurrencyID": [
           "FTSheepCoin"
         ],
@@ -4906,7 +4963,26 @@
         "CanBuyDistance": -1.0,
         "UIClass": "MallShop",
         "ShopName": {
-          "CultureInvariantString": "小羊"
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "FinalTower_Shop_Name"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "FTGoldShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "FTGoldCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "CultureInvariantString": "ft金币"
 },
         "ShopIcon": {
           "AssetPathName": "",
@@ -4925,6 +5001,176 @@
         "UIClass": "FonsLimitTimeShop",
         "ShopName": {
           "CultureInvariantString": null
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "HideSeekShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::MALL_SHOP",
+        "CurrencyID": [
+          "HideSeekCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "HideSeekShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "HideSeekShop_Name"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "AquariumShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "CultureInvariantString": "养鱼商店"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "FTGoldShop_Village": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "FTGoldCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FTGoldShop_Village_ShopName"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "FTGoldShop_Camp": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "FTGoldCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FTGoldShop_Camp_ShopName"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "FTGoldShop_01": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "FTGoldCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FTGoldShop_01_ShopName"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "FTGoldShop_02": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "FTGoldCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FTGoldShop_02_ShopName"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "FTGoldShop_03": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "FTGoldCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FTGoldShop_03_ShopName"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "FTGoldShop_04": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "FTGoldCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FTGoldShop_04_ShopName"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "FT_CollectShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "FTGoldCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT_CollectShop_ShopName"
 },
         "ShopIcon": {
           "AssetPathName": "",

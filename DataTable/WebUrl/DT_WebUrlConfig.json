@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WebUrlConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/WebUrl/DT_WebUrlConfig",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'HTWebUrlConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "PlayerReEngagement": {
+        "DefaultWebUrl": {
+          "WebViewUrl": "https://yh.wanmei.com/net/260702reflow/index.html",
+          "bOpenWithSdk": true
+        },
+        "bUsePlatform": true,
+        "PlatformWebUrlMap": [],
+        "RegionPlatformWebUrlMap": [
+          {
+            "Key": "EHTRegionType::Region_IWPLAY",
+            "Value": {
+              "RegionWebViewUrlMap": [
+                {
+                  "Key": "EHTPlatformType::Invalid",
+                  "Value": {
+                    "WebViewUrl": "https://eventjs.iwplay.com.tw/event/server/v1/ingameRouter",
+                    "bOpenWithSdk": true
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EHTRegionType::Region_GLOBAL",
+            "Value": {
+              "RegionWebViewUrlMap": [
+                {
+                  "Key": "EHTPlatformType::Invalid",
+                  "Value": {
+                    "WebViewUrl": "https://nte.perfectworld.com/net/260708reflow/index.html",
+                    "bOpenWithSdk": true
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+]

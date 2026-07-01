@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WarehouseType",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Inventory/DT_WarehouseType",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'WarehouseTypeData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "FinalTower": {
+        "Capacity": 1000,
+        "WarehouseName": {
+          "CultureInvariantString": null
+        },
+        "ContainsItemTypes": [
+          "EItemType::ITEM_TYPE_FINAL_TOWER_WEAPON",
+          "EItemType::ITEM_TYPE_FINAL_TOWER_CHEST",
+          "EItemType::ITEM_TYPE_FINAL_TOWER_LEGS",
+          "EItemType::ITEM_TYPE_FINAL_TOWER_SHOULDER",
+          "EItemType::ITEM_TYPE_FINAL_TOWER_SHOES",
+          "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY1",
+          "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY2"
+        ]
+      }
+    }
+  }
+]

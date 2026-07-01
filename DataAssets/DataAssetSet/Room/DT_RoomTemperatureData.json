@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RoomTemperatureData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/Room/DT_RoomTemperatureData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'RoomTemperatureData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Sunny": {
+        "RoomTemperatureRange": {
+          "X": 5.0,
+          "Y": 30.0
+        },
+        "RoomTemperatureList": [
+          {
+            "MinTemperature": 15.0,
+            "MaxTemperature": 30.0,
+            "Weight": 150,
+            "RowName": "None"
+          },
+          {
+            "MinTemperature": 5.0,
+            "MaxTemperature": 15.0,
+            "Weight": 50,
+            "RowName": "None"
+          }
+        ],
+        "FloatRange": {
+          "X": 0.5,
+          "Y": 2.0
+        },
+        "UpdateUnitTime": 3600
+      },
+      "Cloudy": {
+        "RoomTemperatureRange": {
+          "X": 0.0,
+          "Y": 25.0
+        },
+        "RoomTemperatureList": [
+          {
+            "MinTemperature": 15.0,
+            "MaxTemperature": 25.0,
+            "Weight": 100,
+            "RowName": "None"
+          },
+          {
+            "MinTemperature": 0.0,
+            "MaxTemperature": 15.0,
+            "Weight": 100,
+            "RowName": "None"
+          }
+        ],
+        "FloatRange": {
+          "X": 0.5,
+          "Y": 2.0
+        },
+        "UpdateUnitTime": 3600
+      },
+      "Rain": {
+        "RoomTemperatureRange": {
+          "X": -5.0,
+          "Y": 10.0
+        },
+        "RoomTemperatureList": [
+          {
+            "MinTemperature": 0.0,
+            "MaxTemperature": 10.0,
+            "Weight": 50,
+            "RowName": "None"
+          },
+          {
+            "MinTemperature": -5.0,
+            "MaxTemperature": 0.0,
+            "Weight": 25,
+            "RowName": "None"
+          }
+        ],
+        "FloatRange": {
+          "X": 0.5,
+          "Y": 2.0
+        },
+        "UpdateUnitTime": 3600
+      },
+      "Snow": {
+        "RoomTemperatureRange": {
+          "X": -10.0,
+          "Y": 0.0
+        },
+        "RoomTemperatureList": [
+          {
+            "MinTemperature": -10.0,
+            "MaxTemperature": -5.0,
+            "Weight": 30,
+            "RowName": "None"
+          },
+          {
+            "MinTemperature": -5.0,
+            "MaxTemperature": 0.0,
+            "Weight": 20,
+            "RowName": "None"
+          }
+        ],
+        "FloatRange": {
+          "X": 0.5,
+          "Y": 2.0
+        },
+        "UpdateUnitTime": 3600
+      }
+    }
+  }
+]

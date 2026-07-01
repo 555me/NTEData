@@ -97,8 +97,8 @@
         {
           "Key": "1075",
           "Value": {
-            "ObjectName": "DataTable'1075AwakenEffect'",
-            "ObjectPath": "/Game/DataTable/Character/Awaken/1075AwakenEffect.0"
+            "ObjectName": "DataTable'1075FileDataTable'",
+            "ObjectPath": "/Game/DataTable/Character/File/1075FileDataTable.0"
 }
         },
         {
@@ -113,6 +113,13 @@
           "Value": {
             "ObjectName": "DataTable'1071FileDataTable'",
             "ObjectPath": "/Game/DataTable/Character/File/1071FileDataTable.0"
+}
+        },
+        {
+          "Key": "1076",
+          "Value": {
+            "ObjectName": "DataTable'1076FileDataTable'",
+            "ObjectPath": "/Game/DataTable/Character/File/1076FileDataTable.0"
 }
         }
       ],
@@ -324,23 +331,56 @@
         },
         {
           "Key": "ft_character_mint",
-          "Value": null
-},
+          "Value": {
+            "ObjectName": "DataTable'ft_character_mintAwakenEffect'",
+            "ObjectPath": "/Game/Maps_4N/DataTable/Awaken/ft_character_mintAwakenEffect.0"
+}
+        },
         {
           "Key": "ft_character_1051",
-          "Value": null
-},
+          "Value": {
+            "ObjectName": "DataTable'ft_character_1051AwakenEffect'",
+            "ObjectPath": "/Game/Maps_4N/DataTable/Awaken/ft_character_1051AwakenEffect.0"
+}
+        },
         {
           "Key": "ft_character_1046",
-          "Value": null
-},
+          "Value": {
+            "ObjectName": "DataTable'ft_character_1046AwakenEffect'",
+            "ObjectPath": "/Game/Maps_4N/DataTable/Awaken/ft_character_1046AwakenEffect.0"
+}
+        },
+        {
+          "Key": "1076",
+          "Value": {
+            "ObjectName": "DataTable'1076AwakenEffect'",
+            "ObjectPath": "/Game/DataTable/Character/Awaken/1076AwakenEffect.0"
+}
+        },
         {
           "Key": "1071",
           "Value": {
             "ObjectName": "DataTable'1071AwakenEffect'",
             "ObjectPath": "/Game/DataTable/Character/Awaken/1071AwakenEffect.0"
 }
+        },
+        {
+          "Key": "1075",
+          "Value": {
+            "ObjectName": "DataTable'1075AwakenEffect'",
+            "ObjectPath": "/Game/DataTable/Character/Awaken/1075AwakenEffect.0"
+}
+        },
+        {
+          "Key": "ft_character_1076",
+          "Value": {
+            "ObjectName": "DataTable'ft_character_1076AwakenEffect'",
+            "ObjectPath": "/Game/Maps_4N/DataTable/Awaken/ft_character_1076AwakenEffect.0"
+}
         }
+      ],
+      "AwakenQuestIDArray": [
+        "L110139"
       ],
       "EquipmentGeometryIconMap": [
         {
@@ -1223,37 +1263,25 @@
       "FashionRecommendDataArray": [
         {
           "ShopID": "FashionShop",
-          "GoodID": "FashionShop_09",
+          "GoodID": "FashionShop_12",
           "TabIcon": {
-            "AssetPathName": "/Game/UI/UI/shop/AppearanceShop/YH_UI_img_activity_recommend_fashion_tab3.YH_UI_img_activity_recommend_fashion_tab3",
+            "AssetPathName": "/Game/UI/UI/shop/AppearanceShop/YH_UI_img_activity_recommend_fashion_tab7.YH_UI_img_activity_recommend_fashion_tab7",
             "SubPathString": ""
 },
           "SpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Shop/Recommend/BPUI_FashionRecommend_1004_01.BPUI_FashionRecommend_1004_01_C",
+            "AssetPathName": "/Game/UI/Blueprints/Shop/Recommend/BPUI_FashionRecommend_1076_02.BPUI_FashionRecommend_1076_02_C",
             "SubPathString": ""
 }
         },
         {
           "ShopID": "FashionShop",
-          "GoodID": "FashionShop_10",
+          "GoodID": "FashionShop_13",
           "TabIcon": {
-            "AssetPathName": "/Game/UI/UI/shop/AppearanceShop/YH_UI_img_activity_recommend_fashion_tab4.YH_UI_img_activity_recommend_fashion_tab4",
+            "AssetPathName": "/Game/UI/UI/shop/AppearanceShop/YH_UI_img_activity_recommend_fashion_tab6.YH_UI_img_activity_recommend_fashion_tab6",
             "SubPathString": ""
 },
           "SpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Shop/Recommend/BPUI_FashionRecommend_1004_02.BPUI_FashionRecommend_1004_02_C",
-            "SubPathString": ""
-}
-        },
-        {
-          "ShopID": "FashionShop",
-          "GoodID": "FashionShop_11",
-          "TabIcon": {
-            "AssetPathName": "/Game/UI/UI/shop/AppearanceShop/YH_UI_img_activity_recommend_fashion_tab5.YH_UI_img_activity_recommend_fashion_tab5",
-            "SubPathString": ""
-},
-          "SpineUI": {
-            "AssetPathName": "/Game/UI/Blueprints/Shop/Recommend/BPUI_FashionRecommend_1004_03.BPUI_FashionRecommend_1004_03_C",
+            "AssetPathName": "/Game/UI/Blueprints/Shop/Recommend/BPUI_FashionRecommend_1076_01.BPUI_FashionRecommend_1076_01_C",
             "SubPathString": ""
 }
         }
@@ -1456,6 +1484,28 @@
         "S111706",
         "S111707",
         "S111708"
+      ],
+      "DefaultFormationCharacterRotationArr": [
+        {
+          "Pitch": 0.0,
+          "Yaw": 100.0,
+          "Roll": 0.0
+},
+        {
+          "Pitch": 0.0,
+          "Yaw": 116.0,
+          "Roll": 0.0
+},
+        {
+          "Pitch": 0.0,
+          "Yaw": 96.0,
+          "Roll": 0.0
+},
+        {
+          "Pitch": 0.0,
+          "Yaw": 82.0,
+          "Roll": 0.0
+}
       ]
     }
   }

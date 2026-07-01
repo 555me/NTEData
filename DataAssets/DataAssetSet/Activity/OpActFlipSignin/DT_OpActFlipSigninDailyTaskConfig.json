@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OpActFlipSigninDailyTaskConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/Activity/OpActFlipSignin/DT_OpActFlipSigninDailyTaskConfig",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'OpActFlipSignInDailyTaskConfig'",
+        "ObjectPath": "/Script/HTGame"
+}
+    },
+    "Rows": {
+      "Task_Login": {
+        "TaskId": "Task_Login",
+        "TaskType": "EOpActFlipSignInTaskType::Login",
+        "TargetValue": 1,
+        "FlipChanceReward": 1,
+        "DisplayText": {
+          "Namespace": "",
+          "Key": "1CA36A4842FB40EBB516F1825CBAC02E"
+},
+        "SortOrder": 1
+},
+      "Task_Stamina_30": {
+        "TaskId": "Task_Stamina_120",
+        "TaskType": "EOpActFlipSignInTaskType::StaminaConsume",
+        "TargetValue": 120,
+        "FlipChanceReward": 1,
+        "DisplayText": {
+          "Namespace": "",
+          "Key": "DE3AB1874E084DD793FD0CBF8779BB0C"
+},
+        "SortOrder": 2
+}
+    }
+  }
+]

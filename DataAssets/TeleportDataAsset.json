@@ -6,14 +6,21 @@
     "Class": "UScriptClass'TeleportDataAsset'",
     "Package": "/Game/DataAssets/TeleportDataAsset",
     "Properties": {
-      "TeleportData": {
-        "ObjectName": "DataTable'DT_TeleportData'",
-        "ObjectPath": "/Game/DataTable/Teleport/DT_TeleportData.0"
-      },
+      "TeleportData": null,
       "TransferDataTable": {
         "ObjectName": "DataTable'DT_TransferDataTable'",
         "ObjectPath": "/Game/DataTable/DT_TransferDataTable.0"
-      }
+      },
+      "CrossSceneTransferConditions": [
+        {
+          "Key": "Maps_4N",
+          "Value": {
+            "QuestIDList": [
+              "L110303"
+            ]
+          }
+        }
+      ]
     }
   }
 ]

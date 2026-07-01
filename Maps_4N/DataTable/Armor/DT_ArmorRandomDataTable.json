@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ArmorRandomDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Maps_4N/DataTable/Armor/DT_ArmorRandomDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'RandomModifyStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "strength_randompool_base_shoulder": {
+        "ModifyData": [
+          {
+            "PropName": "DamageUpGeneralBase",
+            "WeightValue": 1
+          }
+        ]
+      },
+      "strength_randompool_base_chest": {
+        "ModifyData": [
+          {
+            "PropName": "HPMaxUp",
+            "WeightValue": 1
+          }
+        ]
+      },
+      "strength_randompool_base_legs": {
+        "ModifyData": [
+          {
+            "PropName": "DefUp",
+            "WeightValue": 1
+          }
+        ]
+      },
+      "strength_randompool_base_shoes": {
+        "ModifyData": [
+          {
+            "PropName": "DamageUpGeneralBase",
+            "WeightValue": 1
+          }
+        ]
+      },
+      "strength_randompool_base_weapon": {
+        "ModifyData": [
+          {
+            "PropName": "AtkUp",
+            "WeightValue": 1
+          }
+        ]
+      },
+      "strength_randompool_base_accessory1": {
+        "ModifyData": [
+          {
+            "PropName": "CritBase",
+            "WeightValue": 1
+          }
+        ]
+      },
+      "strength_randompool_base_accessory2": {
+        "ModifyData": [
+          {
+            "PropName": "CritDamageBase",
+            "WeightValue": 1
+          }
+        ]
+      },
+      "strength_randompool_basesub": {
+        "ModifyData": [
+          {
+            "PropName": "AtkUp",
+            "WeightValue": 1
+          },
+          {
+            "PropName": "DefUp",
+            "WeightValue": 1
+          },
+          {
+            "PropName": "HPMaxUp",
+            "WeightValue": 1
+          },
+          {
+            "PropName": "DamageUpGeneralBase",
+            "WeightValue": 1
+          },
+          {
+            "PropName": "CritBase",
+            "WeightValue": 1
+          },
+          {
+            "PropName": "CritDamageBase",
+            "WeightValue": 1
+          }
+        ]
+      },
+      "strength_shinku": {
+        "ModifyData": [
+          {
+            "PropName": "AtkAdd",
+            "WeightValue": 1
+          }
+        ]
+      },
+      "strength_shinku_sub": {
+        "ModifyData": [
+          {
+            "PropName": "HPMaxBase",
+            "WeightValue": 1
+          },
+          {
+            "PropName": "DefBase",
+            "WeightValue": 1
+          }
+        ]
+      }
+    }
+  }
+]

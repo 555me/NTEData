@@ -1,0 +1,166 @@
+[
+  {
+    "Type": "BidKingDataAsset",
+    "Name": "DA_BidKing",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BidKingDataAsset'",
+    "Package": "/Game/DataTable/BidKing/DA_BidKing",
+    "Properties": {
+      "BidKingCloneConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingClone'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingClone.0"
+      },
+      "BidKingMapConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingMapData'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingMapData.0"
+      },
+      "BidKingRoundsConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingRounds'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingRounds.0"
+      },
+      "BidKingInfoConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingInfo'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingInfo.0"
+      },
+      "BidKingItemConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingItem'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingItem.0"
+      },
+      "BidKingCharacterConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingCharacter'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingCharacter.0"
+      },
+      "BidKingItemGroupConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingItemGroup'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingItemGroup.0"
+      },
+      "BidKingEvaluateConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingEvaluate'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingEvaluate.0"
+      },
+      "BidKingBotConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingBot'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingBot.0"
+      },
+      "AllowanceCurrencyID": "BidkingCoin",
+      "AllowanceGetCount": 5,
+      "AllowanceThreshold": 100000,
+      "AllowanceReward": "drop_bidking_db",
+      "IncomeEvaluateMax": 200000,
+      "RoundWaitTime": 6.0,
+      "NewPlayerCloneID": "BidKing4",
+      "NewPlayerCharacterID": "Char2",
+      "NewPlayerItemGroupID": "Package_green_01",
+      "NewPlayerCoin": 100000,
+      "NewPlayerPassCoin": 3000000,
+      "AnimMontageMap": [
+        {
+          "Key": "StartRound",
+          "Value": {
+            "AssetPathName": "/Game/Characters/Npc/NPC_1031_mls/DHanimation/MU01_03_NPC01401_022_Montage.MU01_03_NPC01401_022_Montage",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "Bid",
+          "Value": {
+            "AssetPathName": "/Game/Characters/Npc/NPC_1031_mls/DHanimation/MU01_03_NPC01401_010_Montage.MU01_03_NPC01401_010_Montage",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DT_CollectionItem": {
+        "ObjectName": "DataTable'DT_BidKingCollectionItemConfig'",
+        "ObjectPath": "/Game/DataTable/BidKing/Warehouse/DT_BidKingCollectionItemConfig.0"
+      },
+      "DT_CollectionOutline": {
+        "AssetPathName": "/Game/DataTable/BidKing/Warehouse/DT_BidKingCollectionOutlineConfig.DT_BidKingCollectionOutlineConfig",
+        "SubPathString": ""
+      },
+      "DT_CollectionType": {
+        "AssetPathName": "/Game/DataTable/BidKing/Warehouse/DT_BidKingCollectionTypeConfig.DT_BidKingCollectionTypeConfig",
+        "SubPathString": ""
+      },
+      "DT_WarehouseVenue": {
+        "AssetPathName": "/Game/DataTable/BidKing/Warehouse/DT_BidKingWarehouseVenueConfig.DT_BidKingWarehouseVenueConfig",
+        "SubPathString": ""
+      },
+      "DT_WarehouseLevel": {
+        "AssetPathName": "/Game/DataTable/BidKing/Warehouse/DT_BidKingWarehouseLevelConfig.DT_BidKingWarehouseLevelConfig",
+        "SubPathString": ""
+      },
+      "DT_WarehouseSize": {
+        "AssetPathName": "/Game/DataTable/BidKing/Warehouse/DT_BidKingWarehouseSizeConfig.DT_BidKingWarehouseSizeConfig",
+        "SubPathString": ""
+      },
+      "DT_WarehouseRule": {
+        "AssetPathName": "/Game/DataTable/BidKing/Warehouse/DT_BidKingWarehouseRuleConfig.DT_BidKingWarehouseRuleConfig",
+        "SubPathString": ""
+      },
+      "WarehouseSlotMap": [
+        {
+          "Key": "EBidKingWarehouseType::Exhibition",
+          "Value": {
+            "X": 14,
+            "Y": 8
+          }
+        },
+        {
+          "Key": "EBidKingWarehouseType::PlayerBag",
+          "Value": {
+            "X": 10,
+            "Y": 30
+          }
+        },
+        {
+          "Key": "EBidKingWarehouseType::BidSettle",
+          "Value": {
+            "X": 10,
+            "Y": 25
+          }
+        },
+        {
+          "Key": "EBidKingWarehouseType::Biding",
+          "Value": {
+            "X": 10,
+            "Y": 25
+          }
+        }
+      ],
+      "CollectionMaxOutline": {
+        "X": 5,
+        "Y": 5
+      },
+      "CollectionCurrencyID": "BidkingCoin",
+      "BuyItemCurrencyID": "BidkingCoin",
+      "CollectionSettleUIDuration": [
+        {
+          "Key": "ITEM_QUALITY_RED",
+          "Value": 6.0
+        },
+        {
+          "Key": "ITEM_QUALITY_ORANGE",
+          "Value": 5.0
+        },
+        {
+          "Key": "ITEM_QUALITY_PURPLE",
+          "Value": 4.0
+        },
+        {
+          "Key": "ITEM_QUALITY_BLUE",
+          "Value": 3.0
+        },
+        {
+          "Key": "ITEM_QUALITY_GREEN",
+          "Value": 2.0
+        },
+        {
+          "Key": "ITEM_QUALITY_WHITE",
+          "Value": 1.0
+        }
+      ],
+      "MaxExhibEarnings": 10000,
+      "MaxExhibTotalEarnings": 2000000
+    }
+  }
+]

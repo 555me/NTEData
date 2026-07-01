@@ -1,0 +1,900 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ReturningPlayerSimpleQuest",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/Activity/ReturningPlayer/DT_ReturningPlayerSimpleQuest",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SimpleQuestStaticData'",
+        "ObjectPath": "/Script/HTGame"
+}
+    },
+    "Rows": {
+      "quest_return_firstlogin": {
+        "QuestId": "quest_return_firstlogin",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
+          "Key": "quest_return_firstlogin"
+},
+        "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::TotalLoginDays",
+          "Amount": 1
+},
+        "QuestAwardData": {
+          "AwardGroupID": "drop_return_firstlogin",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Returning_exp",
+              "Amount": 5,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "ConditionArray": []
+      },
+      "quest_return_login_3d": {
+        "QuestId": "quest_return_login_3d",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
+          "Key": "quest_return_login_3d"
+},
+        "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::TotalLoginDays",
+          "Amount": 3
+},
+        "QuestAwardData": {
+          "AwardGroupID": "drop_return_login_3d",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Returning_exp",
+              "Amount": 10,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "ConditionArray": []
+      },
+      "quest_return_login_7d": {
+        "QuestId": "quest_return_login_7d",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
+          "Key": "quest_return_login_7d"
+},
+        "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::TotalLoginDays",
+          "Amount": 7
+},
+        "QuestAwardData": {
+          "AwardGroupID": "drop_return_login_7d",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Returning_exp",
+              "Amount": 15,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "ConditionArray": []
+      },
+      "quest_return_fons_20w": {
+        "QuestId": "quest_return_fons_20w",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
+          "Key": "quest_return_fons_20w"
+},
+        "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "fons"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 200000
+},
+        "QuestAwardData": {
+          "AwardGroupID": "drop_return_fons_20w",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Returning_exp",
+              "Amount": 10,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "UrbanGameplay",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "ConditionArray": []
+      },
+      "quest_return_fons_50w": {
+        "QuestId": "quest_return_fons_50w",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
+          "Key": "quest_return_fons_50w"
+},
+        "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "fons"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 500000
+},
+        "QuestAwardData": {
+          "AwardGroupID": "drop_return_fons_50w",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Returning_exp",
+              "Amount": 15,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "UrbanGameplay",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "ConditionArray": []
+      },
+      "quest_return_fons_100w": {
+        "QuestId": "quest_return_fons_100w",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
+          "Key": "quest_return_fons_100w"
+},
+        "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "fons"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 1000000
+},
+        "QuestAwardData": {
+          "AwardGroupID": "drop_return_fons_100w",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Returning_exp",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "UrbanGameplay",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "ConditionArray": []
+      },
+      "quest_return_stamina_720": {
+        "QuestId": "quest_return_stamina_720",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
+          "Key": "quest_return_stamina_720"
+},
+        "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "StaminaName": "Stamina",
+          "ObjectiveType": "ESimpleQuestObjType::CommonStaminaUsed",
+          "Amount": 720
+},
+        "QuestAwardData": {
+          "AwardGroupID": "drop_return_stamina_720",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Returning_exp",
+              "Amount": 15,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "map_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "ConditionArray": []
+      },
+      "quest_return_weekly_3": {
+        "QuestId": "quest_return_weekly_3",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
+          "Key": "quest_return_weekly_3"
+},
+        "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CloneIDArray": [],
+          "CloneType": "ECloneType::Weekly_Clone",
+          "CloneDifficultyLevel": 0,
+          "ObjectiveType": "ESimpleQuestObjType::CloneCompleted",
+          "Amount": 3
+},
+        "QuestAwardData": {
+          "AwardGroupID": "drop_return_weekly_3",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Returning_exp",
+              "Amount": 10,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "WeeklyClone_Boss05_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "ConditionArray": []
+      },
+      "quest_return_abyss_5": {
+        "QuestId": "quest_return_abyss_5",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
+          "Key": "quest_return_abyss_5"
+},
+        "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "AbyssLevel": 5,
+          "ObjectiveType": "ESimpleQuestObjType::AnyAbyssCompleted",
+          "Amount": 1
+},
+        "QuestAwardData": {
+          "AwardGroupID": "drop_return_abyss_5",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Returning_exp",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "abyss_map",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "ConditionArray": []
+      },
+      "quest_return_gift_20": {
+        "QuestId": "quest_return_gift_20",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
+          "Key": "quest_return_gift_20"
+},
+        "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "SubQuests": [],
+          "ObjectiveType": "ESimpleQuestObjType::SendGift",
+          "Amount": 20
+},
+        "QuestAwardData": {
+          "AwardGroupID": "drop_return_gift_20",
+          "SimpleAwards": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Returning_exp",
+              "Amount": 15,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ],
+          "bShowAwardWindow": false
+},
+        "bAutoCommit": false,
+        "JumpPath": "likeability_ui",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "Comment": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+},
+          "OverseaUseUTCTime": true
+},
+        "ConditionArray": []
+      }
+    }
+  }
+]

@@ -16125,7 +16125,7 @@
             "Bank_05_00"
           ],
           "JumpConfig": null,
-          "UnlockFunctionID": "None",
+          "UnlockFunctionID": "Robbank",
           "UnlockNoticeMessage": {
             "CultureInvariantString": null
 },
@@ -16604,15 +16604,15 @@
 },
         "LevelName": "",
         "Path": "",
-        "UnlockFuncID": "None",
+        "UnlockFuncID": "Activity",
         "FindPathid": "None",
         "FindMapFixedIcon": "None",
         "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "QuestUIType": "EQuestUIType::QUT_OpActivity",
           "UIParaming": [
             "ActivityMainForm",
             "GashaponLottery",
-            "1"
+            "MangHe_bsj"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "None",
@@ -16745,6 +16745,44 @@
           "PreCloseUI": []
         }
       },
+      "Figure_zhenhong_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Figure_zhenhong_01_name"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
       "Likeability_Chaos": {
         "Type": "EItemOutputSource::OS_UI_PATH",
         "Icon": {
@@ -16771,6 +16809,90 @@
             "LikeabilityMain",
             "1071",
             "Fashion_1071_nighty"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Likeability_Shinku": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Likeability_Shinku"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Likeability",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain",
+            "1076",
+            "Fashion_1076_nighty"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Likeability_Oneiroi": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Likeability_Oneiroi"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Likeability",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain",
+            "1075",
+            "Fashion_1075_nighty"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "None",
@@ -16817,6 +16939,609 @@
           "UnlockNoticeMessage": {
             "TableId": "/Game/Text/ST_Output.ST_Output",
             "Key": "PrisonMatch_UnlockDesc"
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "BidKingMainForm": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_ActBidKing_Name"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "BidKing",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "BidKingMainForm"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "BidKing",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "ReturningPlayer": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "Namespace": "",
+          "Key": "20135BEA42904210F58CB5907A1D56BA"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "ActivityMainForm",
+            "ReturningPlayer",
+            "0"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FinalTowerUnlockQuest": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "CultureInvariantString": "任务"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_QuestMain",
+          "UIParaming": [
+            "QuestPanel",
+            "L110304"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FinalToweLimitAward": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "FinalTower_LimitedAward_Name"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "FinalToweLimitAward"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "FinalTower",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FinalTowerShop": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "FinalTower_Shop_Name"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "FTShop"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "FinalTower",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FinalTowerWarehouse": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "FinalTower_Storage"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "FTWarehouse"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "FinalTower",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FinalTowerArmorIdentify": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "FinalTower_AppraiseEquipment"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "FTArmorIdentify"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "FinalTower",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FinalTowerArmorDiscard": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "FinalTower_SellEquipment"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "ArmorDiscard"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "FinalTower",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FinalTowerCharacterFormation": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "FinalTower_TeamPrepare"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "CharacterMainform"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "FinalTower",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FinalTowerAdventure": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "FinalTower_AdventureManual"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "FinalTowerAdventure"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "FinalTowerAdventure",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "GashaponLotteryMain_shinku": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "MangHe_shinku_01"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Activity",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_OpActivity",
+          "UIParaming": [
+            "ActivityMainForm",
+            "GashaponLottery",
+            "MangHe_shinku"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FishingSpot_sp001": {
+        "Type": "EItemOutputSource::OS_SHOP",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
+          "Key": "FishingSpot_sp001_name"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_FishMapPoint",
+          "UIParaming": [
+            "FishingSpot_sp001"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Shop_Core_5": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_LotteryShop_name"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_Core_5"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "Robbank",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FinalTowerRecycleShop": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "FinalTower_SellEquipment"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "FinalTowerRecycleShop"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "FinalTower",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+},
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FTSheepCoinShop": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "FTSheepCoinShop_name"
+},
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+},
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
 },
           "SwitchArray": [],
           "DynamicParam": {

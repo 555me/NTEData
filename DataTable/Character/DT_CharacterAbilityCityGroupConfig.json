@@ -4271,7 +4271,7 @@
           "SubPathString": ""
 },
         "Description": {
-          "CultureInvariantString": "<!>小吱觉醒-1-x"
+          "CultureInvariantString": "<!>小吱-2"
 },
         "AbilityName": {
           "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
@@ -4311,7 +4311,7 @@
           "SubPathString": ""
 },
         "Description": {
-          "CultureInvariantString": "<!>安魂曲觉醒-1-x"
+          "CultureInvariantString": "<!>安魂曲-2"
 },
         "AbilityName": {
           "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
@@ -4374,7 +4374,7 @@
           "SubPathString": ""
 },
         "Description": {
-          "CultureInvariantString": "<!>卡厄斯觉醒-1-x"
+          "CultureInvariantString": "<!>卡厄斯-2"
 },
         "AbilityName": {
           "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
@@ -4406,6 +4406,628 @@
         ],
         "AbilityGroupType": [
           "ECharacterCityAbilityGroupType::GROUP_EXPLORE"
+        ]
+      },
+      "City_Ability_Shinku_01": {
+        "GroupId": "City_Ability_Shinku_01",
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/CityAbilityIcon/YH_UI_Skill_oemy.YH_UI_Skill_oemy",
+          "SubPathString": ""
+},
+        "Description": {
+          "CultureInvariantString": "<！>新模拟经营技能✔"
+},
+        "AbilityName": {
+          "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+          "Key": "City_Ability_Shinku_01_name"
+},
+        "AbilityCityAttributeArray": [
+          {
+            "AttributeID": "City_Ability_Shinku_01",
+            "AttributeLevel": 1,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Shinku_01_lv1"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::FixedRepeatEntry",
+                    "PropDes": {
+                      "CultureInvariantString": null
+},
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::Cuisine_Price_Base_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.3
+}
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_Drink",
+                    "EntryCount": 3,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Aidejia_01",
+            "AttributeLevel": 2,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_2.Anhun_H_2",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性2"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Shinku_01_lv2"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
+                    "PropDes": {
+                      "CultureInvariantString": null
+},
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::New_Materials_Consume_Reduce_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.01
+}
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
+                    "EntryCount": 0,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Shinku_01",
+            "AttributeLevel": 3,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Shinku_01_lv3"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::FixedRepeatEntry",
+                    "PropDes": {
+                      "CultureInvariantString": null
+},
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::Cuisine_Price_Base_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.3
+}
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_Drink",
+                    "EntryCount": 3,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Shinku_01",
+            "AttributeLevel": 4,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_4.Anhun_H_4",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Shinku_01_lv4"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
+                    "PropDes": {
+                      "CultureInvariantString": null
+},
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::New_Materials_Consume_Reduce_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.01
+}
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
+                    "EntryCount": 0,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Shinku_01",
+            "AttributeLevel": 5,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Shinku_01_lv5"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::FixedRepeatEntry",
+                    "PropDes": {
+                      "CultureInvariantString": null
+},
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::Cuisine_Price_Percentage_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.03
+}
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_Drink",
+                    "EntryCount": 3,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          }
+        ],
+        "AbilityGroupType": [
+          "ECharacterCityAbilityGroupType::GROUP_STORE"
+        ]
+      },
+      "City_Ability_Shinku_02": {
+        "GroupId": "City_Ability_Shinku_02",
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/CityAbilityIcon/YH_UI_Skill_cchs.YH_UI_Skill_cchs",
+          "SubPathString": ""
+},
+        "Description": {
+          "CultureInvariantString": "<!>真红2"
+},
+        "AbilityName": {
+          "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+          "Key": "City_Ability_Shinku_02_name"
+},
+        "AbilityCityAttributeArray": [
+          {
+            "AttributeID": "City_Ability_Shinku_02",
+            "AttributeLevel": 1,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性2"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Shinku_02_lv1"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "MahjongSettleExtraCostStamina": [
+                  {
+                    "Key": "EHTSitType::ChuanMahjong",
+                    "Value": 2
+},
+                  {
+                    "Key": "EHTSitType::RiichiMahjong",
+                    "Value": 6
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Shinku_02",
+            "AttributeLevel": 2,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_2.Anhun_H_2",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Shinku_02_lv2"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "MahjongSettleExtraCostStamina": [
+                  {
+                    "Key": "EHTSitType::ChuanMahjong",
+                    "Value": 1
+},
+                  {
+                    "Key": "EHTSitType::RiichiMahjong",
+                    "Value": 3
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          }
+        ],
+        "AbilityGroupType": [
+          "ECharacterCityAbilityGroupType::GROUP_OTHER"
+        ]
+      },
+      "City_Ability_Oneiroi_01": {
+        "GroupId": "City_Ability_Oneiroi_01",
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/CityAbilityIcon/YH_UI_Skill_hyhy.YH_UI_Skill_hyhy",
+          "SubPathString": ""
+},
+        "Description": {
+          "CultureInvariantString": "<！>新模拟经营技能✔"
+},
+        "AbilityName": {
+          "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+          "Key": "City_Ability_Oneiroi_01_name"
+},
+        "AbilityCityAttributeArray": [
+          {
+            "AttributeID": "City_Ability_Oneiroi_01",
+            "AttributeLevel": 1,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Oneiroi_01_lv1"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
+                    "PropDes": {
+                      "CultureInvariantString": null
+},
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Base_Property",
+                      "PropertyData": {
+                        "PropertyValue": 18.0
+}
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
+                    "EntryCount": 0,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 1,
+                    "AddPerMaxLimit": 0.5,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Oneiroi_01",
+            "AttributeLevel": 2,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_2.Anhun_H_2",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性2"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Oneiroi_01_lv2"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
+                    "PropDes": {
+                      "CultureInvariantString": null
+},
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::New_Materials_Consume_Reduce_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.01
+}
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
+                    "EntryCount": 0,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Oneiroi_01",
+            "AttributeLevel": 3,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Oneiroi_01_lv3"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
+                    "PropDes": {
+                      "CultureInvariantString": null
+},
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Base_Property",
+                      "PropertyData": {
+                        "PropertyValue": 18.0
+}
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
+                    "EntryCount": 0,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 1,
+                    "AddPerMaxLimit": 0.5,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Oneiroi_01",
+            "AttributeLevel": 4,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_4.Anhun_H_4",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Oneiroi_01_lv4"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
+                    "PropDes": {
+                      "CultureInvariantString": null
+},
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::New_Materials_Consume_Reduce_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.01
+}
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
+                    "EntryCount": 0,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Oneiroi_01",
+            "AttributeLevel": 5,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_5.Anhun_H_5",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Oneiroi_01_lv5"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
+                    "PropDes": {
+                      "CultureInvariantString": null
+},
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Base_Property",
+                      "PropertyData": {
+                        "PropertyValue": 27.0
+}
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
+                    "EntryCount": 0,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+}
+                ],
+                "bInFormation": false
+}
+            ]
+          }
+        ],
+        "AbilityGroupType": [
+          "ECharacterCityAbilityGroupType::GROUP_STORE"
+        ]
+      },
+      "City_Ability_Oneiroi_02": {
+        "GroupId": "City_Ability_Oneiroi_02",
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/CityAbilityIcon/YH_UI_Skill_dtct.YH_UI_Skill_dtct",
+          "SubPathString": ""
+},
+        "Description": {
+          "CultureInvariantString": "<!>伊洛伊"
+},
+        "AbilityName": {
+          "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+          "Key": "City_Ability_Oneiroi_02_name"
+},
+        "AbilityCityAttributeArray": [
+          {
+            "AttributeID": "City_Ability_Oneiroi_02",
+            "AttributeLevel": 1,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性2"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Oneiroi_02_lv1"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "ExtraConsumeStamina": 1,
+                "bInFormation": false
+}
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Oneiroi_02",
+            "AttributeLevel": 2,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_2.Anhun_H_2",
+              "SubPathString": ""
+},
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+},
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Oneiroi_02_lv2"
+},
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "AddUpperLimitSatisfaction": 25,
+                "bInFormation": false
+}
+            ]
+          }
+        ],
+        "AbilityGroupType": [
+          "ECharacterCityAbilityGroupType::GROUP_OTHER"
         ]
       }
     }

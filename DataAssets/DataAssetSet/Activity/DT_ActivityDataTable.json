@@ -12,6 +12,30 @@
 }
     },
     "Rows": {
+      "ReturningPlayer": {
+        "ActivityType": "EActivityType::ActivityType_ReturningPlayer",
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Returning_name"
+},
+        "ThumImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ActUIClass": "ReturningPlayerMain",
+        "ActPrimaryDataAsset": {
+          "ObjectName": "HTActivityReturningPlayerDataAsset'DA_ReturningPlayer'",
+          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/ReturningPlayer/DA_ReturningPlayer.0"
+},
+        "ActHandleClass": {
+          "ObjectName": "Class'HTActivity_ReturningPlayer'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "SortPriority": 0,
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.ConfigActivity.Returning"
+}
+      },
       "SignUp": {
         "ActivityType": "EActivityType::ActivityType_SignIn",
         "ActivityName": {
@@ -23,10 +47,7 @@
           "SubPathString": ""
 },
         "ActUIClass": "ActivitySignInMain",
-        "ActPrimaryDataAsset": {
-          "ObjectName": "HTActivitySignInDataAsset'DA_ActivitySignInDataAsset'",
-          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/SignIn/DA_ActivitySignInDataAsset.0"
-},
+        "ActPrimaryDataAsset": null,
         "ActHandleClass": {
           "ObjectName": "Class'HTActivity_SignIn'",
           "ObjectPath": "/Script/HTGame"
@@ -47,10 +68,7 @@
           "SubPathString": ""
 },
         "ActUIClass": "ActivityStrongPath",
-        "ActPrimaryDataAsset": {
-          "ObjectName": "HTActivityStrongPathDataAsset'DA_ActivityStrongPathDataAsset'",
-          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/StrongPath/DA_ActivityStrongPathDataAsset.0"
-},
+        "ActPrimaryDataAsset": null,
         "ActHandleClass": {
           "ObjectName": "Class'HTActivity_StrongPath'",
           "ObjectPath": "/Script/HTGame"
@@ -71,10 +89,7 @@
           "SubPathString": ""
 },
         "ActUIClass": "NewBieGoalsMain",
-        "ActPrimaryDataAsset": {
-          "ObjectName": "HTActivityNewBieGoalsDataAsset'DA_ActivityNewBieGoalsDataAsset'",
-          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/NewBieGoals/DA_ActivityNewBieGoalsDataAsset.0"
-},
+        "ActPrimaryDataAsset": null,
         "ActHandleClass": {
           "ObjectName": "Class'HTActivity_NewBieGoals'",
           "ObjectPath": "/Script/HTGame"
@@ -116,10 +131,7 @@
           "SubPathString": ""
 },
         "ActUIClass": "ActivityCityGameplay",
-        "ActPrimaryDataAsset": {
-          "ObjectName": "HTActivityCityGameplayDataAsset'DA_ActivityCityGameplayDataAsset'",
-          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/CityGameplay/DA_ActivityCityGameplayDataAsset.0"
-},
+        "ActPrimaryDataAsset": null,
         "ActHandleClass": {
           "ObjectName": "Class'HTActivity_CityGameplay'",
           "ObjectPath": "/Script/HTGame"
@@ -140,10 +152,7 @@
           "SubPathString": ""
 },
         "ActUIClass": "ActivityCollectingFork",
-        "ActPrimaryDataAsset": {
-          "ObjectName": "HTActCollectingForkDataAsset'DA_ActivityCollectingForkDataAsset'",
-          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/CollectingFork/DA_ActivityCollectingForkDataAsset.0"
-},
+        "ActPrimaryDataAsset": null,
         "ActHandleClass": {
           "ObjectName": "Class'HTActivity_CollectingFork'",
           "ObjectPath": "/Script/HTGame"

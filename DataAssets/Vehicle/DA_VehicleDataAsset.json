@@ -23,6 +23,10 @@
         "ObjectName": "DataTable'DT_VehiclePeerConditionData'",
         "ObjectPath": "/Game/DataTable/Vehicle/DT_VehiclePeerConditionData.0"
 },
+      "DT_VehicleFishHookTable": {
+        "ObjectName": "DataTable'DT_VehicleFishHookData'",
+        "ObjectPath": "/Game/DataTable/Vehicle/DT_VehicleFishHookData.0"
+},
       "VehicleParticleAssetsDataTable": null,
       "ModuleCommonWidgetMap": [
         {
@@ -166,6 +170,13 @@
             "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_fengxian.YH_UI_CarComponent_fengxian",
             "SubPathString": ""
 }
+        },
+        {
+          "Key": "EVehicleModuleType::EVMT_VehicleHook",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_guagou.YH_UI_CarComponent_guagou",
+            "SubPathString": ""
+}
         }
       ],
       "ModuleTypeNameMap": [
@@ -300,6 +311,13 @@
           "Value": {
             "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
             "Key": "VehicleModuleItem_Stitch"
+}
+        },
+        {
+          "Key": "EVehicleModuleType::EVMT_VehicleHook",
+          "Value": {
+            "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+            "Key": "VehicleModuleItem_Hook"
 }
         }
       ],
@@ -630,6 +648,38 @@
 }
             }
           }
+        },
+        {
+          "Key": "Vehicle039",
+          "Value": {
+            "SequencePointID": "Vehicle026",
+            "SequencePlayerTransferPointID": "None",
+            "BuyVehicleSequence": {
+              "AssetPathName": "/Game/Blueprints/Level/SingleLevel/zhenhong/zhenhong_moto_seq.zhenhong_moto_seq",
+              "SubPathString": ""
+},
+            "VehicleSpawnTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+},
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          }
         }
       ],
       "FixedIconId2BGM": [
@@ -932,7 +982,10 @@
         }
       ],
       "RentIndicatorAutoHideDistanceMax": 3000.0,
-      "JumpVehicleDamageGE": null
+      "JumpVehicleDamageGE": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Vehicle_JumpOut_C'",
+        "ObjectPath": "/Game/Blueprints/Abilities/Player/Common/Vehicle/GE_Vehicle_JumpOut.1"
 }
+    }
   }
 ]

@@ -1,0 +1,1555 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FT_Character",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Maps_4N/DataTable/Character/DT_FT_Character",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'StaticItemData'",
+        "ObjectPath": "/Script/HTGame"
+}
+    },
+    "Rows": {
+      "ft_character_mint": {
+        "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CHARACTER",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+          "SubPathString": ""
+},
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019x100.player_019x100",
+          "SubPathString": ""
+},
+        "ItemIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_019_256.player_019_256",
+          "SubPathString": ""
+},
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_019"
+},
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "NPC001_homeplace"
+},
+        "Description": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "NPC001_introduction"
+},
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_Mint",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "DefaultAddItems": [
+            "ft_armor_mint_white1_origin_chest_white_1",
+            "ft_armor_mint_white1_origin_shoulder_white_1",
+            "ft_armor_mint_white1_origin_legs_white_1",
+            "ft_armor_mint_white1_origin_shoes_white_1",
+            "ft_armor_mint_white1_origin_weapon_white_1"
+          ],
+          "Job": "EFinalTowerJob::Warrior",
+          "ArmorVoice": {
+            "CultureInvariantString": null
+},
+          "ReliveVoiceList": [
+            {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg.ST_IntroduceMsg",
+              "Key": "MainUI_Prologue_Mint_00001"
+},
+            {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg.ST_IntroduceMsg",
+              "Key": "MainUI_Prologue_Mint_00006"
+}
+          ],
+          "CharacterActorClass": {
+            "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_Player_019_Mint.FT_Player_019_Mint_C",
+            "SubPathString": ""
+},
+          "UISimpleCharacterActorClass": {
+            "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_PlayerUIShow_019.FT_PlayerUIShow_019_C",
+            "SubPathString": ""
+},
+          "PropModifyID": "Mint_base",
+          "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
+          "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_TWO",
+          "UpgradePackId": "character_Upgrade",
+          "UpgradeModifyPackId": "FT_Mint_lv",
+          "BreakthroughPackId": "Mint_Breakthrough",
+          "AwakenCostItem": "",
+          "MaxAwakenLevel": 0,
+          "AwakenIconList": [],
+          "AwakenSpineUI": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "MaxAwakenAwardDropId": "None",
+          "ForkId": "None",
+          "EquipmentSlotID": "None",
+          "EquipBaseplateStaticMesh": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "EquipInnerReactionLayerStaticMesh": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "EquipmentHandleBaseLockedEffectIndex": -1,
+          "UIScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+},
+          "CameraUpHeight": 50.0,
+          "CameraOffsets": 0.0,
+          "ForkMeshOffsets": 0.0,
+          "EquipmentHandMeshOffsets": 0.0,
+          "bIsAutoEquip": false,
+          "AbyssAssistBuff": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "AbilityUIIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "AbilityUIColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FF00FF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "UIStackStyleTemplet": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "UIExCharacterSlotTemplate": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "bIsHoldWeapon": false,
+          "MotionData": [],
+          "FashionList": [],
+          "DefaultFashionID": "None",
+          "UnlockLevel": 0,
+          "bTeachingEnable": true,
+          "CharacterIllustration": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "CharacterTrackId": "None",
+          "TrackOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "LikeabilityID": "None",
+          "bCheckShowTime": false,
+          "ShowTime": {
+            "MainlandTime": {
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
+              "Second": 0
+},
+            "OverseaTime": {
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
+              "Second": 0
+},
+            "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [],
+          "CharGenderType": "ECharGenderType::NoneGender",
+          "FormationCharacterRotationArr": [
+            {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+},
+            {
+              "Pitch": 0.0,
+              "Yaw": 100.0,
+              "Roll": 0.0
+}
+          ]
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0"
+},
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_1"
+},
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 0.686686,
+                "G": 0.078187,
+                "B": 0.078187,
+                "A": 1.0,
+                "Hex": "D84F4F"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          }
+        ],
+        "bIsLimitAmount": false,
+        "bIsManual": true,
+        "bIsInvite": true,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+},
+      "ft_character_1051": {
+        "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CHARACTER",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
+          "SubPathString": ""
+},
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009x100.player_009x100",
+          "SubPathString": ""
+},
+        "ItemIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_009_256.player_009_256",
+          "SubPathString": ""
+},
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_009"
+},
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "ZERO_F_homeplace"
+},
+        "Description": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "ZERO_F_introduction"
+},
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_Female",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "DefaultAddItems": [
+            "ft_armor_1051_white1_origin_chest_white_1",
+            "ft_armor_1051_white1_origin_shoulder_white_1",
+            "ft_armor_1051_white1_origin_legs_white_1",
+            "ft_armor_1051_white1_origin_shoes_white_1",
+            "ft_armor_1051_white1_origin_weapon_white_1"
+          ],
+          "Job": "EFinalTowerJob::Swordman",
+          "ArmorVoice": {
+            "CultureInvariantString": null
+},
+          "ReliveVoiceList": [],
+          "CharacterActorClass": {
+            "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_Player_051_Female.FT_Player_051_Female_C",
+            "SubPathString": ""
+},
+          "UISimpleCharacterActorClass": {
+            "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_PlayerUIShow_051.FT_PlayerUIShow_051_C",
+            "SubPathString": ""
+},
+          "PropModifyID": "Female_base",
+          "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+          "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_ONE",
+          "UpgradePackId": "character_Upgrade",
+          "UpgradeModifyPackId": "FT_Female_lv",
+          "BreakthroughPackId": "Female_Breakthrough",
+          "AwakenCostItem": "",
+          "MaxAwakenLevel": 0,
+          "AwakenIconList": [],
+          "AwakenSpineUI": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "MaxAwakenAwardDropId": "None",
+          "ForkId": "None",
+          "EquipmentSlotID": "None",
+          "EquipBaseplateStaticMesh": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "EquipInnerReactionLayerStaticMesh": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "EquipmentHandleBaseLockedEffectIndex": -1,
+          "UIScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+},
+          "CameraUpHeight": 18.0,
+          "CameraOffsets": 0.0,
+          "ForkMeshOffsets": 0.0,
+          "EquipmentHandMeshOffsets": 0.0,
+          "bIsAutoEquip": false,
+          "AbyssAssistBuff": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "AbilityUIIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "AbilityUIColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FF00FF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "UIStackStyleTemplet": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "UIExCharacterSlotTemplate": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "bIsHoldWeapon": false,
+          "MotionData": [],
+          "FashionList": [],
+          "DefaultFashionID": "None",
+          "UnlockLevel": 0,
+          "bTeachingEnable": true,
+          "CharacterIllustration": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "CharacterTrackId": "None",
+          "TrackOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "LikeabilityID": "None",
+          "bCheckShowTime": false,
+          "ShowTime": {
+            "MainlandTime": {
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
+              "Second": 0
+},
+            "OverseaTime": {
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
+              "Second": 0
+},
+            "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [],
+          "CharGenderType": "ECharGenderType::NoneGender",
+          "FormationCharacterRotationArr": [
+            {
+              "Pitch": 0.0,
+              "Yaw": 100.0,
+              "Roll": 0.0
+}
+          ]
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0"
+},
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_2"
+},
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 0.597202,
+                "G": 0.072272,
+                "B": 0.223228,
+                "A": 1.0,
+                "Hex": "CB4C82"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_1"
+},
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 0.686686,
+                "G": 0.078187,
+                "B": 0.078187,
+                "A": 1.0,
+                "Hex": "D84F4F"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          }
+        ],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+},
+      "ft_character_1046": {
+        "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CHARACTER",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_046.player_046",
+          "SubPathString": ""
+},
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/100/player_046x100.player_046x100",
+          "SubPathString": ""
+},
+        "ItemIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_046_256.player_046_256",
+          "SubPathString": ""
+},
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_009"
+},
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "ZERO_F_homeplace"
+},
+        "Description": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "ZERO_F_introduction"
+},
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_player",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "DefaultAddItems": [
+            "ft_armor_1051_white1_origin_chest_white_1",
+            "ft_armor_1051_white1_origin_shoulder_white_1",
+            "ft_armor_1051_white1_origin_legs_white_1",
+            "ft_armor_1051_white1_origin_shoes_white_1",
+            "ft_armor_1051_white1_origin_weapon_white_1"
+          ],
+          "Job": "EFinalTowerJob::Swordman",
+          "ArmorVoice": {
+            "CultureInvariantString": null
+},
+          "ReliveVoiceList": [],
+          "CharacterActorClass": {
+            "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_player_046_male.FT_player_046_male_C",
+            "SubPathString": ""
+},
+          "UISimpleCharacterActorClass": {
+            "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_PlayerUIShow_046.FT_PlayerUIShow_046_C",
+            "SubPathString": ""
+},
+          "PropModifyID": "Female_base",
+          "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+          "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_ONE",
+          "UpgradePackId": "character_Upgrade",
+          "UpgradeModifyPackId": "FT_Female_lv",
+          "BreakthroughPackId": "Female_Breakthrough",
+          "AwakenCostItem": "",
+          "MaxAwakenLevel": 0,
+          "AwakenIconList": [],
+          "AwakenSpineUI": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "MaxAwakenAwardDropId": "None",
+          "ForkId": "None",
+          "EquipmentSlotID": "None",
+          "EquipBaseplateStaticMesh": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "EquipInnerReactionLayerStaticMesh": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "EquipmentHandleBaseLockedEffectIndex": -1,
+          "UIScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+},
+          "CameraUpHeight": 50.0,
+          "CameraOffsets": 0.0,
+          "ForkMeshOffsets": 0.0,
+          "EquipmentHandMeshOffsets": 0.0,
+          "bIsAutoEquip": false,
+          "AbyssAssistBuff": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "AbilityUIIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "AbilityUIColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FF00FF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "UIStackStyleTemplet": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "UIExCharacterSlotTemplate": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "bIsHoldWeapon": false,
+          "MotionData": [],
+          "FashionList": [],
+          "DefaultFashionID": "None",
+          "UnlockLevel": 0,
+          "bTeachingEnable": true,
+          "CharacterIllustration": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "CharacterTrackId": "None",
+          "TrackOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "LikeabilityID": "None",
+          "bCheckShowTime": false,
+          "ShowTime": {
+            "MainlandTime": {
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
+              "Second": 0
+},
+            "OverseaTime": {
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
+              "Second": 0
+},
+            "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [],
+          "CharGenderType": "ECharGenderType::NoneGender",
+          "FormationCharacterRotationArr": [
+            {
+              "Pitch": 0.0,
+              "Yaw": 100.0,
+              "Roll": 0.0
+}
+          ]
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0"
+},
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_2"
+},
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 0.597202,
+                "G": 0.072272,
+                "B": 0.223228,
+                "A": 1.0,
+                "Hex": "CB4C82"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_1"
+},
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 0.686686,
+                "G": 0.078187,
+                "B": 0.078187,
+                "A": 1.0,
+                "Hex": "D84F4F"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          }
+        ],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+},
+      "ft_character_1075": {
+        "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CHARACTER",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_yiluoyi.player_yiluoyi",
+          "SubPathString": ""
+},
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/100/player_yiluoyi_100.player_yiluoyi_100",
+          "SubPathString": ""
+},
+        "ItemIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_yiluoyi_256.player_yiluoyi_256",
+          "SubPathString": ""
+},
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_075"
+},
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "F_NPC026_006"
+},
+        "Description": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "F_NPC026_007"
+},
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_oneiroi",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "DefaultAddItems": [
+            "ft_armor_1075_white1_origin_chest_white_1",
+            "ft_armor_1075_white1_origin_shoulder_white_1",
+            "ft_armor_1075_white1_origin_legs_white_1",
+            "ft_armor_1075_white1_origin_shoes_white_1",
+            "ft_armor_1075_white1_origin_weapon_white_1"
+          ],
+          "Job": "EFinalTowerJob::Mage",
+          "ArmorVoice": {
+            "CultureInvariantString": null
+},
+          "ReliveVoiceList": [],
+          "CharacterActorClass": {
+            "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_Player_075_Oneiroi.FT_Player_075_Oneiroi_C",
+            "SubPathString": ""
+},
+          "UISimpleCharacterActorClass": {
+            "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_PlayerUIShow_075.FT_PlayerUIShow_075_C",
+            "SubPathString": ""
+},
+          "PropModifyID": "oneiroi_base",
+          "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
+          "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_FOUR",
+          "UpgradePackId": "character_Upgrade",
+          "UpgradeModifyPackId": "FT_Oneiroi_lv",
+          "BreakthroughPackId": "oneiroi_Breakthrough",
+          "AwakenCostItem": "Characterawaken_oneiroi:1",
+          "MaxAwakenLevel": 6,
+          "AwakenIconList": [],
+          "AwakenSpineUI": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "MaxAwakenAwardDropId": "None",
+          "ForkId": "None",
+          "EquipmentSlotID": "None",
+          "EquipBaseplateStaticMesh": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "EquipInnerReactionLayerStaticMesh": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "EquipmentHandleBaseLockedEffectIndex": -1,
+          "UIScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+},
+          "CameraUpHeight": 28.0,
+          "CameraOffsets": 0.0,
+          "ForkMeshOffsets": 8.0,
+          "EquipmentHandMeshOffsets": 0.0,
+          "bIsAutoEquip": false,
+          "AbyssAssistBuff": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "AbilityUIIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_character_xiaozhi.YH_lihui_character_xiaozhi",
+            "SubPathString": ""
+},
+          "AbilityUIColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FF00FF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "UIStackStyleTemplet": {
+            "AssetPathName": "/Game/UI/Blueprints/Skill/BufferStack/BPUI_Oneiroi.BPUI_Oneiroi_C",
+            "SubPathString": ""
+},
+          "UIExCharacterSlotTemplate": {
+            "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterSlotOneiroiExtraMoon.BPUI_CharacterSlotOneiroiExtraMoon_C",
+            "SubPathString": ""
+},
+          "bIsHoldWeapon": false,
+          "MotionData": [],
+          "FashionList": [],
+          "DefaultFashionID": "None",
+          "UnlockLevel": 0,
+          "bTeachingEnable": true,
+          "CharacterIllustration": {
+            "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_yiluoyi.YH_UI_shizhuang_big_yiluoyi",
+            "SubPathString": ""
+},
+          "CharacterTrackId": "None",
+          "TrackOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "LikeabilityID": "None",
+          "bCheckShowTime": false,
+          "ShowTime": {
+            "MainlandTime": {
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
+              "Second": 0
+},
+            "OverseaTime": {
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
+              "Second": 0
+},
+            "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [],
+          "CharGenderType": "ECharGenderType::NoneGender",
+          "FormationCharacterRotationArr": [
+            {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+},
+            {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+},
+            {
+              "Pitch": 0.0,
+              "Yaw": 120.0,
+              "Roll": 0.0
+}
+          ]
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0"
+},
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_2"
+},
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 0.597202,
+                "G": 0.072272,
+                "B": 0.223228,
+                "A": 1.0,
+                "Hex": "CB4C82"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_1"
+},
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 0.686686,
+                "G": 0.078187,
+                "B": 0.078187,
+                "A": 1.0,
+                "Hex": "D84F4F"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          }
+        ],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+},
+      "ft_character_1076": {
+        "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CHARACTER",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_zhenhong.player_zhenhong",
+          "SubPathString": ""
+},
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/100/player_zhenhong_100.player_zhenhong_100",
+          "SubPathString": ""
+},
+        "ItemIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_zhenhong_256.player_zhenhong_256",
+          "SubPathString": ""
+},
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_076"
+},
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "ZERO_F_homeplace"
+},
+        "Description": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "ZERO_F_introduction"
+},
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_Shinku",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "DefaultAddItems": [
+            "ft_armor_1076_white1_origin_chest_white_1",
+            "ft_armor_1076_white1_origin_shoulder_white_1",
+            "ft_armor_1076_white1_origin_legs_white_1",
+            "ft_armor_1076_white1_origin_shoes_white_1",
+            "ft_armor_1076_white1_origin_weapon_white_1"
+          ],
+          "Job": "EFinalTowerJob::Civilian",
+          "ArmorVoice": {
+            "CultureInvariantString": null
+},
+          "ReliveVoiceList": [],
+          "CharacterActorClass": {
+            "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_Player_076_shinku.FT_Player_076_shinku_C",
+            "SubPathString": ""
+},
+          "UISimpleCharacterActorClass": {
+            "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_PlayerUIShow_076.FT_PlayerUIShow_076_C",
+            "SubPathString": ""
+},
+          "PropModifyID": "shinku_base",
+          "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+          "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_FIVE",
+          "UpgradePackId": "character_Upgrade_ShinKu",
+          "UpgradeModifyPackId": "FT_Shinku_lv",
+          "BreakthroughPackId": "Shinku_Breakthrough",
+          "AwakenCostItem": "",
+          "MaxAwakenLevel": 6,
+          "AwakenIconList": [
+            {
+              "HeadIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs44.jxcs44",
+                "SubPathString": ""
+},
+              "MaskIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs38.jxcs38",
+                "SubPathString": ""
+}
+            },
+            {
+              "HeadIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs46.jxcs46",
+                "SubPathString": ""
+},
+              "MaskIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs40.jxcs40",
+                "SubPathString": ""
+}
+            },
+            {
+              "HeadIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs43.jxcs43",
+                "SubPathString": ""
+},
+              "MaskIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs37.jxcs37",
+                "SubPathString": ""
+}
+            },
+            {
+              "HeadIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs47.jxcs47",
+                "SubPathString": ""
+},
+              "MaskIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs41.jxcs41",
+                "SubPathString": ""
+}
+            },
+            {
+              "HeadIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs48.jxcs48",
+                "SubPathString": ""
+},
+              "MaskIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs42.jxcs42",
+                "SubPathString": ""
+}
+            },
+            {
+              "HeadIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs45.jxcs45",
+                "SubPathString": ""
+},
+              "MaskIcon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs39.jxcs39",
+                "SubPathString": ""
+}
+            }
+          ],
+          "AwakenSpineUI": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "MaxAwakenAwardDropId": "None",
+          "ForkId": "None",
+          "EquipmentSlotID": "None",
+          "EquipBaseplateStaticMesh": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "EquipInnerReactionLayerStaticMesh": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "EquipmentHandleBaseLockedEffectIndex": -1,
+          "UIScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+},
+          "CameraUpHeight": 36.0,
+          "CameraOffsets": 11.5,
+          "ForkMeshOffsets": 20.0,
+          "EquipmentHandMeshOffsets": 11.5,
+          "bIsAutoEquip": false,
+          "AbyssAssistBuff": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "AbilityUIIcon": {
+            "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_fashionshop_zhenhong.YH_lihui_fashionshop_zhenhong",
+            "SubPathString": ""
+},
+          "AbilityUIColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FF00FF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "UIStackStyleTemplet": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "UIExCharacterSlotTemplate": {
+            "AssetPathName": "",
+            "SubPathString": ""
+},
+          "bIsHoldWeapon": false,
+          "MotionData": [],
+          "FashionList": [],
+          "DefaultFashionID": "None",
+          "UnlockLevel": 0,
+          "bTeachingEnable": true,
+          "CharacterIllustration": {
+            "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_zhenhong.YH_UI_shizhuang_big_zhenhong",
+            "SubPathString": ""
+},
+          "CharacterTrackId": "None",
+          "TrackOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "LikeabilityID": "None",
+          "bCheckShowTime": false,
+          "ShowTime": {
+            "MainlandTime": {
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
+              "Second": 0
+},
+            "OverseaTime": {
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
+              "Second": 0
+},
+            "OverseaUseUTCTime": true
+},
+          "AwakenAwards": [],
+          "CharGenderType": "ECharGenderType::NoneGender",
+          "FormationCharacterRotationArr": [
+            {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+},
+            {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+},
+            {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+},
+            {
+              "Pitch": 0.0,
+              "Yaw": 130.0,
+              "Roll": 0.0
+}
+          ]
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0"
+},
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FF00FF"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_2"
+},
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 0.597202,
+                "G": 0.072272,
+                "B": 0.223228,
+                "A": 1.0,
+                "Hex": "CB4C82"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_1"
+},
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 0.686686,
+                "G": 0.078187,
+                "B": 0.078187,
+                "A": 1.0,
+                "Hex": "D84F4F"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
+          }
+        ],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+}
+    }
+  }
+]

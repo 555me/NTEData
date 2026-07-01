@@ -41,6 +41,20 @@
             "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleKaesi'",
             "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleKaesi.0"
 }
+        },
+        {
+          "Key": "Lottery_ZhenHong",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleZhenHong'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleZhenHong.0"
+}
+        },
+        {
+          "Key": "Lottery_Yiluoyi",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleYiluoyi'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleYiluoyi.0"
+}
         }
       ],
       "MonopolyModuleDefines": [
@@ -83,6 +97,14 @@
             "SubPathString": ""
 },
           "Priority": 4
+},
+        {
+          "ModuleID": "Lottery_ZhenHong",
+          "LotteryModuleWidget": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg/LotteryBg_ZhenHong.LotteryBg_ZhenHong_C",
+            "SubPathString": ""
+},
+          "Priority": 5
 }
       ],
       "LotteryPortraitDataTable": {
@@ -1210,6 +1232,76 @@
         },
         {
           "CharacterID": "1071",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+},
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ]
+        },
+        {
+          "CharacterID": "1075",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+},
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ]
+        },
+        {
+          "CharacterID": "1076",
           "AwardItems": [
             {
               "UniqueID": {

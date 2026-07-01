@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "HTOpActNight999DataAsset",
+    "Name": "DA_OpActNight999DataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTOpActNight999DataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/Activity/Night999/DA_OpActNight999DataAsset",
+    "Properties": {
+      "QuestDataTable": {
+        "ObjectName": "DataTable'DT_OpActNight999QuestDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/Night999/DT_OpActNight999QuestDataTable.0"
+},
+      "QuestTypeArray": [
+        {
+          "QuestType": "ENight999LimitedRewardQuestType::LegendExperience",
+          "TabName": {
+            "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+            "Key": "Night999Quest_Chapter03"
+},
+          "QuestIDArray": [
+            "FT_LimitQuest_3001",
+            "FT_LimitQuest_3002",
+            "FT_LimitQuest_3003",
+            "FT_LimitQuest_3004",
+            "FT_LimitQuest_3005",
+            "FT_LimitQuest_3006"
+          ]
+        },
+        {
+          "QuestType": "ENight999LimitedRewardQuestType::CombatFrenzy",
+          "TabName": {
+            "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+            "Key": "Night999Quest_Chapter01"
+},
+          "QuestIDArray": [
+            "FT_LimitQuest_1001",
+            "FT_LimitQuest_1002",
+            "FT_LimitQuest_1003",
+            "FT_LimitQuest_1004",
+            "FT_LimitQuest_1005",
+            "FT_LimitQuest_1006",
+            "FT_LimitQuest_1007",
+            "FT_LimitQuest_1008",
+            "FT_LimitQuest_1009"
+          ]
+        },
+        {
+          "QuestType": "ENight999LimitedRewardQuestType::EquipmentCollect",
+          "TabName": {
+            "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+            "Key": "Night999Quest_Chapter02"
+},
+          "QuestIDArray": [
+            "FT_LimitQuest_2001",
+            "FT_LimitQuest_2002",
+            "FT_LimitQuest_2003",
+            "FT_LimitQuest_2004",
+            "FT_LimitQuest_2005",
+            "FT_LimitQuest_2006",
+            "FT_LimitQuest_2007",
+            "FT_LimitQuest_2008"
+          ]
+        }
+      ],
+      "UltimateRewardRequiredQuestCount": 23,
+      "UltimateRewardDropID": "drop_FT_LimitQuest_FinalReward",
+      "LimitedRewardQuestRedPointType": "Redpoint.ActivityAwardMain.OpActivity.Night999.LimitQuest.{}.SingleQuest"
+}
+  }
+]

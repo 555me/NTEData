@@ -6,7 +6,10 @@
     "Class": "UScriptClass'HTRoomDataAsset'",
     "Package": "/Game/DataAssets/DataAssetSet/Room/RoomDataAsset",
     "Properties": {
-      "DT_RoomDiyConfigData": null,
+      "DT_RoomDiyConfigData": {
+        "ObjectName": "DataTable'DT_RoomDiyData'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Room/DT_RoomDiyData.0"
+      },
       "DT_FrunitureLoadData": {
         "ObjectName": "DataTable'DT_RoomFurnitureLoad'",
         "ObjectPath": "/Game/DataAssets/DataAssetSet/Room/DT_RoomFurnitureLoad.0"
@@ -175,6 +178,22 @@
             "Y": 0.0,
             "Z": 0.0
           }
+        },
+        {
+          "CharacterID": "1076",
+          "LocationOffset": {
+            "X": 8.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "CharacterID": "1075",
+          "LocationOffset": {
+            "X": 5.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
         }
       ],
       "CloneID": "DLC_dynamic_Boss017",
@@ -325,6 +344,10 @@
         {
           "Key": "1071",
           "Value": "kaesi_jh_0002"
+        },
+        {
+          "Key": "1076",
+          "Value": "zhenhong_jh_0002"
         }
       ],
       "HandsHoldingSummonDistance": 3000.0,
@@ -655,6 +678,34 @@
           }
         }
       ],
+      "MaxDesignCount": 20,
+      "DT_RoomTemperatureData": {
+        "ObjectName": "DataTable'DT_RoomTemperatureData'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Room/DT_RoomTemperatureData.0"
+      },
+      "FishKeepFeedItemID": [
+        "fish_feed_basic_01",
+        "fish_feed_luxury_01"
+      ],
+      "FishKeepTemperatureItemID": "temperature_controller",
+      "FishKeepPHItemID": [
+        "weakly_acidic_water",
+        "weakly_alkaline_water"
+      ],
+      "ComortTemperatureHP": 25.0,
+      "ComortPHHP": 25.0,
+      "UnComortTemperatureHPTable": {
+        "ObjectName": "CurveFloat'Fish_TempDamage'",
+        "ObjectPath": "/Game/Curve/FishCurve/Fish_TempDamage.0"
+      },
+      "UnComortPHHPTable": {
+        "ObjectName": "CurveFloat'Fish_PhDamage'",
+        "ObjectPath": "/Game/Curve/FishCurve/Fish_PhDamage.0"
+      },
+      "SatietyHPTable": {
+        "ObjectName": "CurveFloat'Fish_HungerDamage'",
+        "ObjectPath": "/Game/Curve/FishCurve/Fish_HungerDamage.0"
+      },
       "LoadPolicy": "EHTDataAssetSetLoadPolicy::Cache"
     }
   }

@@ -21,7 +21,7 @@
         ],
         "BgImageArray": [
           {
-            "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_anhunqu.YH_UI_shizhuang_big_anhunqu",
+            "AssetPathName": "/Game/UI/UI/Activity/SignIn/7day/YH_UI_7Day_lihui_zhenhong.YH_UI_7Day_lihui_zhenhong",
             "SubPathString": ""
 }
         ],
@@ -40,8 +40,8 @@
         "ActivityDescription": {
           "CultureInvariantString": null
 },
-        "IsUseFirstReadRedPoint": false,
-        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_Item_Update"
+        "IsUseFirstReadRedPoint": true,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_OpAct_First_SignIn"
 },
       "QuestionnaireSurvey": {
         "ThumImageArray": [
@@ -357,6 +357,39 @@
         "ActivityDescription": {
           "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
           "Key": "Lottery_Kaesi_des"
+},
+        "IsUseFirstReadRedPoint": false,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_Item_Update"
+},
+      "Lottery_ZhenHong": {
+        "ThumImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/5.5",
+            "SubPathString": ""
+}
+        ],
+        "BgImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "Lottery_ZhenHong_name"
+},
+        "ActUIClass": "OpActLotteryGiftMain",
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.{}"
+},
+        "OpActPrimaryDataAsset": null,
+        "ActivityContext": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "Lottery_ZhenHong_name"
+},
+        "ActivityDescription": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "Lottery_ZhenHong_des"
 },
         "IsUseFirstReadRedPoint": false,
         "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_Item_Update"
@@ -695,6 +728,307 @@
 },
         "IsUseFirstReadRedPoint": true,
         "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_OpAct_First_MysteriesOfSunwardIsland"
+},
+      "PlayerReEngagement": {
+        "ThumImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "BgImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "PlayerReEngagement_03"
+},
+        "ActUIClass": "PlayerReEngagement",
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.ReEngagement"
+},
+        "OpActPrimaryDataAsset": null,
+        "ActivityContext": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "PlayerReEngagement_01"
+},
+        "ActivityDescription": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "PlayerReEngagement_02"
+},
+        "IsUseFirstReadRedPoint": true,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_OpAct_First_ReEngagement"
+},
+      "NetFishing": {
+        "ThumImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "BgImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "NetFishing_01"
+},
+        "ActUIClass": "OpActNetFishing",
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.NetFishing"
+},
+        "OpActPrimaryDataAsset": {
+          "ObjectName": "HTActivityDataAsset'DA_Activity'",
+          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/DA_Activity.0"
+},
+        "ActivityContext": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "NetFishing_01"
+},
+        "ActivityDescription": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "NetFishing_02"
+},
+        "IsUseFirstReadRedPoint": true,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_OpAct_First_NetFishing"
+},
+      "PropHunt": {
+        "ThumImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "BgImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "PropHunt_Title"
+},
+        "ActUIClass": "PropHunt",
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.PropHunt"
+},
+        "OpActPrimaryDataAsset": {
+          "ObjectName": "HTActivityDataAsset'DA_Activity'",
+          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/DA_Activity.0"
+},
+        "ActivityContext": {
+          "CultureInvariantString": null
+},
+        "ActivityDescription": {
+          "CultureInvariantString": null
+},
+        "IsUseFirstReadRedPoint": true,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_OpAct_First_PropHunt"
+},
+      "BidKing": {
+        "ThumImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "BgImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_BidKingMainForm_Title"
+},
+        "ActUIClass": "BidKingActMain",
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.Bidking"
+},
+        "OpActPrimaryDataAsset": {
+          "ObjectName": "HTOpActBidKingDataAsset'DA_ActBidKing'",
+          "ObjectPath": "/Game/DataTable/BidKing/DA_ActBidKing.0"
+},
+        "ActivityContext": {
+          "CultureInvariantString": null
+},
+        "ActivityDescription": {
+          "CultureInvariantString": null
+},
+        "IsUseFirstReadRedPoint": true,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_OpAct_First_BidKing"
+},
+      "GiftBonus": {
+        "ThumImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "BgImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GiftBonus_name"
+},
+        "ActUIClass": "GiftBonus",
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.GiftBonus"
+},
+        "OpActPrimaryDataAsset": null,
+        "ActivityContext": {
+          "CultureInvariantString": null
+},
+        "ActivityDescription": {
+          "CultureInvariantString": null
+},
+        "IsUseFirstReadRedPoint": true,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_GiftBonus"
+},
+      "Night999": {
+        "ThumImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "BgImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "ActivityName": {
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "FinalTower_Name"
+},
+        "ActUIClass": "Night999",
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.Night999"
+},
+        "OpActPrimaryDataAsset": {
+          "ObjectName": "HTOpActNight999DataAsset'DA_OpActNight999DataAsset'",
+          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/Night999/DA_OpActNight999DataAsset.0"
+},
+        "ActivityContext": {
+          "CultureInvariantString": null
+},
+        "ActivityDescription": {
+          "CultureInvariantString": null
+},
+        "IsUseFirstReadRedPoint": true,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_OpAct_First_Night999"
+},
+      "ScratchCard": {
+        "ThumImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "BgImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "ScratchCard_06"
+},
+        "ActUIClass": "ActScratchCard",
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.ScratchCard"
+},
+        "OpActPrimaryDataAsset": null,
+        "ActivityContext": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "ScratchCard_06"
+},
+        "ActivityDescription": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "ScratchCard_07"
+},
+        "IsUseFirstReadRedPoint": true,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_OpActivity_ScratchCardFirst"
+},
+      "FlipSignIn": {
+        "ThumImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "BgImageArray": [
+          {
+            "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
+            "SubPathString": ""
+}
+        ],
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
+          "Key": "FlipSignInCard_1"
+},
+        "ActUIClass": "FlipSignIn",
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.FlipSignin"
+},
+        "OpActPrimaryDataAsset": {
+          "ObjectName": "HTOpActFlipSignInDataAsset'DA_OpActFlipSigninDataAsset'",
+          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/OpActFlipSignin/DA_OpActFlipSigninDataAsset.0"
+},
+        "ActivityContext": {
+          "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
+          "Key": "FlipSignInCard_1"
+},
+        "ActivityDescription": {
+          "CultureInvariantString": null
+},
+        "IsUseFirstReadRedPoint": true,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_OpActFlipSignIn"
+},
+      "MultipleCityGameplayConsume": {
+        "ThumImageArray": [
+          {
+            "AssetPathName": "/Game/Blueprints/Level/World/Common/ClawMachine/Doll/1.1",
+            "SubPathString": ""
+}
+        ],
+        "BgImageArray": [
+          {
+            "AssetPathName": "/Game/UI/UI/Achievement/1.1",
+            "SubPathString": ""
+}
+        ],
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "OpMultiCItyGameplay_01"
+},
+        "ActUIClass": "OpActMultiCityGameplayConsume",
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.MultipleCityGameplayConsume"
+},
+        "OpActPrimaryDataAsset": null,
+        "ActivityContext": {
+          "CultureInvariantString": null
+},
+        "ActivityDescription": {
+          "CultureInvariantString": null
+},
+        "IsUseFirstReadRedPoint": true,
+        "ActivityRedPointTriggerType": "ERedPointTriggerType::TT_OpAct_First_MultipleCityStaminaConsume"
 }
     }
   }

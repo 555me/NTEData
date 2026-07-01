@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "HTOpActFlipSignInDataAsset",
+    "Name": "DA_OpActFlipSigninDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTOpActFlipSignInDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/Activity/OpActFlipSignin/DA_OpActFlipSigninDataAsset",
+    "Properties": {
+      "CardDataTable": {
+        "ObjectName": "DataTable'DT_OpActFlipSignInCardConfigDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/OpActFlipSignin/DT_OpActFlipSignInCardConfigDataTable.0"
+      },
+      "FactionDataTable": {
+        "ObjectName": "DataTable'DT_OpActFlipSigninFactionDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/OpActFlipSignin/DT_OpActFlipSigninFactionDataTable.0"
+      },
+      "DailyTaskDataTable": {
+        "ObjectName": "DataTable'DT_OpActFlipSigninDailyTaskConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/OpActFlipSignin/DT_OpActFlipSigninDailyTaskConfig.0"
+      },
+      "CardRarityStyleMap": [
+        {
+          "Key": "EOpActFlipSignInCardRarity::Common",
+          "Value": {
+            "CardBackImage": {
+              "AssetPathName": "/Game/UI/UI/FlipSign/UI_YH_Card_Bkg_01.UI_YH_Card_Bkg_01",
+              "SubPathString": ""
+            },
+            "CardBgImage": {
+              "AssetPathName": "/Game/UI/UI/FlipSign/UI_YH_Card_Bkg_01_04.UI_YH_Card_Bkg_01_04",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EOpActFlipSignInCardRarity::Rare",
+          "Value": {
+            "CardBackImage": {
+              "AssetPathName": "/Game/UI/UI/FlipSign/UI_YH_Card_Bkg_01.UI_YH_Card_Bkg_01",
+              "SubPathString": ""
+            },
+            "CardBgImage": {
+              "AssetPathName": "/Game/UI/UI/FlipSign/UI_YH_Card_Bkg_01_03.UI_YH_Card_Bkg_01_03",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EOpActFlipSignInCardRarity::Epic",
+          "Value": {
+            "CardBackImage": {
+              "AssetPathName": "/Game/UI/UI/FlipSign/UI_YH_Card_Bkg_01.UI_YH_Card_Bkg_01",
+              "SubPathString": ""
+            },
+            "CardBgImage": {
+              "AssetPathName": "/Game/UI/UI/FlipSign/UI_YH_Card_Bkg_01_02.UI_YH_Card_Bkg_01_02",
+              "SubPathString": ""
+            }
+          }
+        }
+      ],
+      "StageAwards": [
+        "drop_activesignin_progress1",
+        "drop_activesignin_progress2",
+        "drop_activesignin_progress3"
+      ]
+    }
+  }
+]

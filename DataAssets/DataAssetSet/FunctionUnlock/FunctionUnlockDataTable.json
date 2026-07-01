@@ -6974,9 +6974,9 @@
         "SwitchID": "ESwitchType::None",
         "Requires": [
           {
-            "ActiveType": "EFunctionUnlockActiveType::PlayerLevel",
-            "MaxValue": 10,
-            "ID": "None"
+            "ActiveType": "EFunctionUnlockActiveType::SpecifiedQuest",
+            "MaxValue": 1,
+            "ID": "L110303"
 }
         ],
         "ConditionType": "EFunctionUnlockConditionType::And",
@@ -9256,6 +9256,385 @@
           "ImageSize": {
             "X": 32.0,
             "Y": 32.0
+},
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+},
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+},
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+},
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "bIsValid": 0
+},
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+},
+        "bShowActiveDescription": false,
+        "Description": {
+          "CultureInvariantString": null
+},
+        "UnlockScene": "None",
+        "UnlockTips": {
+          "CultureInvariantString": null
+},
+        "bEnableQuickMenuOption": false,
+        "QuickMenuIndex_Keyboard": 0,
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::None"
+},
+      "BidKing": {
+        "Comment": "即刻落槌",
+        "ActivatedOnEditor": false,
+        "ID": "BidKing",
+        "SwitchID": "ESwitchType::None",
+        "Requires": [
+          {
+            "ActiveType": "EFunctionUnlockActiveType::PlayerLevel",
+            "MaxValue": 10,
+            "ID": "None"
+},
+          {
+            "ActiveType": "EFunctionUnlockActiveType::SpecifiedQuest",
+            "MaxValue": 0,
+            "ID": "B110112"
+}
+        ],
+        "ConditionType": "EFunctionUnlockConditionType::And",
+        "Actions": [],
+        "UINameToOpen": "BidKingMainForm",
+        "UIExtendParameter": "None",
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_BidKingMainForm_Title"
+},
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+},
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+},
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+},
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+},
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "bIsValid": 0
+},
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+},
+        "bShowActiveDescription": false,
+        "Description": {
+          "CultureInvariantString": null
+},
+        "UnlockScene": "None",
+        "UnlockTips": {
+          "CultureInvariantString": null
+},
+        "bEnableQuickMenuOption": false,
+        "QuickMenuIndex_Keyboard": 0,
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::None"
+},
+      "ShinkuPromotion": {
+        "Comment": "真红转职",
+        "ActivatedOnEditor": false,
+        "ID": "ShinkuPromotion",
+        "SwitchID": "ESwitchType::None",
+        "Requires": [
+          {
+            "ActiveType": "EFunctionUnlockActiveType::SpecifiedQuest",
+            "MaxValue": 1,
+            "ID": "L110347"
+}
+        ],
+        "ConditionType": "EFunctionUnlockConditionType::And",
+        "Actions": [],
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "DisplayName": {
+          "CultureInvariantString": null
+},
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+},
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+},
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+},
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+},
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "bIsValid": 0
+},
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+},
+        "bShowActiveDescription": false,
+        "Description": {
+          "CultureInvariantString": null
+},
+        "UnlockScene": "None",
+        "UnlockTips": {
+          "CultureInvariantString": null
+},
+        "bEnableQuickMenuOption": false,
+        "QuickMenuIndex_Keyboard": 0,
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::None"
+},
+      "FinalTowerAdventure": {
+        "Comment": "真红玩法探索指南",
+        "ActivatedOnEditor": false,
+        "ID": "FinalTowerAdventure",
+        "SwitchID": "ESwitchType::FinalTowerAdventure",
+        "Requires": [
+          {
+            "ActiveType": "EFunctionUnlockActiveType::SpecifiedQuest",
+            "MaxValue": 1,
+            "ID": "L110305"
+}
+        ],
+        "ConditionType": "EFunctionUnlockConditionType::And",
+        "Actions": [],
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "DisplayName": {
+          "CultureInvariantString": null
+},
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+},
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+},
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+},
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+},
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "bIsValid": 0
+},
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+},
+        "bShowActiveDescription": false,
+        "Description": {
+          "CultureInvariantString": null
+},
+        "UnlockScene": "None",
+        "UnlockTips": {
+          "CultureInvariantString": null
+},
+        "bEnableQuickMenuOption": false,
+        "QuickMenuIndex_Keyboard": 0,
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::None"
+},
+      "BidKing_Unlock": {
+        "Comment": "即刻落槌等级判断",
+        "ActivatedOnEditor": false,
+        "ID": "BidKing_Unlock",
+        "SwitchID": "ESwitchType::None",
+        "Requires": [
+          {
+            "ActiveType": "EFunctionUnlockActiveType::PlayerLevel",
+            "MaxValue": 10,
+            "ID": "None"
+}
+        ],
+        "ConditionType": "EFunctionUnlockConditionType::And",
+        "Actions": [],
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_BidKingMainForm_Title"
+},
+        "Icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
 },
           "Margin": {
             "Left": 0.0,

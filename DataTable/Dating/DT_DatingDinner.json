@@ -479,6 +479,194 @@
           }
         ],
         "DinnerActorMap": []
+      },
+      "bench": {
+        "DinnerActionMap": [
+          {
+            "Key": "playerwater",
+            "Value": {
+              "Montages": [
+                {
+                  "Role": "EDatingRole::Both",
+                  "ActionMontageMap": [],
+                  "CAS_ActionMap": [
+                    {
+                      "Key": "1046",
+                      "Value": {
+                        "CASAssetMap": [
+                          {
+                            "Key": "NPC_032",
+                            "Value": {
+                              "ObjectName": "ContextualAnimSceneAsset'ContextAnim_bench_shinku_M'",
+                              "ObjectPath": "/Game/Blueprints/Character/ContextAnim/Date/Bench/ContextAnim_bench_shinku_M.0"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "Key": "1051",
+                      "Value": {
+                        "CASAssetMap": [
+                          {
+                            "Key": "NPC_032",
+                            "Value": {
+                              "ObjectName": "ContextualAnimSceneAsset'ContextAnim_bench_shinku_F'",
+                              "ObjectPath": "/Game/Blueprints/Character/ContextAnim/Date/Bench/ContextAnim_bench_shinku_F.0"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "DisplayName": "",
+              "Icon": {
+                "ObjectName": "Texture2D'YH_UI_Likeability_Butten_06'",
+                "ObjectPath": "/Game/UI/UI/likeability/Date/YH_UI_Likeability_Butten_06.0"
+              },
+              "DateEatMontageName": "Date_bench"
+            }
+          },
+          {
+            "Key": "npcwater",
+            "Value": {
+              "Montages": [
+                {
+                  "Role": "EDatingRole::Both",
+                  "ActionMontageMap": [],
+                  "CAS_ActionMap": [
+                    {
+                      "Key": "1046",
+                      "Value": {
+                        "CASAssetMap": [
+                          {
+                            "Key": "NPC_032",
+                            "Value": {
+                              "ObjectName": "ContextualAnimSceneAsset'ContextAnim_bench02_shinku_M'",
+                              "ObjectPath": "/Game/Blueprints/Character/ContextAnim/Date/Bench/ContextAnim_bench02_shinku_M.0"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "Key": "1051",
+                      "Value": {
+                        "CASAssetMap": [
+                          {
+                            "Key": "NPC_032",
+                            "Value": {
+                              "ObjectName": "ContextualAnimSceneAsset'ContextAnim_bench02_shinku_F'",
+                              "ObjectPath": "/Game/Blueprints/Character/ContextAnim/Date/Bench/ContextAnim_bench02_shinku_F.0"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "DisplayName": "",
+              "Icon": {
+                "ObjectName": "Texture2D'YH_UI_Likeability_Butten_04'",
+                "ObjectPath": "/Game/UI/UI/likeability/Date/YH_UI_Likeability_Butten_04.0"
+              },
+              "DateEatMontageName": "Date_bench"
+            }
+          }
+        ],
+        "DinnerActorMap": []
+      },
+      "sitbench": {
+        "DinnerActionMap": [],
+        "DinnerActorMap": []
+      },
+      "kite": {
+        "DinnerActionMap": [
+          {
+            "Key": "kite",
+            "Value": {
+              "Montages": [
+                {
+                  "Role": "EDatingRole::Both",
+                  "ActionMontageMap": [],
+                  "CAS_ActionMap": [
+                    {
+                      "Key": "1046",
+                      "Value": {
+                        "CASAssetMap": [
+                          {
+                            "Key": "NPC_032",
+                            "Value": {
+                              "ObjectName": "ContextualAnimSceneAsset'ContextAnim_kite_shinku_M'",
+                              "ObjectPath": "/Game/Blueprints/Character/ContextAnim/Date/Kite/ContextAnim_kite_shinku_M.0"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "Key": "1051",
+                      "Value": {
+                        "CASAssetMap": [
+                          {
+                            "Key": "NPC_032",
+                            "Value": {
+                              "ObjectName": "ContextualAnimSceneAsset'ContextAnim_kite_shinku_F'",
+                              "ObjectPath": "/Game/Blueprints/Character/ContextAnim/Date/Kite/ContextAnim_kite_shinku_F.0"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "DisplayName": "",
+              "Icon": {
+                "ObjectName": "Texture2D'YH_UI_Likeability_Butten_07'",
+                "ObjectPath": "/Game/UI/UI/likeability/Date/YH_UI_Likeability_Butten_07.0"
+              },
+              "DateEatMontageName": "Date_kite"
+            }
+          }
+        ],
+        "DinnerActorMap": [
+          {
+            "Key": "NPC_kite",
+            "Value": {
+              "ActorToSpawn": {
+                "AssetPathName": "/Game/Blueprints/Level/World/Date/kite/BP_HoldingGood_kite_npc.BP_HoldingGood_kite_npc_C",
+                "SubPathString": ""
+              },
+              "RelativeRole": "EDatingRole::NPC",
+              "RelativeTransform": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "AttachSocketName": "None"
+            }
+          }
+        ]
       }
     }
   }

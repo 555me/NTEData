@@ -18,10 +18,15 @@
         "ObjectName": "DataTable'DT_OracleStoneConfig'",
         "ObjectPath": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig.0"
       },
-      "SpecialTreasureboxConfigTable": {
-        "ObjectName": "DataTable'DT_SpecialTreasureboxConfig'",
-        "ObjectPath": "/Game/DataTable/Treasurebox/DT_SpecialTreasureboxConfig.0"
+      "FinalTowerTreasureboxConfigTable": {
+        "ObjectName": "DataTable'DT_FinalTowerTreasureBox'",
+        "ObjectPath": "/Game/DataTable/Treasurebox/DT_FinalTowerTreasureBox.0"
       },
+      "FinalTowerDiceTreasureboxConfigTable": {
+        "ObjectName": "DataTable'DT_FinalTowerDiceTreasureBox'",
+        "ObjectPath": "/Game/DataTable/Treasurebox/DT_FinalTowerDiceTreasureBox.0"
+      },
+      "SpecialTreasureboxConfigTable": null,
       "TreasureMiniMapIconIDMap": [
         {
           "Key": "EAzimuthTreasureBoxType::TreasureBoxType_None",
@@ -50,6 +55,14 @@
         {
           "Key": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne",
           "Value": "Explore_TreasureBox_Dice"
+        },
+        {
+          "Key": "EAzimuthTreasureBoxType::TreasureBoxType_FinalTower",
+          "Value": "Explore_FT_TreasureBox"
+        },
+        {
+          "Key": "EAzimuthTreasureBoxType::TreasureBoxType_FinalTowerDice",
+          "Value": "Explore_FT_TreasureBox"
         }
       ],
       "IndicatorAutoHideDistanceMap": [
@@ -76,6 +89,14 @@
         {
           "Key": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne",
           "Value": 3500.0
+        },
+        {
+          "Key": "EAzimuthTreasureBoxType::TreasureBoxType_FinalTower",
+          "Value": 1000.0
+        },
+        {
+          "Key": "EAzimuthTreasureBoxType::TreasureBoxType_FinalTowerDice",
+          "Value": 1000.0
         }
       ],
       "IndicatorGoalOffsetMap": [
@@ -109,6 +130,22 @@
             "X": 0.0,
             "Y": 0.0,
             "Z": 160.0
+          }
+        },
+        {
+          "Key": "EAzimuthTreasureBoxType::TreasureBoxType_FinalTower",
+          "Value": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 50.0
+          }
+        },
+        {
+          "Key": "EAzimuthTreasureBoxType::TreasureBoxType_FinalTowerDice",
+          "Value": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 50.0
           }
         }
       ]

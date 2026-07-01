@@ -1727,6 +1727,46 @@
         "Condition": null,
         "bPlaystationShow": true
 },
+      "ModifyGamepadType": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 29,
+        "Showname": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_0098"
+},
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+},
+          "RowName": "ModifyGamepadType"
+},
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+}
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+},
+        "ShowInputType": "ESettingInputType::GamePad",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": null,
+        "bPlaystationShow": true
+},
       "Lock": {
         "Category": "ESettingCategory::System",
         "PlatformToDisplay": 511,
@@ -2781,6 +2821,46 @@
         "ShowInputType": "ESettingInputType::GamePad",
         "ComboBoxOptionEvent": null,
         "SliderValueEvent": {},
+        "Condition": null,
+        "bPlaystationShow": true
+},
+      "Setting_SemiAutoThrottle": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 268,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_SemiAutoThrottle"
+},
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+},
+          "RowName": "Setting_SemiAutoThrottle"
+},
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+}
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+},
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
         "Condition": null,
         "bPlaystationShow": true
 },

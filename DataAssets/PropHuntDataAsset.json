@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "HTPropHuntDataAsset",
+    "Name": "PropHuntDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HTPropHuntDataAsset'",
+    "Package": "/Game/DataAssets/PropHuntDataAsset",
+    "Properties": {
+      "InitTrialId": "PropHunt_chushi",
+      "RotateRate": 40.0,
+      "DisguiseNiagaraSocketName": "PropHuntEffect",
+      "DT_PropHuntRoleAllocation": {
+        "ObjectName": "DataTable'DT_PropHuntRoleAllocation'",
+        "ObjectPath": "/Game/DataTable/PropHunt/DT_PropHuntRoleAllocation.0"
+      },
+      "DT_PropHuntTeleportInfo": {
+        "ObjectName": "DataTable'DT_PropHuntTeleportInfo'",
+        "ObjectPath": "/Game/DataTable/PropHunt/DT_PropHuntTeleportInfo.0"
+      },
+      "DT_PropHuntDisguiseInfo": {
+        "ObjectName": "DataTable'DT_PropHuntDisguiseInfo'",
+        "ObjectPath": "/Game/DataTable/PropHunt/DT_PropHuntDisguiseInfo.0"
+      },
+      "DT_PropHuntTrialInfo": {
+        "ObjectName": "DataTable'DT_PropHuntTrialInfo'",
+        "ObjectPath": "/Game/DataTable/PropHunt/DT_PropHuntTrialInfo.0"
+      },
+      "IMC_PropHuntInputMapping": {
+        "ObjectName": "InputMappingContext'IMC_PropHunt'",
+        "ObjectPath": "/Game/Input/IMC_PropHunt.0"
+      },
+      "BaitGE": {
+        "ObjectName": "BlueprintGeneratedClass'Buff_PickAndSeek_Hider_C'",
+        "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_HideAndSeek/Hider/Buff_PickAndSeek_Hider.0"
+      },
+      "DisguiseGE": {
+        "ObjectName": "BlueprintGeneratedClass'Buff_PickAndSeek_ChangeActor_C'",
+        "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_HideAndSeek/Hider/Buff_PickAndSeek_ChangeActor.1"
+      },
+      "MoveInputGE": {
+        "ObjectName": "BlueprintGeneratedClass'Buff_CantMove_C'",
+        "ObjectPath": "/Game/Blueprints/Character/Monster/Buff/Buff_CantMove.0"
+      },
+      "DisguiseNiagara": {
+        "AssetPathName": "/Game/FX/Nia/Common/PropHunt/NS_PropHunt_arrow.NS_PropHunt_arrow",
+        "SubPathString": ""
+      },
+      "MatchKey": "PropHunt",
+      "PhaseLastTimeMap": [
+        {
+          "Key": "EPropHuntPhaseType::Init",
+          "Value": 10
+        },
+        {
+          "Key": "EPropHuntPhaseType::Prepare",
+          "Value": 30
+        },
+        {
+          "Key": "EPropHuntPhaseType::Gaming",
+          "Value": 120
+        },
+        {
+          "Key": "EPropHuntPhaseType::Frenzy",
+          "Value": 20
+        },
+        {
+          "Key": "EPropHuntPhaseType::End",
+          "Value": 10
+        }
+      ],
+      "ScoreMap": [
+        {
+          "Key": "EPropHuntGroupType::Hunt",
+          "Value": {
+            "BaseValue": 1000.0,
+            "PropWeight": 1.0,
+            "BaitWeight": 0.5,
+            "LiveWeight": 0.2,
+            "ResultWeight": 0.25
+          }
+        },
+        {
+          "Key": "EPropHuntGroupType::Prop",
+          "Value": {
+            "BaseValue": 1000.0,
+            "PropWeight": 0.0,
+            "BaitWeight": 0.0,
+            "LiveWeight": 1.0,
+            "ResultWeight": 0.25
+          }
+        }
+      ]
+    }
+  }
+]
