@@ -17367,12 +17367,12 @@
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
-              "Key": "GA_Haniel_AirAttack_1_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_AirAttack_1_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
-              "Key": "GA_Haniel_AirAttack_1_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_AirAttack_1_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -17433,6 +17433,39 @@
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_Branch_3_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": null,
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Branch_cost_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Branch_cost_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Oneiroi_Branch5_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Branch_4_desc"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Branch_4_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -17540,7 +17573,9 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Oneiroi_Skill_Gun_Damage"
+                "GE_Player_Oneiroi_Skill_Gun_Damage",
+                "GE_Player_Oneiroi_Skill_Syringe_Damage",
+                "GE_Player_Oneiroi_Skill_Trumpet_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
@@ -17553,48 +17588,6 @@
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_Skill_1_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
-              "DamageGEList": [
-                "GE_Player_Oneiroi_Skill_Syringe_Damage",
-                "None"
-              ],
-              "DefGEList": [],
-              "HPGEList": []
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_Skill_2_desc"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_Skill_2_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
-              "DamageGEList": [
-                "GE_Player_Oneiroi_Skill_Trumpet_Damage",
-                "None"
-              ],
-              "DefGEList": [],
-              "HPGEList": []
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_Skill_3_desc"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_Skill_3_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -17615,6 +17608,26 @@
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_Skill_4_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Oneiroi_Skill_AtkAdd_Time",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Skill_4_time_desc"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Skill_4_time_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -17650,6 +17663,126 @@
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
               "Key": "GA_Haniel_Skill_cooldown_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Oneiroi_GunAI_Skill1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep1_Skill1_desc"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep1_Skill1_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Oneiroi_GunAI_Skill2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep1_Skill2_desc"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep1_Skill2_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Oneiroi_SyringeAI_Skill1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep2_Skill1_desc"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep2_Skill1_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Oneiroi_SyringeAI_Skill2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep2_Skill2_desc"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep2_Skill2_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Oneiroi_TrumpetAI_Skill1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep3_Skill1_desc"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep3_Skill1_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Oneiroi_TrumpetAI_Skill2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep3_Skill2_desc"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Sheep3_Skill2_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 }
@@ -17730,6 +17863,19 @@
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_QTE_dmg_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": null,
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_QTE_create_desc"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_QTE_create_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 }
@@ -17830,26 +17976,6 @@
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
               "Key": "GA_Haniel_UltraSkill_2_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "EffectFigureDataList": [
-                {
-                  "NameID": "Oneiroi_UltraSkill_TreatPeriod_Time",
-                  "bIsPercent": false
-}
-              ]
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_UltraSkill_3_desc"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_UltraSkill_3_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -23675,6 +23801,46 @@
         "AbilityDescription": [],
         "icon": {
           "AssetPathName": "/Game/UI/UI/PropHunt/Prop/YH_UI_DuoMaoMao_Icon_Ding.YH_UI_DuoMaoMao_Icon_Ding",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Radio072_UltraSkillChild": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Fadia_UltraSkillMelee.Fadia_UltraSkillMelee",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Radio072_SubUltraSkill": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Fork_rat.Fork_rat",
           "SubPathString": ""
 },
         "ExtendIcon": {
