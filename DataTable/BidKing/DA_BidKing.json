@@ -48,9 +48,11 @@
       "AllowanceReward": "drop_bidking_db",
       "IncomeEvaluateMax": 200000,
       "RoundWaitTime": 6.0,
-      "NewPlayerCloneID": "BidKing4",
-      "NewPlayerCharacterID": "Char2",
-      "NewPlayerItemGroupID": "Package_green_01",
+      "ForbiddenBuff": {
+        "ObjectName": "BlueprintGeneratedClass'Buff_BidKingBANNED_C'",
+        "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/GYJ/Buff_BidKingBANNED.0"
+      },
+      "BotBidPriceDelayTime": 10.0,
       "NewPlayerCoin": 100000,
       "NewPlayerPassCoin": 3000000,
       "AnimMontageMap": [
@@ -101,7 +103,7 @@
         {
           "Key": "EBidKingWarehouseType::Exhibition",
           "Value": {
-            "X": 14,
+            "X": 15,
             "Y": 8
           }
         },
@@ -136,27 +138,27 @@
       "CollectionSettleUIDuration": [
         {
           "Key": "ITEM_QUALITY_RED",
-          "Value": 6.0
+          "Value": 3.2
         },
         {
           "Key": "ITEM_QUALITY_ORANGE",
-          "Value": 5.0
+          "Value": 2.4
         },
         {
           "Key": "ITEM_QUALITY_PURPLE",
-          "Value": 4.0
-        },
-        {
-          "Key": "ITEM_QUALITY_BLUE",
-          "Value": 3.0
-        },
-        {
-          "Key": "ITEM_QUALITY_GREEN",
           "Value": 2.0
         },
         {
-          "Key": "ITEM_QUALITY_WHITE",
+          "Key": "ITEM_QUALITY_BLUE",
+          "Value": 1.2
+        },
+        {
+          "Key": "ITEM_QUALITY_GREEN",
           "Value": 1.0
+        },
+        {
+          "Key": "ITEM_QUALITY_WHITE",
+          "Value": 0.6
         }
       ],
       "MaxExhibEarnings": 10000,
