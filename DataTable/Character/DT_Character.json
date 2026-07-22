@@ -4780,7 +4780,7 @@
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_xun.YH_UI_shizhuang_big_xun",
             "SubPathString": ""
 },
-          "CharacterTrackId": "None",
+          "CharacterTrackId": "Likeability_006",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
@@ -6809,7 +6809,7 @@
             }
           ],
           "AwakenSpineUI": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/Blueprints/Character/Awaken/BPUI_CharacterAwakenSpine_1075.BPUI_CharacterAwakenSpine_1075_C",
             "SubPathString": ""
 },
           "MaxAwakenAwardDropId": "None",
@@ -6861,23 +6861,60 @@
             "SubPathString": ""
 },
           "bIsHoldWeapon": false,
-          "MotionData": [],
-          "FashionList": [],
-          "DefaultFashionID": "None",
-          "UnlockLevel": 0,
+          "MotionData": [
+            "yiluoyi_0001",
+            "yiluoyi_0002",
+            "yiluoyi_0003",
+            "yiluoyi_0004",
+            "yiluoyi_0005",
+            "yiluoyi_0006",
+            "yiluoyi_0007",
+            "yiluoyi_0008",
+            "yiluoyi_0009",
+            "yiluoyi_0010",
+            "yiluoyi_jh_0001",
+            "yiluoyi_jh_0002",
+            "yiluoyi_jh_0003",
+            "yiluoyi_jh_0004",
+            "yiluoyi_jh_0005"
+          ],
+          "FashionList": [
+            {
+              "FashionID": "Fashion_1075_nighty",
+              "FashionItemID": "EquipmentUpMaterial_lv3",
+              "FashionIconInviteForm": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/UI_Mask_Fashion_Character_yiluoyi_612.UI_Mask_Fashion_Character_yiluoyi_612",
+                "SubPathString": ""
+},
+              "FashionIconNpcForm": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/UI_Mask_Fashion_UI_yiluoyi_744.UI_Mask_Fashion_UI_yiluoyi_744",
+                "SubPathString": ""
+},
+              "FashionSmallIcon": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/BPUI_CharacterChange9.BPUI_CharacterChange9",
+                "SubPathString": ""
+},
+              "CharacterClass": {
+                "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_028/BP_CompanionCharacter_028.BP_CompanionCharacter_028_C",
+                "SubPathString": ""
+}
+            }
+          ],
+          "DefaultFashionID": "Fashion_1075_nighty",
+          "UnlockLevel": 4,
           "bTeachingEnable": true,
           "CharacterIllustration": {
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_yiluoyi.YH_UI_shizhuang_big_yiluoyi",
             "SubPathString": ""
 },
-          "CharacterTrackId": "None",
+          "CharacterTrackId": "Likeability_017",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
 },
           "LikeabilityID": "1075",
-          "bCheckShowTime": true,
+          "bCheckShowTime": false,
           "ShowTime": {
             "MainlandTime": {
               "Year": 2026,
@@ -6903,7 +6940,7 @@
               "Value": "drop_BusinessCard_Characterawaken_Oneiroi"
 }
           ],
-          "CharGenderType": "ECharGenderType::NoneGender",
+          "CharGenderType": "ECharGenderType::female",
           "FormationCharacterRotationArr": []
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
@@ -6962,11 +6999,38 @@
 },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
 }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Haniel_tag_2"
+},
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+},
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zengyi.YH_UI_icon_Tag_zengyi",
+              "SubPathString": ""
+},
+            "TagDesc": {
+              "CultureInvariantString": null
+},
+            "TagColorBgColor": {
+              "SpecifiedColor": {
+                "R": 0.672443,
+                "G": 0.099899,
+                "B": 0.021219,
+                "A": 1.0,
+                "Hex": "D65928"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+}
           }
         ],
         "bIsLimitAmount": false,
         "bIsManual": true,
-        "bIsInvite": false,
+        "bIsInvite": true,
         "bIsDropActor": false,
         "DropActorClass": {
           "AssetPathName": "",

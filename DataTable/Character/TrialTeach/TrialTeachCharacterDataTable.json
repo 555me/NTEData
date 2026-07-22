@@ -12641,16 +12641,6 @@
                   "ApplyOperation": "ETeachApplyOperation::Remove",
                   "ApplyTime": 1,
                   "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
-},
-                {
-                  "ApplyGEClass": {
-                    "ObjectName": "BlueprintGeneratedClass'Buff_Shinku_Rage_C'",
-                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_076_Shinku/Buff/Buff_Shinku_Rage.1"
-},
-                  "ApplyTargetType": "ETeachApplyTargetType::Player",
-                  "ApplyOperation": "ETeachApplyOperation::Remove",
-                  "ApplyTime": 1,
-                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
 }
               ]
             }
@@ -12780,7 +12770,7 @@
             }
           },
           {
-            "bStateMonsterNeedAttack": false,
+            "bStateMonsterNeedAttack": true,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
             "TeachSateges": {
@@ -12891,7 +12881,7 @@
             }
           },
           {
-            "bStateMonsterNeedAttack": false,
+            "bStateMonsterNeedAttack": true,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
             "TeachSateges": {
@@ -12933,12 +12923,22 @@
                   "ApplyOperation": "ETeachApplyOperation::Add",
                   "ApplyTime": 1,
                   "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
+},
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Oneiroi075_Level1_MoonMax_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_075_Oneiroi/Upgrade/Buff_Oneiroi075_Level1_MoonMax.1"
+},
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 1,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
 }
               ]
             }
           },
           {
-            "bStateMonsterNeedAttack": false,
+            "bStateMonsterNeedAttack": true,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
             "TeachSateges": {
@@ -12964,8 +12964,8 @@
               "IndependentShowUI": false,
               "SlotContent": {
                 "Title": {
-                  "Namespace": "",
-                  "Key": "A07486D74407D0DF9E8A1FACF47DBD4A"
+                  "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                  "Key": "Iroi_4_1"
 },
                 "SlotClass": {
                   "AssetPathName": "",
@@ -13005,7 +13005,7 @@
             }
           },
           {
-            "bStateMonsterNeedAttack": false,
+            "bStateMonsterNeedAttack": true,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
             "TeachSateges": {
@@ -13079,7 +13079,7 @@
             }
           },
           {
-            "bStateMonsterNeedAttack": false,
+            "bStateMonsterNeedAttack": true,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
             "TeachSateges": {
@@ -13090,10 +13090,7 @@
               "KillSelfCharacters": [
                 2
               ],
-              "GuideNames": [
-                "TeachIroi7",
-                "TeachIroi8"
-              ],
+              "GuideNames": [],
               "GaCounterTeachStages": [
                 {
                   "SlotContent": {
@@ -13158,6 +13155,23 @@
                   "ApplyTargetType": "ETeachApplyTargetType::Player",
                   "ApplyOperation": "ETeachApplyOperation::Add",
                   "ApplyTime": 2,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
+},
+                {
+                  "GuideID": "TeachIroi7",
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 1,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
+},
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Oneiroi075_Level1_MoonMax_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_075_Oneiroi/Upgrade/Buff_Oneiroi075_Level1_MoonMax.1"
+},
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 1,
                   "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
 }
               ]
