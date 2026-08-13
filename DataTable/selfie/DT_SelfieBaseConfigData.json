@@ -101,7 +101,10 @@
         ],
         "CapsuleRadius": 25.0,
         "CapsuleHalfHeight": 70.0,
-        "CollisionChannel": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionChannels": [
+          "ECC_WorldStatic",
+          "ECC_Vehicle"
+        ],
         "SearchRadius": 500.0,
         "SearchTimes": 20,
         "CustomNearClippingPlane": 15.0

@@ -32,7 +32,7 @@
                   "X": 0.5,
                   "Y": 0.5
 },
-                "RenderAngle": -90.0,
+                "RenderAngle": 90.0,
                 "IconDrawSize": {
                   "X": 42.0,
                   "Y": 42.0
@@ -63,7 +63,7 @@
                       "X": 0.5,
                       "Y": 0.5
 },
-                    "RenderAngle": -90.0,
+                    "RenderAngle": 90.0,
                     "IconDrawSize": {
                       "X": 52.0,
                       "Y": 52.0
@@ -192,7 +192,7 @@
                   "X": 0.5,
                   "Y": 0.0
 },
-                "RenderAngle": 180.0,
+                "RenderAngle": 90.0,
                 "IconDrawSize": {
                   "X": 128.0,
                   "Y": 128.0
@@ -8593,6 +8593,399 @@
         "IconDesc": {
           "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
           "Key": "DT_RealEstate_003_L_1_Des"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_MiniMapIcon_type_1"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": false,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::RealEstateMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 10.0
+}
+          },
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_house_01.YH_UI_house_01",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_078_128.YH_UI_Mapicon_078_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": true,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Room_BigMap",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_078_128.YH_UI_Mapicon_078_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::Transfer"
+},
+      "TestRealEstate_L_2": {
+        "Comment": "7.3一级房产A",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_house_01.YH_UI_house_01",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            },
+            {
+              "Key": "EMiniMapIconState::Actived",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_063.YH_UI_Mapicon_063",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            },
+            {
+              "Key": "EMiniMapIconState::Inactive",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_house_01.YH_UI_house_01",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            },
+            {
+              "Key": "EMiniMapIconState::Benefits",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_063_2.YH_UI_Mapicon_063_2",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::RealEstateMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_real_02.YH_UI_real_02",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 80.0,
+                      "Y": 80.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                },
+                {
+                  "Key": "EMiniMapIconState::Actived",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_real_11.YH_UI_real_11",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 80.0,
+                      "Y": 80.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                },
+                {
+                  "Key": "EMiniMapIconState::Inactive",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_real_02.YH_UI_real_02",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 80.0,
+                      "Y": 80.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_house_01.YH_UI_house_01",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                },
+                {
+                  "Key": "EMiniMapIconState::Actived",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_063.YH_UI_Mapicon_063",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 52.0,
+                      "Y": 52.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                },
+                {
+                  "Key": "EMiniMapIconState::Inactive",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_house_01.YH_UI_house_01",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                },
+                {
+                  "Key": "EMiniMapIconState::Benefits",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_063_2.YH_UI_Mapicon_063_2",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": false,
+        "SearchType": "SpecialPlace",
+        "ShowInSearchListPriority": 38,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 14,
+        "IconName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_MiniMapIcon_L_2"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_MiniMapIcon_L_2_desc"
 },
         "TypeName": {
           "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -34686,7 +35079,7 @@
         "IsTeleport": true,
         "IsMonsterTrace": false,
         "IsViewPoint": false,
-        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsWidgetExtensionID": "MapIconDetails_Robbank",
         "DetailsIcon": {
           "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/big/YH_UI_Mapicon_101_128_1.YH_UI_Mapicon_101_128_1",
           "SubPathString": ""
@@ -37947,6 +38340,169 @@
         "PreviewAwardDropID": "None",
         "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
 },
+      "FT_FloorChallenge": {
+        "Comment": "真红爬塔",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/FT/YH_UI_Mapicon_114.YH_UI_Mapicon_114",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/FT/YH_UI_Mapicon_114.YH_UI_Mapicon_114",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": false,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 0,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 50,
+        "IconName": {
+          "TableId": "/Game/Maps_4N/Text/ST_MapAreaDetails_4N.ST_MapAreaDetails_4N",
+          "Key": "4N_GamePlay_FloorChallenge"
+},
+        "IconDesc": {
+          "TableId": "/Game/Maps_4N/Text/ST_MapAreaDetails_4N.ST_MapAreaDetails_4N",
+          "Key": "4N_GamePlay_FloorChallenge_Des"
+},
+        "TypeName": {
+          "TableId": "/Game/Maps_4N/Text/ST_MapAreaDetails_4N.ST_MapAreaDetails_4N",
+          "Key": "4N_GamePlay_FloorChallenge_Type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/FT/YH_UI_Mapicon_114.YH_UI_Mapicon_114",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/FT/YH_UI_Mapicon_114_128.YH_UI_Mapicon_114_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": true,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/FT/YH_UI_Mapicon_114_128.YH_UI_Mapicon_114_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
       "FinalTower": {
         "Comment": "真红大世界玩法入口A",
         "IconRenderStateData": {
@@ -38423,6 +38979,167 @@
         "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
         "DetailsIcon": {
           "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_018_128.YH_UI_Mapicon_Role_018_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_019": {
+        "Comment": "5.邀约角色灵可",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_028.YH_UI_Mapicon_Role_028",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_028.YH_UI_Mapicon_Role_028",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_028.YH_UI_Mapicon_Role_028",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_028_128.YH_UI_Mapicon_Role_028_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_028_128.YH_UI_Mapicon_Role_028_128",
           "SubPathString": ""
 },
         "DetailsBackImage": {
@@ -39505,7 +40222,7 @@
                   "X": 0.5,
                   "Y": 0.5
 },
-                "RenderAngle": -90.0,
+                "RenderAngle": 90.0,
                 "IconDrawSize": {
                   "X": 42.0,
                   "Y": 42.0
@@ -39536,7 +40253,7 @@
                       "X": 0.5,
                       "Y": 0.5
 },
-                    "RenderAngle": -90.0,
+                    "RenderAngle": 90.0,
                     "IconDrawSize": {
                       "X": 52.0,
                       "Y": 52.0
@@ -40028,6 +40745,4204 @@
         "DetailsWidgetExtensionID": "MapIconDetails_Normal",
         "DetailsIcon": {
           "AssetPathName": "",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "RobBank_EvacuationPoint": {
+        "Comment": "抢银行撤离点",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_dianhuating.YH_UI_Mapicon_dianhuating",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            },
+            {
+              "Key": "EMiniMapIconState::Inactive",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_dianhuatingGray.YH_UI_Mapicon_dianhuatingGray",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            },
+            {
+              "Key": "EMiniMapIconState::Actived",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_dianhuating.YH_UI_Mapicon_dianhuating",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_dianhuating.YH_UI_Mapicon_dianhuating",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                },
+                {
+                  "Key": "EMiniMapIconState::Inactive",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_dianhuatingGray.YH_UI_Mapicon_dianhuatingGray",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                },
+                {
+                  "Key": "EMiniMapIconState::Actived",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_dianhuating.YH_UI_Mapicon_dianhuating",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": false,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 39,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 31,
+        "IconName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_map_icon_name_01"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_map_icon_desc_01"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_map_icon_type_01"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_Transfer'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace_Heterotopia",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_dianhuating.YH_UI_Mapicon_dianhuating",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_common_icon_1.YH_UI_common_icon_1",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": true,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Bank02",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_common_icon_1.YH_UI_common_icon_1",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "RobBank_Boss": {
+        "Comment": "抢银行BOSS",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_113.YH_UI_Mapicon_113",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            },
+            {
+              "Key": "EMiniMapIconState::Inactive",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_113_2.YH_UI_Mapicon_113_2",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            },
+            {
+              "Key": "EMiniMapIconState::Actived",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_113.YH_UI_Mapicon_113",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_113.YH_UI_Mapicon_113",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                },
+                {
+                  "Key": "EMiniMapIconState::Inactive",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_113_2.YH_UI_Mapicon_113_2",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                },
+                {
+                  "Key": "EMiniMapIconState::Actived",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_113.YH_UI_Mapicon_113",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": false,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 39,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 31,
+        "IconName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "BankBoss001"
+},
+        "IconDesc": {
+          "CultureInvariantString": null
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "BankBoss001"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_Transfer'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace_Heterotopia",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_113.YH_UI_Mapicon_113",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_113_128.YH_UI_Mapicon_113_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": true,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Bank02",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/YH_UI_Mapicon_113_128.YH_UI_Mapicon_113_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Volleyball_PVE": {
+        "Comment": "排球PVE球场",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_055.YH_UI_Mapicon_055",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_055.YH_UI_Mapicon_055",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": true,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 30,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 12,
+        "IconName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Volleyball_PVE_Name"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Volleyball_PVE_Desc"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "UI_Volleyball"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_055.YH_UI_Mapicon_055",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/big/YH_UI_Mapicon_055_128.YH_UI_Mapicon_055_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": true,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/big/YH_UI_Mapicon_055_128.YH_UI_Mapicon_055_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Volleyball_Rank": {
+        "Comment": "排球周赛球场",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_055.YH_UI_Mapicon_055",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_055.YH_UI_Mapicon_055",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": true,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 30,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 12,
+        "IconName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Volleyball_Rank_Name"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Volleyball_Rank_Desc"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "UI_Volleyball"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_055.YH_UI_Mapicon_055",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/big/YH_UI_Mapicon_055_128.YH_UI_Mapicon_055_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": true,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/big/YH_UI_Mapicon_055_128.YH_UI_Mapicon_055_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_020": {
+        "Comment": "5.邀约角色残虹",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029_128.YH_UI_Mapicon_Role_029_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029_128.YH_UI_Mapicon_Role_029_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "FlyCarPoint_01": {
+        "Comment": "飞车点",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_115.YH_UI_Mapicon_115",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_115.YH_UI_Mapicon_115",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 11,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 12,
+        "IconName": {
+          "CultureInvariantString": "<!>观光点名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>观光点描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "minimap_wpType_name"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.65
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_115.YH_UI_Mapicon_115",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_115_128.YH_UI_Mapicon_115_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": true,
+        "DetailsWidgetExtensionID": "MapIconDetails_ViewPoint",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_115_128.YH_UI_Mapicon_115_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "SceneArea002_Robbank": {
+        "Comment": "银行地图一级区域名",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconWidget": {
+                  "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconWidgets/BPUI_MapIcon_PlaceName_FT1.BPUI_MapIcon_PlaceName_FT1_C",
+                  "SubPathString": ""
+},
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+},
+                "IconSphere": "EMiniMapIconSphere::Rect"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 0,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 5,
+        "IconName": {
+          "CultureInvariantString": null
+},
+        "IconDesc": {
+          "CultureInvariantString": null
+},
+        "TypeName": {
+          "CultureInvariantString": null
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": false,
+        "bShowFloorIcon": false,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.6
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 50.0
+},
+        "IconDrawDataOverride": [],
+        "CanTrace": false,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": false,
+        "TraceIconInWorld": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 0.0,
+        "EdgeArrowIconID": "None",
+        "IconScaleData": [],
+        "CanClick": false,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "None",
+        "DetailsIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "actwork_001": {
+        "Comment": "工地1",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": true,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 30,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 12,
+        "IconName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "actwork_001"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_ConstructionWorkPlace"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_ConstructionWorkPlace01"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "actwork_002": {
+        "Comment": "工地2",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": true,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 30,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 12,
+        "IconName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "actwork_002"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_ConstructionWorkPlace"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_ConstructionWorkPlace01"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "actwork_003": {
+        "Comment": "工地3",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": true,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 30,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 12,
+        "IconName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "actwork_003"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_ConstructionWorkPlace"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_ConstructionWorkPlace01"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "actwork_004": {
+        "Comment": "工地4",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": true,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 30,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 12,
+        "IconName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "actwork_004"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_ConstructionWorkPlace"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_ConstructionWorkPlace01"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "actwork_005": {
+        "Comment": "工地5",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": true,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 30,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 12,
+        "IconName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "actwork_005"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_ConstructionWorkPlace"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_ConstructionWorkPlace01"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.YH_UI_Mapicon_050gongdi",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "MotorboatCollect": {
+        "Comment": "摩托艇捡垃圾NPC位",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_061MotorboatCollect.YH_UI_Mapicon_061MotorboatCollect",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_061MotorboatCollect.YH_UI_Mapicon_061MotorboatCollect",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": true,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 30,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 12,
+        "IconName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "MotorboatCollect_MapIcon_Name"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "MotorboatCollect_MapIcon_Desc"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_OpActMotorboatCollectMain_Title"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_061MotorboatCollect.YH_UI_Mapicon_061MotorboatCollect",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/big/YH_UI_Mapicon_061MotorboatCollect_128.YH_UI_Mapicon_061MotorboatCollect_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": true,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_MotorboatCollect",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/big/YH_UI_Mapicon_061MotorboatCollect_128.YH_UI_Mapicon_061MotorboatCollect_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::Transfer"
+},
+      "MotorboatRace": {
+        "Comment": "摩托艇竞速",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/RaceCar/main/YH_UI_Racing_MeetupIcon_01.YH_UI_Racing_MeetupIcon_01",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/RaceCar/main/YH_UI_Racing_MeetupIcon_01.YH_UI_Racing_MeetupIcon_01",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 64.0,
+                      "Y": 64.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": false,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 0,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "MotorboatRaceActivity_name"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "MotorboatRaceActivity_des"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "MotorboatRaceActivity_name"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_MotorboatRace'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/main/YH_UI_Racing_MeetupIcon_01.YH_UI_Racing_MeetupIcon_01",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 1500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/main/YH_UI_Racing_MeetupIcon_03.YH_UI_Racing_MeetupIcon_03",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_MotorboatRace",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/main/YH_UI_Racing_MeetupIcon_03.YH_UI_Racing_MeetupIcon_03",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_anhunqu_bike": {
+        "Comment": "与安魂曲的骑行邀约",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_019.YH_UI_Mapicon_Role_019",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_019.YH_UI_Mapicon_Role_019",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_019_128.YH_UI_Mapicon_Role_019_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_019_128.YH_UI_Mapicon_Role_019_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_nanali_bike": {
+        "Comment": "与娜娜莉的骑行邀约",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_027.YH_UI_Mapicon_Role_027",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_027.YH_UI_Mapicon_Role_027",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_027_128.YH_UI_Mapicon_Role_027_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_027_128.YH_UI_Mapicon_Role_027_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_bohe_bike": {
+        "Comment": "与薄荷的骑行邀约",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_004.YH_UI_Mapicon_Role_004",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_004.YH_UI_Mapicon_Role_004",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_004_128.YH_UI_Mapicon_Role_004_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_004_128.YH_UI_Mapicon_Role_004_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_fadiya_bike": {
+        "Comment": "与法帝娅的骑行邀约",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_022.YH_UI_Mapicon_Role_022",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_022.YH_UI_Mapicon_Role_022",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_022_128.YH_UI_Mapicon_Role_022_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_022_128.YH_UI_Mapicon_Role_022_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_xun_bike": {
+        "Comment": "与浔的骑行邀约",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_020.YH_UI_Mapicon_Role_020",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_020.YH_UI_Mapicon_Role_020",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_020_128.YH_UI_Mapicon_Role_020_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_020_128.YH_UI_Mapicon_Role_020_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_jiuyuan_bike": {
+        "Comment": "与九原的骑行邀约",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_023.YH_UI_Mapicon_Role_023",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_023.YH_UI_Mapicon_Role_023",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_023_128.YH_UI_Mapicon_Role_023_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_023_128.YH_UI_Mapicon_Role_023_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_lingke_bike": {
+        "Comment": "与灵可的骑行邀约",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_030.YH_UI_Mapicon_Role_030",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_030.YH_UI_Mapicon_Role_030",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_030_128.YH_UI_Mapicon_Role_030_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_030_128.YH_UI_Mapicon_Role_030_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_xiaozhi_bike": {
+        "Comment": "与小吱的骑行邀约",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_024.YH_UI_Mapicon_Role_024",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_024.YH_UI_Mapicon_Role_024",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_024_128.YH_UI_Mapicon_Role_024_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_024_128.YH_UI_Mapicon_Role_024_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_yiluoyi_bike": {
+        "Comment": "与伊洛伊的骑行邀约",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_025.YH_UI_Mapicon_Role_025",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_025.YH_UI_Mapicon_Role_025",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_025_128.YH_UI_Mapicon_Role_025_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_025_128.YH_UI_Mapicon_Role_025_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Likeability_zhenhong_bike": {
+        "Comment": "与真红的骑行邀约",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_029.YH_UI_Mapicon_Role_029",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_026.YH_UI_Mapicon_Role_026",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 59,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 81,
+        "IconName": {
+          "CultureInvariantString": "<!>羁遇邀约名称"
+},
+        "IconDesc": {
+          "CultureInvariantString": "<!>羁遇邀约描述"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Likeability_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon_FavorabilityAtmosphere'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_026.YH_UI_Mapicon_Role_026",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_026_128.YH_UI_Mapicon_Role_026_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_FAQuest",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/LikeAbility/YH_UI_Mapicon_Role_026_128.YH_UI_Mapicon_Role_026_128",
+          "SubPathString": ""
+},
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "PreviewAwardDropID": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+},
+      "Shop_Core_6": {
+        "Comment": "改车店B",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_133.YH_UI_Mapicon_133",
+                  "SubPathString": ""
+},
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+},
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+},
+                "IconSphere": "EMiniMapIconSphere::Circle"
+}
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_133.YH_UI_Mapicon_133",
+                      "SubPathString": ""
+},
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+},
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+},
+                    "IconSphere": "EMiniMapIconSphere::Circle"
+}
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": true,
+        "ShowInFilterList": true,
+        "SearchType": "ProfessionalServices",
+        "ShowInSearchListPriority": 30,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+},
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+},
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "ZOrder": 12,
+        "IconName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shipyard_01_name"
+},
+        "IconDesc": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shipyard_01_desc"
+},
+        "TypeName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shipyard_01_type"
+},
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "bShowHeightDirect": true,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+},
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+}
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+},
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+}
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_133.YH_UI_Mapicon_133",
+          "SubPathString": ""
+},
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/big/YH_UI_Mapicon_133_128.YH_UI_Mapicon_133_128",
+          "SubPathString": ""
+},
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+},
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/big/YH_UI_Mapicon_133_128.YH_UI_Mapicon_133_128",
           "SubPathString": ""
 },
         "DetailsBackImage": {

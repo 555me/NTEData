@@ -55,6 +55,20 @@
             "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleYiluoyi'",
             "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleYiluoyi.0"
 }
+        },
+        {
+          "Key": "Lottery_Canhong",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleCanhong'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleCanhong.0"
+}
+        },
+        {
+          "Key": "Lottery_LingKe",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleLingKe'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleLingKe.0"
+}
         }
       ],
       "MonopolyModuleDefines": [
@@ -113,6 +127,22 @@
             "SubPathString": ""
 },
           "Priority": 6
+},
+        {
+          "ModuleID": "Lottery_Canhong",
+          "LotteryModuleWidget": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg/LotteryBg_CanHong.LotteryBg_CanHong_C",
+            "SubPathString": ""
+},
+          "Priority": 7
+},
+        {
+          "ModuleID": "Lottery_LingKe",
+          "LotteryModuleWidget": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg/LotteryBg_LingKe.LotteryBg_LingKe_C",
+            "SubPathString": ""
+},
+          "Priority": 8
 }
       ],
       "LotteryPortraitDataTable": {
@@ -1342,6 +1372,76 @@
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
 }
           ]
+        },
+        {
+          "CharacterID": "1036",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+},
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ]
+        },
+        {
+          "CharacterID": "1072",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+},
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+},
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+}
+          ]
         }
       ],
       "GuideData": {
@@ -1362,6 +1462,119 @@
         "T_ArchitecturalVision_01_D",
         "T_ArchitecturalVision_02_D",
         "T_ArchitecturalVision_03_D"
+      ],
+      "FixMonopolyLotteryArray": [
+        {
+          "Key": "EHTRegionType::Region_MAINLAND",
+          "Value": {
+            "MonopolyLotteryDatas": [
+              {
+                "StartTime": "2026-04-23 06:30:00",
+                "EndTime": "2026-05-07 05:59:59",
+                "InModuleId": "Lottery_Nanali"
+},
+              {
+                "StartTime": "2026-05-07 06:30:00",
+                "EndTime": "2026-05-28 05:59:59",
+                "InModuleId": "Lottery_Xun"
+},
+              {
+                "StartTime": "2026-05-28 06:30:00",
+                "EndTime": "2026-06-18 05:59:59",
+                "InModuleId": "Lottery_AnHunQu"
+},
+              {
+                "StartTime": "2026-06-18 06:30:00",
+                "EndTime": "2026-07-02 05:59:59",
+                "InModuleId": "Lottery_Kaesi"
+},
+              {
+                "StartTime": "2026-07-02 06:30:00",
+                "EndTime": "2026-07-23 05:59:59",
+                "InModuleId": "Lottery_ZhenHong"
+},
+              {
+                "StartTime": "2026-07-23 06:30:00",
+                "EndTime": "2026-08-13 05:59:59",
+                "InModuleId": "Lottery_Yiluoyi"
+}
+            ]
+          }
+        },
+        {
+          "Key": "EHTRegionType::Region_IWPLAY",
+          "Value": {
+            "MonopolyLotteryDatas": [
+              {
+                "StartTime": "2026-04-29 09:00:00",
+                "EndTime": "2026-05-13 05:59:59",
+                "InModuleId": "Lottery_Nanali"
+},
+              {
+                "StartTime": "2026-05-13 06:00:00",
+                "EndTime": "2026-06-03 05:59:59",
+                "InModuleId": "Lottery_Xun"
+},
+              {
+                "StartTime": "2026-06-03 06:00:00",
+                "EndTime": "2026-06-24 05:59:59",
+                "InModuleId": "Lottery_AnHunQu"
+},
+              {
+                "StartTime": "2026-06-24 06:00:00",
+                "EndTime": "2026-07-08 05:59:59",
+                "InModuleId": "Lottery_Kaesi"
+},
+              {
+                "StartTime": "2026-07-08 06:00:00",
+                "EndTime": "2026-07-29 05:59:59",
+                "InModuleId": "Lottery_ZhenHong"
+},
+              {
+                "StartTime": "2026-07-29 06:00:00",
+                "EndTime": "2026-08-19 05:59:59",
+                "InModuleId": "Lottery_Yiluoyi"
+}
+            ]
+          }
+        },
+        {
+          "Key": "EHTRegionType::Region_GLOBAL",
+          "Value": {
+            "MonopolyLotteryDatas": [
+              {
+                "StartTime": "2026-04-29 05:30:00",
+                "EndTime": "2026-05-13 05:59:59",
+                "InModuleId": "Lottery_Nanali"
+},
+              {
+                "StartTime": "2026-05-13 06:00:00",
+                "EndTime": "2026-06-03 05:59:59",
+                "InModuleId": "Lottery_Xun"
+},
+              {
+                "StartTime": "2026-06-03 06:00:00",
+                "EndTime": "2026-06-24 05:59:59",
+                "InModuleId": "Lottery_AnHunQu"
+},
+              {
+                "StartTime": "2026-06-24 06:00:00",
+                "EndTime": "2026-07-08 05:59:59",
+                "InModuleId": "Lottery_Kaesi"
+},
+              {
+                "StartTime": "2026-07-08 06:00:00",
+                "EndTime": "2026-07-29 05:59:59",
+                "InModuleId": "Lottery_ZhenHong"
+},
+              {
+                "StartTime": "2026-07-29 06:00:00",
+                "EndTime": "2026-08-19 05:59:59",
+                "InModuleId": "Lottery_Yiluoyi"
+}
+            ]
+          }
+        }
       ]
     }
   }

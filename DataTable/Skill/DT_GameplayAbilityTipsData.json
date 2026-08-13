@@ -17358,6 +17358,26 @@
 },
           {
             "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Melee_Heterochrome_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_Heterochrome_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_Heterochrome_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
                 "GE_Player_Oneiroi_AirAttack_Damage"
@@ -17486,26 +17506,6 @@
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "Oneiroi_PerfectEvade_dmg_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "EffectFigureDataList": [
-                {
-                  "NameID": "Melee_Heterochrome_Show",
-                  "bIsPercent": false
-}
-              ]
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
-              "Key": "GA_Haniel_Melee_Heterochrome_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
-              "Key": "GA_Haniel_Melee_Heterochrome_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 }
@@ -21725,7 +21725,7 @@
 },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
-              "Key": "GA_Zankou_Melee_name"
+              "Key": "GA_Zankou_Melee3_des_Tidy"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -21744,8 +21744,8 @@
               "Key": "GA_Zankou_Melee4_des"
 },
             "ShortDescription": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "GA_Mitsuki_PerfectEvade_des_tidy"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee4_des_Tidy"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -21764,7 +21764,8 @@
               "Key": "GA_Zankou_Melee5_des"
 },
             "ShortDescription": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee5_des_Tidy"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -21783,7 +21784,8 @@
               "Key": "GA_Zankou_PerfectEvade_des"
 },
             "ShortDescription": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_Tidy"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -21823,19 +21825,20 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Mitsuki_Melee1_Damage"
+                "GE_Player_Zankou_Melee1_Damage",
+                "GE_Player_Zankou_Melee1_1_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Melee1_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_1_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Melee1_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_1_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -21843,19 +21846,19 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Mitsuki_Melee2_Damage"
+                "GE_Player_Zankou_Melee2_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Melee2_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_2_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Melee2_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_2_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -21863,19 +21866,21 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Mitsuki_Melee3_Damage"
+                "GE_Player_Zankou_Melee3_Damage",
+                "GE_Player_Zankou_Melee3_1_Damage",
+                "GE_Player_Zankou_Melee3_2_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Melee3_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_3_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Melee3_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_3_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -21883,19 +21888,23 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Mitsuki_Melee4_Damage"
+                "GE_Player_Zankou_Melee4_Damage",
+                "GE_Player_Zankou_Melee4_1_Damage",
+                "GE_Player_Zankou_Melee4_2_Damage",
+                "GE_Player_Zankou_Melee4_3_Damage",
+                "GE_Player_Zankou_Melee4_4_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Melee4_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_4_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Melee4_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_4_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -21903,19 +21912,22 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Mitsuki_AirAttack_Damage"
+                "GE_Player_Zankou_Melee5_Damage",
+                "GE_Player_Zankou_Melee5_1_Damage",
+                "GE_Player_Zankou_Melee5_2_Damage",
+                "GE_Player_Zankou_Melee6_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "AirAttack_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_5_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "AirAttack_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_5_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -21923,19 +21935,20 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Mitsuki_EvadeBranch_Damage"
+                "GE_Player_Zankou_Branch1_Damage",
+                "GE_Player_Zankou_Branch3_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "EvadeBranch_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Branch_1_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "EvadeBranch_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Branch_1_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -21943,19 +21956,19 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Mitsuki_PerfectEvadeAtk_Damage"
+                "GE_Player_Zankou_AirAttack_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "PerfectEvadeAttack_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_AirAttack_1_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "PerfectEvadeAttack_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_AirAttack_1_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -21963,19 +21976,146 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Mitsuki_PerfectAtkBullet_Damage"
+                "GE_Player_Zankou_PerfectEvadeAttack_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "PerfectEvadeAttackEvade_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_PerfectEvade_1_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "PerfectEvadeAttackEvade_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_PerfectEvade_1_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_MagicMelee1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicMelee_1_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicMelee_1_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_MagicMelee2_Damage",
+                "GE_Player_Zankou_MagicMelee2_1_Damage",
+                "GE_Player_Zankou_MagicMelee2_2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicMelee_2_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicMelee_2_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_MagicMelee3_Damage",
+                "GE_Player_Zankou_MagicMelee3_1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicMelee_3_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicMelee_3_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_MagicMelee4_Damage",
+                "GE_Player_Zankou_MagicMelee4_1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicMelee_4_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicMelee_4_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_MagicBranch1_Damage",
+                "GE_Player_Zankou_MagicBranch2_Damage",
+                "GE_Player_Zankou_MagicBranch3_Damage",
+                "GE_Player_Zankou_MagicBranch4_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicBranch_1_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicBranch_1_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_DotDamage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotDamage_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotDamage_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -21983,49 +22123,139 @@
             "LevelUpData": {
               "EffectFigureDataList": [
                 {
-                  "NameID": "Melee_Heterochrome_Show",
+                  "NameID": "ZankouDotDamagePeriod",
                   "bIsPercent": false
 }
               ]
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Melee_Heterochrome_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotPeriod_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Melee_Heterochrome_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotPeriod_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
           {
             "LevelUpData": {
-              "SkillCostName": "None"
-},
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouDotDamageDur",
+                  "bIsPercent": false
+}
+              ]
+            },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "EvadeBranchPowerCost_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotDuration_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "EvadeBranchPowerCost_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotDuration_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
           {
             "LevelUpData": {
-              "SkillCostName": "None"
-},
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouDotMaxCoef",
+                  "bIsPercent": false
+}
+              ]
+            },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "EvadeBranchPowerCostLow_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotStackMax_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "EvadeBranchPowerCostLow_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotStackMax_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouRealDamUp",
+                  "bIsPercent": true
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_RealDamageUp_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_RealDamageUp_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouMagicCritDamageUp",
+                  "bIsPercent": true
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicCritDamageUp_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicCritDamageUp_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouRealMeleeHeterochrome_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_RealMelee_Heterochrome_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_RealMelee_Heterochrome_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouMagicMeleeHeterochrome_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicMelee_Heterochrome_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicMelee_Heterochrome_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 }
@@ -22135,64 +22365,100 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Mitsuki_Skill_Damage"
+                "GE_Player_Zankou_Skill2_Damage",
+                "GE_Player_Zankou_Skill2_1_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Skill1_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill_1_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Skill1_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill_1_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
           {
             "LevelUpData": {
-              "EffectFigureDataList": []
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_Skill1_Damage",
+                "GE_Player_Zankou_Skill1_1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Skill1Effect_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill_2_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Skill1Effect_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill_2_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
           {
             "LevelUpData": {
-              "EffectFigureDataList": []
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_Skill4_Damage",
+                "GE_Player_Zankou_Skill4_1_Damage",
+                "GE_Player_Zankou_Skill4_2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Skill2_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill_3_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Skill2_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill_3_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
           {
             "LevelUpData": {
-              "SkillCDName": "GA_Mitsuki_Skill"
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_Skill3_Damage",
+                "GE_Player_Zankou_Skill3_1_Damage",
+                "GE_Player_Zankou_Skill3_2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill_4_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill_4_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Zankou_Skill"
 },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "SkillCoolDown_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill_cooldown_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "SkillCoolDown_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill_cooldown_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -22200,19 +22466,179 @@
             "LevelUpData": {
               "EffectFigureDataList": [
                 {
-                  "NameID": "Skill_Heterochrome_Show",
+                  "NameID": "ZankouMagicDur",
                   "bIsPercent": false
 }
               ]
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Skill_Heterochrome_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Magic_duration_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "Skill_Heterochrome_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Magic_duration_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouRtoMRetainBuffDur",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_RealBuff_retain_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_RealBuff_retain_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouMtoRRetainBuffDur",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicBuff_retain_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicBuff_retain_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouMagicSkillRemainTime_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicSkillRemainTime_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicSkillRemainTime_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouSkill1DotStack_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill1_DotStack_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill1_DotStack_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouSkill2DotStack_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill2_DotStack_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Skill2_DotStack_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouOverloadRealStagger_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_OverloadReal_stagger_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_OverloadReal_stagger_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouRealSkillHeterochrome_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_RealSkill_Heterochrome_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_RealSkill_Heterochrome_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouMagicSkillHeterochrome_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicSkill_Heterochrome_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_MagicSkill_Heterochrome_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 }
@@ -22239,8 +22665,8 @@
               "Key": "GA_Zankou_QTE_des"
 },
             "ShortDescription": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "GA_Mitsuki_QTE_des_tidy"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Melee_Tidy"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -22280,19 +22706,19 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Mitsuki_QTE_Damage"
+                "GE_Player_Zankou_QTE_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "QTE_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_QTE_1_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
-              "Key": "QTE_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_QTE_1_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 }
@@ -22355,7 +22781,221 @@
           "AssetPathName": "",
           "SubPathString": ""
 },
-        "GALevelUpArray": [],
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_UltraSkill1_Damage",
+                "GE_Player_Zankou_UltraSkill2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_1_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_1_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_ForceUltraSkill1_Damage",
+                "GE_Player_Zankou_ForceUltraSkill2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_2_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_2_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_MagicUltraSkill1_Damage",
+                "GE_Player_Zankou_MagicUltraSkill2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_3_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_3_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Zankou_UltraSkill"
+},
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_cooldown_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_cooldown_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "SkillCostName": "GA_Zankou_UltraSkill"
+},
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_ChargeCost_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_ChargeCost_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouGiveUltraForceTime",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_ForceWindow_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_ForceWindow_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouMagicUltraDotStack_Show",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_DotStack_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraSkill_DotStack_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Zankou_DotDamage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraDotDamage_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotDamage_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouDotDamagePeriod",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraDotPeriod_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotPeriod_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouDotDamageDur",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraDotDuration_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotDuration_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "ZankouDotMaxCoef",
+                  "bIsPercent": false
+}
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_UltraDotStackMax_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_DotStackMax_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+}
+        ],
         "bStolenAbility": false,
         "GameplayAbility": {
           "AssetPathName": "",
@@ -22420,7 +23060,8 @@
               "Key": "GA_Zankou_Passive_1_des"
 },
             "ShortDescription": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Passive_1_des"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -22478,7 +23119,8 @@
               "Key": "GA_Zankou_Passive_2_des"
 },
             "ShortDescription": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+              "Key": "GA_Zankou_Passive_2_des"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -22572,83 +23214,7 @@
           "AssetPathName": "",
           "SubPathString": ""
 },
-        "GALevelUpArray": [
-          {
-            "LevelUpData": {
-              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
-              "DamageGEList": [
-                "GE_Player_Nanally_Skill1_Damage"
-              ],
-              "DefGEList": [],
-              "HPGEList": []
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
-              "Key": "GA_Nanally_Skill_1_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
-              "Key": "GA_Nanally_Skill_1_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "SkillCDName": "GA_Nanally_Skill"
-},
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
-              "Key": "GA_Nanally_Skill_cooldown_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
-              "Key": "GA_Nanally_Skill_cooldown_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "EffectFigureDataList": [
-                {
-                  "NameID": "Skill_Heterochrome_Show",
-                  "bIsPercent": false
-}
-              ]
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
-              "Key": "GA_Nanally_Skill_Heterochrome_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
-              "Key": "GA_Nanally_Melee_Heterochrome_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "EffectFigureDataList": [
-                {
-                  "NameID": "Nanally_CritDamageUp",
-                  "bIsPercent": true
-}
-              ]
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
-              "Key": "GA_Nanally_Skill_critdmg_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
-              "Key": "GA_Nanally_Skill_critdmg_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-}
-        ],
+        "GALevelUpArray": [],
         "bStolenAbility": false,
         "GameplayAbility": {
           "AssetPathName": "",
@@ -23968,7 +24534,7 @@
 },
         "AbilityDescription": [],
         "icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/Fadia_UltraSkillMelee.Fadia_UltraSkillMelee",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Linko_Skill.Linko_Skill",
           "SubPathString": ""
 },
         "ExtendIcon": {
@@ -23988,7 +24554,7 @@
 },
         "AbilityDescription": [],
         "icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/Fork_rat.Fork_rat",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Linko_UltraSkill2.Linko_UltraSkill2",
           "SubPathString": ""
 },
         "ExtendIcon": {
@@ -24008,7 +24574,7 @@
 },
         "AbilityDescription": [],
         "icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_unarmed_melee.female051_unarmed_melee",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mon55_Melee.Mon55_Melee",
           "SubPathString": ""
 },
         "ExtendIcon": {
@@ -24028,7 +24594,7 @@
 },
         "AbilityDescription": [],
         "icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/female051_boss34_ultral.female051_boss34_ultral",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mon55_Skill.Mon55_Skill",
           "SubPathString": ""
 },
         "ExtendIcon": {
@@ -24060,7 +24626,7 @@
 },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
-              "Key": "GA_Linko_Melee1_des"
+              "Key": "GA_Linko_Melee1_des_short"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -24080,7 +24646,7 @@
 },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
-              "Key": "GA_Linko_Melee2_des"
+              "Key": "GA_Linko_Melee2_des_short"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -24100,7 +24666,7 @@
 },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
-              "Key": "GA_Linko_Melee3_des"
+              "Key": "GA_Linko_Melee3_des_short"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -24120,7 +24686,27 @@
 },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
-              "Key": "GA_Linko_Melee4_des"
+              "Key": "GA_Linko_Melee4_des_short"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "GA_Linko_PerfectEvade_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "GA_Linko_PerfectEvade_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "GA_Linko_PerfectEvade_des_short"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -24148,7 +24734,7 @@
           }
         ],
         "icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/chiichan_melee.chiichan_melee",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Linko_Melee.Linko_Melee",
           "SubPathString": ""
 },
         "ExtendIcon": {
@@ -24160,19 +24746,19 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chiichan073_Melee1_Damage"
+                "GE_Player_Radio072_Melee1_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee1_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_melee1_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee1_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_melee1_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24180,19 +24766,19 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chiichan073_Melee2_Damage"
+                "GE_Player_Radio072_Melee2_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee2_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_melee2_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee2_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_melee2_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24200,19 +24786,19 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chiichan073_Melee3_Damage"
+                "GE_Player_Radio072_Melee3_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee3_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_melee3_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee3_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_melee3_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24220,19 +24806,22 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chiichan073_Melee4_Damage"
+                "GE_Player_Radio072_Melee4_1_Damage",
+                "GE_Player_Radio072_Melee4_2_Damage",
+                "GE_Player_Radio072_Melee4_3_Damage",
+                "GE_Player_Radio072_Melee4_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee4_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_melee4_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee4_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_melee4_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24240,34 +24829,21 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chiichan073_Melee5_Damage"
+                "GE_Player_Radio072_Melee5_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee5_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_melee5_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee5_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_melee5_num"
 },
             "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": null,
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee_coin1_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee_coin1_num"
-},
-            "CLGlobalCommonDataCurveID": "Chiichan_CoinMelee1"
 },
           {
             "LevelUpData": {
@@ -24280,32 +24856,12 @@
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee_Heterochrome_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Melee_Heterochrome_Show"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee_Heterochrome_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
-              "DamageGEList": [
-                "GE_Player_Chiichan073_Branch2_Damage"
-              ],
-              "DefGEList": [],
-              "HPGEList": []
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branch_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branch_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Melee_Heterochrome_Show_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24313,90 +24869,12 @@
             "LevelUpData": null,
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branch_coin4_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_power_melee_name"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branch_coin4_num"
-},
-            "CLGlobalCommonDataCurveID": "Chiichan_CoinBranch"
-},
-          {
-            "LevelUpData": {
-              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
-              "DamageGEList": [
-                "GE_Player_Chiichan073_Branch_Damage"
-              ],
-              "DefGEList": [],
-              "HPGEList": []
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branchB_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branchB_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": null,
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branchB_coin4_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branchB_coin4_num"
-},
-            "CLGlobalCommonDataCurveID": "Chiichan_CoinBranch"
-},
-          {
-            "LevelUpData": {
-              "ExceptionType": "EExceptionSourceDataType::Chiichan_FixFons"
-},
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branch_fixfons_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee_coin1_num"
-},
-            "CLGlobalCommonDataCurveID": "Chiichan_FixFons_1"
-},
-          {
-            "LevelUpData": {
-              "ExceptionType": "EExceptionSourceDataType::Chiichan_FixFons_Kill"
-},
-            "Name": "Chiichan_FixFons_Kill_1",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branch_killfons_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_branch_killfons_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "ExceptionType": "EExceptionSourceDataType::Chiichan_DailyMaxFons"
-},
-            "Name": "Chiichan_DailyMaxFons",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_DailyMaxFons_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_DailyMaxFons_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_power_melee_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24404,53 +24882,59 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chiichan073_AirAttack1_Damage"
+                "GE_Player_Radio072_Branch_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_AirAttack_dmg_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_branch_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_AirAttack_dmg_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_branch_num"
 },
             "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": null,
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_AirAttack_coin_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_AirAttack_coin_num"
-},
-            "CLGlobalCommonDataCurveID": "Chiichan_CoinMelee1"
 },
           {
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chiichan073_PerfectEvadeAttack1_Damage",
-                "GE_Player_Chiichan073_PerfectEvadeAttack2_Damage"
+                "GE_Player_Radio072_AirAttack_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_PerfectEvade_dmg_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_airattack_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_PerfectEvade_dmg_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_airattack_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Xiaozhen_Skill1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_xiaozhen_skill1_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_xiaozhen_skill1_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24458,14 +24942,61 @@
             "LevelUpData": null,
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_PerfectEvade_coin_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_power_yinji_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_PerfectEvade_coin_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_power_yinji_num"
 },
-            "CLGlobalCommonDataCurveID": "Chiichan_CoinEvadeAttackshow"
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": null,
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_heterochrome_yinji_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_heterochrome_yinji_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Radio072_PerfectEvadeAttack_Damage",
+                "GE_Player_Radio072_PerfectEvadeAttack_1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_perfectevade_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_perfectevade_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": null,
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_power_perfectevade_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_power_perfectevade_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
 }
         ],
         "bStolenAbility": false,
@@ -24491,7 +25022,7 @@
 },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
-              "Key": "GA_Linko_Skill1_des"
+              "Key": "GA_Linko_Skill1_des_short"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -24520,7 +25051,7 @@
           }
         ],
         "icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/chiichan_skill1.chiichan_skill1",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Linko_Skill.Linko_Skill",
           "SubPathString": ""
 },
         "ExtendIcon": {
@@ -24532,81 +25063,35 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chiichan073_Skill1_1Damage",
-                "GE_Player_Chiichan073_Skill1_Damage"
+                "GE_Player_Radio072_Skill1_Damage",
+                "GE_Player_Radio072_Skill2_Damage",
+                "GE_Player_Radio072_Skill3_Damage",
+                "GE_Player_Radio072_Skill4_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_1_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_skill_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_1_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_skill_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
           {
-            "LevelUpData": {
-              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
-              "DamageGEList": [
-                "GE_Player_Chiichan073_Skill2_2Damage"
-              ],
-              "DefGEList": [],
-              "HPGEList": []
-            },
+            "LevelUpData": null,
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_2_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_powermax_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_2_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
-              "DamageGEList": [
-                "GE_Player_Chiichan073_Skill2_Damage"
-              ],
-              "DefGEList": [],
-              "HPGEList": []
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_2_loop_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_2_loop_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
-              "DamageGEList": [
-                "GE_Player_Chiichan073_Skill3_Damage",
-                "GE_Player_Chiichan073_Skill4_Damage"
-              ],
-              "DefGEList": [],
-              "HPGEList": []
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_3_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_3_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_powermax_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24614,39 +25099,34 @@
             "LevelUpData": {
               "EffectFigureDataList": [
                 {
-                  "NameID": "Chiichan_Exdmg_Coef",
-                  "bIsPercent": false
-}
-              ]
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_Coin_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_Coin_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "EffectFigureDataList": [
-                {
-                  "NameID": "Chiichan_Loopdmg_Per",
+                  "NameID": "LinkoSkill_Min_DamageUpGeneralBase",
                   "bIsPercent": true
 }
               ]
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_CostCoin_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_skill_minbuff_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_CostCoin_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_skill_minbuff_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_skill_buff_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_skill_buff_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24654,34 +25134,19 @@
             "LevelUpData": {
               "EffectFigureDataList": [
                 {
-                  "NameID": "Chiichan_Loopdmg_Coef",
-                  "bIsPercent": false
+                  "NameID": "LinkoSkill_Xiaozhen_DamageUpGeneralBase",
+                  "bIsPercent": true
 }
               ]
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_CostCoindmg_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_skill_xiaozhen_buff_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_CostCoindmg_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "SkillCDName": "GA_Chiichan073_Skill"
-},
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_Skill_cooldown_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_Skill_cooldown_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_skill_xiaozhen_buff_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24689,59 +25154,34 @@
             "LevelUpData": {
               "EffectFigureDataList": [
                 {
-                  "NameID": "Skill1_Heterochrome_Show",
+                  "NameID": "Skill_Heterochrome_Show",
                   "bIsPercent": false
 }
               ]
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_1_Heterochrome_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Skill_Heterochrome_Show"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee_Heterochrome_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Skill_Heterochrome_Show_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
           {
             "LevelUpData": {
-              "EffectFigureDataList": [
-                {
-                  "NameID": "Skill2_Heterochrome_Show",
-                  "bIsPercent": false
-}
-              ]
-            },
+              "SkillCDName": "GA_Radio072_Skill"
+},
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_2_Heterochrome_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_skill_cd_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee_Heterochrome_num"
-},
-            "CLGlobalCommonDataCurveID": "None"
-},
-          {
-            "LevelUpData": {
-              "EffectFigureDataList": [
-                {
-                  "NameID": "Skill3_Heterochrome_Show",
-                  "bIsPercent": false
-}
-              ]
-            },
-            "Name": "None",
-            "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanSkill_3_Heterochrome_des"
-},
-            "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_melee_Heterochrome_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_skill_cd_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 }
@@ -24769,7 +25209,7 @@
 },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
-              "Key": "GA_Linko_UtraSkill_des"
+              "Key": "GA_Linko_UtraSkill_des_short"
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -24797,7 +25237,7 @@
           }
         ],
         "icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/chiichan_ultraskill.chiichan_ultraskill",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Linko_UltraSkill.Linko_UltraSkill",
           "SubPathString": ""
 },
         "ExtendIcon": {
@@ -24809,21 +25249,59 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chiichan073_UltraSkill1_Damage",
-                "GE_Player_Chiichan073_UltraSkill2_Damage",
-                "GE_Player_Chiichan073_UltraSkill3_Damage"
+                "GE_Player_Radio072_UltralSkillLTE_AOE_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanUltraSkill_1_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskillaoe_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "ChiichanUltraSkill_1_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskillaoe_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Radio072_UltraSkill2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Radio072_UltraSkill3_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill3_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill3_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
@@ -24831,49 +25309,64 @@
             "LevelUpData": {
               "EffectFigureDataList": [
                 {
-                  "NameID": "UltraSkill_Dur_Show",
-                  "bIsPercent": false
+                  "NameID": "LinkoUltraSkill3_DamageUpGeneralBase",
+                  "bIsPercent": true
 }
               ]
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_UltraSkill_Dur_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill3_buff_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_UltraSkill_Dur_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill3_buff_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
           {
             "LevelUpData": {
-              "SkillCostName": "GA_Chiichan073_UltraSkill"
-},
+              "EffectFigureDataList": []
+            },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_UltraSkill_ChargeCost_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill3_buffmax_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_UltraSkill_ChargeCost_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill3_buffmax_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 },
           {
             "LevelUpData": {
-              "SkillCDName": "GA_Chiichan073_UltraSkill"
+              "SkillCDName": "GA_Radio072_UltraSkill"
 },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_UltraSkill_cooldown_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill_cd_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_UltraSkill_cooldown_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill_cd_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "SkillCostName": "GA_Radio072_UltraSkill"
+},
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill_cost_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ultraskill_cost_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 }
@@ -24901,7 +25394,25 @@
 },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
-              "Key": "GA_Linko_QTE_des"
+              "Key": "GA_Linko_QTE_des_short"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "GA_Linko_QTE_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
 },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -24911,7 +25422,7 @@
           }
         ],
         "icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/chiichan_qte.chiichan_qte",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Linko_QTE.Linko_QTE",
           "SubPathString": ""
 },
         "ExtendIcon": {
@@ -24923,19 +25434,60 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chiichan073_QTE_Damage"
+                "GE_Player_Radio072_QTE_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
             },
             "Name": "None",
             "Desc": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_QTE_dmg_des"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_qte_des"
 },
             "DescValue": {
-              "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
-              "Key": "Chiichan_QTE_dmg_num"
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_qte_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Radio072_LTE_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_lte_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_lte_num"
+},
+            "CLGlobalCommonDataCurveID": "None"
+},
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Radio072_Skill1_ThrowXiaozhen_Damage",
+                "GE_Player_Radio072_Skill1_ThrowXiaozhen_Damage2"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ltexiaozhen_des"
+},
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "Linko_ltexiaozhen_num"
 },
             "CLGlobalCommonDataCurveID": "None"
 }
@@ -24991,7 +25543,7 @@
           }
         ],
         "icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/chiichan_pas1.chiichan_pas1",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Linko_Passive1.Linko_Passive1",
           "SubPathString": ""
 },
         "ExtendIcon": {
@@ -25014,7 +25566,8 @@
           {
             "AbilityDesType": "EAbilityDesType::ADT_DES",
             "DescriptionTitle": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "GA_Linko_Passive_2_name"
 },
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
@@ -25050,7 +25603,660 @@
           }
         ],
         "icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/chiichan_pas1.chiichan_pas1",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Linko_Passive2.Linko_Passive2",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Radio072_Passive_3": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+          "Key": "GA_Linko_SpecialAbility_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "GA_Linko_SpecialAbility_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "GA_Linko_SpecialAbility_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "GA_Linko_SpecialAbility_des"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+              "Key": "GA_Linko_SpecialAbility_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          }
+        ],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Linko_SpecialAbility.Linko_SpecialAbility",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_BlackBird_Melee": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+          "Key": "GA_BlackBird_Melee_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee1_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee1_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee2_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee2_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee2_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee3_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee3_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee3_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee4_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee4_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee4_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee5_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee5_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee5_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Melee_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          }
+        ],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Melee.Oneiroi_Melee",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_BlackBird_Skill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+          "Key": "GA_BlackBird_Skill_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Skill_1_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Skill_1_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Skill_1_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Skill_2_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Skill_2_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Skill_2_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Skill_3_name"
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Skill_3_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Skill_3_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Skill_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          }
+        ],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Skill.Oneiroi_Skill",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_BlackBird_UltraSkill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+          "Key": "GA_BlackBird_UltraSkill_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_UltraSkill_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_UltraSkill_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_UltraSkill_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          }
+        ],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_UltraSkill.Oneiroi_UltraSkill",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_BlackBird_QTE": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+          "Key": "GA_BlackBird_QTE_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_QTE_des"
+},
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_QTE_des_tidy"
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_QTE_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          }
+        ],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_QTE.Oneiroi_QTE",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_BlackBird_Passive_1": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+          "Key": "GA_BlackBird_Passive_1_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Passive_1_des"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Passive_1_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          }
+        ],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Pas1.Oneiroi_Pas1",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_BlackBird_Passive_2": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+          "Key": "GA_BlackBird_Passive_2_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Passive_2_des"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Passive_2_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          }
+        ],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Pas2.Oneiroi_Pas2",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_BlackBird_Passive_3": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+          "Key": "GA_BlackBird_Passive_3_name"
+},
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Passive_3_des"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+},
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/BlackBird_SkillDes.BlackBird_SkillDes",
+              "Key": "GA_BlackBird_Passive_3_background"
+},
+            "ShortDescription": {
+              "CultureInvariantString": null
+},
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+},
+            "AbilityDesReplaceValue": []
+          }
+        ],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Pas3.Oneiroi_Pas3",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_mon_55_player_UltraSkill": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mon55_Ultra.Mon55_Ultra",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Rouge_Evade": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "AbilityDescription": [],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Icon_Skill_Main_shanbi.Icon_Skill_Main_shanbi",
+          "SubPathString": ""
+},
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "GA_Radio091_Shoot": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Linko_Skilldes.Linko_Skilldes",
+          "Key": "Linko_ShootSkill_num"
+},
+        "AbilityDescription": [],
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Linko_Skill.Linko_Skill",
           "SubPathString": ""
 },
         "ExtendIcon": {

@@ -518,16 +518,44 @@
 },
       "GE_Player_Zankou_DotDamage": {
         "Name": {
-          "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
-          "Key": "GE_Player_Lacrimosa_Blood_Damage_name"
+          "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+          "Key": "ZankouDot_name"
+},
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_zankou_debuff1.bufficon_zankou_debuff1",
+          "SubPathString": ""
+},
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+          "Key": "ZankouDot_name"
+},
+        "BuffType": "BuffInfoType::NegativeBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_INCANTATION",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+},
+      "GE_Player_Zankou_DotUltraDamage": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+          "Key": "ZankouDot_name"
 },
         "icon": {
           "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_zankou_debuff.bufficon_zankou_debuff",
           "SubPathString": ""
 },
         "Desc": {
-          "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
-          "Key": "GE_Player_Lacrimosa_Blood_Damage_des"
+          "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+          "Key": "ZankouDot_name"
 },
         "BuffType": "BuffInfoType::NegativeBuff",
         "Hierarchy": -1,
@@ -574,16 +602,16 @@
 },
       "Buff_Zankou_RealDamUp": {
         "Name": {
-          "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
-          "Key": "GE_Player_Lacrimosa_Blood_Damage_name"
+          "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+          "Key": "ZankouRealBuff_name"
 },
         "icon": {
           "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_zankou_real.bufficon_zankou_real",
           "SubPathString": ""
 },
         "Desc": {
-          "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
-          "Key": "GE_Player_Lacrimosa_Blood_Damage_des"
+          "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+          "Key": "ZankouRealBuff_des"
 },
         "BuffType": "BuffInfoType::PositiveBuff",
         "Hierarchy": -1,
@@ -602,16 +630,16 @@
 },
       "Buff_Zankou_MagicDotDamCritUp": {
         "Name": {
-          "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
-          "Key": "GE_Player_Lacrimosa_Blood_Damage_name"
+          "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+          "Key": "ZankouPhantomBuff_name"
 },
         "icon": {
           "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_zankou_magic.bufficon_zankou_magic",
           "SubPathString": ""
 },
         "Desc": {
-          "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
-          "Key": "GE_Player_Lacrimosa_Blood_Damage_des"
+          "TableId": "/Game/Text/PlayerSkillDes/Zankou_SkillDes.Zankou_SkillDes",
+          "Key": "ZankouPhantomBuff_des"
 },
         "BuffType": "BuffInfoType::PositiveBuff",
         "Hierarchy": -1,
@@ -814,13 +842,13 @@
           "TableId": "/Game/Text/PlayerSkillDes/Cang_SkillDes.Cang_SkillDes",
           "Key": "Buff_CangUltraSkill_Field_des"
 },
-        "BuffType": "BuffInfoType::StateBuff",
+        "BuffType": "BuffInfoType::NegativeBuff",
         "Hierarchy": -1,
         "BuffPropType": "BuffPropType::BUFF_PROP_INCANTATION",
         "IsShowInBuffMaganger": true,
-        "IsMajorBuff": false,
+        "IsMajorBuff": true,
         "ReplaceBufferID": "None",
-        "IsShowInHeadUpBattleMark": false,
+        "IsShowInHeadUpBattleMark": true,
         "IsShowOnlySenderClient": false,
         "DescParam": [],
         "GEParamName": "None",
@@ -1460,7 +1488,7 @@
         "IsShowCustomModifierInfo": true,
         "IsValueOnlyAndStackCountReplaceLevel": false
 },
-      "Buff_Equipment_Chaos2_4_Effect": {
+      "Buff_Equipment_Chaos2_4_Effect_Power": {
         "Name": {
           "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
           "Key": "Suit_Chaos"
@@ -1482,7 +1510,7 @@
         "IsShowInHeadUpBattleMark": false,
         "IsShowOnlySenderClient": false,
         "DescParam": [],
-        "GEParamName": "Buff_Equipment_Chaos2_4_Effect",
+        "GEParamName": "Buff_Equipment_Chaos2_4_Effect_Power",
         "GEParamNum": 0,
         "IsValueOnlyAndCustomDesc": true,
         "IsShowCustomModifierInfo": true,
@@ -5619,7 +5647,7 @@
           "CultureInvariantString": null
 },
         "icon": {
-          "AssetPathName": "/Game/UI/UI/Equip/UI_YH_kongmuicon4__02.UI_YH_kongmuicon4__02",
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_lingke3.bufficon_lingke3",
           "SubPathString": ""
 },
         "Desc": {
@@ -5645,7 +5673,7 @@
           "CultureInvariantString": null
 },
         "icon": {
-          "AssetPathName": "/Game/UI/UI/Equip/UI_YH_kongmuicon4__02.UI_YH_kongmuicon4__02",
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_lingke3.bufficon_lingke3",
           "SubPathString": ""
 },
         "Desc": {
@@ -5671,7 +5699,7 @@
           "CultureInvariantString": null
 },
         "icon": {
-          "AssetPathName": "/Game/UI/UI/Equip/UI_YH_kongmuicon4__02.UI_YH_kongmuicon4__02",
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_lingke3.bufficon_lingke3",
           "SubPathString": ""
 },
         "Desc": {
@@ -5712,6 +5740,172 @@
         "IsMajorBuff": true,
         "ReplaceBufferID": "None",
         "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+},
+      "Buff_Oneiroi075_Passive2_DamUP": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "GA_Oneiroi_Passive_2_name"
+},
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Pas2.Oneiroi_Pas2",
+          "SubPathString": ""
+},
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "Buff_Oneiroi075_Passive2_DamUP_des"
+},
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_NATURE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+},
+      "Buff_Oneiroi075_Passive2_LV4_DamUP": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "GA_Oneiroi_star5_name"
+},
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1075_5.1075_5",
+          "SubPathString": ""
+},
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "GA_Oneiroi_star5_des"
+},
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_NATURE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+},
+      "Buff_Reaction_5_new_1036": {
+        "Name": {
+          "TableId": "/Game/Text/ST_ReactionDes.ST_ReactionDes",
+          "Key": "Reaction_zhouan"
+},
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_canhongzhouan.bufficon_canhongzhouan",
+          "SubPathString": ""
+},
+        "Desc": {
+          "TableId": "/Game/Text/ST_ReactionDes.ST_ReactionDes",
+          "Key": "Reaction_zhouan_des"
+},
+        "BuffType": "BuffInfoType::NegativeBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": true,
+        "IsShowOnlySenderClient": true,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+},
+      "Buff_Fork_GoldRecord_Effect": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_GoldRecord_Effect_name"
+},
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
+          "SubPathString": ""
+},
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_GoldRecord_Effect_des"
+},
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Fork_GoldRecord_Effect",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": true,
+        "IsShowCustomModifierInfo": true,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+},
+      "Buff_Fork_DemonBlade_CritDmgUp": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_DemonBlade_CritDmgUp_name"
+},
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_dmgup.bufficon_common_dmgup",
+          "SubPathString": ""
+},
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_DemonBlade_CritDmgUp_des"
+},
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Fork_DemonBlade_CritDmgUp",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": true,
+        "IsShowCustomModifierInfo": true,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+},
+      "GE_Player_Adler_Skill_Damage": {
+        "Name": {
+          "CultureInvariantString": null
+},
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_dmgup.bufficon_common_dmgup",
+          "SubPathString": ""
+},
+        "Desc": {
+          "CultureInvariantString": null
+},
+        "BuffType": "BuffInfoType::NegativeBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": true,
         "IsShowOnlySenderClient": false,
         "DescParam": [],
         "GEParamName": "None",

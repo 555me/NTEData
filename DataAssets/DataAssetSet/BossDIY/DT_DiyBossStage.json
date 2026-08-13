@@ -17,6 +17,7 @@
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DiyBoss01_Name"
 },
+        "Comment": "",
         "UnlockNode": {
           "PreLevelId": "None",
           "ActiveOpenedHours": 0,
@@ -99,13 +100,14 @@
             "Key": "3",
             "Value": {
               "LimitScore": 2000,
-              "DropID": "drop_DiyBoss_diff3",
+              "DropID": "drop_DiyBoss_diff3_new",
               "bHasRecommend": true,
               "RecommendDifficulty": 3,
               "RecommendPresets": [
                 "TimeOP001",
                 "Attack002",
-                "AnOP001"
+                "AnOP001",
+                "LifeOP001"
               ]
             }
           },
@@ -300,6 +302,11 @@
             }
           }
         ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_04/boss_04_BP_UI.boss_04_BP_UI_C",
           "SubPathString": ""
@@ -329,8 +336,9 @@
       "DiyBossStage2": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss02_Name"
+          "Key": "DiyBoss03_Name"
 },
+        "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage1",
           "ActiveOpenedHours": 0,
@@ -414,13 +422,14 @@
             "Key": "3",
             "Value": {
               "LimitScore": 2000,
-              "DropID": "drop_DiyBoss_diff3",
+              "DropID": "drop_DiyBoss_diff3_new",
               "bHasRecommend": true,
               "RecommendDifficulty": 3,
               "RecommendPresets": [
                 "TimeOP001",
                 "Attack002",
-                "XiangOP001"
+                "XiangOP001",
+                "LifeOP001"
               ]
             }
           },
@@ -519,14 +528,14 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_16_Name"
+                "Key": "boss_18_Name"
 },
               "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_007.UI_YH_PVEBOSS_BOSSList_Boss_007",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
                 "SubPathString": ""
 },
               "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_16_icon.Boss_16_icon",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
                 "SubPathString": ""
 },
               "BossWeakPointIcon": {
@@ -535,7 +544,7 @@
 },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_16_BP_Found"
+                "Key": "boss_18_BP_Found"
 }
             }
           },
@@ -544,14 +553,14 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_16_Name"
+                "Key": "boss_18_Name"
 },
               "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_007.UI_YH_PVEBOSS_BOSSList_Boss_007",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
                 "SubPathString": ""
 },
               "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_16_icon.Boss_16_icon",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
                 "SubPathString": ""
 },
               "BossWeakPointIcon": {
@@ -560,7 +569,7 @@
 },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_16_BP_Found"
+                "Key": "boss_18_BP_Found"
 }
             }
           },
@@ -569,14 +578,14 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_16_Name"
+                "Key": "boss_18_Name"
 },
               "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_007.UI_YH_PVEBOSS_BOSSList_Boss_007",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
                 "SubPathString": ""
 },
               "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_16_icon.Boss_16_icon",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
                 "SubPathString": ""
 },
               "BossWeakPointIcon": {
@@ -585,7 +594,7 @@
 },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_16_BP_Found"
+                "Key": "boss_18_BP_Found"
 }
             }
           },
@@ -594,14 +603,14 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_16_Name"
+                "Key": "boss_18_Name"
 },
               "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_007.UI_YH_PVEBOSS_BOSSList_Boss_007",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
                 "SubPathString": ""
 },
               "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_16_icon.Boss_16_icon",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
                 "SubPathString": ""
 },
               "BossWeakPointIcon": {
@@ -610,13 +619,18 @@
 },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_16_BP_Found"
+                "Key": "boss_18_BP_Found"
 }
             }
           }
         ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
         "PreviewActorClass": {
-          "AssetPathName": "/Game/Blueprints/Character/Monster/boss_16/Boss_016_BP_UI.Boss_016_BP_UI_C",
+          "AssetPathName": "/Game/Blueprints/Character/Monster/boss_18/boss_18_BP_UI.boss_18_BP_UI_C",
           "SubPathString": ""
 },
         "PreviewActorTransformOverride": {
@@ -624,7 +638,269 @@
             "X": 0.0,
             "Y": -0.0,
             "Z": 1.0,
-            "W": 6.123234E-17,
+            "W": 0.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+},
+          "Translation": {
+            "X": 0.0,
+            "Y": -4.0,
+            "Z": 13.0
+},
+          "Scale3D": {
+            "X": 0.1,
+            "Y": 0.1,
+            "Z": 0.1
+}
+        }
+      },
+      "DiyBossStage7": {
+        "DescName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DiyBoss08_Name"
+},
+        "Comment": "",
+        "UnlockNode": {
+          "PreLevelId": "DiyBossStage2",
+          "ActiveOpenedHours": 0,
+          "UnlockDesc": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Unlock_Cond_L2"
+}
+        },
+        "DifficultyMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty1"
+},
+              "BaseScore": 500,
+              "ScoreRate": 1.0
+}
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty2"
+},
+              "BaseScore": 500,
+              "ScoreRate": 2.0
+}
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty3"
+},
+              "BaseScore": 500,
+              "ScoreRate": 3.0
+}
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty4"
+},
+              "BaseScore": 500,
+              "ScoreRate": 5.0
+}
+          }
+        ],
+        "ScoreAwardMap": [],
+        "OptionChoices": [
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_TimeChoice"
+},
+            "Options": [
+              "TimeOP001_challenge",
+              "TimeOP002_challenge",
+              "TimeOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_HPChoice"
+},
+            "Options": [
+              "LifeOP001_challenge",
+              "LifeOP002_challenge",
+              "LifeOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_AtkChoice"
+},
+            "Options": [
+              "Attack001_challenge",
+              "Attack002_challenge",
+              "Attack003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceAn"
+},
+            "Options": [
+              "AnOP001_challenge",
+              "AnOP002_challenge",
+              "AnOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceHun"
+},
+            "Options": [
+              "HunOP001_challenge",
+              "HunOP002_challenge",
+              "HunOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceXiang"
+},
+            "Options": [
+              "XiangOP001_challenge",
+              "XiangOP002_challenge",
+              "XiangOP003_challenge"
+            ]
+          }
+        ],
+        "DifficultyDisplayData": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_17_Name"
+},
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_008.UI_YH_PVEBOSS_BOSSList_Boss_008",
+                "SubPathString": ""
+},
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_02__100.boss_103_02__100",
+                "SubPathString": ""
+},
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+},
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                "Key": "Ui_Clone_Mamen_Des"
+}
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_17_Name"
+},
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_008.UI_YH_PVEBOSS_BOSSList_Boss_008",
+                "SubPathString": ""
+},
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_02__100.boss_103_02__100",
+                "SubPathString": ""
+},
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+},
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                "Key": "Ui_Clone_Mamen_Des"
+}
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_17_Name"
+},
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_008.UI_YH_PVEBOSS_BOSSList_Boss_008",
+                "SubPathString": ""
+},
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_02__100.boss_103_02__100",
+                "SubPathString": ""
+},
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+},
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                "Key": "Ui_Clone_Mamen_Des"
+}
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_17_Name"
+},
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_008.UI_YH_PVEBOSS_BOSSList_Boss_008",
+                "SubPathString": ""
+},
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_02__100.boss_103_02__100",
+                "SubPathString": ""
+},
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+},
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                "Key": "Ui_Clone_Mamen_Des"
+}
+            }
+          }
+        ],
+        "bSpecialHighDifficulty": true,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/Transparent.Transparent",
+          "SubPathString": ""
+},
+        "PreviewActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Monster/boss_17/Boss_017_BP_UI.Boss_017_BP_UI_C",
+          "SubPathString": ""
+},
+        "PreviewActorTransformOverride": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.99904823,
+            "W": 0.043619387,
             "IsNormalized": true,
             "Size": 1.0,
             "SizeSquared": 1.0
@@ -632,12 +908,12 @@
           "Translation": {
             "X": 0.0,
             "Y": -3.0,
-            "Z": 18.0
+            "Z": 13.0
 },
           "Scale3D": {
-            "X": 0.07,
-            "Y": 0.07,
-            "Z": 0.07
+            "X": 0.038,
+            "Y": 0.038,
+            "Z": 0.038
 }
         }
       },
@@ -646,12 +922,13 @@
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DiyBoss06_Name"
 },
+        "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage2",
           "ActiveOpenedHours": 24,
           "UnlockDesc": {
             "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-            "Key": "DiyBoss_Unlock_Cond_L3"
+            "Key": "DiyBoss_Unlock_Cond_L3_challenge"
 }
         },
         "DifficultyMap": [
@@ -729,13 +1006,14 @@
             "Key": "3",
             "Value": {
               "LimitScore": 2000,
-              "DropID": "drop_DiyBoss_diff3",
+              "DropID": "drop_DiyBoss_diff3_new",
               "bHasRecommend": true,
               "RecommendDifficulty": 3,
               "RecommendPresets": [
                 "TimeOP001",
                 "Attack002",
-                "XiangOP001"
+                "XiangOP001",
+                "LifeOP001"
               ]
             }
           },
@@ -930,6 +1208,11 @@
             }
           }
         ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_07/Boss_07_BP_UI.Boss_07_BP_UI_C",
           "SubPathString": ""
@@ -939,7 +1222,7 @@
             "X": 0.0,
             "Y": -0.0,
             "Z": 1.0,
-            "W": 6.123234E-17,
+            "W": 0.0,
             "IsNormalized": true,
             "Size": 1.0,
             "SizeSquared": 1.0
@@ -959,8 +1242,9 @@
       "DiyBossStage4": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss03_Name"
+          "Key": "DiyBoss04_Name"
 },
+        "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage3",
           "ActiveOpenedHours": 48,
@@ -1044,13 +1328,14 @@
             "Key": "3",
             "Value": {
               "LimitScore": 2000,
-              "DropID": "drop_DiyBoss_diff3",
+              "DropID": "drop_DiyBoss_diff3_new",
               "bHasRecommend": true,
               "RecommendDifficulty": 3,
               "RecommendPresets": [
                 "TimeOP001",
                 "Attack002",
-                "XiangOP001"
+                "HunOP001",
+                "LifeOP001"
               ]
             }
           },
@@ -1112,34 +1397,34 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceGuang"
+              "Key": "DiyBoss_ChoiceZhou"
 },
             "Options": [
-              "LightOP001",
-              "LightOP002",
-              "LightOP003"
+              "ZhouOP001",
+              "ZhouOP002",
+              "ZhouOP003"
             ]
           },
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceLin"
+              "Key": "DiyBoss_ChoiceAn"
 },
             "Options": [
-              "LingOP001",
-              "LingOP002",
-              "LingOP003"
+              "AnOP001",
+              "AnOP002",
+              "AnOP003"
             ]
           },
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceXiang"
+              "Key": "DiyBoss_ChoiceHun"
 },
             "Options": [
-              "XiangOP001",
-              "XiangOP002",
-              "XiangOP003"
+              "HunOP001",
+              "HunOP002",
+              "HunOP003"
             ]
           }
         ],
@@ -1149,23 +1434,23 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_18_Name"
+                "Key": "boss_26_Name"
 },
               "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
                 "SubPathString": ""
 },
               "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
                 "SubPathString": ""
 },
               "BossWeakPointIcon": {
-                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
                 "SubPathString": ""
 },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_18_BP_Found"
+                "Key": "boss_26_BP_Found"
 }
             }
           },
@@ -1174,23 +1459,23 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_18_Name"
+                "Key": "boss_26_Name"
 },
               "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
                 "SubPathString": ""
 },
               "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
                 "SubPathString": ""
 },
               "BossWeakPointIcon": {
-                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
                 "SubPathString": ""
 },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_18_BP_Found"
+                "Key": "boss_26_BP_Found"
 }
             }
           },
@@ -1199,23 +1484,23 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_18_Name"
+                "Key": "boss_26_Name"
 },
               "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
                 "SubPathString": ""
 },
               "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
                 "SubPathString": ""
 },
               "BossWeakPointIcon": {
-                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
                 "SubPathString": ""
 },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_18_BP_Found"
+                "Key": "boss_26_BP_Found"
 }
             }
           },
@@ -1224,29 +1509,34 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_18_Name"
+                "Key": "boss_26_Name"
 },
               "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
                 "SubPathString": ""
 },
               "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
                 "SubPathString": ""
 },
               "BossWeakPointIcon": {
-                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
                 "SubPathString": ""
 },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_18_BP_Found"
+                "Key": "boss_26_BP_Found"
 }
             }
           }
         ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
         "PreviewActorClass": {
-          "AssetPathName": "/Game/Blueprints/Character/Monster/boss_18/boss_18_BP_UI.boss_18_BP_UI_C",
+          "AssetPathName": "/Game/Blueprints/Character/Monster/boss_26/boss_26_BP_UI.boss_26_BP_UI_C",
           "SubPathString": ""
 },
         "PreviewActorTransformOverride": {
@@ -1254,7 +1544,7 @@
             "X": 0.0,
             "Y": -0.0,
             "Z": 1.0,
-            "W": 6.123234E-17,
+            "W": 0.0,
             "IsNormalized": true,
             "Size": 1.0,
             "SizeSquared": 1.0
@@ -1262,7 +1552,7 @@
           "Translation": {
             "X": 0.0,
             "Y": -4.0,
-            "Z": 13.0
+            "Z": 10.0
 },
           "Scale3D": {
             "X": 0.1,
@@ -1276,6 +1566,7 @@
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DiyBoss07_Name"
 },
+        "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage4",
           "ActiveOpenedHours": 72,
@@ -1359,13 +1650,14 @@
             "Key": "3",
             "Value": {
               "LimitScore": 2000,
-              "DropID": "drop_DiyBoss_diff3",
+              "DropID": "drop_DiyBoss_diff3_new",
               "bHasRecommend": true,
               "RecommendDifficulty": 3,
               "RecommendPresets": [
                 "TimeOP001",
                 "Attack002",
-                "ZhouOP001"
+                "ZhouOP001",
+                "LifeOP001"
               ]
             }
           },
@@ -1560,6 +1852,11 @@
             }
           }
         ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_13/boss_13_BP_UI.boss_13_BP_UI_C",
           "SubPathString": ""
@@ -1586,17 +1883,280 @@
 }
         }
       },
+      "DiyBossStage8": {
+        "DescName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DiyBoss09_Name"
+},
+        "Comment": "",
+        "UnlockNode": {
+          "PreLevelId": "DiyBossStage5",
+          "ActiveOpenedHours": 72,
+          "UnlockDesc": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Unlock_Cond_L5"
+}
+        },
+        "DifficultyMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty1"
+},
+              "BaseScore": 500,
+              "ScoreRate": 1.0
+}
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty2"
+},
+              "BaseScore": 500,
+              "ScoreRate": 2.0
+}
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty3"
+},
+              "BaseScore": 500,
+              "ScoreRate": 3.0
+}
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty4"
+},
+              "BaseScore": 500,
+              "ScoreRate": 5.0
+}
+          }
+        ],
+        "ScoreAwardMap": [],
+        "OptionChoices": [
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_TimeChoice"
+},
+            "Options": [
+              "TimeOP001_challenge",
+              "TimeOP002_challenge",
+              "TimeOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_HPChoice"
+},
+            "Options": [
+              "LifeOP001_challenge",
+              "LifeOP002_challenge",
+              "LifeOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_AtkChoice"
+},
+            "Options": [
+              "Attack001_challenge",
+              "Attack002_challenge",
+              "Attack003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceGuang"
+},
+            "Options": [
+              "LightOP001_challenge",
+              "LightOP002_challenge",
+              "LightOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceHun"
+},
+            "Options": [
+              "HunOP001_challenge",
+              "HunOP002_challenge",
+              "HunOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceXiang"
+},
+            "Options": [
+              "XiangOP001_challenge",
+              "XiangOP002_challenge",
+              "XiangOP003_challenge"
+            ]
+          }
+        ],
+        "DifficultyDisplayData": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "Anomaly_013_Name"
+},
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_009.UI_YH_PVEBOSS_BOSSList_Boss_009",
+                "SubPathString": ""
+},
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_01_100.boss_103_01_100",
+                "SubPathString": ""
+},
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+},
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_05_BP_Found"
+}
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "Anomaly_013_Name"
+},
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_009.UI_YH_PVEBOSS_BOSSList_Boss_009",
+                "SubPathString": ""
+},
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_01_100.boss_103_01_100",
+                "SubPathString": ""
+},
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+},
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_05_BP_Found"
+}
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "Anomaly_013_Name"
+},
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_009.UI_YH_PVEBOSS_BOSSList_Boss_009",
+                "SubPathString": ""
+},
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_01_100.boss_103_01_100",
+                "SubPathString": ""
+},
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+},
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_05_BP_Found"
+}
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "Anomaly_013_Name"
+},
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_009.UI_YH_PVEBOSS_BOSSList_Boss_009",
+                "SubPathString": ""
+},
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_01_100.boss_103_01_100",
+                "SubPathString": ""
+},
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+},
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_05_BP_Found"
+}
+            }
+          }
+        ],
+        "bSpecialHighDifficulty": true,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/Transparent.Transparent",
+          "SubPathString": ""
+},
+        "PreviewActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Monster/boss_05/boss_05_BP_UI.boss_05_BP_UI_C",
+          "SubPathString": ""
+},
+        "PreviewActorTransformOverride": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 1.0,
+            "W": 6.123234E-17,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+},
+          "Translation": {
+            "X": 0.0,
+            "Y": -3.0,
+            "Z": 14.0
+},
+          "Scale3D": {
+            "X": 0.05,
+            "Y": 0.05,
+            "Z": 0.05
+}
+        }
+      },
       "DiyBossStage6": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DiyBoss05_Name"
 },
+        "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage5",
           "ActiveOpenedHours": 96,
           "UnlockDesc": {
             "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-            "Key": "DiyBoss_Unlock_Cond_L6"
+            "Key": "DiyBoss_Unlock_Cond_L6_challenge"
 }
         },
         "DifficultyMap": [
@@ -1674,13 +2234,14 @@
             "Key": "3",
             "Value": {
               "LimitScore": 2000,
-              "DropID": "drop_DiyBoss_diff3",
+              "DropID": "drop_DiyBoss_diff3_new",
               "bHasRecommend": true,
               "RecommendDifficulty": 3,
               "RecommendPresets": [
                 "TimeOP001",
                 "Attack002",
-                "XiangOP001"
+                "XiangOP001",
+                "LifeOP001"
               ]
             }
           },
@@ -1875,6 +2436,11 @@
             }
           }
         ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_08/Boss_08_BP_UI.Boss_08_BP_UI_C",
           "SubPathString": ""
@@ -1898,321 +2464,6 @@
             "X": 0.06,
             "Y": 0.06,
             "Z": 0.06
-}
-        }
-      },
-      "DiyBossStage7": {
-        "DescName": {
-          "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss04_Name"
-},
-        "UnlockNode": {
-          "PreLevelId": "DiyBossStage6",
-          "ActiveOpenedHours": 120,
-          "UnlockDesc": {
-            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-            "Key": "DiyBoss_Unlock_Cond_L7"
-}
-        },
-        "DifficultyMap": [
-          {
-            "Key": "1",
-            "Value": {
-              "Desc": {
-                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty1"
-},
-              "BaseScore": 500,
-              "ScoreRate": 1.0
-}
-          },
-          {
-            "Key": "2",
-            "Value": {
-              "Desc": {
-                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty2"
-},
-              "BaseScore": 500,
-              "ScoreRate": 2.0
-}
-          },
-          {
-            "Key": "3",
-            "Value": {
-              "Desc": {
-                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty3"
-},
-              "BaseScore": 500,
-              "ScoreRate": 3.0
-}
-          },
-          {
-            "Key": "4",
-            "Value": {
-              "Desc": {
-                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty4"
-},
-              "BaseScore": 500,
-              "ScoreRate": 5.0
-}
-          }
-        ],
-        "ScoreAwardMap": [
-          {
-            "Key": "1",
-            "Value": {
-              "LimitScore": 500,
-              "DropID": "drop_DiyBoss_diff1",
-              "bHasRecommend": true,
-              "RecommendDifficulty": 1,
-              "RecommendPresets": [
-                "TimeOP001"
-              ]
-            }
-          },
-          {
-            "Key": "2",
-            "Value": {
-              "LimitScore": 1000,
-              "DropID": "drop_DiyBoss_diff2",
-              "bHasRecommend": true,
-              "RecommendDifficulty": 2,
-              "RecommendPresets": [
-                "TimeOP001"
-              ]
-            }
-          },
-          {
-            "Key": "3",
-            "Value": {
-              "LimitScore": 2000,
-              "DropID": "drop_DiyBoss_diff3",
-              "bHasRecommend": true,
-              "RecommendDifficulty": 3,
-              "RecommendPresets": [
-                "TimeOP001",
-                "Attack002",
-                "HunOP001"
-              ]
-            }
-          },
-          {
-            "Key": "4",
-            "Value": {
-              "LimitScore": 3000,
-              "DropID": "drop_DiyBoss_diff4",
-              "bHasRecommend": false,
-              "RecommendDifficulty": 0,
-              "RecommendPresets": []
-            }
-          },
-          {
-            "Key": "5",
-            "Value": {
-              "LimitScore": 5000,
-              "DropID": "drop_DiyBoss_diff5",
-              "bHasRecommend": false,
-              "RecommendDifficulty": 0,
-              "RecommendPresets": []
-            }
-          }
-        ],
-        "OptionChoices": [
-          {
-            "CategoryDesc": {
-              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_TimeChoice"
-},
-            "Options": [
-              "TimeOP001",
-              "TimeOP002",
-              "TimeOP003"
-            ]
-          },
-          {
-            "CategoryDesc": {
-              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_HPChoice"
-},
-            "Options": [
-              "LifeOP001",
-              "LifeOP002",
-              "LifeOP003"
-            ]
-          },
-          {
-            "CategoryDesc": {
-              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_AtkChoice"
-},
-            "Options": [
-              "Attack001",
-              "Attack002",
-              "Attack003"
-            ]
-          },
-          {
-            "CategoryDesc": {
-              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceZhou"
-},
-            "Options": [
-              "ZhouOP001",
-              "ZhouOP002",
-              "ZhouOP003"
-            ]
-          },
-          {
-            "CategoryDesc": {
-              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceAn"
-},
-            "Options": [
-              "AnOP001",
-              "AnOP002",
-              "AnOP003"
-            ]
-          },
-          {
-            "CategoryDesc": {
-              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceHun"
-},
-            "Options": [
-              "HunOP001",
-              "HunOP002",
-              "HunOP003"
-            ]
-          }
-        ],
-        "DifficultyDisplayData": [
-          {
-            "Key": "1",
-            "Value": {
-              "Desc": {
-                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_26_Name"
-},
-              "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
-                "SubPathString": ""
-},
-              "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
-                "SubPathString": ""
-},
-              "BossWeakPointIcon": {
-                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
-                "SubPathString": ""
-},
-              "DetailDesc": {
-                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_26_BP_Found"
-}
-            }
-          },
-          {
-            "Key": "2",
-            "Value": {
-              "Desc": {
-                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_26_Name"
-},
-              "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
-                "SubPathString": ""
-},
-              "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
-                "SubPathString": ""
-},
-              "BossWeakPointIcon": {
-                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
-                "SubPathString": ""
-},
-              "DetailDesc": {
-                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_26_BP_Found"
-}
-            }
-          },
-          {
-            "Key": "3",
-            "Value": {
-              "Desc": {
-                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_26_Name"
-},
-              "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
-                "SubPathString": ""
-},
-              "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
-                "SubPathString": ""
-},
-              "BossWeakPointIcon": {
-                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
-                "SubPathString": ""
-},
-              "DetailDesc": {
-                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_26_BP_Found"
-}
-            }
-          },
-          {
-            "Key": "4",
-            "Value": {
-              "Desc": {
-                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_26_Name"
-},
-              "BossIcon": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
-                "SubPathString": ""
-},
-              "BossIconMini": {
-                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
-                "SubPathString": ""
-},
-              "BossWeakPointIcon": {
-                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
-                "SubPathString": ""
-},
-              "DetailDesc": {
-                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_26_BP_Found"
-}
-            }
-          }
-        ],
-        "PreviewActorClass": {
-          "AssetPathName": "/Game/Blueprints/Character/Monster/boss_26/boss_26_BP_UI.boss_26_BP_UI_C",
-          "SubPathString": ""
-},
-        "PreviewActorTransformOverride": {
-          "Rotation": {
-            "X": 0.0,
-            "Y": -0.0,
-            "Z": 1.0,
-            "W": 6.123234E-17,
-            "IsNormalized": true,
-            "Size": 1.0,
-            "SizeSquared": 1.0
-},
-          "Translation": {
-            "X": 0.0,
-            "Y": -4.0,
-            "Z": 10.0
-},
-          "Scale3D": {
-            "X": 0.1,
-            "Y": 0.1,
-            "Z": 0.1
 }
         }
       }

@@ -1,0 +1,300 @@
+[
+  {
+    "Type": "MotorboatCollectDataAsset",
+    "Name": "DA_MotorboatCollect",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MotorboatCollectDataAsset'",
+    "Package": "/Game/DataAssets/DataAssetSet/MotorboatCollect/DA_MotorboatCollect",
+    "Properties": {
+      "DT_MotorboatFuelConfig": {
+        "ObjectName": "DataTable'DT_FuelConsumeByWeight'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/MotorboatCollect/DT_FuelConsumeByWeight.0"
+      },
+      "DT_MotorboatSpeedConfig": {
+        "ObjectName": "DataTable'DT_FuelConsumeBySpeed'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/MotorboatCollect/DT_FuelConsumeBySpeed.0"
+      },
+      "DT_MotorboatUpgradeConfig": {
+        "ObjectName": "DataTable'DT_UpgradeShipCfg'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/MotorboatCollect/DT_UpgradeShipCfg.0"
+      },
+      "DT_MotorboatHarpoonConfig": {
+        "ObjectName": "DataTable'DT_UpgradeHarpoonCfg'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/MotorboatCollect/DT_UpgradeHarpoonCfg.0"
+      },
+      "DT_MotorboatFloatObject": {
+        "ObjectName": "DataTable'DT_FloatObjectCfg'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/MotorboatCollect/DT_FloatObjectCfg.0"
+      },
+      "DT_MotorboatFloatBox": {
+        "ObjectName": "DataTable'DT_FloatBoxCfg'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/MotorboatCollect/DT_FloatBoxCfg.0"
+      },
+      "MinimapTransform": {
+        "Translation": {
+          "X": -285730.0,
+          "Y": 166220.0,
+          "Z": 3013.6426
+        }
+      },
+      "CollectDataLayers": [
+        {
+          "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/MotorBoatCollect.MotorBoatCollect",
+          "SubPathString": ""
+        }
+      ],
+      "MotorboatSpawnTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.81915206,
+          "W": 0.57357645,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -287220.0,
+          "Y": 169950.0,
+          "Z": 2280.0
+        }
+      },
+      "DeliverPos": {
+        "X": -286700.0,
+        "Y": 168210.0,
+        "Z": 2260.0
+      },
+      "DeliverRadius": 700.0,
+      "InitialFloatBoxCntMap": [
+        {
+          "Key": "1",
+          "Value": {
+            "QualityCntMap": [
+              {
+                "Key": "3",
+                "Value": 4
+              },
+              {
+                "Key": "2",
+                "Value": 10
+              },
+              {
+                "Key": "1",
+                "Value": 25
+              },
+              {
+                "Key": "10",
+                "Value": 2
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "QualityCntMap": [
+              {
+                "Key": "4",
+                "Value": 2
+              },
+              {
+                "Key": "3",
+                "Value": 8
+              },
+              {
+                "Key": "2",
+                "Value": 10
+              },
+              {
+                "Key": "1",
+                "Value": 10
+              },
+              {
+                "Key": "10",
+                "Value": 2
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "QualityCntMap": [
+              {
+                "Key": "4",
+                "Value": 6
+              },
+              {
+                "Key": "3",
+                "Value": 10
+              },
+              {
+                "Key": "2",
+                "Value": 10
+              },
+              {
+                "Key": "1",
+                "Value": 0
+              },
+              {
+                "Key": "10",
+                "Value": 2
+              }
+            ]
+          }
+        }
+      ],
+      "ShipLvlAddFloatBoxCntMap": [
+        {
+          "Key": "0",
+          "Value": {
+            "QualityCntMap": []
+          }
+        }
+      ],
+      "HarpoonLvlAddFloatBoxCntMap": [
+        {
+          "Key": "0",
+          "Value": {
+            "QualityCntMap": []
+          }
+        }
+      ],
+      "FloatObjAreaRectCenterPosMap": [
+        {
+          "Key": "1",
+          "Value": {
+            "X": -290720.0,
+            "Y": 183680.0,
+            "Z": 2300.0
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "X": -298360.0,
+            "Y": 203500.0,
+            "Z": 2300.0
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "X": -305600.0,
+            "Y": 222400.0,
+            "Z": 2300.0
+          }
+        }
+      ],
+      "FloatObjAreaRectRotationMap": [
+        {
+          "Key": "1",
+          "Value": -69.0
+        },
+        {
+          "Key": "2",
+          "Value": -69.0
+        },
+        {
+          "Key": "3",
+          "Value": -69.0
+        }
+      ],
+      "FloatObjAreaRectHalfWidthMap": [
+        {
+          "Key": "1",
+          "Value": {
+            "X": 10000.0,
+            "Y": 22000.0
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "X": 10000.0,
+            "Y": 22000.0
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "X": 9000.0,
+            "Y": 22000.0
+          }
+        }
+      ],
+      "FloatObjAreaPointMinSpacingMap": [
+        {
+          "Key": "1",
+          "Value": 1000.0
+        },
+        {
+          "Key": "2",
+          "Value": 1000.0
+        },
+        {
+          "Key": "3",
+          "Value": 1500.0
+        }
+      ],
+      "ReturnPointTrackGoalParam": {
+        "IconUniqueID": "OpAct_MotorboatCollect",
+        "GoalLocation": {
+          "X": -286700.0,
+          "Y": 168210.0,
+          "Z": 2300.0
+        },
+        "bUsePath": true,
+        "bFollowActor": true,
+        "IndicatorType": "EAzimuthIndicatorType::AT_QUEST",
+        "CustomIcon": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_zhixian03.UI_mission_zhixian03",
+          "SubPathString": ""
+        },
+        "bHideInClone": false
+      },
+      "LoadGearColorMap": [
+        {
+          "Key": "1",
+          "Value": {
+            "R": 0.003677,
+            "G": 0.887923,
+            "B": 0.270498,
+            "A": 1.0,
+            "Hex": "0CF28E"
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "R": 0.838799,
+            "G": 0.533277,
+            "B": 0.008568,
+            "A": 1.0,
+            "Hex": "ECC117"
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "R": 0.887923,
+            "G": 0.23074,
+            "B": 0.004025,
+            "A": 1.0,
+            "Hex": "F2840D"
+          }
+        },
+        {
+          "Key": "0",
+          "Value": {
+            "R": 0.863157,
+            "G": 0.057805,
+            "B": 0.004777,
+            "A": 1.0,
+            "Hex": "EF440F"
+          }
+        }
+      ]
+    }
+  }
+]

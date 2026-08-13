@@ -1379,6 +1379,25 @@
           "SubPathString": ""
 }
       },
+      "Shop_007_06_01": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_007_name"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
       "Shop_008_01_01": {
         "ChainShopID": "None",
         "ShopType": "EShopType::NPC_SHOP",
@@ -4836,6 +4855,24 @@
           "SubPathString": ""
 }
       },
+      "FonsLimitTimeShop5": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::FONS_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "FonsLimitTimeShop",
+        "ShopName": {
+          "CultureInvariantString": null
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
       "SpecialOfferGiftShop": {
         "ChainShopID": "None",
         "ShopType": "EShopType::GIFT_SHOP",
@@ -5160,17 +5197,92 @@
       },
       "FT_CollectShop": {
         "ChainShopID": "None",
-        "ShopType": "EShopType::NPC_SHOP",
+        "ShopType": "EShopType::FTItemsSellShop",
         "CurrencyID": [
           "FTGoldCoin"
         ],
         "UnLockID": "None",
         "SwitchType": "ESwitchType::Shop",
         "CanBuyDistance": -1.0,
-        "UIClass": "NPCShop",
+        "UIClass": "FTItemsSellShop",
         "ShopName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
           "Key": "FT_CollectShop_ShopName"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "ScratchShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Scratch_bookmark"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Shop.ST_Shop",
+          "Key": "ScratchShop"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "Shipyard_01": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::MALL_SHOP",
+        "CurrencyID": [
+          "fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "BoatShopMain",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Shop.ST_Shop",
+          "Key": "ScratchShop"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "MBCollectShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "MBCollectCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Shop.ST_Shop",
+          "Key": "MBCollectShop_name"
+},
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+}
+      },
+      "BidkingFonsShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "CultureInvariantString": "<!>即刻落槌方斯商店"
 },
         "ShopIcon": {
           "AssetPathName": "",

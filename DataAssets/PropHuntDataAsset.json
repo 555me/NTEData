@@ -7,6 +7,7 @@
     "Package": "/Game/DataAssets/PropHuntDataAsset",
     "Properties": {
       "InitTrialId": "PropHunt_chushi",
+      "ValidCheckInterval": 2,
       "MaxRewardScore": 6000,
       "RotateRate": 60.0,
       "DisguiseNiagaraSocketName": "PropHuntEffect",
@@ -41,7 +42,71 @@
       "MoveInputGE": {
         "ObjectName": "BlueprintGeneratedClass'Buff_CantMove_C'",
         "ObjectPath": "/Game/Blueprints/Character/Monster/Buff/Buff_CantMove.0"
-      }
+      },
+      "MoveAdjustGE": {
+        "ObjectName": "BlueprintGeneratedClass'Buff_PickAndSeek_SpeedUP_C'",
+        "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_HideAndSeek/Hider/Buff_PickAndSeek_SpeedUP.0"
+      },
+      "CantAimingGE": {
+        "ObjectName": "BlueprintGeneratedClass'Buff_PickAndSeek_Catcher_CantAim_C'",
+        "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_HideAndSeek/Catcher/Buff_PickAndSeek_Catcher_CantAim.1"
+      },
+      "CantJumpGE": {
+        "ObjectName": "BlueprintGeneratedClass'Buff_PickAndSeek_Catcher_CantJump_C'",
+        "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_HideAndSeek/Hider/Buff_PickAndSeek_Catcher_CantJump.1"
+      },
+      "DisguiseNiagara": {
+        "AssetPathName": "/Game/FX/Nia/Common/PropHunt/NS_PropHunt_arrow.NS_PropHunt_arrow",
+        "SubPathString": ""
+      },
+      "MatchKey": "PropHunt",
+      "PhaseLastTimeMap": [
+        {
+          "Key": "EPropHuntPhaseType::Init",
+          "Value": 15
+        },
+        {
+          "Key": "EPropHuntPhaseType::Prepare",
+          "Value": 30
+        },
+        {
+          "Key": "EPropHuntPhaseType::Gaming",
+          "Value": 120
+        },
+        {
+          "Key": "EPropHuntPhaseType::Frenzy",
+          "Value": 20
+        },
+        {
+          "Key": "EPropHuntPhaseType::End",
+          "Value": 20
+        }
+      ],
+      "ScoreMap": [
+        {
+          "Key": "EPropHuntGroupType::Hunt",
+          "Value": {
+            "BaseValue": 2000.0,
+            "PropWeight": 1.0,
+            "BaitWeight": 0.5,
+            "LiveWeight": 0.2,
+            "ResultWeight": 0.25,
+            "StaminaRate": 0.01
+          }
+        },
+        {
+          "Key": "EPropHuntGroupType::Prop",
+          "Value": {
+            "BaseValue": 1000.0,
+            "PropWeight": 0.0,
+            "BaitWeight": 0.0,
+            "LiveWeight": 1.0,
+            "ResultWeight": 0.25,
+            "StaminaRate": 0.01
+          }
+        }
+      ],
+      "ExtraSkillPanelExtensionID": "PropHuntSkill"
     }
   }
 ]

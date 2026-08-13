@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_UpgradeShipCfg",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/MotorboatCollect/DT_UpgradeShipCfg",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'MotorboatUpgradeRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "MaxSpeed": 40.0,
+        "MaxCargoWeight": 5000.0,
+        "MaxFuel": 800.0,
+        "RequiredScrewMaterials": [
+          {
+            "Key": "FloatItem_Screw_01",
+            "Value": 8
+          }
+        ],
+        "VehicleID": "Vehicle044Collect"
+      },
+      "2": {
+        "MaxSpeed": 50.0,
+        "MaxCargoWeight": 10000.0,
+        "MaxFuel": 1200.0,
+        "RequiredScrewMaterials": [
+          {
+            "Key": "FloatItem_Screw_02",
+            "Value": 12
+          }
+        ],
+        "VehicleID": "Vehicle044Collect"
+      },
+      "3": {
+        "MaxSpeed": 60.0,
+        "MaxCargoWeight": 15000.0,
+        "MaxFuel": 1800.0,
+        "RequiredScrewMaterials": [],
+        "VehicleID": "Vehicle044Collect"
+      }
+    }
+  }
+]

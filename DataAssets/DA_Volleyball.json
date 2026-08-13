@@ -1,0 +1,297 @@
+[
+  {
+    "Type": "BeachVolleyballDataAsset",
+    "Name": "DA_Volleyball",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BeachVolleyballDataAsset'",
+    "Package": "/Game/DataAssets/DA_Volleyball",
+    "Properties": {
+      "LayerWorldConfigs": [
+        {
+          "BigWorldID": "VolleyWorldLocation1",
+          "LayerAssets": [
+            {
+              "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/Volleyball.Volleyball",
+              "SubPathString": ""
+            }
+          ],
+          "SuccessSequencePoint": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.087155744,
+              "W": 0.9961947,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -257227.48,
+              "Y": 138056.48,
+              "Z": 2420.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "FailSequencePoint": {
+            "Rotation": {
+              "X": -0.0,
+              "Y": 0.0,
+              "Z": -0.15643446,
+              "W": 0.98768836,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -256758.0,
+              "Y": 136573.0,
+              "Z": 2420.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "StartSequencePoint": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.087155744,
+              "W": 0.9961947,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -257227.48,
+              "Y": 138056.48,
+              "Z": 2420.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        {
+          "BigWorldID": "VolleyWorldLocation2",
+          "LayerAssets": [
+            {
+              "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/Volleyball1.Volleyball1",
+              "SubPathString": ""
+            }
+          ],
+          "SuccessSequencePoint": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.50506765,
+              "W": 0.8630798,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -197059.45,
+              "Y": 218057.56,
+              "Z": 17110.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "FailSequencePoint": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.50506765,
+              "W": 0.8630798,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -197059.45,
+              "Y": 218057.56,
+              "Z": 17110.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "StartSequencePoint": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.50506765,
+              "W": 0.8630798,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -197059.45,
+              "Y": 218057.56,
+              "Z": 17110.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        }
+      ],
+      "StartSequence": {
+        "AssetPathName": "/Game/sequence_pack/Volleyball/Seq_Volleyball_Start_new.Seq_Volleyball_Start_new",
+        "SubPathString": ""
+      },
+      "StartSequenceSettings": {
+        "CantSkipTime": 0.0,
+        "bSkipNeedConfirm": false
+      },
+      "WeekChampionSequence": {
+        "AssetPathName": "/Game/Blueprints/Level/Quest/JYF/paiqiu.paiqiu",
+        "SubPathString": ""
+      },
+      "WeekChampionSequenceSettings": {
+        "CantSkipTime": 0.0,
+        "bSkipNeedConfirm": false
+      },
+      "PlayerSideRotations": [
+        {
+          "Key": "EVolleyballSide::Left",
+          "Value": {
+            "Pitch": 0.0,
+            "Yaw": -90.0,
+            "Roll": 0.0
+          }
+        },
+        {
+          "Key": "EVolleyballSide::Right",
+          "Value": {
+            "Pitch": 0.0,
+            "Yaw": 90.0,
+            "Roll": 0.0
+          }
+        }
+      ],
+      "AICharacterData": {
+        "ObjectName": "DataTable'DT_VolleyballAICharacter'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_VolleyballAICharacter.0"
+      },
+      "ControlPlayerData": {
+        "ObjectName": "DataTable'DT_VolleyballControlPlayer'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_VolleyballControlPlayer.0"
+      },
+      "CharacterDevelopData": {
+        "ObjectName": "DataTable'DT_VolleyballCharacterDevelop'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_VolleyballCharacterDevelop.0"
+      },
+      "CharacterLevelData": {
+        "ObjectName": "DataTable'DT_VolleyballCharacterLevel'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_VolleyballCharacterLevel.0"
+      },
+      "VolleyballSkinData": {
+        "ObjectName": "DataTable'DT_VolleyballSkin'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_VolleyballSkin.0"
+      },
+      "AptitudeMedicineItemID": "MemoryBread",
+      "IMC_VolleyballInputMapping": {
+        "ObjectName": "InputMappingContext'IMC_VolleyballInputMappingContext'",
+        "ObjectPath": "/Game/Input/IMC_VolleyballInputMappingContext.0"
+      },
+      "VolleyPVEChallenge": {
+        "ObjectName": "DataTable'DT_FVolleyPVEChallenge'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_FVolleyPVEChallenge.0"
+      },
+      "VolleyPVELevel": {
+        "ObjectName": "DataTable'DT_FVolleyPVELevel'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_FVolleyPVELevel.0"
+      },
+      "PVEAwardQuestDataTable": {
+        "ObjectName": "DataTable'DT_VolleyballPVEAwardQuest'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_VolleyballPVEAwardQuest.0"
+      },
+      "NpcTeamData": {
+        "ObjectName": "DataTable'DT_VolleyballWeeklyNpcTeamInfo'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_VolleyballWeeklyNpcTeamInfo.0"
+      },
+      "WeeklyGradeData": {
+        "ObjectName": "DataTable'DT_VolleyballWeeklyGrade'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_VolleyballWeeklyGrade.0"
+      },
+      "GradeAwardMailId": "mail_common",
+      "OpponentLevels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "FinalMatchGradeTypes": [
+        {
+          "Key": "3",
+          "Value": "EVolleyballWeeklyGradeType::Champion"
+        },
+        {
+          "Key": "2",
+          "Value": "EVolleyballWeeklyGradeType::Final"
+        },
+        {
+          "Key": "1",
+          "Value": "EVolleyballWeeklyGradeType::Top4"
+        },
+        {
+          "Key": "-1",
+          "Value": "EVolleyballWeeklyGradeType::None"
+        },
+        {
+          "Key": "0",
+          "Value": "EVolleyballWeeklyGradeType::Top8"
+        }
+      ],
+      "WeeklyRankTable": {
+        "ObjectName": "DataTable'DT_VolleyballWeeklyRank'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_VolleyballWeeklyRank.0"
+      },
+      "WeeklyRankAwardTable": {
+        "ObjectName": "DataTable'DT_VolleyballWeeklyRankAward'",
+        "ObjectPath": "/Game/DataTable/Volleyball/DT_VolleyballWeeklyRankAward.0"
+      },
+      "FinalGradeScoreMaps": [
+        {
+          "Key": "EVolleyballWeeklyGradeType::Champion",
+          "Value": 120
+        },
+        {
+          "Key": "EVolleyballWeeklyGradeType::Final",
+          "Value": 80
+        },
+        {
+          "Key": "EVolleyballWeeklyGradeType::Top4",
+          "Value": 40
+        },
+        {
+          "Key": "EVolleyballWeeklyGradeType::Top8",
+          "Value": -40
+        },
+        {
+          "Key": "EVolleyballWeeklyGradeType::None",
+          "Value": -60
+        }
+      ],
+      "PvpMatchMapKey": "DLC_Volleyball"
+    }
+  }
+]

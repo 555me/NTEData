@@ -36,8 +36,8 @@
       },
       "3": {
         "LimitStateType": "EHTCharacterStateType::Swimming",
-        "bForbiddenCamera": true,
-        "bTimePause": true,
+        "bForbiddenCamera": false,
+        "bTimePause": false,
         "bForbiddenUseStick": true,
         "bForbiddenUseDrone": true,
         "bAutoCloseInState": true,
@@ -234,8 +234,8 @@
       },
       "21": {
         "LimitStateType": "EHTCharacterStateType::Driving",
-        "bForbiddenCamera": true,
-        "bTimePause": true,
+        "bForbiddenCamera": false,
+        "bTimePause": false,
         "bForbiddenUseStick": true,
         "bForbiddenUseDrone": true,
         "bAutoCloseInState": false,
@@ -575,6 +575,17 @@
       },
       "52": {
         "LimitStateType": "EHTCharacterStateType::MirrorFlip",
+        "bForbiddenCamera": true,
+        "bTimePause": true,
+        "bForbiddenUseStick": true,
+        "bForbiddenUseDrone": true,
+        "bAutoCloseInState": false,
+        "bAutoRotaor": false,
+        "YawRotartor": 180.0,
+        "PitchRotartor": 0.0
+      },
+      "53": {
+        "LimitStateType": "EHTCharacterStateType::DrivingWaterVehicle",
         "bForbiddenCamera": true,
         "bTimePause": true,
         "bForbiddenUseStick": true,

@@ -14,7 +14,10 @@
         "ObjectName": "DataTable'DT_vehicleModuleData'",
         "ObjectPath": "/Game/DataTable/Vehicle/DT_vehicleModuleData.0"
 },
-      "DT_RentalVehicleData": null,
+      "DT_BoatModuleData": {
+        "ObjectName": "DataTable'DT_WaterVehicleModuleData'",
+        "ObjectPath": "/Game/DataTable/Vehicle/DT_WaterVehicleModuleData.0"
+},
       "VehicleSkinDataTable": {
         "ObjectName": "DataTable'DT_VehicleSkinDataTable'",
         "ObjectPath": "/Game/DataTable/Vehicle/DT_VehicleSkinDataTable.0"
@@ -27,7 +30,10 @@
         "ObjectName": "DataTable'DT_VehicleFishHookData'",
         "ObjectPath": "/Game/DataTable/Vehicle/DT_VehicleFishHookData.0"
 },
-      "VehicleParticleAssetsDataTable": null,
+      "VehicleParticleAssetsDataTable": {
+        "ObjectName": "DataTable'DT_ParticleAssets'",
+        "ObjectPath": "/Game/DataTable/Vehicle/DT_ParticleAssets.0"
+},
       "ModuleCommonWidgetMap": [
         {
           "Key": "VehicleDes",
@@ -177,6 +183,20 @@
             "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_guagou.YH_UI_CarComponent_guagou",
             "SubPathString": ""
 }
+        },
+        {
+          "Key": "EVehicleModuleType::EVMT_VehicleWheelSmoke",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_Smoke.YH_UI_CarComponent_Smoke",
+            "SubPathString": ""
+}
+        },
+        {
+          "Key": "EVehicleModuleType::EVMT_VehicleWheelMark",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_Mark.YH_UI_CarComponent_Mark",
+            "SubPathString": ""
+}
         }
       ],
       "ModuleTypeNameMap": [
@@ -319,6 +339,20 @@
             "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
             "Key": "VehicleModuleItem_Hook"
 }
+        },
+        {
+          "Key": "EVehicleModuleType::EVMT_VehicleWheelMark",
+          "Value": {
+            "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+            "Key": "VehicleModuleItem_WheelMark"
+}
+        },
+        {
+          "Key": "EVehicleModuleType::EVMT_VehicleWheelSmoke",
+          "Value": {
+            "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+            "Key": "VehicleModuleItem_WheelSmoke"
+}
         }
       ],
       "BasePropsScoreText": [
@@ -449,6 +483,84 @@
             "MaxText": {
               "TableId": "/Game/Text/ST_Ui.ST_Ui",
               "Key": "Vehicle_077_2"
+}
+          }
+        }
+      ],
+      "BoatModuleTextureMap": [
+        {
+          "Key": "EWaterVehicleModuleType::EVMT_Engine",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_yinqing.YH_UI_CarComponent_yinqing",
+            "SubPathString": ""
+}
+        },
+        {
+          "Key": "EWaterVehicleModuleType::EVMT_Color",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_cheqi.YH_UI_CarComponent_cheqi",
+            "SubPathString": ""
+}
+        },
+        {
+          "Key": "EWaterVehicleModuleType::EVMT_Skin",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_lahua.YH_UI_CarComponent_lahua",
+            "SubPathString": ""
+}
+        }
+      ],
+      "BoatModuleTypeNameMap": [
+        {
+          "Key": "EWaterVehicleModuleType::EVMT_Engine",
+          "Value": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Vehicle_039"
+}
+        },
+        {
+          "Key": "EWaterVehicleModuleType::EVMT_Color",
+          "Value": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Vehicle_043"
+}
+        },
+        {
+          "Key": "EWaterVehicleModuleType::EVMT_Skin",
+          "Value": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "Vehicle_048"
+}
+        }
+      ],
+      "BoatBasePropsScoreText": [
+        {
+          "Key": "EWaterVehicleModuleScoreType::UI_TopSpeed",
+          "Value": {
+            "PropName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Vehicle_072"
+},
+            "MinText": {
+              "CultureInvariantString": null
+},
+            "MaxText": {
+              "CultureInvariantString": null
+}
+          }
+        },
+        {
+          "Key": "EWaterVehicleModuleScoreType::UI_SpeedUp",
+          "Value": {
+            "PropName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Vehicle_073"
+},
+            "MinText": {
+              "CultureInvariantString": null
+},
+            "MaxText": {
+              "CultureInvariantString": null
 }
           }
         }
@@ -584,6 +696,24 @@
 }
         }
       ],
+      "FixedIconId2Sequence_Boat": [
+        {
+          "Key": "Shipyard_01",
+          "Value": {
+            "AssetPathName": "/Game/Blueprints/Level/SingleLevel/youting/motorboa_seq.motorboa_seq",
+            "SubPathString": ""
+}
+        }
+      ],
+      "FixedIconId2Sequence_PWC": [
+        {
+          "Key": "Shipyard_01",
+          "Value": {
+            "AssetPathName": "/Game/Blueprints/Level/SingleLevel/youting/motorboa_seq.motorboa_seq",
+            "SubPathString": ""
+}
+        }
+      ],
       "BuyVehicleFixedIconId2Sequence": [
         {
           "Key": "Shop_035_05_01",
@@ -682,6 +812,40 @@
           }
         }
       ],
+      "BuyBoatFixedIconId2Sequence": [
+        {
+          "Key": "Vehicle044",
+          "Value": {
+            "SequencePointID": "Vehicle026",
+            "SequencePlayerTransferPointID": "None",
+            "BuyVehicleSequence": {
+              "AssetPathName": "/Game/Blueprints/Level/SingleLevel/youting/sea_moto_seq.sea_moto_seq",
+              "SubPathString": ""
+},
+            "VehicleSpawnTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+},
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+},
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+}
+            }
+          }
+        }
+      ],
       "FixedIconId2BGM": [
         {
           "Key": "Shop_Regalia_001",
@@ -736,6 +900,7 @@
         "SubPathString": ""
 },
       "ShopVehicleIconName": "Shop_Core_1",
+      "ShopBoatModifyJumpId": "Shop_Core_6_map",
       "GetVehicleGuideID": "ChoiceCar",
       "MaintainCost": null,
       "TycoonEditNumberRightId": "vehicle_number",
@@ -985,6 +1150,10 @@
       "JumpVehicleDamageGE": {
         "ObjectName": "BlueprintGeneratedClass'GE_Vehicle_JumpOut_C'",
         "ObjectPath": "/Game/Blueprints/Abilities/Player/Common/Vehicle/GE_Vehicle_JumpOut.1"
+},
+      "DT_WaterVehicleModuleData": {
+        "ObjectName": "DataTable'DT_WaterVehicleModuleData'",
+        "ObjectPath": "/Game/DataTable/Vehicle/DT_WaterVehicleModuleData.0"
 }
     }
   }

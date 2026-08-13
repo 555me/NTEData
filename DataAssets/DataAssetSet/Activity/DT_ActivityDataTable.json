@@ -19,7 +19,7 @@
           "Key": "Returning_name"
 },
         "ThumImage": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/Activity/Main/YH_UI_HuoDongIcon_jidianhuihuan.YH_UI_HuoDongIcon_jidianhuihuan",
           "SubPathString": ""
 },
         "ActUIClass": "ReturningPlayerMain",
@@ -43,7 +43,7 @@
           "Key": "ActSigne"
 },
         "ThumImage": {
-          "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/2.2",
+          "AssetPathName": "/Game/UI/Blueprints/Activity/Main/YH_UI_HuoDongIcon_dengluzengli.YH_UI_HuoDongIcon_dengluzengli",
           "SubPathString": ""
 },
         "ActUIClass": "ActivitySignInMain",
@@ -64,7 +64,7 @@
           "Key": "ui_activity_strongpath_03"
 },
         "ThumImage": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/Activity/Main/YH_UI_HuoDongIcon_yiliezhentu.YH_UI_HuoDongIcon_yiliezhentu",
           "SubPathString": ""
 },
         "ActUIClass": "ActivityStrongPath",
@@ -85,7 +85,7 @@
           "Key": "Newbie_Title"
 },
         "ThumImage": {
-          "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/2.2",
+          "AssetPathName": "/Game/UI/Blueprints/Activity/Main/YH_UI_HuoDongIcon_lierenshouzha.YH_UI_HuoDongIcon_lierenshouzha",
           "SubPathString": ""
 },
         "ActUIClass": "NewBieGoalsMain",
@@ -106,7 +106,7 @@
           "Key": "Abyss_Activity"
 },
         "ThumImage": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/Activity/Main/YH_UI_HuoDongIcon_xiaoyutekuai.YH_UI_HuoDongIcon_xiaoyutekuai",
           "SubPathString": ""
 },
         "ActUIClass": "AbyssCommonMain",
@@ -127,7 +127,7 @@
           "Key": "BPUI_ActivityCityGameplay_001"
 },
         "ThumImage": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/Activity/Main/YH_UI_HuoDongIcon_dushizhinan.YH_UI_HuoDongIcon_dushizhinan",
           "SubPathString": ""
 },
         "ActUIClass": "ActivityCityGameplay",
@@ -148,7 +148,7 @@
           "Key": "CollectingFork_1"
 },
         "ThumImage": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/Activity/Main/YH_UI_HuoDongIcon_hupan.YH_UI_HuoDongIcon_hupan",
           "SubPathString": ""
 },
         "ActUIClass": "ActivityCollectingFork",
@@ -160,6 +160,54 @@
         "SortPriority": 0,
         "RedpointTag": {
           "TagName": "Redpoint.ActivityAwardMain.ConfigActivity.CollectingFork"
+}
+      },
+      "Night999": {
+        "ActivityType": "EActivityType::ActivityType_Night999",
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "FinalTower_Title"
+},
+        "ThumImage": {
+          "AssetPathName": "/Game/UI/Blueprints/Activity/Main/YH_UI_HuoDongIcon_999.YH_UI_HuoDongIcon_999",
+          "SubPathString": ""
+},
+        "ActUIClass": "Night999",
+        "ActPrimaryDataAsset": {
+          "ObjectName": "HTOpActNight999DataAsset'DA_OpActNight999DataAsset'",
+          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/Night999/DA_OpActNight999DataAsset.0"
+},
+        "ActHandleClass": {
+          "ObjectName": "Class'HTActivity_Night999'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "SortPriority": 0,
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.ConfigActivity.Night999"
+}
+      },
+      "ScratchCard": {
+        "ActivityType": "EActivityType::ActivityType_ScratchCard",
+        "ActivityName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "ScratchCard_06"
+},
+        "ThumImage": {
+          "AssetPathName": "/Game/UI/Blueprints/Activity/Main/YH_UI_HuoDongIcon_guaguale.YH_UI_HuoDongIcon_guaguale",
+          "SubPathString": ""
+},
+        "ActUIClass": "ActScratchCard",
+        "ActPrimaryDataAsset": {
+          "ObjectName": "HTOpActNight999DataAsset'DA_OpActNight999DataAsset'",
+          "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/Night999/DA_OpActNight999DataAsset.0"
+},
+        "ActHandleClass": {
+          "ObjectName": "Class'HTActivity_Night999'",
+          "ObjectPath": "/Script/HTGame"
+},
+        "SortPriority": 0,
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.ScratchCard"
 }
       }
     }

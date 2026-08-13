@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RankRecord",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Rank/DT_RankRecord",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'HTRankRecordConfig'",
+        "ObjectPath": "/Script/HTGame"
+}
+    },
+    "Rows": {
+      "ProfitRecord": {
+        "RankRecordName": {
+          "TableId": "/Game/Text/ST_UI_XZC.ST_UI_XZC",
+          "Key": "rank002"
+},
+        "RankListType": "ERankListType::BidKing_Profit",
+        "DisplayRow": 100,
+        "MaxRow": 200,
+        "OrderMode": "ERankRecordOrderMode::DESC",
+        "UpdateMode": "ERankRecordUpdateMode::COVER",
+        "CacheTime": 600,
+        "SettlementDays": 60,
+        "SettlementTime": 5,
+        "SettlementClear": true,
+        "SettlementMails": [
+          {
+            "MinRank": 1,
+            "MaxRank": 1,
+            "MailTitle": "rankmail001",
+            "Subtitle": "rankmail001",
+            "MailContent": "rankmailtext001",
+            "MailAttach": "Title_bidking_seasonrank_01,1",
+            "MailSender": "rankmail002"
+},
+          {
+            "MinRank": 2,
+            "MaxRank": 2,
+            "MailTitle": "rankmail001",
+            "Subtitle": "rankmail001",
+            "MailContent": "rankmailtext002",
+            "MailAttach": "Title_bidking_seasonrank_02,1",
+            "MailSender": "rankmail002"
+},
+          {
+            "MinRank": 3,
+            "MaxRank": 3,
+            "MailTitle": "rankmail001",
+            "Subtitle": "rankmail001",
+            "MailContent": "rankmailtext002",
+            "MailAttach": "Title_bidking_seasonrank_03,1",
+            "MailSender": "rankmail002"
+},
+          {
+            "MinRank": 4,
+            "MaxRank": 20,
+            "MailTitle": "rankmail001",
+            "Subtitle": "rankmail001",
+            "MailContent": "rankmailtext003",
+            "MailAttach": "Title_bidking_seasonrank_04,1",
+            "MailSender": "rankmail002"
+},
+          {
+            "MinRank": 21,
+            "MaxRank": 100,
+            "MailTitle": "rankmail001",
+            "Subtitle": "rankmail001",
+            "MailContent": "rankmailtext004",
+            "MailAttach": "Title_bidking_seasonrank_05,1",
+            "MailSender": "rankmail002"
+}
+        ],
+        "SettleDescription": {
+          "CultureInvariantString": null
+}
+      },
+      "WealthRecord": {
+        "RankRecordName": {
+          "TableId": "/Game/Text/ST_UI_XZC.ST_UI_XZC",
+          "Key": "rank003"
+},
+        "RankListType": "ERankListType::BidKing_Money",
+        "DisplayRow": 100,
+        "MaxRow": 200,
+        "OrderMode": "ERankRecordOrderMode::DESC",
+        "UpdateMode": "ERankRecordUpdateMode::HIGH",
+        "CacheTime": 600,
+        "SettlementDays": 0,
+        "SettlementTime": 0,
+        "SettlementClear": false,
+        "SettlementMails": [],
+        "SettleDescription": {
+          "CultureInvariantString": null
+}
+      }
+    }
+  }
+]

@@ -28,13 +28,16 @@
         "JumpFixedIcon": "None",
         "JumpExtensionID": "TakeOrdersBigMapMain",
         "CommonJumpID": "None",
+        "JumpQuestIDs": [],
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "DelegateMission",
         "EntrySwitchType": "ESwitchType::TakeOrders",
         "MutexGameplayArray": [
           "ECityGameplayMutexType::CityGameplayMutex_TaxiGameplay"
         ],
-        "StaminaChangeType": "EStaminaChangeType::TakeOrders"
+        "StaminaChangeType": "EStaminaChangeType::TakeOrders",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": false
 },
       "Race": {
         "GameplayID": "Race",
@@ -52,11 +55,16 @@
         "JumpFixedIcon": "Bank_05_00",
         "JumpExtensionID": "None",
         "CommonJumpID": "Race",
+        "JumpQuestIDs": [],
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "Race",
         "EntrySwitchType": "ESwitchType::None",
         "MutexGameplayArray": [],
-        "StaminaChangeType": "EStaminaChangeType::RacingPVPResult"
+        "StaminaChangeType": "EStaminaChangeType::RacingPVPResult",
+        "ExStaminaChangeTypeArray": [
+          "EStaminaChangeType::RacingPVEResult"
+        ],
+        "bDisplayBountyGameplay": false
 },
       "Store": {
         "GameplayID": "Store",
@@ -74,11 +82,14 @@
         "JumpFixedIcon": "201",
         "JumpExtensionID": "None",
         "CommonJumpID": "None",
+        "JumpQuestIDs": [],
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "StoreOnline",
         "EntrySwitchType": "ESwitchType::None",
         "MutexGameplayArray": [],
-        "StaminaChangeType": "EStaminaChangeType::StoreManagerResult"
+        "StaminaChangeType": "EStaminaChangeType::StoreManagerResult",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": false
 },
       "Taxi": {
         "GameplayID": "Taxi",
@@ -96,13 +107,16 @@
         "JumpFixedIcon": "None",
         "JumpExtensionID": "TaxiGameplayMain",
         "CommonJumpID": "None",
+        "JumpQuestIDs": [],
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "Taxi",
         "EntrySwitchType": "ESwitchType::TaxiGameplay",
         "MutexGameplayArray": [
           "ECityGameplayMutexType::CityGameplayMutex_TakeOrders"
         ],
-        "StaminaChangeType": "EStaminaChangeType::TaxiGameplay"
+        "StaminaChangeType": "EStaminaChangeType::TaxiGameplay",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": false
 },
       "Robbank": {
         "GameplayID": "Robbank",
@@ -120,11 +134,14 @@
         "JumpFixedIcon": "Bank_05_00",
         "JumpExtensionID": "None",
         "CommonJumpID": "None",
+        "JumpQuestIDs": [],
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "Robbank",
         "EntrySwitchType": "ESwitchType::RobRank",
         "MutexGameplayArray": [],
-        "StaminaChangeType": "EStaminaChangeType::NaturalIncrease"
+        "StaminaChangeType": "EStaminaChangeType::NaturalIncrease",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": true
 },
       "FishingEntry": {
         "GameplayID": "FishingEntry",
@@ -142,11 +159,14 @@
         "JumpFixedIcon": "FishSpot_01",
         "JumpExtensionID": "CityFishingEntryMain",
         "CommonJumpID": "None",
+        "JumpQuestIDs": [],
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "Fishing",
         "EntrySwitchType": "ESwitchType::Fishing",
         "MutexGameplayArray": [],
-        "StaminaChangeType": "EStaminaChangeType::FishSell"
+        "StaminaChangeType": "EStaminaChangeType::FishSell",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": false
 },
       "majiang": {
         "GameplayID": "majiang",
@@ -164,11 +184,14 @@
         "JumpFixedIcon": "MaidCoffee_04_01",
         "JumpExtensionID": "None",
         "CommonJumpID": "None",
+        "JumpQuestIDs": [],
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "Majsoul",
         "EntrySwitchType": "ESwitchType::RiichiMahjong",
         "MutexGameplayArray": [],
-        "StaminaChangeType": "EStaminaChangeType::ChuanMaResult"
+        "StaminaChangeType": "EStaminaChangeType::ChuanMaResult",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": false
 },
       "Tetris": {
         "GameplayID": "Tetris",
@@ -186,11 +209,14 @@
         "JumpFixedIcon": "Shop_023_01_02",
         "JumpExtensionID": "None",
         "CommonJumpID": "None",
+        "JumpQuestIDs": [],
         "NearlyMapIconID": "Shop_17",
         "UnlockFunctionID": "Tetris",
         "EntrySwitchType": "ESwitchType::TetrisGame",
         "MutexGameplayArray": [],
-        "StaminaChangeType": "EStaminaChangeType::TetrisGameResult"
+        "StaminaChangeType": "EStaminaChangeType::TetrisGameResult",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": false
 },
       "Wiku": {
         "GameplayID": "Wiku",
@@ -208,11 +234,14 @@
         "JumpFixedIcon": "Bank_05_00",
         "JumpExtensionID": "None",
         "CommonJumpID": "Wiku_map",
+        "JumpQuestIDs": [],
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "Wiku",
         "EntrySwitchType": "ESwitchType::None",
         "MutexGameplayArray": [],
-        "StaminaChangeType": "EStaminaChangeType::PlaySongConsume"
+        "StaminaChangeType": "EStaminaChangeType::PlaySongConsume",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": false
 },
       "JailFight": {
         "GameplayID": "JailFight",
@@ -230,11 +259,94 @@
         "JumpFixedIcon": "None",
         "JumpExtensionID": "None",
         "CommonJumpID": "JailFight",
+        "JumpQuestIDs": [],
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "JailFight",
         "EntrySwitchType": "ESwitchType::PrisonBoxing",
         "MutexGameplayArray": [],
-        "StaminaChangeType": "EStaminaChangeType::PrisonBoxingResult"
+        "StaminaChangeType": "EStaminaChangeType::PrisonBoxingResult",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": false
+},
+      "Volleyball": {
+        "GameplayID": "Volleyball",
+        "GameplayText": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "UI_Volleyball"
+},
+        "GameplayIcon": {
+          "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_013.UI_YH_CityGameplay_List_013",
+          "SubPathString": ""
+},
+        "bIgnoreInOnline": false,
+        "JumpType": "ECityGameplayJumpType::ECityGameplayJumpType_BeachVolleyball",
+        "MapUniqueID": "None",
+        "JumpFixedIcon": "None",
+        "JumpExtensionID": "None",
+        "CommonJumpID": "Volleyball",
+        "JumpQuestIDs": [],
+        "NearlyMapIconID": "None",
+        "UnlockFunctionID": "Volleyball",
+        "EntrySwitchType": "ESwitchType::Volleyball",
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::VolleyPVEResult",
+        "ExStaminaChangeTypeArray": [
+          "EStaminaChangeType::VolleyPVEWeekResult"
+        ],
+        "bDisplayBountyGameplay": true
+},
+      "PropHunt": {
+        "GameplayID": "PropHunt",
+        "GameplayText": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "PropHunt_Title"
+},
+        "GameplayIcon": {
+          "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_016.UI_YH_CityGameplay_List_016",
+          "SubPathString": ""
+},
+        "bIgnoreInOnline": false,
+        "JumpType": "ECityGameplayJumpType::ECityGameplayJumpType_CommonJumpUI",
+        "MapUniqueID": "None",
+        "JumpFixedIcon": "None",
+        "JumpExtensionID": "None",
+        "CommonJumpID": "ConfigPropHunt",
+        "JumpQuestIDs": [],
+        "NearlyMapIconID": "None",
+        "UnlockFunctionID": "PropHunt",
+        "EntrySwitchType": "ESwitchType::PropHunt",
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::PropHuntResult",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": false
+},
+      "BidKing": {
+        "GameplayID": "BidKing",
+        "GameplayText": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_BidKingMainForm_Title"
+},
+        "GameplayIcon": {
+          "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_014.UI_YH_CityGameplay_List_014",
+          "SubPathString": ""
+},
+        "bIgnoreInOnline": false,
+        "JumpType": "ECityGameplayJumpType::ECityGameplayJumpType_QuestGateCommonJump",
+        "MapUniqueID": "None",
+        "JumpFixedIcon": "None",
+        "JumpExtensionID": "None",
+        "CommonJumpID": "BidKingMainForm",
+        "JumpQuestIDs": [
+          "B110111",
+          "B110112"
+        ],
+        "NearlyMapIconID": "None",
+        "UnlockFunctionID": "BidKing_Unlock",
+        "EntrySwitchType": "ESwitchType::BidKing",
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::NaturalIncrease",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": true
 }
     }
   }

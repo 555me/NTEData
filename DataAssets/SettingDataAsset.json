@@ -10,10 +10,7 @@
         "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
         "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
 },
-      "ImageQualityData": {
-        "ObjectName": "DataTable'DT_SettingImageQualityData'",
-        "ObjectPath": "/Game/DataTable/Setting/DT_SettingImageQualityData.0"
-},
+      "ImageQualityData": null,
       "VolumnSliderData": {
         "ObjectName": "DataTable'DT_SettingOptionVolumnData'",
         "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionVolumnData.0"
@@ -22,10 +19,7 @@
         "ObjectName": "DataTable'DT_SettingOptionSlot'",
         "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionSlot.0"
 },
-      "MinorLanguageKeyConfigDataTable": {
-        "ObjectName": "DataTable'DT_MinorLanguageKeyConfig'",
-        "ObjectPath": "/Game/DataTable/Setting/DT_MinorLanguageKeyConfig.0"
-},
+      "MinorLanguageKeyConfigDataTable": null,
       "FixedKeysMap": [
         {
           "Key": "common",
@@ -210,6 +204,9 @@
 },
               {
                 "KeyName": "NumLock"
+},
+              {
+                "KeyName": "F7"
 }
             ]
           }
@@ -397,6 +394,9 @@
 },
               {
                 "KeyName": "NumLock"
+},
+              {
+                "KeyName": "F7"
 }
             ]
           }
@@ -410,10 +410,22 @@
           "NewKey": {
             "KeyName": "LeftShift"
 },
-          "Action": {
-            "ObjectName": "InputAction'IA_VehicleBrake'",
-            "ObjectPath": "/Game/Blueprints/Vehicle/Input/IA_VehicleBrake.0"
-}
+          "Action": null,
+          "VehicleWhitelist": [],
+          "VehicleBlackList": []
+        },
+        {
+          "DefaultKey": {
+            "KeyName": "LeftShift"
+},
+          "NewKey": {
+            "KeyName": "SpaceBar"
+},
+          "Action": null,
+          "VehicleWhitelist": [],
+          "VehicleBlackList": [
+            "Vehicle013"
+          ]
         },
         {
           "DefaultKey": {
@@ -423,9 +435,13 @@
             "KeyName": "SpaceBar"
 },
           "Action": {
-            "ObjectName": "InputAction'IA_VehicleHandbrake'",
-            "ObjectPath": "/Game/Blueprints/Vehicle/Input/IA_VehicleHandbrake.0"
-}
+            "ObjectName": "InputAction'IA_VehicleSprint'",
+            "ObjectPath": "/Game/Blueprints/Vehicle/Input/IA_VehicleSprint.0"
+},
+          "VehicleWhitelist": [
+            "Vehicle013"
+          ],
+          "VehicleBlackList": []
         }
       ],
       "Voice2PakTag": [

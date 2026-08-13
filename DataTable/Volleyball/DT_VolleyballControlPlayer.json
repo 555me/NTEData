@@ -1,0 +1,1821 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_VolleyballControlPlayer",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Volleyball/DT_VolleyballControlPlayer",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'VolleyballControlPlayerData'",
+        "ObjectPath": "/Script/HTGame"
+}
+    },
+    "Rows": {
+      "1046": {
+        "TrialCharacterID": "Volleyball_player",
+        "VolleyballBehaviorDataAsset": {
+          "AssetPathName": "/Game/Characters/Player/046_male/animation/volleyball/DA_VolleyballConfig_046.DA_VolleyballConfig_046",
+          "SubPathString": ""
+},
+        "VolleyballAnimLayerClass": {
+          "AssetPathName": "/Game/Characters/AnimInterface/VolleyBall/ABP_Layer_046_VolleyBall.ABP_Layer_046_VolleyBall_C",
+          "SubPathString": ""
+},
+        "GainPointTalk": [],
+        "LosePointTalk": [],
+        "TalkChance": 0.5,
+        "SuccessSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Male/Volleyball_Male.Volleyball_Male",
+          "SubPathString": ""
+},
+        "SuccessSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": 2.0,
+          "bSkipNeedConfirm": false,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "SuccessMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+},
+        "FailSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Male/Volleyball_Male_Defeat.Volleyball_Male_Defeat",
+          "SubPathString": ""
+},
+        "FailSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": true,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": true,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": true,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "FailMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+}
+      },
+      "1051": {
+        "TrialCharacterID": "Volleyball_player",
+        "VolleyballBehaviorDataAsset": {
+          "AssetPathName": "/Game/Characters/Player/051_female/animation/volleyball/NewCapture/DA_VolleyballConfig_051.DA_VolleyballConfig_051",
+          "SubPathString": ""
+},
+        "VolleyballAnimLayerClass": {
+          "AssetPathName": "/Game/Characters/AnimInterface/VolleyBall/ABP_Layer_051_VolleyBall.ABP_Layer_051_VolleyBall_C",
+          "SubPathString": ""
+},
+        "GainPointTalk": [],
+        "LosePointTalk": [],
+        "TalkChance": 0.5,
+        "SuccessSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Female/Volleyball_Female.Volleyball_Female",
+          "SubPathString": ""
+},
+        "SuccessSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": 2.0,
+          "bSkipNeedConfirm": false,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "SuccessMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+},
+        "FailSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Female/Volleyball_Female_Defeat.Volleyball_Female_Defeat",
+          "SubPathString": ""
+},
+        "FailSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": true,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": true,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": true,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "FailMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+}
+      },
+      "1019": {
+        "TrialCharacterID": "Volleyball_Mint",
+        "VolleyballBehaviorDataAsset": {
+          "AssetPathName": "/Game/Characters/Player/019_mint/animation/volleyball/DA_VolleyballConfig_Mint.DA_VolleyballConfig_Mint",
+          "SubPathString": ""
+},
+        "VolleyballAnimLayerClass": {
+          "AssetPathName": "/Game/Characters/AnimInterface/VolleyBall/ABP_Layer_019_VolleyBall.ABP_Layer_019_VolleyBall_C",
+          "SubPathString": ""
+},
+        "GainPointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC001_005'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC001/Play_Vo_BV_ST138_NPC001_005.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC001_005"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC001_006'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC001/Play_Vo_BV_ST138_NPC001_006.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC001_006"
+}
+          }
+        ],
+        "LosePointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC001_003'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC001/Play_Vo_BV_ST138_NPC001_003.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC001_003"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC001_004'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC001/Play_Vo_BV_ST138_NPC001_004.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC001_004"
+}
+          }
+        ],
+        "TalkChance": 0.5,
+        "SuccessSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Mint/Volleyball_Mint.Volleyball_Mint",
+          "SubPathString": ""
+},
+        "SuccessSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": 2.0,
+          "bSkipNeedConfirm": false,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "SuccessMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+},
+        "FailSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Mint/Volleyball_Mint_Defeat.Volleyball_Mint_Defeat",
+          "SubPathString": ""
+},
+        "FailSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": true,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": true,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": true,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "FailMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+}
+      },
+      "1075": {
+        "TrialCharacterID": "Volleyball_Oneiroi",
+        "VolleyballBehaviorDataAsset": {
+          "AssetPathName": "/Game/Characters/Player/075_oneir/animation/volleyball/DA_VolleyballConfig_Oneir.DA_VolleyballConfig_Oneir",
+          "SubPathString": ""
+},
+        "VolleyballAnimLayerClass": {
+          "AssetPathName": "/Game/Characters/AnimInterface/VolleyBall/ABP_Layer_075_VolleyBall.ABP_Layer_075_VolleyBall_C",
+          "SubPathString": ""
+},
+        "GainPointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC028_005'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC028/Play_Vo_BV_ST138_NPC028_005.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC028_005"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC028_006'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC028/Play_Vo_BV_ST138_NPC028_006.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC028_006"
+}
+          }
+        ],
+        "LosePointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC028_003'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC028/Play_Vo_BV_ST138_NPC028_003.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC028_003"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC028_004'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC028/Play_Vo_BV_ST138_NPC028_004.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC028_004"
+}
+          }
+        ],
+        "TalkChance": 0.5,
+        "SuccessSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Oneiroi/Volleyball_Oneiroi.Volleyball_Oneiroi",
+          "SubPathString": ""
+},
+        "SuccessSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": 2.0,
+          "bSkipNeedConfirm": false,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "SuccessMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+},
+        "FailSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Oneiroi/Volleyball_Oneiroi_Defeat.Volleyball_Oneiroi_Defeat",
+          "SubPathString": ""
+},
+        "FailSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": true,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": true,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": true,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "FailMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+}
+      },
+      "1010": {
+        "TrialCharacterID": "Volleyball_nanally",
+        "VolleyballBehaviorDataAsset": {
+          "AssetPathName": "/Game/Characters/Player/010_nanally/animation/volleyball/DA_VolleyballConfig_nanally.DA_VolleyballConfig_nanally",
+          "SubPathString": ""
+},
+        "VolleyballAnimLayerClass": {
+          "AssetPathName": "/Game/Characters/AnimInterface/VolleyBall/ABP_Layer_010_VolleyBall.ABP_Layer_010_VolleyBall_C",
+          "SubPathString": ""
+},
+        "GainPointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC011_005'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC011/Play_Vo_BV_ST138_NPC011_005.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC011_005"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC011_006'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC011/Play_Vo_BV_ST138_NPC011_006.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC011_006"
+}
+          }
+        ],
+        "LosePointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC011_003'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC011/Play_Vo_BV_ST138_NPC011_003.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC011_003"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC011_004'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC011/Play_Vo_BV_ST138_NPC011_004.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC011_004"
+}
+          }
+        ],
+        "TalkChance": 0.5,
+        "SuccessSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Nanally/Volleyball_Nanally.Volleyball_Nanally",
+          "SubPathString": ""
+},
+        "SuccessSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": 2.0,
+          "bSkipNeedConfirm": false,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "SuccessMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+},
+        "FailSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Nanally/Volleyball_Nanally_Defeat.Volleyball_Nanally_Defeat",
+          "SubPathString": ""
+},
+        "FailSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": true,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": true,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": true,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "FailMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+}
+      },
+      "1076": {
+        "TrialCharacterID": "Volleyball_shinku",
+        "VolleyballBehaviorDataAsset": {
+          "AssetPathName": "/Game/Characters/Player/076_shinku/animation/volleyball/DA_VolleyballConfig_Shinku.DA_VolleyballConfig_Shinku",
+          "SubPathString": ""
+},
+        "VolleyballAnimLayerClass": {
+          "AssetPathName": "/Game/Characters/AnimInterface/VolleyBall/ABP_Layer_076_VolleyBall.ABP_Layer_076_VolleyBall_C",
+          "SubPathString": ""
+},
+        "GainPointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC032_005'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC032/Play_Vo_BV_ST138_NPC032_005.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC032_005"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC032_006'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC032/Play_Vo_BV_ST138_NPC032_006.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC032_006"
+}
+          }
+        ],
+        "LosePointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC032_003'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC032/Play_Vo_BV_ST138_NPC032_003.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC032_003"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC032_004'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC032/Play_Vo_BV_ST138_NPC032_004.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC032_004"
+}
+          }
+        ],
+        "TalkChance": 0.5,
+        "SuccessSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_shinku/Volleyball_shinku.Volleyball_shinku",
+          "SubPathString": ""
+},
+        "SuccessSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": 2.0,
+          "bSkipNeedConfirm": false,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "SuccessMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+},
+        "FailSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_shinku/Volleyball_shinku_Defeat.Volleyball_shinku_Defeat",
+          "SubPathString": ""
+},
+        "FailSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": true,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": true,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": true,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "FailMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+}
+      },
+      "1071": {
+        "TrialCharacterID": "Volleyball_Chaos",
+        "VolleyballBehaviorDataAsset": {
+          "AssetPathName": "/Game/Characters/Player/071_chaos/animation/volleyball/DA_VolleyballConfig_Chaos.DA_VolleyballConfig_Chaos",
+          "SubPathString": ""
+},
+        "VolleyballAnimLayerClass": {
+          "AssetPathName": "/Game/Characters/AnimInterface/VolleyBall/ABP_Layer_071_VolleyBall.ABP_Layer_071_VolleyBall_C",
+          "SubPathString": ""
+},
+        "GainPointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC024_005'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC024/Play_Vo_BV_ST138_NPC024_005.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC024_005"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC024_006'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC024/Play_Vo_BV_ST138_NPC024_006.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC024_006"
+}
+          }
+        ],
+        "LosePointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC024_003'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC024/Play_Vo_BV_ST138_NPC024_003.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC024_003"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC024_004'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC024/Play_Vo_BV_ST138_NPC024_004.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC024_004"
+}
+          }
+        ],
+        "TalkChance": 0.5,
+        "SuccessSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Chaos/Volleyball_Chaos.Volleyball_Chaos",
+          "SubPathString": ""
+},
+        "SuccessSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": 2.0,
+          "bSkipNeedConfirm": false,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "SuccessMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+},
+        "FailSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Chaos/Volleyball_Chaos_Defeat.Volleyball_Chaos_Defeat",
+          "SubPathString": ""
+},
+        "FailSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": true,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": true,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": true,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "FailMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+}
+      },
+      "1036": {
+        "TrialCharacterID": "Volleyball_zankou",
+        "VolleyballBehaviorDataAsset": {
+          "AssetPathName": "/Game/Characters/Player/036_zankou/animation/volleyball/DA_VolleyballConfig_zankou.DA_VolleyballConfig_zankou",
+          "SubPathString": ""
+},
+        "VolleyballAnimLayerClass": {
+          "AssetPathName": "/Game/Characters/AnimInterface/VolleyBall/ABP_Layer_036_VolleyBall.ABP_Layer_036_VolleyBall_C",
+          "SubPathString": ""
+},
+        "GainPointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC022_005'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC022/Play_Vo_BV_ST138_NPC022_005.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC022_005"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC022_006'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC022/Play_Vo_BV_ST138_NPC022_006.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC022_006"
+}
+          }
+        ],
+        "LosePointTalk": [
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC022_003'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC022/Play_Vo_BV_ST138_NPC022_003.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC022_003"
+}
+          },
+          {
+            "VolleySound": {
+              "ObjectName": "AkAudioEvent'Play_Vo_BV_ST138_NPC022_004'",
+              "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BV/NPC022/Play_Vo_BV_ST138_NPC022_004.0"
+},
+            "TalkText": {
+              "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+              "Key": "ST138_NPC022_004"
+}
+          }
+        ],
+        "TalkChance": 0.5,
+        "SuccessSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_zankou/Volleyball_zankou.Volleyball_zankou",
+          "SubPathString": ""
+},
+        "SuccessSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": 2.0,
+          "bSkipNeedConfirm": false,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "SuccessMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+},
+        "FailSequence": {
+          "AssetPathName": "/Game/sequence_pack/Volleyball/Volleyball_Zankou/Volleyball_Zankou_Defeat.Volleyball_Zankou_Defeat",
+          "SubPathString": ""
+},
+        "FailSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": false,
+          "bHideVehicle": true,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": true,
+          "bBestViewDistanceQuality": false,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": true,
+          "bCanFinishWhenFadeInOut": false,
+          "bIsSequenceFadeIn": true,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+},
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+},
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+}
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 90,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true,
+          "bCanInterruptWhenTransfer": false,
+          "bIgnorDialogue": true
+},
+        "FailMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+},
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+},
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::ForceKeepState",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+}
+      }
+    }
+  }
+]

@@ -9127,7 +9127,7 @@
         "Comment": "争锋赏宴",
         "ActivatedOnEditor": false,
         "ID": "DiyBoss",
-        "SwitchID": "ESwitchType::DiyBoss",
+        "SwitchID": "ESwitchType::None",
         "Requires": [
           {
             "ActiveType": "EFunctionUnlockActiveType::SpecifiedQuest",
@@ -9319,7 +9319,7 @@
         "SwitchID": "ESwitchType::None",
         "Requires": [
           {
-            "ActiveType": "EFunctionUnlockActiveType::PlayerLevel",
+            "ActiveType": "EFunctionUnlockActiveType::TycoonLevel",
             "MaxValue": 10,
             "ID": "None"
 },
@@ -9604,7 +9604,7 @@
         "SwitchID": "ESwitchType::None",
         "Requires": [
           {
-            "ActiveType": "EFunctionUnlockActiveType::PlayerLevel",
+            "ActiveType": "EFunctionUnlockActiveType::TycoonLevel",
             "MaxValue": 10,
             "ID": "None"
 }
@@ -9684,7 +9684,496 @@
 },
         "UnlockScene": "None",
         "UnlockTips": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "Tycoon_lv10"
+},
+        "bEnableQuickMenuOption": false,
+        "QuickMenuIndex_Keyboard": 0,
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::None"
+},
+      "Volleyball": {
+        "Comment": "沙滩排球",
+        "ActivatedOnEditor": true,
+        "ID": "Volleyball",
+        "SwitchID": "ESwitchType::Volleyball",
+        "Requires": [
+          {
+            "ActiveType": "EFunctionUnlockActiveType::TycoonLevel",
+            "MaxValue": 2,
+            "ID": "None"
+},
+          {
+            "ActiveType": "EFunctionUnlockActiveType::PlayerLevel",
+            "MaxValue": 16,
+            "ID": "None"
+}
+        ],
+        "ConditionType": "EFunctionUnlockConditionType::Or",
+        "Actions": [],
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "UI_Volleyball"
+},
+        "icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+},
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+},
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+},
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+},
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "bIsValid": 0
+},
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+},
+        "bShowActiveDescription": false,
+        "Description": {
           "CultureInvariantString": null
+},
+        "UnlockScene": "None",
+        "UnlockTips": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "ui_functionUnlock_condition_tycoonLevel"
+},
+        "bEnableQuickMenuOption": false,
+        "QuickMenuIndex_Keyboard": 0,
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::None"
+},
+      "VolleyballWeek": {
+        "Comment": "沙滩排球周赛",
+        "ActivatedOnEditor": false,
+        "ID": "VolleyballWeek",
+        "SwitchID": "ESwitchType::VolleyballWeekly",
+        "Requires": [
+          {
+            "ActiveType": "EFunctionUnlockActiveType::VolleyPVEChaID",
+            "MaxValue": 0,
+            "ID": "Change1"
+},
+          {
+            "ActiveType": "EFunctionUnlockActiveType::TycoonLevel",
+            "MaxValue": 10,
+            "ID": "None"
+}
+        ],
+        "ConditionType": "EFunctionUnlockConditionType::And",
+        "Actions": [],
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "UI_Volleyball"
+},
+        "icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+},
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+},
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+},
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+},
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "bIsValid": 0
+},
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+},
+        "bShowActiveDescription": false,
+        "Description": {
+          "CultureInvariantString": null
+},
+        "UnlockScene": "None",
+        "UnlockTips": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "Volleyball_lock"
+},
+        "bEnableQuickMenuOption": false,
+        "QuickMenuIndex_Keyboard": 0,
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::None"
+},
+      "actwork": {
+        "Comment": "工地",
+        "ActivatedOnEditor": false,
+        "ID": "actwork",
+        "SwitchID": "ESwitchType::ConstructionWork",
+        "Requires": [
+          {
+            "ActiveType": "EFunctionUnlockActiveType::TycoonLevel",
+            "MaxValue": 2,
+            "ID": "None"
+}
+        ],
+        "ConditionType": "EFunctionUnlockConditionType::And",
+        "Actions": [],
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_CityGamePlayDataTable_actwork"
+},
+        "icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+},
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+},
+          "ResourceObject": {
+            "ObjectName": "Texture2D'YH_UI_Mapicon_050gongdi'",
+            "ObjectPath": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_050gongdi.0"
+},
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+},
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+},
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "bIsValid": 0
+},
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+},
+        "bShowActiveDescription": false,
+        "Description": {
+          "CultureInvariantString": null
+},
+        "UnlockScene": "None",
+        "UnlockTips": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "ui_functionUnlock_condition_tycoonLevel"
+},
+        "bEnableQuickMenuOption": false,
+        "QuickMenuIndex_Keyboard": 0,
+        "QuickMenuIndex_Gamepad": 0,
+        "Place": "EQuickMenuSettingsButtonPlace::None"
+},
+      "TycoonIncentivePayment": {
+        "Comment": "ly大亨计划激励金",
+        "ActivatedOnEditor": false,
+        "ID": "TycoonIncentivePayment",
+        "SwitchID": "ESwitchType::None",
+        "Requires": [
+          {
+            "ActiveType": "EFunctionUnlockActiveType::TycoonLevel",
+            "MaxValue": 10,
+            "ID": "None"
+}
+        ],
+        "ConditionType": "EFunctionUnlockConditionType::And",
+        "Actions": [],
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
+          "Key": "YHUI_Robbank_034"
+},
+        "icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+},
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+},
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+},
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+},
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "bIsValid": 0
+},
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+},
+        "bShowActiveDescription": false,
+        "Description": {
+          "CultureInvariantString": null
+},
+        "UnlockScene": "None",
+        "UnlockTips": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "ui_functionUnlock_condition_tycoonLevel"
+},
+        "bEnableQuickMenuOption": false,
+        "QuickMenuIndex_Keyboard": 22,
+        "QuickMenuIndex_Gamepad": 22,
+        "Place": "EQuickMenuSettingsButtonPlace::None"
+},
+      "PropHunt": {
+        "Comment": "躲猫猫等级判断",
+        "ActivatedOnEditor": false,
+        "ID": "PropHunt",
+        "SwitchID": "ESwitchType::None",
+        "Requires": [
+          {
+            "ActiveType": "EFunctionUnlockActiveType::PlayerLevel",
+            "MaxValue": 11,
+            "ID": "None"
+}
+        ],
+        "ConditionType": "EFunctionUnlockConditionType::And",
+        "Actions": [],
+        "UINameToOpen": "None",
+        "UIExtendParameter": "None",
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "PropHunt_Title"
+},
+        "icon": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+},
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+},
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+},
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+},
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+},
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+},
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+},
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+},
+            "bIsValid": 0
+},
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+},
+        "bShowActiveDescription": false,
+        "Description": {
+          "CultureInvariantString": null
+},
+        "UnlockScene": "None",
+        "UnlockTips": {
+          "TableId": "/Game/Text/ST_UI_lsh.ST_UI_lsh",
+          "Key": "PropHunt_unlock"
 },
         "bEnableQuickMenuOption": false,
         "QuickMenuIndex_Keyboard": 0,

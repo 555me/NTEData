@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FVolleyPVEChallenge",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Volleyball/DT_FVolleyPVEChallenge",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'VolleyPVEChallenge'",
+        "ObjectPath": "/Script/HTGame"
+}
+    },
+    "Rows": {
+      "Change1": {
+        "ChallengeName": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "UI_VolleyBall_PVE_1"
+},
+        "bg": {
+          "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_XiuXian.YH_UI_Volleyball_XiuXian",
+          "SubPathString": ""
+},
+        "UnlockCondition": {
+          "UnlockName": {
+            "CultureInvariantString": null
+}
+        }
+      },
+      "Change2": {
+        "ChallengeName": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "UI_VolleyBall_PVE_2"
+},
+        "bg": {
+          "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_ChuJi.YH_UI_Volleyball_ChuJi",
+          "SubPathString": ""
+},
+        "UnlockCondition": {
+          "PVEChallengeID": "Change1",
+          "UnlockName": {
+            "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+            "Key": "UI_VolleyBall_PVE_2_TJ"
+}
+        }
+      },
+      "Change3": {
+        "ChallengeName": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "UI_VolleyBall_PVE_3"
+},
+        "bg": {
+          "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_ZhongJi.YH_UI_Volleyball_ZhongJi",
+          "SubPathString": ""
+},
+        "UnlockCondition": {
+          "PVEChallengeID": "Change2",
+          "UnlockName": {
+            "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+            "Key": "UI_VolleyBall_PVE_3_TJ"
+}
+        }
+      },
+      "Change4": {
+        "ChallengeName": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "UI_VolleyBall_PVE_4"
+},
+        "bg": {
+          "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Gaoji.YH_UI_Volleyball_Gaoji",
+          "SubPathString": ""
+},
+        "UnlockCondition": {
+          "PVEChallengeID": "Change3",
+          "UnlockName": {
+            "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+            "Key": "UI_VolleyBall_PVE_4_TJ"
+}
+        }
+      }
+    }
+  }
+]

@@ -12,6 +12,32 @@
       }
     },
     "Rows": {
+      "longlong2": {
+        "Range": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 300000.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 210000.0
+          }
+        },
+        "ConsumeStamina": 9
+      },
+      "longlong1": {
+        "Range": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 210000.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 300000.0
+          }
+        },
+        "ConsumeStamina": 6
+      },
       "longEx": {
         "Range": {
           "LowerBound": {
@@ -19,8 +45,8 @@
             "Value": 180000.0
           },
           "UpperBound": {
-            "Type": "ERangeBoundTypes::Open",
-            "Value": 5.0
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 210000.0
           }
         },
         "ConsumeStamina": 4

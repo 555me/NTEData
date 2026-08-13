@@ -1159,6 +1159,66 @@
           "bNeedComplete": true
         },
         "UnLoadCondition": null
+      },
+      "Vision_ShadowChase": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_ShadowChase.W_Unload_WorldAnomaly_ShadowChase",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "006"
+        ],
+        "bOnlyLoadNotActive": false,
+        "ActiveCondition": null,
+        "UnLoadCondition": {
+          "YaHahaID": "Vision_ShadowChase_Unload",
+          "bNeedComplete": true
+        }
+      },
+      "Vision_Dancer_01": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/WorldAnomaly/Dancer/W_Unload_WorldAnomaly_Dancer.W_Unload_WorldAnomaly_Dancer",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "006"
+        ],
+        "bOnlyLoadNotActive": false,
+        "ActiveCondition": null,
+        "UnLoadCondition": {
+          "YaHahaID": "Vision_Dancer_Unload",
+          "bNeedComplete": true
+        }
+      },
+      "Vision_Mirror": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/W_Unload_WorldAnomaly_Mirror.W_Unload_WorldAnomaly_Mirror",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "006"
+        ],
+        "bOnlyLoadNotActive": false,
+        "ActiveCondition": {
+          "VisionID": "Vision_Mirror",
+          "bNeedComplete": false
+        },
+        "UnLoadCondition": {
+          "YaHahaID": "Vision_Mirror_Unload",
+          "bNeedComplete": true
+        }
       }
     }
   }
