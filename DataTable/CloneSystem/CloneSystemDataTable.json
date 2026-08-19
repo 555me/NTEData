@@ -21830,7 +21830,7 @@
                   "CurrencyCount": 100.0
 }
               ],
-              "SkillCount": 2
+              "SkillCount": 4
 }
           },
           {
@@ -22446,8 +22446,8 @@
           "CultureInvariantString": null
 },
         "CloneName": {
-          "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss04_Name"
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_OpActMotorboatCollectMain_Title"
 },
         "CloneMode": "ECloneMode::SingleClone",
         "CloneType": "ECloneType::Motorboat_Collect",
@@ -22569,6 +22569,340 @@
         "EnterCloneTransferLoadingUI": "",
         "ExitTransferLoadingUI": "",
         "TransferLoadingUIReset": "",
+        "EnterSpecialLoadingID": "",
+        "ExitCloneRewardedTips": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "Diyboss_Exit_Desc"
+},
+        "ExitCloneNotRewardTips": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "Diyboss_Exit_Desc"
+},
+        "ExtensionData": null
+},
+      "DLC_Scaled_Single": {
+        "CloneID": "DLC_Scaled_Single",
+        "bCrossScene": true,
+        "MatchCfgMapKey": "DLC_Scaled_Single",
+        "OnlineTeamCfgMapKey": "None",
+        "CloneOutPut": {
+          "CultureInvariantString": null
+},
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name"
+},
+        "CloneMode": "ECloneMode::SingleClone",
+        "CloneType": "ECloneType::SingleVision",
+        "StaminaID": "None",
+        "IsDoubleAward": false,
+        "CloneSystemSubNodes": [
+          {
+            "MatchCfgMapKey": "DLC_Scaled_Single",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "CultureInvariantString": null
+},
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+},
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                  "Key": "Hospital_CusConmment_1_Dis_Player"
+},
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+},
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+}
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+}
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 0,
+            "DropID": "None",
+            "DifficultyLevel": 0,
+            "TeamLevel": 0,
+            "KillMonsterTimeLimit": 20,
+            "SpawnID": "None",
+            "ExtensionData": null
+}
+        ],
+        "CloneLevelInstance": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "bIsAutoSpawnMonster": true,
+        "AutoSpawnMonsterDelayTime": 0.5,
+        "KillMonsterLimitDes": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name"
+},
+        "LimitDes": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name"
+},
+        "BgIcon": {
+          "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_LoginImages_6.UI_YH_FB_LoginImages_6",
+          "SubPathString": ""
+},
+        "AdventureManualBGIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "SpawnStart": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.70710677,
+            "W": 0.70710677,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+},
+          "Translation": {
+            "X": 20527.184,
+            "Y": 24649.281,
+            "Z": 97.21709
+},
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+}
+        },
+        "CloneAwardTemplate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "bHasChallengeTime": false,
+        "CloneDataLayerAssets": [],
+        "ResetLayerAssets": [],
+        "ReliveOrChallengeTransforms": [],
+        "CloneBoxTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+},
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+}
+        },
+        "Distance": 100,
+        "Rotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+},
+        "QuestId": "None",
+        "EntryQuestDetailsArray": [],
+        "PreQuestDetails": {
+          "PreFinishedQuestID": "None",
+          "PreQuestFinishedText": {
+            "CultureInvariantString": null
+}
+        },
+        "CloneFinishedQuestID": "None",
+        "bShowSkipUI": false,
+        "bShowInAdventure": false,
+        "bRepetitionChallenge": false,
+        "EnterCloneTransferLoadingUI": "",
+        "ExitTransferLoadingUI": "CloneLoadingUI",
+        "TransferLoadingUIReset": "CloneLoadingUIReset",
+        "EnterSpecialLoadingID": "",
+        "ExitCloneRewardedTips": {
+          "CultureInvariantString": null
+},
+        "ExitCloneNotRewardTips": {
+          "CultureInvariantString": null
+},
+        "ExtensionData": null
+},
+      "DLC_Scaled_Multi": {
+        "CloneID": "DLC_Scaled_Multi",
+        "bCrossScene": true,
+        "MatchCfgMapKey": "DLC_Scaled_Multi",
+        "OnlineTeamCfgMapKey": "DLC_Scaled_Multi",
+        "CloneOutPut": {
+          "CultureInvariantString": null
+},
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name"
+},
+        "CloneMode": "ECloneMode::MultClone",
+        "CloneType": "ECloneType::MultiVision",
+        "StaminaID": "None",
+        "IsDoubleAward": false,
+        "CloneSystemSubNodes": [
+          {
+            "MatchCfgMapKey": "DLC_Scaled_Multi",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "CultureInvariantString": null
+},
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+},
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                  "Key": "Hospital_CusConmment_1_Dis_Player"
+},
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+},
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+}
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+}
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 0,
+            "DropID": "None",
+            "DifficultyLevel": 0,
+            "TeamLevel": 0,
+            "KillMonsterTimeLimit": 20,
+            "SpawnID": "None",
+            "ExtensionData": null
+}
+        ],
+        "CloneLevelInstance": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "bIsAutoSpawnMonster": true,
+        "AutoSpawnMonsterDelayTime": 0.5,
+        "KillMonsterLimitDes": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name"
+},
+        "LimitDes": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name"
+},
+        "BgIcon": {
+          "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_LoginImages_6.UI_YH_FB_LoginImages_6",
+          "SubPathString": ""
+},
+        "AdventureManualBGIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "SpawnStart": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.70710677,
+            "W": 0.70710677,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+},
+          "Translation": {
+            "X": 20527.184,
+            "Y": 24649.281,
+            "Z": 97.21709
+},
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+}
+        },
+        "CloneAwardTemplate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+},
+        "bHasChallengeTime": false,
+        "CloneDataLayerAssets": [],
+        "ResetLayerAssets": [],
+        "ReliveOrChallengeTransforms": [],
+        "CloneBoxTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+},
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+},
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+}
+        },
+        "Distance": 100,
+        "Rotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+},
+        "QuestId": "None",
+        "EntryQuestDetailsArray": [],
+        "PreQuestDetails": {
+          "PreFinishedQuestID": "None",
+          "PreQuestFinishedText": {
+            "CultureInvariantString": null
+}
+        },
+        "CloneFinishedQuestID": "None",
+        "bShowSkipUI": false,
+        "bShowInAdventure": false,
+        "bRepetitionChallenge": false,
+        "EnterCloneTransferLoadingUI": "",
+        "ExitTransferLoadingUI": "CloneLoadingUI",
+        "TransferLoadingUIReset": "CloneLoadingUIReset",
         "EnterSpecialLoadingID": "",
         "ExitCloneRewardedTips": {
           "CultureInvariantString": null
