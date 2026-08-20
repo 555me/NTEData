@@ -16190,14 +16190,6 @@
               "StageFinishWaitTime": 0.0,
               "TeachApplyEffects": [
                 {
-                  "GuideID": "Teach_Radio_4_1",
-                  "ApplyTargetType": "ETeachApplyTargetType::Player",
-                  "ApplyOperation": "ETeachApplyOperation::Add",
-                  "ApplyTime": 1,
-                  "ApplyTime_GEClass": "None",
-                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
-},
-                {
                   "ApplyGEClass": {
                     "ObjectName": "BlueprintGeneratedClass'Buff_ClearSkillCD_TA_C'",
                     "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_ClearSkillCD_TA.0"
@@ -16278,7 +16270,16 @@
 }
                   },
                   "StageFinishWaitTime": 0.0,
-                  "TeachApplyEffects": []
+                  "TeachApplyEffects": [
+                    {
+                      "GuideID": "Teach_Radio_5_1",
+                      "ApplyTargetType": "ETeachApplyTargetType::Player",
+                      "ApplyOperation": "ETeachApplyOperation::Add",
+                      "ApplyTime": 1,
+                      "ApplyTime_GEClass": "None",
+                      "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
+}
+                  ]
                 },
                 {
                   "GaCounterTeachStages": [
@@ -16370,14 +16371,6 @@
               },
               "StageFinishWaitTime": 0.0,
               "TeachApplyEffects": [
-                {
-                  "GuideID": "Teach_Radio_5_1",
-                  "ApplyTargetType": "ETeachApplyTargetType::Player",
-                  "ApplyOperation": "ETeachApplyOperation::Add",
-                  "ApplyTime": 1,
-                  "ApplyTime_GEClass": "None",
-                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
-},
                 {
                   "ApplyGEClass": {
                     "ObjectName": "BlueprintGeneratedClass'Buff_CantUseUltraSkill_TA_Infinity_C'",
