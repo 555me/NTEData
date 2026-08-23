@@ -9,21 +9,23 @@
       "RowStruct": {
         "ObjectName": "Class'DiyBossDataRow'",
         "ObjectPath": "/Script/HTGame"
-}
+      }
     },
     "Rows": {
       "DiyBossStage1": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss01_Name"
-},
+          "Key": "DiyBoss01_Name",
+          "SourceString": "无法换台之物",
+          "LocalizedString": "无法换台之物"
+        },
         "Comment": "",
         "UnlockNode": {
           "PreLevelId": "None",
           "ActiveOpenedHours": 0,
           "UnlockDesc": {
             "CultureInvariantString": null
-}
+          }
         },
         "DifficultyMap": [
           {
@@ -31,44 +33,52 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty1"
-},
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
               "BaseScore": 500,
               "ScoreRate": 1.0
-}
+            }
           },
           {
             "Key": "2",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty2"
-},
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
               "BaseScore": 500,
               "ScoreRate": 2.0
-}
+            }
           },
           {
             "Key": "3",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty3"
-},
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
               "BaseScore": 500,
               "ScoreRate": 3.0
-}
+            }
           },
           {
             "Key": "4",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty4"
-},
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
               "BaseScore": 500,
               "ScoreRate": 5.0
-}
+            }
           }
         ],
         "ScoreAwardMap": [
@@ -136,8 +146,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_TimeChoice"
-},
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
             "Options": [
               "TimeOP001",
               "TimeOP002",
@@ -147,8 +159,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_HPChoice"
-},
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
             "Options": [
               "LifeOP001",
               "LifeOP002",
@@ -158,8 +172,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_AtkChoice"
-},
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
             "Options": [
               "Attack001",
               "Attack002",
@@ -169,8 +185,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceLin"
-},
+              "Key": "DiyBoss_ChoiceLin",
+              "SourceString": "敌方灵抗性提升",
+              "LocalizedString": "敌方灵抗性提升"
+            },
             "Options": [
               "LingOP001",
               "LingOP002",
@@ -180,8 +198,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceZhou"
-},
+              "Key": "DiyBoss_ChoiceZhou",
+              "SourceString": "敌方咒抗性提升",
+              "LocalizedString": "敌方咒抗性提升"
+            },
             "Options": [
               "ZhouOP001",
               "ZhouOP002",
@@ -191,8 +211,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceAn"
-},
+              "Key": "DiyBoss_ChoiceAn",
+              "SourceString": "敌方暗抗性提升",
+              "LocalizedString": "敌方暗抗性提升"
+            },
             "Options": [
               "AnOP001",
               "AnOP002",
@@ -206,24 +228,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_04_Name"
-},
+                "Key": "boss_04_Name",
+                "SourceString": "塔吉多",
+                "LocalizedString": "塔吉多"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_001.UI_YH_PVEBOSS_BOSSList_Boss_001",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_04_icon.boss_04_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_02.UI_avatarbg_Icon_02",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_04_BP_Found"
-}
+                "Key": "boss_04_BP_Found",
+                "SourceString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」",
+                "LocalizedString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」"
+              }
             }
           },
           {
@@ -231,24 +257,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_04_Name"
-},
+                "Key": "boss_04_Name",
+                "SourceString": "塔吉多",
+                "LocalizedString": "塔吉多"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_001.UI_YH_PVEBOSS_BOSSList_Boss_001",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_04_icon.boss_04_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_02.UI_avatarbg_Icon_02",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_04_BP_Found"
-}
+                "Key": "boss_04_BP_Found",
+                "SourceString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」",
+                "LocalizedString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」"
+              }
             }
           },
           {
@@ -256,24 +286,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_04_Name"
-},
+                "Key": "boss_04_Name",
+                "SourceString": "塔吉多",
+                "LocalizedString": "塔吉多"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_001.UI_YH_PVEBOSS_BOSSList_Boss_001",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_04_icon.boss_04_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_02.UI_avatarbg_Icon_02",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_04_BP_Found"
-}
+                "Key": "boss_04_BP_Found",
+                "SourceString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」",
+                "LocalizedString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」"
+              }
             }
           },
           {
@@ -281,24 +315,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_04_Name"
-},
+                "Key": "boss_04_Name",
+                "SourceString": "塔吉多",
+                "LocalizedString": "塔吉多"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_001.UI_YH_PVEBOSS_BOSSList_Boss_001",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_04_icon.boss_04_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_02.UI_avatarbg_Icon_02",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_04_BP_Found"
-}
+                "Key": "boss_04_BP_Found",
+                "SourceString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」",
+                "LocalizedString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」"
+              }
             }
           }
         ],
@@ -306,11 +344,11 @@
         "SpecialHighDifficultySlotBkg": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_04/boss_04_BP_UI.boss_04_BP_UI_C",
           "SubPathString": ""
-},
+        },
         "PreviewActorTransformOverride": {
           "Rotation": {
             "X": 0.0,
@@ -320,32 +358,36 @@
             "IsNormalized": true,
             "Size": 1.0,
             "SizeSquared": 1.0
-},
+          },
           "Translation": {
             "X": 0.0,
             "Y": -4.0,
             "Z": 10.0
-},
+          },
           "Scale3D": {
             "X": 0.035,
             "Y": 0.035,
             "Z": 0.035
-}
+          }
         }
       },
       "DiyBossStage2": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss03_Name"
-},
+          "Key": "DiyBoss03_Name",
+          "SourceString": "今日番茄酱半价",
+          "LocalizedString": "今日番茄酱半价"
+        },
         "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage1",
           "ActiveOpenedHours": 0,
           "UnlockDesc": {
             "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-            "Key": "DiyBoss_Unlock_Cond_L2"
-}
+            "Key": "DiyBoss_Unlock_Cond_L2",
+            "SourceString": "通关上一关解锁",
+            "LocalizedString": "通关上一关解锁"
+          }
         },
         "DifficultyMap": [
           {
@@ -353,44 +395,52 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty1"
-},
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
               "BaseScore": 500,
               "ScoreRate": 1.0
-}
+            }
           },
           {
             "Key": "2",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty2"
-},
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
               "BaseScore": 500,
               "ScoreRate": 2.0
-}
+            }
           },
           {
             "Key": "3",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty3"
-},
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
               "BaseScore": 500,
               "ScoreRate": 3.0
-}
+            }
           },
           {
             "Key": "4",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty4"
-},
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
               "BaseScore": 500,
               "ScoreRate": 5.0
-}
+            }
           }
         ],
         "ScoreAwardMap": [
@@ -458,8 +508,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_TimeChoice"
-},
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
             "Options": [
               "TimeOP001",
               "TimeOP002",
@@ -469,8 +521,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_HPChoice"
-},
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
             "Options": [
               "LifeOP001",
               "LifeOP002",
@@ -480,8 +534,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_AtkChoice"
-},
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
             "Options": [
               "Attack001",
               "Attack002",
@@ -491,8 +547,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceGuang"
-},
+              "Key": "DiyBoss_ChoiceGuang",
+              "SourceString": "敌方光抗性提升",
+              "LocalizedString": "敌方光抗性提升"
+            },
             "Options": [
               "LightOP001",
               "LightOP002",
@@ -502,8 +560,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceLin"
-},
+              "Key": "DiyBoss_ChoiceLin",
+              "SourceString": "敌方灵抗性提升",
+              "LocalizedString": "敌方灵抗性提升"
+            },
             "Options": [
               "LingOP001",
               "LingOP002",
@@ -513,8 +573,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceXiang"
-},
+              "Key": "DiyBoss_ChoiceXiang",
+              "SourceString": "敌方相抗性提升",
+              "LocalizedString": "敌方相抗性提升"
+            },
             "Options": [
               "XiangOP001",
               "XiangOP002",
@@ -528,24 +590,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_18_Name"
-},
+                "Key": "boss_18_Name",
+                "SourceString": "番茄酱恶魔",
+                "LocalizedString": "番茄酱恶魔"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_18_BP_Found"
-}
+                "Key": "boss_18_BP_Found",
+                "SourceString": "从针对E.T.D四队成员安魂曲的舆论中诞生的迷因异象，被目击到的形态有着与安魂曲几乎完全一致的容貌，但身体由类似「番茄百分百」的红色果冻状物质构成。尤其喜爱攻击「番茄百分百」售货机。\r\n「我听说……真相……真的……假的……只是听说，别那么较真。」",
+                "LocalizedString": "从针对E.T.D四队成员安魂曲的舆论中诞生的迷因异象，被目击到的形态有着与安魂曲几乎完全一致的容貌，但身体由类似「番茄百分百」的红色果冻状物质构成。尤其喜爱攻击「番茄百分百」售货机。\r\n「我听说……真相……真的……假的……只是听说，别那么较真。」"
+              }
             }
           },
           {
@@ -553,24 +619,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_18_Name"
-},
+                "Key": "boss_18_Name",
+                "SourceString": "番茄酱恶魔",
+                "LocalizedString": "番茄酱恶魔"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_18_BP_Found"
-}
+                "Key": "boss_18_BP_Found",
+                "SourceString": "从针对E.T.D四队成员安魂曲的舆论中诞生的迷因异象，被目击到的形态有着与安魂曲几乎完全一致的容貌，但身体由类似「番茄百分百」的红色果冻状物质构成。尤其喜爱攻击「番茄百分百」售货机。\r\n「我听说……真相……真的……假的……只是听说，别那么较真。」",
+                "LocalizedString": "从针对E.T.D四队成员安魂曲的舆论中诞生的迷因异象，被目击到的形态有着与安魂曲几乎完全一致的容貌，但身体由类似「番茄百分百」的红色果冻状物质构成。尤其喜爱攻击「番茄百分百」售货机。\r\n「我听说……真相……真的……假的……只是听说，别那么较真。」"
+              }
             }
           },
           {
@@ -578,24 +648,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_18_Name"
-},
+                "Key": "boss_18_Name",
+                "SourceString": "番茄酱恶魔",
+                "LocalizedString": "番茄酱恶魔"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_18_BP_Found"
-}
+                "Key": "boss_18_BP_Found",
+                "SourceString": "从针对E.T.D四队成员安魂曲的舆论中诞生的迷因异象，被目击到的形态有着与安魂曲几乎完全一致的容貌，但身体由类似「番茄百分百」的红色果冻状物质构成。尤其喜爱攻击「番茄百分百」售货机。\r\n「我听说……真相……真的……假的……只是听说，别那么较真。」",
+                "LocalizedString": "从针对E.T.D四队成员安魂曲的舆论中诞生的迷因异象，被目击到的形态有着与安魂曲几乎完全一致的容貌，但身体由类似「番茄百分百」的红色果冻状物质构成。尤其喜爱攻击「番茄百分百」售货机。\r\n「我听说……真相……真的……假的……只是听说，别那么较真。」"
+              }
             }
           },
           {
@@ -603,24 +677,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_18_Name"
-},
+                "Key": "boss_18_Name",
+                "SourceString": "番茄酱恶魔",
+                "LocalizedString": "番茄酱恶魔"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_004.UI_YH_PVEBOSS_BOSSList_Boss_004",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_18_icon.Boss_18_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_18_BP_Found"
-}
+                "Key": "boss_18_BP_Found",
+                "SourceString": "从针对E.T.D四队成员安魂曲的舆论中诞生的迷因异象，被目击到的形态有着与安魂曲几乎完全一致的容貌，但身体由类似「番茄百分百」的红色果冻状物质构成。尤其喜爱攻击「番茄百分百」售货机。\r\n「我听说……真相……真的……假的……只是听说，别那么较真。」",
+                "LocalizedString": "从针对E.T.D四队成员安魂曲的舆论中诞生的迷因异象，被目击到的形态有着与安魂曲几乎完全一致的容貌，但身体由类似「番茄百分百」的红色果冻状物质构成。尤其喜爱攻击「番茄百分百」售货机。\r\n「我听说……真相……真的……假的……只是听说，别那么较真。」"
+              }
             }
           }
         ],
@@ -628,11 +706,11 @@
         "SpecialHighDifficultySlotBkg": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_18/boss_18_BP_UI.boss_18_BP_UI_C",
           "SubPathString": ""
-},
+        },
         "PreviewActorTransformOverride": {
           "Rotation": {
             "X": 0.0,
@@ -642,32 +720,36 @@
             "IsNormalized": true,
             "Size": 1.0,
             "SizeSquared": 1.0
-},
+          },
           "Translation": {
             "X": 0.0,
             "Y": -4.0,
             "Z": 13.0
-},
+          },
           "Scale3D": {
             "X": 0.1,
             "Y": 0.1,
             "Z": 0.1
-}
+          }
         }
       },
       "DiyBossStage7": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss08_Name"
-},
+          "Key": "DiyBoss08_Name",
+          "SourceString": "方斯如雨",
+          "LocalizedString": "方斯如雨"
+        },
         "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage2",
           "ActiveOpenedHours": 0,
           "UnlockDesc": {
             "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-            "Key": "DiyBoss_Unlock_Cond_L2"
-}
+            "Key": "DiyBoss_Unlock_Cond_L2",
+            "SourceString": "通关上一关解锁",
+            "LocalizedString": "通关上一关解锁"
+          }
         },
         "DifficultyMap": [
           {
@@ -675,44 +757,52 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty1"
-},
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
               "BaseScore": 500,
               "ScoreRate": 1.0
-}
+            }
           },
           {
             "Key": "2",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty2"
-},
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
               "BaseScore": 500,
               "ScoreRate": 2.0
-}
+            }
           },
           {
             "Key": "3",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty3"
-},
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
               "BaseScore": 500,
               "ScoreRate": 3.0
-}
+            }
           },
           {
             "Key": "4",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty4"
-},
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
               "BaseScore": 500,
               "ScoreRate": 5.0
-}
+            }
           }
         ],
         "ScoreAwardMap": [],
@@ -720,8 +810,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_TimeChoice"
-},
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
             "Options": [
               "TimeOP001_challenge",
               "TimeOP002_challenge",
@@ -731,8 +823,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_HPChoice"
-},
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
             "Options": [
               "LifeOP001_challenge",
               "LifeOP002_challenge",
@@ -742,8 +836,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_AtkChoice"
-},
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
             "Options": [
               "Attack001_challenge",
               "Attack002_challenge",
@@ -753,8 +849,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceAn"
-},
+              "Key": "DiyBoss_ChoiceAn",
+              "SourceString": "敌方暗抗性提升",
+              "LocalizedString": "敌方暗抗性提升"
+            },
             "Options": [
               "AnOP001_challenge",
               "AnOP002_challenge",
@@ -764,8 +862,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceHun"
-},
+              "Key": "DiyBoss_ChoiceHun",
+              "SourceString": "敌方魂抗性提升",
+              "LocalizedString": "敌方魂抗性提升"
+            },
             "Options": [
               "HunOP001_challenge",
               "HunOP002_challenge",
@@ -775,8 +875,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceXiang"
-},
+              "Key": "DiyBoss_ChoiceXiang",
+              "SourceString": "敌方相抗性提升",
+              "LocalizedString": "敌方相抗性提升"
+            },
             "Options": [
               "XiangOP001_challenge",
               "XiangOP002_challenge",
@@ -790,24 +892,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_17_Name"
-},
+                "Key": "boss_17_Name",
+                "SourceString": "玛门",
+                "LocalizedString": "玛门"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_008.UI_YH_PVEBOSS_BOSSList_Boss_008",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_02__100.boss_103_02__100",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                "Key": "Ui_Clone_Mamen_Des"
-}
+                "Key": "Ui_Clone_Mamen_Des",
+                "SourceString": "玛门总是趁拉冬睡觉的时候偷走他的财宝，生气的拉冬大人向全世界宣布：只要战胜玛门，夺回的财宝都将属于这位胜者！",
+                "LocalizedString": "玛门总是趁拉冬睡觉的时候偷走他的财宝，生气的拉冬大人向全世界宣布：只要战胜玛门，夺回的财宝都将属于这位胜者！"
+              }
             }
           },
           {
@@ -815,24 +921,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_17_Name"
-},
+                "Key": "boss_17_Name",
+                "SourceString": "玛门",
+                "LocalizedString": "玛门"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_008.UI_YH_PVEBOSS_BOSSList_Boss_008",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_02__100.boss_103_02__100",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                "Key": "Ui_Clone_Mamen_Des"
-}
+                "Key": "Ui_Clone_Mamen_Des",
+                "SourceString": "玛门总是趁拉冬睡觉的时候偷走他的财宝，生气的拉冬大人向全世界宣布：只要战胜玛门，夺回的财宝都将属于这位胜者！",
+                "LocalizedString": "玛门总是趁拉冬睡觉的时候偷走他的财宝，生气的拉冬大人向全世界宣布：只要战胜玛门，夺回的财宝都将属于这位胜者！"
+              }
             }
           },
           {
@@ -840,24 +950,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_17_Name"
-},
+                "Key": "boss_17_Name",
+                "SourceString": "玛门",
+                "LocalizedString": "玛门"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_008.UI_YH_PVEBOSS_BOSSList_Boss_008",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_02__100.boss_103_02__100",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                "Key": "Ui_Clone_Mamen_Des"
-}
+                "Key": "Ui_Clone_Mamen_Des",
+                "SourceString": "玛门总是趁拉冬睡觉的时候偷走他的财宝，生气的拉冬大人向全世界宣布：只要战胜玛门，夺回的财宝都将属于这位胜者！",
+                "LocalizedString": "玛门总是趁拉冬睡觉的时候偷走他的财宝，生气的拉冬大人向全世界宣布：只要战胜玛门，夺回的财宝都将属于这位胜者！"
+              }
             }
           },
           {
@@ -865,24 +979,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_17_Name"
-},
+                "Key": "boss_17_Name",
+                "SourceString": "玛门",
+                "LocalizedString": "玛门"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_008.UI_YH_PVEBOSS_BOSSList_Boss_008",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_02__100.boss_103_02__100",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                "Key": "Ui_Clone_Mamen_Des"
-}
+                "Key": "Ui_Clone_Mamen_Des",
+                "SourceString": "玛门总是趁拉冬睡觉的时候偷走他的财宝，生气的拉冬大人向全世界宣布：只要战胜玛门，夺回的财宝都将属于这位胜者！",
+                "LocalizedString": "玛门总是趁拉冬睡觉的时候偷走他的财宝，生气的拉冬大人向全世界宣布：只要战胜玛门，夺回的财宝都将属于这位胜者！"
+              }
             }
           }
         ],
@@ -890,11 +1008,11 @@
         "SpecialHighDifficultySlotBkg": {
           "AssetPathName": "/Game/UI/UI/VisionExplore/Transparent.Transparent",
           "SubPathString": ""
-},
+        },
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_17/Boss_017_BP_UI.Boss_017_BP_UI_C",
           "SubPathString": ""
-},
+        },
         "PreviewActorTransformOverride": {
           "Rotation": {
             "X": -0.0,
@@ -904,32 +1022,36 @@
             "IsNormalized": true,
             "Size": 1.0,
             "SizeSquared": 1.0
-},
+          },
           "Translation": {
             "X": 0.0,
             "Y": -3.0,
             "Z": 13.0
-},
+          },
           "Scale3D": {
             "X": 0.038,
             "Y": 0.038,
             "Z": 0.038
-}
+          }
         }
       },
       "DiyBossStage3": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss06_Name"
-},
+          "Key": "DiyBoss06_Name",
+          "SourceString": "当我们诉说爱时",
+          "LocalizedString": "当我们诉说爱时"
+        },
         "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage2",
           "ActiveOpenedHours": 24,
           "UnlockDesc": {
             "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-            "Key": "DiyBoss_Unlock_Cond_L3_challenge"
-}
+            "Key": "DiyBoss_Unlock_Cond_L3_challenge",
+            "SourceString": "活动开始第二天，且通关「今日番茄酱半价」解锁",
+            "LocalizedString": "活动开始第二天，且通关「今日番茄酱半价」解锁"
+          }
         },
         "DifficultyMap": [
           {
@@ -937,44 +1059,52 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty1"
-},
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
               "BaseScore": 500,
               "ScoreRate": 1.0
-}
+            }
           },
           {
             "Key": "2",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty2"
-},
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
               "BaseScore": 500,
               "ScoreRate": 2.0
-}
+            }
           },
           {
             "Key": "3",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty3"
-},
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
               "BaseScore": 500,
               "ScoreRate": 3.0
-}
+            }
           },
           {
             "Key": "4",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty4"
-},
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
               "BaseScore": 500,
               "ScoreRate": 5.0
-}
+            }
           }
         ],
         "ScoreAwardMap": [
@@ -1042,8 +1172,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_TimeChoice"
-},
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
             "Options": [
               "TimeOP001",
               "TimeOP002",
@@ -1053,8 +1185,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_HPChoice"
-},
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
             "Options": [
               "LifeOP001",
               "LifeOP002",
@@ -1064,8 +1198,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_AtkChoice"
-},
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
             "Options": [
               "Attack001",
               "Attack002",
@@ -1075,8 +1211,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceGuang"
-},
+              "Key": "DiyBoss_ChoiceGuang",
+              "SourceString": "敌方光抗性提升",
+              "LocalizedString": "敌方光抗性提升"
+            },
             "Options": [
               "LightOP001",
               "LightOP002",
@@ -1086,8 +1224,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceHun"
-},
+              "Key": "DiyBoss_ChoiceHun",
+              "SourceString": "敌方魂抗性提升",
+              "LocalizedString": "敌方魂抗性提升"
+            },
             "Options": [
               "HunOP001",
               "HunOP002",
@@ -1097,8 +1237,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceXiang"
-},
+              "Key": "DiyBoss_ChoiceXiang",
+              "SourceString": "敌方相抗性提升",
+              "LocalizedString": "敌方相抗性提升"
+            },
             "Options": [
               "XiangOP001",
               "XiangOP002",
@@ -1112,24 +1254,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_07_Name"
-},
+                "Key": "boss_07_Name",
+                "SourceString": "塞润尼缇",
+                "LocalizedString": "塞润尼缇"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_003.UI_YH_PVEBOSS_BOSSList_Boss_003",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_07_icon.Boss_07_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_06.UI_avatarbg_Icon_06",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_07_BP_Found"
-}
+                "Key": "boss_07_BP_Found",
+                "SourceString": "封闭内心的失声少年误入了被言语的恶意侵染的花房，花藤扎根与少年的血肉，汲取着养料，结成花茧。由此从未说出口的言语，尽数化为万物之形。\r\n「叱骂反调，为寂然无声，一言之庭。」",
+                "LocalizedString": "封闭内心的失声少年误入了被言语的恶意侵染的花房，花藤扎根与少年的血肉，汲取着养料，结成花茧。由此从未说出口的言语，尽数化为万物之形。\r\n「叱骂反调，为寂然无声，一言之庭。」"
+              }
             }
           },
           {
@@ -1137,24 +1283,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_07_Name"
-},
+                "Key": "boss_07_Name",
+                "SourceString": "塞润尼缇",
+                "LocalizedString": "塞润尼缇"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_003.UI_YH_PVEBOSS_BOSSList_Boss_003",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_07_icon.Boss_07_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_06.UI_avatarbg_Icon_06",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_07_BP_Found"
-}
+                "Key": "boss_07_BP_Found",
+                "SourceString": "封闭内心的失声少年误入了被言语的恶意侵染的花房，花藤扎根与少年的血肉，汲取着养料，结成花茧。由此从未说出口的言语，尽数化为万物之形。\r\n「叱骂反调，为寂然无声，一言之庭。」",
+                "LocalizedString": "封闭内心的失声少年误入了被言语的恶意侵染的花房，花藤扎根与少年的血肉，汲取着养料，结成花茧。由此从未说出口的言语，尽数化为万物之形。\r\n「叱骂反调，为寂然无声，一言之庭。」"
+              }
             }
           },
           {
@@ -1162,24 +1312,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_07_Name"
-},
+                "Key": "boss_07_Name",
+                "SourceString": "塞润尼缇",
+                "LocalizedString": "塞润尼缇"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_003.UI_YH_PVEBOSS_BOSSList_Boss_003",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_07_icon.Boss_07_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_06.UI_avatarbg_Icon_06",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_07_BP_Found"
-}
+                "Key": "boss_07_BP_Found",
+                "SourceString": "封闭内心的失声少年误入了被言语的恶意侵染的花房，花藤扎根与少年的血肉，汲取着养料，结成花茧。由此从未说出口的言语，尽数化为万物之形。\r\n「叱骂反调，为寂然无声，一言之庭。」",
+                "LocalizedString": "封闭内心的失声少年误入了被言语的恶意侵染的花房，花藤扎根与少年的血肉，汲取着养料，结成花茧。由此从未说出口的言语，尽数化为万物之形。\r\n「叱骂反调，为寂然无声，一言之庭。」"
+              }
             }
           },
           {
@@ -1187,24 +1341,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_07_Name"
-},
+                "Key": "boss_07_Name",
+                "SourceString": "塞润尼缇",
+                "LocalizedString": "塞润尼缇"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_003.UI_YH_PVEBOSS_BOSSList_Boss_003",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_07_icon.Boss_07_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_06.UI_avatarbg_Icon_06",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_07_BP_Found"
-}
+                "Key": "boss_07_BP_Found",
+                "SourceString": "封闭内心的失声少年误入了被言语的恶意侵染的花房，花藤扎根与少年的血肉，汲取着养料，结成花茧。由此从未说出口的言语，尽数化为万物之形。\r\n「叱骂反调，为寂然无声，一言之庭。」",
+                "LocalizedString": "封闭内心的失声少年误入了被言语的恶意侵染的花房，花藤扎根与少年的血肉，汲取着养料，结成花茧。由此从未说出口的言语，尽数化为万物之形。\r\n「叱骂反调，为寂然无声，一言之庭。」"
+              }
             }
           }
         ],
@@ -1212,11 +1370,11 @@
         "SpecialHighDifficultySlotBkg": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_07/Boss_07_BP_UI.Boss_07_BP_UI_C",
           "SubPathString": ""
-},
+        },
         "PreviewActorTransformOverride": {
           "Rotation": {
             "X": 0.0,
@@ -1226,32 +1384,36 @@
             "IsNormalized": true,
             "Size": 1.0,
             "SizeSquared": 1.0
-},
+          },
           "Translation": {
             "X": 0.0,
             "Y": -3.0,
             "Z": 12.0
-},
+          },
           "Scale3D": {
             "X": 0.035,
             "Y": 0.035,
             "Z": 0.035
-}
+          }
         }
       },
       "DiyBossStage4": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss04_Name"
-},
+          "Key": "DiyBoss04_Name",
+          "SourceString": "请遵守信用",
+          "LocalizedString": "请遵守信用"
+        },
         "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage3",
           "ActiveOpenedHours": 48,
           "UnlockDesc": {
             "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-            "Key": "DiyBoss_Unlock_Cond_L4"
-}
+            "Key": "DiyBoss_Unlock_Cond_L4",
+            "SourceString": "活动开始第三天，且通关上一关解锁",
+            "LocalizedString": "活动开始第三天，且通关上一关解锁"
+          }
         },
         "DifficultyMap": [
           {
@@ -1259,44 +1421,52 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty1"
-},
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
               "BaseScore": 500,
               "ScoreRate": 1.0
-}
+            }
           },
           {
             "Key": "2",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty2"
-},
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
               "BaseScore": 500,
               "ScoreRate": 2.0
-}
+            }
           },
           {
             "Key": "3",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty3"
-},
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
               "BaseScore": 500,
               "ScoreRate": 3.0
-}
+            }
           },
           {
             "Key": "4",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty4"
-},
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
               "BaseScore": 500,
               "ScoreRate": 5.0
-}
+            }
           }
         ],
         "ScoreAwardMap": [
@@ -1364,8 +1534,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_TimeChoice"
-},
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
             "Options": [
               "TimeOP001",
               "TimeOP002",
@@ -1375,8 +1547,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_HPChoice"
-},
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
             "Options": [
               "LifeOP001",
               "LifeOP002",
@@ -1386,8 +1560,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_AtkChoice"
-},
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
             "Options": [
               "Attack001",
               "Attack002",
@@ -1397,8 +1573,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceZhou"
-},
+              "Key": "DiyBoss_ChoiceZhou",
+              "SourceString": "敌方咒抗性提升",
+              "LocalizedString": "敌方咒抗性提升"
+            },
             "Options": [
               "ZhouOP001",
               "ZhouOP002",
@@ -1408,8 +1586,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceAn"
-},
+              "Key": "DiyBoss_ChoiceAn",
+              "SourceString": "敌方暗抗性提升",
+              "LocalizedString": "敌方暗抗性提升"
+            },
             "Options": [
               "AnOP001",
               "AnOP002",
@@ -1419,8 +1599,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceHun"
-},
+              "Key": "DiyBoss_ChoiceHun",
+              "SourceString": "敌方魂抗性提升",
+              "LocalizedString": "敌方魂抗性提升"
+            },
             "Options": [
               "HunOP001",
               "HunOP002",
@@ -1434,24 +1616,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_26_Name"
-},
+                "Key": "boss_26_Name",
+                "SourceString": "讨债人",
+                "LocalizedString": "讨债人"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_26_BP_Found"
-}
+                "Key": "boss_26_BP_Found",
+                "SourceString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」",
+                "LocalizedString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」"
+              }
             }
           },
           {
@@ -1459,24 +1645,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_26_Name"
-},
+                "Key": "boss_26_Name",
+                "SourceString": "讨债人",
+                "LocalizedString": "讨债人"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_26_BP_Found"
-}
+                "Key": "boss_26_BP_Found",
+                "SourceString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」",
+                "LocalizedString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」"
+              }
             }
           },
           {
@@ -1484,24 +1674,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_26_Name"
-},
+                "Key": "boss_26_Name",
+                "SourceString": "讨债人",
+                "LocalizedString": "讨债人"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_26_BP_Found"
-}
+                "Key": "boss_26_BP_Found",
+                "SourceString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」",
+                "LocalizedString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」"
+              }
             }
           },
           {
@@ -1509,24 +1703,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_26_Name"
-},
+                "Key": "boss_26_Name",
+                "SourceString": "讨债人",
+                "LocalizedString": "讨债人"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_26_BP_Found"
-}
+                "Key": "boss_26_BP_Found",
+                "SourceString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」",
+                "LocalizedString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」"
+              }
             }
           }
         ],
@@ -1534,11 +1732,11 @@
         "SpecialHighDifficultySlotBkg": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_26/boss_26_BP_UI.boss_26_BP_UI_C",
           "SubPathString": ""
-},
+        },
         "PreviewActorTransformOverride": {
           "Rotation": {
             "X": 0.0,
@@ -1548,32 +1746,36 @@
             "IsNormalized": true,
             "Size": 1.0,
             "SizeSquared": 1.0
-},
+          },
           "Translation": {
             "X": 0.0,
             "Y": -4.0,
             "Z": 10.0
-},
+          },
           "Scale3D": {
             "X": 0.1,
             "Y": 0.1,
             "Z": 0.1
-}
+          }
         }
       },
       "DiyBossStage5": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss07_Name"
-},
+          "Key": "DiyBoss07_Name",
+          "SourceString": "永不停歇的蓝火",
+          "LocalizedString": "永不停歇的蓝火"
+        },
         "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage4",
           "ActiveOpenedHours": 72,
           "UnlockDesc": {
             "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-            "Key": "DiyBoss_Unlock_Cond_L5"
-}
+            "Key": "DiyBoss_Unlock_Cond_L5",
+            "SourceString": "活动开始第四天，且通关上一关解锁",
+            "LocalizedString": "活动开始第四天，且通关上一关解锁"
+          }
         },
         "DifficultyMap": [
           {
@@ -1581,44 +1783,52 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty1"
-},
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
               "BaseScore": 500,
               "ScoreRate": 1.0
-}
+            }
           },
           {
             "Key": "2",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty2"
-},
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
               "BaseScore": 500,
               "ScoreRate": 2.0
-}
+            }
           },
           {
             "Key": "3",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty3"
-},
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
               "BaseScore": 500,
               "ScoreRate": 3.0
-}
+            }
           },
           {
             "Key": "4",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty4"
-},
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
               "BaseScore": 500,
               "ScoreRate": 5.0
-}
+            }
           }
         ],
         "ScoreAwardMap": [
@@ -1686,8 +1896,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_TimeChoice"
-},
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
             "Options": [
               "TimeOP001",
               "TimeOP002",
@@ -1697,8 +1909,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_HPChoice"
-},
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
             "Options": [
               "LifeOP001",
               "LifeOP002",
@@ -1708,8 +1922,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_AtkChoice"
-},
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
             "Options": [
               "Attack001",
               "Attack002",
@@ -1719,8 +1935,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceGuang"
-},
+              "Key": "DiyBoss_ChoiceGuang",
+              "SourceString": "敌方光抗性提升",
+              "LocalizedString": "敌方光抗性提升"
+            },
             "Options": [
               "LightOP001",
               "LightOP002",
@@ -1730,8 +1948,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceLin"
-},
+              "Key": "DiyBoss_ChoiceLin",
+              "SourceString": "敌方灵抗性提升",
+              "LocalizedString": "敌方灵抗性提升"
+            },
             "Options": [
               "LingOP001",
               "LingOP002",
@@ -1741,8 +1961,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceZhou"
-},
+              "Key": "DiyBoss_ChoiceZhou",
+              "SourceString": "敌方咒抗性提升",
+              "LocalizedString": "敌方咒抗性提升"
+            },
             "Options": [
               "ZhouOP001",
               "ZhouOP002",
@@ -1756,24 +1978,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_13_Name"
-},
+                "Key": "boss_13_Name",
+                "SourceString": "无首铁驭",
+                "LocalizedString": "无首铁驭"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_005.UI_YH_PVEBOSS_BOSSList_Boss_005",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_13_icon.Boss_13_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_05.UI_avatarbg_Icon_05",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_13_BP_Found"
-}
+                "Key": "boss_13_BP_Found",
+                "SourceString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」",
+                "LocalizedString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」"
+              }
             }
           },
           {
@@ -1781,24 +2007,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_13_Name"
-},
+                "Key": "boss_13_Name",
+                "SourceString": "无首铁驭",
+                "LocalizedString": "无首铁驭"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_005.UI_YH_PVEBOSS_BOSSList_Boss_005",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_13_icon.Boss_13_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_05.UI_avatarbg_Icon_05",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_13_BP_Found"
-}
+                "Key": "boss_13_BP_Found",
+                "SourceString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」",
+                "LocalizedString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」"
+              }
             }
           },
           {
@@ -1806,24 +2036,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_13_Name"
-},
+                "Key": "boss_13_Name",
+                "SourceString": "无首铁驭",
+                "LocalizedString": "无首铁驭"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_005.UI_YH_PVEBOSS_BOSSList_Boss_005",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_13_icon.Boss_13_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_05.UI_avatarbg_Icon_05",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_13_BP_Found"
-}
+                "Key": "boss_13_BP_Found",
+                "SourceString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」",
+                "LocalizedString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」"
+              }
             }
           },
           {
@@ -1831,24 +2065,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_13_Name"
-},
+                "Key": "boss_13_Name",
+                "SourceString": "无首铁驭",
+                "LocalizedString": "无首铁驭"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_005.UI_YH_PVEBOSS_BOSSList_Boss_005",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/MonsterManual/MonsterHeadIcon/Mapicon_128x128/boss_13.boss_13",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_05.UI_avatarbg_Icon_05",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_13_BP_Found"
-}
+                "Key": "boss_13_BP_Found",
+                "SourceString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」",
+                "LocalizedString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」"
+              }
             }
           }
         ],
@@ -1856,11 +2094,11 @@
         "SpecialHighDifficultySlotBkg": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_13/boss_13_BP_UI.boss_13_BP_UI_C",
           "SubPathString": ""
-},
+        },
         "PreviewActorTransformOverride": {
           "Rotation": {
             "X": -0.0,
@@ -1870,32 +2108,36 @@
             "IsNormalized": true,
             "Size": 0.99999994,
             "SizeSquared": 0.99999994
-},
+          },
           "Translation": {
             "X": 450.0,
             "Y": -60.0,
             "Z": -30.0
-},
+          },
           "Scale3D": {
             "X": 1.0,
             "Y": 1.0,
             "Z": 1.0
-}
+          }
         }
       },
       "DiyBossStage8": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss09_Name"
-},
+          "Key": "DiyBoss09_Name",
+          "SourceString": "愿望成真",
+          "LocalizedString": "愿望成真"
+        },
         "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage5",
           "ActiveOpenedHours": 72,
           "UnlockDesc": {
             "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-            "Key": "DiyBoss_Unlock_Cond_L5"
-}
+            "Key": "DiyBoss_Unlock_Cond_L5",
+            "SourceString": "活动开始第四天，且通关上一关解锁",
+            "LocalizedString": "活动开始第四天，且通关上一关解锁"
+          }
         },
         "DifficultyMap": [
           {
@@ -1903,44 +2145,52 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty1"
-},
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
               "BaseScore": 500,
               "ScoreRate": 1.0
-}
+            }
           },
           {
             "Key": "2",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty2"
-},
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
               "BaseScore": 500,
               "ScoreRate": 2.0
-}
+            }
           },
           {
             "Key": "3",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty3"
-},
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
               "BaseScore": 500,
               "ScoreRate": 3.0
-}
+            }
           },
           {
             "Key": "4",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty4"
-},
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
               "BaseScore": 500,
               "ScoreRate": 5.0
-}
+            }
           }
         ],
         "ScoreAwardMap": [],
@@ -1948,8 +2198,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_TimeChoice"
-},
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
             "Options": [
               "TimeOP001_challenge",
               "TimeOP002_challenge",
@@ -1959,8 +2211,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_HPChoice"
-},
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
             "Options": [
               "LifeOP001_challenge",
               "LifeOP002_challenge",
@@ -1970,8 +2224,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_AtkChoice"
-},
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
             "Options": [
               "Attack001_challenge",
               "Attack002_challenge",
@@ -1981,8 +2237,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceGuang"
-},
+              "Key": "DiyBoss_ChoiceGuang",
+              "SourceString": "敌方光抗性提升",
+              "LocalizedString": "敌方光抗性提升"
+            },
             "Options": [
               "LightOP001_challenge",
               "LightOP002_challenge",
@@ -1992,8 +2250,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceHun"
-},
+              "Key": "DiyBoss_ChoiceHun",
+              "SourceString": "敌方魂抗性提升",
+              "LocalizedString": "敌方魂抗性提升"
+            },
             "Options": [
               "HunOP001_challenge",
               "HunOP002_challenge",
@@ -2003,8 +2263,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceXiang"
-},
+              "Key": "DiyBoss_ChoiceXiang",
+              "SourceString": "敌方相抗性提升",
+              "LocalizedString": "敌方相抗性提升"
+            },
             "Options": [
               "XiangOP001_challenge",
               "XiangOP002_challenge",
@@ -2018,24 +2280,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "Anomaly_013_Name"
-},
+                "Key": "Anomaly_013_Name",
+                "SourceString": "墨菲克斯",
+                "LocalizedString": "墨菲克斯"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_009.UI_YH_PVEBOSS_BOSSList_Boss_009",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_01_100.boss_103_01_100",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_05_BP_Found"
-}
+                "Key": "boss_05_BP_Found",
+                "SourceString": "在不同人眼中呈现出不同生物形态的歧骸，掌控着一个异象空间，并且可以随心地构建与变换空间的形态。传闻每月十五晚上，如果心怀强烈至一定程度的愿望与决心，说不定有机会得到墨菲克斯的回应。\r\n「而聪明人总是乐于等价交换。」",
+                "LocalizedString": "在不同人眼中呈现出不同生物形态的歧骸，掌控着一个异象空间，并且可以随心地构建与变换空间的形态。传闻每月十五晚上，如果心怀强烈至一定程度的愿望与决心，说不定有机会得到墨菲克斯的回应。\r\n「而聪明人总是乐于等价交换。」"
+              }
             }
           },
           {
@@ -2043,24 +2309,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "Anomaly_013_Name"
-},
+                "Key": "Anomaly_013_Name",
+                "SourceString": "墨菲克斯",
+                "LocalizedString": "墨菲克斯"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_009.UI_YH_PVEBOSS_BOSSList_Boss_009",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_01_100.boss_103_01_100",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_05_BP_Found"
-}
+                "Key": "boss_05_BP_Found",
+                "SourceString": "在不同人眼中呈现出不同生物形态的歧骸，掌控着一个异象空间，并且可以随心地构建与变换空间的形态。传闻每月十五晚上，如果心怀强烈至一定程度的愿望与决心，说不定有机会得到墨菲克斯的回应。\r\n「而聪明人总是乐于等价交换。」",
+                "LocalizedString": "在不同人眼中呈现出不同生物形态的歧骸，掌控着一个异象空间，并且可以随心地构建与变换空间的形态。传闻每月十五晚上，如果心怀强烈至一定程度的愿望与决心，说不定有机会得到墨菲克斯的回应。\r\n「而聪明人总是乐于等价交换。」"
+              }
             }
           },
           {
@@ -2068,24 +2338,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "Anomaly_013_Name"
-},
+                "Key": "Anomaly_013_Name",
+                "SourceString": "墨菲克斯",
+                "LocalizedString": "墨菲克斯"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_009.UI_YH_PVEBOSS_BOSSList_Boss_009",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_01_100.boss_103_01_100",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_05_BP_Found"
-}
+                "Key": "boss_05_BP_Found",
+                "SourceString": "在不同人眼中呈现出不同生物形态的歧骸，掌控着一个异象空间，并且可以随心地构建与变换空间的形态。传闻每月十五晚上，如果心怀强烈至一定程度的愿望与决心，说不定有机会得到墨菲克斯的回应。\r\n「而聪明人总是乐于等价交换。」",
+                "LocalizedString": "在不同人眼中呈现出不同生物形态的歧骸，掌控着一个异象空间，并且可以随心地构建与变换空间的形态。传闻每月十五晚上，如果心怀强烈至一定程度的愿望与决心，说不定有机会得到墨菲克斯的回应。\r\n「而聪明人总是乐于等价交换。」"
+              }
             }
           },
           {
@@ -2093,24 +2367,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "Anomaly_013_Name"
-},
+                "Key": "Anomaly_013_Name",
+                "SourceString": "墨菲克斯",
+                "LocalizedString": "墨菲克斯"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_009.UI_YH_PVEBOSS_BOSSList_Boss_009",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/boss_103_01_100.boss_103_01_100",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_05_BP_Found"
-}
+                "Key": "boss_05_BP_Found",
+                "SourceString": "在不同人眼中呈现出不同生物形态的歧骸，掌控着一个异象空间，并且可以随心地构建与变换空间的形态。传闻每月十五晚上，如果心怀强烈至一定程度的愿望与决心，说不定有机会得到墨菲克斯的回应。\r\n「而聪明人总是乐于等价交换。」",
+                "LocalizedString": "在不同人眼中呈现出不同生物形态的歧骸，掌控着一个异象空间，并且可以随心地构建与变换空间的形态。传闻每月十五晚上，如果心怀强烈至一定程度的愿望与决心，说不定有机会得到墨菲克斯的回应。\r\n「而聪明人总是乐于等价交换。」"
+              }
             }
           }
         ],
@@ -2118,11 +2396,11 @@
         "SpecialHighDifficultySlotBkg": {
           "AssetPathName": "/Game/UI/UI/VisionExplore/Transparent.Transparent",
           "SubPathString": ""
-},
+        },
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_05/boss_05_BP_UI.boss_05_BP_UI_C",
           "SubPathString": ""
-},
+        },
         "PreviewActorTransformOverride": {
           "Rotation": {
             "X": 0.0,
@@ -2132,32 +2410,36 @@
             "IsNormalized": true,
             "Size": 1.0,
             "SizeSquared": 1.0
-},
+          },
           "Translation": {
             "X": 0.0,
             "Y": -3.0,
             "Z": 14.0
-},
+          },
           "Scale3D": {
             "X": 0.05,
             "Y": 0.05,
             "Z": 0.05
-}
+          }
         }
       },
       "DiyBossStage6": {
         "DescName": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss05_Name"
-},
+          "Key": "DiyBoss05_Name",
+          "SourceString": "文明观影",
+          "LocalizedString": "文明观影"
+        },
         "Comment": "",
         "UnlockNode": {
           "PreLevelId": "DiyBossStage5",
           "ActiveOpenedHours": 96,
           "UnlockDesc": {
             "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-            "Key": "DiyBoss_Unlock_Cond_L6_challenge"
-}
+            "Key": "DiyBoss_Unlock_Cond_L6_challenge",
+            "SourceString": "活动开始第五天，且通关「永不停歇的蓝火」解锁",
+            "LocalizedString": "活动开始第五天，且通关「永不停歇的蓝火」解锁"
+          }
         },
         "DifficultyMap": [
           {
@@ -2165,44 +2447,52 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty1"
-},
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
               "BaseScore": 500,
               "ScoreRate": 1.0
-}
+            }
           },
           {
             "Key": "2",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty2"
-},
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
               "BaseScore": 500,
               "ScoreRate": 2.0
-}
+            }
           },
           {
             "Key": "3",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty3"
-},
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
               "BaseScore": 500,
               "ScoreRate": 3.0
-}
+            }
           },
           {
             "Key": "4",
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-                "Key": "DiyBoss_Difficulty4"
-},
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
               "BaseScore": 500,
               "ScoreRate": 5.0
-}
+            }
           }
         ],
         "ScoreAwardMap": [
@@ -2270,8 +2560,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_TimeChoice"
-},
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
             "Options": [
               "TimeOP001",
               "TimeOP002",
@@ -2281,8 +2573,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_HPChoice"
-},
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
             "Options": [
               "LifeOP001",
               "LifeOP002",
@@ -2292,8 +2586,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_AtkChoice"
-},
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
             "Options": [
               "Attack001",
               "Attack002",
@@ -2303,8 +2599,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceAn"
-},
+              "Key": "DiyBoss_ChoiceAn",
+              "SourceString": "敌方暗抗性提升",
+              "LocalizedString": "敌方暗抗性提升"
+            },
             "Options": [
               "AnOP001",
               "AnOP002",
@@ -2314,8 +2612,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceHun"
-},
+              "Key": "DiyBoss_ChoiceHun",
+              "SourceString": "敌方魂抗性提升",
+              "LocalizedString": "敌方魂抗性提升"
+            },
             "Options": [
               "HunOP001",
               "HunOP002",
@@ -2325,8 +2625,10 @@
           {
             "CategoryDesc": {
               "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
-              "Key": "DiyBoss_ChoiceXiang"
-},
+              "Key": "DiyBoss_ChoiceXiang",
+              "SourceString": "敌方相抗性提升",
+              "LocalizedString": "敌方相抗性提升"
+            },
             "Options": [
               "XiangOP001",
               "XiangOP002",
@@ -2340,24 +2642,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_08_Name"
-},
+                "Key": "boss_08_Name",
+                "SourceString": "斑蝶",
+                "LocalizedString": "斑蝶"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_002.UI_YH_PVEBOSS_BOSSList_Boss_002",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_08_icon.Boss_08_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_01.UI_avatarbg_Icon_01",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_08_BP_Found"
-}
+                "Key": "boss_08_BP_Found",
+                "SourceString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」",
+                "LocalizedString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」"
+              }
             }
           },
           {
@@ -2365,24 +2671,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_08_Name"
-},
+                "Key": "boss_08_Name",
+                "SourceString": "斑蝶",
+                "LocalizedString": "斑蝶"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_002.UI_YH_PVEBOSS_BOSSList_Boss_002",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_08_icon.Boss_08_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_01.UI_avatarbg_Icon_01",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_08_BP_Found"
-}
+                "Key": "boss_08_BP_Found",
+                "SourceString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」",
+                "LocalizedString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」"
+              }
             }
           },
           {
@@ -2390,24 +2700,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_08_Name"
-},
+                "Key": "boss_08_Name",
+                "SourceString": "斑蝶",
+                "LocalizedString": "斑蝶"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_002.UI_YH_PVEBOSS_BOSSList_Boss_002",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_08_icon.Boss_08_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_01.UI_avatarbg_Icon_01",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_08_BP_Found"
-}
+                "Key": "boss_08_BP_Found",
+                "SourceString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」",
+                "LocalizedString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」"
+              }
             }
           },
           {
@@ -2415,24 +2729,28 @@
             "Value": {
               "Desc": {
                 "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
-                "Key": "boss_08_Name"
-},
+                "Key": "boss_08_Name",
+                "SourceString": "斑蝶",
+                "LocalizedString": "斑蝶"
+              },
               "BossIcon": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_002.UI_YH_PVEBOSS_BOSSList_Boss_002",
                 "SubPathString": ""
-},
+              },
               "BossIconMini": {
                 "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_08_icon.Boss_08_icon",
                 "SubPathString": ""
-},
+              },
               "BossWeakPointIcon": {
                 "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_01.UI_avatarbg_Icon_01",
                 "SubPathString": ""
-},
+              },
               "DetailDesc": {
                 "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
-                "Key": "boss_08_BP_Found"
-}
+                "Key": "boss_08_BP_Found",
+                "SourceString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」",
+                "LocalizedString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」"
+              }
             }
           }
         ],
@@ -2440,11 +2758,11 @@
         "SpecialHighDifficultySlotBkg": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PreviewActorClass": {
           "AssetPathName": "/Game/Blueprints/Character/Monster/boss_08/Boss_08_BP_UI.Boss_08_BP_UI_C",
           "SubPathString": ""
-},
+        },
         "PreviewActorTransformOverride": {
           "Rotation": {
             "X": 0.0,
@@ -2454,17 +2772,17 @@
             "IsNormalized": true,
             "Size": 1.0,
             "SizeSquared": 1.0
-},
+          },
           "Translation": {
             "X": 0.0,
             "Y": -4.0,
             "Z": 10.0
-},
+          },
           "Scale3D": {
             "X": 0.06,
             "Y": 0.06,
             "Z": 0.06
-}
+          }
         }
       }
     }

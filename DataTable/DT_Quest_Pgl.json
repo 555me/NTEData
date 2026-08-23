@@ -9,15 +9,17 @@
       "RowStruct": {
         "ObjectName": "Class'QuestData'",
         "ObjectPath": "/Script/HTGame"
-}
+      }
     },
     "Rows": {
       "s120001": {
         "QuestId": "s120001",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120001_QuestName"
-},
+          "Key": "s120001_QuestName",
+          "SourceString": "打工吧！勇者大人！",
+          "LocalizedString": "打工吧！勇者大人！"
+        },
         "ChapterID": "SU125",
         "ChapterProgress": 1.0,
         "DisplayMapName": "HuoShan",
@@ -33,7 +35,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -41,20 +43,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120001_ObjDes_1"
-},
+              "Key": "s120001_ObjDes_1",
+              "SourceString": "前往<blue>火山</>",
+              "LocalizedString": "前往<blue>火山</>"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -64,7 +68,7 @@
                 "X": 111964.44,
                 "Y": 114228.51,
                 "Z": -14002.653
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -72,7 +76,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": true,
               "bTrackGoalEnable": true,
@@ -80,13 +84,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": true,
@@ -105,8 +109,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120001_QuestPanel"
-},
+          "Key": "s120001_QuestPanel",
+          "SourceString": "说话很奇怪的绵叫住了你，它似乎想让「勇者大人」给它打工？",
+          "LocalizedString": "说话很奇怪的绵叫住了你，它似乎想让「勇者大人」给它打工？"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -115,7 +121,7 @@
           {
             "PreQuestName": "L110330",
             "ObjectiveID": "None"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -137,7 +143,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -159,14 +165,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120002": {
         "QuestId": "s120002",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120002_QuestName"
-},
+          "Key": "s120002_QuestName",
+          "SourceString": "打工吧！勇者大人！",
+          "LocalizedString": "打工吧！勇者大人！"
+        },
         "ChapterID": "SU125",
         "ChapterProgress": 2.0,
         "DisplayMapName": "HuoShan",
@@ -190,21 +198,25 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120002_ObjDes_1"
-},
+              "Key": "s120002_ObjDes_1",
+              "SourceString": "前往<blue>火山</>击败<blue>火茸雕</>",
+              "LocalizedString": "前往<blue>火山</>击败<blue>火茸雕</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -214,7 +226,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-},
+          },
           {
             "MonsterTagList": [
               "FT_mon_62_BP_elite",
@@ -228,21 +240,25 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120002_ObjDes_2"
-},
+              "Key": "s120002_ObjDes_2",
+              "SourceString": "前往<blue>火山</>击败<blue>炎角虎</>",
+              "LocalizedString": "前往<blue>火山</>击败<blue>炎角虎</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -252,7 +268,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -271,8 +287,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120002_QuestPanel"
-},
+          "Key": "s120002_QuestPanel",
+          "SourceString": "前往火山完成任务吧！",
+          "LocalizedString": "前往火山完成任务吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -281,7 +299,7 @@
           {
             "PreQuestName": "s120001",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -303,7 +321,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -325,14 +343,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120003": {
         "QuestId": "s120003",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120003_QuestName"
-},
+          "Key": "s120003_QuestName",
+          "SourceString": "打工吧！勇者大人！",
+          "LocalizedString": "打工吧！勇者大人！"
+        },
         "ChapterID": "SU125",
         "ChapterProgress": 3.0,
         "DisplayMapName": "HuoShan",
@@ -348,7 +368,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -356,20 +376,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120002.FT_BP_NPC_AS002_s120002_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120003_ObjDes_1"
-},
+              "Key": "s120003_ObjDes_1",
+              "SourceString": "与<blue>勇者绵</>交谈",
+              "LocalizedString": "与<blue>勇者绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -379,7 +401,7 @@
                 "X": 109922.01,
                 "Y": 122013.305,
                 "Z": -12365.211
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -387,7 +409,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -395,13 +417,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -420,8 +442,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120003_QuestPanel"
-},
+          "Key": "s120003_QuestPanel",
+          "SourceString": "工作完成，但突然出现的绵让你意识到，背后似乎另有隐情。",
+          "LocalizedString": "工作完成，但突然出现的绵让你意识到，背后似乎另有隐情。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -430,7 +454,7 @@
           {
             "PreQuestName": "s120002",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -452,7 +476,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -474,14 +498,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120004": {
         "QuestId": "s120004",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120004_QuestName"
-},
+          "Key": "s120004_QuestName",
+          "SourceString": "打工吧！勇者大人！",
+          "LocalizedString": "打工吧！勇者大人！"
+        },
         "ChapterID": "SU125",
         "ChapterProgress": 4.0,
         "DisplayMapName": "MianMianCun",
@@ -497,7 +523,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -505,20 +531,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120001.FT_BP_NPC_AS002_s120001_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120004_ObjDes_1"
-},
+              "Key": "s120004_ObjDes_1",
+              "SourceString": "与<blue>烤核绵</>交谈",
+              "LocalizedString": "与<blue>烤核绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -528,7 +556,7 @@
                 "X": -35419.176,
                 "Y": 128481.18,
                 "Z": 3195.4915
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -536,7 +564,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -544,13 +572,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -569,8 +597,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120004_QuestPanel"
-},
+          "Key": "s120004_QuestPanel",
+          "SourceString": "当面与烤核绵对峙，要怎么解决呢？",
+          "LocalizedString": "当面与烤核绵对峙，要怎么解决呢？"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -579,7 +609,7 @@
           {
             "PreQuestName": "s120003",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -599,7 +629,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -614,7 +644,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -626,14 +656,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200051": {
         "QuestId": "s1200051",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200051_QuestName"
-},
+          "Key": "s1200051_QuestName",
+          "SourceString": "打工吧！勇者大人！",
+          "LocalizedString": "打工吧！勇者大人！"
+        },
         "ChapterID": "SU135",
         "ChapterProgress": 1.0,
         "DisplayMapName": "XueShan",
@@ -657,21 +689,25 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200051_ObjDes_1"
-},
+              "Key": "s1200051_ObjDes_1",
+              "SourceString": "前往<blue>冰原</>击败<blue>霜茸鹿</>",
+              "LocalizedString": "前往<blue>冰原</>击败<blue>霜茸鹿</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -681,7 +717,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-},
+          },
           {
             "MonsterTagList": [
               "FT_mon_58_BP_mob",
@@ -695,21 +731,25 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200051_ObjDes_2"
-},
+              "Key": "s1200051_ObjDes_2",
+              "SourceString": "前往<blue>冰原</>击败<blue>团尾狐</>",
+              "LocalizedString": "前往<blue>冰原</>击败<blue>团尾狐</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -719,7 +759,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -738,8 +778,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200051_QuestPanel"
-},
+          "Key": "s1200051_QuestPanel",
+          "SourceString": "打工吧！勇者大人！",
+          "LocalizedString": "打工吧！勇者大人！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -748,7 +790,7 @@
           {
             "PreQuestName": "s120004",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -770,7 +812,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -792,14 +834,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200052": {
         "QuestId": "s1200052",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200052_QuestName"
-},
+          "Key": "s1200052_QuestName",
+          "SourceString": "调薪窗口",
+          "LocalizedString": "调薪窗口"
+        },
         "ChapterID": "SU135",
         "ChapterProgress": 2.0,
         "DisplayMapName": "MianMianCun",
@@ -815,7 +859,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -823,20 +867,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120001.FT_BP_NPC_AS002_s120001_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200052_ObjDes_1"
-},
+              "Key": "s1200052_ObjDes_1",
+              "SourceString": "与<blue>烤核绵</>交谈",
+              "LocalizedString": "与<blue>烤核绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -846,7 +892,7 @@
                 "X": -35419.176,
                 "Y": 128481.18,
                 "Z": 3195.4915
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -854,7 +900,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -862,13 +908,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -887,8 +933,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200052_QuestPanel"
-},
+          "Key": "s1200052_QuestPanel",
+          "SourceString": "工作闭环了，跟烤核绵拉齐一下。",
+          "LocalizedString": "工作闭环了，跟烤核绵拉齐一下。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -897,7 +945,7 @@
           {
             "PreQuestName": "s1200051",
             "ObjectiveID": "None"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -917,7 +965,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -932,7 +980,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -944,14 +992,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200061": {
         "QuestId": "s1200061",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200061_QuestName"
-},
+          "Key": "s1200061_QuestName",
+          "SourceString": "不要中间商赚差价",
+          "LocalizedString": "不要中间商赚差价"
+        },
         "ChapterID": "SU136",
         "ChapterProgress": 1.0,
         "DisplayMapName": "MianMianCun",
@@ -967,7 +1017,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -975,20 +1025,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200061_ObjDes_1"
-},
+              "Key": "s1200061_ObjDes_1",
+              "SourceString": "与<blue>教父绵</>交谈",
+              "LocalizedString": "与<blue>教父绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -998,7 +1050,7 @@
                 "X": -31955.076,
                 "Y": 135267.28,
                 "Z": 4057.464
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -1006,7 +1058,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -1014,13 +1066,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -1039,8 +1091,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200061_QuestPanel"
-},
+          "Key": "s1200061_QuestPanel",
+          "SourceString": "你决定诱导烤核绵说出上线，打工，我要直接跟老板谈！",
+          "LocalizedString": "你决定诱导烤核绵说出上线，打工，我要直接跟老板谈！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -1049,7 +1103,7 @@
           {
             "PreQuestName": "s120004",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -1071,7 +1125,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -1093,14 +1147,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200062": {
         "QuestId": "s1200062",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200062_QuestName"
-},
+          "Key": "s1200062_QuestName",
+          "SourceString": "不要中间商赚差价",
+          "LocalizedString": "不要中间商赚差价"
+        },
         "ChapterID": "SU136",
         "ChapterProgress": 2.0,
         "DisplayMapName": "HuPo",
@@ -1124,21 +1180,25 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200062_ObjDes_1"
-},
+              "Key": "s1200062_ObjDes_1",
+              "SourceString": "前往<blue>湖泊</>击败<blue>苔藓牛</>",
+              "LocalizedString": "前往<blue>湖泊</>击败<blue>苔藓牛</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -1148,7 +1208,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-},
+          },
           {
             "MonsterTagList": [
               "FT_mon_61_BP_Big_Lake"
@@ -1161,21 +1221,25 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200062_ObjDes_2"
-},
+              "Key": "s1200062_ObjDes_2",
+              "SourceString": "前往<blue>湖泊</>击败<blue>卷叶蝎</>",
+              "LocalizedString": "前往<blue>湖泊</>击败<blue>卷叶蝎</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -1185,7 +1249,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -1204,8 +1268,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200062_QuestPanel"
-},
+          "Key": "s1200062_QuestPanel",
+          "SourceString": "找到教父绵交涉，不要中间商赚差价！",
+          "LocalizedString": "找到教父绵交涉，不要中间商赚差价！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -1214,7 +1280,7 @@
           {
             "PreQuestName": "s1200061",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -1236,7 +1302,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -1258,14 +1324,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200063": {
         "QuestId": "s1200063",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200063_QuestName"
-},
+          "Key": "s1200063_QuestName",
+          "SourceString": "不要中间商赚差价",
+          "LocalizedString": "不要中间商赚差价"
+        },
         "ChapterID": "SU136",
         "ChapterProgress": 3.0,
         "DisplayMapName": "MianMianCun",
@@ -1281,7 +1349,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -1289,20 +1357,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200063_ObjDes_1"
-},
+              "Key": "s1200063_ObjDes_1",
+              "SourceString": "与<blue>教父绵</>交谈",
+              "LocalizedString": "与<blue>教父绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -1312,7 +1382,7 @@
                 "X": -31955.076,
                 "Y": 135267.28,
                 "Z": 4057.464
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -1320,7 +1390,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -1328,13 +1398,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -1353,8 +1423,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200063_QuestPanel"
-},
+          "Key": "s1200063_QuestPanel",
+          "SourceString": "完成任务，回去向教父绵交付成果吧。",
+          "LocalizedString": "完成任务，回去向教父绵交付成果吧。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -1363,7 +1435,7 @@
           {
             "PreQuestName": "s1200062",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -1383,7 +1455,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -1398,7 +1470,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -1410,14 +1482,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200071": {
         "QuestId": "s1200071",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200071_QuestName"
-},
+          "Key": "s1200071_QuestName",
+          "SourceString": "劳务派遣",
+          "LocalizedString": "劳务派遣"
+        },
         "ChapterID": "SU138",
         "ChapterProgress": 1.0,
         "DisplayMapName": "MianMianCun",
@@ -1433,7 +1507,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -1441,20 +1515,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200071_ObjDes_1"
-},
+              "Key": "s1200071_ObjDes_1",
+              "SourceString": "与<blue>劳工绵</>交谈",
+              "LocalizedString": "与<blue>劳工绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -1464,7 +1540,7 @@
                 "X": -35802.15,
                 "Y": 129571.93,
                 "Z": 3251.26
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -1472,7 +1548,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -1480,13 +1556,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -1505,8 +1581,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200071_QuestPanel"
-},
+          "Key": "s1200071_QuestPanel",
+          "SourceString": "劳工绵似乎知道更多，可能也被压榨了更多……",
+          "LocalizedString": "劳工绵似乎知道更多，可能也被压榨了更多……"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -1515,7 +1593,7 @@
           {
             "PreQuestName": "s120004",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -1537,7 +1615,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -1559,14 +1637,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200072": {
         "QuestId": "s1200072",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200072_QuestName"
-},
+          "Key": "s1200072_QuestName",
+          "SourceString": "劳务派遣",
+          "LocalizedString": "劳务派遣"
+        },
         "ChapterID": "SU138",
         "ChapterProgress": 2.0,
         "DisplayMapName": "MianMianCun",
@@ -1582,7 +1662,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -1590,20 +1670,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200072_ObjDes_1"
-},
+              "Key": "s1200072_ObjDes_1",
+              "SourceString": "与<blue>反诈绵</>交谈",
+              "LocalizedString": "与<blue>反诈绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -1613,7 +1695,7 @@
                 "X": -32662.336,
                 "Y": 131794.5,
                 "Z": 3370.8425
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -1621,7 +1703,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -1629,13 +1711,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -1654,8 +1736,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200072_QuestPanel"
-},
+          "Key": "s1200072_QuestPanel",
+          "SourceString": "反诈绵提醒您，打工需谨慎，谨防劳务派遣！",
+          "LocalizedString": "反诈绵提醒您，打工需谨慎，谨防劳务派遣！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -1664,7 +1748,7 @@
           {
             "PreQuestName": "s1200071",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -1686,7 +1770,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -1708,14 +1792,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200073": {
         "QuestId": "s1200073",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200073_QuestName"
-},
+          "Key": "s1200073_QuestName",
+          "SourceString": "劳务派遣",
+          "LocalizedString": "劳务派遣"
+        },
         "ChapterID": "SU138",
         "ChapterProgress": 3.0,
         "DisplayMapName": "MianMianCun",
@@ -1731,7 +1817,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -1739,20 +1825,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200073_ObjDes_1"
-},
+              "Key": "s1200073_ObjDes_1",
+              "SourceString": "前往<blue>接头地点</>",
+              "LocalizedString": "前往<blue>接头地点</>"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -1762,7 +1850,7 @@
                 "X": -30567.268,
                 "Y": 133682.9,
                 "Z": 3514.8208
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -1770,7 +1858,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -1778,13 +1866,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -1803,8 +1891,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200073_QuestPanel"
-},
+          "Key": "s1200073_QuestPanel",
+          "SourceString": "前往邪恶的接头地，去揭绵的老底。",
+          "LocalizedString": "前往邪恶的接头地，去揭绵的老底。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -1813,7 +1903,7 @@
           {
             "PreQuestName": "s1200072",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -1835,7 +1925,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -1857,14 +1947,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200074": {
         "QuestId": "s1200074",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200074_QuestName"
-},
+          "Key": "s1200074_QuestName",
+          "SourceString": "劳务派遣",
+          "LocalizedString": "劳务派遣"
+        },
         "ChapterID": "SU138",
         "ChapterProgress": 4.0,
         "DisplayMapName": "MianMianCun",
@@ -1880,7 +1972,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -1888,20 +1980,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200074_ObjDes_1"
-},
+              "Key": "s1200074_ObjDes_1",
+              "SourceString": "找到<blue>教父绵</>",
+              "LocalizedString": "找到<blue>教父绵</>"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -1911,7 +2005,7 @@
                 "X": -31955.076,
                 "Y": 135267.28,
                 "Z": 4057.464
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -1919,7 +2013,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -1927,13 +2021,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -1952,8 +2046,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200074_QuestPanel"
-},
+          "Key": "s1200074_QuestPanel",
+          "SourceString": "找到教父绵谈谈。",
+          "LocalizedString": "找到教父绵谈谈。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -1962,7 +2058,7 @@
           {
             "PreQuestName": "s1200073",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -1984,7 +2080,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -2006,14 +2102,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200075": {
         "QuestId": "s1200075",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200075_QuestName"
-},
+          "Key": "s1200075_QuestName",
+          "SourceString": "劳务派遣",
+          "LocalizedString": "劳务派遣"
+        },
         "ChapterID": "SU138",
         "ChapterProgress": 5.0,
         "DisplayMapName": "MianMianCun",
@@ -2029,7 +2127,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -2037,20 +2135,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200075_ObjDes_1"
-},
+              "Key": "s1200075_ObjDes_1",
+              "SourceString": "与<blue>教父绵</>交谈",
+              "LocalizedString": "与<blue>教父绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -2060,7 +2160,7 @@
                 "X": -31955.076,
                 "Y": 135267.28,
                 "Z": 4057.464
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -2068,7 +2168,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -2076,13 +2176,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -2101,8 +2201,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200075_QuestPanel"
-},
+          "Key": "s1200075_QuestPanel",
+          "SourceString": "你决定直接跟教父绵交涉，不要中间商赚差价！",
+          "LocalizedString": "你决定直接跟教父绵交涉，不要中间商赚差价！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -2111,7 +2213,7 @@
           {
             "PreQuestName": "s1200074",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -2133,7 +2235,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -2155,14 +2257,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200076": {
         "QuestId": "s1200076",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200076_QuestName"
-},
+          "Key": "s1200076_QuestName",
+          "SourceString": "劳务派遣",
+          "LocalizedString": "劳务派遣"
+        },
         "ChapterID": "SU138",
         "ChapterProgress": 6.0,
         "DisplayMapName": "GuBao",
@@ -2185,21 +2289,25 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200076_ObjDes_1"
-},
+              "Key": "s1200076_ObjDes_1",
+              "SourceString": "前往<blue>龙堡</>击败<blue>坚甲犀兽</>",
+              "LocalizedString": "前往<blue>龙堡</>击败<blue>坚甲犀兽</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -2209,7 +2317,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-},
+          },
           {
             "MonsterTagList": [
               "FT_mon_020_BP_Scatter_Castle",
@@ -2223,21 +2331,25 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200076_ObjDes_2"
-},
+              "Key": "s1200076_ObjDes_2",
+              "SourceString": "前往<blue>龙堡</>击败<blue>石盔甲</>",
+              "LocalizedString": "前往<blue>龙堡</>击败<blue>石盔甲</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -2247,7 +2359,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -2266,8 +2378,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200076_QuestPanel"
-},
+          "Key": "s1200076_QuestPanel",
+          "SourceString": "前往龙堡完成任务吧！",
+          "LocalizedString": "前往龙堡完成任务吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -2276,7 +2390,7 @@
           {
             "PreQuestName": "s1200075",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -2298,7 +2412,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -2320,14 +2434,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s1200077": {
         "QuestId": "s1200077",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200077_QuestName"
-},
+          "Key": "s1200077_QuestName",
+          "SourceString": "劳务派遣",
+          "LocalizedString": "劳务派遣"
+        },
         "ChapterID": "SU138",
         "ChapterProgress": 7.0,
         "DisplayMapName": "MianMianCun",
@@ -2343,7 +2459,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -2351,20 +2467,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s1200077_ObjDes_1"
-},
+              "Key": "s1200077_ObjDes_1",
+              "SourceString": "与<blue>教父绵</>交谈",
+              "LocalizedString": "与<blue>教父绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -2374,7 +2492,7 @@
                 "X": -31955.076,
                 "Y": 135267.28,
                 "Z": 4057.464
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -2382,7 +2500,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -2390,13 +2508,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -2415,8 +2533,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s1200077_QuestPanel"
-},
+          "Key": "s1200077_QuestPanel",
+          "SourceString": "完成任务，回去向教父绵交付成果吧。",
+          "LocalizedString": "完成任务，回去向教父绵交付成果吧。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -2425,7 +2545,7 @@
           {
             "PreQuestName": "s1200076",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -2445,7 +2565,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -2460,7 +2580,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -2472,14 +2592,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120008": {
         "QuestId": "s120008",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120009_QuestName"
-},
+          "Key": "s120009_QuestName",
+          "SourceString": "绵击俱乐部",
+          "LocalizedString": "绵击俱乐部"
+        },
         "ChapterID": "SU102",
         "ChapterProgress": 1.0,
         "DisplayMapName": "MianMianCunWai",
@@ -2502,20 +2624,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120008_ObjDes_None"
-},
+              "Key": "s120008_ObjDes_None",
+              "SourceString": "完成<blue>第一轮</>挑战",
+              "LocalizedString": "完成<blue>第一轮</>挑战"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -2525,7 +2649,7 @@
                 "X": 412.50824,
                 "Y": -1952.6255,
                 "Z": -59709.02
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -2533,7 +2657,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -2541,13 +2665,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": true,
@@ -2566,8 +2690,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120008_QuestPanel"
-},
+          "Key": "s120008_QuestPanel",
+          "SourceString": "颇有哲学思考的绵叫住你，邀请你来，打一架？",
+          "LocalizedString": "颇有哲学思考的绵叫住你，邀请你来，打一架？"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -2593,7 +2719,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -2615,14 +2741,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120009": {
         "QuestId": "s120009",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120009_QuestName"
-},
+          "Key": "s120009_QuestName",
+          "SourceString": "绵击俱乐部",
+          "LocalizedString": "绵击俱乐部"
+        },
         "ChapterID": "SU102",
         "ChapterProgress": 2.0,
         "DisplayMapName": "MianMianCunWai",
@@ -2638,7 +2766,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -2646,20 +2774,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120006.FT_BP_NPC_AS002_s120006_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120009_ObjDes_1"
-},
+              "Key": "s120009_ObjDes_1",
+              "SourceString": "与<blue>文明绵</>交谈",
+              "LocalizedString": "与<blue>文明绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -2669,7 +2799,7 @@
                 "X": 2614.964,
                 "Y": 786.91376,
                 "Z": -59508.83
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -2677,7 +2807,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -2685,13 +2815,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -2710,8 +2840,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120009_QuestPanel"
-},
+          "Key": "s120009_QuestPanel",
+          "SourceString": "战斗结束，去找刚刚的绵领取奖励吧！",
+          "LocalizedString": "战斗结束，去找刚刚的绵领取奖励吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -2720,7 +2852,7 @@
           {
             "PreQuestName": "s120008",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -2740,7 +2872,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -2755,7 +2887,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -2767,14 +2899,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120010": {
         "QuestId": "s120010",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120010_QuestName"
-},
+          "Key": "s120010_QuestName",
+          "SourceString": "绵击俱乐部",
+          "LocalizedString": "绵击俱乐部"
+        },
         "ChapterID": "SU102",
         "ChapterProgress": 3.0,
         "DisplayMapName": "MianMianCunWai",
@@ -2797,20 +2931,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120010_ObjDes_1"
-},
+              "Key": "s120010_ObjDes_1",
+              "SourceString": "完成<blue>第二轮</>挑战",
+              "LocalizedString": "完成<blue>第二轮</>挑战"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -2820,7 +2956,7 @@
                 "X": 412.50824,
                 "Y": -1952.6255,
                 "Z": -59709.02
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -2828,7 +2964,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -2836,13 +2972,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -2861,8 +2997,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120010_QuestPanel"
-},
+          "Key": "s120010_QuestPanel",
+          "SourceString": "文明绵再次叫住你参加绵击俱乐部的战斗！",
+          "LocalizedString": "文明绵再次叫住你参加绵击俱乐部的战斗！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -2871,7 +3009,7 @@
           {
             "PreQuestName": "s120009",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -2893,7 +3031,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -2915,14 +3053,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120011": {
         "QuestId": "s120011",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120011_QuestName"
-},
+          "Key": "s120011_QuestName",
+          "SourceString": "绵击俱乐部",
+          "LocalizedString": "绵击俱乐部"
+        },
         "ChapterID": "SU102",
         "ChapterProgress": 4.0,
         "DisplayMapName": "MianMianCunWai",
@@ -2938,7 +3078,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -2946,20 +3086,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120011_ObjDes_1"
-},
+              "Key": "s120011_ObjDes_1",
+              "SourceString": "与<blue>文明绵</>交谈",
+              "LocalizedString": "与<blue>文明绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -2969,7 +3111,7 @@
                 "X": 2614.964,
                 "Y": 786.91376,
                 "Z": -59508.83
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -2977,7 +3119,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -2985,13 +3127,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -3010,8 +3152,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120011_QuestPanel"
-},
+          "Key": "s120011_QuestPanel",
+          "SourceString": "战斗爽！去找文明绵领取奖励吧！",
+          "LocalizedString": "战斗爽！去找文明绵领取奖励吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -3020,7 +3164,7 @@
           {
             "PreQuestName": "s120010",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -3040,7 +3184,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -3055,7 +3199,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -3067,14 +3211,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120012": {
         "QuestId": "s120012",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120012_QuestName"
-},
+          "Key": "s120012_QuestName",
+          "SourceString": "绵击俱乐部",
+          "LocalizedString": "绵击俱乐部"
+        },
         "ChapterID": "SU102",
         "ChapterProgress": 5.0,
         "DisplayMapName": "MianMianCunWai",
@@ -3097,20 +3243,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120012_ObjDes_1"
-},
+              "Key": "s120012_ObjDes_1",
+              "SourceString": "完成<blue>第三轮</>挑战",
+              "LocalizedString": "完成<blue>第三轮</>挑战"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -3120,7 +3268,7 @@
                 "X": 412.50824,
                 "Y": -1952.6255,
                 "Z": -59709.02
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -3128,7 +3276,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -3136,13 +3284,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -3161,8 +3309,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120012_QuestPanel"
-},
+          "Key": "s120012_QuestPanel",
+          "SourceString": "虽然绵似乎有所变化，但总之战斗就好了吧！",
+          "LocalizedString": "虽然绵似乎有所变化，但总之战斗就好了吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -3171,7 +3321,7 @@
           {
             "PreQuestName": "s120011",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -3193,7 +3343,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -3215,14 +3365,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120013": {
         "QuestId": "s120013",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120013_QuestName"
-},
+          "Key": "s120013_QuestName",
+          "SourceString": "绵击俱乐部",
+          "LocalizedString": "绵击俱乐部"
+        },
         "ChapterID": "SU102",
         "ChapterProgress": 6.0,
         "DisplayMapName": "MianMianCunWai",
@@ -3238,7 +3390,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -3246,20 +3398,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120013_ObjDes_1"
-},
+              "Key": "s120013_ObjDes_1",
+              "SourceString": "与<blue>野蛮绵</>交谈",
+              "LocalizedString": "与<blue>野蛮绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -3269,7 +3423,7 @@
                 "X": 2614.964,
                 "Y": 786.91376,
                 "Z": -59508.83
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -3277,7 +3431,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -3285,13 +3439,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -3310,8 +3464,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120013_QuestPanel"
-},
+          "Key": "s120013_QuestPanel",
+          "SourceString": "向野蛮绵领取奖励吧！",
+          "LocalizedString": "向野蛮绵领取奖励吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -3320,7 +3476,7 @@
           {
             "PreQuestName": "s120012",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -3340,7 +3496,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -3355,7 +3511,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -3367,14 +3523,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120014": {
         "QuestId": "s120014",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120014_QuestName"
-},
+          "Key": "s120014_QuestName",
+          "SourceString": "绵击俱乐部",
+          "LocalizedString": "绵击俱乐部"
+        },
         "ChapterID": "SU102",
         "ChapterProgress": 7.0,
         "DisplayMapName": "MianMianCunWai",
@@ -3397,20 +3555,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120014_ObjDes_1"
-},
+              "Key": "s120014_ObjDes_1",
+              "SourceString": "完成<blue>第四轮</>挑战",
+              "LocalizedString": "完成<blue>第四轮</>挑战"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -3420,7 +3580,7 @@
                 "X": 412.50824,
                 "Y": -1952.6255,
                 "Z": -59709.02
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -3428,7 +3588,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -3436,13 +3596,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -3461,8 +3621,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120014_QuestPanel"
-},
+          "Key": "s120014_QuestPanel",
+          "SourceString": "根据野蛮绵的说法，这次的战斗好像会很……特殊？",
+          "LocalizedString": "根据野蛮绵的说法，这次的战斗好像会很……特殊？"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -3471,7 +3633,7 @@
           {
             "PreQuestName": "s120013",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -3493,7 +3655,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -3515,14 +3677,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120015": {
         "QuestId": "s120015",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120015_QuestName"
-},
+          "Key": "s120015_QuestName",
+          "SourceString": "绵击俱乐部",
+          "LocalizedString": "绵击俱乐部"
+        },
         "ChapterID": "SU102",
         "ChapterProgress": 8.0,
         "DisplayMapName": "MianMianCunWai",
@@ -3538,7 +3702,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -3546,20 +3710,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120015_ObjDes_1"
-},
+              "Key": "s120015_ObjDes_1",
+              "SourceString": "与<blue>野蛮绵</>交谈",
+              "LocalizedString": "与<blue>野蛮绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -3569,7 +3735,7 @@
                 "X": 2614.964,
                 "Y": 786.91376,
                 "Z": -59508.83
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -3577,7 +3743,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -3585,13 +3751,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -3610,8 +3776,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120015_QuestPanel"
-},
+          "Key": "s120015_QuestPanel",
+          "SourceString": "野蛮绵似乎有了更大的变化……不过更多的奖励……",
+          "LocalizedString": "野蛮绵似乎有了更大的变化……不过更多的奖励……"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -3620,7 +3788,7 @@
           {
             "PreQuestName": "s120014",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -3640,7 +3808,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -3655,7 +3823,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -3667,14 +3835,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120016": {
         "QuestId": "s120016",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120016_QuestName"
-},
+          "Key": "s120016_QuestName",
+          "SourceString": "绵击俱乐部",
+          "LocalizedString": "绵击俱乐部"
+        },
         "ChapterID": "SU102",
         "ChapterProgress": 9.0,
         "DisplayMapName": "MianMianCunWai",
@@ -3691,7 +3861,7 @@
               "X": 0.0,
               "Y": 0.0,
               "Z": 0.0
-},
+            },
             "bBindOnTracking": false,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
@@ -3700,20 +3870,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120016_ObjDes_1"
-},
+              "Key": "s120016_ObjDes_1",
+              "SourceString": "完成<blue>最终</>挑战",
+              "LocalizedString": "完成<blue>最终</>挑战"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -3723,7 +3895,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-},
+          },
           {
             "MonsterTagList": [
               "FT_mon_66_BP_Elite_Shaman_Judian_s120006"
@@ -3736,20 +3908,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120016_ObjDes_1"
-},
+              "Key": "s120016_ObjDes_1",
+              "SourceString": "完成<blue>最终</>挑战",
+              "LocalizedString": "完成<blue>最终</>挑战"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -3759,7 +3933,7 @@
                 "X": 412.50824,
                 "Y": -1952.6255,
                 "Z": -59709.02
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -3767,7 +3941,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -3775,13 +3949,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -3800,8 +3974,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120016_QuestPanel"
-},
+          "Key": "s120016_QuestPanel",
+          "SourceString": "那是什么，那还是之前的绵吗？还要战斗吗？",
+          "LocalizedString": "那是什么，那还是之前的绵吗？还要战斗吗？"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -3810,7 +3986,7 @@
           {
             "PreQuestName": "s120015",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -3832,7 +4008,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -3854,14 +4030,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120017": {
         "QuestId": "s120017",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120017_QuestName"
-},
+          "Key": "s120017_QuestName",
+          "SourceString": "绵击俱乐部",
+          "LocalizedString": "绵击俱乐部"
+        },
         "ChapterID": "SU102",
         "ChapterProgress": 10.0,
         "DisplayMapName": "MianMianCunWai",
@@ -3877,7 +4055,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -3885,20 +4063,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120017_ObjDes_1"
-},
+              "Key": "s120017_ObjDes_1",
+              "SourceString": "与<blue>？？？</>交谈",
+              "LocalizedString": "与<blue>？？？</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -3908,7 +4088,7 @@
                 "X": 2614.964,
                 "Y": 786.91376,
                 "Z": -59508.83
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -3916,7 +4096,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -3924,13 +4104,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -3949,8 +4129,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120017_QuestPanel"
-},
+          "Key": "s120017_QuestPanel",
+          "SourceString": "与奇怪的黑绵完成战斗，究竟发生了什么？还是不要深究了吧……",
+          "LocalizedString": "与奇怪的黑绵完成战斗，究竟发生了什么？还是不要深究了吧……"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -3959,7 +4141,7 @@
           {
             "PreQuestName": "s120016",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -3979,7 +4161,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -3994,7 +4176,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -4006,14 +4188,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120018": {
         "QuestId": "s120018",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120018_QuestName"
-},
+          "Key": "s120018_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 1.0,
         "DisplayMapName": "MianMianCunWai",
@@ -4029,7 +4213,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -4037,20 +4221,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120018_ObjDes_1"
-},
+              "Key": "s120018_ObjDes_1",
+              "SourceString": "解开残局<blue>「一」</>",
+              "LocalizedString": "解开残局<blue>「一」</>"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -4060,7 +4246,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -4068,7 +4254,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -4076,13 +4262,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": true,
@@ -4101,8 +4287,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120018_QuestPanel"
-},
+          "Key": "s120018_QuestPanel",
+          "SourceString": "棋圣绵需要你帮助它解开残局，这一局需要一枚「兵」。\r\n「兵」似乎在某个商绵手中。",
+          "LocalizedString": "棋圣绵需要你帮助它解开残局，这一局需要一枚「兵」。\r\n「兵」似乎在某个商绵手中。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -4128,7 +4316,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -4150,14 +4338,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120019": {
         "QuestId": "s120019",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120019_QuestName"
-},
+          "Key": "s120019_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 2.0,
         "DisplayMapName": "MianMianCunWai",
@@ -4173,7 +4363,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -4181,20 +4371,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120007.FT_BP_NPC_AS002_s120007_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120019_ObjDes_1"
-},
+              "Key": "s120019_ObjDes_1",
+              "SourceString": "与<blue>棋圣绵</>交谈",
+              "LocalizedString": "与<blue>棋圣绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -4204,7 +4396,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -4212,7 +4404,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -4220,13 +4412,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -4245,8 +4437,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120019_QuestPanel"
-},
+          "Key": "s120019_QuestPanel",
+          "SourceString": "将所需棋子交付棋圣绵吧！",
+          "LocalizedString": "将所需棋子交付棋圣绵吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -4255,7 +4449,7 @@
           {
             "PreQuestName": "s120018",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -4275,7 +4469,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -4290,7 +4484,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -4302,14 +4496,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120020": {
         "QuestId": "s120020",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120020_QuestName"
-},
+          "Key": "s120020_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 3.0,
         "DisplayMapName": "MianMianCunWai",
@@ -4325,7 +4521,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -4333,20 +4529,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120020_ObjDes_1"
-},
+              "Key": "s120020_ObjDes_1",
+              "SourceString": "解开残局<blue>「二」</>",
+              "LocalizedString": "解开残局<blue>「二」</>"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -4356,7 +4554,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -4364,7 +4562,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -4372,13 +4570,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -4397,8 +4595,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120020_QuestPanel"
-},
+          "Key": "s120020_QuestPanel",
+          "SourceString": "棋圣绵需要你帮助它解开残局，这一局需要两枚「兵」。\r\n「兵」似乎在某个商绵手中。",
+          "LocalizedString": "棋圣绵需要你帮助它解开残局，这一局需要两枚「兵」。\r\n「兵」似乎在某个商绵手中。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -4407,7 +4607,7 @@
           {
             "PreQuestName": "s120019",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -4429,7 +4629,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -4451,14 +4651,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120021": {
         "QuestId": "s120021",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120021_QuestName"
-},
+          "Key": "s120021_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 4.0,
         "DisplayMapName": "MianMianCunWai",
@@ -4474,7 +4676,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -4482,20 +4684,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120007.FT_BP_NPC_AS002_s120007_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120021_ObjDes_1"
-},
+              "Key": "s120021_ObjDes_1",
+              "SourceString": "与<blue>棋圣绵</>交谈",
+              "LocalizedString": "与<blue>棋圣绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -4505,7 +4709,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -4513,7 +4717,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -4521,13 +4725,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -4546,8 +4750,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120021_QuestPanel"
-},
+          "Key": "s120021_QuestPanel",
+          "SourceString": "将所需棋子交付棋圣绵吧！",
+          "LocalizedString": "将所需棋子交付棋圣绵吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -4556,7 +4762,7 @@
           {
             "PreQuestName": "s120020",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -4576,7 +4782,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -4591,7 +4797,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -4603,14 +4809,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120022": {
         "QuestId": "s120022",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120022_QuestName"
-},
+          "Key": "s120022_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 5.0,
         "DisplayMapName": "MianMianCunWai",
@@ -4626,7 +4834,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -4634,20 +4842,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120022_ObjDes_1"
-},
+              "Key": "s120022_ObjDes_1",
+              "SourceString": "解开残局<blue>「三」</>",
+              "LocalizedString": "解开残局<blue>「三」</>"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -4657,7 +4867,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -4665,7 +4875,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -4673,13 +4883,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -4698,8 +4908,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120022_QuestPanel"
-},
+          "Key": "s120022_QuestPanel",
+          "SourceString": "棋圣绵需要你帮助它解开残局，这一局需要「兵」、「车」各一枚。\r\n「兵」似乎在某个商绵手中，「车」似乎隐藏在冰原深处的危险之地。",
+          "LocalizedString": "棋圣绵需要你帮助它解开残局，这一局需要「兵」、「车」各一枚。\r\n「兵」似乎在某个商绵手中，「车」似乎隐藏在冰原深处的危险之地。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -4708,7 +4920,7 @@
           {
             "PreQuestName": "s120021",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -4730,7 +4942,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -4752,14 +4964,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120023": {
         "QuestId": "s120023",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120023_QuestName"
-},
+          "Key": "s120023_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 6.0,
         "DisplayMapName": "MianMianCunWai",
@@ -4775,7 +4989,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -4783,20 +4997,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120007.FT_BP_NPC_AS002_s120007_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120023_ObjDes_1"
-},
+              "Key": "s120023_ObjDes_1",
+              "SourceString": "与<blue>棋圣绵</>交谈",
+              "LocalizedString": "与<blue>棋圣绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -4806,7 +5022,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -4814,7 +5030,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -4822,13 +5038,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -4847,8 +5063,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120023_QuestPanel"
-},
+          "Key": "s120023_QuestPanel",
+          "SourceString": "将所需棋子交付棋圣绵吧！",
+          "LocalizedString": "将所需棋子交付棋圣绵吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -4857,7 +5075,7 @@
           {
             "PreQuestName": "s120022",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -4877,7 +5095,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -4892,7 +5110,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -4904,14 +5122,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120024": {
         "QuestId": "s120024",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120024_QuestName"
-},
+          "Key": "s120024_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 7.0,
         "DisplayMapName": "MianMianCunWai",
@@ -4927,7 +5147,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -4935,20 +5155,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120024_ObjDes_1"
-},
+              "Key": "s120024_ObjDes_1",
+              "SourceString": "解开残局<blue>「四」</>",
+              "LocalizedString": "解开残局<blue>「四」</>"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -4958,7 +5180,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -4966,7 +5188,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -4974,13 +5196,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -4999,8 +5221,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120024_QuestPanel"
-},
+          "Key": "s120024_QuestPanel",
+          "SourceString": "棋圣绵需要你帮助它解开残局，这一局需要「车」、「马」各一枚。\r\n「车」似乎隐藏在冰原深处的危险之地，获取「马」似乎需要为奇怪的绵展示一系列战斗。",
+          "LocalizedString": "棋圣绵需要你帮助它解开残局，这一局需要「车」、「马」各一枚。\r\n「车」似乎隐藏在冰原深处的危险之地，获取「马」似乎需要为奇怪的绵展示一系列战斗。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -5009,7 +5233,7 @@
           {
             "PreQuestName": "s120023",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -5031,7 +5255,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -5053,14 +5277,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120025": {
         "QuestId": "s120025",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120025_QuestName"
-},
+          "Key": "s120025_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 8.0,
         "DisplayMapName": "MianMianCunWai",
@@ -5076,7 +5302,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -5084,20 +5310,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120007.FT_BP_NPC_AS002_s120007_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120025_ObjDes_1"
-},
+              "Key": "s120025_ObjDes_1",
+              "SourceString": "与<blue>棋圣绵</>交谈",
+              "LocalizedString": "与<blue>棋圣绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -5107,7 +5335,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -5115,7 +5343,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -5123,13 +5351,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -5148,8 +5376,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120025_QuestPanel"
-},
+          "Key": "s120025_QuestPanel",
+          "SourceString": "将所需棋子交付棋圣绵吧！",
+          "LocalizedString": "将所需棋子交付棋圣绵吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -5158,7 +5388,7 @@
           {
             "PreQuestName": "s120024",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -5178,7 +5408,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -5193,7 +5423,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -5205,14 +5435,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120026": {
         "QuestId": "s120026",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120026_QuestName"
-},
+          "Key": "s120026_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 9.0,
         "DisplayMapName": "MianMianCunWai",
@@ -5228,7 +5460,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -5236,20 +5468,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120026_ObjDes_1"
-},
+              "Key": "s120026_ObjDes_1",
+              "SourceString": "解开残局<blue>「五」</>",
+              "LocalizedString": "解开残局<blue>「五」</>"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -5259,7 +5493,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -5267,7 +5501,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -5275,13 +5509,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -5300,8 +5534,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120026_QuestPanel"
-},
+          "Key": "s120026_QuestPanel",
+          "SourceString": "棋圣绵需要你帮助它解开残局，这一局需要「马」、「象」各一枚。\r\n获取「马」似乎需要为奇怪的绵展示一系列战斗，「象」 隐藏在龙堡深处的危险之地咩。",
+          "LocalizedString": "棋圣绵需要你帮助它解开残局，这一局需要「马」、「象」各一枚。\r\n获取「马」似乎需要为奇怪的绵展示一系列战斗，「象」 隐藏在龙堡深处的危险之地咩。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -5310,7 +5546,7 @@
           {
             "PreQuestName": "s120025",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -5332,7 +5568,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -5354,14 +5590,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120027": {
         "QuestId": "s120027",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120027_QuestName"
-},
+          "Key": "s120027_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 10.0,
         "DisplayMapName": "MianMianCunWai",
@@ -5377,7 +5615,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -5385,20 +5623,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120007.FT_BP_NPC_AS002_s120007_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120027_ObjDes_1"
-},
+              "Key": "s120027_ObjDes_1",
+              "SourceString": "与<blue>棋圣绵</>交谈",
+              "LocalizedString": "与<blue>棋圣绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -5408,7 +5648,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -5416,7 +5656,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -5424,13 +5664,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -5449,8 +5689,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120027_QuestPanel"
-},
+          "Key": "s120027_QuestPanel",
+          "SourceString": "将所需棋子交付棋圣绵吧！",
+          "LocalizedString": "将所需棋子交付棋圣绵吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -5459,7 +5701,7 @@
           {
             "PreQuestName": "s120026",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -5479,7 +5721,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -5494,7 +5736,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -5506,14 +5748,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120028": {
         "QuestId": "s120028",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120028_QuestName"
-},
+          "Key": "s120028_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 11.0,
         "DisplayMapName": "MianMianCunWai",
@@ -5529,7 +5773,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -5537,20 +5781,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120028_ObjDes_1"
-},
+              "Key": "s120028_ObjDes_1",
+              "SourceString": "解开残局<blue>「六」</>",
+              "LocalizedString": "解开残局<blue>「六」</>"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -5560,7 +5806,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -5568,7 +5814,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -5576,13 +5822,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -5601,8 +5847,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120028_QuestPanel"
-},
+          "Key": "s120028_QuestPanel",
+          "SourceString": "棋圣绵需要你帮助它解开残局，这一局需要「车」、「马」、「后」各一枚。\r\n「车」似乎隐藏在冰原深处的危险之地，获取「马」似乎需要为奇怪的绵展示一系列战斗，「后」 隐藏在一团鲜红的迷雾中咩。",
+          "LocalizedString": "棋圣绵需要你帮助它解开残局，这一局需要「车」、「马」、「后」各一枚。\r\n「车」似乎隐藏在冰原深处的危险之地，获取「马」似乎需要为奇怪的绵展示一系列战斗，「后」 隐藏在一团鲜红的迷雾中咩。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -5611,7 +5859,7 @@
           {
             "PreQuestName": "s120027",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -5633,7 +5881,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -5655,14 +5903,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120029": {
         "QuestId": "s120029",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120029_QuestName"
-},
+          "Key": "s120029_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 12.0,
         "DisplayMapName": "MianMianCunWai",
@@ -5678,7 +5928,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -5686,20 +5936,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120007.FT_BP_NPC_AS002_s120007_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120029_ObjDes_1"
-},
+              "Key": "s120029_ObjDes_1",
+              "SourceString": "与<blue>棋圣绵</>交谈",
+              "LocalizedString": "与<blue>棋圣绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -5709,7 +5961,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -5717,7 +5969,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -5725,13 +5977,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -5750,8 +6002,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120029_QuestPanel"
-},
+          "Key": "s120029_QuestPanel",
+          "SourceString": "将所需棋子交付棋圣绵吧！",
+          "LocalizedString": "将所需棋子交付棋圣绵吧！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -5760,7 +6014,7 @@
           {
             "PreQuestName": "s120028",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -5780,7 +6034,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -5795,7 +6049,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -5807,14 +6061,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120030": {
         "QuestId": "s120030",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120030_QuestName"
-},
+          "Key": "s120030_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 13.0,
         "DisplayMapName": "MianMianCunWai",
@@ -5830,7 +6086,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -5838,20 +6094,22 @@
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120030_ObjDes_1"
-},
+              "Key": "s120030_ObjDes_1",
+              "SourceString": "解开残局<blue>「七」</>",
+              "LocalizedString": "解开残局<blue>「七」</>"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -5861,7 +6119,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -5869,7 +6127,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -5877,13 +6135,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -5902,8 +6160,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120030_QuestPanel"
-},
+          "Key": "s120030_QuestPanel",
+          "SourceString": "棋圣绵需要你帮助它解开残局，这一局需要「王」、「后」、「兵」各一枚。\r\n「王」已经在你手中，「后」 隐藏在一团鲜红的迷雾中，「兵」似乎在某个商绵手中。",
+          "LocalizedString": "棋圣绵需要你帮助它解开残局，这一局需要「王」、「后」、「兵」各一枚。\r\n「王」已经在你手中，「后」 隐藏在一团鲜红的迷雾中，「兵」似乎在某个商绵手中。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -5912,7 +6172,7 @@
           {
             "PreQuestName": "s120029",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -5934,7 +6194,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -5956,14 +6216,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120031": {
         "QuestId": "s120031",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120031_QuestName"
-},
+          "Key": "s120031_QuestName",
+          "SourceString": "后翼弃绵",
+          "LocalizedString": "后翼弃绵"
+        },
         "ChapterID": "SU126",
         "ChapterProgress": 14.0,
         "DisplayMapName": "MianMianCunWai",
@@ -5979,7 +6241,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -5987,20 +6249,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120007.FT_BP_NPC_AS002_s120007_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120031_ObjDes_1"
-},
+              "Key": "s120031_ObjDes_1",
+              "SourceString": "与<blue>棋圣绵</>交谈",
+              "LocalizedString": "与<blue>棋圣绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -6010,7 +6274,7 @@
                 "X": -884.93445,
                 "Y": 37452.42,
                 "Z": -64784.086
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -6018,7 +6282,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -6026,13 +6290,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -6051,8 +6315,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120031_QuestPanel"
-},
+          "Key": "s120031_QuestPanel",
+          "SourceString": "残局已经尽数破解，棋圣绵会拿出什么奖励来呢！",
+          "LocalizedString": "残局已经尽数破解，棋圣绵会拿出什么奖励来呢！"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -6061,7 +6327,7 @@
           {
             "PreQuestName": "s120030",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -6081,7 +6347,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -6096,7 +6362,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -6108,14 +6374,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120032": {
         "QuestId": "s120032",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120032_QuestName"
-},
+          "Key": "s120032_QuestName",
+          "SourceString": "爱好是分享冷圈！",
+          "LocalizedString": "爱好是分享冷圈！"
+        },
         "ChapterID": "SU132",
         "ChapterProgress": 1.0,
         "DisplayMapName": "None",
@@ -6134,21 +6402,25 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Level/Collectiable/Snow/FT_BP_CollectibleActor_Snow_3.FT_BP_CollectibleActor_Snow_3_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120032_ObjDes_1"
-},
+              "Key": "s120032_ObjDes_1",
+              "SourceString": "收集<blue>棒冰晶簇</>",
+              "LocalizedString": "收集<blue>棒冰晶簇</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -6158,7 +6430,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-},
+          },
           {
             "ObjectiveID": "2",
             "ObjectiveTips": "",
@@ -6167,21 +6439,25 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Level/Collectiable/Snow/FT_BP_CollectibleActor_Snow_Butterfly.FT_BP_CollectibleActor_Snow_Butterfly_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120032_ObjDes_2"
-},
+              "Key": "s120032_ObjDes_2",
+              "SourceString": "收集<blue>冰纹蝶</>",
+              "LocalizedString": "收集<blue>冰纹蝶</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -6191,7 +6467,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": true,
@@ -6210,8 +6486,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120032_QuestPanel"
-},
+          "Key": "s120032_QuestPanel",
+          "SourceString": "冰冰绵喜欢棒冰晶簇和冰纹蝶，找找看吧。",
+          "LocalizedString": "冰冰绵喜欢棒冰晶簇和冰纹蝶，找找看吧。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -6220,7 +6498,7 @@
           {
             "PreQuestName": "L110330",
             "ObjectiveID": "None"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -6242,7 +6520,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -6264,14 +6542,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120033": {
         "QuestId": "s120033",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120033_QuestName"
-},
+          "Key": "s120033_QuestName",
+          "SourceString": "爱好是分享冷圈！",
+          "LocalizedString": "爱好是分享冷圈！"
+        },
         "ChapterID": "SU132",
         "ChapterProgress": 2.0,
         "DisplayMapName": "MianMianCun",
@@ -6287,7 +6567,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -6295,20 +6575,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120008.FT_BP_NPC_AS002_s120008_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120033_ObjDes_1"
-},
+              "Key": "s120033_ObjDes_1",
+              "SourceString": "与<blue>冰冰绵</>交谈",
+              "LocalizedString": "与<blue>冰冰绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -6318,7 +6600,7 @@
                 "X": -35416.71,
                 "Y": 134482.52,
                 "Z": 3900.7673
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -6326,7 +6608,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -6334,13 +6616,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -6359,8 +6641,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120033_QuestPanel"
-},
+          "Key": "s120033_QuestPanel",
+          "SourceString": "把「冷冰冰」交给冰冰绵，和它聊聊吧。",
+          "LocalizedString": "把「冷冰冰」交给冰冰绵，和它聊聊吧。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -6369,7 +6653,7 @@
           {
             "PreQuestName": "s120032",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -6389,7 +6673,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -6404,7 +6688,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -6416,14 +6700,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120034": {
         "QuestId": "s120034",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120034_QuestName"
-},
+          "Key": "s120034_QuestName",
+          "SourceString": "神奇草药制作中……",
+          "LocalizedString": "神奇草药制作中……"
+        },
         "ChapterID": "SU133",
         "ChapterProgress": 1.0,
         "DisplayMapName": "None",
@@ -6442,21 +6728,25 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Level/Collectiable/Lake/FT_BP_CollectibleActor_Lake_3.FT_BP_CollectibleActor_Lake_3_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120034_ObjDes_1"
-},
+              "Key": "s120034_ObjDes_1",
+              "SourceString": "收集<blue>迷雾果实</>",
+              "LocalizedString": "收集<blue>迷雾果实</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -6466,7 +6756,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-},
+          },
           {
             "ObjectiveID": "2",
             "ObjectiveTips": "",
@@ -6475,21 +6765,25 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Level/Collectiable/Lake/FT_BP_CollectibleActor_Lake_Butterfly.FT_BP_CollectibleActor_Lake_Butterfly_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120034_ObjDes_2"
-},
+              "Key": "s120034_ObjDes_2",
+              "SourceString": "收集<blue>翠闪蝶</>",
+              "LocalizedString": "收集<blue>翠闪蝶</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -6499,7 +6793,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": true,
@@ -6518,8 +6812,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120034_QuestPanel"
-},
+          "Key": "s120034_QuestPanel",
+          "SourceString": "药草绵需要迷雾果实和翠闪蝶制作草药，带一些回去吧。",
+          "LocalizedString": "药草绵需要迷雾果实和翠闪蝶制作草药，带一些回去吧。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -6528,7 +6824,7 @@
           {
             "PreQuestName": "L110330",
             "ObjectiveID": "None"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -6550,7 +6846,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -6572,14 +6868,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120035": {
         "QuestId": "s120035",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120035_QuestName"
-},
+          "Key": "s120035_QuestName",
+          "SourceString": "神奇草药制作中……",
+          "LocalizedString": "神奇草药制作中……"
+        },
         "ChapterID": "SU133",
         "ChapterProgress": 2.0,
         "DisplayMapName": "MianMianCun",
@@ -6595,7 +6893,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -6603,20 +6901,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120009.FT_BP_NPC_AS002_s120009_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120035_ObjDes_1"
-},
+              "Key": "s120035_ObjDes_1",
+              "SourceString": "与<blue>药草绵</>交谈",
+              "LocalizedString": "与<blue>药草绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -6626,7 +6926,7 @@
                 "X": -36103.945,
                 "Y": 136209.97,
                 "Z": 3922.518
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -6634,7 +6934,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -6642,13 +6942,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -6667,8 +6967,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120035_QuestPanel"
-},
+          "Key": "s120035_QuestPanel",
+          "SourceString": "把草药交付给药草绵，看看它能不能做出神奇草药。",
+          "LocalizedString": "把草药交付给药草绵，看看它能不能做出神奇草药。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -6677,7 +6979,7 @@
           {
             "PreQuestName": "s120034",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -6697,7 +6999,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -6712,7 +7014,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -6724,14 +7026,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120036": {
         "QuestId": "s120036",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120036_QuestName"
-},
+          "Key": "s120036_QuestName",
+          "SourceString": "侦探绵的呢喃",
+          "LocalizedString": "侦探绵的呢喃"
+        },
         "ChapterID": "SU134",
         "ChapterProgress": 1.0,
         "DisplayMapName": "None",
@@ -6750,21 +7054,25 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Level/Collectiable/Castle/FT_BP_CollectibleActor_Castle_2.FT_BP_CollectibleActor_Castle_2_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120036_ObjDes_1"
-},
+              "Key": "s120036_ObjDes_1",
+              "SourceString": "收集<blue>骑士花</>",
+              "LocalizedString": "收集<blue>骑士花</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -6774,7 +7082,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-},
+          },
           {
             "ObjectiveID": "2",
             "ObjectiveTips": "",
@@ -6783,21 +7091,25 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Level/Collectiable/Castle/FT_BP_CollectibleActor_Castle_Butterfly.FT_BP_CollectibleActor_Castle_Butterfly_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120036_ObjDes_2"
-},
+              "Key": "s120036_ObjDes_2",
+              "SourceString": "收集<blue>幽影蝶</>",
+              "LocalizedString": "收集<blue>幽影蝶</>"
+            },
             "CompletedDescription": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120006_complete"
-},
+              "Key": "s120006_complete",
+              "SourceString": "已完成",
+              "LocalizedString": "已完成"
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -6807,7 +7119,7 @@
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": true,
@@ -6826,8 +7138,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120036_QuestPanel"
-},
+          "Key": "s120036_QuestPanel",
+          "SourceString": "侦探绵想找些骑士花和幽影蝶研究一下。",
+          "LocalizedString": "侦探绵想找些骑士花和幽影蝶研究一下。"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -6836,7 +7150,7 @@
           {
             "PreQuestName": "L110330",
             "ObjectiveID": "None"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -6858,7 +7172,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -6880,14 +7194,16 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       },
       "s120037": {
         "QuestId": "s120037",
         "QuestName": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120037_QuestName"
-},
+          "Key": "s120037_QuestName",
+          "SourceString": "侦探绵的呢喃",
+          "LocalizedString": "侦探绵的呢喃"
+        },
         "ChapterID": "SU134",
         "ChapterProgress": 2.0,
         "DisplayMapName": "MianMianCun",
@@ -6903,7 +7219,7 @@
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_TALK",
@@ -6911,20 +7227,22 @@
             "TargetType": {
               "AssetPathName": "/Game/Maps_4N/Blueprints/Character/NPC/Animal_Sheep/NPC_AS002/FT_BP_NPC_AS002_s120010.FT_BP_NPC_AS002_s120010_C",
               "SubPathString": ""
-},
+            },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TargetTag": "None",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-              "Key": "s120037_ObjDes_1"
-},
+              "Key": "s120037_ObjDes_1",
+              "SourceString": "与<blue>侦探绵</>交谈",
+              "LocalizedString": "与<blue>侦探绵</>交谈"
+            },
             "CompletedDescription": {
               "CultureInvariantString": null
-},
+            },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
@@ -6934,7 +7252,7 @@
                 "X": -34847.67,
                 "Y": 137481.08,
                 "Z": 3917.9504
-},
+              },
               "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
@@ -6942,7 +7260,7 @@
                 "X": 0.0,
                 "Y": 0.0,
                 "Z": 0.0
-},
+              },
               "TrackMapName": "Maps_4N",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
@@ -6950,13 +7268,13 @@
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
-},
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
-}
+          }
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -6975,8 +7293,10 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/ST_Sidequest_pgl.ST_Sidequest_pgl",
-          "Key": "s120037_QuestPanel"
-},
+          "Key": "s120037_QuestPanel",
+          "SourceString": "把物品交付给侦探绵，或许有一天它真的能梦想成真呢？",
+          "LocalizedString": "把物品交付给侦探绵，或许有一天它真的能梦想成真呢？"
+        },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
@@ -6985,7 +7305,7 @@
           {
             "PreQuestName": "s120036",
             "ObjectiveID": "1"
-}
+          }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
@@ -7005,7 +7325,7 @@
         "PatcherTag": "None",
         "QuestSubmitDescription": {
           "CultureInvariantString": null
-},
+        },
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
@@ -7020,7 +7340,7 @@
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true
-},
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -7032,7 +7352,7 @@
         "bChangeTrackAnim": false,
         "CustomTrackText": {
           "CultureInvariantString": null
-}
+        }
       }
     }
   }

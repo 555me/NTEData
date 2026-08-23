@@ -9,261 +9,333 @@
       "RowStruct": {
         "ObjectName": "Class'BidKingEffectConfigData'",
         "ObjectPath": "/Script/HTGame"
-}
+      }
     },
     "Rows": {
       "NM_effect_1": {
         "EffectPoolId": "efffectpool_2",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DarkBid"
-},
+          "Key": "BidKingEffect_DarkBid",
+          "SourceString": "天黑了",
+          "LocalizedString": "天黑了"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DarkBid_Desc"
-},
+          "Key": "BidKingEffect_DarkBid_Desc",
+          "SourceString": "本局内，每回合不再公示每位玩家的具体出价，仅展示各玩家的出价名次。",
+          "LocalizedString": "本局内，每回合不再公示每位玩家的具体出价，仅展示各玩家的出价名次。"
+        },
         "EffectType": "EBidKingEffectType::BKE_TurnOff",
         "Weight": 100,
         "RatioValue": 0.0
-},
+      },
       "NM_effect_2": {
         "EffectPoolId": "efffectpool_2",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_MoreInfo"
-},
+          "Key": "BidKingEffect_MoreInfo",
+          "SourceString": "一手情报",
+          "LocalizedString": "一手情报"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_MoreInfo_Desc"
-},
+          "Key": "BidKingEffect_MoreInfo_Desc",
+          "SourceString": "本局内，第一回合和第三回合时将额外提供一条拍卖师的公开情报。",
+          "LocalizedString": "本局内，第一回合和第三回合时将额外提供一条拍卖师的公开情报。"
+        },
         "EffectType": "EBidKingEffectType::BKE_Hearsay",
         "Weight": 50,
         "RatioValue": 0.0
-},
+      },
       "NM_effect_3": {
         "EffectPoolId": "efffectpool_2",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoublePurple"
-},
+          "Key": "BidKingEffect_DoublePurple",
+          "SourceString": "加倍！",
+          "LocalizedString": "加倍！"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoublePurple_Desc"
-},
+          "Key": "BidKingEffect_DoublePurple_Desc",
+          "SourceString": "本局内，所有紫色品质的藏品价值翻倍。",
+          "LocalizedString": "本局内，所有紫色品质的藏品价值翻倍。"
+        },
         "EffectType": "EBidKingEffectType::BKE_PurpleDoubleValue",
         "Weight": 50,
         "RatioValue": 0.0
-},
+      },
       "NM_effect_4": {
         "EffectPoolId": "efffectpool_2",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoubleGold"
-},
+          "Key": "BidKingEffect_DoubleGold",
+          "SourceString": "超级加倍！！！",
+          "LocalizedString": "超级加倍！！！"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoubleGold_Desc"
-},
+          "Key": "BidKingEffect_DoubleGold_Desc",
+          "SourceString": "本局内，所有金色品质的藏品价值翻倍。",
+          "LocalizedString": "本局内，所有金色品质的藏品价值翻倍。"
+        },
         "EffectType": "EBidKingEffectType::BKE_OrangeDoubleValue",
         "Weight": 25,
         "RatioValue": 0.0
-},
+      },
       "NM_effect_5": {
         "EffectPoolId": "efffectpool_2",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_Diamond"
-},
+          "Key": "BidKingEffect_Diamond",
+          "SourceString": "闪耀之心",
+          "LocalizedString": "闪耀之心"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_Diamond_Desc"
-},
+          "Key": "BidKingEffect_Diamond_Desc",
+          "SourceString": "在本局竞拍开始时，所有轮廓为1x1的藏品全部转变为轮廓为1x1随机宝石类藏品。",
+          "LocalizedString": "在本局竞拍开始时，所有轮廓为1x1的藏品全部转变为轮廓为1x1随机宝石类藏品。"
+        },
         "EffectType": "EBidKingEffectType::BKE_JewelLimit1x1",
         "Weight": 5,
         "RatioValue": 0.0
-},
+      },
       "NM_effect_6": {
         "EffectPoolId": "efffectpool_2",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_SuperReward"
-},
+          "Key": "BidKingEffect_SuperReward",
+          "SourceString": "福利多多",
+          "LocalizedString": "福利多多"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_SuperReward_Desc"
-},
+          "Key": "BidKingEffect_SuperReward_Desc",
+          "SourceString": "本局结算时，奖励金的获取倍率提升至30%。",
+          "LocalizedString": "本局结算时，奖励金的获取倍率提升至30%。"
+        },
         "EffectType": "EBidKingEffectType::BKE_DividendBenefits",
         "Weight": 20,
         "RatioValue": 0.3
-},
+      },
       "NM_effect_7": {
         "EffectPoolId": "efffectpool_2",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_Standard"
-},
+          "Key": "BidKingEffect_Standard",
+          "SourceString": "标准对局",
+          "LocalizedString": "标准对局"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_Standard_Desc"
-},
+          "Key": "BidKingEffect_Standard_Desc",
+          "SourceString": "本局内，竞拍将按照标准规则进行。",
+          "LocalizedString": "本局内，竞拍将按照标准规则进行。"
+        },
         "EffectType": "EBidKingEffectType::BKE_Normal",
         "Weight": 750,
         "RatioValue": 0.0
-},
+      },
       "EZ_effect_1": {
         "EffectPoolId": "efffectpool_1",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoublePurple"
-},
+          "Key": "BidKingEffect_DoublePurple",
+          "SourceString": "加倍！",
+          "LocalizedString": "加倍！"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoublePurple_Desc"
-},
+          "Key": "BidKingEffect_DoublePurple_Desc",
+          "SourceString": "本局内，所有紫色品质的藏品价值翻倍。",
+          "LocalizedString": "本局内，所有紫色品质的藏品价值翻倍。"
+        },
         "EffectType": "EBidKingEffectType::BKE_PurpleDoubleValue",
         "Weight": 75,
         "RatioValue": 0.0
-},
+      },
       "EZ_effect_2": {
         "EffectPoolId": "efffectpool_1",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoubleGold"
-},
+          "Key": "BidKingEffect_DoubleGold",
+          "SourceString": "超级加倍！！！",
+          "LocalizedString": "超级加倍！！！"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoubleGold_Desc"
-},
+          "Key": "BidKingEffect_DoubleGold_Desc",
+          "SourceString": "本局内，所有金色品质的藏品价值翻倍。",
+          "LocalizedString": "本局内，所有金色品质的藏品价值翻倍。"
+        },
         "EffectType": "EBidKingEffectType::BKE_OrangeDoubleValue",
         "Weight": 25,
         "RatioValue": 0.0
-},
+      },
       "EZ_effect_3": {
         "EffectPoolId": "efffectpool_1",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_SuperReward"
-},
+          "Key": "BidKingEffect_SuperReward",
+          "SourceString": "福利多多",
+          "LocalizedString": "福利多多"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_SuperReward_Desc"
-},
+          "Key": "BidKingEffect_SuperReward_Desc",
+          "SourceString": "本局结算时，奖励金的获取倍率提升至30%。",
+          "LocalizedString": "本局结算时，奖励金的获取倍率提升至30%。"
+        },
         "EffectType": "EBidKingEffectType::BKE_DividendBenefits",
         "Weight": 100,
         "RatioValue": 0.3
-},
+      },
       "EZ_effect_4": {
         "EffectPoolId": "efffectpool_1",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_Standard"
-},
+          "Key": "BidKingEffect_Standard",
+          "SourceString": "标准对局",
+          "LocalizedString": "标准对局"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_Standard_Desc"
-},
+          "Key": "BidKingEffect_Standard_Desc",
+          "SourceString": "本局内，竞拍将按照标准规则进行。",
+          "LocalizedString": "本局内，竞拍将按照标准规则进行。"
+        },
         "EffectType": "EBidKingEffectType::BKE_Normal",
         "Weight": 800,
         "RatioValue": 0.0
-},
+      },
       "HD_effect_8": {
         "EffectPoolId": "efffectpool_3",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DarkBid"
-},
+          "Key": "BidKingEffect_DarkBid",
+          "SourceString": "天黑了",
+          "LocalizedString": "天黑了"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DarkBid_Desc"
-},
+          "Key": "BidKingEffect_DarkBid_Desc",
+          "SourceString": "本局内，每回合不再公示每位玩家的具体出价，仅展示各玩家的出价名次。",
+          "LocalizedString": "本局内，每回合不再公示每位玩家的具体出价，仅展示各玩家的出价名次。"
+        },
         "EffectType": "EBidKingEffectType::BKE_TurnOff",
         "Weight": 200,
         "RatioValue": 0.0
-},
+      },
       "HD_effect_9": {
         "EffectPoolId": "efffectpool_3",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_MoreInfo"
-},
+          "Key": "BidKingEffect_MoreInfo",
+          "SourceString": "一手情报",
+          "LocalizedString": "一手情报"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_MoreInfo_Desc"
-},
+          "Key": "BidKingEffect_MoreInfo_Desc",
+          "SourceString": "本局内，第一回合和第三回合时将额外提供一条拍卖师的公开情报。",
+          "LocalizedString": "本局内，第一回合和第三回合时将额外提供一条拍卖师的公开情报。"
+        },
         "EffectType": "EBidKingEffectType::BKE_Hearsay",
         "Weight": 50,
         "RatioValue": 0.0
-},
+      },
       "HD_effect_10": {
         "EffectPoolId": "efffectpool_3",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoublePurple"
-},
+          "Key": "BidKingEffect_DoublePurple",
+          "SourceString": "加倍！",
+          "LocalizedString": "加倍！"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoublePurple_Desc"
-},
+          "Key": "BidKingEffect_DoublePurple_Desc",
+          "SourceString": "本局内，所有紫色品质的藏品价值翻倍。",
+          "LocalizedString": "本局内，所有紫色品质的藏品价值翻倍。"
+        },
         "EffectType": "EBidKingEffectType::BKE_PurpleDoubleValue",
         "Weight": 50,
         "RatioValue": 0.0
-},
+      },
       "HD_effect_11": {
         "EffectPoolId": "efffectpool_3",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoubleGold"
-},
+          "Key": "BidKingEffect_DoubleGold",
+          "SourceString": "超级加倍！！！",
+          "LocalizedString": "超级加倍！！！"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_DoubleGold_Desc"
-},
+          "Key": "BidKingEffect_DoubleGold_Desc",
+          "SourceString": "本局内，所有金色品质的藏品价值翻倍。",
+          "LocalizedString": "本局内，所有金色品质的藏品价值翻倍。"
+        },
         "EffectType": "EBidKingEffectType::BKE_OrangeDoubleValue",
         "Weight": 25,
         "RatioValue": 0.0
-},
+      },
       "HD_effect_12": {
         "EffectPoolId": "efffectpool_3",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_Diamond"
-},
+          "Key": "BidKingEffect_Diamond",
+          "SourceString": "闪耀之心",
+          "LocalizedString": "闪耀之心"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_Diamond_Desc"
-},
+          "Key": "BidKingEffect_Diamond_Desc",
+          "SourceString": "在本局竞拍开始时，所有轮廓为1x1的藏品全部转变为轮廓为1x1随机宝石类藏品。",
+          "LocalizedString": "在本局竞拍开始时，所有轮廓为1x1的藏品全部转变为轮廓为1x1随机宝石类藏品。"
+        },
         "EffectType": "EBidKingEffectType::BKE_JewelLimit1x1",
         "Weight": 5,
         "RatioValue": 0.0
-},
+      },
       "HD_effect_13": {
         "EffectPoolId": "efffectpool_3",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_SuperReward"
-},
+          "Key": "BidKingEffect_SuperReward",
+          "SourceString": "福利多多",
+          "LocalizedString": "福利多多"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_SuperReward_Desc"
-},
+          "Key": "BidKingEffect_SuperReward_Desc",
+          "SourceString": "本局结算时，奖励金的获取倍率提升至30%。",
+          "LocalizedString": "本局结算时，奖励金的获取倍率提升至30%。"
+        },
         "EffectType": "EBidKingEffectType::BKE_DividendBenefits",
         "Weight": 20,
         "RatioValue": 0.3
-},
+      },
       "HD_effect_14": {
         "EffectPoolId": "efffectpool_3",
         "EffectName": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_Standard"
-},
+          "Key": "BidKingEffect_Standard",
+          "SourceString": "标准对局",
+          "LocalizedString": "标准对局"
+        },
         "EffectDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingEffect_Standard_Desc"
-},
+          "Key": "BidKingEffect_Standard_Desc",
+          "SourceString": "本局内，竞拍将按照标准规则进行。",
+          "LocalizedString": "本局内，竞拍将按照标准规则进行。"
+        },
         "EffectType": "EBidKingEffectType::BKE_Normal",
         "Weight": 650,
         "RatioValue": 0.0
-}
+      }
     }
   }
 ]

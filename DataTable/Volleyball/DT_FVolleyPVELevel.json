@@ -9,49 +9,57 @@
       "RowStruct": {
         "ObjectName": "Class'VolleyPVELevel'",
         "ObjectPath": "/Script/HTGame"
-}
+      }
     },
     "Rows": {
       "ChangeLevel1_1": {
         "BelongChallengeID": "Change1",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_1_01"
-},
+          "Key": "UI_VolleyBall_PVE_1_01",
+          "SourceString": "热身时间01",
+          "LocalizedString": "热身时间01"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level1.YH_UI_Volleyball_Btn_Level1",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "NPC_12600",
         "OpponentAIID2": "PVE_Level0_0",
@@ -60,47 +68,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::AIServe"
-},
+      },
       "ChangeLevel1_2": {
         "BelongChallengeID": "Change1",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_1_02"
-},
+          "Key": "UI_VolleyBall_PVE_1_02",
+          "SourceString": "热身时间02",
+          "LocalizedString": "热身时间02"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level1.YH_UI_Volleyball_Btn_Level1",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level1_1",
         "OpponentAIID2": "PVE_Level1_2",
@@ -109,47 +125,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel1_3": {
         "BelongChallengeID": "Change1",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_1_03"
-},
+          "Key": "UI_VolleyBall_PVE_1_03",
+          "SourceString": "热身时间03",
+          "LocalizedString": "热身时间03"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level1.YH_UI_Volleyball_Btn_Level1",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level1_3",
         "OpponentAIID2": "PVE_Level1_4",
@@ -158,47 +182,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel1_4": {
         "BelongChallengeID": "Change1",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_1_04"
-},
+          "Key": "UI_VolleyBall_PVE_1_04",
+          "SourceString": "热身时间04",
+          "LocalizedString": "热身时间04"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level1.YH_UI_Volleyball_Btn_Level1",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level1_5",
         "OpponentAIID2": "PVE_Level1_6",
@@ -207,47 +239,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel1_5": {
         "BelongChallengeID": "Change1",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_1_05"
-},
+          "Key": "UI_VolleyBall_PVE_1_05",
+          "SourceString": "热身时间05",
+          "LocalizedString": "热身时间05"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level1.YH_UI_Volleyball_Btn_Level1",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "NPC_12601",
         "OpponentAIID2": "NPC_12701",
@@ -256,47 +296,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel1_6": {
         "BelongChallengeID": "Change1",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_1_06"
-},
+          "Key": "UI_VolleyBall_PVE_1_06",
+          "SourceString": "热身时间06",
+          "LocalizedString": "热身时间06"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level1.YH_UI_Volleyball_Btn_Level1",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level2_1",
         "OpponentAIID2": "PVE_Level2_2",
@@ -305,47 +353,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel1_7": {
         "BelongChallengeID": "Change1",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_1_07"
-},
+          "Key": "UI_VolleyBall_PVE_1_07",
+          "SourceString": "热身时间07",
+          "LocalizedString": "热身时间07"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level1.YH_UI_Volleyball_Btn_Level1",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level2_3",
         "OpponentAIID2": "PVE_Level2_4",
@@ -354,47 +410,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel1_8": {
         "BelongChallengeID": "Change1",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_1_08"
-},
+          "Key": "UI_VolleyBall_PVE_1_08",
+          "SourceString": "热身时间08",
+          "LocalizedString": "热身时间08"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level1.YH_UI_Volleyball_Btn_Level1",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level2_5",
         "OpponentAIID2": "PVE_Level2_6",
@@ -403,47 +467,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel1_9": {
         "BelongChallengeID": "Change1",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_1_09"
-},
+          "Key": "UI_VolleyBall_PVE_1_09",
+          "SourceString": "热身时间09",
+          "LocalizedString": "热身时间09"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level1.YH_UI_Volleyball_Btn_Level1",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level2_7",
         "OpponentAIID2": "PVE_Level2_8",
@@ -452,47 +524,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel1_10": {
         "BelongChallengeID": "Change1",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_1_10"
-},
+          "Key": "UI_VolleyBall_PVE_1_10",
+          "SourceString": "热身时间10",
+          "LocalizedString": "热身时间10"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level1.YH_UI_Volleyball_Btn_Level1",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "1075",
         "OpponentAIID2": "PVE_Level2_9",
@@ -501,47 +581,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_1": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_01"
-},
+          "Key": "UI_VolleyBall_PVE_2_01",
+          "SourceString": "小展身手01",
+          "LocalizedString": "小展身手01"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "NPC_12602",
         "OpponentAIID2": "NPC_12702",
@@ -550,47 +638,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_2": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_02"
-},
+          "Key": "UI_VolleyBall_PVE_2_02",
+          "SourceString": "小展身手02",
+          "LocalizedString": "小展身手02"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level3_1",
         "OpponentAIID2": "PVE_Level3_2",
@@ -599,47 +695,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_3": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_03"
-},
+          "Key": "UI_VolleyBall_PVE_2_03",
+          "SourceString": "小展身手03",
+          "LocalizedString": "小展身手03"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level3_3",
         "OpponentAIID2": "PVE_Level3_4",
@@ -648,47 +752,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_4": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_04"
-},
+          "Key": "UI_VolleyBall_PVE_2_04",
+          "SourceString": "小展身手04",
+          "LocalizedString": "小展身手04"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level3_5",
         "OpponentAIID2": "PVE_Level3_6",
@@ -697,47 +809,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_5": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_05"
-},
+          "Key": "UI_VolleyBall_PVE_2_05",
+          "SourceString": "小展身手05",
+          "LocalizedString": "小展身手05"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "NPC_12603",
         "OpponentAIID2": "NPC_12703",
@@ -746,47 +866,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_6": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_06"
-},
+          "Key": "UI_VolleyBall_PVE_2_06",
+          "SourceString": "小展身手06",
+          "LocalizedString": "小展身手06"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level4_1",
         "OpponentAIID2": "PVE_Level4_2",
@@ -795,47 +923,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_7": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_07"
-},
+          "Key": "UI_VolleyBall_PVE_2_07",
+          "SourceString": "小展身手07",
+          "LocalizedString": "小展身手07"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level4_3",
         "OpponentAIID2": "PVE_Level4_4",
@@ -844,47 +980,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_8": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_08"
-},
+          "Key": "UI_VolleyBall_PVE_2_08",
+          "SourceString": "小展身手08",
+          "LocalizedString": "小展身手08"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level4_5",
         "OpponentAIID2": "PVE_Level4_6",
@@ -893,47 +1037,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_9": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_09"
-},
+          "Key": "UI_VolleyBall_PVE_2_09",
+          "SourceString": "小展身手09",
+          "LocalizedString": "小展身手09"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level4_7",
         "OpponentAIID2": "PVE_Level4_8",
@@ -942,47 +1094,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_10": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_10"
-},
+          "Key": "UI_VolleyBall_PVE_2_10",
+          "SourceString": "小展身手10",
+          "LocalizedString": "小展身手10"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "1010",
         "OpponentAIID2": "PVE_Level4_9",
@@ -991,47 +1151,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_11": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_11"
-},
+          "Key": "UI_VolleyBall_PVE_2_11",
+          "SourceString": "小展身手11",
+          "LocalizedString": "小展身手11"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level5_1",
         "OpponentAIID2": "PVE_Level5_2",
@@ -1040,47 +1208,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_12": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_12"
-},
+          "Key": "UI_VolleyBall_PVE_2_12",
+          "SourceString": "小展身手12",
+          "LocalizedString": "小展身手12"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level5_3",
         "OpponentAIID2": "PVE_Level5_4",
@@ -1089,47 +1265,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_13": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_13"
-},
+          "Key": "UI_VolleyBall_PVE_2_13",
+          "SourceString": "小展身手13",
+          "LocalizedString": "小展身手13"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level5_5",
         "OpponentAIID2": "PVE_Level5_6",
@@ -1138,47 +1322,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_14": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_14"
-},
+          "Key": "UI_VolleyBall_PVE_2_14",
+          "SourceString": "小展身手14",
+          "LocalizedString": "小展身手14"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level5_7",
         "OpponentAIID2": "PVE_Level5_8",
@@ -1187,47 +1379,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel2_15": {
         "BelongChallengeID": "Change2",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_2_15"
-},
+          "Key": "UI_VolleyBall_PVE_2_15",
+          "SourceString": "小展身手15",
+          "LocalizedString": "小展身手15"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level2.YH_UI_Volleyball_Btn_Level2",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "1076",
         "OpponentAIID2": "PVE_Level5_7",
@@ -1236,47 +1436,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_1": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_01"
-},
+          "Key": "UI_VolleyBall_PVE_3_01",
+          "SourceString": "渐入佳境01",
+          "LocalizedString": "渐入佳境01"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "NPC_12604",
         "OpponentAIID2": "NPC_12704",
@@ -1285,47 +1493,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_2": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_02"
-},
+          "Key": "UI_VolleyBall_PVE_3_02",
+          "SourceString": "渐入佳境02",
+          "LocalizedString": "渐入佳境02"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level6_1",
         "OpponentAIID2": "PVE_Level6_2",
@@ -1334,47 +1550,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_3": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_03"
-},
+          "Key": "UI_VolleyBall_PVE_3_03",
+          "SourceString": "渐入佳境03",
+          "LocalizedString": "渐入佳境03"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level6_3",
         "OpponentAIID2": "PVE_Level6_4",
@@ -1383,47 +1607,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_4": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_04"
-},
+          "Key": "UI_VolleyBall_PVE_3_04",
+          "SourceString": "渐入佳境04",
+          "LocalizedString": "渐入佳境04"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level6_5",
         "OpponentAIID2": "PVE_Level6_6",
@@ -1432,47 +1664,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_5": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_05"
-},
+          "Key": "UI_VolleyBall_PVE_3_05",
+          "SourceString": "渐入佳境05",
+          "LocalizedString": "渐入佳境05"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "1071",
         "OpponentAIID2": "PVE_Level6_7",
@@ -1481,47 +1721,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_6": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_06"
-},
+          "Key": "UI_VolleyBall_PVE_3_06",
+          "SourceString": "渐入佳境06",
+          "LocalizedString": "渐入佳境06"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level7_1",
         "OpponentAIID2": "PVE_Level7_2",
@@ -1530,47 +1778,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_7": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_07"
-},
+          "Key": "UI_VolleyBall_PVE_3_07",
+          "SourceString": "渐入佳境07",
+          "LocalizedString": "渐入佳境07"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level7_3",
         "OpponentAIID2": "PVE_Level7_4",
@@ -1579,47 +1835,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_8": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_08"
-},
+          "Key": "UI_VolleyBall_PVE_3_08",
+          "SourceString": "渐入佳境08",
+          "LocalizedString": "渐入佳境08"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level7_5",
         "OpponentAIID2": "PVE_Level7_6",
@@ -1628,47 +1892,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_9": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_09"
-},
+          "Key": "UI_VolleyBall_PVE_3_09",
+          "SourceString": "渐入佳境09",
+          "LocalizedString": "渐入佳境09"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level7_7",
         "OpponentAIID2": "PVE_Level7_8",
@@ -1677,47 +1949,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_10": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_10"
-},
+          "Key": "UI_VolleyBall_PVE_3_10",
+          "SourceString": "渐入佳境10",
+          "LocalizedString": "渐入佳境10"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level7_9",
         "OpponentAIID2": "PVE_Level7_10",
@@ -1726,47 +2006,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_11": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_11"
-},
+          "Key": "UI_VolleyBall_PVE_3_11",
+          "SourceString": "渐入佳境11",
+          "LocalizedString": "渐入佳境11"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level8_1",
         "OpponentAIID2": "PVE_Level8_2",
@@ -1775,47 +2063,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_12": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_12"
-},
+          "Key": "UI_VolleyBall_PVE_3_12",
+          "SourceString": "渐入佳境12",
+          "LocalizedString": "渐入佳境12"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level8_3",
         "OpponentAIID2": "PVE_Level8_4",
@@ -1824,47 +2120,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_13": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_13"
-},
+          "Key": "UI_VolleyBall_PVE_3_13",
+          "SourceString": "渐入佳境13",
+          "LocalizedString": "渐入佳境13"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level8_5",
         "OpponentAIID2": "PVE_Level8_6",
@@ -1873,47 +2177,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_14": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_14"
-},
+          "Key": "UI_VolleyBall_PVE_3_14",
+          "SourceString": "渐入佳境14",
+          "LocalizedString": "渐入佳境14"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level8_7",
         "OpponentAIID2": "PVE_Level8_8",
@@ -1922,47 +2234,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel3_15": {
         "BelongChallengeID": "Change3",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_3_15"
-},
+          "Key": "UI_VolleyBall_PVE_3_15",
+          "SourceString": "渐入佳境15",
+          "LocalizedString": "渐入佳境15"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level3.YH_UI_Volleyball_Btn_Level3",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "1036",
         "OpponentAIID2": "PVE_Level8_9",
@@ -1971,47 +2291,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel4_1": {
         "BelongChallengeID": "Change4",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_4_01"
-},
+          "Key": "UI_VolleyBall_PVE_4_01",
+          "SourceString": "职业赛场01",
+          "LocalizedString": "职业赛场01"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level4.YH_UI_Volleyball_Btn_Level4",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "NPC_12605",
         "OpponentAIID2": "NPC_12705",
@@ -2020,47 +2348,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel4_2": {
         "BelongChallengeID": "Change4",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_4_02"
-},
+          "Key": "UI_VolleyBall_PVE_4_02",
+          "SourceString": "职业赛场02",
+          "LocalizedString": "职业赛场02"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level4.YH_UI_Volleyball_Btn_Level4",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level9_1",
         "OpponentAIID2": "PVE_Level9_2",
@@ -2069,47 +2405,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel4_3": {
         "BelongChallengeID": "Change4",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_4_03"
-},
+          "Key": "UI_VolleyBall_PVE_4_03",
+          "SourceString": "职业赛场03",
+          "LocalizedString": "职业赛场03"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level4.YH_UI_Volleyball_Btn_Level4",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level9_3",
         "OpponentAIID2": "PVE_Level9_4",
@@ -2118,47 +2462,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel4_4": {
         "BelongChallengeID": "Change4",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_4_04"
-},
+          "Key": "UI_VolleyBall_PVE_4_04",
+          "SourceString": "职业赛场04",
+          "LocalizedString": "职业赛场04"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level4.YH_UI_Volleyball_Btn_Level4",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level9_5",
         "OpponentAIID2": "PVE_Level9_6",
@@ -2167,47 +2519,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel4_5": {
         "BelongChallengeID": "Change4",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_4_05"
-},
+          "Key": "UI_VolleyBall_PVE_4_05",
+          "SourceString": "职业赛场05",
+          "LocalizedString": "职业赛场05"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level4.YH_UI_Volleyball_Btn_Level4",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level9_7",
         "OpponentAIID2": "PVE_Level9_8",
@@ -2216,47 +2576,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel4_6": {
         "BelongChallengeID": "Change4",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_4_06"
-},
+          "Key": "UI_VolleyBall_PVE_4_06",
+          "SourceString": "职业赛场06",
+          "LocalizedString": "职业赛场06"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level4.YH_UI_Volleyball_Btn_Level4",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "NPC_12606",
         "OpponentAIID2": "NPC_12706",
@@ -2265,47 +2633,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel4_7": {
         "BelongChallengeID": "Change4",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_4_07"
-},
+          "Key": "UI_VolleyBall_PVE_4_07",
+          "SourceString": "职业赛场07",
+          "LocalizedString": "职业赛场07"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level4.YH_UI_Volleyball_Btn_Level4",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level9_9",
         "OpponentAIID2": "PVE_Level9_10",
@@ -2314,47 +2690,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel4_8": {
         "BelongChallengeID": "Change4",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_4_08"
-},
+          "Key": "UI_VolleyBall_PVE_4_08",
+          "SourceString": "职业赛场08",
+          "LocalizedString": "职业赛场08"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level4.YH_UI_Volleyball_Btn_Level4",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level9_11",
         "OpponentAIID2": "PVE_Level9_12",
@@ -2363,47 +2747,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel4_9": {
         "BelongChallengeID": "Change4",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_4_09"
-},
+          "Key": "UI_VolleyBall_PVE_4_09",
+          "SourceString": "职业赛场09",
+          "LocalizedString": "职业赛场09"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level4.YH_UI_Volleyball_Btn_Level4",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level9_13",
         "OpponentAIID2": "PVE_Level9_14",
@@ -2412,47 +2804,55 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-},
+      },
       "ChangeLevel4_10": {
         "BelongChallengeID": "Change4",
         "DifficultyName": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-          "Key": "UI_VolleyBall_PVE_4_10"
-},
+          "Key": "UI_VolleyBall_PVE_4_10",
+          "SourceString": "职业赛场10",
+          "LocalizedString": "职业赛场10"
+        },
         "bg": {
           "AssetPathName": "/Game/UI/UI/Volleyball/PVE/YH_UI_Volleyball_Btn_Level4.YH_UI_Volleyball_Btn_Level4",
           "SubPathString": ""
-},
+        },
         "PVEObjectives": [
           {
             "ObjectiveType": "EVolleyPVEObjectiveType::Win",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_1"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_1",
+              "SourceString": "赢得比赛",
+              "LocalizedString": "赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 6
-},
+          },
           {
             "SpikeCount": 1,
             "ObjectiveType": "EVolleyPVEObjectiveType::Spike",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_2"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_2",
+              "SourceString": "起跳扣球{0}次（轻扣不计）",
+              "LocalizedString": "起跳扣球{0}次（轻扣不计）"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-},
+          },
           {
             "LeadPoint": 3,
             "ObjectiveType": "EVolleyPVEObjectiveType::LeadPoint",
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
-              "Key": "UI_VolleyBall_PVE_TJ_4"
-},
+              "Key": "UI_VolleyBall_PVE_TJ_4",
+              "SourceString": "比分领先{0}分赢得比赛",
+              "LocalizedString": "比分领先{0}分赢得比赛"
+            },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 4
-}
+          }
         ],
         "OpponentAIID1": "PVE_Level9_15",
         "OpponentAIID2": "PVE_Level9_16",
@@ -2461,7 +2861,7 @@
         "WinChaExp": 100,
         "LoseChaExp": 50,
         "ServeType": "EBallServeType::RandomServe"
-}
+      }
     }
   }
 ]

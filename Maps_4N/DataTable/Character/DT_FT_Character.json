@@ -9,7 +9,7 @@
       "RowStruct": {
         "ObjectName": "Class'StaticItemData'",
         "ObjectPath": "/Script/HTGame"
-}
+      }
     },
     "Rows": {
       "ft_character_mint": {
@@ -19,19 +19,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019x100.player_019x100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_019_256.player_019_256",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_Player.ST_Player",
-          "Key": "Role_Name_019"
-},
+          "Key": "Role_Name_019",
+          "SourceString": "薄荷",
+          "LocalizedString": "薄荷"
+        },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -41,12 +43,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "NPC001_homeplace"
-},
+          "Key": "NPC001_homeplace",
+          "SourceString": "异象管理局收容二组",
+          "LocalizedString": "异象管理局收容二组"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "NPC001_introduction"
-},
+          "Key": "NPC001_introduction",
+          "SourceString": "如果能有评定，应该会是收容组内「被异象骗最多次」的人。",
+          "LocalizedString": "如果能有评定，应该会是收容组内「被异象骗最多次」的人。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -80,25 +86,29 @@
           "Job": "EFinalTowerJob::Warrior",
           "ArmorVoice": {
             "CultureInvariantString": null
-},
+          },
           "ReliveVoiceList": [
             {
               "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg.ST_IntroduceMsg",
-              "Key": "MainUI_Prologue_Mint_00001"
-},
+              "Key": "MainUI_Prologue_Mint_00001",
+              "SourceString": "唔，空间又发生改变了……",
+              "LocalizedString": "唔，空间又发生改变了……"
+            },
             {
               "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg.ST_IntroduceMsg",
-              "Key": "MainUI_Prologue_Mint_00006"
-}
+              "Key": "MainUI_Prologue_Mint_00006",
+              "SourceString": "嗯！我也闻到了！",
+              "LocalizedString": "嗯！我也闻到了！"
+            }
           ],
           "CharacterActorClass": {
             "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_Player_019_Mint.FT_Player_019_Mint_C",
             "SubPathString": ""
-},
+          },
           "UISimpleCharacterActorClass": {
             "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_PlayerUIShow_019.FT_PlayerUIShow_019_C",
             "SubPathString": ""
-},
+          },
           "PropModifyID": "Mint_base",
           "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
           "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_TWO",
@@ -111,24 +121,24 @@
           "AwakenSpineUI": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "MaxAwakenAwardDropId": "None",
           "ForkId": "None",
           "EquipmentSlotID": "None",
           "EquipBaseplateStaticMesh": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "EquipInnerReactionLayerStaticMesh": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "EquipmentHandleBaseLockedEffectIndex": -1,
           "UIScale": {
             "X": 1.0,
             "Y": 1.0,
             "Z": 1.0
-},
+          },
           "CameraUpHeight": 50.0,
           "CameraOffsets": 0.0,
           "ForkMeshOffsets": 0.0,
@@ -137,11 +147,11 @@
           "AbyssAssistBuff": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AbilityUIIcon": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AbilityUIColor": {
             "SpecifiedColor": {
               "R": 1.0,
@@ -149,17 +159,17 @@
               "B": 1.0,
               "A": 1.0,
               "Hex": "FF00FF"
-},
+            },
             "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-},
+          },
           "UIStackStyleTemplet": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "UIExCharacterSlotTemplate": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "SkillBtnExtraCustomUIClassMap": [],
           "bIsHoldWeapon": false,
           "MotionData": [],
@@ -170,13 +180,13 @@
           "CharacterIllustration": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CharacterTrackId": "None",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-},
+          },
           "LikeabilityID": "None",
           "bCheckShowTime": false,
           "ShowTime": {
@@ -187,7 +197,7 @@
               "Hour": 0,
               "minute": 0,
               "Second": 0
-},
+            },
             "OverseaTime": {
               "Year": 1,
               "Month": 1,
@@ -195,9 +205,9 @@
               "Hour": 0,
               "minute": 0,
               "Second": 0
-},
+            },
             "OverseaUseUTCTime": true
-},
+          },
           "AwakenAwards": [],
           "CharGenderType": "ECharGenderType::NoneGender",
           "FormationCharacterRotationArr": [
@@ -205,12 +215,12 @@
               "Pitch": 0.0,
               "Yaw": 0.0,
               "Roll": 0.0
-},
+            },
             {
               "Pitch": 0.0,
               "Yaw": 100.0,
               "Roll": 0.0
-}
+            }
           ]
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
@@ -219,19 +229,21 @@
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "lacrimosa_tag_0"
-},
+              "Key": "lacrimosa_tag_0",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 1.0,
@@ -239,26 +251,28 @@
                 "B": 1.0,
                 "A": 1.0,
                 "Hex": "FF00FF"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           },
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "lacrimosa_tag_1"
-},
+              "Key": "lacrimosa_tag_1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 0.686686,
@@ -266,9 +280,9 @@
                 "B": 0.078187,
                 "A": 1.0,
                 "Hex": "D84F4F"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           }
         ],
         "bIsLimitAmount": false,
@@ -278,23 +292,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "ft_character_1051": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CHARACTER",
         "ItemClassOverride": null,
@@ -302,19 +316,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009x100.player_009x100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_009_256.player_009_256",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_Player.ST_Player",
-          "Key": "Role_Name_009"
-},
+          "Key": "Role_Name_009",
+          "SourceString": "「零」",
+          "LocalizedString": "「零」"
+        },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -324,12 +340,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "ZERO_F_homeplace"
-},
+          "Key": "ZERO_F_homeplace",
+          "SourceString": "伊波恩古董店",
+          "LocalizedString": "伊波恩古董店"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "ZERO_F_introduction"
-},
+          "Key": "ZERO_F_introduction",
+          "SourceString": "迄今唯一一位无法检测出维特海默值的异能者。",
+          "LocalizedString": "迄今唯一一位无法检测出维特海默值的异能者。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -363,16 +383,16 @@
           "Job": "EFinalTowerJob::Swordman",
           "ArmorVoice": {
             "CultureInvariantString": null
-},
+          },
           "ReliveVoiceList": [],
           "CharacterActorClass": {
             "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_Player_051_Female.FT_Player_051_Female_C",
             "SubPathString": ""
-},
+          },
           "UISimpleCharacterActorClass": {
             "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_PlayerUIShow_051.FT_PlayerUIShow_051_C",
             "SubPathString": ""
-},
+          },
           "PropModifyID": "Female_base",
           "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
           "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_ONE",
@@ -385,24 +405,24 @@
           "AwakenSpineUI": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "MaxAwakenAwardDropId": "None",
           "ForkId": "None",
           "EquipmentSlotID": "None",
           "EquipBaseplateStaticMesh": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "EquipInnerReactionLayerStaticMesh": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "EquipmentHandleBaseLockedEffectIndex": -1,
           "UIScale": {
             "X": 1.0,
             "Y": 1.0,
             "Z": 1.0
-},
+          },
           "CameraUpHeight": 18.0,
           "CameraOffsets": 0.0,
           "ForkMeshOffsets": 0.0,
@@ -411,11 +431,11 @@
           "AbyssAssistBuff": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AbilityUIIcon": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AbilityUIColor": {
             "SpecifiedColor": {
               "R": 1.0,
@@ -423,17 +443,17 @@
               "B": 1.0,
               "A": 1.0,
               "Hex": "FF00FF"
-},
+            },
             "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-},
+          },
           "UIStackStyleTemplet": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "UIExCharacterSlotTemplate": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "SkillBtnExtraCustomUIClassMap": [],
           "bIsHoldWeapon": false,
           "MotionData": [],
@@ -444,13 +464,13 @@
           "CharacterIllustration": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CharacterTrackId": "None",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-},
+          },
           "LikeabilityID": "None",
           "bCheckShowTime": false,
           "ShowTime": {
@@ -461,7 +481,7 @@
               "Hour": 0,
               "minute": 0,
               "Second": 0
-},
+            },
             "OverseaTime": {
               "Year": 1,
               "Month": 1,
@@ -469,9 +489,9 @@
               "Hour": 0,
               "minute": 0,
               "Second": 0
-},
+            },
             "OverseaUseUTCTime": true
-},
+          },
           "AwakenAwards": [],
           "CharGenderType": "ECharGenderType::NoneGender",
           "FormationCharacterRotationArr": [
@@ -479,7 +499,7 @@
               "Pitch": 0.0,
               "Yaw": 100.0,
               "Roll": 0.0
-}
+            }
           ]
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
@@ -488,19 +508,21 @@
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "lacrimosa_tag_0"
-},
+              "Key": "lacrimosa_tag_0",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 1.0,
@@ -508,26 +530,28 @@
                 "B": 1.0,
                 "A": 1.0,
                 "Hex": "FF00FF"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           },
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "Female_tag_2"
-},
+              "Key": "Female_tag_2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 0.597202,
@@ -535,26 +559,28 @@
                 "B": 0.223228,
                 "A": 1.0,
                 "Hex": "CB4C82"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           },
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "Female_tag_1"
-},
+              "Key": "Female_tag_1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 0.686686,
@@ -562,9 +588,9 @@
                 "B": 0.078187,
                 "A": 1.0,
                 "Hex": "D84F4F"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           }
         ],
         "bIsLimitAmount": false,
@@ -574,23 +600,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "ft_character_1046": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CHARACTER",
         "ItemClassOverride": null,
@@ -598,19 +624,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_046.player_046",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/100/player_046x100.player_046x100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_046_256.player_046_256",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_Player.ST_Player",
-          "Key": "Role_Name_009"
-},
+          "Key": "Role_Name_009",
+          "SourceString": "「零」",
+          "LocalizedString": "「零」"
+        },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -620,12 +648,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "ZERO_F_homeplace"
-},
+          "Key": "ZERO_F_homeplace",
+          "SourceString": "伊波恩古董店",
+          "LocalizedString": "伊波恩古董店"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "ZERO_F_introduction"
-},
+          "Key": "ZERO_F_introduction",
+          "SourceString": "迄今唯一一位无法检测出维特海默值的异能者。",
+          "LocalizedString": "迄今唯一一位无法检测出维特海默值的异能者。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -659,16 +691,16 @@
           "Job": "EFinalTowerJob::Swordman",
           "ArmorVoice": {
             "CultureInvariantString": null
-},
+          },
           "ReliveVoiceList": [],
           "CharacterActorClass": {
             "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_player_046_male.FT_player_046_male_C",
             "SubPathString": ""
-},
+          },
           "UISimpleCharacterActorClass": {
             "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_PlayerUIShow_046.FT_PlayerUIShow_046_C",
             "SubPathString": ""
-},
+          },
           "PropModifyID": "Female_base",
           "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
           "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_ONE",
@@ -681,24 +713,24 @@
           "AwakenSpineUI": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "MaxAwakenAwardDropId": "None",
           "ForkId": "None",
           "EquipmentSlotID": "None",
           "EquipBaseplateStaticMesh": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "EquipInnerReactionLayerStaticMesh": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "EquipmentHandleBaseLockedEffectIndex": -1,
           "UIScale": {
             "X": 1.0,
             "Y": 1.0,
             "Z": 1.0
-},
+          },
           "CameraUpHeight": 50.0,
           "CameraOffsets": 0.0,
           "ForkMeshOffsets": 0.0,
@@ -707,11 +739,11 @@
           "AbyssAssistBuff": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AbilityUIIcon": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AbilityUIColor": {
             "SpecifiedColor": {
               "R": 1.0,
@@ -719,17 +751,17 @@
               "B": 1.0,
               "A": 1.0,
               "Hex": "FF00FF"
-},
+            },
             "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-},
+          },
           "UIStackStyleTemplet": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "UIExCharacterSlotTemplate": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "SkillBtnExtraCustomUIClassMap": [],
           "bIsHoldWeapon": false,
           "MotionData": [],
@@ -740,13 +772,13 @@
           "CharacterIllustration": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CharacterTrackId": "None",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-},
+          },
           "LikeabilityID": "None",
           "bCheckShowTime": false,
           "ShowTime": {
@@ -757,7 +789,7 @@
               "Hour": 0,
               "minute": 0,
               "Second": 0
-},
+            },
             "OverseaTime": {
               "Year": 1,
               "Month": 1,
@@ -765,9 +797,9 @@
               "Hour": 0,
               "minute": 0,
               "Second": 0
-},
+            },
             "OverseaUseUTCTime": true
-},
+          },
           "AwakenAwards": [],
           "CharGenderType": "ECharGenderType::NoneGender",
           "FormationCharacterRotationArr": [
@@ -775,7 +807,7 @@
               "Pitch": 0.0,
               "Yaw": 100.0,
               "Roll": 0.0
-}
+            }
           ]
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
@@ -784,19 +816,21 @@
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "lacrimosa_tag_0"
-},
+              "Key": "lacrimosa_tag_0",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 1.0,
@@ -804,26 +838,28 @@
                 "B": 1.0,
                 "A": 1.0,
                 "Hex": "FF00FF"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           },
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "Female_tag_2"
-},
+              "Key": "Female_tag_2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 0.597202,
@@ -831,26 +867,28 @@
                 "B": 0.223228,
                 "A": 1.0,
                 "Hex": "CB4C82"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           },
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "Female_tag_1"
-},
+              "Key": "Female_tag_1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 0.686686,
@@ -858,9 +896,9 @@
                 "B": 0.078187,
                 "A": 1.0,
                 "Hex": "D84F4F"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           }
         ],
         "bIsLimitAmount": false,
@@ -870,23 +908,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "ft_character_1075": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CHARACTER",
         "ItemClassOverride": null,
@@ -894,19 +932,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_yiluoyi.player_yiluoyi",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/100/player_yiluoyi_100.player_yiluoyi_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_yiluoyi_256.player_yiluoyi_256",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_Player.ST_Player",
-          "Key": "Role_Name_075"
-},
+          "Key": "Role_Name_075",
+          "SourceString": "伊洛伊",
+          "LocalizedString": "伊洛伊"
+        },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -916,12 +956,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "F_NPC026_006"
-},
+          "Key": "F_NPC026_006",
+          "SourceString": "德沃夏克家族",
+          "LocalizedString": "德沃夏克家族"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "F_NPC026_007"
-},
+          "Key": "F_NPC026_007",
+          "SourceString": "虽然看起来有些胆小却是粉爪银行最靠谱的经理。",
+          "LocalizedString": "虽然看起来有些胆小却是粉爪银行最靠谱的经理。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -955,16 +999,16 @@
           "Job": "EFinalTowerJob::Mage",
           "ArmorVoice": {
             "CultureInvariantString": null
-},
+          },
           "ReliveVoiceList": [],
           "CharacterActorClass": {
             "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_Player_075_Oneiroi.FT_Player_075_Oneiroi_C",
             "SubPathString": ""
-},
+          },
           "UISimpleCharacterActorClass": {
             "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_PlayerUIShow_075.FT_PlayerUIShow_075_C",
             "SubPathString": ""
-},
+          },
           "PropModifyID": "oneiroi_base",
           "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
           "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_FOUR",
@@ -977,24 +1021,24 @@
           "AwakenSpineUI": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "MaxAwakenAwardDropId": "None",
           "ForkId": "None",
           "EquipmentSlotID": "None",
           "EquipBaseplateStaticMesh": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "EquipInnerReactionLayerStaticMesh": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "EquipmentHandleBaseLockedEffectIndex": -1,
           "UIScale": {
             "X": 1.0,
             "Y": 1.0,
             "Z": 1.0
-},
+          },
           "CameraUpHeight": 28.0,
           "CameraOffsets": 0.0,
           "ForkMeshOffsets": 8.0,
@@ -1003,11 +1047,11 @@
           "AbyssAssistBuff": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AbilityUIIcon": {
             "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_character_xiaozhi.YH_lihui_character_xiaozhi",
             "SubPathString": ""
-},
+          },
           "AbilityUIColor": {
             "SpecifiedColor": {
               "R": 1.0,
@@ -1015,17 +1059,17 @@
               "B": 1.0,
               "A": 1.0,
               "Hex": "FF00FF"
-},
+            },
             "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-},
+          },
           "UIStackStyleTemplet": {
             "AssetPathName": "/Game/UI/Blueprints/Skill/BufferStack/BPUI_Oneiroi.BPUI_Oneiroi_C",
             "SubPathString": ""
-},
+          },
           "UIExCharacterSlotTemplate": {
             "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterSlotOneiroiExtraMoon_FT.BPUI_CharacterSlotOneiroiExtraMoon_FT_C",
             "SubPathString": ""
-},
+          },
           "SkillBtnExtraCustomUIClassMap": [],
           "bIsHoldWeapon": false,
           "MotionData": [],
@@ -1036,13 +1080,13 @@
           "CharacterIllustration": {
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_yiluoyi.YH_UI_shizhuang_big_yiluoyi",
             "SubPathString": ""
-},
+          },
           "CharacterTrackId": "None",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-},
+          },
           "LikeabilityID": "None",
           "bCheckShowTime": false,
           "ShowTime": {
@@ -1053,7 +1097,7 @@
               "Hour": 0,
               "minute": 0,
               "Second": 0
-},
+            },
             "OverseaTime": {
               "Year": 1,
               "Month": 1,
@@ -1061,9 +1105,9 @@
               "Hour": 0,
               "minute": 0,
               "Second": 0
-},
+            },
             "OverseaUseUTCTime": true
-},
+          },
           "AwakenAwards": [],
           "CharGenderType": "ECharGenderType::NoneGender",
           "FormationCharacterRotationArr": [
@@ -1071,17 +1115,17 @@
               "Pitch": 0.0,
               "Yaw": 0.0,
               "Roll": 0.0
-},
+            },
             {
               "Pitch": 0.0,
               "Yaw": 0.0,
               "Roll": 0.0
-},
+            },
             {
               "Pitch": 0.0,
               "Yaw": 120.0,
               "Roll": 0.0
-}
+            }
           ]
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
@@ -1090,19 +1134,21 @@
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "lacrimosa_tag_0"
-},
+              "Key": "lacrimosa_tag_0",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 1.0,
@@ -1110,26 +1156,28 @@
                 "B": 1.0,
                 "A": 1.0,
                 "Hex": "FF00FF"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           },
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "Female_tag_2"
-},
+              "Key": "Female_tag_2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 0.597202,
@@ -1137,26 +1185,28 @@
                 "B": 0.223228,
                 "A": 1.0,
                 "Hex": "CB4C82"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           },
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "Female_tag_1"
-},
+              "Key": "Female_tag_1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 0.686686,
@@ -1164,9 +1214,9 @@
                 "B": 0.078187,
                 "A": 1.0,
                 "Hex": "D84F4F"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           }
         ],
         "bIsLimitAmount": false,
@@ -1176,23 +1226,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "ft_character_1076": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CHARACTER",
         "ItemClassOverride": null,
@@ -1200,19 +1250,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_zhenhong.player_zhenhong",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/100/player_zhenhong_100.player_zhenhong_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_zhenhong_256.player_zhenhong_256",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_Player.ST_Player",
-          "Key": "Role_Name_076"
-},
+          "Key": "Role_Name_076",
+          "SourceString": "真红",
+          "LocalizedString": "真红"
+        },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -1222,12 +1274,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "ZERO_F_homeplace"
-},
+          "Key": "ZERO_F_homeplace",
+          "SourceString": "伊波恩古董店",
+          "LocalizedString": "伊波恩古董店"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
-          "Key": "ZERO_F_introduction"
-},
+          "Key": "ZERO_F_introduction",
+          "SourceString": "迄今唯一一位无法检测出维特海默值的异能者。",
+          "LocalizedString": "迄今唯一一位无法检测出维特海默值的异能者。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -1261,16 +1317,16 @@
           "Job": "EFinalTowerJob::Civilian",
           "ArmorVoice": {
             "CultureInvariantString": null
-},
+          },
           "ReliveVoiceList": [],
           "CharacterActorClass": {
             "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_Player_076_shinku.FT_Player_076_shinku_C",
             "SubPathString": ""
-},
+          },
           "UISimpleCharacterActorClass": {
             "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Player/FT_PlayerUIShow_076.FT_PlayerUIShow_076_C",
             "SubPathString": ""
-},
+          },
           "PropModifyID": "shinku_base",
           "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
           "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_FIVE",
@@ -1284,84 +1340,84 @@
               "HeadIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs44.jxcs44",
                 "SubPathString": ""
-},
+              },
               "MaskIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs38.jxcs38",
                 "SubPathString": ""
-}
+              }
             },
             {
               "HeadIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs46.jxcs46",
                 "SubPathString": ""
-},
+              },
               "MaskIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs40.jxcs40",
                 "SubPathString": ""
-}
+              }
             },
             {
               "HeadIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs43.jxcs43",
                 "SubPathString": ""
-},
+              },
               "MaskIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs37.jxcs37",
                 "SubPathString": ""
-}
+              }
             },
             {
               "HeadIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs47.jxcs47",
                 "SubPathString": ""
-},
+              },
               "MaskIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs41.jxcs41",
                 "SubPathString": ""
-}
+              }
             },
             {
               "HeadIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs48.jxcs48",
                 "SubPathString": ""
-},
+              },
               "MaskIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs42.jxcs42",
                 "SubPathString": ""
-}
+              }
             },
             {
               "HeadIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs45.jxcs45",
                 "SubPathString": ""
-},
+              },
               "MaskIcon": {
                 "AssetPathName": "/Game/UI/UI_Icon/Awaken/cs/jxcs39.jxcs39",
                 "SubPathString": ""
-}
+              }
             }
           ],
           "AwakenSpineUI": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "MaxAwakenAwardDropId": "None",
           "ForkId": "None",
           "EquipmentSlotID": "None",
           "EquipBaseplateStaticMesh": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "EquipInnerReactionLayerStaticMesh": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "EquipmentHandleBaseLockedEffectIndex": -1,
           "UIScale": {
             "X": 1.0,
             "Y": 1.0,
             "Z": 1.0
-},
+          },
           "CameraUpHeight": 36.0,
           "CameraOffsets": 11.5,
           "ForkMeshOffsets": 20.0,
@@ -1370,11 +1426,11 @@
           "AbyssAssistBuff": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AbilityUIIcon": {
             "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_fashionshop_zhenhong.YH_lihui_fashionshop_zhenhong",
             "SubPathString": ""
-},
+          },
           "AbilityUIColor": {
             "SpecifiedColor": {
               "R": 1.0,
@@ -1382,17 +1438,17 @@
               "B": 1.0,
               "A": 1.0,
               "Hex": "FF00FF"
-},
+            },
             "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-},
+          },
           "UIStackStyleTemplet": {
             "AssetPathName": "/Game/UI/Blueprints/Skill/BufferStack/BPUI_BufferStack_Shinku.BPUI_BufferStack_Shinku_C",
             "SubPathString": ""
-},
+          },
           "UIExCharacterSlotTemplate": {
             "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterSlotShinku_FT.BPUI_CharacterSlotShinku_FT_C",
             "SubPathString": ""
-},
+          },
           "SkillBtnExtraCustomUIClassMap": [],
           "bIsHoldWeapon": false,
           "MotionData": [],
@@ -1403,13 +1459,13 @@
           "CharacterIllustration": {
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_zhenhong.YH_UI_shizhuang_big_zhenhong",
             "SubPathString": ""
-},
+          },
           "CharacterTrackId": "None",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-},
+          },
           "LikeabilityID": "None",
           "bCheckShowTime": false,
           "ShowTime": {
@@ -1420,7 +1476,7 @@
               "Hour": 0,
               "minute": 0,
               "Second": 0
-},
+            },
             "OverseaTime": {
               "Year": 1,
               "Month": 1,
@@ -1428,9 +1484,9 @@
               "Hour": 0,
               "minute": 0,
               "Second": 0
-},
+            },
             "OverseaUseUTCTime": true
-},
+          },
           "AwakenAwards": [],
           "CharGenderType": "ECharGenderType::NoneGender",
           "FormationCharacterRotationArr": [
@@ -1438,22 +1494,22 @@
               "Pitch": 0.0,
               "Yaw": 0.0,
               "Roll": 0.0
-},
+            },
             {
               "Pitch": 0.0,
               "Yaw": 0.0,
               "Roll": 0.0
-},
+            },
             {
               "Pitch": 0.0,
               "Yaw": 0.0,
               "Roll": 0.0
-},
+            },
             {
               "Pitch": 0.0,
               "Yaw": 130.0,
               "Roll": 0.0
-}
+            }
           ]
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
@@ -1462,19 +1518,21 @@
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "lacrimosa_tag_0"
-},
+              "Key": "lacrimosa_tag_0",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 1.0,
@@ -1482,26 +1540,28 @@
                 "B": 1.0,
                 "A": 1.0,
                 "Hex": "FF00FF"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           },
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "Female_tag_2"
-},
+              "Key": "Female_tag_2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 0.597202,
@@ -1509,26 +1569,28 @@
                 "B": 0.223228,
                 "A": 1.0,
                 "Hex": "CB4C82"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           },
           {
             "TagText": {
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
-              "Key": "Female_tag_1"
-},
+              "Key": "Female_tag_1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
             "TagBgIcon": {
               "AssetPathName": "",
               "SubPathString": ""
-},
+            },
             "TagIcon": {
               "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
               "SubPathString": ""
-},
+            },
             "TagDesc": {
               "CultureInvariantString": null
-},
+            },
             "TagColorBgColor": {
               "SpecifiedColor": {
                 "R": 0.686686,
@@ -1536,9 +1598,9 @@
                 "B": 0.078187,
                 "A": 1.0,
                 "Hex": "D84F4F"
-},
+              },
               "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-}
+            }
           }
         ],
         "bIsLimitAmount": false,
@@ -1548,23 +1610,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-}
+      }
     }
   }
 ]

@@ -10,20 +10,22 @@
         "SlotBackTexture2D": {
           "AssetPathName": "/Game/UI/UI/Gacha/Sideillustrate/sideillustrate_kaesi.sideillustrate_kaesi",
           "SubPathString": ""
-},
+        },
         "SlotNameText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Lottery_Kachimingcheng_kaesi"
-}
+          "Key": "Lottery_Kachimingcheng_kaesi",
+          "SourceString": "无归路",
+          "LocalizedString": "无归路"
+        }
       },
       "SuperCostItem": {
         "ItemID": "Dicelimite_kaesi",
         "ItemCount": 1
-},
+      },
       "MainCostItem": {
         "ItemID": "Dicelimite",
         "ItemCount": 1
-},
+      },
       "bActivityPool": true,
       "PoolTypeID": "ECardPoolType::CardPool_Character",
       "PoolGuaranteeCount": 90,
@@ -41,14 +43,14 @@
             "X": 40.0,
             "Y": 90.0,
             "Z": 20.0
-},
+          },
           "DropID": "drop_Monopoly_chase",
           "RequireMaxTime": 3,
           "DiceNum": 2,
           "ChaseActorClass": {
             "AssetPathName": "/Game/UI/Blueprints/Monopoly/BP_MonopolyChaseActor.BP_MonopolyChaseActor_C",
             "SubPathString": ""
-}
+          }
         },
         {
           "ChaseId": "49",
@@ -58,14 +60,14 @@
             "X": 40.0,
             "Y": 90.0,
             "Z": 20.0
-},
+          },
           "DropID": "drop_Monopoly_chase",
           "RequireMaxTime": 3,
           "DiceNum": 2,
           "ChaseActorClass": {
             "AssetPathName": "/Game/UI/Blueprints/Monopoly/BP_MonopolyChaseActor.BP_MonopolyChaseActor_C",
             "SubPathString": ""
-}
+          }
         }
       ],
       "DiceExtraDropId": "drop_Monopoly_purpleExtra",
@@ -82,17 +84,17 @@
             "B": 0.298366,
             "A": 1.0,
             "Hex": "FFFF95"
-},
+          },
           "Scale3D": {
             "X": 0.9,
             "Y": 0.9,
             "Z": 0.9
-},
+          },
           "Size": 1.4,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 1.0,
           "ColorShine": {
@@ -101,29 +103,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_B.MI_drawcards_Quality_LOGO_B",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_SCharacter_Inst.M_Card_SCharacter_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Common/MI_Box_05.MI_Box_05",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/M_Decal.M_Decal",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Other"
-},
+        },
         {
           "CellType": "Kaesi_Dice_LessDice",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Dice_1",
@@ -135,17 +137,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "F000FF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.0,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 1.0,
           "ColorShine": {
@@ -154,29 +156,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
-},
+        },
         {
           "CellType": "Kaesi_Dice_MoreDice",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Dice_4",
@@ -188,17 +190,17 @@
             "B": 0.298366,
             "A": 1.0,
             "Hex": "FFFF95"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.0,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 1.0,
           "ColorShine": {
@@ -207,29 +209,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_B.MI_drawcards_Quality_LOGO_B",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Orange_Inst.M_Card_Orange_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Orange"
-},
+        },
         {
           "CellType": "Kaesi_Box_LowBox",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Box",
@@ -241,17 +243,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "F000FF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.2,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 0.0,
           "ColorShine": {
@@ -260,29 +262,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
-},
+        },
         {
           "CellType": "Kaesi_Box_HighBox",
           "CellClass": "EMonopolyBoardCellType::EMBCT_SuperBox",
@@ -294,17 +296,17 @@
             "B": 0.298366,
             "A": 1.0,
             "Hex": "FFFF95"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.2,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 0.0,
           "ColorShine": {
@@ -313,29 +315,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_B.MI_drawcards_Quality_LOGO_B",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Orange_Inst.M_Card_Orange_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Orange"
-},
+        },
         {
           "CellType": "Kaesi_Fork_RandomFork",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Fork_4",
@@ -347,17 +349,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "F000FF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.0,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 0.0,
           "ColorShine": {
@@ -366,29 +368,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
-},
+        },
         {
           "CellType": "Kaesi_Character_Yi",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
@@ -400,17 +402,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "F000FF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.3,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 1.0,
           "ColorShine": {
@@ -419,29 +421,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
-},
+        },
         {
           "CellType": "Kaesi_Character_BoHe",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
@@ -453,17 +455,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "F000FF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.3,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 1.0,
           "ColorShine": {
@@ -472,29 +474,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
-},
+        },
         {
           "CellType": "Kaesi_Character_ADeLe",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
@@ -506,17 +508,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "F000FF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.3,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 1.0,
           "ColorShine": {
@@ -525,29 +527,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
-},
+        },
         {
           "CellType": "Kaesi_Character_KaDeJia",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
@@ -559,17 +561,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "F000FF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.3,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 1.0,
           "ColorShine": {
@@ -578,29 +580,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
-},
+        },
         {
           "CellType": "Kaesi_Character_HaNiYa",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
@@ -612,17 +614,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "F000FF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.3,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 1.0,
           "ColorShine": {
@@ -631,29 +633,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
-},
+        },
         {
           "CellType": "Kaesi_Character_HaiYue",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Character_4",
@@ -665,17 +667,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "F000FF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.3,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_02.MI_UI_Random_02",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 1.0,
           "ColorShine": {
@@ -684,29 +686,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Purple_Inst.M_Card_Purple_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
-},
+        },
         {
           "CellType": "Kaesi_Chess_MiDie",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_50",
@@ -718,17 +720,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "6DFFFF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.0,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 0.0,
           "ColorShine": {
@@ -737,29 +739,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO.MI_drawcards_Quality_LOGO",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Blue"
-},
+        },
         {
           "CellType": "Kaesi_Chess_LessMiDie",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Chess_30",
@@ -771,17 +773,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "6DFFFF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.0,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_Dice_01.MI_Dice_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 1.0,
           "ColorShine": {
@@ -790,29 +792,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO.MI_drawcards_Quality_LOGO",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Blue"
-},
+        },
         {
           "CellType": "Kaesi_OutFits_Character",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Character_Skin",
@@ -824,17 +826,17 @@
             "B": 0.298366,
             "A": 1.0,
             "Hex": "FFFF95"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.3,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 0.0,
           "ColorShine": {
@@ -843,29 +845,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_B.MI_drawcards_Quality_LOGO_B",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Orange_Inst.M_Card_Orange_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Common/MI_Box_05.MI_Box_05",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/M_Decal.M_Decal",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Orange"
-},
+        },
         {
           "CellType": "Kaesi_OutFits_Vehicle",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Vehicle_Skin",
@@ -877,17 +879,17 @@
             "B": 0.298366,
             "A": 1.0,
             "Hex": "FFFF95"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.3,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_02.MI_UI_Random_02",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 0.0,
           "ColorShine": {
@@ -896,29 +898,29 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_B.MI_drawcards_Quality_LOGO_B",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Orange_Inst.M_Card_Orange_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Orange"
-},
+        },
         {
           "CellType": "Kaesi_OutFits_Xiupa",
           "CellClass": "EMonopolyBoardCellType::EMBCT_Glider_Skin",
@@ -930,17 +932,17 @@
             "B": 3.0,
             "A": 1.0,
             "Hex": "F000FF"
-},
+          },
           "Scale3D": {
             "X": 0.6,
             "Y": 0.6,
             "Z": 0.6
-},
+          },
           "Size": 1.3,
           "SkinMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Anomaly/MI_UI_Random_01.MI_UI_Random_01",
             "SubPathString": ""
-},
+          },
           "ShineColorSwitch": 0.0,
           "ShineInrensity": 0.0,
           "ColorShine": {
@@ -949,60 +951,64 @@
             "B": 0.0,
             "A": 0.0,
             "Hex": "000000"
-},
+          },
           "PlaneMaterialPtr": {
             "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_drawcards/Material/MI_drawcards_Quality_LOGO_A.MI_drawcards_Quality_LOGO_A",
             "SubPathString": ""
-},
+          },
           "SkinQualityMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "AwardPlaneMaterialPtr": {
             "AssetPathName": "/Game/FX/Mat/Scene/Drawcards/M_Card_Orange_Inst.M_Card_Orange_Inst",
             "SubPathString": ""
-},
+          },
           "AwardDecalMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "FloorMaterialPtr": {
             "AssetPathName": "",
             "SubPathString": ""
-},
+          },
           "CellQuality": "EMonopolyCellQuality::EMCQ_Purple"
-}
+        }
       ],
       "ActivityTrialDatas": [
         {
           "MainCharacterId": "1071",
           "TrialID": "Lottery_Kaesi",
           "bNeedTrial": true
-},
+        },
         {
           "MainCharacterId": "1020",
           "TrialID": "Lottery_Kaesi",
           "bNeedTrial": false
-},
+        },
         {
           "MainCharacterId": "1070",
           "TrialID": "Lottery_Kaesi",
           "bNeedTrial": false
-},
+        },
         {
           "MainCharacterId": "1008",
           "TrialID": "Lottery_Kaesi",
           "bNeedTrial": true
-}
+        }
       ],
       "CharacterTitle": {
         "TableId": "/Game/Text/ST_Ui.ST_Ui",
-        "Key": "BPUI_LotteryPoolList_yixiajuesegexianshichuxian"
-},
+        "Key": "BPUI_LotteryPoolList_yixiajuesegexianshichuxian",
+        "SourceString": "以下角色的于此同行限时出现在棋盘上",
+        "LocalizedString": "以下角色的于此同行限时出现在棋盘上"
+      },
       "SkinTitle": {
         "TableId": "/Game/Text/ST_Ui.ST_Ui",
-        "Key": "BPUI_LotteryPoolList_Fashion_kaesiDes"
-},
+        "Key": "BPUI_LotteryPoolList_Fashion_kaesiDes",
+        "SourceString": "以下装扮限时出现在棋盘上，其中<Orange>「猎犬奔袭-涂装」</>仅适用于「Novis ST-X 950」车型，具体概率见规则说明。",
+        "LocalizedString": "以下装扮限时出现在棋盘上，其中<Orange>「猎犬奔袭-涂装」</>仅适用于「Novis ST-X 950」车型，具体概率见规则说明。"
+      },
       "SkinIds": [
         "Fashion_character_1071_01",
         "Fashion_vehicle_1071_V010",
@@ -1044,84 +1050,100 @@
       ],
       "MarketplaceDes": {
         "TableId": "/Game/Text/ST_Ui.ST_Ui",
-        "Key": "LotteryDes_Jishishuoming_KaesiDes"
-},
+        "Key": "LotteryDes_Jishishuoming_KaesiDes",
+        "SourceString": "1.<Orange>「无归路」</>属于<Orange>「限定棋盘」</>。\r\n2.消耗质实骰子将等概率获得1至6点移动点数，并移动至对应格子内获得所示道具。\r\n3.所有「限定棋盘」共享S级角色保底计数、集点赠礼计数和棋盘变格计数。\r\n4.「无归路」的装扮礼遇为<Orange>限时活动</>，其跟随「无归路」棋盘出现，不与其他限定棋盘共用；本期装扮礼遇包含【今日穿搭】、【改装时刻·涂装】、【风向标】。",
+        "LocalizedString": "1.<Orange>「无归路」</>属于<Orange>「限定棋盘」</>。\r\n2.消耗质实骰子将等概率获得1至6点移动点数，并移动至对应格子内获得所示道具。\r\n3.所有「限定棋盘」共享S级角色保底计数、集点赠礼计数和棋盘变格计数。\r\n4.「无归路」的装扮礼遇为<Orange>限时活动</>，其跟随「无归路」棋盘出现，不与其他限定棋盘共用；本期装扮礼遇包含【今日穿搭】、【改装时刻·涂装】、【风向标】。"
+      },
       "PoolSubDes": {
         "TableId": "/Game/Text/ST_Ui.ST_Ui",
-        "Key": "LotteryDes_Zhuangbanliyu_Des"
-},
+        "Key": "LotteryDes_Zhuangbanliyu_Des",
+        "SourceString": "<Black>【今日穿搭】</>\r\n1.今日穿搭的进入概率为<Orange>0.3300%</>。\r\n2.今日穿搭中必定获得角色时装，首次获得角色时装的综合概率（含保底）为<Orange>0.6800%</>。\r\n3.在当期棋盘中累计投掷<Orange>200</>次，可在「装扮礼遇」处领取角色时装。该计数将保留在后续同名棋盘的装扮礼遇活动中。\r\n4.当第2次及之后获得相同角色时装时，每次会变为获得16个失纬棋子。\r\n<Black>【改装时刻·涂装】</>\r\n1.改装时刻·涂装的进入概率为<Orange>0.3300%</>。\r\n2.改装时刻·涂装中必定获得载具涂装，首次获得载具涂装的综合概率（含保底）为<Orange>1.0000%</>。\r\n3.在当期棋盘中累计投掷<Orange>120</>次，可在「装扮礼遇」处领取载具涂装。该计数将保留在后续同名棋盘的装扮礼遇活动中。\r\n4.当第2次及之后获得相同载具涂装时，每次会变为获得16个失纬棋子。\r\n<Black>【风向标】</>\r\n1.风向标的进入概率为<Orange>1.7100%</>。\r\n2.风向标中必定获得滑翔翼皮肤，首次获得滑翔翼皮肤的综合概率（含保底）为<Orange>2.9600%</>。\r\n3.在当期棋盘中累计投掷<Orange>50</>次，可在「装扮礼遇」处领取滑翔翼皮肤。该计数将保留在后续同名棋盘的装扮礼遇活动中。\r\n4.当第2次及之后获得相同滑翔翼皮肤时，每次会变为获得4个失纬棋子。",
+        "LocalizedString": "<Black>【今日穿搭】</>\r\n1.今日穿搭的进入概率为<Orange>0.3300%</>。\r\n2.今日穿搭中必定获得角色时装，首次获得角色时装的综合概率（含保底）为<Orange>0.6800%</>。\r\n3.在当期棋盘中累计投掷<Orange>200</>次，可在「装扮礼遇」处领取角色时装。该计数将保留在后续同名棋盘的装扮礼遇活动中。\r\n4.当第2次及之后获得相同角色时装时，每次会变为获得16个失纬棋子。\r\n<Black>【改装时刻·涂装】</>\r\n1.改装时刻·涂装的进入概率为<Orange>0.3300%</>。\r\n2.改装时刻·涂装中必定获得载具涂装，首次获得载具涂装的综合概率（含保底）为<Orange>1.0000%</>。\r\n3.在当期棋盘中累计投掷<Orange>120</>次，可在「装扮礼遇」处领取载具涂装。该计数将保留在后续同名棋盘的装扮礼遇活动中。\r\n4.当第2次及之后获得相同载具涂装时，每次会变为获得16个失纬棋子。\r\n<Black>【风向标】</>\r\n1.风向标的进入概率为<Orange>1.7100%</>。\r\n2.风向标中必定获得滑翔翼皮肤，首次获得滑翔翼皮肤的综合概率（含保底）为<Orange>2.9600%</>。\r\n3.在当期棋盘中累计投掷<Orange>50</>次，可在「装扮礼遇」处领取滑翔翼皮肤。该计数将保留在后续同名棋盘的装扮礼遇活动中。\r\n4.当第2次及之后获得相同滑翔翼皮肤时，每次会变为获得4个失纬棋子。"
+      },
       "CharacterForkProbabilityDes": {
         "TableId": "/Game/Text/ST_Ui.ST_Ui",
-        "Key": "LotteryDes_XiandingJuesejihupanhuoqugailv_Des"
-},
+        "Key": "LotteryDes_XiandingJuesejihupanhuoqugailv_Des",
+        "SourceString": "<Black>【限定S级角色】</>\r\n1.在当期棋盘中每次掷骰获得当期限定S级角色的综合概率（含保底）为<Orange>1.8700%</>，其中在基准棋盘中每次掷骰获得当期限定S级角色的基础概率为0.9900%，在变格棋盘中每次掷骰获得当期限定S级角色的基础概率为19.5900%。\r\n2.棋盘初始为基准棋盘，若连续<Orange>70</>次掷骰没有获得当期限定S级角色，将触发「棋盘变格」，大幅提高单次掷骰内获得当期限定S级角色的概率，在获得当期限定S级角色后，当前棋盘会重新变回基准棋盘。\r\n3.若连续<Orange>89</>次掷骰都没有获得当期限定S级角色，则下一次掷骰棋子不会移动，并直接获得当期限定S级角色，即至多<Orange>90</>次掷骰必定获得当期限定S级角色。\r\n<Black>【集点赠礼】</>\r\n1.单次掷骰获得A级道具（包含A级角色和A级弧盘）的等效综合概率为<Orange>22.9800%</>（含保底额外），其中A级角色的等效综合概率为<Orange>11.6700%</>，A级弧盘的等效综合概率为<Orange>11.3100%</>。\r\n2.每<Orange>10</>次掷骰必定额外获得1次「集点赠礼」，其中A级角色的概率为<Orange>20%</>，A级弧盘的概率为<Orange>80%</>。\r\n<Black>【B级弧盘】</>\r\n单次掷骰内获得B级弧盘的综合概率为<Orange>65.3300%</>。所有B级弧盘的获得概率均等。",
+        "LocalizedString": "<Black>【限定S级角色】</>\r\n1.在当期棋盘中每次掷骰获得当期限定S级角色的综合概率（含保底）为<Orange>1.8700%</>，其中在基准棋盘中每次掷骰获得当期限定S级角色的基础概率为0.9900%，在变格棋盘中每次掷骰获得当期限定S级角色的基础概率为19.5900%。\r\n2.棋盘初始为基准棋盘，若连续<Orange>70</>次掷骰没有获得当期限定S级角色，将触发「棋盘变格」，大幅提高单次掷骰内获得当期限定S级角色的概率，在获得当期限定S级角色后，当前棋盘会重新变回基准棋盘。\r\n3.若连续<Orange>89</>次掷骰都没有获得当期限定S级角色，则下一次掷骰棋子不会移动，并直接获得当期限定S级角色，即至多<Orange>90</>次掷骰必定获得当期限定S级角色。\r\n<Black>【集点赠礼】</>\r\n1.单次掷骰获得A级道具（包含A级角色和A级弧盘）的等效综合概率为<Orange>22.9800%</>（含保底额外），其中A级角色的等效综合概率为<Orange>11.6700%</>，A级弧盘的等效综合概率为<Orange>11.3100%</>。\r\n2.每<Orange>10</>次掷骰必定额外获得1次「集点赠礼」，其中A级角色的概率为<Orange>20%</>，A级弧盘的概率为<Orange>80%</>。\r\n<Black>【B级弧盘】</>\r\n单次掷骰内获得B级弧盘的综合概率为<Orange>65.3300%</>。所有B级弧盘的获得概率均等。"
+      },
       "ExtraAndRepeatDes": {
         "TableId": "/Game/Text/ST_Ui.ST_Ui",
-        "Key": "LotteryDes_Ewaijianglijichongfuhuode_Des"
-},
+        "Key": "LotteryDes_Ewaijianglijichongfuhuode_Des",
+        "SourceString": "当第2~7次获得相同S级角色时，每次会变为获得<Orange>1</>个该角色的心象碎片和<Orange>40</>个失纬棋子；第8次起，每次变为获得<Orange>80</>个失纬棋子。\r\n当第2~7次获得相同A级角色时，每次会变为获得<Orange>1</>个该角色的心象碎片和<Orange>6</>个失纬棋子；第8次起，每次变为获得<Orange>12</>个失纬棋子。\r\n当通过「限定棋盘」获得A级弧盘时，将额外获得<Orange>4</>个失纬棋子。\r\n当通过「限定棋盘」获得B级弧盘时，将额外获得<Orange>20</>个迷迭棋子。",
+        "LocalizedString": "当第2~7次获得相同S级角色时，每次会变为获得<Orange>1</>个该角色的心象碎片和<Orange>40</>个失纬棋子；第8次起，每次变为获得<Orange>80</>个失纬棋子。\r\n当第2~7次获得相同A级角色时，每次会变为获得<Orange>1</>个该角色的心象碎片和<Orange>6</>个失纬棋子；第8次起，每次变为获得<Orange>12</>个失纬棋子。\r\n当通过「限定棋盘」获得A级弧盘时，将额外获得<Orange>4</>个失纬棋子。\r\n当通过「限定棋盘」获得B级弧盘时，将额外获得<Orange>20</>个迷迭棋子。"
+      },
       "LotteryPoolRule": {
         "TableId": "/Game/Text/ST_Ui.ST_Ui",
-        "Key": "LotteryDes_XiandingJishiguize_Des"
-},
+        "Key": "LotteryDes_XiandingJishiguize_Des",
+        "SourceString": "<Black>【学徒宝箱】</>\r\n1.学徒宝箱的进入概率为<Orange>45.9300%</>。\r\n2.学徒宝箱中获得当期限定S级角色的概率为<Orange>0.2%</>，获得B级弧盘的概率为<Orange>99.8%</>。\r\n<Black>【勇者宝箱】</>\r\n1.勇者宝箱的进入概率为<Orange>20.0700%</>。\r\n2.勇者宝箱中获得当期限定S级角色的概率为<Orange>3%</>，获得B级弧盘的概率为<Orange>97%</>，必定额外获得2个失纬棋子。\r\n<Black>【于此同行】</>\r\n1.于此同行的进入概率为<Orange>10.8600%</>，其中S级角色格的概率为1.1900%，A级角色格的概率为9.6700%。\r\n2.于此同行中必定获得当前格子内所示角色。\r\n<Black>【再来一次/多重惊喜】</>\r\n1.【再来一次】可获得1个质实骰子，再来一次的进入概率为<Orange>1.5700%</>。\r\n2.【多重惊喜】可获得5个质实骰子，多重惊喜的进入概率为<Orange>0.3800%</>。\r\n<Black>【迷迭棋盒】</>\r\n1.迷迭棋盒的进入概率为<Orange>15.4700%</>。\r\n2.迷迭棋盒中可获得当前格子内所示数量的迷迭棋子。\r\n<Black>【弧光盲盒】</>\r\n1.弧光盲盒的进入概率为<Orange>3.3100%</>。\r\n2.弧光盲盒中可随机获得一个当前棋盘内的A级弧盘。\r\n<Black>【沉眠地】</>\r\n1.沉眠地的遭遇概率为<Orange>3.1500%</>。\r\n2.可获得当前格子内所示奖励，并触发「沉眠地」事件，宝藏守护者开始逃离。\r\n3.宝藏守护者会抢先逃离9格，需要在3次掷骰内追上守护者，每次掷骰后守护者都会向前移动2格，追上守护者后可提前结束游戏，成功追上宝藏守护者可获得30个失纬棋子。",
+        "LocalizedString": "<Black>【学徒宝箱】</>\r\n1.学徒宝箱的进入概率为<Orange>45.9300%</>。\r\n2.学徒宝箱中获得当期限定S级角色的概率为<Orange>0.2%</>，获得B级弧盘的概率为<Orange>99.8%</>。\r\n<Black>【勇者宝箱】</>\r\n1.勇者宝箱的进入概率为<Orange>20.0700%</>。\r\n2.勇者宝箱中获得当期限定S级角色的概率为<Orange>3%</>，获得B级弧盘的概率为<Orange>97%</>，必定额外获得2个失纬棋子。\r\n<Black>【于此同行】</>\r\n1.于此同行的进入概率为<Orange>10.8600%</>，其中S级角色格的概率为1.1900%，A级角色格的概率为9.6700%。\r\n2.于此同行中必定获得当前格子内所示角色。\r\n<Black>【再来一次/多重惊喜】</>\r\n1.【再来一次】可获得1个质实骰子，再来一次的进入概率为<Orange>1.5700%</>。\r\n2.【多重惊喜】可获得5个质实骰子，多重惊喜的进入概率为<Orange>0.3800%</>。\r\n<Black>【迷迭棋盒】</>\r\n1.迷迭棋盒的进入概率为<Orange>15.4700%</>。\r\n2.迷迭棋盒中可获得当前格子内所示数量的迷迭棋子。\r\n<Black>【弧光盲盒】</>\r\n1.弧光盲盒的进入概率为<Orange>3.3100%</>。\r\n2.弧光盲盒中可随机获得一个当前棋盘内的A级弧盘。\r\n<Black>【沉眠地】</>\r\n1.沉眠地的遭遇概率为<Orange>3.1500%</>。\r\n2.可获得当前格子内所示奖励，并触发「沉眠地」事件，宝藏守护者开始逃离。\r\n3.宝藏守护者会抢先逃离9格，需要在3次掷骰内追上守护者，每次掷骰后守护者都会向前移动2格，追上守护者后可提前结束游戏，成功追上宝藏守护者可获得30个失纬棋子。"
+      },
       "LotteryGiftDatas": [
         {
           "DropID": "drop_Monopoly_fashion_glide_kaesi",
           "GiftName": {
             "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-            "Key": "Kachi_Glide_4_Name"
-},
+            "Key": "Kachi_Glide_4_Name",
+            "SourceString": "天际猎手-滑翔翼",
+            "LocalizedString": "天际猎手-滑翔翼"
+          },
           "NeedMaxCount": 50,
           "PreviewIconId": {
             "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_kachi_kaesi1.YH_UI_kachi_kaesi1",
             "SubPathString": ""
-},
+          },
           "PreviewIconId_Activity": {
             "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_Activity_kaesi1.YH_UI_Activity_kaesi1",
             "SubPathString": ""
-},
+          },
           "ActivityBigImage": {
             "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_Activity_Big_kaesi1.YH_UI_Activity_Big_kaesi1",
             "SubPathString": ""
-}
+          }
         },
         {
           "DropID": "drop_Monopoly_fashion_vehicle_kaesi",
           "GiftName": {
             "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-            "Key": "V010_Decal_002_name"
-},
+            "Key": "V010_Decal_002_name",
+            "SourceString": "猎犬奔袭-涂装",
+            "LocalizedString": "猎犬奔袭-涂装"
+          },
           "NeedMaxCount": 120,
           "PreviewIconId": {
             "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_kachi_kaesi2.YH_UI_kachi_kaesi2",
             "SubPathString": ""
-},
+          },
           "PreviewIconId_Activity": {
             "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_Activity_kaesi2.YH_UI_Activity_kaesi2",
             "SubPathString": ""
-},
+          },
           "ActivityBigImage": {
             "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_Activity_Big_kaesi2.YH_UI_Activity_Big_kaesi2",
             "SubPathString": ""
-}
+          }
         },
         {
           "DropID": "drop_Monopoly_fashion_character_kaesi",
           "GiftName": {
             "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-            "Key": "Fashion_1071_1_Name"
-},
+            "Key": "Fashion_1071_1_Name",
+            "SourceString": "放晴日",
+            "LocalizedString": "放晴日"
+          },
           "NeedMaxCount": 200,
           "PreviewIconId": {
             "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_kachi_kaesi3.YH_UI_kachi_kaesi3",
             "SubPathString": ""
-},
+          },
           "PreviewIconId_Activity": {
             "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_Activity_kaesi3.YH_UI_Activity_kaesi3",
             "SubPathString": ""
-},
+          },
           "ActivityBigImage": {
             "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_Activity_Big_kaesi3.YH_UI_Activity_Big_kaesi3",
             "SubPathString": ""
-}
+          }
         }
       ]
     }

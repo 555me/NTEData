@@ -9,7 +9,7 @@
       "RowStruct": {
         "ObjectName": "Class'StaticItemData'",
         "ObjectPath": "/Script/HTGame"
-}
+      }
     },
     "Rows": {
       "FT_CharacterUpExp": {
@@ -21,19 +21,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/characterexp_256.characterexp_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/characterexp_x100.characterexp_x100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "item_characterexp_name"
-},
+          "Key": "item_characterexp_name",
+          "SourceString": "角色等级经验",
+          "LocalizedString": "角色等级经验"
+        },
         "MaxAmount": 999999999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -43,16 +45,18 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "item_characterexp_desc"
-},
+          "Key": "item_characterexp_desc",
+          "SourceString": "角色等级经验，用于角色提高等级。",
+          "LocalizedString": "角色等级经验，用于角色提高等级。"
+        },
         "Description": {
           "CultureInvariantString": null
-},
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
             "EXP": 1
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
@@ -85,23 +89,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "/Game/FX/Nia/Item/Item_Quality/NS_zhenhong_Drop_EXP_02.NS_zhenhong_Drop_EXP_02",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_ProcessedWoolYarn": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -111,19 +115,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_ProcessedWoolYarn.FT_ProcessedWoolYarn",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_ProcessedWoolYarn_100.FT_ProcessedWoolYarn_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_ProcessedWoolYarn_name"
-},
+          "Key": "FT_ProcessedWoolYarn_name",
+          "SourceString": "蓬蓬棉线团",
+          "LocalizedString": "蓬蓬棉线团"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -133,12 +139,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_ProcessedWoolYarn_usedesc"
-},
+          "Key": "FT_ProcessedWoolYarn_usedesc",
+          "SourceString": "经过特殊处理的，格外坚韧的棉线，轻便实用，似乎可以承受相当大的负荷。",
+          "LocalizedString": "经过特殊处理的，格外坚韧的棉线，轻便实用，似乎可以承受相当大的负荷。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_ProcessedWoolYarn_desc"
-},
+          "Key": "FT_ProcessedWoolYarn_desc",
+          "SourceString": "绵们引以为傲的发明，即使是大力绵也无法将其扯断，但如果使用剪刀的话……还是不要有这种想法比较好。",
+          "LocalizedString": "绵们引以为傲的发明，即使是大力绵也无法将其扯断，但如果使用剪刀的话……还是不要有这种想法比较好。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -172,23 +182,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_ElevatorGear": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -198,19 +208,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_ElevatorGear.FT_ElevatorGear",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_ElevatorGear_100.FT_ElevatorGear_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_ElevatorGear_name"
-},
+          "Key": "FT_ElevatorGear_name",
+          "SourceString": "灰扑扑的齿轮",
+          "LocalizedString": "灰扑扑的齿轮"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -220,12 +232,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_ElevatorGear_usedesc"
-},
+          "Key": "FT_ElevatorGear_usedesc",
+          "SourceString": "外形破旧的机械齿轮，恰当安置在某处的话说不定能继续发挥原本的作用。",
+          "LocalizedString": "外形破旧的机械齿轮，恰当安置在某处的话说不定能继续发挥原本的作用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_ElevatorGear_desc"
-},
+          "Key": "FT_ElevatorGear_desc",
+          "SourceString": "似乎是很久以前从某个机器上拆下的老旧齿轮，但商绵认为，不管旧齿轮还是新齿轮，只要能用就是好齿轮。",
+          "LocalizedString": "似乎是很久以前从某个机器上拆下的老旧齿轮，但商绵认为，不管旧齿轮还是新齿轮，只要能用就是好齿轮。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -259,23 +275,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Chess_Pawn": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -283,19 +299,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_Chess_Pawn.FT_Chess_Pawn",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_Chess_Pawn_100.FT_Chess_Pawn_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Pawn_name"
-},
+          "Key": "FT_Chess_Pawn_name",
+          "SourceString": "棋子「兵」",
+          "LocalizedString": "棋子「兵」"
+        },
         "MaxAmount": 99999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -305,12 +323,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Pawn_usedesc"
-},
+          "Key": "FT_Chess_Pawn_usedesc",
+          "SourceString": "可以在「后翼弃绵」玩法中使用。",
+          "LocalizedString": "可以在「后翼弃绵」玩法中使用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Pawn_desc"
-},
+          "Key": "FT_Chess_Pawn_desc",
+          "SourceString": "「棋圣绵的制胜秘诀：所谓兵行险着，最危险的计划往往就是最安全的计划」。",
+          "LocalizedString": "「棋圣绵的制胜秘诀：所谓兵行险着，最危险的计划往往就是最安全的计划」。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -344,23 +366,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Chess_Rook": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -368,19 +390,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_Chess_Rook.FT_Chess_Rook",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_Chess_Rook_100.FT_Chess_Rook_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Rook_name"
-},
+          "Key": "FT_Chess_Rook_name",
+          "SourceString": "棋子「车」",
+          "LocalizedString": "棋子「车」"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -390,12 +414,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Rook_usedesc"
-},
+          "Key": "FT_Chess_Rook_usedesc",
+          "SourceString": "可以在「后翼弃绵」玩法中使用。",
+          "LocalizedString": "可以在「后翼弃绵」玩法中使用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Rook_desc"
-},
+          "Key": "FT_Chess_Rook_desc",
+          "SourceString": "「棋圣绵的制胜秘诀：畅通无阻不只是车的特性，也是沃伦金币的特性」。",
+          "LocalizedString": "「棋圣绵的制胜秘诀：畅通无阻不只是车的特性，也是沃伦金币的特性」。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -429,23 +457,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Chess_Knight": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -453,19 +481,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_Chess_Knight.FT_Chess_Knight",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_Chess_Knight_100.FT_Chess_Knight_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Knight_name"
-},
+          "Key": "FT_Chess_Knight_name",
+          "SourceString": "棋子「马」",
+          "LocalizedString": "棋子「马」"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -475,12 +505,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Knight_usedesc"
-},
+          "Key": "FT_Chess_Knight_usedesc",
+          "SourceString": "可以在「后翼弃绵」玩法中使用。",
+          "LocalizedString": "可以在「后翼弃绵」玩法中使用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Knight_desc"
-},
+          "Key": "FT_Chess_Knight_desc",
+          "SourceString": "「棋圣绵的制胜秘诀：能越过他人的不只是马，还有计谋」",
+          "LocalizedString": "「棋圣绵的制胜秘诀：能越过他人的不只是马，还有计谋」"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -514,23 +548,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Chess_Bishop": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -538,19 +572,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_Chess_Bishop.FT_Chess_Bishop",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_Chess_Bishop_100.FT_Chess_Bishop_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Bishop_name"
-},
+          "Key": "FT_Chess_Bishop_name",
+          "SourceString": "棋子「象」",
+          "LocalizedString": "棋子「象」"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -560,12 +596,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Bishop_usedesc"
-},
+          "Key": "FT_Chess_Bishop_usedesc",
+          "SourceString": "可以在「后翼弃绵」玩法中使用。",
+          "LocalizedString": "可以在「后翼弃绵」玩法中使用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Bishop_desc"
-},
+          "Key": "FT_Chess_Bishop_desc",
+          "SourceString": "「棋圣绵的制胜秘诀：贵族也需要卖得贵一些」",
+          "LocalizedString": "「棋圣绵的制胜秘诀：贵族也需要卖得贵一些」"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -599,23 +639,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Chess_Queen": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -623,19 +663,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_Chess_Queen.FT_Chess_Queen",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_Chess_Queen_100.FT_Chess_Queen_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Queen_name"
-},
+          "Key": "FT_Chess_Queen_name",
+          "SourceString": "棋子「后」",
+          "LocalizedString": "棋子「后」"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -645,12 +687,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Queen_usedesc"
-},
+          "Key": "FT_Chess_Queen_usedesc",
+          "SourceString": "可以在「后翼弃绵」玩法中使用。",
+          "LocalizedString": "可以在「后翼弃绵」玩法中使用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_Queen_desc"
-},
+          "Key": "FT_Chess_Queen_desc",
+          "SourceString": "「棋圣绵的制胜秘诀：贵族也需要卖得贵一些」",
+          "LocalizedString": "「棋圣绵的制胜秘诀：贵族也需要卖得贵一些」"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -684,23 +730,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Chess_King": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -708,19 +754,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_Chess_King.FT_Chess_King",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_Chess_King_100.FT_Chess_King_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_King_name"
-},
+          "Key": "FT_Chess_King_name",
+          "SourceString": "棋子「王」",
+          "LocalizedString": "棋子「王」"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -730,12 +778,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_King_usedesc"
-},
+          "Key": "FT_Chess_King_usedesc",
+          "SourceString": "可以在「后翼弃绵」玩法中使用。",
+          "LocalizedString": "可以在「后翼弃绵」玩法中使用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Chess_King_desc"
-},
+          "Key": "FT_Chess_King_desc",
+          "SourceString": "「棋圣绵的制胜秘诀：一切的终结和开始，这一盘大棋终于要收尾了！」",
+          "LocalizedString": "「棋圣绵的制胜秘诀：一切的终结和开始，这一盘大棋终于要收尾了！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -769,23 +821,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_0001": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -793,19 +845,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_0001.FT_CollectingMaterial_0001",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_CollectingMaterial_0001_100.FT_CollectingMaterial_0001_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_0001_name"
-},
+          "Key": "FT_CollectingMaterial_0001_name",
+          "SourceString": "稀有的菇",
+          "LocalizedString": "稀有的菇"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -815,19 +869,23 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_0001_usedesc"
-},
+          "Key": "FT_CollectingMaterial_0001_usedesc",
+          "SourceString": "稀有的菇，可用于与「神秘商绵」交易。\r\n食用后复活选中角色，并额外恢复10000生命值。",
+          "LocalizedString": "稀有的菇，可用于与「神秘商绵」交易。\r\n食用后复活选中角色，并额外恢复10000生命值。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_0001_desc"
-},
+          "Key": "FT_CollectingMaterial_0001_desc",
+          "SourceString": "「勇者，前有发光的菇！」",
+          "LocalizedString": "「勇者，前有发光的菇！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
             "HPAdd": 10000.0,
             "HPMult": 0.0,
             "bNeedShowConsumableUseUI": true
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -860,23 +918,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_1001": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -884,19 +942,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_1001.FT_CollectingMaterial_1001",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_CollectingMaterial_1001.FT_CollectingMaterial_1001",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_1001_name"
-},
+          "Key": "FT_CollectingMaterial_1001_name",
+          "SourceString": "流心晶簇",
+          "LocalizedString": "流心晶簇"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -906,12 +966,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_1001_usedesc"
-},
+          "Key": "FT_CollectingMaterial_1001_usedesc",
+          "SourceString": "奇妙的结晶体，可用于与「神秘商绵」交易。",
+          "LocalizedString": "奇妙的结晶体，可用于与「神秘商绵」交易。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_1001_desc"
-},
+          "Key": "FT_CollectingMaterial_1001_desc",
+          "SourceString": "「流淌着的熔岩巧克力展现出邪恶的诱惑力，外壳却坚不可摧。如此美味却不可食用无法接近，有没有让勇者大人回忆起自己的人生。」",
+          "LocalizedString": "「流淌着的熔岩巧克力展现出邪恶的诱惑力，外壳却坚不可摧。如此美味却不可食用无法接近，有没有让勇者大人回忆起自己的人生。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -945,23 +1009,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_1002": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -969,19 +1033,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_1002.FT_CollectingMaterial_1002",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_CollectingMaterial_1002.FT_CollectingMaterial_1002",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_1002_name"
-},
+          "Key": "FT_CollectingMaterial_1002_name",
+          "SourceString": "灰烬叶",
+          "LocalizedString": "灰烬叶"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -991,12 +1057,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_1002_usedesc"
-},
+          "Key": "FT_CollectingMaterial_1002_usedesc",
+          "SourceString": "奇妙的叶子，可用于与「神秘商绵」交易。",
+          "LocalizedString": "奇妙的叶子，可用于与「神秘商绵」交易。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_1002_desc"
-},
+          "Key": "FT_CollectingMaterial_1002_desc",
+          "SourceString": "「完全没有用的叶子但却长得到处都是，只要它占满人们的视线，总有一天所有人都会爱上灰烬叶的。」",
+          "LocalizedString": "「完全没有用的叶子但却长得到处都是，只要它占满人们的视线，总有一天所有人都会爱上灰烬叶的。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -1030,23 +1100,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_2001": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -1054,19 +1124,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_2001.FT_CollectingMaterial_2001",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/Item_100/FT_CollectingMaterial_2001.FT_CollectingMaterial_2001",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_2001_name"
-},
+          "Key": "FT_CollectingMaterial_2001_name",
+          "SourceString": "垂泪木芽",
+          "LocalizedString": "垂泪木芽"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -1076,12 +1148,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_2001_usedesc"
-},
+          "Key": "FT_CollectingMaterial_2001_usedesc",
+          "SourceString": "奇妙的结晶体，可用于与「神秘商绵」交易。",
+          "LocalizedString": "奇妙的结晶体，可用于与「神秘商绵」交易。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_2001_desc"
-},
+          "Key": "FT_CollectingMaterial_2001_desc",
+          "SourceString": "「有感于落月骑士的悲情，花草亦为之垂泪——这是绵绵们口耳相传的故事。正因如此绵绵们不会食用这种枯枝。本来就不能食用吧！」",
+          "LocalizedString": "「有感于落月骑士的悲情，花草亦为之垂泪——这是绵绵们口耳相传的故事。正因如此绵绵们不会食用这种枯枝。本来就不能食用吧！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -1115,23 +1191,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_2002": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -1139,19 +1215,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_2002.FT_CollectingMaterial_2002",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/Item_100/FT_CollectingMaterial_2002.FT_CollectingMaterial_2002",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_2002_name"
-},
+          "Key": "FT_CollectingMaterial_2002_name",
+          "SourceString": "棒冰晶簇",
+          "LocalizedString": "棒冰晶簇"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -1161,12 +1239,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_2002_usedesc"
-},
+          "Key": "FT_CollectingMaterial_2002_usedesc",
+          "SourceString": "奇妙的结晶体，可用于与「神秘商绵」交易。",
+          "LocalizedString": "奇妙的结晶体，可用于与「神秘商绵」交易。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_2002_desc"
-},
+          "Key": "FT_CollectingMaterial_2002_desc",
+          "SourceString": "「冰晶包裹着夹心，外壳却坚不可摧。如此美味却不可食用，好可惜！」",
+          "LocalizedString": "「冰晶包裹着夹心，外壳却坚不可摧。如此美味却不可食用，好可惜！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -1200,23 +1282,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_3001": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -1224,19 +1306,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_3001.FT_CollectingMaterial_3001",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/Item_100/FT_CollectingMaterial_3001.FT_CollectingMaterial_3001",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_3001_name"
-},
+          "Key": "FT_CollectingMaterial_3001_name",
+          "SourceString": "垂泪草",
+          "LocalizedString": "垂泪草"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -1246,12 +1330,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_3001_usedesc"
-},
+          "Key": "FT_CollectingMaterial_3001_usedesc",
+          "SourceString": "奇妙的植物，可用于与「神秘商绵」交易。",
+          "LocalizedString": "奇妙的植物，可用于与「神秘商绵」交易。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_3001_desc"
-},
+          "Key": "FT_CollectingMaterial_3001_desc",
+          "SourceString": "「有感于落月骑士的悲情，花草亦为之垂泪——这是绵绵们口耳相传的故事。正因如此绵绵们不会食用这种花草。你说可能是有毒？那听起来也太不浪漫了吧！」",
+          "LocalizedString": "「有感于落月骑士的悲情，花草亦为之垂泪——这是绵绵们口耳相传的故事。正因如此绵绵们不会食用这种花草。你说可能是有毒？那听起来也太不浪漫了吧！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -1285,23 +1373,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_1101": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -1309,19 +1397,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_1101.FT_CollectingMaterial_1101",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_CollectingMaterial_1101.FT_CollectingMaterial_1101",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_1101_name"
-},
+          "Key": "FT_CollectingMaterial_1101_name",
+          "SourceString": "辣菇",
+          "LocalizedString": "辣菇"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -1331,12 +1421,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_1101_usedesc"
-},
+          "Key": "FT_CollectingMaterial_1101_usedesc",
+          "SourceString": "奇妙的菇，可用于与「神秘商绵」交易。\r\n食用后全队暴击率提升30%，持续15秒。",
+          "LocalizedString": "奇妙的菇，可用于与「神秘商绵」交易。\r\n食用后全队暴击率提升30%，持续15秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_1101_desc"
-},
+          "Key": "FT_CollectingMaterial_1101_desc",
+          "SourceString": "「勇者，前有辣菇。」",
+          "LocalizedString": "「勇者，前有辣菇。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -1352,13 +1446,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Gather_CritUp/Buff_Gather_CirtUp.Buff_Gather_CirtUp_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -1372,13 +1466,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Debuff/Buff_Gather_Debuff.Buff_Gather_Debuff_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -1411,23 +1505,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_2101": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -1435,19 +1529,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_2101.FT_CollectingMaterial_2101",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_CollectingMaterial_2101.FT_CollectingMaterial_2101",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_2101_name"
-},
+          "Key": "FT_CollectingMaterial_2101_name",
+          "SourceString": "冻冻菇",
+          "LocalizedString": "冻冻菇"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -1457,12 +1553,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_2101_usedesc"
-},
+          "Key": "FT_CollectingMaterial_2101_usedesc",
+          "SourceString": "奇妙的菇，可用于与「神秘商绵」交易。\r\n食用后15秒内，全队攻击命中有50%概率使目标缓速50%，缓速持续3秒。",
+          "LocalizedString": "奇妙的菇，可用于与「神秘商绵」交易。\r\n食用后15秒内，全队攻击命中有50%概率使目标缓速50%，缓速持续3秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_2101_desc"
-},
+          "Key": "FT_CollectingMaterial_2101_desc",
+          "SourceString": "「勇者，前有美丽的菇。」",
+          "LocalizedString": "「勇者，前有美丽的菇。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -1478,13 +1578,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Gather_Ice/Buff_Gather_Ice.Buff_Gather_Ice_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -1498,13 +1598,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Debuff/Buff_Gather_Debuff.Buff_Gather_Debuff_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -1537,23 +1637,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_3101": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -1561,19 +1661,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_3101.FT_CollectingMaterial_3101",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_CollectingMaterial_3101.FT_CollectingMaterial_3101",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_3101_name"
-},
+          "Key": "FT_CollectingMaterial_3101_name",
+          "SourceString": "落月骑士花",
+          "LocalizedString": "落月骑士花"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -1583,12 +1685,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_3101_usedesc"
-},
+          "Key": "FT_CollectingMaterial_3101_usedesc",
+          "SourceString": "奇妙的花，可用于与「神秘商绵」交易。\r\n食用后回复全队3000点生命值。",
+          "LocalizedString": "奇妙的花，可用于与「神秘商绵」交易。\r\n食用后回复全队3000点生命值。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_3101_desc"
-},
+          "Key": "FT_CollectingMaterial_3101_desc",
+          "SourceString": "「很久很久以前，落月骑士与同伴分别踏上旅途，殒命于此，思而不得的泪水化作这片湖泊——这是绵绵们口耳相传的故事。怎么可能，设定上这可是糖浆湖啊。」",
+          "LocalizedString": "「很久很久以前，落月骑士与同伴分别踏上旅途，殒命于此，思而不得的泪水化作这片湖泊——这是绵绵们口耳相传的故事。怎么可能，设定上这可是糖浆湖啊。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -1604,13 +1710,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Gather_Flower/Buff_Gather_Flower1.Buff_Gather_Flower1_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -1624,13 +1730,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Debuff/Buff_Gather_Debuff.Buff_Gather_Debuff_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -1663,23 +1769,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_3102": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -1687,19 +1793,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_3102.FT_CollectingMaterial_3102",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_CollectingMaterial_3102.FT_CollectingMaterial_3102",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_3102_name"
-},
+          "Key": "FT_CollectingMaterial_3102_name",
+          "SourceString": "迷雾果实",
+          "LocalizedString": "迷雾果实"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -1709,12 +1817,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_3102_usedesc"
-},
+          "Key": "FT_CollectingMaterial_3102_usedesc",
+          "SourceString": "奇妙的果实，可用于与「神秘商绵」交易。\r\n食用后全队攻击无视目标30%防御，持续15秒。",
+          "LocalizedString": "奇妙的果实，可用于与「神秘商绵」交易。\r\n食用后全队攻击无视目标30%防御，持续15秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_3102_desc"
-},
+          "Key": "FT_CollectingMaterial_3102_desc",
+          "SourceString": "「味道寡淡到让人怀疑自己的味蕾。刚刚真的咬了一口果实吗？还是说，只是大咬了一口空气中的迷雾？」",
+          "LocalizedString": "「味道寡淡到让人怀疑自己的味蕾。刚刚真的咬了一口果实吗？还是说，只是大咬了一口空气中的迷雾？」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -1730,13 +1842,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Gather_DefIgnore/Buff_Gather_DefIgnore.Buff_Gather_DefIgnore_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -1750,13 +1862,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Debuff/Buff_Gather_Debuff.Buff_Gather_Debuff_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -1789,23 +1901,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_4101": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -1813,19 +1925,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_4101.FT_CollectingMaterial_4101",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_CollectingMaterial_4101.FT_CollectingMaterial_4101",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_4101_name"
-},
+          "Key": "FT_CollectingMaterial_4101_name",
+          "SourceString": "满月骑士花",
+          "LocalizedString": "满月骑士花"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -1835,12 +1949,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_4101_usedesc"
-},
+          "Key": "FT_CollectingMaterial_4101_usedesc",
+          "SourceString": "奇妙的花，可用于与「神秘商绵」交易。\r\n食用后回复全队10000点生命值。",
+          "LocalizedString": "奇妙的花，可用于与「神秘商绵」交易。\r\n食用后回复全队10000点生命值。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_4101_desc"
-},
+          "Key": "FT_CollectingMaterial_4101_desc",
+          "SourceString": "「很久很久以前，满月骑士与同伴分别踏上旅途，殒命于此，思而不得的遗憾弥漫整座山脉——这是绵绵们口耳相传的故事。怎么可能！这里明明是我家啊——赤龙如是说道。」",
+          "LocalizedString": "「很久很久以前，满月骑士与同伴分别踏上旅途，殒命于此，思而不得的遗憾弥漫整座山脉——这是绵绵们口耳相传的故事。怎么可能！这里明明是我家啊——赤龙如是说道。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -1856,13 +1974,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Gather_Flower/Buff_Gather_Flower2.Buff_Gather_Flower2_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -1876,13 +1994,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Debuff/Buff_Gather_Debuff.Buff_Gather_Debuff_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -1915,23 +2033,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_4102": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -1939,19 +2057,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_4102.FT_CollectingMaterial_4102",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_CollectingMaterial_4102.FT_CollectingMaterial_4102",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_4102_name"
-},
+          "Key": "FT_CollectingMaterial_4102_name",
+          "SourceString": "骑士花",
+          "LocalizedString": "骑士花"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -1961,12 +2081,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_4102_usedesc"
-},
+          "Key": "FT_CollectingMaterial_4102_usedesc",
+          "SourceString": "奇妙的花，可用于与「神秘商绵」交易。\r\n食用后全队获得相当于食用者50%生命值的护盾，持续15秒。",
+          "LocalizedString": "奇妙的花，可用于与「神秘商绵」交易。\r\n食用后全队获得相当于食用者50%生命值的护盾，持续15秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_4102_desc"
-},
+          "Key": "FT_CollectingMaterial_4102_desc",
+          "SourceString": "「原初骑士的象征之花，听闻初始骑士的性质更接近生命——刚刚那句话是谁说的？」",
+          "LocalizedString": "「原初骑士的象征之花，听闻初始骑士的性质更接近生命——刚刚那句话是谁说的？」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -1982,13 +2106,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Gather_Shield/Buff_Gather_Shield.Buff_Gather_Shield_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -2002,13 +2126,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Debuff/Buff_Gather_Debuff.Buff_Gather_Debuff_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -2041,23 +2165,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_CollectingMaterial_4103": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -2065,19 +2189,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_CollectingMaterial_4103.FT_CollectingMaterial_4103",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/Item_100/FT_CollectingMaterial_4103.FT_CollectingMaterial_4103",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_4103_name"
-},
+          "Key": "FT_CollectingMaterial_4103_name",
+          "SourceString": "菇",
+          "LocalizedString": "菇"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -2087,12 +2213,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_4103_usedesc"
-},
+          "Key": "FT_CollectingMaterial_4103_usedesc",
+          "SourceString": "奇妙的菇，可用于与「神秘商绵」交易。\r\n食用后全队暴击率提升30%，持续15秒。",
+          "LocalizedString": "奇妙的菇，可用于与「神秘商绵」交易。\r\n食用后全队暴击率提升30%，持续15秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_CollectingMaterial_4103_desc"
-},
+          "Key": "FT_CollectingMaterial_4103_desc",
+          "SourceString": "「勇者，前有菇。」",
+          "LocalizedString": "「勇者，前有菇。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -2108,13 +2238,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Gather_CritUp/Buff_Gather_CirtUp.Buff_Gather_CirtUp_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -2128,13 +2258,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Debuff/Buff_Gather_Debuff.Buff_Gather_Debuff_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -2167,23 +2297,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Arena_ticket": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -2193,19 +2323,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_Arena_ticket.FT_Arena_ticket",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_Arena_ticket.FT_Arena_ticket",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Arena_ticket_name"
-},
+          "Key": "FT_Arena_ticket_name",
+          "SourceString": "赶绵杖",
+          "LocalizedString": "赶绵杖"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -2215,12 +2347,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Arena_ticket_usedesc"
-},
+          "Key": "FT_Arena_ticket_usedesc",
+          "SourceString": "开启咩之黑暗地牢的所需道具。",
+          "LocalizedString": "开启咩之黑暗地牢的所需道具。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Arena_ticket_desc"
-},
+          "Key": "FT_Arena_ticket_desc",
+          "SourceString": "可以用来敲打不太听话的绵的脑袋。这是赶绵杖，不是擀面杖咩！",
+          "LocalizedString": "可以用来敲打不太听话的绵的脑袋。这是赶绵杖，不是擀面杖咩！"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -2254,23 +2390,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Enery": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -2278,19 +2414,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Enery_256.FT_Potion_Enery_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Enery_100.FT_Potion_Enery_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Enery_name"
-},
+          "Key": "FT_Potion_Enery_name",
+          "SourceString": "能量补给特调",
+          "LocalizedString": "能量补给特调"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -2300,12 +2438,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Enery_usedesc"
-},
+          "Key": "FT_Potion_Enery_usedesc",
+          "SourceString": "使用后，回复全队100点充能值；增强效果额外回复全队100点环合值。",
+          "LocalizedString": "使用后，回复全队100点充能值；增强效果额外回复全队100点环合值。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Enery_desc"
-},
+          "Key": "FT_Potion_Enery_desc",
+          "SourceString": "「传闻某绵喝完以后，腰不酸了腿不痛了，连呆毛都飞起来了咩。」\n「嗯……有个朋友是这么说的。」",
+          "LocalizedString": "「传闻某绵喝完以后，腰不酸了腿不痛了，连呆毛都飞起来了咩。」\n「嗯……有个朋友是这么说的。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -2321,13 +2463,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Energy/Buff_Potion_Energy_Lv1.Buff_Potion_Energy_Lv1_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -2341,13 +2483,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Energy/Buff_Potion_Energy_Lv2.Buff_Potion_Energy_Lv2_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -2380,23 +2522,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Def_S": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -2404,19 +2546,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Def_S_256.FT_Potion_Def_S_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Def_S_100.FT_Potion_Def_S_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Def_S_name"
-},
+          "Key": "FT_Potion_Def_S_name",
+          "SourceString": "小瓶护盾药水",
+          "LocalizedString": "小瓶护盾药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -2426,12 +2570,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Def_S_usedesc"
-},
+          "Key": "FT_Potion_Def_S_usedesc",
+          "SourceString": "使用后，全队防御力提升20%，持续15秒；增强效果为防御力提升30%，持续60秒。",
+          "LocalizedString": "使用后，全队防御力提升20%，持续15秒；增强效果为防御力提升30%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Def_S_desc"
-},
+          "Key": "FT_Potion_Def_S_desc",
+          "SourceString": "「绵毛出在绵身上！绵毛保护所有绵！」",
+          "LocalizedString": "「绵毛出在绵身上！绵毛保护所有绵！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -2447,13 +2595,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DefUp/Buff_Potion_DefUp_Lv1.Buff_Potion_DefUp_Lv1_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -2467,13 +2615,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DefUp/Buff_Potion_DefUp_Lv2.Buff_Potion_DefUp_Lv2_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -2506,23 +2654,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Def_M": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -2530,19 +2678,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Def_M_256.FT_Potion_Def_M_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Def_M_100.FT_Potion_Def_M_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Def_M_name"
-},
+          "Key": "FT_Potion_Def_M_name",
+          "SourceString": "中瓶护盾药水",
+          "LocalizedString": "中瓶护盾药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -2552,12 +2702,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Def_M_usedesc"
-},
+          "Key": "FT_Potion_Def_M_usedesc",
+          "SourceString": "使用后，全队防御力提升35%，持续15秒；增强效果为防御力提升50%，持续60秒。",
+          "LocalizedString": "使用后，全队防御力提升35%，持续15秒；增强效果为防御力提升50%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Def_M_desc"
-},
+          "Key": "FT_Potion_Def_M_desc",
+          "SourceString": "「绵毛出在绵身上！绵毛保护所有绵！」",
+          "LocalizedString": "「绵毛出在绵身上！绵毛保护所有绵！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -2573,13 +2727,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DefUp/Buff_Potion_DefUp_Lv3.Buff_Potion_DefUp_Lv3_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -2593,13 +2747,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DefUp/Buff_Potion_DefUp_Lv4.Buff_Potion_DefUp_Lv4_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -2632,23 +2786,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Def_L": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -2656,19 +2810,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Def_L_256.FT_Potion_Def_L_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Def_L_100.FT_Potion_Def_L_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Def_L_name"
-},
+          "Key": "FT_Potion_Def_L_name",
+          "SourceString": "大瓶护盾药水",
+          "LocalizedString": "大瓶护盾药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -2678,12 +2834,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Def_L_usedesc"
-},
+          "Key": "FT_Potion_Def_L_usedesc",
+          "SourceString": "使用后，全队防御力提升50%，持续15秒；增强效果为防御力提升80%，持续60秒。",
+          "LocalizedString": "使用后，全队防御力提升50%，持续15秒；增强效果为防御力提升80%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Def_L_desc"
-},
+          "Key": "FT_Potion_Def_L_desc",
+          "SourceString": "「绵毛出在绵身上！绵毛保护所有绵！」",
+          "LocalizedString": "「绵毛出在绵身上！绵毛保护所有绵！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -2699,13 +2859,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DefUp/Buff_Potion_DefUp_Lv5.Buff_Potion_DefUp_Lv5_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -2719,13 +2879,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DefUp/Buff_Potion_DefUp_Lv6.Buff_Potion_DefUp_Lv6_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -2758,23 +2918,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Resist_S": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -2782,19 +2942,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Resist_S_256.FT_Potion_Resist_S_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Resist_S_100.FT_Potion_Resist_S_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Resist_S_name"
-},
+          "Key": "FT_Potion_Resist_S_name",
+          "SourceString": "小瓶硬邦邦药水",
+          "LocalizedString": "小瓶硬邦邦药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -2804,12 +2966,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Resist_S_usedesc"
-},
+          "Key": "FT_Potion_Resist_S_usedesc",
+          "SourceString": "使用后，全队抗打断能力提升，持续15秒；增强效果持续60秒。",
+          "LocalizedString": "使用后，全队抗打断能力提升，持续15秒；增强效果持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Resist_S_desc"
-},
+          "Key": "FT_Potion_Resist_S_desc",
+          "SourceString": "「绵很伤心，喝了药水以后，依然伤心……」\n「硬邦邦药水只能让你变得坚固而不是坚强咩！」",
+          "LocalizedString": "「绵很伤心，喝了药水以后，依然伤心……」\n「硬邦邦药水只能让你变得坚固而不是坚强咩！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -2825,13 +2991,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Resist/Buff_Potion_Resist_Lv1.Buff_Potion_Resist_Lv1_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -2845,13 +3011,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Resist/Buff_Potion_Resist_Lv2.Buff_Potion_Resist_Lv2_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -2884,23 +3050,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Resist_M": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -2908,19 +3074,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Resist_M_256.FT_Potion_Resist_M_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Resist_M_100.FT_Potion_Resist_M_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Resist_M_name"
-},
+          "Key": "FT_Potion_Resist_M_name",
+          "SourceString": "中瓶硬邦邦药水",
+          "LocalizedString": "中瓶硬邦邦药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -2930,12 +3098,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Resist_M_usedesc"
-},
+          "Key": "FT_Potion_Resist_M_usedesc",
+          "SourceString": "使用后，全队抗打断能力提升，持续15秒；增强效果持续60秒。",
+          "LocalizedString": "使用后，全队抗打断能力提升，持续15秒；增强效果持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Resist_M_desc"
-},
+          "Key": "FT_Potion_Resist_M_desc",
+          "SourceString": "「绵很伤心，喝了药水以后，依然伤心……」\n「硬邦邦药水只能让你变得坚固而不是坚强咩！」",
+          "LocalizedString": "「绵很伤心，喝了药水以后，依然伤心……」\n「硬邦邦药水只能让你变得坚固而不是坚强咩！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -2951,13 +3123,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Resist/Buff_Potion_Resist_Lv3.Buff_Potion_Resist_Lv3_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -2971,13 +3143,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Resist/Buff_Potion_Resist_Lv4.Buff_Potion_Resist_Lv4_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -3010,23 +3182,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Resist_L": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -3034,19 +3206,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Resist_L_256.FT_Potion_Resist_L_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Resist_L_100.FT_Potion_Resist_L_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Resist_L_name"
-},
+          "Key": "FT_Potion_Resist_L_name",
+          "SourceString": "大瓶硬邦邦药水",
+          "LocalizedString": "大瓶硬邦邦药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -3056,12 +3230,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Resist_L_usedesc"
-},
+          "Key": "FT_Potion_Resist_L_usedesc",
+          "SourceString": "使用后，全队抗打断能力提升，持续15秒；增强效果持续60秒。",
+          "LocalizedString": "使用后，全队抗打断能力提升，持续15秒；增强效果持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Resist_L_desc"
-},
+          "Key": "FT_Potion_Resist_L_desc",
+          "SourceString": "「绵很伤心，喝了药水以后，依然伤心……」\n「硬邦邦药水只能让你变得坚固而不是坚强咩！」",
+          "LocalizedString": "「绵很伤心，喝了药水以后，依然伤心……」\n「硬邦邦药水只能让你变得坚固而不是坚强咩！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -3077,13 +3255,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Resist/Buff_Potion_Resist_Lv5.Buff_Potion_Resist_Lv5_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -3097,13 +3275,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Resist/Buff_Potion_Resist_Lv6.Buff_Potion_Resist_Lv6_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -3136,23 +3314,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Dmg_S": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -3160,19 +3338,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Dmg_M_256.FT_Potion_Dmg_M_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Dmg_M_100.FT_Potion_Dmg_M_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Dmg_S_name"
-},
+          "Key": "FT_Potion_Dmg_S_name",
+          "SourceString": "小瓶大力奇迹药水",
+          "LocalizedString": "小瓶大力奇迹药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -3182,12 +3362,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Dmg_S_usedesc"
-},
+          "Key": "FT_Potion_Dmg_S_usedesc",
+          "SourceString": "使用后，全队造成的伤害提升10%，持续15秒；增强效果为造成的伤害提升15%，持续60秒。",
+          "LocalizedString": "使用后，全队造成的伤害提升10%，持续15秒；增强效果为造成的伤害提升15%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Dmg_S_desc"
-},
+          "Key": "FT_Potion_Dmg_S_desc",
+          "SourceString": "以柔克刚，以巧克力，绵绵大力出奇迹！",
+          "LocalizedString": "以柔克刚，以巧克力，绵绵大力出奇迹！"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -3203,13 +3387,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DamageUp/Buff_Potion_DmgUp_Lv1.Buff_Potion_DmgUp_Lv1_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -3223,13 +3407,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DamageUp/Buff_Potion_DmgUp_Lv2.Buff_Potion_DmgUp_Lv2_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -3262,23 +3446,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Dmg_M": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -3286,19 +3470,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Dmg_S_256.FT_Potion_Dmg_S_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Dmg_S_100.FT_Potion_Dmg_S_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Dmg_M_name"
-},
+          "Key": "FT_Potion_Dmg_M_name",
+          "SourceString": "中瓶大力奇迹药水",
+          "LocalizedString": "中瓶大力奇迹药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -3308,12 +3494,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Dmg_M_usedesc"
-},
+          "Key": "FT_Potion_Dmg_M_usedesc",
+          "SourceString": "使用后，全队造成的伤害提升15%，持续15秒；增强效果为造成的伤害提升40%，持续60秒。",
+          "LocalizedString": "使用后，全队造成的伤害提升15%，持续15秒；增强效果为造成的伤害提升40%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Dmg_M_desc"
-},
+          "Key": "FT_Potion_Dmg_M_desc",
+          "SourceString": "以柔克刚，以巧克力，绵绵大力出奇迹！",
+          "LocalizedString": "以柔克刚，以巧克力，绵绵大力出奇迹！"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -3329,13 +3519,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DamageUp/Buff_Potion_DmgUp_Lv3.Buff_Potion_DmgUp_Lv3_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -3349,13 +3539,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DamageUp/Buff_Potion_DmgUp_Lv4.Buff_Potion_DmgUp_Lv4_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -3388,23 +3578,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Dmg_L": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -3412,19 +3602,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Dmg_L_256.FT_Potion_Dmg_L_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Dmg_L_100.FT_Potion_Dmg_L_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Dmg_L_name"
-},
+          "Key": "FT_Potion_Dmg_L_name",
+          "SourceString": "大瓶大力奇迹药水",
+          "LocalizedString": "大瓶大力奇迹药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -3434,12 +3626,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Dmg_L_usedesc"
-},
+          "Key": "FT_Potion_Dmg_L_usedesc",
+          "SourceString": "使用后，全队造成的伤害提升20%，持续15秒；增强效果为造成的伤害提升80%，持续60秒。",
+          "LocalizedString": "使用后，全队造成的伤害提升20%，持续15秒；增强效果为造成的伤害提升80%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Dmg_L_desc"
-},
+          "Key": "FT_Potion_Dmg_L_desc",
+          "SourceString": "以柔克刚，以巧克力，绵绵大力出奇迹！",
+          "LocalizedString": "以柔克刚，以巧克力，绵绵大力出奇迹！"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -3455,13 +3651,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DamageUp/Buff_Potion_DmgUp_Lv5.Buff_Potion_DmgUp_Lv5_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -3475,13 +3671,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_DamageUp/Buff_Potion_DmgUp_Lv6.Buff_Potion_DmgUp_Lv6_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -3514,23 +3710,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_CritDmg_S": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -3538,19 +3734,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_CritDmg_S_256.FT_Potion_CritDmg_S_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_CritDmg_S_100.FT_Potion_CritDmg_S_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_CritDmg_S_name"
-},
+          "Key": "FT_Potion_CritDmg_S_name",
+          "SourceString": "小瓶暴暴药水",
+          "LocalizedString": "小瓶暴暴药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -3560,12 +3758,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_CritDmg_S_usedesc"
-},
+          "Key": "FT_Potion_CritDmg_S_usedesc",
+          "SourceString": "使用后，全队暴击伤害提升15%，持续15秒；增强效果为暴击伤害提升25%，持续60秒。",
+          "LocalizedString": "使用后，全队暴击伤害提升15%，持续15秒；增强效果为暴击伤害提升25%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_CritDmg_S_desc"
-},
+          "Key": "FT_Potion_CritDmg_S_desc",
+          "SourceString": "「绵浅尝一口……诶？好像收不住力了，对不起咩。」",
+          "LocalizedString": "「绵浅尝一口……诶？好像收不住力了，对不起咩。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -3581,13 +3783,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_CritDamage/Buff_Potion_CritDmgUp_Lv1.Buff_Potion_CritDmgUp_Lv1_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -3601,13 +3803,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_CritDamage/Buff_Potion_CritDmgUp_Lv2.Buff_Potion_CritDmgUp_Lv2_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -3640,23 +3842,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_CritDmg_M": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -3664,19 +3866,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_CritDmg_M_256.FT_Potion_CritDmg_M_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_CritDmg_M_100.FT_Potion_CritDmg_M_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_CritDmg_M_name"
-},
+          "Key": "FT_Potion_CritDmg_M_name",
+          "SourceString": "中瓶暴暴药水",
+          "LocalizedString": "中瓶暴暴药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -3686,12 +3890,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_CritDmg_M_usedesc"
-},
+          "Key": "FT_Potion_CritDmg_M_usedesc",
+          "SourceString": "使用后，全队暴击伤害提升30%，持续15秒；增强效果为暴击伤害提升60%，持续60秒。",
+          "LocalizedString": "使用后，全队暴击伤害提升30%，持续15秒；增强效果为暴击伤害提升60%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_CritDmg_M_desc"
-},
+          "Key": "FT_Potion_CritDmg_M_desc",
+          "SourceString": "「绵浅尝一口……诶？好像收不住力了，对不起咩。」",
+          "LocalizedString": "「绵浅尝一口……诶？好像收不住力了，对不起咩。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -3707,13 +3915,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_CritDamage/Buff_Potion_CritDmgUp_Lv3.Buff_Potion_CritDmgUp_Lv3_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -3727,13 +3935,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_CritDamage/Buff_Potion_CritDmgUp_Lv4.Buff_Potion_CritDmgUp_Lv4_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -3766,23 +3974,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_CritDmg_L": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -3790,19 +3998,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_CritDmg_L_256.FT_Potion_CritDmg_L_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_CritDmg_L_100.FT_Potion_CritDmg_L_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_CritDmg_L_name"
-},
+          "Key": "FT_Potion_CritDmg_L_name",
+          "SourceString": "大瓶暴暴药水",
+          "LocalizedString": "大瓶暴暴药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -3812,12 +4022,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_CritDmg_L_usedesc"
-},
+          "Key": "FT_Potion_CritDmg_L_usedesc",
+          "SourceString": "使用后，全队暴击伤害提升50%，持续15秒；增强效果为暴击伤害提升100%，持续60秒。",
+          "LocalizedString": "使用后，全队暴击伤害提升50%，持续15秒；增强效果为暴击伤害提升100%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_CritDmg_L_desc"
-},
+          "Key": "FT_Potion_CritDmg_L_desc",
+          "SourceString": "「绵浅尝一口……诶？好像收不住力了，对不起咩。」",
+          "LocalizedString": "「绵浅尝一口……诶？好像收不住力了，对不起咩。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -3833,13 +4047,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_CritDamage/Buff_Potion_CritDmgUp_Lv5.Buff_Potion_CritDmgUp_Lv5_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -3853,13 +4067,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_CritDamage/Buff_Potion_CritDmgUp_Lv6.Buff_Potion_CritDmgUp_Lv6_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -3892,23 +4106,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Hp_S": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -3916,19 +4130,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Hp_S_256.FT_Potion_Hp_S_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Hp_S_100.FT_Potion_Hp_S_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Hp_S_name"
-},
+          "Key": "FT_Potion_Hp_S_name",
+          "SourceString": "小瓶生命之水",
+          "LocalizedString": "小瓶生命之水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -3938,12 +4154,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Hp_S_usedesc"
-},
+          "Key": "FT_Potion_Hp_S_usedesc",
+          "SourceString": "使用后，全队生命上限提升10%，持续15秒；增强效果为生命上限提升20%，持续60秒。",
+          "LocalizedString": "使用后，全队生命上限提升10%，持续15秒；增强效果为生命上限提升20%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Hp_S_desc"
-},
+          "Key": "FT_Potion_Hp_S_desc",
+          "SourceString": "「有人觉得像饮料，有人觉得是药，有人以为自己在吃一块布丁。」\n「而绵好像……闻到了一片甜甜草地。」",
+          "LocalizedString": "「有人觉得像饮料，有人觉得是药，有人以为自己在吃一块布丁。」\n「而绵好像……闻到了一片甜甜草地。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -3959,13 +4179,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_HPUp/Buff_Potion_HPUp_Lv1.Buff_Potion_HPUp_Lv1_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -3979,13 +4199,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_HPUp/Buff_Potion_HPUp_Lv2.Buff_Potion_HPUp_Lv2_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -4018,23 +4238,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Hp_M": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -4042,19 +4262,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Hp_M_256.FT_Potion_Hp_M_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Hp_M_100.FT_Potion_Hp_M_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Hp_M_name"
-},
+          "Key": "FT_Potion_Hp_M_name",
+          "SourceString": "中瓶生命之水",
+          "LocalizedString": "中瓶生命之水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -4064,12 +4286,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Hp_M_usedesc"
-},
+          "Key": "FT_Potion_Hp_M_usedesc",
+          "SourceString": "使用后，全队生命上限提升30%，持续15秒；增强效果为生命上限提升40%，持续60秒。",
+          "LocalizedString": "使用后，全队生命上限提升30%，持续15秒；增强效果为生命上限提升40%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Hp_M_desc"
-},
+          "Key": "FT_Potion_Hp_M_desc",
+          "SourceString": "「有人觉得像饮料，有人觉得是药，有人以为自己在吃一块布丁。」\n「而绵好像……闻到了一片甜甜草地。」",
+          "LocalizedString": "「有人觉得像饮料，有人觉得是药，有人以为自己在吃一块布丁。」\n「而绵好像……闻到了一片甜甜草地。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -4085,13 +4311,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_HPUp/Buff_Potion_HPUp_Lv3.Buff_Potion_HPUp_Lv3_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -4105,13 +4331,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_HPUp/Buff_Potion_HPUp_Lv4.Buff_Potion_HPUp_Lv4_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -4144,23 +4370,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Hp_L": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -4168,19 +4394,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Hp_L_256.FT_Potion_Hp_L_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Hp_L_100.FT_Potion_Hp_L_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Hp_L_name"
-},
+          "Key": "FT_Potion_Hp_L_name",
+          "SourceString": "大瓶生命之水",
+          "LocalizedString": "大瓶生命之水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -4190,12 +4418,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Hp_L_usedesc"
-},
+          "Key": "FT_Potion_Hp_L_usedesc",
+          "SourceString": "使用后，全队生命上限提升50%，持续15秒；增强效果为生命上限提升80%，持续60秒。",
+          "LocalizedString": "使用后，全队生命上限提升50%，持续15秒；增强效果为生命上限提升80%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Hp_L_desc"
-},
+          "Key": "FT_Potion_Hp_L_desc",
+          "SourceString": "「有人觉得像饮料，有人觉得是药，有人以为自己在吃一块布丁。」\n「而绵好像……闻到了一片甜甜草地。」",
+          "LocalizedString": "「有人觉得像饮料，有人觉得是药，有人以为自己在吃一块布丁。」\n「而绵好像……闻到了一片甜甜草地。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -4211,13 +4443,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_HPUp/Buff_Potion_HPUp_Lv5.Buff_Potion_HPUp_Lv5_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -4231,13 +4463,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_HPUp/Buff_Potion_HPUp_Lv6.Buff_Potion_HPUp_Lv6_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -4270,23 +4502,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Unbal_S": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -4294,19 +4526,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Unbal_S_256.FT_Potion_Unbal_S_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Unbal_S_100.FT_Potion_Unbal_S_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Unbal_S_name"
-},
+          "Key": "FT_Potion_Unbal_S_name",
+          "SourceString": "小瓶瘫倒药水",
+          "LocalizedString": "小瓶瘫倒药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -4316,12 +4550,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Unbal_S_usedesc"
-},
+          "Key": "FT_Potion_Unbal_S_usedesc",
+          "SourceString": "使用后，全队倾陷效率提升5%，持续15秒；增强效果为倾陷效率提升10%，持续60秒。",
+          "LocalizedString": "使用后，全队倾陷效率提升5%，持续15秒；增强效果为倾陷效率提升10%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Unbal_S_desc"
-},
+          "Key": "FT_Potion_Unbal_S_desc",
+          "SourceString": "「什么？敌人刚刚还像凶狠的老虎，怎么突然瘫成猫饼了啊喂！」\n「那绵就不客气了哦~」",
+          "LocalizedString": "「什么？敌人刚刚还像凶狠的老虎，怎么突然瘫成猫饼了啊喂！」\n「那绵就不客气了哦~」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -4337,13 +4575,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Unbal/Buff_Potion_Unbal_Lv1.Buff_Potion_Unbal_Lv1_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -4357,13 +4595,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Unbal/Buff_Potion_Unbal_Lv2.Buff_Potion_Unbal_Lv2_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -4396,23 +4634,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Unbal_M": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -4420,19 +4658,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Unbal_M_256.FT_Potion_Unbal_M_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Unbal_M_100.FT_Potion_Unbal_M_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Unbal_M_name"
-},
+          "Key": "FT_Potion_Unbal_M_name",
+          "SourceString": "中瓶瘫倒药水",
+          "LocalizedString": "中瓶瘫倒药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -4442,12 +4682,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Unbal_M_usedesc"
-},
+          "Key": "FT_Potion_Unbal_M_usedesc",
+          "SourceString": "使用后，全队倾陷效率提升15%，持续15秒；增强效果为倾陷效率提升25%，持续60秒。",
+          "LocalizedString": "使用后，全队倾陷效率提升15%，持续15秒；增强效果为倾陷效率提升25%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Unbal_M_desc"
-},
+          "Key": "FT_Potion_Unbal_M_desc",
+          "SourceString": "「什么？敌人刚刚还像凶狠的老虎，怎么突然瘫成猫饼了啊喂！」\n「那绵就不客气了哦~」",
+          "LocalizedString": "「什么？敌人刚刚还像凶狠的老虎，怎么突然瘫成猫饼了啊喂！」\n「那绵就不客气了哦~」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -4463,13 +4707,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Unbal/Buff_Potion_Unbal_Lv3.Buff_Potion_Unbal_Lv3_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -4483,13 +4727,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Unbal/Buff_Potion_Unbal_Lv4.Buff_Potion_Unbal_Lv4_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -4522,23 +4766,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Potion_Unbal_L": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD",
         "ItemClassOverride": null,
@@ -4546,19 +4790,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Potion_Unbal_L_256.FT_Potion_Unbal_L_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Potion_Unbal_L_100.FT_Potion_Unbal_L_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Unbal_L_name"
-},
+          "Key": "FT_Potion_Unbal_L_name",
+          "SourceString": "大瓶瘫倒药水",
+          "LocalizedString": "大瓶瘫倒药水"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -4568,12 +4814,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Unbal_L_usedesc"
-},
+          "Key": "FT_Potion_Unbal_L_usedesc",
+          "SourceString": "使用后，全队倾陷效率提升30%，持续15秒；增强效果为倾陷效率提升50%，持续60秒。",
+          "LocalizedString": "使用后，全队倾陷效率提升30%，持续15秒；增强效果为倾陷效率提升50%，持续60秒。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Potion_Unbal_L_desc"
-},
+          "Key": "FT_Potion_Unbal_L_desc",
+          "SourceString": "「什么？敌人刚刚还像凶狠的老虎，怎么突然瘫成猫饼了啊喂！」\n「那绵就不客气了哦~」",
+          "LocalizedString": "「什么？敌人刚刚还像凶狠的老虎，怎么突然瘫成猫饼了啊喂！」\n「那绵就不客气了哦~」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -4589,13 +4839,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Unbal/Buff_Potion_Unbal_Lv5.Buff_Potion_Unbal_Lv5_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-},
+          },
           {
             "BuffData": {
               "BuffName": "None",
@@ -4609,13 +4859,13 @@
               "fStrengthAdd": 0.0,
               "nStartTime": 0,
               "CalcOfflineTime": true
-},
+            },
             "BuffClass": {
               "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fantasy/Potion/Buff_Potion_Unbal/Buff_Potion_Unbal_Lv6.Buff_Potion_Unbal_Lv6_C",
               "SubPathString": ""
-},
+            },
             "bNeedShowConsumableUseUI": false
-}
+          }
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
@@ -4648,23 +4898,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Butterfly_Volcano": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -4674,19 +4924,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Butterfly_Volcano.FT_Butterfly_Volcano",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Butterfly_Volcano_100.FT_Butterfly_Volcano_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Volcano_name"
-},
+          "Key": "FT_Butterfly_Volcano_name",
+          "SourceString": "灼焰蝶",
+          "LocalizedString": "灼焰蝶"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -4696,12 +4948,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Volcano_usedesc"
-},
+          "Key": "FT_Butterfly_Volcano_usedesc",
+          "SourceString": "生活在炎热地区的特殊蝴蝶，闪亮美丽，身体轻盈，可用于与「神秘商绵」交易，在某些情况下说不定能发挥神奇的作用。",
+          "LocalizedString": "生活在炎热地区的特殊蝴蝶，闪亮美丽，身体轻盈，可用于与「神秘商绵」交易，在某些情况下说不定能发挥神奇的作用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Volcano_desc"
-},
+          "Key": "FT_Butterfly_Volcano_desc",
+          "SourceString": "扑火的飞蛾义无反顾地投身焰流，火山便给予了它灼热的祝福。",
+          "LocalizedString": "扑火的飞蛾义无反顾地投身焰流，火山便给予了它灼热的祝福。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -4735,23 +4991,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Butterfly_Snow": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -4761,19 +5017,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Butterfly_Lake.FT_Butterfly_Lake",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Butterfly_Lake_100.FT_Butterfly_Lake_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Snow_name"
-},
+          "Key": "FT_Butterfly_Snow_name",
+          "SourceString": "冰纹蝶",
+          "LocalizedString": "冰纹蝶"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -4783,12 +5041,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Snow_usedesc"
-},
+          "Key": "FT_Butterfly_Snow_usedesc",
+          "SourceString": "生活在寒冷地区的特殊蝴蝶，闪亮美丽，身体轻盈，可用于与「神秘商绵」交易，在某些情况下说不定能发挥神奇的作用。",
+          "LocalizedString": "生活在寒冷地区的特殊蝴蝶，闪亮美丽，身体轻盈，可用于与「神秘商绵」交易，在某些情况下说不定能发挥神奇的作用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Snow_desc"
-},
+          "Key": "FT_Butterfly_Snow_desc",
+          "SourceString": "传说在雪山迷途的生灵，其愿望会化作冰蓝的蝴蝶，将旅者指引向它们到达不了的春天。",
+          "LocalizedString": "传说在雪山迷途的生灵，其愿望会化作冰蓝的蝴蝶，将旅者指引向它们到达不了的春天。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -4822,23 +5084,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Butterfly_Lake": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -4848,19 +5110,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Butterfly_Castle.FT_Butterfly_Castle",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Butterfly_Castle_100.FT_Butterfly_Castle_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Lake_name"
-},
+          "Key": "FT_Butterfly_Lake_name",
+          "SourceString": "翠闪蝶",
+          "LocalizedString": "翠闪蝶"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -4870,12 +5134,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Lake_usedesc"
-},
+          "Key": "FT_Butterfly_Lake_usedesc",
+          "SourceString": "生活在潮湿地区的特殊蝴蝶，闪亮美丽，身体轻盈，可用于与「神秘商绵」交易，在某些情况下说不定能发挥神奇的作用。",
+          "LocalizedString": "生活在潮湿地区的特殊蝴蝶，闪亮美丽，身体轻盈，可用于与「神秘商绵」交易，在某些情况下说不定能发挥神奇的作用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Lake_desc"
-},
+          "Key": "FT_Butterfly_Lake_desc",
+          "SourceString": "终其一生都在扇动潮湿的翅膀，就此拥有了飞得更高更远的力量。",
+          "LocalizedString": "终其一生都在扇动潮湿的翅膀，就此拥有了飞得更高更远的力量。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -4909,23 +5177,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_Butterfly_Castle": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -4935,19 +5203,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/FT_Butterfly_Snow.FT_Butterfly_Snow",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/FT_Butterfly_Snow_100.FT_Butterfly_Snow_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Castle_name"
-},
+          "Key": "FT_Butterfly_Castle_name",
+          "SourceString": "幽影蝶",
+          "LocalizedString": "幽影蝶"
+        },
         "MaxAmount": 9999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -4957,12 +5227,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Castle_usedesc"
-},
+          "Key": "FT_Butterfly_Castle_usedesc",
+          "SourceString": "生活在阴暗地区的特殊蝴蝶，闪亮美丽，身体轻盈，可用于与「神秘商绵」交易，在某些情况下说不定能发挥神奇的作用。",
+          "LocalizedString": "生活在阴暗地区的特殊蝴蝶，闪亮美丽，身体轻盈，可用于与「神秘商绵」交易，在某些情况下说不定能发挥神奇的作用。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_Butterfly_Castle_desc"
-},
+          "Key": "FT_Butterfly_Castle_desc",
+          "SourceString": "越是黑暗的地方，微小的光亮越是可贵。",
+          "LocalizedString": "越是黑暗的地方，微小的光亮越是可贵。"
+        },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
@@ -4996,23 +5270,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FTGoldCoin_500": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5020,19 +5294,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FTGoldCoin.FTGoldCoin",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FTGoldCoin_100.FTGoldCoin_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FTGoldCoin_500_name"
-},
+          "Key": "FTGoldCoin_500_name",
+          "SourceString": "沃伦金币x500",
+          "LocalizedString": "沃伦金币x500"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5042,12 +5318,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "item_Gold_usedesc"
-},
+          "Key": "item_Gold_usedesc",
+          "SourceString": "养成消耗的基础货币。",
+          "LocalizedString": "养成消耗的基础货币。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "gold_desc"
-},
+          "Key": "gold_desc",
+          "SourceString": "一种弱小到处在食物链底端的生物类异象，形似一只小小的甲壳虫，为求生存会在城市中拟态成硬币外观与碰撞声响等待被人捡起，在流通中寻找更好的生机。",
+          "LocalizedString": "一种弱小到处在食物链底端的生物类异象，形似一只小小的甲壳虫，为求生存会在城市中拟态成硬币外观与碰撞声响等待被人捡起，在流通中寻找更好的生机。"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -5088,23 +5368,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FTGoldCoin_5000": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5112,19 +5392,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FTGoldCoin.FTGoldCoin",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FTGoldCoin_100.FTGoldCoin_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FTGoldCoin_5000_name"
-},
+          "Key": "FTGoldCoin_5000_name",
+          "SourceString": "沃伦金币x5000",
+          "LocalizedString": "沃伦金币x5000"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5134,12 +5416,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "item_Gold_usedesc"
-},
+          "Key": "item_Gold_usedesc",
+          "SourceString": "养成消耗的基础货币。",
+          "LocalizedString": "养成消耗的基础货币。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "gold_desc"
-},
+          "Key": "gold_desc",
+          "SourceString": "一种弱小到处在食物链底端的生物类异象，形似一只小小的甲壳虫，为求生存会在城市中拟态成硬币外观与碰撞声响等待被人捡起，在流通中寻找更好的生机。",
+          "LocalizedString": "一种弱小到处在食物链底端的生物类异象，形似一只小小的甲壳虫，为求生存会在城市中拟态成硬币外观与碰撞声响等待被人捡起，在流通中寻找更好的生机。"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -5180,23 +5466,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_EquipmentChest_C1_Lv1": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5204,19 +5490,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_03_256.ZB_icon_guanzi_03_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_03_100.ZB_icon_guanzi_03_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv1_name"
-},
+          "Key": "FT_EquipmentChest_C1_Lv1_name",
+          "SourceString": "漏风呆呆罐",
+          "LocalizedString": "漏风呆呆罐"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5226,12 +5514,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv1_usedesc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv1_usedesc",
+          "SourceString": "有较大的概率开出低品质装备。\r\n\r\n根据当前真红的等级，罐子中会开出20/30/40/50/60级的装备。",
+          "LocalizedString": "有较大的概率开出低品质装备。\r\n\r\n根据当前真红的等级，罐子中会开出20/30/40/50/60级的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv1_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv1_desc",
+          "SourceString": "「生产工艺非常随缘，开出什么全凭天意咩！」",
+          "LocalizedString": "「生产工艺非常随缘，开出什么全凭天意咩！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -5272,23 +5564,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_EquipmentChest_C1_Lv2": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5296,19 +5588,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_02_256.ZB_icon_guanzi_02_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_02_100.ZB_icon_guanzi_02_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv2_name"
-},
+          "Key": "FT_EquipmentChest_C1_Lv2_name",
+          "SourceString": "标准吨吨罐",
+          "LocalizedString": "标准吨吨罐"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5318,12 +5612,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv2_usedesc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv2_usedesc",
+          "SourceString": "有较大的概率开出高品质装备。\r\n\r\n根据当前真红的等级，罐子中会开出20/30/40/50/60级的装备。",
+          "LocalizedString": "有较大的概率开出高品质装备。\r\n\r\n根据当前真红的等级，罐子中会开出20/30/40/50/60级的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv2_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv2_desc",
+          "SourceString": "「一只成熟稳定的罐子，虽然打开也不会有太大惊喜，但绝对不会让绵哭出来——大概吧？」",
+          "LocalizedString": "「一只成熟稳定的罐子，虽然打开也不会有太大惊喜，但绝对不会让绵哭出来——大概吧？」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -5364,23 +5662,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_EquipmentChest_C2_Lv1": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5388,19 +5686,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_03_256.ZB_icon_guanzi_03_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_03_100.ZB_icon_guanzi_03_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C2_Lv1_name"
-},
+          "Key": "FT_EquipmentChest_C2_Lv1_name",
+          "SourceString": "漏风呆呆罐·挑战",
+          "LocalizedString": "漏风呆呆罐·挑战"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5410,12 +5710,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C2_Lv1_usedesc"
-},
+          "Key": "FT_EquipmentChest_C2_Lv1_usedesc",
+          "SourceString": "有较大的概率开出低品质装备。\r\n\r\n根据当前真红的等级，罐子中会开出40/60/80/90/100级的装备。",
+          "LocalizedString": "有较大的概率开出低品质装备。\r\n\r\n根据当前真红的等级，罐子中会开出40/60/80/90/100级的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv1_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv1_desc",
+          "SourceString": "「生产工艺非常随缘，开出什么全凭天意咩！」",
+          "LocalizedString": "「生产工艺非常随缘，开出什么全凭天意咩！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -5456,23 +5760,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_EquipmentChest_C2_Lv2": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5480,19 +5784,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_02_256.ZB_icon_guanzi_02_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_02_100.ZB_icon_guanzi_02_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C2_Lv2_name"
-},
+          "Key": "FT_EquipmentChest_C2_Lv2_name",
+          "SourceString": "标准吨吨罐·挑战",
+          "LocalizedString": "标准吨吨罐·挑战"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5502,12 +5808,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C2_Lv2_usedesc"
-},
+          "Key": "FT_EquipmentChest_C2_Lv2_usedesc",
+          "SourceString": "有较大的概率开出高品质装备。\r\n\r\n根据当前真红的等级，罐子中会开出40/60/80/90/100级的装备。",
+          "LocalizedString": "有较大的概率开出高品质装备。\r\n\r\n根据当前真红的等级，罐子中会开出40/60/80/90/100级的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv2_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv2_desc",
+          "SourceString": "「一只成熟稳定的罐子，虽然打开也不会有太大惊喜，但绝对不会让绵哭出来——大概吧？」",
+          "LocalizedString": "「一只成熟稳定的罐子，虽然打开也不会有太大惊喜，但绝对不会让绵哭出来——大概吧？」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -5548,23 +5858,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_EquipmentChest_C2_Lv3": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5572,19 +5882,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_01_256.ZB_icon_guanzi_01_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_01_100.ZB_icon_guanzi_01_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C2_Lv3_name"
-},
+          "Key": "FT_EquipmentChest_C2_Lv3_name",
+          "SourceString": "至尊闪闪罐·挑战",
+          "LocalizedString": "至尊闪闪罐·挑战"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5594,12 +5906,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C2_Lv3_usedesc"
-},
+          "Key": "FT_EquipmentChest_C2_Lv3_usedesc",
+          "SourceString": "有极大的概率开出高品质装备，并且有小概率会开出稀有的装备。\r\n\r\n根据当前真红的等级，罐子中会开出40/60/80/90/100级的装备。",
+          "LocalizedString": "有极大的概率开出高品质装备，并且有小概率会开出稀有的装备。\r\n\r\n根据当前真红的等级，罐子中会开出40/60/80/90/100级的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv3_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv3_desc",
+          "SourceString": "「沉甸甸的手感，亮闪闪的外表，据说每一个打开它的绵，嘴角都会不自觉留下感动的泪水咩。」",
+          "LocalizedString": "「沉甸甸的手感，亮闪闪的外表，据说每一个打开它的绵，嘴角都会不自觉留下感动的泪水咩。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -5640,23 +5956,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_EquipmentChest_C3_Lv1": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5664,19 +5980,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_03_256.ZB_icon_guanzi_03_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_03_100.ZB_icon_guanzi_03_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C3_Lv1_name"
-},
+          "Key": "FT_EquipmentChest_C3_Lv1_name",
+          "SourceString": "漏风呆呆罐·噩梦",
+          "LocalizedString": "漏风呆呆罐·噩梦"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5686,12 +6004,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C3_Lv1_usedesc"
-},
+          "Key": "FT_EquipmentChest_C3_Lv1_usedesc",
+          "SourceString": "有较大的概率开出低品质装备，并且有极小概率会开出稀有的装备。\r\n\r\n根据当前真红的等级，罐子中会开出80/100级的装备。",
+          "LocalizedString": "有较大的概率开出低品质装备，并且有极小概率会开出稀有的装备。\r\n\r\n根据当前真红的等级，罐子中会开出80/100级的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv1_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv1_desc",
+          "SourceString": "「生产工艺非常随缘，开出什么全凭天意咩！」",
+          "LocalizedString": "「生产工艺非常随缘，开出什么全凭天意咩！」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -5732,23 +6054,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_EquipmentChest_C3_Lv2": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5756,19 +6078,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_02_256.ZB_icon_guanzi_02_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_02_100.ZB_icon_guanzi_02_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C3_Lv2_name"
-},
+          "Key": "FT_EquipmentChest_C3_Lv2_name",
+          "SourceString": "标准吨吨罐·噩梦",
+          "LocalizedString": "标准吨吨罐·噩梦"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5778,12 +6102,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C3_Lv2_usedesc"
-},
+          "Key": "FT_EquipmentChest_C3_Lv2_usedesc",
+          "SourceString": "有较大的概率开出高品质装备，并且有小概率会开出稀有的装备。\r\n\r\n根据当前真红的等级，罐子中会开出80/100级的装备。",
+          "LocalizedString": "有较大的概率开出高品质装备，并且有小概率会开出稀有的装备。\r\n\r\n根据当前真红的等级，罐子中会开出80/100级的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv2_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv2_desc",
+          "SourceString": "「一只成熟稳定的罐子，虽然打开也不会有太大惊喜，但绝对不会让绵哭出来——大概吧？」",
+          "LocalizedString": "「一只成熟稳定的罐子，虽然打开也不会有太大惊喜，但绝对不会让绵哭出来——大概吧？」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -5824,23 +6152,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_EquipmentChest_C3_Lv3": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5848,19 +6176,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_01_256.ZB_icon_guanzi_01_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_01_100.ZB_icon_guanzi_01_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C3_Lv3_name"
-},
+          "Key": "FT_EquipmentChest_C3_Lv3_name",
+          "SourceString": "至尊闪闪罐·噩梦",
+          "LocalizedString": "至尊闪闪罐·噩梦"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5870,12 +6200,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C3_Lv3_usedesc"
-},
+          "Key": "FT_EquipmentChest_C3_Lv3_usedesc",
+          "SourceString": "有极大的概率开出高品质装备，并且有概率会开出稀有的装备。\r\n\r\n根据当前真红的等级，罐子中会开出80/100级的装备。",
+          "LocalizedString": "有极大的概率开出高品质装备，并且有概率会开出稀有的装备。\r\n\r\n根据当前真红的等级，罐子中会开出80/100级的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv3_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv3_desc",
+          "SourceString": "「沉甸甸的手感，亮闪闪的外表，据说每一个打开它的绵，嘴角都会不自觉留下感动的泪水咩。」",
+          "LocalizedString": "「沉甸甸的手感，亮闪闪的外表，据说每一个打开它的绵，嘴角都会不自觉留下感动的泪水咩。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -5916,23 +6250,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_TowerBox_Lv1": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -5940,19 +6274,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_02_256.ZB_icon_guanzi_02_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_02_100.ZB_icon_guanzi_02_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_TowerBox_Lv1_name"
-},
+          "Key": "FT_TowerBox_Lv1_name",
+          "SourceString": "漏风呆呆罐·幻境",
+          "LocalizedString": "漏风呆呆罐·幻境"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -5962,12 +6298,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_TowerBox_Lv1_desc"
-},
+          "Key": "FT_TowerBox_Lv1_desc",
+          "SourceString": "真龙幻境试炼中特制的漏风呆呆罐，其中可以开出十分稀有的装备。",
+          "LocalizedString": "真龙幻境试炼中特制的漏风呆呆罐，其中可以开出十分稀有的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv2_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv2_desc",
+          "SourceString": "「一只成熟稳定的罐子，虽然打开也不会有太大惊喜，但绝对不会让绵哭出来——大概吧？」",
+          "LocalizedString": "「一只成熟稳定的罐子，虽然打开也不会有太大惊喜，但绝对不会让绵哭出来——大概吧？」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -6008,23 +6348,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_TowerBox_Lv2": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -6032,19 +6372,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_02_256.ZB_icon_guanzi_02_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_02_100.ZB_icon_guanzi_02_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_TowerBox_Lv2_name"
-},
+          "Key": "FT_TowerBox_Lv2_name",
+          "SourceString": "标准吨吨罐·幻境",
+          "LocalizedString": "标准吨吨罐·幻境"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -6054,12 +6396,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_TowerBox_Lv2_desc"
-},
+          "Key": "FT_TowerBox_Lv2_desc",
+          "SourceString": "真龙幻境试炼中特制的标准吨吨罐，其中可以开出十分稀有的装备。",
+          "LocalizedString": "真龙幻境试炼中特制的标准吨吨罐，其中可以开出十分稀有的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv2_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv2_desc",
+          "SourceString": "「一只成熟稳定的罐子，虽然打开也不会有太大惊喜，但绝对不会让绵哭出来——大概吧？」",
+          "LocalizedString": "「一只成熟稳定的罐子，虽然打开也不会有太大惊喜，但绝对不会让绵哭出来——大概吧？」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -6100,23 +6446,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-},
+      },
       "FT_TowerBox_Lv3": {
         "ItemType": "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
         "ItemClassOverride": null,
@@ -6124,19 +6470,21 @@
         "ItemIcon": {
           "AssetPathName": "/Game/UI/UI_Icon/Item/FT_256/ZB_icon_guanzi_01_256.ZB_icon_guanzi_01_256",
           "SubPathString": ""
-},
+        },
         "ItemIconSmall": {
           "AssetPathName": "/Game/UI/UI_Icon/item_100/FT_100/ZB_icon_guanzi_01_100.ZB_icon_guanzi_01_100",
           "SubPathString": ""
-},
+        },
         "ItemIconBig": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "ItemName": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_TowerBox_Lv3_name"
-},
+          "Key": "FT_TowerBox_Lv3_name",
+          "SourceString": "至尊闪闪罐·幻境",
+          "LocalizedString": "至尊闪闪罐·幻境"
+        },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
         "bNotImmediateSerialize": false,
@@ -6146,12 +6494,16 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_TowerBox_Lv3_desc"
-},
+          "Key": "FT_TowerBox_Lv3_desc",
+          "SourceString": "真龙幻境试炼中特制的至尊闪闪罐，其中可以开出十分稀有的装备。",
+          "LocalizedString": "真龙幻境试炼中特制的至尊闪闪罐，其中可以开出十分稀有的装备。"
+        },
         "Description": {
           "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
-          "Key": "FT_EquipmentChest_C1_Lv3_desc"
-},
+          "Key": "FT_EquipmentChest_C1_Lv3_desc",
+          "SourceString": "「沉甸甸的手感，亮闪闪的外表，据说每一个打开它的绵，嘴角都会不自觉留下感动的泪水咩。」",
+          "LocalizedString": "「沉甸甸的手感，亮闪闪的外表，据说每一个打开它的绵，嘴角都会不自觉留下感动的泪水咩。」"
+        },
         "LimitScenes": [],
         "ToolDatas": [
           {
@@ -6192,23 +6544,23 @@
         "DropActorClass": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupType": "EItemDropPickupType::Pickup_Auto",
         "DropSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "PickupSoundOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "DropEffectNiagaraOverride": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
-}
+      }
     }
   }
 ]

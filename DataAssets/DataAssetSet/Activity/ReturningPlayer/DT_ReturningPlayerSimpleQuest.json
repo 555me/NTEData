@@ -9,21 +9,23 @@
       "RowStruct": {
         "ObjectName": "Class'SimpleQuestStaticData'",
         "ObjectPath": "/Script/HTGame"
-}
+      }
     },
     "Rows": {
       "quest_return_firstlogin": {
         "QuestId": "quest_return_firstlogin",
         "QuestName": {
           "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
-          "Key": "quest_return_firstlogin"
-},
+          "Key": "quest_return_firstlogin",
+          "SourceString": "首次登录",
+          "LocalizedString": "首次登录"
+        },
         "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "ObjectiveType": "ESimpleQuestObjType::TotalLoginDays",
           "Amount": 1
-},
+        },
         "QuestAwardData": {
           "AwardGroupID": "drop_return_firstlogin",
           "SimpleAwards": [
@@ -31,7 +33,7 @@
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
-},
+              },
               "ItemID": "Returning_exp",
               "Amount": 5,
               "bHiddenAmount": false,
@@ -41,19 +43,19 @@
                 "RandomModifyData": []
               },
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
-}
+            }
           ],
           "bShowAwardWindow": false
-},
+        },
         "bAutoCommit": false,
         "JumpPath": "None",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "Comment": {
           "CultureInvariantString": null
-},
+        },
         "ExtensionData": null,
         "bPopAwardsWindow": true,
         "bTimeLimitQuest": false,
@@ -65,7 +67,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -73,9 +75,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "QuestEndTime": {
           "MainlandTime": {
             "Year": 1,
@@ -84,7 +86,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -92,23 +94,25 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "ConditionArray": []
       },
       "quest_return_login_3d": {
         "QuestId": "quest_return_login_3d",
         "QuestName": {
           "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
-          "Key": "quest_return_login_3d"
-},
+          "Key": "quest_return_login_3d",
+          "SourceString": "累计登录3天",
+          "LocalizedString": "累计登录3天"
+        },
         "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "ObjectiveType": "ESimpleQuestObjType::TotalLoginDays",
           "Amount": 3
-},
+        },
         "QuestAwardData": {
           "AwardGroupID": "drop_return_login_3d",
           "SimpleAwards": [
@@ -116,7 +120,7 @@
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
-},
+              },
               "ItemID": "Returning_exp",
               "Amount": 10,
               "bHiddenAmount": false,
@@ -126,19 +130,19 @@
                 "RandomModifyData": []
               },
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
-}
+            }
           ],
           "bShowAwardWindow": false
-},
+        },
         "bAutoCommit": false,
         "JumpPath": "None",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "Comment": {
           "CultureInvariantString": null
-},
+        },
         "ExtensionData": null,
         "bPopAwardsWindow": true,
         "bTimeLimitQuest": false,
@@ -150,7 +154,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -158,9 +162,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "QuestEndTime": {
           "MainlandTime": {
             "Year": 1,
@@ -169,7 +173,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -177,23 +181,25 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "ConditionArray": []
       },
       "quest_return_login_7d": {
         "QuestId": "quest_return_login_7d",
         "QuestName": {
           "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
-          "Key": "quest_return_login_7d"
-},
+          "Key": "quest_return_login_7d",
+          "SourceString": "累计登录7天",
+          "LocalizedString": "累计登录7天"
+        },
         "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "ObjectiveType": "ESimpleQuestObjType::TotalLoginDays",
           "Amount": 7
-},
+        },
         "QuestAwardData": {
           "AwardGroupID": "drop_return_login_7d",
           "SimpleAwards": [
@@ -201,7 +207,7 @@
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
-},
+              },
               "ItemID": "Returning_exp",
               "Amount": 15,
               "bHiddenAmount": false,
@@ -211,19 +217,19 @@
                 "RandomModifyData": []
               },
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
-}
+            }
           ],
           "bShowAwardWindow": false
-},
+        },
         "bAutoCommit": false,
         "JumpPath": "None",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "Comment": {
           "CultureInvariantString": null
-},
+        },
         "ExtensionData": null,
         "bPopAwardsWindow": true,
         "bTimeLimitQuest": false,
@@ -235,7 +241,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -243,9 +249,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "QuestEndTime": {
           "MainlandTime": {
             "Year": 1,
@@ -254,7 +260,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -262,17 +268,19 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "ConditionArray": []
       },
       "quest_return_fons_20w": {
         "QuestId": "quest_return_fons_20w",
         "QuestName": {
           "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
-          "Key": "quest_return_fons_20w"
-},
+          "Key": "quest_return_fons_20w",
+          "SourceString": "累计赚取20w方斯",
+          "LocalizedString": "累计赚取20w方斯"
+        },
         "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
@@ -287,7 +295,7 @@
           "VehicleKeyTypeArray": [],
           "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
           "Amount": 200000
-},
+        },
         "QuestAwardData": {
           "AwardGroupID": "drop_return_fons_20w",
           "SimpleAwards": [
@@ -295,7 +303,7 @@
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
-},
+              },
               "ItemID": "Returning_exp",
               "Amount": 10,
               "bHiddenAmount": false,
@@ -305,19 +313,19 @@
                 "RandomModifyData": []
               },
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
-}
+            }
           ],
           "bShowAwardWindow": false
-},
+        },
         "bAutoCommit": false,
         "JumpPath": "UrbanGameplay",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "Comment": {
           "CultureInvariantString": null
-},
+        },
         "ExtensionData": null,
         "bPopAwardsWindow": true,
         "bTimeLimitQuest": false,
@@ -329,7 +337,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -337,9 +345,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "QuestEndTime": {
           "MainlandTime": {
             "Year": 1,
@@ -348,7 +356,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -356,17 +364,19 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "ConditionArray": []
       },
       "quest_return_fons_50w": {
         "QuestId": "quest_return_fons_50w",
         "QuestName": {
           "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
-          "Key": "quest_return_fons_50w"
-},
+          "Key": "quest_return_fons_50w",
+          "SourceString": "累计赚取50w方斯",
+          "LocalizedString": "累计赚取50w方斯"
+        },
         "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
@@ -381,7 +391,7 @@
           "VehicleKeyTypeArray": [],
           "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
           "Amount": 500000
-},
+        },
         "QuestAwardData": {
           "AwardGroupID": "drop_return_fons_50w",
           "SimpleAwards": [
@@ -389,7 +399,7 @@
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
-},
+              },
               "ItemID": "Returning_exp",
               "Amount": 15,
               "bHiddenAmount": false,
@@ -399,19 +409,19 @@
                 "RandomModifyData": []
               },
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
-}
+            }
           ],
           "bShowAwardWindow": false
-},
+        },
         "bAutoCommit": false,
         "JumpPath": "UrbanGameplay",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "Comment": {
           "CultureInvariantString": null
-},
+        },
         "ExtensionData": null,
         "bPopAwardsWindow": true,
         "bTimeLimitQuest": false,
@@ -423,7 +433,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -431,9 +441,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "QuestEndTime": {
           "MainlandTime": {
             "Year": 1,
@@ -442,7 +452,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -450,17 +460,19 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "ConditionArray": []
       },
       "quest_return_fons_100w": {
         "QuestId": "quest_return_fons_100w",
         "QuestName": {
           "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
-          "Key": "quest_return_fons_100w"
-},
+          "Key": "quest_return_fons_100w",
+          "SourceString": "累计赚取100w方斯",
+          "LocalizedString": "累计赚取100w方斯"
+        },
         "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
@@ -475,7 +487,7 @@
           "VehicleKeyTypeArray": [],
           "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
           "Amount": 1000000
-},
+        },
         "QuestAwardData": {
           "AwardGroupID": "drop_return_fons_100w",
           "SimpleAwards": [
@@ -483,7 +495,7 @@
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
-},
+              },
               "ItemID": "Returning_exp",
               "Amount": 20,
               "bHiddenAmount": false,
@@ -493,19 +505,19 @@
                 "RandomModifyData": []
               },
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
-}
+            }
           ],
           "bShowAwardWindow": false
-},
+        },
         "bAutoCommit": false,
         "JumpPath": "UrbanGameplay",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "Comment": {
           "CultureInvariantString": null
-},
+        },
         "ExtensionData": null,
         "bPopAwardsWindow": true,
         "bTimeLimitQuest": false,
@@ -517,7 +529,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -525,9 +537,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "QuestEndTime": {
           "MainlandTime": {
             "Year": 1,
@@ -536,7 +548,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -544,24 +556,26 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "ConditionArray": []
       },
       "quest_return_stamina_720": {
         "QuestId": "quest_return_stamina_720",
         "QuestName": {
           "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
-          "Key": "quest_return_stamina_720"
-},
+          "Key": "quest_return_stamina_720",
+          "SourceString": "消耗720本性像素",
+          "LocalizedString": "消耗720本性像素"
+        },
         "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "StaminaName": "Stamina",
           "ObjectiveType": "ESimpleQuestObjType::CommonStaminaUsed",
           "Amount": 720
-},
+        },
         "QuestAwardData": {
           "AwardGroupID": "drop_return_stamina_720",
           "SimpleAwards": [
@@ -569,7 +583,7 @@
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
-},
+              },
               "ItemID": "Returning_exp",
               "Amount": 15,
               "bHiddenAmount": false,
@@ -579,19 +593,19 @@
                 "RandomModifyData": []
               },
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
-}
+            }
           ],
           "bShowAwardWindow": false
-},
+        },
         "bAutoCommit": false,
         "JumpPath": "map_ui",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "Comment": {
           "CultureInvariantString": null
-},
+        },
         "ExtensionData": null,
         "bPopAwardsWindow": true,
         "bTimeLimitQuest": false,
@@ -603,7 +617,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -611,9 +625,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "QuestEndTime": {
           "MainlandTime": {
             "Year": 1,
@@ -622,7 +636,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -630,17 +644,19 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "ConditionArray": []
       },
       "quest_return_weekly_3": {
         "QuestId": "quest_return_weekly_3",
         "QuestName": {
           "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
-          "Key": "quest_return_weekly_3"
-},
+          "Key": "quest_return_weekly_3",
+          "SourceString": "通关3次异象巡礼",
+          "LocalizedString": "通关3次异象巡礼"
+        },
         "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
@@ -649,7 +665,7 @@
           "CloneDifficultyLevel": 0,
           "ObjectiveType": "ESimpleQuestObjType::CloneCompleted",
           "Amount": 3
-},
+        },
         "QuestAwardData": {
           "AwardGroupID": "drop_return_weekly_3",
           "SimpleAwards": [
@@ -657,7 +673,7 @@
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
-},
+              },
               "ItemID": "Returning_exp",
               "Amount": 10,
               "bHiddenAmount": false,
@@ -667,19 +683,19 @@
                 "RandomModifyData": []
               },
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
-}
+            }
           ],
           "bShowAwardWindow": false
-},
+        },
         "bAutoCommit": false,
         "JumpPath": "WeeklyClone_Boss05_map",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "Comment": {
           "CultureInvariantString": null
-},
+        },
         "ExtensionData": null,
         "bPopAwardsWindow": true,
         "bTimeLimitQuest": false,
@@ -691,7 +707,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -699,9 +715,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "QuestEndTime": {
           "MainlandTime": {
             "Year": 1,
@@ -710,7 +726,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -718,24 +734,26 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "ConditionArray": []
       },
       "quest_return_abyss_5": {
         "QuestId": "quest_return_abyss_5",
         "QuestName": {
           "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
-          "Key": "quest_return_abyss_5"
-},
+          "Key": "quest_return_abyss_5",
+          "SourceString": "通关任意轨外之境第5站",
+          "LocalizedString": "通关任意轨外之境第5站"
+        },
         "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AbyssLevel": 5,
           "ObjectiveType": "ESimpleQuestObjType::AnyAbyssCompleted",
           "Amount": 1
-},
+        },
         "QuestAwardData": {
           "AwardGroupID": "drop_return_abyss_5",
           "SimpleAwards": [
@@ -743,7 +761,7 @@
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
-},
+              },
               "ItemID": "Returning_exp",
               "Amount": 20,
               "bHiddenAmount": false,
@@ -753,19 +771,19 @@
                 "RandomModifyData": []
               },
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
-}
+            }
           ],
           "bShowAwardWindow": false
-},
+        },
         "bAutoCommit": false,
         "JumpPath": "abyss_map",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "Comment": {
           "CultureInvariantString": null
-},
+        },
         "ExtensionData": null,
         "bPopAwardsWindow": true,
         "bTimeLimitQuest": false,
@@ -777,7 +795,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -785,9 +803,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "QuestEndTime": {
           "MainlandTime": {
             "Year": 1,
@@ -796,7 +814,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -804,24 +822,26 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "ConditionArray": []
       },
       "quest_return_gift_20": {
         "QuestId": "quest_return_gift_20",
         "QuestName": {
           "TableId": "/Game/Text/ST_ReturningQuest.ST_ReturningQuest",
-          "Key": "quest_return_gift_20"
-},
+          "Key": "quest_return_gift_20",
+          "SourceString": "赠送礼物20次",
+          "LocalizedString": "赠送礼物20次"
+        },
         "SimpleQuestType": "ESimpleQuestType::ReturningPlayer",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "SubQuests": [],
           "ObjectiveType": "ESimpleQuestObjType::SendGift",
           "Amount": 20
-},
+        },
         "QuestAwardData": {
           "AwardGroupID": "drop_return_gift_20",
           "SimpleAwards": [
@@ -829,7 +849,7 @@
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
-},
+              },
               "ItemID": "Returning_exp",
               "Amount": 15,
               "bHiddenAmount": false,
@@ -839,19 +859,19 @@
                 "RandomModifyData": []
               },
               "AwardItemType": "EItemType::ITEM_TYPE_NONE"
-}
+            }
           ],
           "bShowAwardWindow": false
-},
+        },
         "bAutoCommit": false,
         "JumpPath": "likeability_ui",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "Comment": {
           "CultureInvariantString": null
-},
+        },
         "ExtensionData": null,
         "bPopAwardsWindow": true,
         "bTimeLimitQuest": false,
@@ -863,7 +883,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -871,9 +891,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "QuestEndTime": {
           "MainlandTime": {
             "Year": 1,
@@ -882,7 +902,7 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaTime": {
             "Year": 1,
             "Month": 1,
@@ -890,9 +910,9 @@
             "Hour": 0,
             "minute": 0,
             "Second": 0
-},
+          },
           "OverseaUseUTCTime": true
-},
+        },
         "ConditionArray": []
       }
     }

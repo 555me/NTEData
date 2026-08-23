@@ -9,14 +9,16 @@
       "RowStruct": {
         "ObjectName": "Class'HTRankRecordConfig'",
         "ObjectPath": "/Script/HTGame"
-}
+      }
     },
     "Rows": {
       "ProfitRecord": {
         "RankRecordName": {
           "TableId": "/Game/Text/ST_UI_XZC.ST_UI_XZC",
-          "Key": "rank002"
-},
+          "Key": "rank002",
+          "SourceString": "盈利榜",
+          "LocalizedString": "盈利榜"
+        },
         "RankListType": "ERankListType::BidKing_Profit",
         "DisplayRow": 100,
         "MaxRow": 200,
@@ -35,7 +37,7 @@
             "MailContent": "rankmailtext001",
             "MailAttach": "Title_bidking_seasonrank_01,1",
             "MailSender": "rankmail002"
-},
+          },
           {
             "MinRank": 2,
             "MaxRank": 2,
@@ -44,7 +46,7 @@
             "MailContent": "rankmailtext002",
             "MailAttach": "Title_bidking_seasonrank_02,1",
             "MailSender": "rankmail002"
-},
+          },
           {
             "MinRank": 3,
             "MaxRank": 3,
@@ -53,7 +55,7 @@
             "MailContent": "rankmailtext002",
             "MailAttach": "Title_bidking_seasonrank_03,1",
             "MailSender": "rankmail002"
-},
+          },
           {
             "MinRank": 4,
             "MaxRank": 20,
@@ -62,7 +64,7 @@
             "MailContent": "rankmailtext003",
             "MailAttach": "Title_bidking_seasonrank_04,1",
             "MailSender": "rankmail002"
-},
+          },
           {
             "MinRank": 21,
             "MaxRank": 100,
@@ -71,17 +73,19 @@
             "MailContent": "rankmailtext004",
             "MailAttach": "Title_bidking_seasonrank_05,1",
             "MailSender": "rankmail002"
-}
+          }
         ],
         "SettleDescription": {
           "CultureInvariantString": null
-}
+        }
       },
       "WealthRecord": {
         "RankRecordName": {
           "TableId": "/Game/Text/ST_UI_XZC.ST_UI_XZC",
-          "Key": "rank003"
-},
+          "Key": "rank003",
+          "SourceString": "财富榜",
+          "LocalizedString": "财富榜"
+        },
         "RankListType": "ERankListType::BidKing_Money",
         "DisplayRow": 100,
         "MaxRow": 200,
@@ -94,7 +98,7 @@
         "SettlementMails": [],
         "SettleDescription": {
           "CultureInvariantString": null
-}
+        }
       }
     }
   }

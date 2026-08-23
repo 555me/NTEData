@@ -9,79 +9,93 @@
       "DT_NoteBookStaticArticleConfig": {
         "ObjectName": "DataTable'DT_NoteBookStaticArticle'",
         "ObjectPath": "/Game/DataTable/NoteBook/DT_NoteBookStaticArticle.0"
-},
+      },
       "DT_NoteBookStaticHomepageConfig": {
         "ObjectName": "DataTable'DT_NoteBookStaticHomepage'",
         "ObjectPath": "/Game/DataTable/NoteBook/DT_NoteBookStaticHomepage.0"
-},
+      },
       "DT_NoteBookPurchasePopularityDataTable": {
         "ObjectName": "DataTable'DT_NoteBookPurchasePopularityDataTable'",
         "ObjectPath": "/Game/DataTable/NoteBook/DT_NoteBookPurchasePopularityDataTable.0"
-},
+      },
       "DailyPublishCount": 5,
       "PostRequestSubUrlMaps": [
         {
           "Key": "EHTNoteBookPostListType::Created",
           "Value": "/inGame/article/pageOther/v2"
-},
+        },
         {
           "Key": "EHTNoteBookPostListType::Saved",
           "Value": "/inGame/article/pageCollections"
-},
+        },
         {
           "Key": "EHTNoteBookPostListType::Liked",
           "Value": "/inGame/article/pageLikes"
-}
+        }
       ],
       "ArticleSortTypes": [
         {
           "SortType": "EHTNoteBookListSortType::Sort_Default",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_006"
-}
+            "Key": "BPUI_NoteBook_006",
+            "SourceString": "推荐",
+            "LocalizedString": "推荐"
+          }
         },
         {
           "SortType": "EHTNoteBookListSortType::Sort_MostPopular",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_068"
-}
+            "Key": "BPUI_NoteBook_068",
+            "SourceString": "总热门",
+            "LocalizedString": "总热门"
+          }
         },
         {
           "SortType": "EHTNoteBookListSortType::Sort_LatestUpdate",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_010"
-}
+            "Key": "BPUI_NoteBook_010",
+            "SourceString": "最新",
+            "LocalizedString": "最新"
+          }
         },
         {
           "SortType": "EHTNoteBookListSortType::Sort_TodayPopular",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_011"
-}
+            "Key": "BPUI_NoteBook_011",
+            "SourceString": "今日热门",
+            "LocalizedString": "今日热门"
+          }
         },
         {
           "SortType": "EHTNoteBookListSortType::Sort_WeekPopular",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_012"
-}
+            "Key": "BPUI_NoteBook_012",
+            "SourceString": "本周热门",
+            "LocalizedString": "本周热门"
+          }
         },
         {
           "SortType": "EHTNoteBookListSortType::Sort_PageFollowed",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_078"
-}
+            "Key": "BPUI_NoteBook_078",
+            "SourceString": "关注（玩家）",
+            "LocalizedString": "关注（玩家）"
+          }
         },
         {
           "SortType": "EHTNoteBookListSortType::Sort_PageNPC",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_079"
-}
+            "Key": "BPUI_NoteBook_079",
+            "SourceString": "关注（角色）",
+            "LocalizedString": "关注（角色）"
+          }
         }
       ],
       "ArticleVisibleScopes": [
@@ -89,22 +103,28 @@
           "visibleScope": "EHTNoteBookArticleVisibleScope::VisibleScope_Publish",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_057"
-}
+            "Key": "BPUI_NoteBook_057",
+            "SourceString": "公开",
+            "LocalizedString": "公开"
+          }
         },
         {
           "visibleScope": "EHTNoteBookArticleVisibleScope::VisibleScope_Self",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_069"
-}
+            "Key": "BPUI_NoteBook_069",
+            "SourceString": "仅自己可见",
+            "LocalizedString": "仅自己可见"
+          }
         },
         {
           "visibleScope": "EHTNoteBookArticleVisibleScope::VisibleScope_Friend",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_070"
-}
+            "Key": "BPUI_NoteBook_070",
+            "SourceString": "仅关注可见",
+            "LocalizedString": "仅关注可见"
+          }
         }
       ],
       "StaticVoQueryTypes": [
@@ -112,36 +132,42 @@
           "SortType": "EHTNoteBookStaticVoReqType::StaticReq_OneDay",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_033"
-},
+            "Key": "BPUI_NoteBook_033",
+            "SourceString": "总览",
+            "LocalizedString": "总览"
+          },
           "Days": 1
-},
+        },
         {
           "SortType": "EHTNoteBookStaticVoReqType::StaticReq_SevenDay",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_031"
-},
+            "Key": "BPUI_NoteBook_031",
+            "SourceString": "近7天",
+            "LocalizedString": "近7天"
+          },
           "Days": 7
-},
+        },
         {
           "SortType": "EHTNoteBookStaticVoReqType::StaticReq_OneMonth",
           "TypeName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_032"
-},
+            "Key": "BPUI_NoteBook_032",
+            "SourceString": "近30天",
+            "LocalizedString": "近30天"
+          },
           "Days": 30
-}
+        }
       ],
       "RedPointTypeInfos": [
         {
           "Key": "EHTNoteBookMessageType::Comment",
           "Value": "Redpoint.NoteBook.Notification.Comment"
-},
+        },
         {
           "Key": "EHTNoteBookMessageType::Follow",
           "Value": "Redpoint.NoteBook.Notification.Follow"
-}
+        }
       ],
       "ArticleTagTypes": [
         {
@@ -149,72 +175,90 @@
           "SDKArticleTagId": 0,
           "TagName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_Tag_001"
-}
+            "Key": "BPUI_NoteBook_Tag_001",
+            "SourceString": "全部",
+            "LocalizedString": "全部"
+          }
         },
         {
           "TagType": "EHTNoteBookArticleTagType::ATag_Scenery",
           "SDKArticleTagId": 128901,
           "TagName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_Tag_009"
-}
+            "Key": "BPUI_NoteBook_Tag_009",
+            "SourceString": "风景",
+            "LocalizedString": "风景"
+          }
         },
         {
           "TagType": "EHTNoteBookArticleTagType::ATag_Character",
           "SDKArticleTagId": 128902,
           "TagName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_Tag_008"
-}
+            "Key": "BPUI_NoteBook_Tag_008",
+            "SourceString": "角色",
+            "LocalizedString": "角色"
+          }
         },
         {
           "TagType": "EHTNoteBookArticleTagType::ATag_DailyLife",
           "SDKArticleTagId": 128903,
           "TagName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_Tag_007"
-}
+            "Key": "BPUI_NoteBook_Tag_007",
+            "SourceString": "日常",
+            "LocalizedString": "日常"
+          }
         },
         {
           "TagType": "EHTNoteBookArticleTagType::ATag_Battle",
           "SDKArticleTagId": 128904,
           "TagName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_Tag_006"
-}
+            "Key": "BPUI_NoteBook_Tag_006",
+            "SourceString": "战斗",
+            "LocalizedString": "战斗"
+          }
         },
         {
           "TagType": "EHTNoteBookArticleTagType::ATag_Furniture",
           "SDKArticleTagId": 128905,
           "TagName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_Tag_005"
-}
+            "Key": "BPUI_NoteBook_Tag_005",
+            "SourceString": "家装",
+            "LocalizedString": "家装"
+          }
         },
         {
           "TagType": "EHTNoteBookArticleTagType::ATag_Guide",
           "SDKArticleTagId": 128908,
           "TagName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_Tag_002"
-}
+            "Key": "BPUI_NoteBook_Tag_002",
+            "SourceString": "攻略",
+            "LocalizedString": "攻略"
+          }
         },
         {
           "TagType": "EHTNoteBookArticleTagType::ATag_Fishing",
           "SDKArticleTagId": 128907,
           "TagName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_Tag_003"
-}
+            "Key": "BPUI_NoteBook_Tag_003",
+            "SourceString": "钓鱼",
+            "LocalizedString": "钓鱼"
+          }
         },
         {
           "TagType": "EHTNoteBookArticleTagType::ATag_Vision",
           "SDKArticleTagId": 128906,
           "TagName": {
             "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-            "Key": "BPUI_NoteBook_Tag_004"
-}
+            "Key": "BPUI_NoteBook_Tag_004",
+            "SourceString": "异象",
+            "LocalizedString": "异象"
+          }
         }
       ],
       "MaxArticleTagCount": 2,
@@ -229,39 +273,39 @@
         "DailyMaxCommentScore": 2147483647,
         "CollectCountScore": 60,
         "DailyMaxCollectScore": 2147483647
-},
+      },
       "ArticleCoinRate": {
         "SoreRangeArray": [
           {
             "MinBorder": 0,
             "MaxBorder": 950,
             "Rate": 0.421053
-},
+          },
           {
             "MinBorder": 950,
             "MaxBorder": 5716,
             "Rate": 0.167837
-},
+          },
           {
             "MinBorder": 5716,
             "MaxBorder": 14798,
             "Rate": 0.088088
-},
+          },
           {
             "MinBorder": 14798,
             "MaxBorder": 251362,
             "Rate": 0.012682
-},
+          },
           {
             "MinBorder": 251362,
             "MaxBorder": 852595,
             "Rate": 0.011643
-},
+          },
           {
             "MinBorder": 852595,
             "MaxBorder": 1128000,
             "Rate": 0.007262
-}
+          }
         ],
         "LikeOtherCountCoin": 200,
         "DailyMaxLikeOtherCoin": 600,
@@ -270,20 +314,20 @@
         "CommentOtherCountCoin": 300,
         "DailyMaxCommentOtherCountCoin": 900,
         "DailyMaxTotalCoin": 72000
-},
+      },
       "DynamicHeightRate": [
         {
           "Key": "0.43",
           "Value": 1.37
-},
+        },
         {
           "Key": "0.5",
           "Value": 1.15
-},
+        },
         {
           "Key": "0.57",
           "Value": 1.0
-}
+        }
       ],
       "ExtraTextRate": 0.18,
       "ExtraHeadRate": 0.13,
@@ -291,181 +335,185 @@
         {
           "Key": "90100",
           "Value": 87
-},
+        },
         {
           "Key": "90243",
           "Value": 87
-},
+        },
         {
           "Key": "90137",
           "Value": 87
-},
+        },
         {
           "Key": "90242",
           "Value": 210
-},
+        },
         {
           "Key": "90244",
           "Value": 210
-},
+        },
         {
           "Key": "90001",
           "Value": 89
-},
+        },
         {
           "Key": "11001",
           "Value": 87
-},
+        },
         {
           "Key": "11003",
           "Value": 87
-},
+        },
         {
           "Key": "11002",
           "Value": 87
-},
+        },
         {
           "Key": "13001",
           "Value": 87
-},
+        },
         {
           "Key": "13002",
           "Value": 89
-},
+        },
         {
           "Key": "13003",
           "Value": 87
-},
+        },
         {
           "Key": "31101",
           "Value": 86
-},
+        },
         {
           "Key": "30001",
           "Value": 88
-},
+        },
         {
           "Key": "39001",
           "Value": 88
-},
+        },
         {
           "Key": "30101",
           "Value": 88
-},
+        },
         {
           "Key": "31001",
           "Value": 88
-},
+        },
         {
           "Key": "38001",
           "Value": 88
-},
+        },
         {
           "Key": "23001",
           "Value": 201
-},
+        },
         {
           "Key": "23004",
           "Value": 204
-},
+        },
         {
           "Key": "23003",
           "Value": 203
-},
+        },
         {
           "Key": "23002",
           "Value": 202
-},
+        },
         {
           "Key": "21004",
           "Value": 210
-},
+        },
         {
           "Key": "21003",
           "Value": 210
-},
+        },
         {
           "Key": "21006",
           "Value": 210
-},
+        },
         {
           "Key": "21005",
           "Value": 210
-},
+        },
         {
           "Key": "21008",
           "Value": 210
-},
+        },
         {
           "Key": "21007",
           "Value": 210
-},
+        },
         {
           "Key": "21009",
           "Value": 208
-},
+        },
         {
           "Key": "22000",
           "Value": 210
-},
+        },
         {
           "Key": "22001",
           "Value": 205
-},
+        },
         {
           "Key": "22002",
           "Value": 206
-},
+        },
         {
           "Key": "220020002",
           "Value": 210
-},
+        },
         {
           "Key": "22003",
           "Value": 207
-},
+        },
         {
           "Key": "220030002",
           "Value": 210
-},
+        },
         {
           "Key": "22004",
           "Value": 210
-},
+        },
         {
           "Key": "22005",
           "Value": 210
-},
+        },
         {
           "Key": "22006",
           "Value": 210
-},
+        },
         {
           "Key": "14001",
           "Value": 85
-},
+        },
         {
           "Key": "22007",
           "Value": 210
-},
+        },
         {
           "Key": "90133",
           "Value": 210
-},
+        },
         {
           "Key": "30102",
           "Value": 88
-}
+        }
       ],
       "LanguageOptionID": "Setting_Language",
       "Text_OtherLanguage": {
         "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-        "Key": "BPUI_NoteBook_066"
-},
+        "Key": "BPUI_NoteBook_066",
+        "SourceString": "其他语言",
+        "LocalizedString": "其他语言"
+      },
       "Text_AllLanguage": {
         "TableId": "/Game/Text/UI/ST_Notebook.ST_Notebook",
-        "Key": "BPUI_NoteBook_067"
-}
+        "Key": "BPUI_NoteBook_067",
+        "SourceString": "所有语言",
+        "LocalizedString": "所有语言"
+      }
     }
   }
 ]
