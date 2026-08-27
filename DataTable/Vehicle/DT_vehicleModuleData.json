@@ -63700,7 +63700,7 @@
           "KitMeshComponent": {
             "PropName": "None",
             "PropValue": {
-              "AssetPathName": "/Game/Blueprints/Vehicle/Vehicle_013/Modules/Vehicle013_Addon_01.Vehicle013_Addon_01_C",
+              "AssetPathName": "",
               "SubPathString": ""
             }
           },
@@ -63713,9 +63713,9 @@
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-          "Key": "V013_Addon_001_desc",
-          "SourceString": "「旧时光」默认配置，将鲜花带到城市的每一个角落。",
-          "LocalizedString": "「旧时光」默认配置，将鲜花带到城市的每一个角落。"
+          "Key": "V013_Original_desc",
+          "SourceString": "「旧时光」的初始状态。",
+          "LocalizedString": "「旧时光」的初始状态。"
         },
         "ModuleType": "EVehicleModuleType::EVMT_Attachment",
         "bWasDefault": true,
@@ -66237,6 +66237,244 @@
         },
         "CityShopExtensionData": null,
         "FeatureActiveData": null,
+        "JumpToUISourceId": "None",
+        "RegionShowType": "ETitleDisplayRegion::All",
+        "IsLockHide": false,
+        "ExtraModuleIds": []
+      },
+      "V013_Addon_05": {
+        "ModuleID": "V013_Addon_05",
+        "VehicleID": "Vehicle013",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V013_Addon_001_name",
+          "SourceString": "鲜花漫游",
+          "LocalizedString": "鲜花漫游"
+        },
+        "ModuleProps": {
+          "KitMeshComponent": {
+            "PropName": "None",
+            "PropValue": {
+              "AssetPathName": "/Game/Blueprints/Vehicle/Vehicle_013/Modules/Vehicle013_Addon_01.Vehicle013_Addon_01_C",
+              "SubPathString": ""
+            }
+          },
+          "TargetSocket": "car_bucket"
+        },
+        "ModuleProperties": {
+          "ModuleType": "EVehicleModuleType::EVMT_None",
+          "Priority": 0,
+          "PropertyList": []
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V013_Addon_001_desc",
+          "SourceString": "「旧时光」特别配置，将鲜花带到城市的每一个角落。",
+          "LocalizedString": "「旧时光」特别配置，将鲜花带到城市的每一个角落。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Attachment",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 0,
+        "ModifyCostId": "Fons",
+        "ModifyPrice": 700,
+        "BasePropsScore": [],
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_bike_icon_addon01.YH_UI_bike_icon_addon01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_bike_icon_addon01.YH_UI_bike_icon_addon01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null,
+        "FeatureActiveData": null,
+        "JumpToUISourceId": "None",
+        "RegionShowType": "ETitleDisplayRegion::All",
+        "IsLockHide": false,
+        "ExtraModuleIds": []
+      },
+      "V037_Tyre_01": {
+        "ModuleID": "V037_Tyre_01",
+        "VehicleID": "Vehicle037",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Vehicle_Default_Original",
+          "SourceString": "原厂",
+          "LocalizedString": "原厂"
+        },
+        "ModuleProps": {
+          "bIsTireInited": false,
+          "FrontTyreFriction": {
+            "FrictionMultiplier_Normal": 5.0,
+            "FrictionMultiplier_Wet": 5.0,
+            "FrictionMultiplier_Snow": 5.0,
+            "FrictionMultiplier_Broken": 0.1,
+            "BrakeFrictionScale_Wet": 0.6,
+            "BrakeFrictionScale_Snow": 0.6
+          },
+          "RearTyreFriction": {
+            "FrictionMultiplier_Normal": 6.0,
+            "FrictionMultiplier_Wet": 6.0,
+            "FrictionMultiplier_Snow": 6.0,
+            "FrictionMultiplier_Broken": 0.1,
+            "BrakeFrictionScale_Wet": 0.6,
+            "BrakeFrictionScale_Snow": 0.6
+          }
+        },
+        "ModuleProperties": {
+          "ModuleType": "EVehicleModuleType::EVMT_None",
+          "Priority": 0,
+          "PropertyList": []
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Original_desc",
+          "SourceString": "Griffin的原厂状态。",
+          "LocalizedString": "Griffin的原厂状态。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Tyre",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 0,
+        "ModifyCostId": "Fons",
+        "ModifyPrice": 2850,
+        "BasePropsScore": [],
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_luntai.YH_UI_CarComponent_luntai",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_luntai.YH_UI_CarComponent_luntai",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null,
+        "FeatureActiveData": null,
+        "JumpToUISourceId": "None",
+        "RegionShowType": "ETitleDisplayRegion::All",
+        "IsLockHide": false,
+        "ExtraModuleIds": []
+      },
+      "Vehicle013_Skin002": {
+        "ModuleID": "Vehicle013_Skin002",
+        "VehicleID": "Vehicle013",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V013_skin_02_name",
+          "SourceString": "高速运转的灵可",
+          "LocalizedString": "高速运转的灵可"
+        },
+        "ModuleProps": null,
+        "ModuleProperties": {
+          "ModuleType": "EVehicleModuleType::EVMT_Skin",
+          "Priority": 0,
+          "PropertyList": []
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V013_skin_02_desc",
+          "SourceString": "「出现了！小贞！我们的脸出现在车轮上了！」「臭小鬼，长这么大第一次见痛车吗？！」",
+          "LocalizedString": "「出现了！小贞！我们的脸出现在车轮上了！」「臭小鬼，长这么大第一次见痛车吗？！」"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Skin",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 0,
+        "ModifyCostId": "Fons",
+        "ModifyPrice": 100,
+        "BasePropsScore": [],
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_V013_Skin_001.YH_UI_car_icon_V013_Skin_001",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_V013_Skin_001.YH_UI_car_icon_V013_Skin_001",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null,
+        "FeatureActiveData": {
+          "FeatureId": "None",
+          "Requires": [
+            {
+              "ActiveType": "EFeatureActiveType::EFAT_Item",
+              "MaxValue": 1,
+              "UnlockGuide": {
+                "TableId": "/Game/Text/ST_Output.ST_Output",
+                "Key": "CardDraw_name",
+                "SourceString": "斯卡布罗集市",
+                "LocalizedString": "斯卡布罗集市"
+              },
+              "ID": "Fashion_vehicle_1072_V013"
+            }
+          ]
+        },
+        "JumpToUISourceId": "None",
+        "RegionShowType": "ETitleDisplayRegion::All",
+        "IsLockHide": false,
+        "ExtraModuleIds": []
+      },
+      "V013_Addon_06": {
+        "ModuleID": "V013_Addon_06",
+        "VehicleID": "Vehicle013",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V013_Addon_006_name",
+          "SourceString": "兜个鬼风",
+          "LocalizedString": "兜个鬼风"
+        },
+        "ModuleProps": {
+          "KitMeshComponent": {
+            "PropName": "None",
+            "PropValue": {
+              "AssetPathName": "/Game/Blueprints/Vehicle/Vehicle_013/Modules/Vehicle013_Addon_05.Vehicle013_Addon_05_C",
+              "SubPathString": ""
+            }
+          },
+          "TargetSocket": "Xiaozhen"
+        },
+        "ModuleProperties": {
+          "ModuleType": "EVehicleModuleType::EVMT_None",
+          "Priority": 0,
+          "PropertyList": []
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V013_Addon_006_desc",
+          "SourceString": "海特洛治安局规定，自行车前框不允许装载儿童，但对于恶灵或宠物，他们似乎网开一面。",
+          "LocalizedString": "海特洛治安局规定，自行车前框不允许装载儿童，但对于恶灵或宠物，他们似乎网开一面。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Attachment",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 0,
+        "ModifyCostId": "Fons",
+        "ModifyPrice": 700,
+        "BasePropsScore": [],
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_V013_Skin_001.YH_UI_car_icon_V013_Skin_001",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_V013_Skin_001.YH_UI_car_icon_V013_Skin_001",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null,
+        "FeatureActiveData": {
+          "FeatureId": "None",
+          "Requires": [
+            {
+              "ActiveType": "EFeatureActiveType::EFAT_Item",
+              "MaxValue": 1,
+              "UnlockGuide": {
+                "TableId": "/Game/Text/ST_Output.ST_Output",
+                "Key": "CardDraw_name",
+                "SourceString": "斯卡布罗集市",
+                "LocalizedString": "斯卡布罗集市"
+              },
+              "ID": "Fashion_vehicle_1072_V013"
+            }
+          ]
+        },
         "JumpToUISourceId": "None",
         "RegionShowType": "ETitleDisplayRegion::All",
         "IsLockHide": false,

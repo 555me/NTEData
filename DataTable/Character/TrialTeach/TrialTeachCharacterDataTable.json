@@ -16457,7 +16457,7 @@
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
             "TeachSateges": {
-              "GaCounterTeachStages": [
+              "GameplayEffectTeachStages": [
                 {
                   "SlotContent": {
                     "Title": {
@@ -16468,21 +16468,21 @@
                       "SubPathString": ""
                     }
                   },
-                  "AbilityName": "GA_Radio072_Melee",
-                  "AbilitySectionName": "Entry2",
-                  "FinishCount": 1,
-                  "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_End",
-                  "DelayFinishTime": -1.0
+                  "Type": "ETeachApplyTargetType::Monster",
+                  "TeachGE": {
+                    "ObjectName": "BlueprintGeneratedClass'GE_Player_Radio072_Branch_Damage_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_072_Radio/Damage/GE_Player_Radio072_Branch_Damage.1"
+                  },
+                  "GEApplyCount": 1
                 }
               ],
-              "PeriodGAName": "None",
               "IndependentShowUI": false,
               "SlotContent": {
                 "Title": {
                   "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                   "Key": "Trial_Radio_3",
-                  "SourceString": "长按普攻，触发1次「普通攻击：恶灵大巴掌！」",
-                  "LocalizedString": "长按普攻，触发1次「普通攻击：恶灵大巴掌！」"
+                  "SourceString": "普攻任意一段后长按普攻，触发1次「普通攻击：恶灵大巴掌！」",
+                  "LocalizedString": "普攻任意一段后长按普攻，触发1次「普通攻击：恶灵大巴掌！」"
                 },
                 "SlotClass": {
                   "AssetPathName": "",
@@ -16490,16 +16490,7 @@
                 }
               },
               "StageFinishWaitTime": 0.0,
-              "TeachApplyEffects": [
-                {
-                  "GuideID": "Teach_Radio_3_1",
-                  "ApplyTargetType": "ETeachApplyTargetType::Player",
-                  "ApplyOperation": "ETeachApplyOperation::Add",
-                  "ApplyTime": 1,
-                  "ApplyTime_GEClass": "None",
-                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
-                }
-              ]
+              "TeachApplyEffects": []
             }
           },
           {
