@@ -1551,7 +1551,7 @@
           "SubPathString": ""
         },
         "SmallPortraitImg": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/1024/YH_lihui_fashionshop_lingke.YH_lihui_fashionshop_lingke",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/1024/YH_lihui_fashionshop_huaxiangyi8_big.YH_lihui_fashionshop_huaxiangyi8_big",
           "SubPathString": ""
         },
         "UIScale": {
@@ -11918,7 +11918,7 @@
           },
           "DyeMaterialMap": [
             {
-              "Key": "0",
+              "Key": "-1",
               "Value": {
                 "MeshMaterials": [],
                 "MeshAttachEffects": [],
@@ -13199,7 +13199,7 @@
           "SubPathString": ""
         },
         "HeadIconBig": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_lingke3.YH_UI_shizhuang_lihui_lingke3",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_lingke_3_256.player_lingke_3_256",
           "SubPathString": ""
         },
         "DisplayIcon": {
@@ -13234,7 +13234,7 @@
             "SubPathString": ""
           },
           "NPCAppearanceAsset": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_027/DA_Appearance_027_school_RideAlong.DA_Appearance_027_school_RideAlong",
             "SubPathString": ""
           },
           "DyeMaterialMap": [],
@@ -13249,12 +13249,12 @@
         "ExtraAwardsDesc": {
           "CultureInvariantString": null
         },
-        "SourceID": "Monopoly",
+        "SourceID": "FashionShop",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "CardDraw_name",
-          "SourceString": "斯卡布罗集市",
-          "LocalizedString": "斯卡布罗集市"
+          "Key": "FashionShop",
+          "SourceString": "商城购买获取",
+          "LocalizedString": "商城购买获取"
         },
         "SourceLockText": {
           "CultureInvariantString": null
@@ -13330,11 +13330,67 @@
             "SubPathString": ""
           },
           "NPCAppearanceAsset": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_027/DA_Appearance_027_space_RideAlong.DA_Appearance_027_space_RideAlong",
             "SubPathString": ""
           },
-          "DyeMaterialMap": [],
-          "AppearanceOptionRuleMap": []
+          "DyeMaterialMap": [
+            {
+              "Key": "-1",
+              "Value": {
+                "MeshMaterials": [],
+                "MeshAttachEffects": [],
+                "DyeName": {
+                  "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+                  "Key": "Fashion_1072_space_Name",
+                  "SourceString": "星间漫游",
+                  "LocalizedString": "星间漫游"
+                },
+                "DyeDesc": {
+                  "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+                  "Key": "Fashion_1072_space_Desc",
+                  "SourceString": "灵可的奇思妙想总是没有边界，自从淘到这套时装之后，她就总在想自己有没有可能能接收到世界以外的电波。\r\n她的背包里装着一座小小花园，也装着继续前行的勇气。植物会长大，旅途也是。",
+                  "LocalizedString": "灵可的奇思妙想总是没有边界，自从淘到这套时装之后，她就总在想自己有没有可能能接收到世界以外的电波。\r\n她的背包里装着一座小小花园，也装着继续前行的勇气。植物会长大，旅途也是。"
+                },
+                "DyeDisplayIcon": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "GoodsID": "None",
+                "SourceID": "None",
+                "SourceText": {
+                  "CultureInvariantString": null
+                },
+                "SourceLockText": {
+                  "CultureInvariantString": null
+                }
+              }
+            }
+          ],
+          "AppearanceOptionRuleMap": [
+            {
+              "Key": "EPlayerAppearanceOptionType::HideOption1",
+              "Value": {
+                "OptionName": {
+                  "TableId": "/Game/Text/ST_Ui_D.ST_Ui_D",
+                  "Key": "appearance_lingke_hide_1",
+                  "SourceString": "隐藏泡泡头盔",
+                  "LocalizedString": "隐藏泡泡头盔"
+                },
+                "ComponentVisibilityRules": [],
+                "MaterialOpacityRules": [
+                  {
+                    "MeshComponentTag": "None",
+                    "SlotName": "dianciqiu",
+                    "OpacityParameterName": "None",
+                    "DefaultOpacity": 1.0,
+                    "AppliedOpacity": 0.0,
+                    "DefaultDisableGlobalOverlay": false,
+                    "AppliedDisableGlobalOverlay": true
+                  }
+                ]
+              }
+            }
+          ]
         },
         "ExtraAwards": [
           {
