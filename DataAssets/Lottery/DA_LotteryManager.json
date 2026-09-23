@@ -69,6 +69,20 @@
             "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleLingKe'",
             "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleLingKe.0"
           }
+        },
+        {
+          "Key": "Lottery_HeiYu",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleHeiYu'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleHeiYu.0"
+          }
+        },
+        {
+          "Key": "Lottery_MingYin",
+          "Value": {
+            "ObjectName": "HTLotteryModuleBase'DA_LotteryModuleMingYin'",
+            "ObjectPath": "/Game/DataAssets/Lottery/DA_LotteryModuleMingYin.0"
+          }
         }
       ],
       "MonopolyModuleDefines": [
@@ -143,6 +157,22 @@
             "SubPathString": ""
           },
           "Priority": 8
+        },
+        {
+          "ModuleID": "Lottery_HeiYu",
+          "LotteryModuleWidget": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg/LotteryBg_HeiYu.LotteryBg_HeiYu_C",
+            "SubPathString": ""
+          },
+          "Priority": 9
+        },
+        {
+          "ModuleID": "Lottery_MingYin",
+          "LotteryModuleWidget": {
+            "AssetPathName": "/Game/UI/Blueprints/Lottery/LotteryBg/LotteryBg_MingYin.LotteryBg_MingYin_C",
+            "SubPathString": ""
+          },
+          "Priority": 10
         }
       ],
       "LotteryPortraitDataTable": {
@@ -152,6 +182,10 @@
       "MonopolyCellDataTable": {
         "ObjectName": "DataTable'DT_MonopolyCellDataTable'",
         "ObjectPath": "/Game/DataTable/Monopoly/DT_MonopolyCellDataTable.0"
+      },
+      "DiceSkinDataTable": {
+        "ObjectName": "DataTable'DT_MonopolyDiceSkinConfig'",
+        "ObjectPath": "/Game/DataTable/Monopoly/DT_MonopolyDiceSkinConfig.0"
       },
       "MonopolyLevelInstance": {
         "AssetPathName": "/Game/Maps/Map_DLC/DLC_drawcards/DLC_drawcards.DLC_drawcards",
@@ -1442,6 +1476,76 @@
         },
         {
           "CharacterID": "1072",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1042",
+          "AwardItems": [
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Annulith",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            },
+            {
+              "UniqueID": {
+                "solt": 0,
+                "serial": 0
+              },
+              "ItemID": "Common_material_01",
+              "Amount": 3,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+            }
+          ]
+        },
+        {
+          "CharacterID": "1057",
           "AwardItems": [
             {
               "UniqueID": {

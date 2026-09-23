@@ -9,11 +9,11 @@
       "RowStruct": {
         "ObjectName": "Class'DrumSongData'",
         "ObjectPath": "/Script/HTGame"
-}
+      }
     },
     "Rows": {
       "StorySong1": {
-        "SongID": "StorySong1",
+        "SongId": "StorySong1",
         "BPM": 150,
         "OffsetOneOfSixteenBeat": 0,
         "EndTime": 68.0,
@@ -22,26 +22,28 @@
         "ThumbnailIcon": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_Heroic.YU_UI_img_music_Heroic",
           "SubPathString": ""
-},
+        },
         "MusicTitle": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Wiku_SongName2"
-},
+          "Key": "Wiku_SongName2",
+          "SourceString": "Heroic Appearance",
+          "LocalizedString": "Heroic Appearance"
+        },
         "MusicCover": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_Heroic.YU_UI_img_music_Heroic",
           "SubPathString": ""
-},
+        },
         "MusicEvent": {
           "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_RhythmGame/Play_Music_Etude_Difficulty_1_150BPM_44.Play_Music_Etude_Difficulty_1_150BPM_44",
           "SubPathString": ""
-},
+        },
         "MusicDescription": {
           "CultureInvariantString": null
-},
+        },
         "MedalIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "LevelFactor": "02",
         "bUnlockHidden": false,
         "Requires": [],
@@ -49,11 +51,11 @@
           "LowerBound": {
             "Type": "ERangeBoundTypes::Open",
             "Value": 0.0
-},
+          },
           "UpperBound": {
             "Type": "ERangeBoundTypes::Open",
             "Value": 0.0
-}
+          }
         },
         "ScoreTimes": 0.0,
         "LevelInfos": [
@@ -62,133 +64,137 @@
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "容易"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hardest",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 200,
             "NoteNum": 150
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Normal",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "正常"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Normal",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 3000,
             "NoteNum": 200
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Hard",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "困难"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hard",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 45000,
             "NoteNum": 400
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Hardest",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "最难"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hardest",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 9999999,
             "NoteNum": 500
-}
+          }
         ],
         "SongType": "EDrumSongActionType::EDSAT_Story",
         "NPCDataLayer": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "SongTypeIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "SongTypeText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "DT_DrumSongDataTable_Story"
-},
+          "Key": "DT_DrumSongDataTable_Story",
+          "SourceString": "<Pink>[剧情]</>",
+          "LocalizedString": "<Pink>[剧情]</>"
+        },
         "SequenceDatas": [
           {
             "RateRange": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Inclusive",
                 "Value": 0.1
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Inclusive",
                 "Value": 1.0
-}
+              }
             },
             "SequenceId": "L110235"
-}
+          }
         ],
         "QuestId": "L110205",
         "UnLockFunctionDes": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Drum_des_01"
-},
+          "Key": "Drum_des_01",
+          "SourceString": "在「某传奇乐队（吗？）的第一页」剧情中解锁",
+          "LocalizedString": "在「某传奇乐队（吗？）的第一页」剧情中解锁"
+        },
         "NPCActions": [
           {
             "TargetType": {
               "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_014/BP_NPC_014_g_L110201.BP_NPC_014_g_L110201_C",
               "SubPathString": ""
-},
+            },
             "TargetTag": "BP_NPC_014_g_L110201",
             "ObjDatas": [
               {
@@ -196,24 +202,24 @@
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.01
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.05
-}
+                  }
                 },
                 "RateRange": {
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 0.0
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 1.0
-}
+                  }
                 },
                 "EventName": "HNY"
-}
+              }
             ]
           }
         ],
@@ -221,23 +227,23 @@
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_S",
             "Value": 5
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_A",
             "Value": 4
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_B",
             "Value": 3
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_C",
             "Value": 2
-}
+          }
         ]
       },
       "StorySong2": {
-        "SongID": "StorySong2",
+        "SongId": "StorySong2",
         "BPM": 190,
         "OffsetOneOfSixteenBeat": 0,
         "EndTime": 48.0,
@@ -246,26 +252,28 @@
         "ThumbnailIcon": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_-Summer（Short-Ver__.YU_UI_img_music_-Summer（Short-Ver__",
           "SubPathString": ""
-},
+        },
         "MusicTitle": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Wiku_SongName1"
-},
+          "Key": "Wiku_SongName1",
+          "SourceString": "Everlasting Dazing Summer（Short Ver.)",
+          "LocalizedString": "Everlasting Dazing Summer（Short Ver.)"
+        },
         "MusicCover": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_-Summer（Short-Ver__.YU_UI_img_music_-Summer（Short-Ver__",
           "SubPathString": ""
-},
+        },
         "MusicEvent": {
           "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_RhythmGame/Play_Music_Etude_Difficulty_0_150BPM_44.Play_Music_Etude_Difficulty_0_150BPM_44",
           "SubPathString": ""
-},
+        },
         "MusicDescription": {
           "CultureInvariantString": null
-},
+        },
         "MedalIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "LevelFactor": "01",
         "bUnlockHidden": false,
         "Requires": [],
@@ -273,11 +281,11 @@
           "LowerBound": {
             "Type": "ERangeBoundTypes::Inclusive",
             "Value": 0.0
-},
+          },
           "UpperBound": {
             "Type": "ERangeBoundTypes::Exclusive",
             "Value": 0.0
-}
+          }
         },
         "ScoreTimes": 0.0,
         "LevelInfos": [
@@ -286,119 +294,123 @@
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "容易"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hardest",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 200,
             "NoteNum": 150
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Normal",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "正常"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Normal",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 3000,
             "NoteNum": 200
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Hard",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "困难"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hard",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 45000,
             "NoteNum": 400
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Hardest",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "最难"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hardest",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 9999999,
             "NoteNum": 500
-}
+          }
         ],
         "SongType": "EDrumSongActionType::EDSAT_Story",
         "NPCDataLayer": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "SongTypeIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "SongTypeText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "DT_DrumSongDataTable_Story"
-},
+          "Key": "DT_DrumSongDataTable_Story",
+          "SourceString": "<Pink>[剧情]</>",
+          "LocalizedString": "<Pink>[剧情]</>"
+        },
         "SequenceDatas": [],
         "QuestId": "L110212",
         "UnLockFunctionDes": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Drum_des_01"
-},
+          "Key": "Drum_des_01",
+          "SourceString": "在「某传奇乐队（吗？）的第一页」剧情中解锁",
+          "LocalizedString": "在「某传奇乐队（吗？）的第一页」剧情中解锁"
+        },
         "NPCActions": [
           {
             "TargetType": {
               "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_014/BP_NPC_014_g_L110201.BP_NPC_014_g_L110201_C",
               "SubPathString": ""
-},
+            },
             "TargetTag": "BP_NPC_014_g_L110201",
             "ObjDatas": [
               {
@@ -406,31 +418,31 @@
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.01
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.05
-}
+                  }
                 },
                 "RateRange": {
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 0.0
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 1.0
-}
+                  }
                 },
                 "EventName": "HNY"
-}
+              }
             ]
           }
         ],
         "GradeStaminaBaseMap": []
       },
       "StorySong3": {
-        "SongID": "StorySong3",
+        "SongId": "StorySong3",
         "BPM": 190,
         "OffsetOneOfSixteenBeat": 0,
         "EndTime": 93.0,
@@ -439,26 +451,28 @@
         "ThumbnailIcon": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_Summer.YU_UI_img_music_Summer",
           "SubPathString": ""
-},
+        },
         "MusicTitle": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Wiku_SongName3"
-},
+          "Key": "Wiku_SongName3",
+          "SourceString": "Everlasting Dazing Summer",
+          "LocalizedString": "Everlasting Dazing Summer"
+        },
         "MusicCover": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_Summer.YU_UI_img_music_Summer",
           "SubPathString": ""
-},
+        },
         "MusicEvent": {
           "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_RhythmGame/Play_Music_Etude_Difficulty_2_190BPM_44.Play_Music_Etude_Difficulty_2_190BPM_44",
           "SubPathString": ""
-},
+        },
         "MusicDescription": {
           "CultureInvariantString": null
-},
+        },
         "MedalIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "LevelFactor": "03",
         "bUnlockHidden": false,
         "Requires": [],
@@ -466,11 +480,11 @@
           "LowerBound": {
             "Type": "ERangeBoundTypes::Open",
             "Value": 0.0
-},
+          },
           "UpperBound": {
             "Type": "ERangeBoundTypes::Open",
             "Value": 0.0
-}
+          }
         },
         "ScoreTimes": 0.0,
         "LevelInfos": [
@@ -479,119 +493,123 @@
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "容易"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hardest",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 200,
             "NoteNum": 150
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Normal",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "正常"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Normal",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 3000,
             "NoteNum": 200
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Hard",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "困难"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hard",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 45000,
             "NoteNum": 400
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Hardest",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "最难"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hardest",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 9999999,
             "NoteNum": 500
-}
+          }
         ],
         "SongType": "EDrumSongActionType::EDSAT_Story",
         "NPCDataLayer": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "SongTypeIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "SongTypeText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "DT_DrumSongDataTable_Story"
-},
+          "Key": "DT_DrumSongDataTable_Story",
+          "SourceString": "<Pink>[剧情]</>",
+          "LocalizedString": "<Pink>[剧情]</>"
+        },
         "SequenceDatas": [],
         "QuestId": "L110220",
         "UnLockFunctionDes": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Drum_des_01"
-},
+          "Key": "Drum_des_01",
+          "SourceString": "在「某传奇乐队（吗？）的第一页」剧情中解锁",
+          "LocalizedString": "在「某传奇乐队（吗？）的第一页」剧情中解锁"
+        },
         "NPCActions": [
           {
             "TargetType": {
               "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_011/BP_NPC_011_b_L110201.BP_NPC_011_b_L110201_C",
               "SubPathString": ""
-},
+            },
             "TargetTag": "BP_NPC_011_b_L110201",
             "ObjDatas": [
               {
@@ -599,31 +617,31 @@
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.0
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.05
-}
+                  }
                 },
                 "RateRange": {
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 0.0
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 0.0
-}
+                  }
                 },
                 "EventName": "NNL"
-}
+              }
             ]
           },
           {
             "TargetType": {
               "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_014/BP_NPC_014_g_L110201.BP_NPC_014_g_L110201_C",
               "SubPathString": ""
-},
+            },
             "TargetTag": "BP_NPC_014_g_L110201",
             "ObjDatas": [
               {
@@ -631,24 +649,24 @@
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.01
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.05
-}
+                  }
                 },
                 "RateRange": {
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 0.0
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 1.0
-}
+                  }
                 },
                 "EventName": "HNY"
-}
+              }
             ]
           }
         ],
@@ -656,23 +674,23 @@
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_S",
             "Value": 8
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_A",
             "Value": 6
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_B",
             "Value": 4
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_C",
             "Value": 3
-}
+          }
         ]
       },
       "StorySong4": {
-        "SongID": "StorySong4",
+        "SongId": "StorySong4",
         "BPM": 170,
         "OffsetOneOfSixteenBeat": 0,
         "EndTime": 83.0,
@@ -681,26 +699,28 @@
         "ThumbnailIcon": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_Destiny.YU_UI_img_music_Destiny",
           "SubPathString": ""
-},
+        },
         "MusicTitle": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Wiku_SongName4"
-},
+          "Key": "Wiku_SongName4",
+          "SourceString": "Destiny",
+          "LocalizedString": "Destiny"
+        },
         "MusicCover": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_Destiny.YU_UI_img_music_Destiny",
           "SubPathString": ""
-},
+        },
         "MusicEvent": {
           "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_RhythmGame/Play_Music_Etude_Difficulty_3_170BPM_44.Play_Music_Etude_Difficulty_3_170BPM_44",
           "SubPathString": ""
-},
+        },
         "MusicDescription": {
           "CultureInvariantString": null
-},
+        },
         "MedalIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "LevelFactor": "04",
         "bUnlockHidden": false,
         "Requires": [],
@@ -708,11 +728,11 @@
           "LowerBound": {
             "Type": "ERangeBoundTypes::Inclusive",
             "Value": 0.0
-},
+          },
           "UpperBound": {
             "Type": "ERangeBoundTypes::Exclusive",
             "Value": 0.0
-}
+          }
         },
         "ScoreTimes": 0.0,
         "LevelInfos": [
@@ -721,119 +741,123 @@
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "容易"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hardest",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 200,
             "NoteNum": 150
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Normal",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "正常"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Normal",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 3000,
             "NoteNum": 200
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Hard",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "困难"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hard",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 45000,
             "NoteNum": 400
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Hardest",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "最难"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hardest",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 9999999,
             "NoteNum": 500
-}
+          }
         ],
         "SongType": "EDrumSongActionType::EDSAT_Story",
         "NPCDataLayer": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "SongTypeIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "SongTypeText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "DT_DrumSongDataTable_Story"
-},
+          "Key": "DT_DrumSongDataTable_Story",
+          "SourceString": "<Pink>[剧情]</>",
+          "LocalizedString": "<Pink>[剧情]</>"
+        },
         "SequenceDatas": [],
         "QuestId": "L110232",
         "UnLockFunctionDes": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Drum_des_01"
-},
+          "Key": "Drum_des_01",
+          "SourceString": "在「某传奇乐队（吗？）的第一页」剧情中解锁",
+          "LocalizedString": "在「某传奇乐队（吗？）的第一页」剧情中解锁"
+        },
         "NPCActions": [
           {
             "TargetType": {
               "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_011/BP_NPC_011_b_L110201.BP_NPC_011_b_L110201_C",
               "SubPathString": ""
-},
+            },
             "TargetTag": "BP_NPC_011_b_L110201",
             "ObjDatas": [
               {
@@ -841,31 +865,31 @@
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.0
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.05
-}
+                  }
                 },
                 "RateRange": {
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 0.0
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 0.0
-}
+                  }
                 },
                 "EventName": "NNL"
-}
+              }
             ]
           },
           {
             "TargetType": {
               "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_014/BP_NPC_014_g_L110201.BP_NPC_014_g_L110201_C",
               "SubPathString": ""
-},
+            },
             "TargetTag": "BP_NPC_014_g_L110201",
             "ObjDatas": [
               {
@@ -873,24 +897,24 @@
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.01
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
                     "Value": 0.05
-}
+                  }
                 },
                 "RateRange": {
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 0.0
-},
+                  },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Open",
                     "Value": 1.0
-}
+                  }
                 },
                 "EventName": "HNY"
-}
+              }
             ]
           }
         ],
@@ -898,23 +922,23 @@
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_S",
             "Value": 8
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_A",
             "Value": 6
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_B",
             "Value": 4
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_C",
             "Value": 3
-}
+          }
         ]
       },
       "FreeSong1": {
-        "SongID": "FreeSong1",
+        "SongId": "FreeSong1",
         "BPM": 190,
         "OffsetOneOfSixteenBeat": 0,
         "EndTime": 138.0,
@@ -923,26 +947,28 @@
         "ThumbnailIcon": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_moondog.YU_UI_img_music_moondog",
           "SubPathString": ""
-},
+        },
         "MusicTitle": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Wiku_SongName5"
-},
+          "Key": "Wiku_SongName5",
+          "SourceString": "迷星叫",
+          "LocalizedString": "迷星叫"
+        },
         "MusicCover": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_moondog.YU_UI_img_music_moondog",
           "SubPathString": ""
-},
+        },
         "MusicEvent": {
           "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_RhythmGame/Play_Music_RhythmGame_MXJ_190BPM_44.Play_Music_RhythmGame_MXJ_190BPM_44",
           "SubPathString": ""
-},
+        },
         "MusicDescription": {
           "CultureInvariantString": null
-},
+        },
         "MedalIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "LevelFactor": "04",
         "bUnlockHidden": true,
         "Requires": [
@@ -950,17 +976,17 @@
             "ActiveType": "EDrumSongActiveType::EDSAT_SpecifiedQuest",
             "MaxValue": 1,
             "ID": "L110265"
-}
+          }
         ],
         "SpecialTimespan": {
           "LowerBound": {
             "Type": "ERangeBoundTypes::Inclusive",
             "Value": 0.0
-},
+          },
           "UpperBound": {
             "Type": "ERangeBoundTypes::Exclusive",
             "Value": 0.0
-}
+          }
         },
         "ScoreTimes": 0.0,
         "LevelInfos": [
@@ -969,130 +995,132 @@
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "容易"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hardest",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 200,
             "NoteNum": 150
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Normal",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "正常"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Normal",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 3000,
             "NoteNum": 200
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Hard",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "困难"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hard",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 45000,
             "NoteNum": 400
-},
+          },
           {
             "LevelType": "EDrumSongLevelType::EDSLT_Hardest",
             "PassRate": 0.8,
             "LevelName": {
               "CultureInvariantString": "最难"
-},
+            },
             "Description": {
               "CultureInvariantString": null
-},
+            },
             "UnlockLevel": "EDrumSongLevelType::EDSLT_Hardest",
             "ChannelDisappearTime": {
               "LowerBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-},
+              },
               "UpperBound": {
                 "Type": "ERangeBoundTypes::Open",
                 "Value": 0.0
-}
+              }
             },
             "MinScore": 9999999,
             "NoteNum": 500
-}
+          }
         ],
         "SongType": "EDrumSongActionType::EDSAT_Daliy",
         "NPCDataLayer": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "SongTypeIcon": {
           "AssetPathName": "",
           "SubPathString": ""
-},
+        },
         "SongTypeText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "DT_DrumSongDataTable_Daily"
-},
+          "Key": "DT_DrumSongDataTable_Daily",
+          "SourceString": "<Purple2>[日常]</>",
+          "LocalizedString": "<Purple2>[日常]</>"
+        },
         "SequenceDatas": [],
-        "QuestId": "None",
+        "QuestId": "L110402_1",
         "UnLockFunctionDes": {
           "CultureInvariantString": "完成L110266后解锁"
-},
+        },
         "NPCActions": [],
         "GradeStaminaBaseMap": [
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_S",
             "Value": 10
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_A",
             "Value": 8
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_B",
             "Value": 6
-},
+          },
           {
             "Key": "EDrumScoreGradeType::ScoreGrade_C",
             "Value": 4
-}
+          }
         ]
       }
     }

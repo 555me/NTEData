@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DefendAthenaScoreEntry",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DefendAthena/DT_DefendAthenaScoreEntry",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DefendAthenaScoreEntryData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "KillMonsters": {
+        "Title": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DefendNS_JBGW",
+          "SourceString": "击败怪物得分",
+          "LocalizedString": "击败怪物得分"
+        },
+        "EntryInstance": {
+          "Rate": 5.0
+        }
+      },
+      "DefendWaves": {
+        "Title": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DefendNS_CGFYBC",
+          "SourceString": "成功抵御波次得分",
+          "LocalizedString": "成功抵御波次得分"
+        },
+        "EntryInstance": {
+          "WaveScores": [
+            100,
+            140,
+            160,
+            180,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            240,
+            240,
+            240,
+            240,
+            240,
+            300,
+            300,
+            300,
+            300,
+            300,
+            365,
+            365,
+            365,
+            365,
+            365,
+            500,
+            500,
+            500,
+            500,
+            500,
+            600,
+            600,
+            600,
+            600,
+            600,
+            750,
+            800,
+            900,
+            1000,
+            1200
+          ],
+          "Rate": 100.0
+        }
+      },
+      "TowerRemainHP": {
+        "Title": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "defendNS_TTSYXL",
+          "SourceString": "炭团剩余生命值得分",
+          "LocalizedString": "炭团剩余生命值得分"
+        },
+        "EntryInstance": {
+          "Rate": 0.4
+        }
+      },
+      "KillBosses": {
+        "Title": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DefendNS_jibaiboss",
+          "SourceString": "击败Boss得分",
+          "LocalizedString": "击败Boss得分"
+        },
+        "EntryInstance": {
+          "Rate": 100.0
+        }
+      },
+      "GameTime": {
+        "Title": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DefendNS_Time",
+          "SourceString": "游戏时长得分",
+          "LocalizedString": "游戏时长得分"
+        },
+        "EntryInstance": {
+          "TotalTimeSeconds": 3000.0,
+          "Rate": 5.0
+        }
+      }
+    }
+  }
+]

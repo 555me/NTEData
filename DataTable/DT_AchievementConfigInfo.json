@@ -1203,8 +1203,8 @@
         "Type": "EAchievementTask::DivinationHouseLevel",
         "ConditionData": [
           {
-            "Value": 3,
-            "Compare": "EHTAchievementCompareType::Equal",
+            "Value": 2,
+            "Compare": "EHTAchievementCompareType::MORE",
             "Type": "EHTAchievement::VALUE"
           }
         ],
@@ -1261,8 +1261,8 @@
         "Type": "EAchievementTask::DivinationHouseLevel",
         "ConditionData": [
           {
-            "Value": 5,
-            "Compare": "EHTAchievementCompareType::Equal",
+            "Value": 4,
+            "Compare": "EHTAchievementCompareType::MORE",
             "Type": "EHTAchievement::VALUE"
           }
         ],
@@ -1319,8 +1319,8 @@
         "Type": "EAchievementTask::DivinationHouseLevel",
         "ConditionData": [
           {
-            "Value": 10,
-            "Compare": "EHTAchievementCompareType::Equal",
+            "Value": 9,
+            "Compare": "EHTAchievementCompareType::MORE",
             "Type": "EHTAchievement::VALUE"
           }
         ],
@@ -1355,6 +1355,79 @@
           "Key": "explore_24_Content",
           "SourceString": "「占卜等级」达到10级。",
           "LocalizedString": "「占卜等级」达到10级。"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/6_3.6_3",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::EXECELLENT",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "explore_65": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeExplore",
+        "Type": "EAchievementTask::DivinationHouseLevel",
+        "ConditionData": [
+          {
+            "Value": 14,
+            "Compare": "EHTAchievementCompareType::MORE",
+            "Type": "EHTAchievement::VALUE"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::HIGH",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 20,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          },
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Pendant_7",
+            "Amount": 1,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "explore_65_Title",
+          "SourceString": "命运的第三条岸",
+          "LocalizedString": "命运的第三条岸"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "explore_65_Content",
+          "SourceString": "「占卜等级」达到15级。",
+          "LocalizedString": "「占卜等级」达到15级。"
         },
         "icon": {
           "AssetPathName": "/Game/UI/UI/Achievement/6_3.6_3",
@@ -11719,8 +11792,8 @@
         "Type": "EAchievementTask::DivinationHouseLevel",
         "ConditionData": [
           {
-            "Value": 10,
-            "Compare": "EHTAchievementCompareType::Equal",
+            "Value": 9,
+            "Compare": "EHTAchievementCompareType::MORE",
             "Type": "EHTAchievement::VALUE"
           }
         ],
@@ -25487,6 +25560,462 @@
         },
         "icon": {
           "AssetPathName": "/Game/UI/UI/Achievement/5_2.5_2",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::High",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "interest_43": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeInterest",
+        "Type": "EAchievementTask::SubmitQuest",
+        "ConditionData": [
+          {
+            "Tag": "W108102",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "interest_43_Title",
+          "SourceString": "故事之书",
+          "LocalizedString": "故事之书"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "interest_43_Content",
+          "SourceString": "完成「爱讲故事的老爷爷」彩蛋任务。",
+          "LocalizedString": "完成「爱讲故事的老爷爷」彩蛋任务。"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/7_2.7_2",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::High",
+        "bIsHideNotAchieve": true,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "interest_44": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeInterest",
+        "Type": "EAchievementTask::SubmitQuest",
+        "ConditionData": [
+          {
+            "Tag": "W108302",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 5,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "interest_44_Title",
+          "SourceString": "追捕小逃兵",
+          "LocalizedString": "追捕小逃兵"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "interest_44_Content",
+          "SourceString": "帮助幼儿园老师寻回偷偷抛开的小朋友们。",
+          "LocalizedString": "帮助幼儿园老师寻回偷偷抛开的小朋友们。"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/7.7",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::Normal",
+        "bIsHideNotAchieve": true,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "explore_61": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeExplore",
+        "Type": "EAchievementTask::VisionComplete",
+        "ConditionData": [
+          {
+            "Tag": "Vision_BusStop",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "explore_61_Title",
+          "SourceString": "公交车奇妙夜",
+          "LocalizedString": "公交车奇妙夜"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "explore_61_Content",
+          "SourceString": "完成异象委托「末班公交之夜」。",
+          "LocalizedString": "完成异象委托「末班公交之夜」。"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/6_2.6_2",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::High",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "explore_62": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeExplore",
+        "Type": "EAchievementTask::VisionComplete",
+        "ConditionData": [
+          {
+            "Tag": "Vision_Scaled",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "explore_62_Title",
+          "SourceString": "犹在镜中",
+          "LocalizedString": "犹在镜中"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "explore_62_Content",
+          "SourceString": "完成异象委托「镜中世界的小人国」。",
+          "LocalizedString": "完成异象委托「镜中世界的小人国」。"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/6_2.6_2",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::High",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "explore_63": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeExplore",
+        "Type": "EAchievementTask::VisionComplete",
+        "ConditionData": [
+          {
+            "Tag": "Vision_PillowDreams",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "explore_63_Title",
+          "SourceString": "高枕无忧",
+          "LocalizedString": "高枕无忧"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "explore_63_Content",
+          "SourceString": "完成异象委托「平凡的美梦」。",
+          "LocalizedString": "完成异象委托「平凡的美梦」。"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/6_2.6_2",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::High",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "explore_64": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeExplore",
+        "Type": "EAchievementTask::VisionComplete",
+        "ConditionData": [
+          {
+            "Tag": "Vision_SpookyHouse",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "explore_64_Title",
+          "SourceString": "诡趣横生",
+          "LocalizedString": "诡趣横生"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "explore_64_Content",
+          "SourceString": "完成异象委托「诡乐屋不打烊」。",
+          "LocalizedString": "完成异象委托「诡乐屋不打烊」。"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/6_2.6_2",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::High",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "quest_44": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeQuest",
+        "Type": "EAchievementTask::SubmitQuest",
+        "ConditionData": [
+          {
+            "Tag": "q110978",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 20,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "quest_44_Title",
+          "SourceString": "当鸟儿带来黎明",
+          "LocalizedString": "当鸟儿带来黎明"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "quest_44_Content",
+          "SourceString": "完成「魔女」系列任务",
+          "LocalizedString": "完成「魔女」系列任务"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/4_3.4_3",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::EXECELLENT",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "quest_45": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeQuest",
+        "Type": "EAchievementTask::SubmitQuest",
+        "ConditionData": [
+          {
+            "Tag": "s111824",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "quest_45_Title",
+          "SourceString": "奇迹制造中",
+          "LocalizedString": "奇迹制造中"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "quest_45_Content",
+          "SourceString": "完成「奇迹开始的时刻」系列任务。",
+          "LocalizedString": "完成「奇迹开始的时刻」系列任务。"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/4_2.4_2",
           "SubPathString": ""
         },
         "Quality": "EHTAchievementQuality::High",

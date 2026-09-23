@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "DT_FloorPassScoreCurveTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/EndlessTrial/DT_FloorPassScoreCurveTable",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "EndlessTrial_ScoreModel_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5000.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 5000.0
+          },
+          {
+            "Time": 120.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "EndlessTrial_ScoreModel_2": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 12000.0
+          },
+          {
+            "Time": 120.0,
+            "Value": 12000.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

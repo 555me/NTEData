@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "DT_EndlessTrialScoreGradeCurve",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/EndlessTrial/DT_EndlessTrialScoreGradeCurve",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "EndlessTrial_GradeModel_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 2000.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 3000.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 5000.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "EndlessTrial_GradeModel_2": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 5000.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 15000.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

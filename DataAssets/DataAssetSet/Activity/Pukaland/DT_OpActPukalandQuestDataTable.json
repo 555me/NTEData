@@ -1,0 +1,1770 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OpActPukalandQuestDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataAssets/DataAssetSet/Activity/Pukaland/DT_OpActPukalandQuestDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SimpleQuestStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "PukaQuest001": {
+        "QuestId": "PukaQuest001",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_1",
+          "SourceString": "在「甜蜜大摆圈」冒险评级达到B",
+          "LocalizedString": "在「甜蜜大摆圈」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "GiantPendulum_ClearGradeS",
+            "GiantPendulum_ClearGradeA",
+            "GiantPendulum_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_GiantPendulum_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest002": {
+        "QuestId": "PukaQuest002",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_2",
+          "SourceString": "在「糖仙子圆舞会」冒险评级达到B",
+          "LocalizedString": "在「糖仙子圆舞会」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "SkyDance_ClearGradeS",
+            "SkyDance_ClearGradeA",
+            "SkyDance_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_DropTower_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest003": {
+        "QuestId": "PukaQuest003",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_3",
+          "SourceString": "在「八爪转转杯」冒险评级达到B",
+          "LocalizedString": "在「八爪转转杯」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "OctopusSpinCup_ClearGradeS",
+            "OctopusSpinCup_ClearGradeA",
+            "OctopusSpinCup_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_OctopusSpinCup_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest004": {
+        "QuestId": "PukaQuest004",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_4",
+          "SourceString": "在「熔岩镇淘金热」冒险评级达到B",
+          "LocalizedString": "在「熔岩镇淘金热」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "MineCart_ClearGradeA",
+            "MineCart_ClearGradeS",
+            "MineCart_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_MineRollerCoaster_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest005": {
+        "QuestId": "PukaQuest005",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_5",
+          "SourceString": "在「花篱秘密园」冒险评级达到B",
+          "LocalizedString": "在「花篱秘密园」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "Maze_ClearGradeA",
+            "Maze_ClearGradeS",
+            "Maze_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Maze_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest006": {
+        "QuestId": "PukaQuest006",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_6",
+          "SourceString": "在「玩偶大作战」冒险评级达到B",
+          "LocalizedString": "在「玩偶大作战」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "AirGun_ClearGradeA",
+            "AirGun_ClearGradeS",
+            "AirGun_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_AirGun_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest007": {
+        "QuestId": "PukaQuest007",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_7",
+          "SourceString": "在「命中幸运星」冒险评级达到B",
+          "LocalizedString": "在「命中幸运星」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "DartToss_ClearGradeS",
+            "DartToss_ClearGradeA",
+            "DartToss_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_DartToss_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest008": {
+        "QuestId": "PukaQuest008",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_8",
+          "SourceString": "在「糖果转台」冒险评级达到B",
+          "LocalizedString": "在「糖果转台」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "BananaToss_ClearGradeS",
+            "BananaToss_ClearGradeA",
+            "BananaToss_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_BananaToss_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest009": {
+        "QuestId": "PukaQuest009",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_9",
+          "SourceString": "在「捣蛋鬼集合」冒险评级达到B",
+          "LocalizedString": "在「捣蛋鬼集合」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "Mole_ClearGradeA",
+            "Mole_ClearGradeS",
+            "Mole_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Mole_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest010": {
+        "QuestId": "PukaQuest010",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_10",
+          "SourceString": "在「噗仔叠叠乐」冒险评级达到B",
+          "LocalizedString": "在「噗仔叠叠乐」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "GingerbreadPunch_ClearGradeA",
+            "GingerbreadPunch_ClearGradeS",
+            "GingerbreadPunch_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_GingerbreadStack_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest011": {
+        "QuestId": "PukaQuest011",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_11",
+          "SourceString": "在「秘密对对碰」冒险评级达到B",
+          "LocalizedString": "在「秘密对对碰」冒险评级达到B"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "PunchId": "None",
+          "PunchIdArray": [
+            "MatchingGame_ClearGradeS",
+            "MatchingGame_ClearGradeA",
+            "MatchingGame_ClearGradeB"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::PukalandSmallGame",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_01",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_MatchingGame_01",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest012": {
+        "QuestId": "PukaQuest012",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_12",
+          "SourceString": "累计在噗卡乐园游玩2种项目",
+          "LocalizedString": "累计在噗卡乐园游玩2种项目"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::PukalandMiniGameFirstClear",
+          "Amount": 2
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_02",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest013": {
+        "QuestId": "PukaQuest013",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_13",
+          "SourceString": "累计在噗卡乐园游玩4种项目",
+          "LocalizedString": "累计在噗卡乐园游玩4种项目"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::PukalandMiniGameFirstClear",
+          "Amount": 4
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_02",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest014": {
+        "QuestId": "PukaQuest014",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_14",
+          "SourceString": "累计在噗卡乐园游玩6种项目",
+          "LocalizedString": "累计在噗卡乐园游玩6种项目"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::PukalandMiniGameFirstClear",
+          "Amount": 6
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_02",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest015": {
+        "QuestId": "PukaQuest015",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_15",
+          "SourceString": "累计在噗卡乐园游玩8种项目",
+          "LocalizedString": "累计在噗卡乐园游玩8种项目"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::PukalandMiniGameFirstClear",
+          "Amount": 8
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_02",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest016": {
+        "QuestId": "PukaQuest016",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_16",
+          "SourceString": "累计在噗卡乐园游玩10种项目",
+          "LocalizedString": "累计在噗卡乐园游玩10种项目"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::PukalandMiniGameFirstClear",
+          "Amount": 10
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_02",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest017": {
+        "QuestId": "PukaQuest017",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_17",
+          "SourceString": "累计在噗卡乐园游玩11种项目",
+          "LocalizedString": "累计在噗卡乐园游玩11种项目"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::PukalandMiniGameFirstClear",
+          "Amount": 11
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_03",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest018": {
+        "QuestId": "PukaQuest018",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_18",
+          "SourceString": "累计获得1000张噗卡星票",
+          "LocalizedString": "累计获得1000张噗卡星票"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "PukalandTicket"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 1000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_04",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest019": {
+        "QuestId": "PukaQuest019",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_19",
+          "SourceString": "累计获得5000张噗卡星票",
+          "LocalizedString": "累计获得5000张噗卡星票"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "PukalandTicket"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 5000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_05",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest020": {
+        "QuestId": "PukaQuest020",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_20",
+          "SourceString": "累计获得10000张噗卡星票",
+          "LocalizedString": "累计获得10000张噗卡星票"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "PukalandTicket"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 10000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_04",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest021": {
+        "QuestId": "PukaQuest021",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_21",
+          "SourceString": "累计获得20000张噗卡星票",
+          "LocalizedString": "累计获得20000张噗卡星票"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "PukalandTicket"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 20000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_05",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest022": {
+        "QuestId": "PukaQuest022",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_22",
+          "SourceString": "累计获得30000张噗卡星票",
+          "LocalizedString": "累计获得30000张噗卡星票"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "PukalandTicket"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 30000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_04",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "PukaQuest023": {
+        "QuestId": "PukaQuest023",
+        "QuestName": {
+          "TableId": "/Game/Blueprints/GameFeatures/Pukaland/ST_Pukaland.ST_Pukaland",
+          "Key": "PukalandQuest_23",
+          "SourceString": "累计获得40000张噗卡星票",
+          "LocalizedString": "累计获得40000张噗卡星票"
+        },
+        "SimpleQuestType": "ESimpleQuestType::OpActivity_PukalandLimitedReward",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "PukalandTicket"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 40000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Pukaland14_reward_06",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "Pukaland_Point",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      }
+    }
+  }
+]

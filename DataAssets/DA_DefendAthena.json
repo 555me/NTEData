@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "DefendAthenaDataAsset",
+    "Name": "DA_DefendAthena",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DefendAthenaDataAsset'",
+    "Package": "/Game/DataAssets/DA_DefendAthena",
+    "Properties": {
+      "DefendAthenaMonsterDataTable": {
+        "ObjectName": "DataTable'DT_DefendAthenaMonster'",
+        "ObjectPath": "/Game/DataTable/DefendAthena/DT_DefendAthenaMonster.0"
+      },
+      "DefendAthenaLevelSpawnDataTable": {
+        "ObjectName": "DataTable'DT_DefendAthenaLevelSpawnData'",
+        "ObjectPath": "/Game/DataTable/DefendAthena/DT_DefendAthenaLevelSpawnData.0"
+      },
+      "DefendAthenaBuffDataTable": {
+        "ObjectName": "DataTable'DT_DefendAthenaBuff'",
+        "ObjectPath": "/Game/DataTable/DefendAthena/DT_DefendAthenaBuff.0"
+      },
+      "DefendAthenaScoreEntryDataTable": {
+        "ObjectName": "DataTable'DT_DefendAthenaScoreEntry'",
+        "ObjectPath": "/Game/DataTable/DefendAthena/DT_DefendAthenaScoreEntry.0"
+      },
+      "DefendAthenaMonsterMechanismDataTable": {
+        "ObjectName": "DataTable'DT_DefendAthenaMonsterMechanism'",
+        "ObjectPath": "/Game/DataTable/DefendAthena/DT_DefendAthenaMonsterMechanism.0"
+      },
+      "TowerGuid": "01B417E9-4FF2DCD7-3AD98194-2370C2A4",
+      "GE_EntryBuffs": [
+        {
+          "AssetPathName": "/Game/Blueprints/Abilities/Buff/Level/XZC/DefendAthena/Energy/Buff_DefendAthena_XZC_Energy.Buff_DefendAthena_XZC_Energy_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Blueprints/Abilities/Buff/Level/XZC/DefendAthena/Buff_DefendAthena_AddHate.Buff_DefendAthena_AddHate_C",
+          "SubPathString": ""
+        }
+      ],
+      "AutoChooseBuffTime": 60.0,
+      "NextStageTimeInterval": 10.0,
+      "bLimitMonsterMaxSignificanceLevel": false,
+      "NormalMonsterEnergy": 3,
+      "EliteMonsterEnergy": 15,
+      "ResultAwardRate": [
+        {
+          "Key": "DefendTowerCoin",
+          "Value": 0.1
+        }
+      ],
+      "DropRadius": 1000.0,
+      "DropLifeSpan": 600.0,
+      "ResultAutoExitTime": 60.0,
+      "DefendAthenaVendingMachineItemData": {
+        "ObjectName": "DataTable'DT_DefendAthenaVendingMachine'",
+        "ObjectPath": "/Game/DataTable/DefendAthena/DT_DefendAthenaVendingMachine.0"
+      },
+      "GotItemPrice": 100,
+      "TotalScoreTitleMap": [
+        {
+          "Key": "2500",
+          "Value": {
+            "ItemID": "Title_DefendAthena_01",
+            "TitleId": "Title_DefendAthena_01"
+          }
+        },
+        {
+          "Key": "7200",
+          "Value": {
+            "ItemID": "Title_DefendAthena_02",
+            "TitleId": "Title_DefendAthena_02"
+          }
+        }
+      ],
+      "DefendAthenaDropID": "drop_DefendTowerDisplayReward"
+    }
+  }
+]

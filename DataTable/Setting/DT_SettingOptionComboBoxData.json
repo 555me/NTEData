@@ -2565,6 +2565,33 @@
         ],
         "DefaultOptionIndex": 0
       },
+      "AutoSwitchToRearViewWhenReversing": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_open",
+              "SourceString": "开",
+              "LocalizedString": "开"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_close",
+              "SourceString": "关",
+              "LocalizedString": "关"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
       "FirstPersonView": {
         "ComboBoxOptions": [
           {
@@ -2738,18 +2765,35 @@
             },
             "OptionData": "0",
             "LimitOptionData": [],
-            "OptionInstancedData": null
+            "OptionInstancedData": {
+              "HmsXegUpscaleMethod": "EHmsXegUpscaleType::None"
+            }
           },
           {
             "OptionShowName": {
               "TableId": "/Game/Text/ST_Ui.ST_Ui",
-              "Key": "setting_open",
-              "SourceString": "开",
-              "LocalizedString": "开"
+              "Key": "OpenHarmonyHmsXegPerformance",
+              "SourceString": "性能",
+              "LocalizedString": "性能"
             },
-            "OptionData": "1",
+            "OptionData": "",
             "LimitOptionData": [],
-            "OptionInstancedData": null
+            "OptionInstancedData": {
+              "HmsXegUpscaleMethod": "EHmsXegUpscaleType::SpatialUpscale"
+            }
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "OpenHarmonyHmsXegQuality",
+              "SourceString": "画质",
+              "LocalizedString": "画质"
+            },
+            "OptionData": "",
+            "LimitOptionData": [],
+            "OptionInstancedData": {
+              "HmsXegUpscaleMethod": "EHmsXegUpscaleType::NeuralUpscale"
+            }
           }
         ],
         "DefaultOptionIndex": 0
@@ -2964,6 +3008,60 @@
           }
         ],
         "DefaultOptionIndex": 1
+      },
+      "Setting_OpenInfoSequence": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockSensibility_2",
+              "SourceString": "禁用",
+              "LocalizedString": "禁用"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockSensibility_1",
+              "SourceString": "启用",
+              "LocalizedString": "启用"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 1
+      },
+      "PageturnLock": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Phone_ConfigNew",
+              "SourceString": "翻页后锁定每页首个",
+              "LocalizedString": "翻页后锁定每页首个"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Common.ST_Common",
+              "Key": "Phone_ConfigOld",
+              "SourceString": "翻页后记忆前页位置",
+              "LocalizedString": "翻页后记忆前页位置"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
       }
     }
   }

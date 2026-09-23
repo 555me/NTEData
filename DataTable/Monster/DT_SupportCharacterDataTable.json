@@ -2215,7 +2215,7 @@
         "HideUITime": 1.5
       },
       "1075": {
-        "Desc": "1.2 伊洛伊-未完成配置",
+        "Desc": "1.2 伊洛伊",
         "Conditions": [
           {
             "CharacterID": "1075"
@@ -2349,12 +2349,19 @@
         "ShowSupportDelayTime": 1.0,
         "HideUITime": 1.5
       },
-      "Empty_01": {
+      "1091": {
         "Desc": "1.3 灵可-未完成配置-译文key调整中",
-        "Conditions": [],
+        "Conditions": [
+          {
+            "CharacterID": "1091"
+          },
+          {
+            "QuestId": "q110784"
+          }
+        ],
         "ConditionType": "ESupportConditionType::Or",
         "CharacterClass": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Blueprints/Character/Player/Player_091_radio.Player_091_radio_C",
           "SubPathString": ""
         },
         "SpawnOffLocation": {
@@ -2366,9 +2373,89 @@
           {
             "AssetPathName": "/Game/Blueprints/Abilities/Support/Common/Heal/Buff_GA_Support_Common_Heal.Buff_GA_Support_Common_Heal_C",
             "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Blueprints/Abilities/Support/Support_Player_072_radio/Buff_Support_Player_072_radio.Buff_Support_Player_072_radio_C",
+            "SubPathString": ""
           }
         ],
-        "Tips": [],
+        "Tips": [
+          {
+            "Key": "ESupportCharacterTips::Entry",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC027_Admission_001_001",
+                  "SourceString": "找到了！鉴定师——这个电波，果然是你没错！",
+                  "LocalizedString": "找到了！鉴定师——这个电波，果然是你没错！"
+                },
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC_080_A_Admission_002_001",
+                  "SourceString": "看得本恶灵手痒了——小鬼！我们上！",
+                  "LocalizedString": "看得本恶灵手痒了——小鬼！我们上！"
+                },
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC027_Admission_003_001",
+                  "SourceString": "求助信号已接收，E.T.D六队灵可、开始支援！",
+                  "LocalizedString": "求助信号已接收，E.T.D六队灵可、开始支援！"
+                }
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::AddHP",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC027_UseProp_001_001",
+                  "SourceString": "鉴定师鉴定师，这个给你。",
+                  "LocalizedString": "鉴定师鉴定师，这个给你。"
+                },
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC_080_A_UseProp_002_001",
+                  "SourceString": "喂！挂彩了可别硬扛啊~",
+                  "LocalizedString": "喂！挂彩了可别硬扛啊~"
+                },
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC027_UseProp_003_001",
+                  "SourceString": "胜利的电波在召唤我们！",
+                  "LocalizedString": "胜利的电波在召唤我们！"
+                }
+              ]
+            }
+          },
+          {
+            "Key": "ESupportCharacterTips::Leave",
+            "Value": {
+              "TipTexts": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC027_Leave_001_001",
+                  "SourceString": "鉴定师鉴定师，没有受伤吧？唔……没有就好！",
+                  "LocalizedString": "鉴定师鉴定师，没有受伤吧？唔……没有就好！"
+                },
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC027_Leave_002_001",
+                  "SourceString": "呼~刚才配合得真好，果然我和鉴定师的电波是同频的！",
+                  "LocalizedString": "呼~刚才配合得真好，果然我和鉴定师的电波是同频的！"
+                },
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+                  "Key": "SSD_NPC027_Leave_003_001",
+                  "SourceString": "就算是战斗的时候，鉴定师的电波也一点都不刺耳呢……希望下次也能联机作战！",
+                  "LocalizedString": "就算是战斗的时候，鉴定师的电波也一点都不刺耳呢……希望下次也能联机作战！"
+                }
+              ]
+            }
+          }
+        ],
         "ShowSupportDelayTime": 1.0,
         "HideUITime": 1.5
       },

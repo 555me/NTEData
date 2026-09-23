@@ -57,7 +57,8 @@
           "EItemType::ITEM_TYPE_SHOP_POINT",
           "EItemType::ITEM_TYPE_LOCKER_KEY",
           "EItemType::ITEM_TYPE_FISH_BAIT",
-          "EItemType::ITEM_TYPE_FISH_KEEP"
+          "EItemType::ITEM_TYPE_FISH_KEEP",
+          "EItemType::ITEM_TYPE_DEFENDATHENA_CONSUMABLE"
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
@@ -68,14 +69,16 @@
               "DLC_Bank_Safety",
               "DLC_Hospital_FB",
               "Maps_4N",
-              "Maps_4NT"
+              "Maps_4NT",
+              "DLC_Scaled_zx01"
             ]
           },
           {
             "ExcludeAreas": [
               "008"
             ]
-          }
+          },
+          {}
         ],
         "IconData": {
           "NormalImage": {
@@ -154,14 +157,16 @@
               "DLC_Bank_Safety",
               "DLC_Hospital_FB",
               "Maps_4N",
-              "Maps_4NT"
+              "Maps_4NT",
+              "DLC_Scaled_zx01"
             ]
           },
           {
             "ExcludeAreas": [
               "008"
             ]
-          }
+          },
+          {}
         ],
         "IconData": {
           "NormalImage": {
@@ -205,14 +210,16 @@
               "DLC_Bank_Safety",
               "DLC_Hospital_FB",
               "Maps_4N",
-              "Maps_4NT"
+              "Maps_4NT",
+              "DLC_Scaled_zx01"
             ]
           },
           {
             "ExcludeAreas": [
               "008"
             ]
-          }
+          },
+          {}
         ],
         "IconData": {
           "NormalImage": {
@@ -257,14 +264,16 @@
               "DLC_Bank_Safety",
               "DLC_Hospital_FB",
               "Maps_4N",
-              "Maps_4NT"
+              "Maps_4NT",
+              "DLC_Scaled_zx01"
             ]
           },
           {
             "ExcludeAreas": [
               "008"
             ]
-          }
+          },
+          {}
         ],
         "IconData": {
           "NormalImage": {
@@ -308,14 +317,16 @@
               "DLC_Bank_Safety",
               "DLC_Hospital_FB",
               "Maps_4N",
-              "Maps_4NT"
+              "Maps_4NT",
+              "DLC_Scaled_zx01"
             ]
           },
           {
             "ExcludeAreas": [
               "008"
             ]
-          }
+          },
+          {}
         ],
         "IconData": {
           "NormalImage": {
@@ -374,14 +385,16 @@
               "DLC_Bank_Safety",
               "DLC_Hospital_FB",
               "Maps_4N",
-              "Maps_4NT"
+              "Maps_4NT",
+              "DLC_Scaled_zx01"
             ]
           },
           {
             "ExcludeAreas": [
               "008"
             ]
-          }
+          },
+          {}
         ],
         "IconData": {
           "NormalImage": {
@@ -437,14 +450,16 @@
               "DLC_Bank_Safety",
               "DLC_Hospital_FB",
               "Maps_4N",
-              "Maps_4NT"
+              "Maps_4NT",
+              "DLC_Scaled_zx01"
             ]
           },
           {
             "ExcludeAreas": [
               "008"
             ]
-          }
+          },
+          {}
         ],
         "IconData": {
           "NormalImage": {
@@ -480,7 +495,8 @@
           "EItemType::ITEM_TYPE_AUTO_USE",
           "EItemType::ITEM_TYPE_FASHION",
           "EItemType::ITEM_TYPE_GLIDE",
-          "EItemType::ITEM_TYPE_FINAL_TOWER_AUTO_USE"
+          "EItemType::ITEM_TYPE_FINAL_TOWER_AUTO_USE",
+          "EItemType::ITEM_TYPE_DECORATION"
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
@@ -658,6 +674,65 @@
           "CultureInvariantString": null
         },
         "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
+      },
+      "SCALED": {
+        "ContainItemTypes": [
+          "EItemType::ITEM_TYPE_QUEST",
+          "EItemType::ITEM_TYPE_IMPORTANT"
+        ],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [
+          "Scaled_Hacksaw",
+          "Scaled_Dissolver",
+          "Scaled_Detergent",
+          "Scaled_Recipe_1",
+          "Scaled_Recipe_2",
+          "Scaled_Recipe_3",
+          "Scaled_Recipe_4",
+          "Scaled_Recipe_5",
+          "Scaled_Recipe_6",
+          "Scaled_Recipe_Useless",
+          "Scaled_Battery",
+          "Scaled_Mirror_1",
+          "Scaled_Mirror_2",
+          "Scaled_BubbleWater"
+        ],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [
+          {
+            "LimitLevels": [
+              "DLC_Scaled_zx01"
+            ]
+          }
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Achievement_Play_Nickname",
+          "SourceString": "玩法",
+          "LocalizedString": "玩法"
+        },
+        "bShowAllType": true,
         "ContainSortTypes": 0,
         "bCanRepeat": false,
         "SyncToClientConditions": []
@@ -1199,7 +1274,7 @@
           }
         ]
       },
-      "Furit": {
+      "FURIT": {
         "ContainItemTypes": [
           "EItemType::ITEM_TYPE_FRUIT"
         ],
@@ -1234,6 +1309,57 @@
         "bShowAllType": false,
         "ContainSortTypes": 0,
         "bCanRepeat": true,
+        "SyncToClientConditions": []
+      },
+      "PUKALAND_MINIGAME": {
+        "ContainItemTypes": [],
+        "ExtraDisplayItemTypes": [],
+        "ExtraDisplayItemIDs": [
+          "HauntedHouse_battery",
+          "HauntedHouse_spray",
+          "HauntedHouse_finalKey",
+          "HauntedHouse_GingerbreadMan",
+          "HauntedHouse_LeftHouseKey",
+          "HauntedHouse_RightHouseKey",
+          "HauntedHouse_Paintings",
+          "HauntedHouse_Poster",
+          "HauntedHouse_PuzzleKeyLeft",
+          "HauntedHouse_LeftHouse_Key_Lv1",
+          "HauntedHouse_LeftHouse_Key_Lv2",
+          "HauntedHouse_LeftHouse_Key_Eyes_01",
+          "HauntedHouse_RightHouse_Key_Lv1"
+        ],
+        "ContainerCapacity": 1000,
+        "ShowInBagTabConditions": [
+          {}
+        ],
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_wanfa.YH_UI_icon_top_wanfa",
+            "SubPathString": ""
+          }
+        },
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Achievement_Play_Nickname",
+          "SourceString": "玩法",
+          "LocalizedString": "玩法"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false,
         "SyncToClientConditions": []
       }
     }

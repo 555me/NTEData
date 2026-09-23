@@ -6,6 +6,28 @@
     "Class": "UScriptClass'HTCrowdNpcDataAsset'",
     "Package": "/Game/DataAssets/CrowdNPCCharacterDataAsset",
     "Properties": {
+      "BehaviorConfigs": [
+        {
+          "BehaviorTag": {
+            "ObjectName": "Class'HTSelfieReactionTag'",
+            "ObjectPath": "/Script/HTGame"
+          },
+          "AITemplate": {
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Mass/NPC_AI/BP_Crowd_NPCCharacter.BP_Crowd_NPCCharacter_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "BehaviorTag": {
+            "ObjectName": "Class'HTGuitarAudienceTag'",
+            "ObjectPath": "/Script/HTGame"
+          },
+          "AITemplate": {
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Mass/NPC_AI/BP_Crowd_NPCCharacter_Guitar.BP_Crowd_NPCCharacter_Guitar_C",
+            "SubPathString": ""
+          }
+        }
+      ],
       "CrowdNpcConfig": {
         "AITemplate": {
           "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Mass/NPC_AI/BP_Crowd_NPCCharacter.BP_Crowd_NPCCharacter_C",

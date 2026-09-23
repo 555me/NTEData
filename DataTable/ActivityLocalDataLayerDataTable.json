@@ -276,7 +276,7 @@
           }
         ],
         "AutoActive": true,
-        "OnlyInHybridMode": false,
+        "OnlyInHybridMode": true,
         "AreaIds": [
           "001"
         ],
@@ -486,7 +486,13 @@
           "YaHahaID": "SchoolMyth_AmbientActive",
           "bNeedComplete": true
         },
-        "UnLoadCondition": null
+        "UnLoadCondition": {
+          "bUseQuestRange": true,
+          "QuestId": [],
+          "BeginQuest": "L110401",
+          "EndQuest": "L110448",
+          "bNeedTrack": true
+        }
       },
       "Vision_SchoolMyth_Final": {
         "DataLayerAssets": [
@@ -505,7 +511,13 @@
           "YaHahaID": "SchoolMyth_FinalActive",
           "bNeedComplete": true
         },
-        "UnLoadCondition": null
+        "UnLoadCondition": {
+          "bUseQuestRange": true,
+          "QuestId": [],
+          "BeginQuest": "L110401",
+          "EndQuest": "L110448",
+          "bNeedTrack": true
+        }
       },
       "Vision_SchoolMyth_GuessCup": {
         "DataLayerAssets": [
@@ -524,7 +536,13 @@
           "YaHahaID": "SchoolMyth_GuessCupActive",
           "bNeedComplete": true
         },
-        "UnLoadCondition": null
+        "UnLoadCondition": {
+          "bUseQuestRange": true,
+          "QuestId": [],
+          "BeginQuest": "L110401",
+          "EndQuest": "L110448",
+          "bNeedTrack": true
+        }
       },
       "Vision_SchoolMyth_LoopClass": {
         "DataLayerAssets": [
@@ -543,7 +561,13 @@
           "YaHahaID": "SchoolMyth_LoopClassActive",
           "bNeedComplete": true
         },
-        "UnLoadCondition": null
+        "UnLoadCondition": {
+          "bUseQuestRange": true,
+          "QuestId": [],
+          "BeginQuest": "L110401",
+          "EndQuest": "L110448",
+          "bNeedTrack": true
+        }
       },
       "Vision_SchoolMyth_MagicDoll": {
         "DataLayerAssets": [
@@ -562,7 +586,13 @@
           "YaHahaID": "SchoolMyth_MagicDollActive",
           "bNeedComplete": true
         },
-        "UnLoadCondition": null
+        "UnLoadCondition": {
+          "bUseQuestRange": true,
+          "QuestId": [],
+          "BeginQuest": "L110401",
+          "EndQuest": "L110448",
+          "bNeedTrack": true
+        }
       },
       "Vision_SchoolMyth_MusicClass": {
         "DataLayerAssets": [
@@ -581,7 +611,13 @@
           "YaHahaID": "SchoolMyth_MusicClassActive",
           "bNeedComplete": true
         },
-        "UnLoadCondition": null
+        "UnLoadCondition": {
+          "bUseQuestRange": true,
+          "QuestId": [],
+          "BeginQuest": "L110401",
+          "EndQuest": "L110448",
+          "bNeedTrack": true
+        }
       },
       "Vision_SchoolMyth_RaceMan": {
         "DataLayerAssets": [
@@ -600,7 +636,13 @@
           "YaHahaID": "SchoolMyth_RaceManActive",
           "bNeedComplete": true
         },
-        "UnLoadCondition": null
+        "UnLoadCondition": {
+          "bUseQuestRange": true,
+          "QuestId": [],
+          "BeginQuest": "L110401",
+          "EndQuest": "L110448",
+          "bNeedTrack": true
+        }
       },
       "Vision_SchoolMyth_RunningMan": {
         "DataLayerAssets": [
@@ -619,7 +661,13 @@
           "YaHahaID": "SchoolMyth_RunningManActive",
           "bNeedComplete": true
         },
-        "UnLoadCondition": null
+        "UnLoadCondition": {
+          "bUseQuestRange": true,
+          "QuestId": [],
+          "BeginQuest": "L110401",
+          "EndQuest": "L110448",
+          "bNeedTrack": true
+        }
       },
       "Vision_SchoolMyth_ShyGuy": {
         "DataLayerAssets": [
@@ -638,7 +686,13 @@
           "YaHahaID": "SchoolMyth_ShyguyActive",
           "bNeedComplete": true
         },
-        "UnLoadCondition": null
+        "UnLoadCondition": {
+          "bUseQuestRange": true,
+          "QuestId": [],
+          "BeginQuest": "L110401",
+          "EndQuest": "L110448",
+          "bNeedTrack": true
+        }
       },
       "Vision_Boxing_03": {
         "DataLayerAssets": [
@@ -1196,6 +1250,138 @@
         "UnLoadCondition": {
           "YaHahaID": "Vision_Dancer_Unload",
           "bNeedComplete": true
+        }
+      },
+      "Vision_PillowDreams_01": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/WorldAnomaly/Pillow/W_Unload_WorldAnomaly_Pillow_01.W_Unload_WorldAnomaly_Pillow_01",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "006"
+        ],
+        "bOnlyLoadNotActive": false,
+        "ActiveCondition": {
+          "YaHahaID": "PillowDreams_Load_01",
+          "bNeedComplete": true
+        },
+        "UnLoadCondition": {
+          "YaHahaID": "PillowDreams_Unoad_01",
+          "bNeedComplete": true
+        }
+      },
+      "Vision_PillowDreams_02": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/WorldAnomaly/Pillow/W_Unload_WorldAnomaly_Pillow_02.W_Unload_WorldAnomaly_Pillow_02",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "006"
+        ],
+        "bOnlyLoadNotActive": false,
+        "ActiveCondition": {
+          "YaHahaID": "PillowDreams_Load_02",
+          "bNeedComplete": true
+        },
+        "UnLoadCondition": {
+          "YaHahaID": "PillowDreams_Unoad_02",
+          "bNeedComplete": true
+        }
+      },
+      "Vision_BusStop_Wooden": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/WorldAnomaly/BusStop/W_Unload_WorldAnomaly_BusStop_Wooden.W_Unload_WorldAnomaly_BusStop_Wooden",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "006"
+        ],
+        "bOnlyLoadNotActive": false,
+        "ActiveCondition": {
+          "YaHahaID": "BusStopDataLoad_Wooden",
+          "bNeedComplete": true
+        },
+        "UnLoadCondition": {
+          "YaHahaID": "BusStopDataLoad_Wooden",
+          "bNeedComplete": false
+        }
+      },
+      "BusStopDataLoad_Ghost": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/WorldAnomaly/BusStop/W_Unload_WorldAnomaly_BusStop_Ghost.W_Unload_WorldAnomaly_BusStop_Ghost",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "006"
+        ],
+        "bOnlyLoadNotActive": false,
+        "ActiveCondition": {
+          "YaHahaID": "BusStopDataLoad_Ghost",
+          "bNeedComplete": true
+        },
+        "UnLoadCondition": {
+          "YaHahaID": "BusStopDataLoad_Ghost",
+          "bNeedComplete": false
+        }
+      },
+      "BusStopDataLoad_Tuansanlang": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/WorldAnomaly/BusStop/W_Unload_WorldAnomaly_BusStop_Tuansanlang.W_Unload_WorldAnomaly_BusStop_Tuansanlang",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "006"
+        ],
+        "bOnlyLoadNotActive": false,
+        "ActiveCondition": {
+          "YaHahaID": "BusStopDataLoad_Tuansanlang",
+          "bNeedComplete": true
+        },
+        "UnLoadCondition": {
+          "YaHahaID": "BusStopDataLoad_Tuansanlang",
+          "bNeedComplete": false
+        }
+      },
+      "BusStopDataLoad_Tajiduo": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/WorldAnomaly/BusStop/W_Unload_WorldAnomaly_BusStop_Tajiduo.W_Unload_WorldAnomaly_BusStop_Tajiduo",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "006"
+        ],
+        "bOnlyLoadNotActive": false,
+        "ActiveCondition": {
+          "YaHahaID": "BusStopDataLoad_Tajiduo",
+          "bNeedComplete": true
+        },
+        "UnLoadCondition": {
+          "YaHahaID": "BusStopDataLoad_Tajiduo",
+          "bNeedComplete": false
         }
       }
     }

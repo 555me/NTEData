@@ -2025,6 +2025,48 @@
         "Condition": null,
         "bPlaystationShow": true
       },
+      "PageturnLock": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "Phone_Config",
+          "SourceString": "手柄模式下的手机翻页",
+          "LocalizedString": "手柄模式下的手机翻页"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "PageturnLock"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::GamePad",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": null,
+        "bPlaystationShow": true
+      },
       "ModifyGamepadType": {
         "Category": "ESettingCategory::System",
         "PlatformToDisplay": 29,
@@ -3390,6 +3432,48 @@
         "Condition": null,
         "bPlaystationShow": true
       },
+      "AutoSwitchToRearViewWhenReversing": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "AutoSwitchToRearViewWhenReversing",
+          "SourceString": "载具第一人称倒车时自动切换至后视镜视角",
+          "LocalizedString": "载具第一人称倒车时自动切换至后视镜视角"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "AutoSwitchToRearViewWhenReversing"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 10
+          }
+        },
+        "SliderStepSize": 0.1,
+        "bIsForceShowFloat": true,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": null,
+        "bPlaystationShow": true
+      },
       "WaterVehicleSteeringSensitivity": {
         "Category": "ESettingCategory::System",
         "PlatformToDisplay": 511,
@@ -3795,6 +3879,48 @@
         "ShowInputType": "ESettingInputType::All",
         "ComboBoxOptionEvent": null,
         "SliderValueEvent": {},
+        "Condition": null,
+        "bPlaystationShow": true
+      },
+      "Setting_OpenInfoSequence": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "sequence_Name",
+          "SourceString": "初遇回响",
+          "LocalizedString": "初遇回响"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "Setting_OpenInfoSequence"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
         "Condition": null,
         "bPlaystationShow": true
       },

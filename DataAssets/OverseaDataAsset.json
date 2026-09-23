@@ -9,17 +9,44 @@
       "CountryZoneTable": {
         "ObjectName": "DataTable'DT_CountryToZoneData'",
         "ObjectPath": "/Game/DataTable/DT_CountryToZoneData.0"
-},
+      },
+      "GoogleAchievementTable": {
+        "ObjectName": "DataTable'DT_GoogleAchievement_Oversea'",
+        "ObjectPath": "/Game/DataTable/DT_GoogleAchievement_Oversea.0"
+      },
+      "EventIds": [
+        {
+          "Key": "AchievementMainType::MainTypeQuest",
+          "Value": "achievequest"
+        },
+        {
+          "Key": "AchievementMainType::MainTypeInterest",
+          "Value": "achieveinterest"
+        },
+        {
+          "Key": "AchievementMainType::MainTypePlay",
+          "Value": "achieveplay"
+        },
+        {
+          "Key": "AchievementMainType::MainTypeCity",
+          "Value": "achievelife"
+        }
+      ],
+      "BidKingEventName": "goldshell",
       "OnlineOverMsg": {
         "TableId": "/Game/Text/ST_Common.ST_Common",
-        "Key": "OverseaLawlimit_onlinetime"
-},
+        "Key": "OverseaLawlimit_onlinetime",
+        "SourceString": "您已连续游玩超过3小时，请注意休息~",
+        "LocalizedString": "您已连续游玩超过3小时，请注意休息~"
+      },
       "OnlineOverHours": 3,
       "OnlineOverMsg_KR": {
         "TableId": "/Game/Text/ST_Common.ST_Common",
-        "Key": "KoreaLawlimit_onlinetime"
-},
+        "Key": "KoreaLawlimit_onlinetime",
+        "SourceString": "您已连续游玩{0}小时，过度使用游戏可能会干扰正常的日常生活",
+        "LocalizedString": "您已连续游玩{0}小时，过度使用游戏可能会干扰正常的日常生活"
+      },
       "OnlineOverHours_KR": 1
-}
+    }
   }
 ]

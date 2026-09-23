@@ -4926,10 +4926,10 @@
         "CanBuyDistance": -1.0,
         "UIClass": "MallShop",
         "ShopName": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "ui_appearance_02",
-          "SourceString": "滑翔翼",
-          "LocalizedString": "滑翔翼"
+          "TableId": "/Game/Text/ST_Shop.ST_Shop",
+          "Key": "GlideShop",
+          "SourceString": "滑翔翼/骰子样式",
+          "LocalizedString": "滑翔翼/骰子样式"
         },
         "ShopIcon": {
           "AssetPathName": "",
@@ -5365,6 +5365,24 @@
           "SubPathString": ""
         }
       },
+      "FonsLimitTimeShop6": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::FONS_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "FonsLimitTimeShop",
+        "ShopName": {
+          "CultureInvariantString": null
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
       "SpecialOfferGiftShop": {
         "ChainShopID": "None",
         "ShopType": "EShopType::GIFT_SHOP",
@@ -5740,7 +5758,8 @@
         "ChainShopID": "None",
         "ShopType": "EShopType::NPC_SHOP",
         "CurrencyID": [
-          "Scratch_bookmark"
+          "Scratch_bookmark",
+          "fons"
         ],
         "UnLockID": "None",
         "SwitchType": "ESwitchType::Shop",
@@ -5811,6 +5830,280 @@
         "UIClass": "NPCShop",
         "ShopName": {
           "CultureInvariantString": "<!>即刻落槌方斯商店"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "DecorationShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::MALL_SHOP",
+        "CurrencyID": [
+          "Fons",
+          "RiftcrystalAdd"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "MallShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "DecorationShop",
+          "SourceString": "饰品",
+          "LocalizedString": "饰品"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Shop_Pukaland_01": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "PukalandTicket"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_Pukaland_01_name",
+          "SourceString": "童话衣橱",
+          "LocalizedString": "童话衣橱"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Shop_Pukaland_02": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_Pukaland_02_name",
+          "SourceString": "噗卡淘淘铺",
+          "LocalizedString": "噗卡淘淘铺"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Shop_Pukaland_03": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_Pukaland_03_name",
+          "SourceString": "心愿咖啡屋",
+          "LocalizedString": "心愿咖啡屋"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Shop_Pukaland_04": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_Pukaland_04_name",
+          "SourceString": "茶话会物语",
+          "LocalizedString": "茶话会物语"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Shop_Pukaland_05": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_Pukaland_05_name",
+          "SourceString": "甜颂烘焙坊",
+          "LocalizedString": "甜颂烘焙坊"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Shop_Pukaland_06": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_Pukaland_06_name",
+          "SourceString": "雪糕好时光",
+          "LocalizedString": "雪糕好时光"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Shop_Pukaland_07": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_Pukaland_07_name",
+          "SourceString": "甜梦糖屋",
+          "LocalizedString": "甜梦糖屋"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Shop_Pukaland_08": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_Pukaland_08_name",
+          "SourceString": "饱饱欢聚屋",
+          "LocalizedString": "饱饱欢聚屋"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Shop_Pukaland_09": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_Pukaland_09_name",
+          "SourceString": "噗卡奇遇餐厅",
+          "LocalizedString": "噗卡奇遇餐厅"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GingerbreadShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::MALL_SHOP",
+        "CurrencyID": [
+          "GingerbreadCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "RacingShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Shop.ST_Shop",
+          "Key": "GingerbreadShop",
+          "SourceString": "焦糖商店",
+          "LocalizedString": "焦糖商店"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "DefendAthenaShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::MALL_SHOP",
+        "CurrencyID": [
+          "DefendTowerCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "DefendNSShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Shop.ST_Shop",
+          "Key": "DefendAthenaShop_name",
+          "SourceString": "花糖商店",
+          "LocalizedString": "花糖商店"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PukalandTicketShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "PukalandTicket"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Shop.ST_Shop",
+          "Key": "PukalandTicketShop_name",
+          "SourceString": "星票小铺",
+          "LocalizedString": "星票小铺"
         },
         "ShopIcon": {
           "AssetPathName": "",

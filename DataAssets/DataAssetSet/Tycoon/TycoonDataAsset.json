@@ -53,11 +53,77 @@
       },
       "TycoonPeriodTable": null,
       "TycoonRankAwardTable": null,
+      "TycoonPukalandTrainingConfigDataTable": {
+        "ObjectName": "DataTable'DT_TycoonPukalandTraining'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Tycoon/DT_TycoonPukalandTraining.0"
+      },
       "IgnoreAddPathes": [
         182
       ],
       "TycoonRankShowNum": 100,
-      "TycoonVersion": 2
+      "TycoonVersion": 3,
+      "PukalandDonateItemArray": [
+        {
+          "DonateItemID": "NewTycoon_Donation_01",
+          "CityTycoonArray": [
+            "ECityTycoonType::TycoonType_Tycoon",
+            "ECityTycoonType::TycoonType_Pukaland"
+          ]
+        },
+        {
+          "DonateItemID": "NewTycoon_Donation_02",
+          "CityTycoonArray": [
+            "ECityTycoonType::TycoonType_Tycoon"
+          ]
+        }
+      ],
+      "PukalandBuyItemID": "NewTycoon_Donation_01",
+      "TycoonConfigDataMap": [
+        {
+          "Key": "ECityTycoonType::TycoonType_Tycoon",
+          "Value": {
+            "FunctionUnlockId": "CityTycoon",
+            "UpgradeRate": 1.0,
+            "TypeNameText": {
+              "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
+              "Key": "BPUI_TycoonMain_035",
+              "SourceString": "大亨计划",
+              "LocalizedString": "大亨计划"
+            },
+            "TypeIcon": {
+              "AssetPathName": "/Game/UI/UI/Tycoon/PukaLandPlan/YH_UI_pukajihuaicon_04.YH_UI_pukajihuaicon_04",
+              "SubPathString": ""
+            },
+            "DonateBtnTypeIcon": {
+              "AssetPathName": "/Game/UI/UI/Tycoon/PukaLandPlan/YH_UI_pukajihuaicon_02.YH_UI_pukajihuaicon_02",
+              "SubPathString": ""
+            },
+            "RedPointID": "Redpoint.Menu.Tycoon.LevelUp"
+          }
+        },
+        {
+          "Key": "ECityTycoonType::TycoonType_Pukaland",
+          "Value": {
+            "FunctionUnlockId": "TycoonPukaland",
+            "UpgradeRate": 0.0,
+            "TypeNameText": {
+              "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
+              "Key": "TycoonPukaland",
+              "SourceString": "噗卡计划",
+              "LocalizedString": "噗卡计划"
+            },
+            "TypeIcon": {
+              "AssetPathName": "/Game/UI/UI/Tycoon/PukaLandPlan/YH_UI_pukajihuaicon_03.YH_UI_pukajihuaicon_03",
+              "SubPathString": ""
+            },
+            "DonateBtnTypeIcon": {
+              "AssetPathName": "/Game/UI/UI/Tycoon/PukaLandPlan/YH_UI_pukajihuaicon_01.YH_UI_pukajihuaicon_01",
+              "SubPathString": ""
+            },
+            "RedPointID": "Redpoint.Menu.Tycoon.Pukaland"
+          }
+        }
+      ]
     }
   }
 ]

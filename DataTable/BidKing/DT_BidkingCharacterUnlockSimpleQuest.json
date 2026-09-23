@@ -1,0 +1,389 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BidkingCharacterUnlockSimpleQuest",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/BidKing/DT_BidkingCharacterUnlockSimpleQuest",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SimpleQuestStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "S1_01": {
+        "QuestId": "S1_01",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingSimpleQuest_JP_05",
+          "SourceString": "使用1次仪器",
+          "LocalizedString": "使用1次仪器"
+        },
+        "SimpleQuestType": "ESimpleQuestType::BidKingCharacterUnlock",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ItemID": "None",
+          "ObjectiveType": "ESimpleQuestObjType::BidKingUseItemCount",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": "累计参与XX场竞拍"
+        },
+        "ExtensionData": {
+          "QuestType": "EBidKingQuestType::CharacterUnlock"
+        },
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "S1_02": {
+        "QuestId": "S1_02",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingSimpleQuest_SC_01",
+          "SourceString": "成功拍下1件藏品",
+          "LocalizedString": "成功拍下1件藏品"
+        },
+        "SimpleQuestType": "ESimpleQuestType::BidKingCharacterUnlock",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityType": "EItemQuality::ITEM_QUALITY_NONE",
+          "ItemID": "None",
+          "ObjectiveType": "ESimpleQuestObjType::BidKingGetCollection",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": "累计参与XX场竞拍"
+        },
+        "ExtensionData": {
+          "QuestType": "EBidKingQuestType::CharacterUnlock"
+        },
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "S1_Heiyu": {
+        "QuestId": "S1_Heiyu",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingSimpleQuest_S1_Heiyu",
+          "SourceString": "成功拍下10件红色藏品",
+          "LocalizedString": "成功拍下10件红色藏品"
+        },
+        "SimpleQuestType": "ESimpleQuestType::BidKingCharacterUnlock",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityType": "EItemQuality::ITEM_QUALITY_RED",
+          "ItemID": "None",
+          "ObjectiveType": "ESimpleQuestObjType::BidKingGetCollection",
+          "Amount": 10
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": "累计参与XX场竞拍"
+        },
+        "ExtensionData": {
+          "QuestType": "EBidKingQuestType::CharacterUnlock"
+        },
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "S1_04": {
+        "QuestId": "S1_04",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingSimpleQuest_BN_01",
+          "SourceString": "单次盈利超过50000金贝铢",
+          "LocalizedString": "单次盈利超过50000金贝铢"
+        },
+        "SimpleQuestType": "ESimpleQuestType::BidKingCharacterUnlock",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "IsCumulative": false,
+          "ObjectiveType": "ESimpleQuestObjType::BidKingProfitCount",
+          "Amount": 50000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": "累计参与XX场竞拍"
+        },
+        "ExtensionData": {
+          "QuestType": "EBidKingQuestType::CharacterUnlock"
+        },
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "S1_05": {
+        "QuestId": "S1_05",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingSimpleQuest_BN_04",
+          "SourceString": "累计盈利500000金贝铢",
+          "LocalizedString": "累计盈利500000金贝铢"
+        },
+        "SimpleQuestType": "ESimpleQuestType::BidKingCharacterUnlock",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "IsCumulative": true,
+          "ObjectiveType": "ESimpleQuestObjType::BidKingProfitCount",
+          "Amount": 500000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": "累计参与XX场竞拍"
+        },
+        "ExtensionData": {
+          "QuestType": "EBidKingQuestType::CharacterUnlock"
+        },
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      }
+    }
+  }
+]

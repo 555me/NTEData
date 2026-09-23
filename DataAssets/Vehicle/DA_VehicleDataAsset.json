@@ -30,9 +30,13 @@
         "ObjectName": "DataTable'DT_VehicleFishHookData'",
         "ObjectPath": "/Game/DataTable/Vehicle/DT_VehicleFishHookData.0"
       },
-      "VehicleParticleAssetsDataTable": {
-        "ObjectName": "DataTable'DT_ParticleAssets'",
-        "ObjectPath": "/Game/DataTable/Vehicle/DT_ParticleAssets.0"
+      "VehicleDynamicLevelInstanceDataTable": {
+        "ObjectName": "DataTable'DT_DynamicLevelInstanceHoldActor'",
+        "ObjectPath": "/Game/DataTable/Vehicle/DT_DynamicLevelInstanceHoldActor.0"
+      },
+      "EffectAssetDataTable": {
+        "ObjectName": "DataTable'DT_VehicleEffectAsset'",
+        "ObjectPath": "/Game/DataTable/Vehicle/DT_VehicleEffectAsset.0"
       },
       "ModuleCommonWidgetMap": [
         {
@@ -195,6 +199,13 @@
           "Key": "EVehicleModuleType::EVMT_VehicleWheelMark",
           "Value": {
             "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_Mark.YH_UI_CarComponent_Mark",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EVehicleModuleType::EVMT_ECU",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xinpian.YH_UI_CarComponent_xinpian",
             "SubPathString": ""
           }
         }
@@ -396,6 +407,15 @@
             "Key": "VehicleModuleItem_WheelSmoke",
             "SourceString": "车胎烟雾",
             "LocalizedString": "车胎烟雾"
+          }
+        },
+        {
+          "Key": "EVehicleModuleType::EVMT_ECU",
+          "Value": {
+            "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+            "Key": "VehicleModuleItem_ECU",
+            "SourceString": "动力增幅",
+            "LocalizedString": "动力增幅"
           }
         }
       ],
@@ -760,28 +780,28 @@
         {
           "Key": "Shop_Regalia_001",
           "Value": {
-            "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_Regalia_moto.Seq_Regalia_moto",
+            "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_Regalia_bike.Seq_Regalia_bike",
             "SubPathString": ""
           }
         },
         {
           "Key": "Shop_Regalia_002",
           "Value": {
-            "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_Regalia_moto.Seq_Regalia_moto",
+            "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_Regalia_bike.Seq_Regalia_bike",
             "SubPathString": ""
           }
         },
         {
           "Key": "Shop_Regalia_003",
           "Value": {
-            "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_Regalia_moto.Seq_Regalia_moto",
+            "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_Regalia_bike.Seq_Regalia_bike",
             "SubPathString": ""
           }
         },
         {
           "Key": "Shop_Regalia_004",
           "Value": {
-            "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_Regalia_moto.Seq_Regalia_moto",
+            "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Regalia/Seq_Regalia_bike.Seq_Regalia_bike",
             "SubPathString": ""
           }
         }
@@ -876,6 +896,70 @@
             "SequencePlayerTransferPointID": "None",
             "BuyVehicleSequence": {
               "AssetPathName": "/Game/Blueprints/Level/SingleLevel/zhenhong/zhenhong_moto_seq.zhenhong_moto_seq",
+              "SubPathString": ""
+            },
+            "VehicleSpawnTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        },
+        {
+          "Key": "Vehicle037",
+          "Value": {
+            "SequencePointID": "Vehicle026",
+            "SequencePlayerTransferPointID": "None",
+            "BuyVehicleSequence": {
+              "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Porsche/911/porsche_show_911.porsche_show_911",
+              "SubPathString": ""
+            },
+            "VehicleSpawnTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        },
+        {
+          "Key": "Vehicle038",
+          "Value": {
+            "SequencePointID": "Vehicle026",
+            "SequencePlayerTransferPointID": "None",
+            "BuyVehicleSequence": {
+              "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Porsche/Taycan/taycan_porsche_show.taycan_porsche_show",
               "SubPathString": ""
             },
             "VehicleSpawnTransform": {
@@ -1190,6 +1274,26 @@
           "Value": {
             "EntityConfig": {
               "AssetPathName": "/Game/Characters/Vehicle/DataAssets/Module/DA_Vehicle_026_Module.DA_Vehicle_026_Module",
+              "SubPathString": ""
+            },
+            "Proportion": 1.0
+          }
+        },
+        {
+          "Key": "Vehicle037",
+          "Value": {
+            "EntityConfig": {
+              "AssetPathName": "/Game/Characters/Vehicle/DataAssets/Module/DA_Vehicle_037_Module.DA_Vehicle_037_Module",
+              "SubPathString": ""
+            },
+            "Proportion": 1.0
+          }
+        },
+        {
+          "Key": "Vehicle038",
+          "Value": {
+            "EntityConfig": {
+              "AssetPathName": "/Game/Characters/Vehicle/DataAssets/Module/DA_Vehicle_038_Module.DA_Vehicle_038_Module",
               "SubPathString": ""
             },
             "Proportion": 1.0

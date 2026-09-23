@@ -19187,7 +19187,7 @@
               "bBestViewDistanceQuality": false,
               "CantSkipTime": 2.0,
               "bSkipNeedConfirm": true,
-              "bCanFinishWhenFadeInOut": false,
+              "bCanFinishWhenFadeInOut": true,
               "bIsSequenceFadeIn": true,
               "bIsSequenceFadeOut": true,
               "FadeOutSequenceTime": 0.8,
@@ -19456,7 +19456,7 @@
         "SequenceInfo": [
           {
             "SequenceTemple": {
-              "AssetPathName": "/Game/Blueprints/Level/Quest/WXY/Quest_Wuchao/Sequence_BP/HM_DaLouHuaBan/All.All",
+              "AssetPathName": "/Game/Blueprints/Level/Quest/WXY/Quest_Wuchao/Sequence_BP/HM_DaLouHuaBan/All.all",
               "SubPathString": ""
             },
             "SoundSource": {
@@ -19565,6 +19565,2121 @@
               "bSyncCameraYaw": false,
               "bForceAddToNewSpawnedTickGroup": true,
               "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q110903": {
+        "Desc": "HM_1_4_BlackBird_001-黑羽主线-黑羽与主角缔结契约",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+          "Key": "HM_01_SumUp",
+          "SourceString": "你和黑羽缔结了契约。",
+          "LocalizedString": "你和黑羽缔结了契约。"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/QuestStory/BPUI_DialogueTempSeq.BPUI_DialogueTempSeq_C",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/cutscenes/HM_U01C08_001/HM_U01C08_001.HM_U01C08_001",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_001/Play_Sfx_Music_CG_HM_1_4_BlackBird_001.Play_Sfx_Music_CG_HM_1_4_BlackBird_001",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_001/Stop_Sfx_Music_CG_HM_1_4_BlackBird_001.Stop_Sfx_Music_CG_HM_1_4_BlackBird_001",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_001/Play_Vo_CG_HM_1_4_BlackBird_001.Play_Vo_CG_HM_1_4_BlackBird_001",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_001/Stop_Vo_CG_HM_1_4_BlackBird_001.Stop_Vo_CG_HM_1_4_BlackBird_001",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "q110903",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q110908": {
+        "Desc": "HM_1_4_BlackBird_005-黑羽主线-主角黑羽坐船视频",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q110908",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": -1.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q110916": {
+        "Desc": "HM_1_4_BlackBird_002a-黑羽主线-大世界人形审判官战前黑幕",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+          "Key": "HM_02a_SumUp",
+          "SourceString": "你和黑羽赶到了火刑现场，黑羽却似乎回忆起了什么，疼痛发作，你同时也感受到了那种疼痛。\r\n火焰翻卷，你发现现在正在被处刑的竟然是法帝娅。惊讶之余，异象「审判官」现身，此时翳也出现，你便与E.T.D的伙伴们一同与审判官战斗。",
+          "LocalizedString": "你和黑羽赶到了火刑现场，黑羽却似乎回忆起了什么，疼痛发作，你同时也感受到了那种疼痛。\r\n火焰翻卷，你发现现在正在被处刑的竟然是法帝娅。惊讶之余，异象「审判官」现身，此时翳也出现，你便与E.T.D的伙伴们一同与审判官战斗。"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/QuestStory/BPUI_DialogueTempSeq.BPUI_DialogueTempSeq_C",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/cutscenes/HM_U01C08_002a/HM_U01C08_002a.HM_U01C08_002a",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_002/Play_Sfx_Music_CG_HM_1_4_BlackBird_002a.Play_Sfx_Music_CG_HM_1_4_BlackBird_002a",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_002/Stop_Sfx_Music_CG_HM_1_4_BlackBird_002a.Stop_Sfx_Music_CG_HM_1_4_BlackBird_002a",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_002/Play_Vo_CG_HM_1_4_BlackBird_002a.Play_Vo_CG_HM_1_4_BlackBird_002a",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_002/Stop_Vo_CG_HM_1_4_BlackBird_002a.Stop_Vo_CG_HM_1_4_BlackBird_002a",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "q110916",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q110918": {
+        "Desc": "HM_1_4_BlackBird_002b-黑羽主线-大世界人形审判官胜利黑幕",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+          "Key": "HM_02b_SumUp",
+          "SourceString": "驱逐审判官后，你和黑羽与E.T.D队员们会合。",
+          "LocalizedString": "驱逐审判官后，你和黑羽与E.T.D队员们会合。"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/QuestStory/BPUI_DialogueTempSeq.BPUI_DialogueTempSeq_C",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/cutscenes/HM_U01C08_002b/HM_U01C08_002b.HM_U01C08_002b",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_002/Play_Sfx_Music_CG_HM_1_4_BlackBird_002b.Play_Sfx_Music_CG_HM_1_4_BlackBird_002b",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_002/Stop_Sfx_Music_CG_HM_1_4_BlackBird_002b.Stop_Sfx_Music_CG_HM_1_4_BlackBird_002b",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_002/Play_Vo_CG_HM_1_4_BlackBird_002b.Play_Vo_CG_HM_1_4_BlackBird_002b",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/BlackBird/HM_1_4_BlackBird_002/Stop_Vo_CG_HM_1_4_BlackBird_002b.Stop_Vo_CG_HM_1_4_BlackBird_002b",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "q110918",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q110974": {
+        "Desc": "HM_1_4_BlackBird_003a-黑羽主线-羊形态审判官入战视频",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q110974",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": -1.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q110976": {
+        "Desc": "HM_1_4_BlackBird_003b-黑羽主线-斩杀羊形态审判官",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q110976",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": -1.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q1109341": {
+        "Desc": "HM_1_4_BlackBird_004a-黑羽主线-占卜动画1",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+          "Key": "HM_04a_SumUp",
+          "SourceString": "一个白裙金发的女孩正在被火焰蚕食，审判官在她的对面宛如恶魔一般狞笑着。围观众人神情麻木，对那混合着尖利笑声的呼救置若罔闻。",
+          "LocalizedString": "一个白裙金发的女孩正在被火焰蚕食，审判官在她的对面宛如恶魔一般狞笑着。围观众人神情麻木，对那混合着尖利笑声的呼救置若罔闻。"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q1109341",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q1109443": {
+        "Desc": "HM_1_4_BlackBird_004b-黑羽主线-占卜动画2",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+          "Key": "HM_04b_SumUp",
+          "SourceString": "有人咳血不止，昏迷倒地，安妮与其他镇民上前救治。止不住的血流淌在地上，那难道是他生前看到的最后一幕？",
+          "LocalizedString": "有人咳血不止，昏迷倒地，安妮与其他镇民上前救治。止不住的血流淌在地上，那难道是他生前看到的最后一幕？"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q1109443",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q1109511": {
+        "Desc": "HM_1_4_BlackBird_004c-黑羽主线-占卜动画3",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+          "Key": "HM_04c_SumUp",
+          "SourceString": "烈火之中，金发女孩在忍受着炼狱般的折磨，绝望的泪水还没流下就被火焰舔舐，她用尽全力向你们呼救。",
+          "LocalizedString": "烈火之中，金发女孩在忍受着炼狱般的折磨，绝望的泪水还没流下就被火焰舔舐，她用尽全力向你们呼救。"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q1109511",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q1109671": {
+        "Desc": "HM_1_4_BlackBird_004d-黑羽主线-占卜动画4",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+          "Key": "HM_04d_SumUp",
+          "SourceString": "镇民依照着原本的计划去营救玛丽，计划却被泄露，自诩审判正义的恶魔降下了无边的烈火。火光散尽后，只剩下散发着幽幽红光的谕石。",
+          "LocalizedString": "镇民依照着原本的计划去营救玛丽，计划却被泄露，自诩审判正义的恶魔降下了无边的烈火。火光散尽后，只剩下散发着幽幽红光的谕石。"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q1109671",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q111060": {
+        "Desc": "HM_U01C09_001空号黑幕1（sequence）-洛克茜",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110550_SumUp_S",
+          "SourceString": "大雾散去，你进入一个奇妙的海域，岸边正进行着一场盛大的游行。\n你推断这就是娜娜莉走失的异象空间，手机信号在此中断，一名神秘女子正望向你……",
+          "LocalizedString": "大雾散去，你进入一个奇妙的海域，岸边正进行着一场盛大的游行。\n你推断这就是娜娜莉走失的异象空间，手机信号在此中断，一名神秘女子正望向你……"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/Blueprints/Level/Quest/SLY/Universal/TempTestSeq_SLY.TempTestSeq_SLY",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "q111060",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q111070": {
+        "Desc": "HM_U01C09_002空号黑幕2（sequence）-10KB的秘密基地",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110550_SumUp_S",
+          "SourceString": "大雾散去，你进入一个奇妙的海域，岸边正进行着一场盛大的游行。\n你推断这就是娜娜莉走失的异象空间，手机信号在此中断，一名神秘女子正望向你……",
+          "LocalizedString": "大雾散去，你进入一个奇妙的海域，岸边正进行着一场盛大的游行。\n你推断这就是娜娜莉走失的异象空间，手机信号在此中断，一名神秘女子正望向你……"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/Blueprints/Level/Quest/SLY/Universal/TempTestSeq_SLY.TempTestSeq_SLY",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "q111070",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "q111082": {
+        "Desc": "HM_U01C09_004空号黑幕4（视频）-致电，我的朋友",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110550_SumUp_S",
+          "SourceString": "大雾散去，你进入一个奇妙的海域，岸边正进行着一场盛大的游行。\n你推断这就是娜娜莉走失的异象空间，手机信号在此中断，一名神秘女子正望向你……",
+          "LocalizedString": "大雾散去，你进入一个奇妙的海域，岸边正进行着一场盛大的游行。\n你推断这就是娜娜莉走失的异象空间，手机信号在此中断，一名神秘女子正望向你……"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q111082",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": -1.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "L110405": {
+        "Desc": "明音番外——服装店剧情",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_Miandialogue_Wuchao.ST_Miandialogue_Wuchao",
+          "Key": "HM_04_SumUp",
+          "SourceString": "灵可、妮夏沿着悬崖边缘缓慢前行，巨蛇从岩壁中撞出，将她们撞入瀑布。坠落中2人互相抓住对方的手，顺着急流滑下，最终被冲入瀑布底的洞穴。她们站起身，继续往前走。",
+          "LocalizedString": "灵可、妮夏沿着悬崖边缘缓慢前行，巨蛇从岩壁中撞出，将她们撞入瀑布。坠落中2人互相抓住对方的手，顺着急流滑下，最终被冲入瀑布底的洞穴。她们站起身，继续往前走。"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/Blueprints/Level/Quest/SLY/Universal/TempTestSeq_SLY.TempTestSeq_SLY",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/WuChao/HM_U01C06_004/Play_Sfx_Music_CG_HM_U01C06_004_b.Play_Sfx_Music_CG_HM_U01C06_004_b",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/WuChao/HM_U01C06_004/Stop_Sfx_Music_CG_HM_U01C06_004_b.Stop_Sfx_Music_CG_HM_U01C06_004_b",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/WuChao/HM_U01C06_004/Play_Vo_CG_HM_U01C06_004_b.Play_Vo_CG_HM_U01C06_004_b",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/WuChao/HM_U01C06_004/Stop_Vo_CG_HM_U01C06_004_b.Stop_Vo_CG_HM_U01C06_004_b",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "L110405",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 2.0,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "L110432": {
+        "Desc": "明音番外——校园祭演出",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_Miandialogue_Wuchao.ST_Miandialogue_Wuchao",
+          "Key": "HM_04_SumUp",
+          "SourceString": "灵可、妮夏沿着悬崖边缘缓慢前行，巨蛇从岩壁中撞出，将她们撞入瀑布。坠落中2人互相抓住对方的手，顺着急流滑下，最终被冲入瀑布底的洞穴。她们站起身，继续往前走。",
+          "LocalizedString": "灵可、妮夏沿着悬崖边缘缓慢前行，巨蛇从岩壁中撞出，将她们撞入瀑布。坠落中2人互相抓住对方的手，顺着急流滑下，最终被冲入瀑布底的洞穴。她们站起身，继续往前走。"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "L110432",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": true,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "L110443": {
+        "Desc": "明音番外——校园祭最后的pv",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_Miandialogue_Wuchao.ST_Miandialogue_Wuchao",
+          "Key": "HM_04_SumUp",
+          "SourceString": "灵可、妮夏沿着悬崖边缘缓慢前行，巨蛇从岩壁中撞出，将她们撞入瀑布。坠落中2人互相抓住对方的手，顺着急流滑下，最终被冲入瀑布底的洞穴。她们站起身，继续往前走。",
+          "LocalizedString": "灵可、妮夏沿着悬崖边缘缓慢前行，巨蛇从岩壁中撞出，将她们撞入瀑布。坠落中2人互相抓住对方的手，顺着急流滑下，最终被冲入瀑布底的洞穴。她们站起身，继续往前走。"
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "L110443",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": true,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 90,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "L110400_Entrance": {
+        "Desc": "进入时空隧道",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/Blueprints/Level/Quest/LX/QuestLegend/L110401/TimeTrival_Fast.TimeTrival_Fast",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "None",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 4.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": false,
+              "bHideUI": true,
+              "bHideCursor": false,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": -1.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": false,
+              "bIsSequenceFadeOut": false,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": false,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false,
+              "bIgnorDialogue": true
+            }
+          }
+        ]
+      },
+      "L110400_Switch": {
+        "Desc": "时空隧道内换人",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
+        "bMuteSoundAndShowUI": false,
+        "MuteSoundUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/Blueprints/Level/Quest/LX/QuestLegend/L110401/TimeTrival_slow.TimeTrival_slow",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "None",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 4.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": false,
+              "bHideUI": true,
+              "bHideCursor": false,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": -1.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": false,
+              "bIsSequenceFadeOut": false,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": false,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,

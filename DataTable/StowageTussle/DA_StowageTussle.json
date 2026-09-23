@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "StowageTussleDataAsset",
+    "Name": "DA_StowageTussle",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StowageTussleDataAsset'",
+    "Package": "/Game/DataTable/StowageTussle/DA_StowageTussle",
+    "Properties": {
+      "StowageTussleItemDataTable": {
+        "ObjectName": "DataTable'DT_StowageTussleItemConfig'",
+        "ObjectPath": "/Game/DataTable/StowageTussle/DT_StowageTussleItemConfig.0"
+      },
+      "ItemShapeDataTable": {
+        "ObjectName": "DataTable'DT_StowageTussleItemShapeConfig'",
+        "ObjectPath": "/Game/DataTable/StowageTussle/DT_StowageTussleItemShapeConfig.0"
+      },
+      "WarehouseSizeMap": [
+        {
+          "Key": "ELatticeWarehouseType::PlayerCommon",
+          "Value": {
+            "X": 7,
+            "Y": 3
+          }
+        },
+        {
+          "Key": "ELatticeWarehouseType::InUse",
+          "Value": {
+            "X": 7,
+            "Y": 5
+          }
+        }
+      ],
+      "DefaultWarehouseSizeMap": [
+        {
+          "Key": "ELatticeWarehouseType::PlayerCommon",
+          "Value": {
+            "X": 7,
+            "Y": 3
+          }
+        },
+        {
+          "Key": "ELatticeWarehouseType::InUse",
+          "Value": {
+            "X": 5,
+            "Y": 3
+          }
+        }
+      ],
+      "StowageTussleGameConfig": {
+        "GameTransform": {
+          "Translation": {
+            "X": -91132.42,
+            "Y": 131988.72,
+            "Z": -3353.6755
+          }
+        },
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_CloneResource_01.W_Unload_CloneResource_01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_CloneResource_02.W_Unload_CloneResource_02",
+            "SubPathString": ""
+          }
+        ],
+        "StartUIName": "StowageTussleStartMain",
+        "PrepareUIName": "StowageTussleShop",
+        "BattleUIName": "StwoageTussleBattle",
+        "ResultUIName": "StwoageTussleResult"
+      }
+    }
+  }
+]

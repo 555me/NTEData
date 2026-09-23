@@ -643,6 +643,32 @@
             ]
           },
           {
+            "ID": "Daily22",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "about_PXX",
+              "SourceString": "关于「平行线」",
+              "LocalizedString": "关于「平行线」"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC1029_about_002",
+              "SourceString": "其实平行线的诞生，并不是单纯因为「想组乐队」，而是我想为我们三人找到一个毕业后、长大后也能一直在一起的理由。或许正因为这样，当我无法继续演奏之后，平行线才会直接分崩离析吧……但是，人与人的联系并不是孤零零的直线。即使少了一个交点，也总有机会再次相连。要是我能早点明白这个道理就好了……不过，现在也不晚呢。",
+              "LocalizedString": "其实平行线的诞生，并不是单纯因为「想组乐队」，而是我想为我们三人找到一个毕业后、长大后也能一直在一起的理由。或许正因为这样，当我无法继续演奏之后，平行线才会直接分崩离析吧……但是，人与人的联系并不是孤零零的直线。即使少了一个交点，也总有机会再次相连。要是我能早点明白这个道理就好了……不过，现在也不晚呢。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_about_001_02.Play_Vo_Char_NPC1029_about_001_02",
+              "SubPathString": ""
+            },
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "L110448",
+                "CharacterFileBreakLevel": 0
+              }
+            ]
+          },
+          {
             "ID": "Daily29",
             "Title": {
               "TableId": "/Game/Text/ST_File.ST_File",
@@ -1598,6 +1624,46 @@
             },
             "AudioEvent": {
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_Switch_003.Play_Vo_Char_NPC1029_Switch_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle38",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "SSC_MY",
+              "SourceString": "特殊切换·明音",
+              "LocalizedString": "特殊切换·明音"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC1029_SSC_001",
+              "SourceString": "明音，中场休息！",
+              "LocalizedString": "明音，中场休息！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_SSC_MY_001.Play_Vo_Char_NPC1029_SSC_MY_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle39",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "TeammateDown_MY",
+              "SourceString": "队友倒下·明音",
+              "LocalizedString": "队友倒下·明音"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC1029_TeammateDown_001",
+              "SourceString": "不要一个人硬撑，交给我吧。",
+              "LocalizedString": "不要一个人硬撑，交给我吧。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_Char_NPC1029_TeammateDown_001.Play_Vo_Char_NPC1029_TeammateDown_001",
               "SubPathString": ""
             },
             "Conditions": []

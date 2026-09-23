@@ -942,7 +942,9 @@
         ],
         "RedPointCondition": {
           "IDSelector": null,
-          "Condition": {}
+          "Condition": {
+            "TycoonType": "ECityTycoonType::TycoonType_Tycoon"
+          }
         },
         "SaveType": "ERedPointSaveType::ST_Server",
         "IsNotRemove": false,
@@ -3744,6 +3746,366 @@
           {
             "TriggerTypeArray": [
               "ERedPointTriggerType::TT_ReturningQuestionnaire"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": false,
+        "IsSecondStyle": false
+      },
+      "Redpoint.Map.CityGameplayEntry.{}.main.Season.Task": {
+        "RedpointTag": {
+          "TagName": "Redpoint.Map.CityGameplayEntry.{}.main.Season.Task"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_SimpleQuest_OpActBidKingSeasonQuest"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": {},
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": true,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": false,
+        "IsSecondStyle": false
+      },
+      "Redpoint.Menu.juese.Appearance.Decoration": {
+        "RedpointTag": {
+          "TagName": "Redpoint.Menu.juese.Appearance.Decoration"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_Character_UnlockDecoration"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true,
+        "IsSecondStyle": false
+      },
+      "Redpoint.ActivityAwardMain.OpActivity.Pukaland": {
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.Pukaland"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_OpAct_First_Pukaland"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true,
+        "IsSecondStyle": false
+      },
+      "Redpoint.ActivityAwardMain.OpActivity.Pukaland.LimitQuest.SingleQuest": {
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.Pukaland.LimitQuest.SingleQuest"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_SimpleQuest_OpActPukalandLimitedRewardQuest"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": {},
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true,
+        "IsSecondStyle": false
+      },
+      "Redpoint.ActivityAwardMain.OpActivity.Pukaland.Manual.Small.{}": {
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.Pukaland.Manual.Small.{}"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_SimpleQuest_PukalandManualQuest"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": {
+            "ManualType": "EHTPukalandManualType::Small"
+          },
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": true,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true,
+        "IsSecondStyle": false
+      },
+      "Redpoint.ActivityAwardMain.OpActivity.Pukaland.Manual.Atmosphere.{}": {
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.Pukaland.Manual.Atmosphere.{}"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_SimpleQuest_PukalandManualQuest"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": {
+            "ManualType": "EHTPukalandManualType::Atmosphere"
+          },
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": true,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true,
+        "IsSecondStyle": false
+      },
+      "Redpoint.ActivityAwardMain.OpActivity.Pukaland.Manual.Large.{}": {
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.Pukaland.Manual.Large.{}"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_SimpleQuest_PukalandManualQuest"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": {
+            "ManualType": "EHTPukalandManualType::Large"
+          },
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": true,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true,
+        "IsSecondStyle": false
+      },
+      "Redpoint.ActivityAwardMain.OpActivity.EndlessTrialActivity": {
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.EndlessTrialActivity"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_OpAct_First_EndlessTrial"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true,
+        "IsSecondStyle": false
+      },
+      "Redpoint.ActivityAwardMain.OpActivity.DefendAthena": {
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.DefendAthena"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_OpAct_First_DefendAthena"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true,
+        "IsSecondStyle": false
+      },
+      "Redpoint.Menu.Tycoon.Pukaland": {
+        "RedpointTag": {
+          "TagName": "Redpoint.Menu.Tycoon.Pukaland"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_TycoonLevelUp"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": {
+            "TycoonType": "ECityTycoonType::TycoonType_Pukaland"
+          }
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true,
+        "IsSecondStyle": false
+      },
+      "Redpoint.Map.CityGameplayEntry.Race": {
+        "RedpointTag": {
+          "TagName": "Redpoint.Map.CityGameplayEntry.Race"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_Racing_PVE_Star_Award_Receive_State"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true,
+        "IsSecondStyle": false
+      },
+      "Redpoint.EndlessTrial.Quest": {
+        "RedpointTag": {
+          "TagName": "Redpoint.EndlessTrial.Quest"
+        },
+        "TriggerTypeArray": [
+          {
+            "QuestTypeArray": [
+              "ESimpleQuestType::EndlessTrial"
+            ],
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_Simple_Quest"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": {
+            "SimpleQuestTypes": [
+              "ESimpleQuestType::EndlessTrial"
+            ]
+          }
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": false,
+        "IsSecondStyle": false
+      },
+      "Redpoint.Lottery.DiceSkin.{}": {
+        "RedpointTag": {
+          "TagName": "Redpoint.Lottery.DiceSkin.{}"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_Monopoly_UnlockDiceSkin"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": true,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": false,
+        "IsSecondStyle": false
+      },
+      "RedPoint.Community": {
+        "RedpointTag": {
+          "TagName": "RedPoint.Community"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_Community_Oversea"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": false,
+        "IsSecondStyle": false
+      },
+      "Redpoint.ActivityAwardMain.OpActivity.GingerbreadDuel": {
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.GingerbreadDuel"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_OpAct_GingerbreadDuel"
             ]
           }
         ],

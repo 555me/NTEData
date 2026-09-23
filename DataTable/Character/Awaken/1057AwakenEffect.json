@@ -1,0 +1,281 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1057AwakenEffect",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/Awaken/1057AwakenEffect",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'CharacterAwakenEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1057": {
+        "AwakenEffectStructList": [
+          {
+            "EffectID": "Effect1",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star1_name",
+              "SourceString": "教室后的吉他谱",
+              "LocalizedString": "教室后的吉他谱"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1071_1.1071_1",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_057_Akane/Upgrade/Buff_Akane057_Level1.Buff_Akane057_Level1_C",
+                  "SubPathString": ""
+                },
+                "bReliveNeedAddAgain": false
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star1_des",
+              "SourceString": "明音凛暴击率提升<NumGreen>12%</>。每次成功触发强化技能「同调共振」时，立即回复相当于明音凛<NumGreen>100%</>基础攻击力的生命值。",
+              "LocalizedString": "明音凛暴击率提升<NumGreen>12%</>。每次成功触发强化技能「同调共振」时，立即回复相当于明音凛<NumGreen>100%</>基础攻击力的生命值。"
+            },
+            "GEIdArray": []
+          },
+          {
+            "EffectID": "Effect2",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star2_name",
+              "SourceString": "琴行中的变调夹",
+              "LocalizedString": "琴行中的变调夹"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1071_2.1071_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_057_Akane/Upgrade/Buff_Akane057_Level2.Buff_Akane057_Level2_C",
+                  "SubPathString": ""
+                },
+                "bReliveNeedAddAgain": false
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star2_des",
+              "SourceString": "被<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneHarmonicMark\">「泛音列」</>附着的敌人全属性抗性降低<NumGreen>7.5%</>；处于<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneSoundField\">「音域」</>内的前台角色造成的伤害提升<NumGreen>12.5%</>。",
+              "LocalizedString": "被<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneHarmonicMark\">「泛音列」</>附着的敌人全属性抗性降低<NumGreen>7.5%</>；处于<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneSoundField\">「音域」</>内的前台角色造成的伤害提升<NumGreen>12.5%</>。"
+            },
+            "GEIdArray": []
+          },
+          {
+            "EffectID": "Effect3",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star3_name",
+              "SourceString": "树荫下的胶囊罐",
+              "LocalizedString": "树荫下的胶囊罐"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1071_3.1071_3",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_057_Akane/Upgrade/Buff_Akane057_Level3.Buff_Akane057_Level3_C",
+                  "SubPathString": ""
+                },
+                "bReliveNeedAddAgain": false
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star3_des",
+              "SourceString": "点按「变轨技能：律动音浪」释放<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneHarmonicMark\">「泛音列」</>时，该技能的伤害倍率提高<NumGreen>150%</>；<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneSoundField\">「音域」</>的半径扩大<NumGreen>25%</>，且长按「变轨技能：律动音浪」释放<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneSoundField\">「音域」</>时，造成<NumGreen>1</>次聚怪效果。",
+              "LocalizedString": "点按「变轨技能：律动音浪」释放<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneHarmonicMark\">「泛音列」</>时，该技能的伤害倍率提高<NumGreen>150%</>；<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneSoundField\">「音域」</>的半径扩大<NumGreen>25%</>，且长按「变轨技能：律动音浪」释放<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneSoundField\">「音域」</>时，造成<NumGreen>1</>次聚怪效果。"
+            },
+            "GEIdArray": []
+          },
+          {
+            "EffectID": "Effect4",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star4_name",
+              "SourceString": "耳机里的底噪声",
+              "LocalizedString": "耳机里的底噪声"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1071_4.1071_4",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_057_Akane/Upgrade/Buff_Akane057_Level4.Buff_Akane057_Level4_C",
+                  "SubPathString": ""
+                },
+                "bReliveNeedAddAgain": false
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star4_des",
+              "SourceString": "释放强化技能「同调共振」后，明音凛攻击力提升<NumGreen>16%</>，持续<NumGreen>10</>秒。",
+              "LocalizedString": "释放强化技能「同调共振」后，明音凛攻击力提升<NumGreen>16%</>，持续<NumGreen>10</>秒。"
+            },
+            "GEIdArray": []
+          },
+          {
+            "EffectID": "Effect5",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star5_name",
+              "SourceString": "乐队间的节拍器",
+              "LocalizedString": "乐队间的节拍器"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1071_5.1071_5",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_057_Akane/Upgrade/Buff_Akane057_Level5.Buff_Akane057_Level5_C",
+                  "SubPathString": ""
+                },
+                "bReliveNeedAddAgain": false
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star5_des",
+              "SourceString": "<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneHarmonicMark\">「泛音列」</>传导普通攻击的倍率提升效果由<NumGreen>32.5%</>提高至<NumGreen>50%</>；<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneSoundField\">「音域」</>传导普通攻击的伤害提升效果由<NumGreen>36%</>提高至<NumGreen>60%</>。",
+              "LocalizedString": "<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneHarmonicMark\">「泛音列」</>传导普通攻击的倍率提升效果由<NumGreen>32.5%</>提高至<NumGreen>50%</>；<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneSoundField\">「音域」</>传导普通攻击的伤害提升效果由<NumGreen>36%</>提高至<NumGreen>60%</>。"
+            },
+            "GEIdArray": []
+          },
+          {
+            "EffectID": "Effect6",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star6_name",
+              "SourceString": "舞台前的超新星",
+              "LocalizedString": "舞台前的超新星"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1071_6.1071_6",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_057_Akane/Upgrade/Buff_Akane057_Level6.Buff_Akane057_Level6_C",
+                  "SubPathString": ""
+                },
+                "bReliveNeedAddAgain": false
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_star6_des",
+              "SourceString": "「烁星激昂」额外使全队角色造成的伤害提升<NumGreen>10%</>。",
+              "LocalizedString": "「烁星激昂」额外使全队角色造成的伤害提升<NumGreen>10%</>。"
+            },
+            "GEIdArray": []
+          },
+          {
+            "EffectID": "resonance_3",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_starExtra1_name",
+              "SourceString": "全音阶",
+              "LocalizedString": "全音阶"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "SkillName": "GA_Akane_Melee",
+                "SkillLevel": 1
+              },
+              {
+                "SkillName": "GA_Akane_Skill",
+                "SkillLevel": 1
+              },
+              {
+                "SkillName": "GA_Akane_UltraSkill",
+                "SkillLevel": 1
+              },
+              {
+                "Buff": {
+                  "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_057_Akane/Upgrade/Buff_Akane057_Level3_extra.Buff_Akane057_Level3_extra_C",
+                  "SubPathString": ""
+                },
+                "bReliveNeedAddAgain": false
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_starExtra1_des",
+              "SourceString": "明音凛的普通攻击、变轨技能、极轨终结的技能等级提高<NumGreen>1</>级；明音凛攻击力提升<NumGreen>20%</>。",
+              "LocalizedString": "明音凛的普通攻击、变轨技能、极轨终结的技能等级提高<NumGreen>1</>级；明音凛攻击力提升<NumGreen>20%</>。"
+            },
+            "GEIdArray": []
+          },
+          {
+            "EffectID": "resonance_6",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_starExtra2_name",
+              "SourceString": "复调式",
+              "LocalizedString": "复调式"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_057_Akane/Upgrade/Buff_Akane057_Level6_extra.Buff_Akane057_Level6_extra_C",
+                  "SubPathString": ""
+                },
+                "bReliveNeedAddAgain": false
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Akane_SkillDes.Akane_SkillDes",
+              "Key": "GA_Akane_starExtra2_des",
+              "SourceString": "进入战斗时立即充满<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneChordEnergy\">「弦能」</>。每次释放强化技能「同调共振」后返还<NumGreen>10</>点<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneChordEnergy\">「弦能」</>。释放强化技能「同调共振」后，明音凛暴击伤害提升<NumGreen>50%</>，持续<NumGreen>25</>秒。",
+              "LocalizedString": "进入战斗时立即充满<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneChordEnergy\">「弦能」</>。每次释放强化技能「同调共振」后返还<NumGreen>10</>点<hot textstyle=\"TextEXPL\" param=\"nouns&AkaneChordEnergy\">「弦能」</>。释放强化技能「同调共振」后，明音凛暴击伤害提升<NumGreen>50%</>，持续<NumGreen>25</>秒。"
+            },
+            "GEIdArray": []
+          }
+        ]
+      }
+    }
+  }
+]

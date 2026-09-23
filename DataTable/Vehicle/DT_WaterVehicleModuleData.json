@@ -307,6 +307,10 @@
           {
             "Key": "EWaterVehicleModuleScoreType::UI_SpeedUp",
             "Value": 5.0
+          },
+          {
+            "Key": "EWaterVehicleModuleScoreType::UI_Brake",
+            "Value": -1.0
           }
         ],
         "UnLockNormalIcon": {
@@ -370,6 +374,10 @@
           {
             "Key": "EWaterVehicleModuleScoreType::UI_SpeedUp",
             "Value": 5.0
+          },
+          {
+            "Key": "EWaterVehicleModuleScoreType::UI_Brake",
+            "Value": -1.0
           }
         ],
         "UnLockNormalIcon": {
@@ -722,6 +730,59 @@
         },
         "UnLockSelectedIcon": {
           "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting28.YH_UI_car_icon_Painting28",
+          "SubPathString": ""
+        },
+        "FeatureActiveData": null,
+        "JumpToUISourceId": "None",
+        "RegionShowType": "ETitleDisplayRegion::All",
+        "IsLockHide": false,
+        "ExtraModuleIds": []
+      },
+      "V055_Color_01": {
+        "ModuleID": "V055_Color_01",
+        "VehicleID": "vehicle055",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Vehicle_Default_Original",
+          "SourceString": "原厂",
+          "LocalizedString": "原厂"
+        },
+        "ModuleProps": {
+          "ColorID": {
+            "PropName": "None",
+            "PropValue": 0.0,
+            "ModifyType": "EPropertyModifyType::EPMT_Add"
+          }
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ModuleType": "EWaterVehicleModuleType::EVMT_Color",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 0,
+        "ModifyCostId": "Fons",
+        "ModifyPrice": 100,
+        "BasePropsScore": [
+          {
+            "Key": "EWaterVehicleModuleScoreType::UI_TopSpeed",
+            "Value": 45.0
+          },
+          {
+            "Key": "EWaterVehicleModuleScoreType::UI_SpeedUp",
+            "Value": 4.0
+          },
+          {
+            "Key": "EWaterVehicleModuleScoreType::UI_Brake",
+            "Value": -1.0
+          }
+        ],
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "FeatureActiveData": null,
