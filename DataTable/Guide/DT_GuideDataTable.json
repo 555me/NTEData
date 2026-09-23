@@ -47642,7 +47642,7 @@
       },
       "Guide10064": {
         "GuideAnnottation": "PS5吉他拨片触摸屏提示",
-        "bForceGuide": true,
+        "bForceGuide": false,
         "GuideFunctionID": "None",
         "bNeedAllComplete": false,
         "DefaultGuide": {
@@ -47662,7 +47662,7 @@
                     "Y": 0.0
                   },
                   "ResponseTime": 0.0,
-                  "WidgetID": "VerticalBox_1",
+                  "WidgetID": "CanvasPanel_guide",
                   "Desc": {
                     "CultureInvariantString": null
                   },
@@ -47680,7 +47680,133 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false,
+                  "bIsWidgetIDMustInScreen": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": false,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "Guide10065": {
+        "GuideAnnottation": "守护雅典娜引导",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "W_HTButton_Yuan_01_C_0",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide10065_1",
+                "SourceString": "点击此处可以查看<Yellow>玩法教学</>。",
+                "LocalizedString": "点击此处可以查看<Yellow>玩法教学</>。"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "W_HTButton_Yuan_01_C_0"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false,
+              "bIsWidgetIDMustInScreen": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_Yuan_01_C_0",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10065_1",
+                    "SourceString": "点击此处可以查看<Yellow>玩法教学</>。",
+                    "LocalizedString": "点击此处可以查看<Yellow>玩法教学</>。"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_Yuan_01_C_0"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false,
+                  "bIsWidgetIDMustInScreen": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_Yuan_01_C_0",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10065_1",
+                    "SourceString": "点击此处可以查看<Yellow>玩法教学</>。",
+                    "LocalizedString": "点击此处可以查看<Yellow>玩法教学</>。"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_Yuan_01_C_0"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false,

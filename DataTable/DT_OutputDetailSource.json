@@ -21038,8 +21038,8 @@
         "ContentDesc": {
           "TableId": "/Game/Text/ST_UI_XZC.ST_UI_XZC",
           "Key": "NSMAIN-tantuandebaozang",
-          "SourceString": "碳团的宝藏",
-          "LocalizedString": "碳团的宝藏"
+          "SourceString": "炭团的宝藏",
+          "LocalizedString": "炭团的宝藏"
         },
         "Location": {
           "X": 0.0,
@@ -21787,6 +21787,48 @@
           "UIParaming": [
             "BigMap",
             "Pukaland_MagicSpin_01"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "endless_map": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "abyss_map_name",
+          "SourceString": "轨外之境",
+          "LocalizedString": "轨外之境"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CloneEnter",
+          "UIParaming": [
+            "EndlessAbyss_Clone"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "None",
