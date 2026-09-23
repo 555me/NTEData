@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<ResList version="1.4.4" tag="baseTag">
+<ResList version="1.4.6" tag="baseTag">
 	<Res filename="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/libcef.dll" filesize="153114624" md5="3a1cb9e5814c6a22261824396f79b55d"/>
 	<Res filename="Client/WindowsNoEditor/Engine/Plugins/Runtime/Nvidia/DLSS/Binaries/ThirdParty/Win64/nvngx_dlss.dll" filesize="54778992" md5="a30d0cfbec9d48dcd5f314aea1bde86d"/>
-	<Res filename="Client/WindowsNoEditor/HT/Binaries/Win64/HTGame.exe" filesize="273073760" md5="533fde0bbd83f037a641dde2133384c6"/>
+	<Res filename="Client/WindowsNoEditor/HT/Binaries/Win64/HTGame.exe" filesize="273073760" md5="2a9b10049db3f599d038cf7e3b30a615" check="1"/>
 	<Res filename="Client/WindowsNoEditor/HT/Content/Movies/FFMpeg/advert/Preview_1.mp4" filesize="254158072" md5="74f5236a11eef97217611f96632684fb"/>
 	<Res filename="Client/WindowsNoEditor/HT/Content/Movies/FFMpeg/advert/Preview_2.mp4" filesize="108337766" md5="a6fb75d321049b8020d2d8c80e69b13d"/>
 	<Res filename="Client/WindowsNoEditor/HT/Content/Movies/FFMpeg/advert/advert_2.mp4" filesize="77267299" md5="42ce9077a6ea2f8a1d6ea8b9fd1a3370"/>
@@ -87,129 +87,157 @@
 		<Block index="3" start="1610612736" size="536870912" md5="a6ae56a278fa1db89499eba284463584"/>
 		<Block index="4" start="2147483648" size="2936320" md5="828caed2c68e041b855d8efd07c0a125"/>
 	</Res>
-	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.pak" filesize="8660682613" md5="2d39874dc8932757faa5aba5af240963" blockSize="17">
-		<Block index="0" start="0" size="536870912" md5="dba3c512a9da8a5567385808d2327857"/>
-		<Block index="1" start="536870912" size="536870912" md5="fc30ad5ea2406e7e630eddb7e936537d"/>
-		<Block index="2" start="1073741824" size="536870912" md5="3a5722c00de38314e2d18eb033a905cb"/>
-		<Block index="3" start="1610612736" size="536870912" md5="aff76dbe06070e414a964f214af2ef27"/>
-		<Block index="4" start="2147483648" size="536870912" md5="76b7273ad5dc706d36041dedcc1656d5"/>
-		<Block index="5" start="2684354560" size="536870912" md5="7cea58a6282b4a2304ad718f6ca8ad5f"/>
-		<Block index="6" start="3221225472" size="536870912" md5="ce9d32dcd5d34cc73961252c8e222edc"/>
-		<Block index="7" start="3758096384" size="536870912" md5="1f99e394ff5d0dd2c3513273492bd37c"/>
-		<Block index="8" start="4294967296" size="536870912" md5="6beee50094b3c4dad89782b1bd9086f4"/>
-		<Block index="9" start="4831838208" size="536870912" md5="56a312815cbb09a5e8f0de18199f1692"/>
-		<Block index="10" start="5368709120" size="536870912" md5="2aa1d569db6e6d176af2a2146a3d8652"/>
-		<Block index="11" start="5905580032" size="536870912" md5="2c9fdc1fb1e44bcc161e447af488d01a"/>
-		<Block index="12" start="6442450944" size="536870912" md5="d1f4a66814cbba9c4e50913e993f91be"/>
-		<Block index="13" start="6979321856" size="536870912" md5="609cf4e37c347ca436410611689c28f7"/>
-		<Block index="14" start="7516192768" size="536870912" md5="e1eb53b6e560012baabc150c9ad0bcfd"/>
-		<Block index="15" start="8053063680" size="536870912" md5="550b449df8769ef0dc8267cff0d5f64c"/>
-		<Block index="16" start="8589934592" size="70748021" md5="5cb797fc8a6adc2015b18f7cc6e3bbaa"/>
+	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.pak" filesize="8660660085" md5="1a9fa83477a2d205ef48f2d66295d09f" blockSize="17">
+		<Block index="0" start="0" size="536870912" md5="695128fb0ba6be46ce92909a6b071ae7"/>
+		<Block index="1" start="536870912" size="536870912" md5="6fb35111c50974cdfb3308c841dadb6b"/>
+		<Block index="2" start="1073741824" size="536870912" md5="6751688af3723148414228e6ccbe5264"/>
+		<Block index="3" start="1610612736" size="536870912" md5="bddd397b83d31d147c62617133c10977"/>
+		<Block index="4" start="2147483648" size="536870912" md5="2f488d7f283b914ca7d11b0fdb10dbf6"/>
+		<Block index="5" start="2684354560" size="536870912" md5="9f0bea40a38e98538811abc3559ffaef"/>
+		<Block index="6" start="3221225472" size="536870912" md5="20a78982533de20ce018fde8641ee123"/>
+		<Block index="7" start="3758096384" size="536870912" md5="e11c67c3df0468df7183d5688920b1c8"/>
+		<Block index="8" start="4294967296" size="536870912" md5="c5442ef5332fd159b9c660157df1b437"/>
+		<Block index="9" start="4831838208" size="536870912" md5="e17555e7f4e3275b9edeeb4490d2d69f"/>
+		<Block index="10" start="5368709120" size="536870912" md5="125228e59f56341261d60404785bc46c"/>
+		<Block index="11" start="5905580032" size="536870912" md5="9735129450fdb42d5b6aa1c2b9cbaf22"/>
+		<Block index="12" start="6442450944" size="536870912" md5="bfcb1f01b16afc06713219c88a90f814"/>
+		<Block index="13" start="6979321856" size="536870912" md5="baddcbe9d52e58ddac16e06d281a8595"/>
+		<Block index="14" start="7516192768" size="536870912" md5="da809d075a3fb2c7b32f6683515aa22d"/>
+		<Block index="15" start="8053063680" size="536870912" md5="7fd8b8d001f80e0aa6aee9449d5b93e2"/>
+		<Block index="16" start="8589934592" size="70725493" md5="dc5c2eece87dde229431641c100d51f4"/>
 	</Res>
-	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.ucas" filesize="829531344" md5="d8f55d1110ef6892c293f59c15131aa2" blockSize="2">
-		<Block index="0" start="0" size="536870912" md5="e2ac0bd38b7a74b37e63cc495f5b3ba2"/>
-		<Block index="1" start="536870912" size="292660432" md5="156b2af7497134da8b72ed802422b523"/>
+	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.ucas" filesize="829432752" md5="c93a1b3c88983217a8dcda831a7161d1" blockSize="2">
+		<Block index="0" start="0" size="536870912" md5="722edc609371a49a79078a9cf24b2a5b"/>
+		<Block index="1" start="536870912" size="292561840" md5="7eb4153a6cf79dc52008d1da9294763a"/>
 	</Res>
-	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.ucas" filesize="1402965216" md5="2f772704b54323c690f08e30a754aa6d" blockSize="3">
-		<Block index="0" start="0" size="536870912" md5="f73b8bc95ef5ec3769d883b912c104dc"/>
-		<Block index="1" start="536870912" size="536870912" md5="3b92b30f53cf9031b8d798fe5c3c5b2d"/>
-		<Block index="2" start="1073741824" size="329223392" md5="d6dd3787ff8dbaa4b2e57a43da641db1"/>
+	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.ucas" filesize="1402959040" md5="f6a9491b5a2d8e93922b79e47d3744af" blockSize="3">
+		<Block index="0" start="0" size="536870912" md5="7c61f64e6a2586d8d5178d65d78e6a99"/>
+		<Block index="1" start="536870912" size="536870912" md5="f1f2795972e032a64482e589cca3f276"/>
+		<Block index="2" start="1073741824" size="329217216" md5="b373f78becefe29a7b152200e68efee0"/>
 	</Res>
-	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.ucas" filesize="3019764816" md5="5a26a5463f2555f89a6363fced4b0244" blockSize="6">
-		<Block index="0" start="0" size="536870912" md5="32409cbc68ba240a0e2284b2f8b4abdd"/>
-		<Block index="1" start="536870912" size="536870912" md5="417dc62159f63f5dad49a9ed451da916"/>
-		<Block index="2" start="1073741824" size="536870912" md5="3da9ddec576feefb0d27895b017820eb"/>
-		<Block index="3" start="1610612736" size="536870912" md5="97514f3135e08cf3edfb3af793f4be25"/>
-		<Block index="4" start="2147483648" size="536870912" md5="4a45ba865250e369d96f8b98ee8403c4"/>
-		<Block index="5" start="2684354560" size="335410256" md5="b02148c4f7c6300f0cd88437bbedf563"/>
+	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.ucas" filesize="3019762768" md5="2d168e849f4704c6e2b797c9195db3c1" blockSize="6">
+		<Block index="0" start="0" size="536870912" md5="6b135245e796871523d7bb4105956300"/>
+		<Block index="1" start="536870912" size="536870912" md5="3cd9f7c5afef86434c6d858d00e5a56f"/>
+		<Block index="2" start="1073741824" size="536870912" md5="c53751ae5dc5a39880a5b02faf5eab23"/>
+		<Block index="3" start="1610612736" size="536870912" md5="0035b5599e690315f270befdb55c656f"/>
+		<Block index="4" start="2147483648" size="536870912" md5="aae2da1d2784a1b1e8613ff722d49f85"/>
+		<Block index="5" start="2684354560" size="335408208" md5="6d7866411338bf37fb3730f3256c679d"/>
 	</Res>
-	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.pak" filesize="1267862658" md5="f015d50cea29c33dd9926f9465514630" blockSize="3">
-		<Block index="0" start="0" size="536870912" md5="c5fbba6df7886fdb97411c5a7982eed0"/>
-		<Block index="1" start="536870912" size="536870912" md5="9bc3634e08ba71790758b691b594b09c"/>
-		<Block index="2" start="1073741824" size="194120834" md5="3d2063f8bd539af578558e3ed4cda7e7"/>
+	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.pak" filesize="1267864706" md5="07b67958dbdde351e3d453bb6f57ad88" blockSize="3">
+		<Block index="0" start="0" size="536870912" md5="325f4bf8aa50d5e3ca6e1f6a7dfde2f9"/>
+		<Block index="1" start="536870912" size="536870912" md5="c294755178fd858b67db7f88391ce081"/>
+		<Block index="2" start="1073741824" size="194122882" md5="f75d83ca60f32c91da0566736a9f9d95"/>
 	</Res>
-	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.ucas" filesize="14429139680" md5="5e2fe387a3f5e9e9c0cd2b242ec9f1f9" blockSize="27">
-		<Block index="0" start="0" size="536870912" md5="5d408ae0aaccef986692deacf44daddf"/>
-		<Block index="1" start="536870912" size="536870912" md5="4603c79e5b1e482595859ab0aa0ce073"/>
-		<Block index="2" start="1073741824" size="536870912" md5="be24a0c90324e652f5cb8b21e4290e42"/>
-		<Block index="3" start="1610612736" size="536870912" md5="621d8173a0e08be64d81ab8c0689016c"/>
-		<Block index="4" start="2147483648" size="536870912" md5="24cd2c48206cf9ecb40259ae8e58f200"/>
-		<Block index="5" start="2684354560" size="536870912" md5="670755e6f797aa64fe73f3848c046bc0"/>
-		<Block index="6" start="3221225472" size="536870912" md5="32d2a4e46fcf4f6ef116ac5b47be331b"/>
-		<Block index="7" start="3758096384" size="536870912" md5="242d466ce5332e5148134527982ac308"/>
-		<Block index="8" start="4294967296" size="536870912" md5="7173d0b18f09d3b8f4077627194460b4"/>
-		<Block index="9" start="4831838208" size="536870912" md5="cc345a59251209e1386e5b9a5199f227"/>
-		<Block index="10" start="5368709120" size="536870912" md5="bb0f899db9bd4179982cd7c14c84a7ba"/>
-		<Block index="11" start="5905580032" size="536870912" md5="a712c9decc41ae6af2959684e33c995c"/>
-		<Block index="12" start="6442450944" size="536870912" md5="9b20546667e307ff8af3d4b9fd3c937b"/>
-		<Block index="13" start="6979321856" size="536870912" md5="6419150e8a73240f3cac9c7ca8a57f81"/>
-		<Block index="14" start="7516192768" size="536870912" md5="bfcf6c5fed27e3bca805fb62f6ac5dcf"/>
-		<Block index="15" start="8053063680" size="536870912" md5="5338fbb4dae57f53fe234750be483e1f"/>
-		<Block index="16" start="8589934592" size="536870912" md5="0d3086cc5909ce79c648dc3334b1760b"/>
-		<Block index="17" start="9126805504" size="536870912" md5="883a236aa86c4fb74879b166c9892122"/>
-		<Block index="18" start="9663676416" size="536870912" md5="e1d504ff679ebc6f91145641a1361ebd"/>
-		<Block index="19" start="10200547328" size="536870912" md5="5130102e7f60e7103ccb551a46c60a9b"/>
-		<Block index="20" start="10737418240" size="536870912" md5="2e87f3a4f465b37381e4365bc740fbf8"/>
-		<Block index="21" start="11274289152" size="536870912" md5="1b2f1a7f3a74714db7d6dec87c92e220"/>
-		<Block index="22" start="11811160064" size="536870912" md5="ad60726c4c64f1c7689cfe719c856338"/>
-		<Block index="23" start="12348030976" size="536870912" md5="f341eb34c25666d8f2e21b426377146c"/>
-		<Block index="24" start="12884901888" size="536870912" md5="2264df828e88061180c7530942adcfa4"/>
-		<Block index="25" start="13421772800" size="536870912" md5="524eedbfd91d3bc860da7bdf3754098d"/>
-		<Block index="26" start="13958643712" size="470495968" md5="14b87958771015a69f93e83503e59078"/>
+	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.ucas" filesize="14430325072" md5="818136ca13d4526fa957ab2a5849d166" blockSize="27">
+		<Block index="0" start="0" size="536870912" md5="84f398facba9d2fcc7523c7e590d580a"/>
+		<Block index="1" start="536870912" size="536870912" md5="acd7b7ce4428d630c931c2b6d71ef669"/>
+		<Block index="2" start="1073741824" size="536870912" md5="a1d10f343363a03742f6bb8be5e0be5d"/>
+		<Block index="3" start="1610612736" size="536870912" md5="6c9245635552ab038f6c57be4a116fa3"/>
+		<Block index="4" start="2147483648" size="536870912" md5="4eb399f60cf7c6262c34e2ae8deed7c2"/>
+		<Block index="5" start="2684354560" size="536870912" md5="6ebd90d2f585d3d9523016a8224bc4b7"/>
+		<Block index="6" start="3221225472" size="536870912" md5="547a36e7fe9f7b3c4613f05c57da106a"/>
+		<Block index="7" start="3758096384" size="536870912" md5="12a25c330ee763a509f5a4c6522974d4"/>
+		<Block index="8" start="4294967296" size="536870912" md5="1aa498022705fffd5d258f187f2a793d"/>
+		<Block index="9" start="4831838208" size="536870912" md5="64418b1c2d979a26cfed87d99567c179"/>
+		<Block index="10" start="5368709120" size="536870912" md5="b9f3dd3eedde64a2e190b10f8ff52f6f"/>
+		<Block index="11" start="5905580032" size="536870912" md5="df9f3471217258462a6aaf098eba7302"/>
+		<Block index="12" start="6442450944" size="536870912" md5="eaf0c808f18077dd439f9adc3cca0b0d"/>
+		<Block index="13" start="6979321856" size="536870912" md5="32e971d35648376843eb6adad281dde4"/>
+		<Block index="14" start="7516192768" size="536870912" md5="95efec964c3e468b195ecd948b7076fe"/>
+		<Block index="15" start="8053063680" size="536870912" md5="b7e6efedb28cbb4dd1a6c4ef9cbf1330"/>
+		<Block index="16" start="8589934592" size="536870912" md5="41ab4f0cc5edb9c8b8c50bc89cefa2c7"/>
+		<Block index="17" start="9126805504" size="536870912" md5="15708c0352cee1f270a75189d7bd49c0"/>
+		<Block index="18" start="9663676416" size="536870912" md5="6fda49d949d07a9729a8e3cd877e7a2d"/>
+		<Block index="19" start="10200547328" size="536870912" md5="c0f92d4fa3c68d990801fe7643d8c4c1"/>
+		<Block index="20" start="10737418240" size="536870912" md5="7c2cf412a01924d3aaece0fcea445cfb"/>
+		<Block index="21" start="11274289152" size="536870912" md5="16f7f421ffa8545376beb04b90b84c00"/>
+		<Block index="22" start="11811160064" size="536870912" md5="7367f05eed90bdc9866761a36d8564a5"/>
+		<Block index="23" start="12348030976" size="536870912" md5="4781bc73458172161f145cbd91b39af0"/>
+		<Block index="24" start="12884901888" size="536870912" md5="31fa97ea16784e74939ad8f8c04cdf06"/>
+		<Block index="25" start="13421772800" size="536870912" md5="791dd482672149a79e666e7b8829a7f0"/>
+		<Block index="26" start="13958643712" size="471681360" md5="01f366667ea0af5245160ca6bb409309"/>
 	</Res>
-	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.ucas" filesize="12882633744" md5="44978b0d3cabca65aa4d7f2a50dab914" blockSize="24">
-		<Block index="0" start="0" size="536870912" md5="a9239721428f40447e242d1f08d878a9"/>
-		<Block index="1" start="536870912" size="536870912" md5="08751a89c77abb03d179847e9f93636b"/>
-		<Block index="2" start="1073741824" size="536870912" md5="3b43e14d757a59a97a96d6eeccd6cf72"/>
-		<Block index="3" start="1610612736" size="536870912" md5="7698476eb58996ce6fb1b017c71d73a1"/>
-		<Block index="4" start="2147483648" size="536870912" md5="3894a47aee50faf447ef53239cb443a4"/>
-		<Block index="5" start="2684354560" size="536870912" md5="6e22b78171acbbdb0a89cb9c7a00f6fb"/>
-		<Block index="6" start="3221225472" size="536870912" md5="75b778959ebbf5913b3faddf054b86b8"/>
-		<Block index="7" start="3758096384" size="536870912" md5="975fa3dcf3edaebd145a6c2d88a7ce1f"/>
-		<Block index="8" start="4294967296" size="536870912" md5="6fcce786b4399a710e6356a2fa457d66"/>
-		<Block index="9" start="4831838208" size="536870912" md5="d6d1fadcf5796937016a6df465a48608"/>
-		<Block index="10" start="5368709120" size="536870912" md5="666f435c5843b6c6fb1ff605b7a651be"/>
-		<Block index="11" start="5905580032" size="536870912" md5="d9585dab7a8ef6c8ca83d4fb38d8c4ec"/>
-		<Block index="12" start="6442450944" size="536870912" md5="0b5078f5ccefd61691f1f7d7aa35482d"/>
-		<Block index="13" start="6979321856" size="536870912" md5="122106d38ea7efb8d15c0a2b9fcf74e9"/>
-		<Block index="14" start="7516192768" size="536870912" md5="e864d9cc73fbc38900a90f723c5c9c7c"/>
-		<Block index="15" start="8053063680" size="536870912" md5="7c5c614d173bd327d2bb27c5c507b06c"/>
-		<Block index="16" start="8589934592" size="536870912" md5="48337b58cd2a6c5bc288d4065b7b9ba3"/>
-		<Block index="17" start="9126805504" size="536870912" md5="88842cf707ce468ed84ccda51165a8b7"/>
-		<Block index="18" start="9663676416" size="536870912" md5="ff680d5a89d8b268fc394d27aba71bad"/>
-		<Block index="19" start="10200547328" size="536870912" md5="27bf060ea948a16b87a5b9cb1a3146ab"/>
-		<Block index="20" start="10737418240" size="536870912" md5="71a599b5a04d1827c6d5209b606acfe4"/>
-		<Block index="21" start="11274289152" size="536870912" md5="7bf583c2eeac4c64fbc397448c3976ad"/>
-		<Block index="22" start="11811160064" size="536870912" md5="0227f18ebed4b706b06465270cb775d1"/>
-		<Block index="23" start="12348030976" size="534602768" md5="ec31b5817bfbbe055e64d32f17109a04"/>
+	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.ucas" filesize="12883711584" md5="e0dbc3158cd9749c95f6d3357b28b922" blockSize="24">
+		<Block index="0" start="0" size="536870912" md5="70d5ad4b1313bef5c779b0e379b63695"/>
+		<Block index="1" start="536870912" size="536870912" md5="a8699105f0d599f182ba4b17d078db70"/>
+		<Block index="2" start="1073741824" size="536870912" md5="5eec29bebd90417961181934c2616fc3"/>
+		<Block index="3" start="1610612736" size="536870912" md5="ec03b57c12134f4904c9826e925d07b4"/>
+		<Block index="4" start="2147483648" size="536870912" md5="7e1998f60f84a00074c75f18e5dcbcf2"/>
+		<Block index="5" start="2684354560" size="536870912" md5="6c1b1ddf98c81a6e53f1d3af7d8251d2"/>
+		<Block index="6" start="3221225472" size="536870912" md5="0b26b9ee8bcf026f43a33e4322a141a7"/>
+		<Block index="7" start="3758096384" size="536870912" md5="4c958b2205bcb42aa406480003a18513"/>
+		<Block index="8" start="4294967296" size="536870912" md5="09224ac60ce87f4ba52cbcf4fb865977"/>
+		<Block index="9" start="4831838208" size="536870912" md5="f5983bd03fc6bfeeb8ce80e18450d1c0"/>
+		<Block index="10" start="5368709120" size="536870912" md5="5229b6badcbaa5614bba57196d860047"/>
+		<Block index="11" start="5905580032" size="536870912" md5="231c09ae908b065a4f3e6b3e01bf9d9c"/>
+		<Block index="12" start="6442450944" size="536870912" md5="baaaaaed5d1ee63a8129b25230408881"/>
+		<Block index="13" start="6979321856" size="536870912" md5="1f70f97db7142cf6bfc3edb259049cfc"/>
+		<Block index="14" start="7516192768" size="536870912" md5="ca61630ab33ef20083b163e73f07de83"/>
+		<Block index="15" start="8053063680" size="536870912" md5="6f3d11cf4c903b4cb624690429e46986"/>
+		<Block index="16" start="8589934592" size="536870912" md5="949a36998cf5e63828b1878ea5b6a6de"/>
+		<Block index="17" start="9126805504" size="536870912" md5="03b63bbf4d5e2af8e52338f71aeccddd"/>
+		<Block index="18" start="9663676416" size="536870912" md5="127e9791e129156f365e7eb915651fd6"/>
+		<Block index="19" start="10200547328" size="536870912" md5="6ff19fedbfac5f93fdd354255ec0c4bc"/>
+		<Block index="20" start="10737418240" size="536870912" md5="0cbeea1c635a98e680cc3b0d7dca8ea0"/>
+		<Block index="21" start="11274289152" size="536870912" md5="071837e84a8320fade2e6e1a5c5803dc"/>
+		<Block index="22" start="11811160064" size="536870912" md5="398085a7ff2d0b404d7b7e9a3c9361c3"/>
+		<Block index="23" start="12348030976" size="535680608" md5="58562ae14140cfeffa89e79ebeaf71e5"/>
 	</Res>
-	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.ucas" filesize="4002412496" md5="bcf02c7cfcebef71322432b2adfc27ad" blockSize="8">
-		<Block index="0" start="0" size="536870912" md5="90f5126cb25251d3b4a23ad22a31b334"/>
-		<Block index="1" start="536870912" size="536870912" md5="36fe462b33984169eaba22b6e4ba6d25"/>
-		<Block index="2" start="1073741824" size="536870912" md5="3d03db6211a3d88c1379ac781b34ab96"/>
-		<Block index="3" start="1610612736" size="536870912" md5="06018f072c522283ce622acd5dec3b8c"/>
-		<Block index="4" start="2147483648" size="536870912" md5="bda770c488839788021946247f99c5d2"/>
-		<Block index="5" start="2684354560" size="536870912" md5="8d16702795c9854628a475541fb5c9fa"/>
-		<Block index="6" start="3221225472" size="536870912" md5="270a5ec25563f82486fb7d25b641b3da"/>
-		<Block index="7" start="3758096384" size="244316112" md5="6a45f74903ca6643de68b7c52d1d5f7f"/>
+	<Res filename="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.ucas" filesize="4002306064" md5="2958413ae61ffcf6f5a7548006f28855" blockSize="8">
+		<Block index="0" start="0" size="536870912" md5="f00fd57d73e530393e563546672f493d"/>
+		<Block index="1" start="536870912" size="536870912" md5="267097efcc4e9ee7b6332a93534b2969"/>
+		<Block index="2" start="1073741824" size="536870912" md5="368da494e1870121829cfa9a18f2d8da"/>
+		<Block index="3" start="1610612736" size="536870912" md5="fc7fe6bd05badcd22e32d4298929c639"/>
+		<Block index="4" start="2147483648" size="536870912" md5="05212f2629729279922a8f3e07c6598a"/>
+		<Block index="5" start="2684354560" size="536870912" md5="4b10f6a7860afb97a38bcd2f9737cbb2"/>
+		<Block index="6" start="3221225472" size="536870912" md5="7d7b05d700286184ae728a2fc7322bb5"/>
+		<Block index="7" start="3758096384" size="244209680" md5="65e1b39b4be2fba17b6376b6ed134683"/>
 	</Res>
 	<Package>
+		<Pak md5="f97fbb1331e00945524c21753106234a" filesize="143675679">
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.sig" start="2810" offset="2956" size="532" md5="5c5a45f2f3065324a49215794a7f7f18" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.sig" start="3488" offset="3634" size="532" md5="6a8173c5b42ae5fecd1bdfab494ac4fc" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.sig" start="4166" offset="4312" size="544" md5="f0bb4086455ad8d9b039b2830abe878a" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.sig" start="4856" offset="5002" size="1924" md5="9156e9cd22a2fe6d1327f1eeb11e41f0" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.pak" start="6926" offset="7072" size="19431" md5="640aa8a8b5caf8db888fbe7c284a9b9f"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.pak" start="26503" offset="26649" size="34447" md5="94c8c9939c05629e896cfb7c24230f33"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Base.dat" start="61096" offset="61242" size="74228" md5="f48613b7a7199890fa400302fb6314d7"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.sig" start="135470" offset="135616" size="77916" md5="10f00fd19dba5046c79421b217e7a9a9" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.pak" start="213532" offset="213678" size="211383" md5="39ed1e5983b6456b3b34f3e5b3448013"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.sig" start="425061" offset="425207" size="529136" md5="38272638fa2b1704aba8ac8f827b2c76" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.utoc" start="954343" offset="954490" size="1815638" md5="dcf891dc01495130469b6cdcaaafc2ea"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.utoc" start="2770128" offset="2770275" size="2166388" md5="621b141300513241a3f3f5cff4e57735"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.utoc" start="4936663" offset="4936810" size="3289062" md5="78a00d6f7227cec0be602afa4eb8306c"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.utoc" start="8225872" offset="8226019" size="5784886" md5="73e0577b9f866521aab004c0ac5ebd29" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.utoc" start="14010905" offset="14011052" size="17189572" md5="c2269ed79c587b2cb5ec3cf3c8b45966"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.pak" start="31200624" offset="31200770" size="22868822" md5="f8b80dc3f6657be978a5d7fa58636b65"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.utoc" start="54069592" offset="54069739" size="24972036" md5="ac0bb2e65140716779704eff58f24f88"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/HTGameBase.dll" start="79041775" offset="79041907" size="28455392" md5="17b857541f4630ec200fd77c4d4ddb79" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Base64.dll" start="107497299" offset="107497447" size="36178232" md5="18929c259fbed17b0695cb7b62636339" check="1"/>
+		</Pak>
 		<Pak md5="28aecb3c6788601bfc749f0c92207c65" filesize="531089334">
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-BASE.sys" start="83134597" offset="83134743" size="3288760" md5="5d48eca681b31f1e66b0f28f15e34113"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Tray.exe" start="93091850" offset="93091996" size="4237656" md5="b4d2227230c8f7d3b93d53b3c41c25ca"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Service64.exe" start="76571029" offset="76571180" size="3275168" md5="0957deba0ba33acb7b33513ee20cad4a"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Setup64.exe" start="44992986" offset="44993135" size="981848" md5="e66cfe10ab6e09a584f84b04d6140935"/>
+			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-BOOT.sys" start="45974983" offset="45975129" size="1076336" md5="49810b19bdaf9271390ac95c9d2d2ec9"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/global.ucas" start="144826707" offset="144826839" size="6172656" md5="9c297aa318a65e8e132e37574c9198d8"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/global.utoc" start="57101" offset="57233" size="1990" md5="1e4ca370ef03b5e21be148d119b970ca" check="1"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/Movies/FFMpeg/BGMovies/Hotori_Video_4.mp4" start="223436481" offset="223436633" size="8657835" md5="ad2be5bd8b28f7a59aa585a8d8ddada6"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/078066d69f5c4afc7a7a33abc492f30a/56cbc435174d96756425181feebdc688.hpw" start="215087109" offset="215087334" size="8349147" md5="da533f7b01cd90ad1a61121d3ec1db25"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/078066d69f5c4afc7a7a33abc492f30a/2a2c80a19120b4c6d3cab76839b550f7.hpw" start="206749226" offset="206749451" size="8337658" md5="2c3c22a3c9770dba2edb7e44de1a2a3e"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/078066d69f5c4afc7a7a33abc492f30a/516d5572f36397d1100b2dcf2c68b6bf.hpw" start="232094468" offset="232094693" size="8860757" md5="24e8d4deb9b45575e5526c0fbd87ab27"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/88bb766f0cc321759ed2eeb0bc06be5d/0f28a6e9088d5c973c9d6961a810c387.hpw" start="127513439" offset="127513664" size="5754520" md5="0f39216e0881c7eefbcd96cb5e1751be"/>
+			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/88bb766f0cc321759ed2eeb0bc06be5d/0a30119fe690b02858f068588b10f7f9.hpw" start="122017534" offset="122017759" size="5495680" md5="377ac5db2893e26b960d232bda606979"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Config/StagedBuild_HT.ini" start="47846" offset="47978" size="3" md5="ecaa88f7fa0bf610a5a26cf545dcd3aa"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Content/Slate/Cursor/invisible.cur" start="47981" offset="48122" size="326" md5="2eada1ffcee14930f2c53a4d31b95c91"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.sig" start="48448" offset="48594" size="532" md5="0aa24570146a4996702d487388794be6" check="1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.sig" start="49126" offset="49272" size="532" md5="8df6de97cae8dc8942f2557483180a85" check="1"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk5-Windows.sig" start="49804" offset="49941" size="532" md5="80bde38d805e08237a7b74a19b5401b5"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.sig" start="50473" offset="50619" size="544" md5="13951a8ed08ec79706d3d8207af0d2c4" check="1"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk4-Windows.sig" start="51163" offset="51300" size="600" md5="5e663f76ca8b3e29ead673e1b3931f99"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Content/SlateDebug/Fonts/LastResort.tps" start="51900" offset="52046" size="916" md5="f3fa22ad0b723e24a7f8e731a5a4a0e1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.sig" start="52962" offset="53108" size="1924" md5="51480dafda0e81d7f45a67f1b2a925fd" check="1"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk1-Windows.sig" start="55032" offset="55169" size="1932" md5="9dc97298f577457d5f83fa2fe68f6460"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/global.utoc" start="57101" offset="57233" size="1990" md5="1e4ca370ef03b5e21be148d119b970ca" check="1"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/global.utoc" start="59223" offset="59350" size="1990" md5="1e4ca370ef03b5e21be148d119b970ca" check="1"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/boost_system-mt-x64.dll" start="61340" offset="61481" size="9728" md5="4c21f0753188865a7f23a0c645dedda7"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/boost_atomic-mt-x64.dll" start="71209" offset="71350" size="17408" md5="e2b332d1a671329b0f5962bfda9c357b"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.pak" start="88758" offset="88904" size="19536" md5="7d69e53663c7c260d4c881f2d04f0643"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk2-Windows.sig" start="108440" offset="108577" size="20956" md5="e98ebd8183e8b1bcfcad6c72083ed0f2"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/api-ms-win-core-string-l1-1-0.dll" start="129533" offset="129684" size="22112" md5="575eba56aa4c2e409d643f719cd1dbba"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/api-ms-win-core-string-l1-1-0.dll" start="151796" offset="151951" size="22112" md5="575eba56aa4c2e409d643f719cd1dbba"/>
@@ -298,7 +326,6 @@
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/api-ms-win-crt-math-l1-1-0.dll" start="2074986" offset="2075138" size="30328" md5="4c344ba3ea55d42a089abee91273bae3"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/msvcp140_codecvt_ids.dll" start="2105466" offset="2105608" size="31856" md5="3fd1b584dfc280ec26121b85e8ffec9e"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/msvcp140_codecvt_ids.dll" start="2137464" offset="2137610" size="31856" md5="3fd1b584dfc280ec26121b85e8ffec9e"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.pak" start="2169466" offset="2169612" size="34095" md5="ca507dbdc57055f77ab8873f8426bf86"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/boost_chrono-mt-x64.dll" start="2203707" offset="2203848" size="35840" md5="509918b756be5861b5167b541182190e"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/msvcp140_1.dll" start="2239688" offset="2239820" size="35920" md5="eb221297b66b80f34d1b959438cb85ad"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/msvcp140_1.dll" start="2275740" offset="2275876" size="35920" md5="eb221297b66b80f34d1b959438cb85ad"/>
@@ -312,13 +339,11 @@
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/vcruntime140_1.dll" start="2624161" offset="2624301" size="49776" md5="c0c0b4c611561f94798b62eb43097722"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/msvcp140_atomic_wait.dll" start="2674077" offset="2674219" size="50288" md5="ac8c21705eebc1dc2b11d2195deb4f93"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/msvcp140_atomic_wait.dll" start="2724507" offset="2724653" size="50288" md5="ac8c21705eebc1dc2b11d2195deb4f93"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Base.dat" start="2774941" offset="2775087" size="74244" md5="9c18c03ede87434fadd160277258c5d2"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/boost_thread-mt-x64.dll" start="2849331" offset="2849472" size="74752" md5="a927e6e58fe20c26e04ec24e8917b8c4"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/api-ms-win-crt-private-l1-1-0.dll" start="2924224" offset="2924375" size="75368" md5="d93d91324a28653d8580420f347190bb"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/api-ms-win-crt-private-l1-1-0.dll" start="2999743" offset="2999898" size="75368" md5="d93d91324a28653d8580420f347190bb"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/XAPOFX1_5.dll" start="3075266" offset="3075397" size="77656" md5="e9739ae8b2fa28dcd6f2ef5525da8827"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/XAPOFX1_5.dll" start="3153053" offset="3153188" size="77656" md5="e9739ae8b2fa28dcd6f2ef5525da8827"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.sig" start="3230844" offset="3230990" size="77916" md5="2e3dea319629b398fac2e31f3ea38c37"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/tbbmalloc.dll" start="3308906" offset="3309037" size="107008" md5="2dfb746efa39ebdd3d68cf94c21d398d"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/tbbmalloc.dll" start="3416045" offset="3416180" size="107008" md5="2dfb746efa39ebdd3d68cf94c21d398d"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/xinput1_3.dll" start="3523188" offset="3523319" size="107368" md5="bfb3091b167550ec6e6454813d3db244"/>
@@ -355,7 +380,6 @@
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/boost_python311-mt-x64.dll" start="8126963" offset="8127107" size="194048" md5="4845614c3e03fd9629e23627e8d696f9"/>
 			<Entry name="Client/WindowsNoEditor/HT/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Release/bin/AkMatrixReverb.dll" start="8321155" offset="8321334" size="198632" md5="464c6b22cf12bc3ced8b51d801821583"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Plugins/Runtime/Nvidia/StreamlineCore/Binaries/ThirdParty/Win64/sl.reflex.dll" start="8519966" offset="8520150" size="198784" md5="5522a6c1bfa29f9d2d90c80832154602"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.pak" start="8718934" offset="8719080" size="211197" md5="7ab42603016e0702404b88cf15e93340"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/boost_regex-mt-x64.dll" start="8930277" offset="8930417" size="229376" md5="46a14feaa97fb1d0967ab293527bc3bc"/>
 			<Entry name="Client/WindowsNoEditor/HT/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Release/bin/AkConvolutionReverb.dll" start="9159793" offset="9159977" size="233960" md5="51a7e65a77c0030958b15685b325dad3"/>
 			<Entry name="Client/WindowsNoEditor/HT/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Release/bin/AkHarmonizer.dll" start="9393937" offset="9394114" size="237032" md5="721f75dab952db0e8a6a16310376ce94"/>
@@ -423,7 +447,6 @@
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/bg.pak" start="29845616" offset="29845778" size="515618" md5="68be7ea62606849b36dc4101db9ff6f5"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/XAudio2_7.dll" start="30361396" offset="30361527" size="518488" md5="4f7513ff4de6303088db28dcbcef372c"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/XAudio2_7.dll" start="30880015" offset="30880150" size="518488" md5="4f7513ff4de6303088db28dcbcef372c"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.sig" start="31398638" offset="31398784" size="529136" md5="0fd311553d1af5f36da32205eb312ac0"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/el.pak" start="31927920" offset="31928082" size="564535" md5="f29eeac9e4fef04805e2e0127775830a"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Plugins/Runtime/Nvidia/StreamlineCore/Binaries/ThirdParty/Win64/sl.interposer.dll" start="32492617" offset="32492805" size="569472" md5="e948b2d81d89c2e8935c8b76f076a851"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/msvcp140.dll" start="33062277" offset="33062407" size="575568" md5="7acbc57d268a691247b4a94fecfa42b4"/>
@@ -443,39 +466,27 @@
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk0-Windows.utoc" start="42525073" offset="42525211" size="788006" md5="51d0b85251b29a6dd2950114bebd841b"/>
 			<Entry name="Client/WindowsNoEditor/HT/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Release/bin/WwiseProjectDatabase.dll" start="43313217" offset="43313402" size="831976" md5="db4a449e56b18766b1e8f0efacd3a9fa"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll" start="44145378" offset="44145546" size="847440" md5="835591acabfb69a6f9dace12711f2243"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Setup64.exe" start="44992986" offset="44993135" size="981848" md5="e66cfe10ab6e09a584f84b04d6140935"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-BOOT.sys" start="45974983" offset="45975129" size="1076336" md5="49810b19bdaf9271390ac95c9d2d2ec9"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk4-Windows.pak" start="47051465" offset="47051602" size="1116998" md5="63119ec83661937fcb17566e6885a5e8"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/ucrtbase.dll" start="48168600" offset="48168730" size="1123944" md5="6a44a2235d33b3f154fc50dc72e8ea61"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/ucrtbase.dll" start="49292674" offset="49292808" size="1123944" md5="6a44a2235d33b3f154fc50dc72e8ea61"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/chrome_elf.dll" start="50416752" offset="50416904" size="1126400" md5="f9b49a5e3352a5e17b8411b7f1c36050"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/Resources/chrome_200_percent.pak" start="51543304" offset="51543474" size="1358791" md5="f8890823d5b487261efba17bd63ae903"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll" start="52902265" offset="52902428" size="1714176" md5="ce94029c20227191bf97f6d719b651c5"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.utoc" start="54616604" offset="54616751" size="1815748" md5="b4f89b92deb97b094d3b61f78c25f3ae"/>
 			<Entry name="Client/WindowsNoEditor/HT/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Release/bin/AkSoundEngineDLL.dll" start="56432499" offset="56432680" size="1857512" md5="f4322a62dc6427fa9a7ec6f09b253aa1"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.utoc" start="58290192" offset="58290339" size="2168150" md5="dff889a95fbe67fd93dcda4665eabae0"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll" start="60458489" offset="60458635" size="2221984" md5="f97b15a663eb59ba6a9fc766e703c103"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll" start="62680619" offset="62680774" size="2536368" md5="a2c1cdfb561609d7b61d6a04c10579a6"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk5-Windows.utoc" start="65217142" offset="65217280" size="2644950" md5="605b08c24f4981260154e8f6deddefb3"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/Resources/swiftshader/libGLESv2.dll" start="67862230" offset="67862403" size="2745856" md5="acc98a721d54c98614a8b7361276adff"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/CrashCapture.exe" start="70608259" offset="70608393" size="2818144" md5="24d519d448832298b4e0325d05249a57"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Plugins/Runtime/Nvidia/StreamlineCore/Binaries/ThirdParty/Win64/nvngx_deepdvc.dll" start="73426537" offset="73426725" size="3144304" md5="ac7a13d566d84f1df5cba32412360775"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Service64.exe" start="76571029" offset="76571180" size="3275168" md5="0957deba0ba33acb7b33513ee20cad4a"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.utoc" start="79846348" offset="79846495" size="3288102" md5="cdb315b398b808c141784635f70e6b01"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-BASE.sys" start="83134597" offset="83134743" size="3288760" md5="5d48eca681b31f1e66b0f28f15e34113"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk1-Windows.utoc" start="86423503" offset="86423641" size="3333892" md5="fa0ea9e5b60e864504e58744243d80b8"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/D3D12/x64/D3D12Core.dll" start="89757533" offset="89757674" size="3334176" md5="3ae3a76d956fb8d27c2382dd83993f8f"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Tray.exe" start="93091850" offset="93091996" size="4237656" md5="b4d2227230c8f7d3b93d53b3c41c25ca"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/d3dcompiler_47.dll" start="97329652" offset="97329808" size="4346120" md5="222d020bd33c90170a8296adc1b7036a"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/CrashSDK.dll" start="101675928" offset="101676058" size="4603488" md5="1ef63c31315f1dbfa57b66f6aa4e76ea"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/EpicWebHelper.exe" start="106279546" offset="106279685" size="4910592" md5="8ad26ad8818e1859f325771d43b05f2e"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Content/SlateDebug/Fonts/LastResort.ttf" start="111190277" offset="111190423" size="5395052" md5="89454f173319872a5fa975b26d028f9d"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll" start="116585475" offset="116585654" size="5431880" md5="5e8bf5c639eb2eb02bb0729fbb11c3fb"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/88bb766f0cc321759ed2eeb0bc06be5d/0a30119fe690b02858f068588b10f7f9.hpw" start="122017534" offset="122017759" size="5495680" md5="377ac5db2893e26b960d232bda606979"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/88bb766f0cc321759ed2eeb0bc06be5d/0f28a6e9088d5c973c9d6961a810c387.hpw" start="127513439" offset="127513664" size="5754520" md5="0f39216e0881c7eefbcd96cb5e1751be"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll" start="133268184" offset="133268330" size="5773344" md5="b5e7c9c1ce90b5c30b958c7aa12509d3"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.utoc" start="139041674" offset="139041821" size="5784886" md5="e9708af201061a118ff1c706cfa33345"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/global.ucas" start="144826707" offset="144826839" size="6172656" md5="9c297aa318a65e8e132e37574c9198d8"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/global.ucas" start="150999495" offset="150999622" size="6172656" md5="9c297aa318a65e8e132e37574c9198d8"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/CrashClientReporter.exe" start="157172278" offset="157172419" size="6240864" md5="fa787133b7b31178af5af542345dca06"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/amd_fidelityfx_dx12.dll" start="163413283" offset="163413424" size="6675664" md5="49230ad94ed6169933cd0457501d9cb4"/>
@@ -484,99 +495,90 @@
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/PatcherSDK_x64.dll" start="184170584" offset="184170720" size="7370336" md5="7f7cecadd109145d25fa548710a510a6"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Plugins/Runtime/Nvidia/StreamlineCore/Binaries/ThirdParty/Win64/nvngx_dlssg.dll" start="191541056" offset="191541242" size="7518320" md5="f59b451334cc2fbdb5f1f206e19e1b89"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk2-Windows.utoc" start="199059562" offset="199059700" size="7689526" md5="6515118ff9a1cdb6ab542dd2cf54e7d3"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/078066d69f5c4afc7a7a33abc492f30a/2a2c80a19120b4c6d3cab76839b550f7.hpw" start="206749226" offset="206749451" size="8337658" md5="2c3c22a3c9770dba2edb7e44de1a2a3e"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/078066d69f5c4afc7a7a33abc492f30a/56cbc435174d96756425181feebdc688.hpw" start="215087109" offset="215087334" size="8349147" md5="da533f7b01cd90ad1a61121d3ec1db25"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/Movies/FFMpeg/BGMovies/Hotori_Video_4.mp4" start="223436481" offset="223436633" size="8657835" md5="ad2be5bd8b28f7a59aa585a8d8ddada6"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/RuntimeData/c2917c1ee55a7f35baecd4247ae33d81/078066d69f5c4afc7a7a33abc492f30a/516d5572f36397d1100b2dcf2c68b6bf.hpw" start="232094468" offset="232094693" size="8860757" md5="24e8d4deb9b45575e5526c0fbd87ab27"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/icudtl.dat" start="240955450" offset="240955598" size="10413488" md5="80a7528515595d8b0bf99a477a7eff0d"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/ThirdParty/CEF3/Win64/Resources/icudtl.dat" start="251369086" offset="251369244" size="10413488" md5="80a7528515595d8b0bf99a477a7eff0d"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Extras/Redist/en-us/vc_redist.arm64.exe" start="261782732" offset="261782878" size="11722888" md5="18f5153933cf0fb60583340c213e9fe1"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll" start="273505766" offset="273505952" size="14682160" md5="ec4e8425c502eb4752672309c04782c4"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk4-Windows.utoc" start="288188112" offset="288188250" size="15714404" md5="e800ef5ddfcf10126258b80357c3ad95"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk3-Windows.utoc" start="303902654" offset="303902792" size="16877204" md5="6aa2de43d7794a904a75c001730e463b"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.utoc" start="320779996" offset="320780143" size="17192196" md5="21eeb38169253b5e63917cf141aedc2e"/>
 			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/DML/x64/DirectML.dll" start="337972339" offset="337972477" size="18527264" md5="b920c97a554de17d560acfb4f4d41d02"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak" start="356499741" offset="356499909" size="21759921" md5="493cdca9a9c51cb2c1ed645a8a0f9e2b"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.pak" start="378259830" offset="378259976" size="22868954" md5="0a979c03e4870c97ec0cbe142fe521ec"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Paks/pakchunk1-Windows.pak" start="401128930" offset="401129067" size="22944337" md5="f75b4fb35451403b3164f483a1369dd6"/>
-			<Entry name="Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.utoc" start="424073404" offset="424073551" size="24997700" md5="bbba2affba2363c8f8033d858f401079"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Extras/Redist/en-us/vc_redist.x64.exe" start="449071251" offset="449071395" size="25641968" md5="c0077fe61901918d4e99c9d631245c60"/>
 			<Entry name="Client/WindowsNoEditor/Engine/Binaries/Win64/CrashReportClient.exe" start="474713363" offset="474713506" size="27920384" md5="d5e0b028b3bd8e3fe1a9dd9094e36919"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/HTGameBase.dll" start="502633890" offset="502634022" size="28455312" md5="226e0bf19918f49cc7e01dab87a0c864"/>
 		</Pak>
 		<Pak md5="9a38e8a425500bc9f095d085685f9796" filesize="95222030">
-			<Entry name="Client/WindowsNoEditor/Engine/Plugins/Runtime/Nvidia/DLSS/Binaries/ThirdParty/Win64/nvngx_dlssd.dll" start="510" offset="686" size="28590704" md5="cdf14cef11f7a3547548e301147b4a1f"/>
 			<Entry name="Client/WindowsNoEditor/HT/Content/Movies/FFMpeg/advert/advert_1.mp4" start="28591390" offset="28591534" size="30452116" md5="1332ab44fd989b7446daa95bcb61ab67"/>
-			<Entry name="Client/WindowsNoEditor/HT/Binaries/Win64/AntiCheatExpert/ACE-Base64.dll" start="59043650" offset="59043798" size="36178232" md5="a423fa73c670950579c90d4202d46a9a" check="1"/>
+			<Entry name="Client/WindowsNoEditor/Engine/Plugins/Runtime/Nvidia/DLSS/Binaries/ThirdParty/Win64/nvngx_dlssd.dll" start="510" offset="686" size="28590704" md5="cdf14cef11f7a3547548e301147b4a1f"/>
 		</Pak>
 	</Package>
-	<BaseVersion version="0.104.4" tag="pakchunk104">
+	<BaseVersion version="0.104.6" tag="pakchunk104">
 		<ResList>
 			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows.pak" filesize="897901982" md5="26af84f276c5171f5b234f09c254c914" blockSize="2">
 				<Block index="0" start="0" size="536870912" md5="67f12bc12811bab25112dfa5568f09e0"/>
 				<Block index="1" start="536870912" size="361031070" md5="a2abd35c134b8766a9b5865118fdfef6"/>
 			</Res>
-			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows_0_P.pak" filesize="961095215" md5="87f6378fc09229fe1f24947ea489cc99" blockSize="2">
-				<Block index="0" start="0" size="536870912" md5="dd61e01683a6e3a189880858e2feab7e"/>
-				<Block index="1" start="536870912" size="424224303" md5="f812b56811ee7d55564439dffb0501a5"/>
+			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows_0_P.pak" filesize="961603807" md5="02b8ae6532af88962781d52f0301d70d" blockSize="2">
+				<Block index="0" start="0" size="536870912" md5="c109fbf1095f31b17cec2d3bc696c097"/>
+				<Block index="1" start="536870912" size="424732895" md5="b5d4de0270e23b29a2801ca781c11335"/>
 			</Res>
+			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows_0_P.sig" filesize="59220" md5="abf60838d680358df93789fb5a2a0a39"/>
 			<Package>
 				<Pak md5="dceafda3140bbc4ef2978c30c0405136" filesize="119066">
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows_0_P.ucas" start="940" offset="1092" size="64" md5="15ef779800fc0b1da263c3916b39f75e"/>
-					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows.ucas" start="1156" offset="1304" size="64" md5="4d11a31aa70158fed6771b9851d5ccc8"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows_0_P.utoc" start="1368" offset="1520" size="1288" md5="81a2746b4917f6b7c522b5a1b342fe8c"/>
+					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows.ucas" start="1156" offset="1304" size="64" md5="4d11a31aa70158fed6771b9851d5ccc8"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows.utoc" start="2808" offset="2956" size="1288" md5="504672f21e9982f2b2b7294e22b352de"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows.sig" start="4244" offset="4391" size="55332" md5="607afd5de299dfef877cd34acb5a4c07"/>
-					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk104-Windows_0_P.sig" start="59723" offset="59874" size="59192" md5="8af56c066a8461f28678fb7d79214cd3"/>
 				</Pak>
 			</Package>
 		</ResList>
 	</BaseVersion>
-	<BaseVersion version="0.103.4" tag="pakchunk103">
+	<BaseVersion version="0.103.6" tag="pakchunk103">
 		<ResList>
 			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows.pak" filesize="868142072" md5="fa3901a1e0f1c6b964de85ea6b838b3d" blockSize="2">
 				<Block index="0" start="0" size="536870912" md5="1c1a641283f485dfef24e0e20636faf7"/>
 				<Block index="1" start="536870912" size="331271160" md5="045227c4ee495676cc7eca989ce9938a"/>
 			</Res>
-			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows_0_P.pak" filesize="878298346" md5="55de0d4935a4df6c3e56b488172e4131" blockSize="2">
-				<Block index="0" start="0" size="536870912" md5="bdc5f8fea5e832cc97b50a189180870e"/>
-				<Block index="1" start="536870912" size="341427434" md5="5c6794dd8fbdc2e776728c2863a60e75"/>
+			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows_0_P.pak" filesize="878774186" md5="1b35d3390d72cd8a892b09a77b32bd0d" blockSize="2">
+				<Block index="0" start="0" size="536870912" md5="8788d392dc894483606fd1c908d954db"/>
+				<Block index="1" start="536870912" size="341903274" md5="61515c00b8cda4266a27c9b9755d32e8"/>
 			</Res>
+			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows_0_P.sig" filesize="54168" md5="fe4db7fff7e5f295bc7c0eabf123cb1b"/>
 			<Package>
 				<Pak md5="c2e1269d8c96dee9e4eae7070942041c" filesize="112194">
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows_0_P.ucas" start="940" offset="1092" size="64" md5="517de2d26d1c172b1813c9d3ac723a2f"/>
-					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows.ucas" start="1156" offset="1304" size="64" md5="ff43d10f44466680a4d972ae79562549"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows_0_P.utoc" start="1368" offset="1520" size="1288" md5="7cf55cc0d801f8a00585a84901c7dc6e"/>
+					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows.ucas" start="1156" offset="1304" size="64" md5="ff43d10f44466680a4d972ae79562549"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows.utoc" start="2808" offset="2956" size="1288" md5="159816060b5d5fd3b7a9366ee61360a8"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows.sig" start="4244" offset="4391" size="53516" md5="96e9440e62fdabeaf59471b032ca023b"/>
-					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows_0_P.sig" start="57907" offset="58058" size="54136" md5="226f3157653e15b17ba2a6f057118b1f"/>
 				</Pak>
 			</Package>
 		</ResList>
 	</BaseVersion>
-	<BaseVersion version="0.102.4" tag="pakchunk102">
+	<BaseVersion version="0.102.6" tag="pakchunk102">
 		<ResList>
 			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows.pak" filesize="813618494" md5="5db38b62a75ccfcb96a6adf7ded4904f" blockSize="2">
 				<Block index="0" start="0" size="536870912" md5="a013c6aa7c97e591c473cd509ffb0e70"/>
 				<Block index="1" start="536870912" size="276747582" md5="01500cdbc784d0357e04db22557780e3"/>
 			</Res>
-			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows_0_P.pak" filesize="832530045" md5="b6218180140f7ad23243a0043526457b" blockSize="2">
-				<Block index="0" start="0" size="536870912" md5="07960c2a37cb76981e8f61097ced47dc"/>
-				<Block index="1" start="536870912" size="295659133" md5="eb9770a445563a89de668a9720cbb0f2"/>
+			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows_0_P.pak" filesize="832962861" md5="16119a32cf634b57dac5f61a2ed70f48" blockSize="2">
+				<Block index="0" start="0" size="536870912" md5="689693b0e52a9f492913835c2d68bff0"/>
+				<Block index="1" start="536870912" size="296091949" md5="149888eed18c30f4856dfc213c2c86f6"/>
 			</Res>
+			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows_0_P.sig" filesize="51372" md5="91732129a21c686347cc818c19812504"/>
 			<Package>
 				<Pak md5="6f732a2bb82d8c2ec577f79c38fbf73f" filesize="106074">
+					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows_0_P.utoc" start="1368" offset="1520" size="1288" md5="bf1b51a3f448a028b9f476120e69c879"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows_0_P.ucas" start="940" offset="1092" size="64" md5="5cd3505b16a400d716212632a91af7d0"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows.ucas" start="1156" offset="1304" size="64" md5="7c22b2453161596c22b5cb59f6b21c50"/>
-					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows_0_P.utoc" start="1368" offset="1520" size="1288" md5="bf1b51a3f448a028b9f476120e69c879"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows.utoc" start="2808" offset="2956" size="1288" md5="289d1bf9fe148f4cf52d84e0a6d22b95"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows.sig" start="4244" offset="4391" size="50188" md5="9582dc44b619192ce91a78c4373a9265"/>
-					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk102-Windows_0_P.sig" start="54579" offset="54730" size="51344" md5="2cb02aae14fe0fdb33b539c7c0f88a24"/>
 				</Pak>
 			</Package>
 		</ResList>
 	</BaseVersion>
-	<BaseVersion version="0.101.4" tag="pakchunk101">
+	<BaseVersion version="0.101.6" tag="pakchunk101">
 		<ResList>
 			<Res filename="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk101-Windows.pak" filesize="904732307" md5="237c128cdef26c594dcf427c85c8d2bd" blockSize="2">
 				<Block index="0" start="0" size="536870912" md5="c63d384e36b4c37caca1278dbc7c420d"/>
@@ -588,11 +590,11 @@
 			</Res>
 			<Package>
 				<Pak md5="cbfa625d4f45cf9898f2c05b705a101c" filesize="112802">
-					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk101-Windows_0_P.ucas" start="940" offset="1092" size="64" md5="df9451838972c257c1afc057fcc18a79"/>
-					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk101-Windows.ucas" start="1156" offset="1304" size="64" md5="fbbd996d9be1350eeb98a2b2e42b4986"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk101-Windows_0_P.utoc" start="1368" offset="1520" size="1288" md5="e58956a7f3f81e66f5d1ade5cc00747b"/>
-					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk101-Windows.utoc" start="2808" offset="2956" size="1288" md5="c753eb9156899df8547eb3d91046c145"/>
+					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk101-Windows_0_P.ucas" start="940" offset="1092" size="64" md5="df9451838972c257c1afc057fcc18a79"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk101-Windows_0_P.sig" start="4244" offset="4395" size="52508" md5="757656d31a8cafc807cd461979b7fdd6"/>
+					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk101-Windows.ucas" start="1156" offset="1304" size="64" md5="fbbd996d9be1350eeb98a2b2e42b4986"/>
+					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk101-Windows.utoc" start="2808" offset="2956" size="1288" md5="c753eb9156899df8547eb3d91046c145"/>
 					<Entry name="Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk101-Windows.sig" start="56903" offset="57050" size="55752" md5="5328086cb202f3490c1ef57b924a101f"/>
 				</Pak>
 			</Package>

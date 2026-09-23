@@ -10,9 +10,226 @@
         "ObjectName": "DataTable'DT_GingerbreadDuelCharacterInfo'",
         "ObjectPath": "/Game/DataTable/GingerbreadDuel/DT_GingerbreadDuelCharacterInfo.0"
       },
-      "DT_TierInfo": {
+      "DT_TierScoreInfo": {
         "ObjectName": "DataTable'DT_GingerbreadDuelTierScoreInfo'",
         "ObjectPath": "/Game/DataTable/GingerbreadDuel/DT_GingerbreadDuelTierScoreInfo.0"
+      },
+      "DT_TierInfo": {
+        "ObjectName": "DataTable'DT_GingerbreadDuelTierInfo'",
+        "ObjectPath": "/Game/DataTable/GingerbreadDuel/DT_GingerbreadDuelTierInfo.0"
+      },
+      "DA_PlankWallInfo": [
+        {
+          "ObjectName": "HTPlankWallSpawnDataAsset'DA_HTPlankWallSpawnDataAsset_Left'",
+          "ObjectPath": "/Game/Blueprints/Level/World/Interact/ShootingCookieMan/DA_HTPlankWallSpawnDataAsset_Left.0"
+        },
+        {
+          "ObjectName": "HTPlankWallSpawnDataAsset'DA_HTPlankWallSpawnDataAsset_Middle'",
+          "ObjectPath": "/Game/Blueprints/Level/World/Interact/ShootingCookieMan/DA_HTPlankWallSpawnDataAsset_Middle.0"
+        },
+        {
+          "ObjectName": "HTPlankWallSpawnDataAsset'DA_HTPlankWallSpawnDataAsset_Right'",
+          "ObjectPath": "/Game/Blueprints/Level/World/Interact/ShootingCookieMan/DA_HTPlankWallSpawnDataAsset_Right.0"
+        }
+      ],
+      "MaxRoundNums": 10,
+      "PreviewAward": "drop_Gingerbread",
+      "WinCoinInfos": [
+        {
+          "CoinNums": 60,
+          "LowerLimit": 0,
+          "UpperLimit": 20
+        },
+        {
+          "CoinNums": 54,
+          "LowerLimit": 21,
+          "UpperLimit": 40
+        },
+        {
+          "CoinNums": 45,
+          "LowerLimit": 41,
+          "UpperLimit": 60
+        },
+        {
+          "CoinNums": 39,
+          "LowerLimit": 61,
+          "UpperLimit": 80
+        },
+        {
+          "CoinNums": 30,
+          "LowerLimit": 81,
+          "UpperLimit": 100
+        }
+      ],
+      "LoseCoinInfos": [
+        {
+          "CoinNums": 50,
+          "LowerLimit": 0,
+          "UpperLimit": 20
+        },
+        {
+          "CoinNums": 44,
+          "LowerLimit": 21,
+          "UpperLimit": 40
+        },
+        {
+          "CoinNums": 35,
+          "LowerLimit": 41,
+          "UpperLimit": 60
+        },
+        {
+          "CoinNums": 29,
+          "LowerLimit": 61,
+          "UpperLimit": 80
+        },
+        {
+          "CoinNums": 20,
+          "LowerLimit": 81,
+          "UpperLimit": 100
+        }
+      ],
+      "TierAppendInfo": [
+        {
+          "Value": 9,
+          "LowerLimit": -99999,
+          "UpperLimit": -200
+        },
+        {
+          "Value": 8,
+          "LowerLimit": -199,
+          "UpperLimit": -100
+        },
+        {
+          "Value": 6,
+          "LowerLimit": -99,
+          "UpperLimit": -50
+        },
+        {
+          "Value": 4,
+          "LowerLimit": -49,
+          "UpperLimit": 50
+        },
+        {
+          "Value": 3,
+          "LowerLimit": 51,
+          "UpperLimit": 100
+        },
+        {
+          "Value": 2,
+          "LowerLimit": 101,
+          "UpperLimit": 200
+        },
+        {
+          "Value": 1,
+          "LowerLimit": 201,
+          "UpperLimit": 99999
+        }
+      ],
+      "SwitchDelayTeleportTime": 2.0,
+      "MatchKey": "GingerbreadDuel",
+      "HideCameraRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.0,
+        "Roll": -10.0
+      },
+      "ShootCameraRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.0,
+        "Roll": 0.0
+      },
+      "PhaseLastTimeMap": [
+        {
+          "Key": "EGingerbreadDuelPhaseType::Wait",
+          "Value": 30
+        },
+        {
+          "Key": "EGingerbreadDuelPhaseType::Prepare",
+          "Value": 5
+        },
+        {
+          "Key": "EGingerbreadDuelPhaseType::Gaming",
+          "Value": 0
+        },
+        {
+          "Key": "EGingerbreadDuelPhaseType::End",
+          "Value": 60
+        }
+      ],
+      "GameDuelLastTimeMap": [
+        {
+          "Key": "EGingerbreadDuelGamingType::Dodge",
+          "Value": 5
+        },
+        {
+          "Key": "EGingerbreadDuelGamingType::Shoot",
+          "Value": 60
+        },
+        {
+          "Key": "EGingerbreadDuelGamingType::Switch",
+          "Value": 5
+        }
+      ],
+      "HideMaxMoveDistance": 600.0,
+      "GamePhaseTips": [
+        {
+          "Key": "EGingerbreadDuelGamingType::Dodge",
+          "Value": {
+            "ShootTips": {
+              "TableId": "/Game/Text/ST_UI_GingerbreadDuel.ST_UI_GingerbreadDuel",
+              "Key": "UI_GingerbreadDuel_Game_10",
+              "SourceString": "对方正在躲避",
+              "LocalizedString": "对方正在躲避"
+            },
+            "HideTips": {
+              "TableId": "/Game/Text/ST_UI_GingerbreadDuel.ST_UI_GingerbreadDuel",
+              "Key": "UI_GingerbreadDuel_Game_11",
+              "SourceString": "快躲起来",
+              "LocalizedString": "快躲起来"
+            }
+          }
+        },
+        {
+          "Key": "EGingerbreadDuelGamingType::Shoot",
+          "Value": {
+            "ShootTips": {
+              "TableId": "/Game/Text/ST_UI_GingerbreadDuel.ST_UI_GingerbreadDuel",
+              "Key": "UI_GingerbreadDuel_Game_13",
+              "SourceString": "我方正在射击",
+              "LocalizedString": "我方正在射击"
+            },
+            "HideTips": {
+              "TableId": "/Game/Text/ST_UI_GingerbreadDuel.ST_UI_GingerbreadDuel",
+              "Key": "UI_GingerbreadDuel_Game_12",
+              "SourceString": "对方正在射击",
+              "LocalizedString": "对方正在射击"
+            }
+          }
+        },
+        {
+          "Key": "EGingerbreadDuelGamingType::Switch",
+          "Value": {
+            "ShootTips": {
+              "TableId": "/Game/Text/ST_UI_GingerbreadDuel.ST_UI_GingerbreadDuel",
+              "Key": "UI_GingerbreadDuel_Game_14",
+              "SourceString": "攻防互换",
+              "LocalizedString": "攻防互换"
+            },
+            "HideTips": {
+              "TableId": "/Game/Text/ST_UI_GingerbreadDuel.ST_UI_GingerbreadDuel",
+              "Key": "UI_GingerbreadDuel_Game_14",
+              "SourceString": "攻防互换",
+              "LocalizedString": "攻防互换"
+            }
+          }
+        }
+      ],
+      "PlankWallClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_HTInstancedPlankWallActor_C'",
+        "ObjectPath": "/Game/Blueprints/Level/World/Interact/ShootingCookieMan/BP_HTInstancedPlankWallActor.0"
+      },
+      "IMC_InputMapping": {
+        "ObjectName": "InputMappingContext'IMC_GingerbreadDuel'",
+        "ObjectPath": "/Game/Input/IMC_GingerbreadDuel.0"
       }
     }
   }

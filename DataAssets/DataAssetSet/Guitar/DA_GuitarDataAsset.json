@@ -283,14 +283,50 @@
       ],
       "GuitarAudienceConfig": {
         "AttractionHeatThreshold": 30.0,
-        "PatienceRecoveryPerSecond": 100.0,
-        "MoveAcceptanceRadius": 20.0,
-        "ReturnToLaneSearchRadius": 10.0
+        "InitialPatience": 100.0,
+        "PatienceDecayPerSecond": 20.0,
+        "PatienceRecoveryPerSecond": 10.0
       },
       "DecayPerSecond": 5.0,
-      "GuitarActorAttachSocket": "/Game/UI/Blueprints/Guitar/BP_GuitarActor",
-      "GuitarPlayUIName": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000����\u0016\u0000\u0000\u0000\u0000\u0000\u0000\u00001\u0000\u0000\u0000\u0000",
-      "GuitarExtraSkillPanelExtensionID": "/Game/Blueprints/Abilities/Player/Ability_057_Akane/Buff/Buff_Akane_Skill_CantUseGitar_-196609"
+      "GuitarActorClass": {
+        "AssetPathName": "/Game/UI/Blueprints/Guitar/BP_GuitarActor.BP_GuitarActor_C",
+        "SubPathString": ""
+      },
+      "GuitarAnimInstanceClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_GuitarInstance_C'",
+        "ObjectPath": "/Game/Characters/AnimInterface/Guitar/ABP_GuitarInstance.1"
+      },
+      "CharGuitarIdleMontage": {
+        "AssetPathName": "/Game/UI/Blueprints/Guitar/Animation/char_f_interaction_Guitar_Montage.char_f_interaction_Guitar_Montage",
+        "SubPathString": ""
+      },
+      "GuitarMidiInstrumentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MidiInstrumentComponent_C'",
+        "ObjectPath": "/Game/UI/Blueprints/Guitar/BP_MidiInstrumentComponent.0"
+      },
+      "GuitarMidiCleanSwitch": {
+        "AssetPathName": "/Game/WwiseAudio/Switches/Switch_2026/Guitar/Guitar_PlayMode/Guitar_PlayMode-Clean.Guitar_PlayMode-Clean",
+        "SubPathString": ""
+      },
+      "GuitarMidiDistortionSwitch": {
+        "AssetPathName": "/Game/WwiseAudio/Switches/Switch_2026/Guitar/Guitar_PlayMode/Guitar_PlayMode-Drive.Guitar_PlayMode-Drive",
+        "SubPathString": ""
+      },
+      "PlayGuitarGEClass": {
+        "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_057_Akane/Buff/Buff_Akane_Skill_CantUseGitar.Buff_Akane_Skill_CantUseGitar_C",
+        "SubPathString": ""
+      },
+      "GuitarPlayLimitPropertyTypes": [
+        "ECharacterLimitProptiesType::CantUseMelee",
+        "ECharacterLimitProptiesType::CantUseSkill",
+        "ECharacterLimitProptiesType::CantUseUltSkill",
+        "ECharacterLimitProptiesType::CantUseEvadeSkill",
+        "ECharacterLimitProptiesType::CantUseAnim",
+        "ECharacterLimitProptiesType::CantUseForkSkill",
+        "ECharacterLimitProptiesType::CantMove",
+        "ECharacterLimitProptiesType::CantRun",
+        "ECharacterLimitProptiesType::CantBeDamage"
+      ]
     }
   }
 ]
