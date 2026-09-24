@@ -12318,8 +12318,65 @@
             "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_028/DA_Appearance_NPC_028_nighty_RideAlong.DA_Appearance_NPC_028_nighty_RideAlong",
             "SubPathString": ""
           },
-          "DyeMaterialMap": [],
-          "AppearanceOptionRuleMap": []
+          "DyeMaterialMap": [
+            {
+              "Key": "-1",
+              "Value": {
+                "MeshMaterials": [],
+                "MeshAttachEffects": [],
+                "DyeName": {
+                  "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+                  "Key": "Fashion_1075_nighty_Name",
+                  "SourceString": "星月夜",
+                  "LocalizedString": "星月夜"
+                },
+                "DyeDesc": {
+                  "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+                  "Key": "Fashion_1075_nighty_Desc",
+                  "SourceString": "月亮坠落了一千次。只有一千次而已吗？",
+                  "LocalizedString": "月亮坠落了一千次。只有一千次而已吗？"
+                },
+                "DyeDisplayIcon": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "GoodsID": "None",
+                "SourceID": "None",
+                "SourceText": {
+                  "CultureInvariantString": null
+                },
+                "SourceLockText": {
+                  "CultureInvariantString": null
+                }
+              }
+            }
+          ],
+          "AppearanceOptionRuleMap": [
+            {
+              "Key": "EPlayerAppearanceOptionType::HideOption1",
+              "Value": {
+                "OptionName": {
+                  "TableId": "/Game/Text/ST_Ui_D.ST_Ui_D",
+                  "Key": "appearance_yiluoyi_hide_1",
+                  "SourceString": "隐藏「天线」",
+                  "LocalizedString": "隐藏「天线」"
+                },
+                "ComponentVisibilityRules": [],
+                "MaterialOpacityRules": [
+                  {
+                    "MeshComponentTag": "None",
+                    "SlotName": "cloth3",
+                    "OpacityParameterName": "None",
+                    "DefaultOpacity": 1.0,
+                    "AppliedOpacity": 0.0,
+                    "DefaultDisableGlobalOverlay": false,
+                    "AppliedDisableGlobalOverlay": true
+                  }
+                ],
+                "MorphTargetRules": []
+              }
+            }
+          ]
         },
         "ExtraAwards": [
           {
