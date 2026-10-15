@@ -22706,8 +22706,15 @@
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
         "QuestAward": null,
-        "QuestTimeLock": null,
-        "QuestWeatherLock": null,
+        "QuestTimeLock": {
+          "LockTime": 800.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
         "ReloadLocation": null,
         "TrialCharacterID": "None",
         "ActivateYahahaID": "None",
