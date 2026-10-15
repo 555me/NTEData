@@ -29175,7 +29175,9 @@
         "LimitMapName": "None",
         "QuestResetTime": null,
         "FailedData": null,
-        "NextQuests": [],
+        "NextQuests": [
+          "L110401"
+        ],
         "bAutoNext": false,
         "NeedSubmit": false,
         "PatcherTag": "None",
@@ -55945,19 +55947,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110401_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "练习时间",
+          "LocalizedString": "练习时间"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 1.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -55979,8 +55981,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110401_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "前往<blue>Star Sign</>",
+              "LocalizedString": "前往<blue>Star Sign</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -56037,14 +56039,23 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110401_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "又到了「猫头音！！！！」合练的时间。",
+          "LocalizedString": "又到了「猫头音！！！！」合练的时间。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
-        "PreQuests": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "q110978",
+            "ObjectiveID": "1"
+          },
+          {
+            "PreQuestName": "L110266",
+            "ObjectiveID": "1"
+          }
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",
@@ -56074,7 +56085,11 @@
         "bForceTrackExceptMain": false,
         "NeedIgnoreFavorabilityNPCWhenTracking": false,
         "bCanMainQuestChangeTrack": false,
-        "LikeabilityData": null,
+        "LikeabilityData": {
+          "ActiveChatItemID": "None",
+          "AcceptChatItemID": "L110201_a_73",
+          "PushChatItemIDs": []
+        },
         "QuestAward": null,
         "QuestTimeLock": {
           "LockTime": 800.0,
@@ -56101,19 +56116,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110402_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "练习时间",
+          "LocalizedString": "练习时间"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 2.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -56138,8 +56153,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110402_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与众人交谈",
+              "LocalizedString": "与众人交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -56196,8 +56211,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110402_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "人已经到齐了，和乐队成员们聊聊吧。",
+          "LocalizedString": "人已经到齐了，和乐队成员们聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -56265,22 +56280,22 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110402_1_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "练习时间",
+          "LocalizedString": "练习时间"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 2.1,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
-            "SongId": "FreeSong1",
+            "SongId": "StorySong5",
             "Rate": 0.2,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
@@ -56299,8 +56314,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110402_1_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "完成乐队合练（通过曲目<blue>RhythmGame</>）",
+              "LocalizedString": "完成乐队合练（通过曲目<blue>RhythmGame</>）"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -56356,9 +56371,9 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
-          "Key": "L110402_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "Key": "L110402_1_QuestPanel",
+          "SourceString": "开始今天的乐队合练。",
+          "LocalizedString": "开始今天的乐队合练。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -56426,19 +56441,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110402_1_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "练习时间",
+          "LocalizedString": "练习时间"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 2.2,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -56463,8 +56478,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110402_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与众人交谈",
+              "LocalizedString": "与众人交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -56476,8 +56491,8 @@
             "TrackInfo": {
               "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": -149016.27,
-                "Y": 120937.01,
+                "X": -148681.27,
+                "Y": 119922.01,
                 "Z": 6460.521
               },
               "fRange": 0.0,
@@ -56496,8 +56511,26 @@
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
             },
-            "CompleteTeleportID": "L110403",
-            "CompleteTeleport": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -90570.0,
+                "Y": 150130.0,
+                "Z": 4080.0
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": 153.03076,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
@@ -56521,8 +56554,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110402_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "人已经到齐了，和乐队成员们聊聊吧。",
+          "LocalizedString": "人已经到齐了，和乐队成员们聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -56589,32 +56622,27 @@
         "QuestId": "L110402_3",
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
-          "Key": "L110403_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "Key": "L110401_QuestName",
+          "SourceString": "练习时间",
+          "LocalizedString": "练习时间"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 2.3,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 0.5,
-            "ConvoyLocation": {
-              "X": 0.0,
-              "Y": 0.0,
-              "Z": 0.0
-            },
-            "bBindOnTracking": true,
+            "NeedArriveMapName": "",
+            "bNeedTrack": false,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -56627,10 +56655,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/Dialogue/ST_Legend_Shinku.ST_Legend_Shinku",
-              "Key": "L110301_ObjDes_1",
-              "SourceString": "查看<blue>薄荷</>的消息",
-              "LocalizedString": "查看<blue>薄荷</>的消息"
+              "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
+              "Key": "L110401_ObjDes_1",
+              "SourceString": "前往<blue>Star Sign</>",
+              "LocalizedString": "前往<blue>Star Sign</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -56639,7 +56667,29 @@
             "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": -90570.0,
+                "Y": 150130.0,
+                "Z": 4131.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "XL_map_bigworld_test",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -56648,7 +56698,7 @@
           }
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
-        "bNeedRedpoint": false,
+        "bNeedRedpoint": true,
         "bLoop": false,
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
         "bMainQuestAutoSpeak": true,
@@ -56664,9 +56714,9 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
-          "Key": "L110403_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "Key": "L110401_QuestPanel",
+          "SourceString": "又到了「猫头音！！！！」合练的时间。",
+          "LocalizedString": "又到了「猫头音！！！！」合练的时间。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -56710,7 +56760,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 2000.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -56724,12 +56774,9 @@
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
         "ActivateFogID": "None",
-        "bChangeTrackAnim": true,
+        "bChangeTrackAnim": false,
         "CustomTrackText": {
-          "TableId": "/Game/Text/ST_Description.ST_Description",
-          "Key": "TextMessage_001",
-          "SourceString": "查看任务消息",
-          "LocalizedString": "查看任务消息"
+          "CultureInvariantString": null
         }
       },
       "L110403": {
@@ -56737,27 +56784,29 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110403_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "练习时间",
+          "LocalizedString": "练习时间"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 3.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
-            "ChatItemIDArray": [
-              "L110201_a_61"
-            ],
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_CHAT_END",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -56770,10 +56819,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/Dialogue/ST_Legend_Shinku.ST_Legend_Shinku",
-              "Key": "L110301_ObjDes_1",
-              "SourceString": "查看<blue>薄荷</>的消息",
-              "LocalizedString": "查看<blue>薄荷</>的消息"
+              "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
+              "Key": "L110422_ObjDes_1",
+              "SourceString": "查看群聊短信",
+              "LocalizedString": "查看群聊短信"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -56808,8 +56857,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110403_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "在参加校庆前还需有一些准备工作……",
+          "LocalizedString": "在参加校庆前还需有一些准备工作……"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -56834,7 +56883,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "L110403_1"
+          "L110403_01"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -56857,7 +56906,7 @@
         },
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 2000.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -56879,27 +56928,27 @@
           "LocalizedString": "查看任务消息"
         }
       },
-      "L110403_1": {
-        "QuestId": "L110403_1",
+      "L110403_01": {
+        "QuestId": "L110403_01",
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
-          "Key": "L110404_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "Key": "L110402_1_QuestName",
+          "SourceString": "练习时间",
+          "LocalizedString": "练习时间"
         },
         "ChapterID": "LC04",
-        "ChapterProgress": 3.1,
-        "DisplayMapName": "None",
+        "ChapterProgress": 3.01,
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 0.5,
+            "ConvoyProtectTime": 1.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
@@ -56922,9 +56971,9 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
-              "Key": "L110404_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "Key": "L110403_01_ObjDes_1",
+              "SourceString": "返回伊波恩古董店",
+              "LocalizedString": "返回伊波恩古董店"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -56934,7 +56983,7 @@
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
-            "CompleteTeleportID": "None",
+            "CompleteTeleportID": "L110403",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
@@ -56958,9 +57007,9 @@
         "bForceHybridQuest": false,
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
-          "Key": "L110403_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "Key": "L110403_01_QuestPanel",
+          "SourceString": "已经很晚了，赶快回去吧。",
+          "LocalizedString": "已经很晚了，赶快回去吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -57001,14 +57050,10 @@
         "bForceTrackExceptMain": false,
         "NeedIgnoreFavorabilityNPCWhenTracking": false,
         "bCanMainQuestChangeTrack": false,
-        "LikeabilityData": {
-          "ActiveChatItemID": "None",
-          "AcceptChatItemID": "L110201_a_61",
-          "PushChatItemIDs": []
-        },
+        "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 2000.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -57022,12 +57067,9 @@
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
         "ActivateFogID": "None",
-        "bChangeTrackAnim": true,
+        "bChangeTrackAnim": false,
         "CustomTrackText": {
-          "TableId": "/Game/Text/ST_Description.ST_Description",
-          "Key": "TextMessage_001",
-          "SourceString": "查看任务消息",
-          "LocalizedString": "查看任务消息"
+          "CultureInvariantString": null
         }
       },
       "L110404": {
@@ -57035,19 +57077,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110404_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "购物环节",
+          "LocalizedString": "购物环节"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 4.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -57072,8 +57114,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110404_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "前往<blue>服装店</>",
+              "LocalizedString": "前往<blue>服装店</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -57130,8 +57172,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110404_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "约好了在服装店置办一身合适的衣服，用以参加明天的校庆。",
+          "LocalizedString": "约好了在服装店置办一身合适的衣服，用以参加明天的校庆。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -57139,7 +57181,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "L110403_1",
+            "PreQuestName": "L110403_01",
             "ObjectiveID": "1"
           }
         ],
@@ -57175,7 +57217,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -57199,19 +57241,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110405_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "购物环节",
+          "LocalizedString": "购物环节"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 5.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "StorySequenceID": "L110405",
@@ -57237,8 +57279,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110405_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "置办一身新的衣服",
+              "LocalizedString": "置办一身新的衣服"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -57271,25 +57313,7 @@
               "bShowNavigationPath": true
             },
             "CompleteTeleportID": "None",
-            "CompleteTeleport": {
-              "CompletedTeleportPosition": {
-                "X": -126397.21,
-                "Y": 170375.5,
-                "Z": 6696.132
-              },
-              "CompletedRotation": {
-                "Pitch": 0.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-              },
-              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
-              "CameraRotation": {
-                "Pitch": 0.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-              },
-              "bKeepPlayerRotation": true
-            },
+            "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
@@ -57313,8 +57337,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110405_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "在服装店中度过了一段难忘的时光。",
+          "LocalizedString": "在服装店中度过了一段难忘的时光。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -57358,7 +57382,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -57382,19 +57406,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110406_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "购物环节",
+          "LocalizedString": "购物环节"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 6.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -57419,8 +57443,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110406_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与众人交谈",
+              "LocalizedString": "与众人交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -57477,8 +57501,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110406_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "与众人交谈后告别，等待明天的校庆。",
+          "LocalizedString": "与众人交谈后告别，等待明天的校庆。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -57522,7 +57546,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -57546,19 +57570,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110407_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "购物环节",
+          "LocalizedString": "购物环节"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 7.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -57583,8 +57607,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110407_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "前往<blue>玉饼街</>",
+              "LocalizedString": "前往<blue>玉饼街</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -57597,44 +57621,44 @@
                 {
                   "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
                   "Key": "Akane02_Player_096",
-                  "SourceString": null,
-                  "LocalizedString": ""
+                  "SourceString": "说起来，要带我、娜娜莉和哈尼娅进学校，光靠你和明音好像不太够吧。",
+                  "LocalizedString": "说起来，要带我、娜娜莉和哈尼娅进学校，光靠你和明音好像不太够吧。"
                 },
                 {
                   "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
                   "Key": "Akane02_Player_097",
-                  "SourceString": null,
-                  "LocalizedString": ""
+                  "SourceString": "莫非明天还有一位同学要来？",
+                  "LocalizedString": "莫非明天还有一位同学要来？"
                 },
                 {
                   "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
                   "Key": "Akane02_NPC1029_092",
-                  "SourceString": null,
-                  "LocalizedString": ""
+                  "SourceString": "没错没错。不过她现在人在其他城市，回海特洛要花些时间……",
+                  "LocalizedString": "没错没错。不过她现在人在其他城市，回海特洛要花些时间……"
                 },
                 {
                   "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
                   "Key": "Akane02_NPC1029_093",
-                  "SourceString": null,
-                  "LocalizedString": ""
+                  "SourceString": "没赶上今天一起购物真可惜。她挑衣服的眼光也不错，本来还能再帮鉴定师多搭几套的……",
+                  "LocalizedString": "没赶上今天一起购物真可惜。她挑衣服的眼光也不错，本来还能再帮鉴定师多搭几套的……"
                 },
                 {
                   "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
                   "Key": "Akane02_Player_098",
-                  "SourceString": null,
-                  "LocalizedString": ""
+                  "SourceString": "哈哈……那倒也不必了。",
+                  "LocalizedString": "哈哈……那倒也不必了。"
                 },
                 {
                   "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
                   "Key": "Akane02_Player_099",
-                  "SourceString": null,
-                  "LocalizedString": ""
+                  "SourceString": "不过听起来，海月和这位同学好像关系也不错？",
+                  "LocalizedString": "不过听起来，海月和这位同学好像关系也不错？"
                 },
                 {
                   "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
                   "Key": "Akane02_NPC1029_094",
-                  "SourceString": null,
-                  "LocalizedString": ""
+                  "SourceString": "……嗯，我们以前是很好的朋友呢~",
+                  "LocalizedString": "……嗯，我们以前是很好的朋友呢~"
                 }
               ]
             },
@@ -57687,8 +57711,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110407_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "海月似乎有些话没说出口，借着送她回家的机会问问吧。",
+          "LocalizedString": "海月似乎有些话没说出口，借着送她回家的机会问问吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -57732,7 +57756,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -57756,23 +57780,23 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110408_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "购物环节",
+          "LocalizedString": "购物环节"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 8.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
-            "BeginTime": 8.0,
-            "EndTime": 9.0,
+            "BeginTime": 15.0,
+            "EndTime": 16.0,
             "WaittingDays": 1,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
@@ -57791,8 +57815,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110408_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "调整时间到<blue>次日15点</>",
+              "LocalizedString": "调整时间到<blue>次日15点</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -57827,8 +57851,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110408_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "满怀期待等待着明天的校庆吧。",
+          "LocalizedString": "满怀期待等待着明天的校庆吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -57879,9 +57903,12 @@
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
         "ActivateFogID": "None",
-        "bChangeTrackAnim": false,
+        "bChangeTrackAnim": true,
         "CustomTrackText": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "TextMessage_002",
+          "SourceString": "按下以调整时间",
+          "LocalizedString": "按下以调整时间"
         }
       },
       "L110409": {
@@ -57889,19 +57916,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110409_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 9.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -57926,8 +57953,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110409_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "前往<blue>克莱门学园</>",
+              "LocalizedString": "前往<blue>克莱门学园</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -57984,8 +58011,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110409_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "今天就是克莱门学院的百年校庆的日子了，快去和大家汇合吧。",
+          "LocalizedString": "今天就是克莱门学院的百年校庆的日子了，快去和大家汇合吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -58029,7 +58056,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1500.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -58038,7 +58065,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -58053,19 +58080,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110410_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 10.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -58090,8 +58117,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110410_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "进入学院",
+              "LocalizedString": "进入学院"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -58148,8 +58175,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110410_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "进入学院随意参观一下吧。",
+          "LocalizedString": "进入学院随意参观一下吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -58193,7 +58220,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -58202,7 +58229,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -58217,19 +58244,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110411_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 11.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -58251,8 +58278,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110411_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "前往<blue>校庆摊位</>",
+              "LocalizedString": "前往<blue>校庆摊位</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -58309,8 +58336,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110411_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "有不少有趣的摊位，到处逛逛吧。",
+          "LocalizedString": "有不少有趣的摊位，到处逛逛吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -58354,7 +58381,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -58363,7 +58390,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -58378,19 +58405,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110412_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 12.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -58415,8 +58442,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110412_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "摊位游玩",
+              "LocalizedString": "摊位游玩"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -58473,8 +58500,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110412_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "看看都有什么好玩的摊位呢？",
+          "LocalizedString": "看看都有什么好玩的摊位呢？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -58518,7 +58545,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -58527,7 +58554,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -58542,19 +58569,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110413_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "<!>探索校园内的摊位0/3",
+          "LocalizedString": "<!>探索校园内的摊位0/3"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 13.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -58579,8 +58606,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110413_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "<!>探索校园内的摊位0/3",
+              "LocalizedString": "<!>探索校园内的摊位0/3"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -58615,8 +58642,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110413_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "<!>探索校园内的摊位0/3",
+          "LocalizedString": "<!>探索校园内的摊位0/3"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -58669,7 +58696,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -58684,19 +58711,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110414_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 14.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -58721,8 +58748,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110414_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>娜娜莉</>对话",
+              "LocalizedString": "与<blue>娜娜莉</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -58779,8 +58806,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110414_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "娜娜莉在专注地玩什么呢？",
+          "LocalizedString": "娜娜莉在专注地玩什么呢？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -58824,7 +58851,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1100.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -58833,7 +58860,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -58848,19 +58875,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110415_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 15.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "PukalandGameId": "AirGun_02",
@@ -58882,8 +58909,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110415_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "游玩<blue>枪神 Balloon</>",
+              "LocalizedString": "游玩<blue>枪神 Balloon</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -58899,8 +58926,8 @@
                 "Y": 100249.84,
                 "Z": 7219.1626
               },
-              "fRange": 0.0,
-              "ShowCenter": false,
+              "fRange": 300.0,
+              "ShowCenter": true,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
                 "X": 0.0,
@@ -58940,8 +58967,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110415_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "看起来很好玩的样子，来试试吧。",
+          "LocalizedString": "看起来很好玩的样子，来试试吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -58985,7 +59012,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -58994,7 +59021,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -59009,19 +59036,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110415_t_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 15.5,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -59046,8 +59073,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110416_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>海月 铃羽</>对话",
+              "LocalizedString": "与<blue>海月 铃羽</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -59104,8 +59131,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110415_t_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "娜娜莉在专注地玩什么呢？",
+          "LocalizedString": "娜娜莉在专注地玩什么呢？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -59149,7 +59176,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -59158,7 +59185,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -59173,19 +59200,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110416_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 16.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -59210,8 +59237,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110416_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>海月 铃羽</>对话",
+              "LocalizedString": "与<blue>海月 铃羽</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -59268,8 +59295,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110416_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "海月和铃羽在专注地玩什么呢？",
+          "LocalizedString": "海月和铃羽在专注地玩什么呢？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -59313,7 +59340,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -59322,7 +59349,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -59337,19 +59364,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110417_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 17.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "PukalandGameId": "Mole_02",
@@ -59371,8 +59398,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110417_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "游玩<blue>捣蛋鬼噗仔</>",
+              "LocalizedString": "游玩<blue>捣蛋鬼噗仔</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -59388,8 +59415,8 @@
                 "Y": 97095.0,
                 "Z": 7190.0
               },
-              "fRange": 0.0,
-              "ShowCenter": false,
+              "fRange": 300.0,
+              "ShowCenter": true,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
                 "X": 0.0,
@@ -59429,8 +59456,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110417_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "看起来很好玩的样子，来试试吧。",
+          "LocalizedString": "看起来很好玩的样子，来试试吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -59474,7 +59501,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -59483,7 +59510,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -59498,19 +59525,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110417_t_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 17.5,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -59535,8 +59562,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110417_t_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>海月 铃羽</>对话",
+              "LocalizedString": "与<blue>海月 铃羽</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -59593,8 +59620,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110417_t_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "海月和铃羽在专注地玩什么呢？",
+          "LocalizedString": "海月和铃羽在专注地玩什么呢？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -59638,7 +59665,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -59647,7 +59674,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -59662,19 +59689,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110418_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 18.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -59699,8 +59726,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110418_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>哈尼娅</>对话",
+              "LocalizedString": "与<blue>哈尼娅</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -59757,8 +59784,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110418_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "哈尼娅在专注地玩什么呢？",
+          "LocalizedString": "哈尼娅在专注地玩什么呢？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -59802,7 +59829,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -59811,7 +59838,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -59826,19 +59853,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110419_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 19.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "PukalandGameId": "MatchingGame_02",
@@ -59860,8 +59887,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110419_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "游玩<blue>记忆对对碰</>",
+              "LocalizedString": "游玩<blue>记忆对对碰</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -59877,8 +59904,8 @@
                 "Y": 95261.336,
                 "Z": 7220.9976
               },
-              "fRange": 0.0,
-              "ShowCenter": false,
+              "fRange": 300.0,
+              "ShowCenter": true,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
                 "X": 0.0,
@@ -59918,8 +59945,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110419_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "看起来很好玩的样子，来试试吧。",
+          "LocalizedString": "看起来很好玩的样子，来试试吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -59963,7 +59990,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -59972,7 +59999,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -59987,19 +60014,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110419_t_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 19.5,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -60024,8 +60051,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110419_t_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>哈尼娅</>对话",
+              "LocalizedString": "与<blue>哈尼娅</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -60082,8 +60109,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110419_t_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "哈尼娅在专注地玩什么呢？",
+          "LocalizedString": "哈尼娅在专注地玩什么呢？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -60127,7 +60154,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -60136,7 +60163,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -60151,19 +60178,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110420_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 20.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -60188,8 +60215,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110420_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>对话",
+              "LocalizedString": "与<blue>明音</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -60246,8 +60273,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110420_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "和明音聊聊游玩校庆的体验。",
+          "LocalizedString": "和明音聊聊游玩校庆的体验。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -60291,7 +60318,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1200.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -60300,7 +60327,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -60315,19 +60342,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110421_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "校庆进行中",
+          "LocalizedString": "校庆进行中"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 21.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -60352,8 +60379,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110421_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与摊位上的<blue>某位熟人</>对话",
+              "LocalizedString": "与摊位上的<blue>某位熟人</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -60410,8 +60437,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110421_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "嗯……摊位上的那个身影，似乎很熟悉？",
+          "LocalizedString": "嗯……摊位上的那个身影，似乎很熟悉？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -60453,9 +60480,14 @@
         "NeedIgnoreFavorabilityNPCWhenTracking": false,
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
-        "QuestAward": null,
+        "QuestAward": {
+          "AwardGroupID": "drop_Legendquest_L110421",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false,
+          "bShowInPanel": false
+        },
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -60464,7 +60496,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -60479,19 +60511,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110422_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "未来的预言",
+          "LocalizedString": "未来的预言"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 22.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "ChatItemIDArray": [
@@ -60512,10 +60544,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/Dialogue/ST_Legend_Shinku.ST_Legend_Shinku",
-              "Key": "L110301_ObjDes_1",
-              "SourceString": "查看<blue>薄荷</>的消息",
-              "LocalizedString": "查看<blue>薄荷</>的消息"
+              "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
+              "Key": "L110422_ObjDes_1",
+              "SourceString": "查看群聊短信",
+              "LocalizedString": "查看群聊短信"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -60550,8 +60582,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110422_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "哈尼娅似乎发现了一个超酷的地方，究竟是什么呢？",
+          "LocalizedString": "哈尼娅似乎发现了一个超酷的地方，究竟是什么呢？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -60599,7 +60631,7 @@
         },
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -60608,7 +60640,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -60626,19 +60658,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110423_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "未来的预言",
+          "LocalizedString": "未来的预言"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 23.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -60660,8 +60692,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110423_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "去<blue>教学楼</>内部看看",
+              "LocalizedString": "去<blue>教学楼</>内部看看"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -60718,8 +60750,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110423_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "在哈尼娅的呼唤下，准备在教学楼内部集合。",
+          "LocalizedString": "在哈尼娅的呼唤下，准备在教学楼内部集合。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -60763,7 +60795,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -60772,7 +60804,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -60787,19 +60819,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110424_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "未来的预言",
+          "LocalizedString": "未来的预言"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 24.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -60824,8 +60856,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110424_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "前往<blue>占卜小屋</>",
+              "LocalizedString": "前往<blue>占卜小屋</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -60882,8 +60914,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110424_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "黑羽对「猫头音！！！！」的未来进行了占卜。",
+          "LocalizedString": "黑羽对「猫头音！！！！」的未来进行了占卜。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -60927,7 +60959,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -60936,7 +60968,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -60951,19 +60983,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110425_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "未来的预言",
+          "LocalizedString": "未来的预言"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 25.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -60988,8 +61020,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110425_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "前往<blue>兑奖处</>",
+              "LocalizedString": "前往<blue>兑奖处</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61046,8 +61078,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110425_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "占卜结束后，该去兑奖处看看了。",
+          "LocalizedString": "占卜结束后，该去兑奖处看看了。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61091,7 +61123,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -61100,7 +61132,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -61115,19 +61147,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110426_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "<!>离开兑奖处",
+          "LocalizedString": "<!>离开兑奖处"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 26.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -61149,8 +61181,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110426_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "<!>离开兑奖处",
+              "LocalizedString": "<!>离开兑奖处"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61185,8 +61217,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110426_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "<!>离开兑奖处",
+          "LocalizedString": "<!>离开兑奖处"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61230,7 +61262,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -61239,7 +61271,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -61254,19 +61286,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110427_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "未来的预言",
+          "LocalizedString": "未来的预言"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 27.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -61291,8 +61323,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110427_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "和众人商量一下接下来的演出",
+              "LocalizedString": "和众人商量一下接下来的演出"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61349,8 +61381,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110427_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "报名登台表演就能获得代币，哈尼娅似乎来了新的点子。",
+          "LocalizedString": "报名登台表演就能获得代币，哈尼娅似乎来了新的点子。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61394,7 +61426,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -61403,7 +61435,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -61418,19 +61450,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110428_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "奏响过去的音符",
+          "LocalizedString": "奏响过去的音符"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 28.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -61452,8 +61484,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110428_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "前往<blue>舞台后台</>",
+              "LocalizedString": "前往<blue>舞台后台</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61510,8 +61542,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110428_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "在哈尼娅的鼓动下准备报名参加接下来的表演，先去后台和明音聊聊吧。",
+          "LocalizedString": "在哈尼娅的鼓动下准备报名参加接下来的表演，先去后台和明音聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61555,7 +61587,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -61564,7 +61596,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -61579,19 +61611,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110429_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "<!>调试设备",
+          "LocalizedString": "<!>调试设备"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 29.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -61616,8 +61648,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110429_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "<!>调试设备",
+              "LocalizedString": "<!>调试设备"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61674,8 +61706,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110429_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "<!>调试设备",
+          "LocalizedString": "<!>调试设备"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61728,7 +61760,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -61743,19 +61775,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110430_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "奏响过去的音符",
+          "LocalizedString": "奏响过去的音符"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 30.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -61780,8 +61812,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110430_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61838,8 +61870,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110430_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "马上就要登台演出了，问问明音的想法。",
+          "LocalizedString": "马上就要登台演出了，问问明音的想法。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61883,7 +61915,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -61892,7 +61924,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -61907,19 +61939,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110430_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "奏响过去的音符",
+          "LocalizedString": "奏响过去的音符"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 30.1,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -61944,8 +61976,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110430_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -62002,8 +62034,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110430_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "马上就要登台演出了，问问明音的想法。",
+          "LocalizedString": "马上就要登台演出了，问问明音的想法。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -62047,7 +62079,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -62056,7 +62088,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -62071,19 +62103,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110431_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "奏响过去的音符",
+          "LocalizedString": "奏响过去的音符"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 31.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -62105,8 +62137,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110431_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "上台",
+              "LocalizedString": "上台"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -62163,8 +62195,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110431_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "开始登台表演吧！",
+          "LocalizedString": "开始登台表演吧！"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -62208,7 +62240,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -62217,7 +62249,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -62232,19 +62264,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110432_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "奏响过去的音符",
+          "LocalizedString": "奏响过去的音符"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 32.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "StorySequenceID": "L110432",
@@ -62270,8 +62302,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110432_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "在校园舞台上演出",
+              "LocalizedString": "在校园舞台上演出"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -62304,7 +62336,25 @@
               "bShowNavigationPath": true
             },
             "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -139461.77,
+                "Y": 91585.69,
+                "Z": 7188.604
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": 10.0,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
@@ -62328,8 +62378,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110432_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "开始登台表演吧！",
+          "LocalizedString": "开始登台表演吧！"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -62373,7 +62423,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -62382,7 +62432,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -62397,19 +62447,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110433_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "奏响过去的音符",
+          "LocalizedString": "奏响过去的音符"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 33.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -62434,8 +62484,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110433_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>猫头音！！！！</>的众人交谈",
+              "LocalizedString": "与<blue>猫头音！！！！</>的众人交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -62492,8 +62542,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110433_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "演出结束，乐队的大家对此次演出如何评价呢？",
+          "LocalizedString": "演出结束，乐队的大家对此次演出如何评价呢？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -62537,7 +62587,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -62546,7 +62596,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -62561,19 +62611,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110434_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 34.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -62595,8 +62645,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110434_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "前往<blue>时光胶囊</>所在处",
+              "LocalizedString": "前往<blue>时光胶囊</>所在处"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -62653,8 +62703,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110434_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "在明音的提议下，去寻找埋藏着过去的时间胶囊吧。",
+          "LocalizedString": "在明音的提议下，去寻找埋藏着过去的时间胶囊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -62698,7 +62748,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -62707,7 +62757,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -62722,19 +62772,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 35.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -62759,8 +62809,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110435_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "挖掘出<blue>时光胶囊</>",
+              "LocalizedString": "挖掘出<blue>时光胶囊</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -62817,8 +62867,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "把时间胶囊挖出来。",
+          "LocalizedString": "把时间胶囊挖出来。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -62862,7 +62912,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -62871,7 +62921,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -62886,19 +62936,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 35.1,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -62923,8 +62973,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110435_t_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>时光胶囊</>交互",
+              "LocalizedString": "与<blue>时光胶囊</>交互"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -62981,8 +63031,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "过去的往事在你们眼前浮现。",
+          "LocalizedString": "过去的往事在你们眼前浮现。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -63026,7 +63076,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 800.0,
+          "LockTime": 1300.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -63035,7 +63085,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -63050,19 +63100,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t1_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 35.2,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -63087,8 +63137,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110435_t1_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "倾听教室里的声音",
+              "LocalizedString": "倾听教室里的声音"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -63145,8 +63195,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t1_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "似乎是过去发生的一些事情。",
+          "LocalizedString": "似乎是过去发生的一些事情。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -63198,8 +63248,20 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "ReloadLocation": {
+          "LevelName": "DLC_School_boss01_WP",
+          "Location": {
+            "X": 286.0,
+            "Y": -300.0,
+            "Z": 212.0
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -63214,19 +63276,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t1_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 35.3,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -63251,8 +63313,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110435_t2_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "倾听教室里的声音",
+              "LocalizedString": "倾听教室里的声音"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -63309,8 +63371,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t2_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "似乎是过去发生的一些事情。",
+          "LocalizedString": "似乎是过去发生的一些事情。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -63362,8 +63424,20 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "ReloadLocation": {
+          "LevelName": "DLC_School_boss01_WP",
+          "Location": {
+            "X": 286.0,
+            "Y": -300.0,
+            "Z": 212.0
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -63378,19 +63452,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t3_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 35.4,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -63415,8 +63489,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110435_t3_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "倾听教室里的声音",
+              "LocalizedString": "倾听教室里的声音"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -63473,8 +63547,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t3_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "似乎是过去发生的一些事情。",
+          "LocalizedString": "似乎是过去发生的一些事情。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -63526,8 +63600,20 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "ReloadLocation": {
+          "LevelName": "DLC_School_boss01_WP",
+          "Location": {
+            "X": 286.0,
+            "Y": -300.0,
+            "Z": 212.0
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -63542,19 +63628,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t4_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 35.5,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -63579,8 +63665,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110435_t4_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "向前走吧",
+              "LocalizedString": "向前走吧"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -63637,8 +63723,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t4_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "在过去的回忆里继续前进吧。",
+          "LocalizedString": "在过去的回忆里继续前进吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -63703,7 +63789,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -63718,19 +63804,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t5_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 35.6,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -63755,8 +63841,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110435_t5_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "向前走吧",
+              "LocalizedString": "向前走吧"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -63813,8 +63899,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110435_t5_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "在过去的回忆里继续前进吧。",
+          "LocalizedString": "在过去的回忆里继续前进吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -63879,7 +63965,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -63894,19 +63980,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110436_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 36.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -63931,8 +64017,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110436_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -63989,8 +64075,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110436_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "和明音谈谈对过去的看法。",
+          "LocalizedString": "和明音谈谈对过去的看法。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -64055,7 +64141,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -64070,19 +64156,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110437_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 37.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -64107,8 +64193,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110437_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "去看<blue>下一段回忆</>",
+              "LocalizedString": "去看<blue>下一段回忆</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -64165,8 +64251,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110437_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。",
+          "LocalizedString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -64231,7 +64317,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -64246,19 +64332,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110437_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 37.1,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -64283,8 +64369,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110437_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "去看<blue>下一段回忆</>",
+              "LocalizedString": "去看<blue>下一段回忆</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -64341,8 +64427,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110437_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。",
+          "LocalizedString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -64407,7 +64493,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -64422,19 +64508,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110437_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 37.2,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -64459,8 +64545,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110437_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "去看<blue>下一段回忆</>",
+              "LocalizedString": "去看<blue>下一段回忆</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -64517,8 +64603,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110437_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。",
+          "LocalizedString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -64583,7 +64669,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -64598,19 +64684,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110438_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 38.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -64635,8 +64721,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110438_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "查看<blue>明音的回忆</>",
+              "LocalizedString": "查看<blue>明音的回忆</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -64660,7 +64746,7 @@
                 "Y": 0.0,
                 "Z": 0.0
               },
-              "TrackMapName": "",
+              "TrackMapName": "DLC_School_boss01_WP",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
               "bNeedPassParking": false,
@@ -64693,8 +64779,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110438_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "对音乐的喜爱，尽数写在了明音的回忆当中。明音当时又是怀抱着怎样的心情舍弃了音乐呢？",
+          "LocalizedString": "对音乐的喜爱，尽数写在了明音的回忆当中。明音当时又是怀抱着怎样的心情舍弃了音乐呢？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -64749,17 +64835,17 @@
         "ReloadLocation": {
           "LevelName": "DLC_School_boss01_WP",
           "Location": {
-            "X": -157.0,
-            "Y": -357.0,
-            "Z": 1089.0
+            "X": -103.0,
+            "Y": 290.0,
+            "Z": 1028.0
           },
           "Rotator": {
             "Pitch": 0.0,
-            "Yaw": 0.0,
+            "Yaw": 180.0,
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -64774,19 +64860,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110439_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 39.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -64811,8 +64897,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110439_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "去看<blue>下一段回忆</>",
+              "LocalizedString": "去看<blue>下一段回忆</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -64869,8 +64955,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110439_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。",
+          "LocalizedString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -64935,7 +65021,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -64950,19 +65036,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110439_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 39.1,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -64987,8 +65073,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110439_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "去看<blue>下一段回忆</>",
+              "LocalizedString": "去看<blue>下一段回忆</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -65045,8 +65131,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110439_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。",
+          "LocalizedString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -65111,7 +65197,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -65126,19 +65212,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110439_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "胶囊里的往事",
+          "LocalizedString": "胶囊里的往事"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 39.2,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -65163,8 +65249,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110439_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "去看<blue>下一段回忆</>",
+              "LocalizedString": "去看<blue>下一段回忆</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -65221,8 +65307,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110439_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。",
+          "LocalizedString": "没想到过去还有这么沉重的往事，但不能就此停下脚步。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -65287,7 +65373,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -65302,19 +65388,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110440_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "青春往事无需安可",
+          "LocalizedString": "青春往事无需安可"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 40.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -65339,8 +65425,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110440_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>铃羽</>对话",
+              "LocalizedString": "与<blue>铃羽</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -65381,7 +65467,7 @@
               },
               "CompletedRotation": {
                 "Pitch": 0.0,
-                "Yaw": -89.0,
+                "Yaw": -136.7545,
                 "Roll": 0.0
               },
               "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
@@ -65415,8 +65501,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110440_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "再次遇见斑蝶，而这一次会有什么不同吗？",
+          "LocalizedString": "再次遇见斑蝶，而这一次会有什么不同吗？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -65481,7 +65567,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -65496,19 +65582,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110441_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "青春往事无需安可",
+          "LocalizedString": "青春往事无需安可"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 41.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "MonsterTagList": [
@@ -65532,8 +65618,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110441_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>斑蝶</>战斗",
+              "LocalizedString": "与<blue>斑蝶</>战斗"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -65549,8 +65635,8 @@
                 "Y": 446.0,
                 "Z": 1881.0
               },
-              "fRange": 0.0,
-              "ShowCenter": false,
+              "fRange": 15000.0,
+              "ShowCenter": true,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
                 "X": 0.0,
@@ -65590,8 +65676,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110441_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "直面过去吧，不再是孤单一人，而是有大家的陪伴。",
+          "LocalizedString": "直面过去吧，不再是孤单一人，而是有大家的陪伴。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -65656,7 +65742,7 @@
             "Roll": 0.0
           }
         },
-        "TrialCharacterID": "Trial26",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -65671,19 +65757,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110442_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "青春往事无需安可",
+          "LocalizedString": "青春往事无需安可"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 42.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -65708,8 +65794,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110442_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与大家对话",
+              "LocalizedString": "与大家对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -65766,8 +65852,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110442_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "直面过去吧，不再是孤单一人，而是有大家的陪伴。",
+          "LocalizedString": "直面过去吧，不再是孤单一人，而是有大家的陪伴。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -65819,8 +65905,20 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "ReloadLocation": {
+          "LevelName": "DLC_School_boss01_WP",
+          "Location": {
+            "X": -1150.0,
+            "Y": -990.0,
+            "Z": 1881.0
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -65835,19 +65933,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110443_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "青春往事无需安可",
+          "LocalizedString": "青春往事无需安可"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 43.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "DLC_School_boss01_WP",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "StorySequenceID": "L110443",
@@ -65873,8 +65971,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110443_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "完成与<blue>斑蝶</>的战斗",
+              "LocalizedString": "完成与<blue>斑蝶</>的战斗"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -65884,7 +65982,7 @@
             "IntroduceInfo": null,
             "bOnlyInClient": true,
             "TrackInfo": null,
-            "CompleteTeleportID": "L110443",
+            "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
@@ -65909,8 +66007,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110443_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "直面过去吧，不再是孤单一人，而是有大家的陪伴。",
+          "LocalizedString": "直面过去吧，不再是孤单一人，而是有大家的陪伴。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -65935,14 +66033,14 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "L110446_h1",
+          "L110445",
           "L110446_h2",
           "L110446_h3",
           "L110446_h4",
           "L110446_h5",
           "L110446_h6",
           "L110446_h7",
-          "L110445",
+          "L110446_h1",
           "L110446_h8",
           "L110446_h9",
           "L110446_h10",
@@ -65977,7 +66075,7 @@
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -65992,19 +66090,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110444_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "<!>回到校园",
+          "LocalizedString": "<!>回到校园"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 44.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -66026,8 +66124,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110444_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "<!>回到校园",
+              "LocalizedString": "<!>回到校园"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -66062,8 +66160,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110444_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "<!>回到校园",
+          "LocalizedString": "<!>回到校园"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -66131,19 +66229,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "篝火晚会",
+          "LocalizedString": "篝火晚会"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 45.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -66168,8 +66266,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -66226,8 +66324,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -66271,16 +66369,16 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1900.0,
+          "LockTime": 2000.0,
           "TransitionSpeed": -1.0,
-          "ProtectTimeSeconds": 600.0
+          "ProtectTimeSeconds": 6000.0
         },
         "QuestWeatherLock": {
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
-          "ProtectTimeSeconds": 600.0
+          "ProtectTimeSeconds": 6000.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -66332,8 +66430,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -66390,8 +66488,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -66487,8 +66585,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -66545,8 +66643,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -66642,8 +66740,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -66700,8 +66798,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -66797,8 +66895,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -66855,8 +66953,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -66952,8 +67050,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -67010,8 +67108,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -67107,8 +67205,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -67165,8 +67263,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -67262,8 +67360,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -67320,8 +67418,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -67417,8 +67515,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -67475,8 +67573,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -67572,8 +67670,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -67630,8 +67728,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -67727,8 +67825,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -67785,8 +67883,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -67882,8 +67980,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -67940,8 +68038,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -68037,8 +68135,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -68095,8 +68193,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -68192,8 +68290,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -68250,8 +68348,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -68347,8 +68445,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110445_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "与<blue>明音</>交谈",
+              "LocalizedString": "与<blue>明音</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -68405,8 +68503,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110445_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -68465,19 +68563,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110446_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "篝火晚会",
+          "LocalizedString": "篝火晚会"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 46.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "ConvoyProtectTime": 120.0,
@@ -68504,8 +68602,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110446_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "和大家随便聊聊天吧",
+              "LocalizedString": "和大家随便聊聊天吧"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -68514,7 +68612,29 @@
             "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -138267.31,
+                "Y": 98550.43,
+                "Z": 7205.089
+              },
+              "fRange": 15000.0,
+              "ShowCenter": true,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "XL_map_bigworld_test",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -68540,8 +68660,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110446_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "热闹的篝火晚会，和大家随意聊聊天吧。",
+          "LocalizedString": "热闹的篝火晚会，和大家随意聊聊天吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -68585,16 +68705,16 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1900.0,
+          "LockTime": 2000.0,
           "TransitionSpeed": -1.0,
-          "ProtectTimeSeconds": 600.0
+          "ProtectTimeSeconds": 6000.0
         },
         "QuestWeatherLock": {
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
-          "ProtectTimeSeconds": 600.0
+          "ProtectTimeSeconds": 6000.0
         },
         "ReloadLocation": null,
-        "TrialCharacterID": "None",
+        "TrialCharacterID": "TrialL110404",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -68609,12 +68729,12 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110447_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "<!>别忘了兑换奖励",
+          "LocalizedString": "<!>别忘了兑换奖励"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 47.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
@@ -68646,8 +68766,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
               "Key": "L110447_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "SourceString": "<!>别忘了兑换奖励",
+              "LocalizedString": "<!>别忘了兑换奖励"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -68704,8 +68824,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110447_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "<!>别忘了兑换奖励",
+          "LocalizedString": "<!>别忘了兑换奖励"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -68751,11 +68871,11 @@
         "QuestTimeLock": {
           "LockTime": 1900.0,
           "TransitionSpeed": -1.0,
-          "ProtectTimeSeconds": 600.0
+          "ProtectTimeSeconds": 6000.0
         },
         "QuestWeatherLock": {
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
-          "ProtectTimeSeconds": 600.0
+          "ProtectTimeSeconds": 6000.0
         },
         "ReloadLocation": null,
         "TrialCharacterID": "None",
@@ -68773,19 +68893,19 @@
         "QuestName": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110448_QuestName",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "篝火晚会",
+          "LocalizedString": "篝火晚会"
         },
         "ChapterID": "LC04",
         "ChapterProgress": 48.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XueXiao",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
-        "bAllowPukalandCancelTracking": true,
+        "bAllowPukalandCancelTracking": false,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -68809,9 +68929,9 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
-              "Key": "L110447_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": ""
+              "Key": "L110448_ObjDes_1",
+              "SourceString": "兑换奖励后离开学校",
+              "LocalizedString": "兑换奖励后离开学校"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -68868,8 +68988,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
           "Key": "L110448_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": ""
+          "SourceString": "充实的一天结束了，天下没有不散的宴席，该离开了。",
+          "LocalizedString": "充实的一天结束了，天下没有不散的宴席，该离开了。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -68893,8 +69013,158 @@
         "LimitMapName": "None",
         "QuestResetTime": null,
         "FailedData": null,
+        "NextQuests": [
+          "L110448_h1"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "NeedIgnoreFavorabilityNPCWhenTracking": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": {
+          "ActiveChatItemID": "1070_a_1",
+          "AcceptChatItemID": "None",
+          "PushChatItemIDs": []
+        },
+        "QuestAward": {
+          "AwardGroupID": "drop_Legendquest_L110448",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": {
+          "LockTime": 2000.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 6000.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 6000.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "TrialL110404",
+        "ActivateYahahaID": "None",
+        "SubmitActivateYahahaIDs": [],
+        "AcceptActivateYahahaIDs": [],
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "L110448_h1": {
+        "QuestId": "L110448_h1",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "E6F57F9544AB5F2F1E71C0ADF0707951",
+          "SourceString": "#隐藏任务#复原场景",
+          "LocalizedString": "#隐藏任务#复原场景"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "BelongsGameplayAreaID": "None",
+        "BelongsFloorArea": "None",
+        "floor": 0,
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
+        "ObjectivesInfo": [
+          {
+            "ConvoyProtectTime": 2.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "bBindOnTracking": true,
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/Dialogue/ST_Legend_Celebration.ST_Legend_Celebration",
+          "Key": "L110445_QuestPanel",
+          "SourceString": "不知明音现在是什么心情，和她去聊聊吧。",
+          "LocalizedString": "不知明音现在是什么心情，和她去聊聊吧。"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "L110448",
+            "ObjectiveID": "1"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
         "NextQuests": [],
-        "bAutoNext": false,
+        "bAutoNext": true,
         "NeedSubmit": false,
         "PatcherTag": "None",
         "QuestSubmitDescription": {
@@ -68910,15 +69180,8 @@
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
         "QuestAward": null,
-        "QuestTimeLock": {
-          "LockTime": 1900.0,
-          "TransitionSpeed": -1.0,
-          "ProtectTimeSeconds": 600.0
-        },
-        "QuestWeatherLock": {
-          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
-          "ProtectTimeSeconds": 600.0
-        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
         "ReloadLocation": null,
         "TrialCharacterID": "None",
         "ActivateYahahaID": "None",

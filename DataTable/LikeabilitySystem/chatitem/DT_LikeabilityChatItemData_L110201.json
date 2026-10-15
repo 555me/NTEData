@@ -2858,11 +2858,11 @@
         "ForceRefreshChatDatas": [],
         "ForceRefreshChatID": "None",
         "AddLikeabilityValue": 0,
-        "ChatPushType": "ELikeabilityChatPushType::Delay",
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
         "PustGameTimeDay": 1,
         "PustGameTimeHour": 8,
-        "DelayPushTime": 10.0,
-        "ChatNoticeType": "ELikeabilityChatNoticeType::Notice",
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::OpenMainFrom",
         "LikeabilityID": "None",
         "LivingEmojiMaterial": {
           "AssetPathName": "",
@@ -3021,8 +3021,8 @@
         "Content": {
           "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
           "Key": "L110201_a_65",
-          "SourceString": "那就这么决定咯，明天下午两点Q?门口见面。",
-          "LocalizedString": "那就这么决定咯，明天下午两点Q?门口见面。"
+          "SourceString": "那就这么决定咯，明天下午两点Q³门口见面。",
+          "LocalizedString": "那就这么决定咯，明天下午两点Q³门口见面。"
         },
         "ParaContent": "",
         "IconSource": {
@@ -3338,6 +3338,380 @@
           "Key": "L110201_a_72",
           "SourceString": "我在这里等你们哟！",
           "LocalizedString": "我在这里等你们哟！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "L110201_a_73": {
+        "ChatID": "L110201_a",
+        "RoleId": "1020",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": true,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": true,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::ExtraStory",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "L110201_a_73",
+          "SourceString": "鉴定师鉴定师，许久没有在一起合练了，别忘了今天要来Star Sign练习啊。",
+          "LocalizedString": "鉴定师鉴定师，许久没有在一起合练了，别忘了今天要来Star Sign练习啊。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "L110201_a_73_a",
+              "SourceString": "好的",
+              "LocalizedString": "好的"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "L110201_a_74"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::OpenMainFrom",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "L110201_a_74": {
+        "ChatID": "L110201_a",
+        "RoleId": "1020",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "L110201_a_74",
+          "SourceString": "好的，那我现在就过去。",
+          "LocalizedString": "好的，那我现在就过去。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "L110201_a_75",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "L110201_a_75": {
+        "ChatID": "L110201_a",
+        "RoleId": "1010",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "L110201_a_75",
+          "SourceString": "哼哼~最近手感正好，我已经等不及啦！",
+          "LocalizedString": "哼哼~最近手感正好，我已经等不及啦！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "L110201_a_76",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "L110201_a_76": {
+        "ChatID": "L110201_a",
+        "RoleId": "1057",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "L110201_a_76",
+          "SourceString": "是吗，那看来最近有勤奋练习啊。",
+          "LocalizedString": "是吗，那看来最近有勤奋练习啊。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "L110201_a_77",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "L110201_a_77": {
+        "ChatID": "L110201_a",
+        "RoleId": "1057",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "L110201_a_77",
+          "SourceString": "那么我们就在Star Sign集合吧，鉴定师。",
+          "LocalizedString": "那么我们就在Star Sign集合吧，鉴定师。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "L110201_a_78",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "L110201_a_78": {
+        "ChatID": "L110201_a",
+        "RoleId": "1020",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "L110201_a_78",
+          "SourceString": "「猫头音！！！！」吉他手哈尼娅，准备出击！",
+          "LocalizedString": "「猫头音！！！！」吉他手哈尼娅，准备出击！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "L110201_a_79",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "L110201_a_79": {
+        "ChatID": "L110201_a",
+        "RoleId": "1010",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "L110201_a_79",
+          "SourceString": "「猫头音！！！！」贝斯手娜娜莉，准备出击！",
+          "LocalizedString": "「猫头音！！！！」贝斯手娜娜莉，准备出击！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "L110201_a_80",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "L110201_a_80": {
+        "ChatID": "L110201_a",
+        "RoleId": "1020",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": true,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": true,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::CancelActive",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "L110201_a_80",
+          "SourceString": "「猫头音！！！！」集合！",
+          "LocalizedString": "「猫头音！！！！」集合！"
         },
         "ParaContent": "",
         "IconSource": {

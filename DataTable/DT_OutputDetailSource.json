@@ -9973,8 +9973,48 @@
         "ContentDesc": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "quest_livehouse",
-          "SourceString": "「番外」某传奇乐队（吗？）的第一页获得",
-          "LocalizedString": "「番外」某传奇乐队（吗？）的第一页获得"
+          "SourceString": "番外「某传奇乐队（吗？）的第一页」",
+          "LocalizedString": "番外「某传奇乐队（吗？）的第一页」"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "quest_livehouse2": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "quest_livehouse2",
+          "SourceString": "番外「致那一天的我们」",
+          "LocalizedString": "番外「致那一天的我们」"
         },
         "Location": {
           "X": 0.0,
@@ -20383,9 +20423,10 @@
         "FindPathid": "None",
         "FindMapFixedIcon": "None",
         "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "QuestUIType": "EQuestUIType::QUT_OpActivity",
           "UIParaming": [
-            "GingerbreadDuelMatching"
+            "ActivityMainForm",
+            "GingerbreadDuel"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "None",
@@ -21830,6 +21871,88 @@
           "UIParaming": [
             "EndlessTrial_Clone"
           ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "adventure_cultivation": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "adventure_cultivation",
+          "SourceString": "探索指南-养成目标",
+          "LocalizedString": "探索指南-养成目标"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_AdventureManual",
+          "UIParaming": [
+            "Cultivation"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Quest_L110421": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Quest_L110421",
+          "SourceString": "番外任务「致那一天的我们」",
+          "LocalizedString": "番外任务「致那一天的我们」"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
           "JumpConfig": null,
           "UnlockFunctionID": "None",
           "UnlockNoticeMessage": {

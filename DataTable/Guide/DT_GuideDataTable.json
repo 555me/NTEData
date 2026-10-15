@@ -21963,11 +21963,12 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "ResponseTime": 0.0,
+                  "bUIActionsIgnoreNextStep": false,
                   "WidgetID": "MenuBtn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -45770,19 +45771,18 @@
       },
       "Teach_Akane_6_1": {
         "GuideAnnottation": "（角色教学）明音引爆音域",
-        "bForceGuide": true,
+        "bForceGuide": false,
         "GuideFunctionID": "None",
         "bNeedAllComplete": false,
         "DefaultGuide": {
           "MutualExclusionGuideIDs": [],
           "GuideStepDatas": [
             {
-              "bGuard": true,
-              "bCanClickNextStep": false,
-              "CustomNextStepKey": {
-                "KeyName": "Gamepad_FaceButton_Bottom"
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
               },
-              "bUIActionsIgnoreNextStep": false,
+              "ResponseTime": 0.0,
               "WidgetID": "ButtonSkill",
               "Desc": {
                 "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
@@ -45826,13 +45826,12 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "bGuard": true,
-                  "bCanClickNextStep": false,
-                  "CustomNextStepKey": {
-                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
                   },
-                  "bUIActionsIgnoreNextStep": false,
-                  "WidgetID": "ButtonSkill_Gamepad",
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonSKill_Gamepad",
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Trial_Akane_6_guide_1",
@@ -45872,13 +45871,12 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "bGuard": true,
-                  "bCanClickNextStep": false,
-                  "CustomNextStepKey": {
-                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
                   },
-                  "bUIActionsIgnoreNextStep": false,
-                  "WidgetID": "ButtonSkill_Mobile",
+                  "ResponseTime": 0.0,
+                  "WidgetID": "None",
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Trial_Akane_6_guide_1",
@@ -45900,7 +45898,7 @@
                   "bEnableKeyIcon": true,
                   "ExWidgetID": "None",
                   "IgnoreListViewStep": false,
-                  "bIsWidgetIDMustInScreen": true
+                  "bIsWidgetIDMustInScreen": false
                 }
               ],
               "TeachGuideIDs": []
@@ -46218,8 +46216,8 @@
               "Desc": {
                 "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                 "Key": "Trial_Akane_7_guide_3",
-                "SourceString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态；<Yellow>「华彩连段」</>状态持续时间结束时，明音凛也会自动释放第二段终结技。",
-                "LocalizedString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态；<Yellow>「华彩连段」</>状态持续时间结束时，明音凛也会自动释放第二段终结技。"
+                "SourceString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态。",
+                "LocalizedString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态。"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -46266,8 +46264,8 @@
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Trial_Akane_7_guide_3",
-                    "SourceString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态；<Yellow>「华彩连段」</>状态持续时间结束时，明音凛也会自动释放第二段终结技。",
-                    "LocalizedString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态；<Yellow>「华彩连段」</>状态持续时间结束时，明音凛也会自动释放第二段终结技。"
+                    "SourceString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态。",
+                    "LocalizedString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态。"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -46311,8 +46309,8 @@
                   "Desc": {
                     "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                     "Key": "Trial_Akane_7_guide_3",
-                    "SourceString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态；<Yellow>「华彩连段」</>状态持续时间结束时，明音凛也会自动释放第二段终结技。",
-                    "LocalizedString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态；<Yellow>「华彩连段」</>状态持续时间结束时，明音凛也会自动释放第二段终结技。"
+                    "SourceString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态。",
+                    "LocalizedString": "明音凛在<Yellow>「极轨终结：音障爆鸣」</>持续时间过半后，可通过再次点按终结技的方式进行第二段释放，并提前结束<Yellow>「华彩连段」</>状态。"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -46523,11 +46521,12 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "DescPos": {
-                    "X": 0.0,
-                    "Y": 0.0
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "ResponseTime": 0.0,
+                  "bUIActionsIgnoreNextStep": false,
                   "WidgetID": "MenuBtn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",

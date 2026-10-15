@@ -14584,7 +14584,15 @@
           "AssetPathName": "/Game/UI/UI/Pukaland/WBP_PukalandPauseWidget.WBP_PukalandPauseWidget_C",
           "SubPathString": ""
         },
-        "LevelUIClassOverride": [],
+        "LevelUIClassOverride": [
+          {
+            "Key": "DLC_SpookHouse_FB",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Pukaland/HauntedHouse/WBP_PukalandPauseWidget_HauntedHouse.WBP_PukalandPauseWidget_HauntedHouse_C",
+              "SubPathString": ""
+            }
+          }
+        ],
         "LayerName": {
           "TagName": "Layer.FunctionSubUI"
         },
@@ -15562,7 +15570,23 @@
         },
         "LevelUIClassOverride": [],
         "LayerName": {
-          "TagName": "Layer.FunctionUI"
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false,
+        "bIgnorePlayingUltraSkillSeq": false
+      },
+      "L110432_white": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/QuestStory/L110432_white.L110432_white_C",
+          "SubPathString": ""
+        },
+        "LevelUIClassOverride": [],
+        "LayerName": {
+          "TagName": "Layer.Effect"
         },
         "bIgnoreWhenPlayingDeadMontage": false,
         "bIgnoreInput": false,

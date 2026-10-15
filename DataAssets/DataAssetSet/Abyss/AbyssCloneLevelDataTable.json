@@ -13991,6 +13991,2198 @@
             ]
           }
         ]
+      },
+      "Abyss_13": {
+        "LevelConfigArray": [
+          {
+            "AbyssID": "None",
+            "LevelID": 1,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_1",
+              "SourceString": "始发站",
+              "LocalizedString": "始发站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_1_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_1_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_1_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_1_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_PSYCHE"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 2,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_2",
+              "SourceString": "第二站",
+              "LocalizedString": "第二站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_2_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_2_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_2_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_2_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_INCANTATION",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 3,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_3",
+              "SourceString": "第三站",
+              "LocalizedString": "第三站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_3_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_3_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_3_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_3_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_CHAOS"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 4,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_4",
+              "SourceString": "第四站",
+              "LocalizedString": "第四站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_4_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_4_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_4_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_4_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_PSYCHE"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 5,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_5",
+              "SourceString": "第五站",
+              "LocalizedString": "第五站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_5_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_5_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_5_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_5_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_NATURE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 6,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_6",
+              "SourceString": "第六站",
+              "LocalizedString": "第六站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_6_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_6_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_6_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_6_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_PSYCHE"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 7,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_7",
+              "SourceString": "第七站",
+              "LocalizedString": "第七站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_7_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_7_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_7_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_7_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_INCANTATION"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 8,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_8",
+              "SourceString": "第八站",
+              "LocalizedString": "第八站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_8_0_1"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_8_1_1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 9,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_9",
+              "SourceString": "第九站",
+              "LocalizedString": "第九站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_9_0_1"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_9_1_1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_PSYCHE"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 10,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_10",
+              "SourceString": "第十站",
+              "LocalizedString": "第十站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_10_0_1"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_10_1_1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_NATURE",
+              "CHARACTER_ELEMENT_TYPE_INCANTATION"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 11,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_11",
+              "SourceString": "第十一站",
+              "LocalizedString": "第十一站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_11_0_1"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_11_1_1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA",
+              "CHARACTER_ELEMENT_TYPE_NATURE"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_CHAOS"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 12,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_12",
+              "SourceString": "终点站",
+              "LocalizedString": "终点站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_12_0_1"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_13_12_1_1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          }
+        ]
+      },
+      "Abyss_14": {
+        "LevelConfigArray": [
+          {
+            "AbyssID": "None",
+            "LevelID": 1,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_1",
+              "SourceString": "始发站",
+              "LocalizedString": "始发站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_1_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_1_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_1_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_1_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 2,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_2",
+              "SourceString": "第二站",
+              "LocalizedString": "第二站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_2_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_2_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_2_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_2_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_PSYCHE"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 3,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_3",
+              "SourceString": "第三站",
+              "LocalizedString": "第三站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_3_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_3_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_3_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_3_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_CHAOS"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 4,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_4",
+              "SourceString": "第四站",
+              "LocalizedString": "第四站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_4_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_4_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_4_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_4_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_NATURE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_CHAOS"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 5,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_5",
+              "SourceString": "第五站",
+              "LocalizedString": "第五站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_5_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_5_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_5_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_5_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_PSYCHE"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 6,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_6",
+              "SourceString": "第六站",
+              "LocalizedString": "第六站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_6_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_6_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_6_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_6_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_PSYCHE"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_INCANTATION"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 7,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_7",
+              "SourceString": "第七站",
+              "LocalizedString": "第七站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_7_0_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_7_0_2"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_7_1_1"
+                    },
+                    {
+                      "Wave": 2,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_7_1_2"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 8,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_8",
+              "SourceString": "第八站",
+              "LocalizedString": "第八站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_8_0_1"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_8_1_1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 9,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_9",
+              "SourceString": "第九站",
+              "LocalizedString": "第九站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_9_0_1"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_9_1_1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_CHAOS",
+              "CHARACTER_ELEMENT_TYPE_PSYCHE"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 10,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_10",
+              "SourceString": "第十站",
+              "LocalizedString": "第十站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_10_0_1"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_10_1_1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_NATURE",
+              "CHARACTER_ELEMENT_TYPE_INCANTATION"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 11,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_11",
+              "SourceString": "第十一站",
+              "LocalizedString": "第十一站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_11_0_1"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_11_1_1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA",
+              "CHARACTER_ELEMENT_TYPE_NATURE"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_CHAOS"
+            ]
+          },
+          {
+            "AbyssID": "None",
+            "LevelID": 12,
+            "LevelName": {
+              "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+              "Key": "station_12",
+              "SourceString": "终点站",
+              "LocalizedString": "终点站"
+            },
+            "BgTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PassConditions": [
+              {
+                "Index": 1,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_1",
+                  "SourceString": "击败所有敌人",
+                  "LocalizedString": "击败所有敌人"
+                }
+              },
+              {
+                "ResetTime": 180.0,
+                "Index": 2,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_2",
+                  "SourceString": "剩余时间大于180秒",
+                  "LocalizedString": "剩余时间大于180秒"
+                }
+              },
+              {
+                "ResetTime": 300.0,
+                "Index": 3,
+                "ConditionText": {
+                  "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                  "Key": "TimeCondition_3",
+                  "SourceString": "剩余时间大于300秒",
+                  "LocalizedString": "剩余时间大于300秒"
+                }
+              }
+            ],
+            "SpawnMonsterConfigMap": [
+              {
+                "Key": "EAbyssFightStage::FirstHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_12_0_1"
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "EAbyssFightStage::SecondHalf",
+                "Value": {
+                  "CloneSpawnMonsterConfigArray": [
+                    {
+                      "Wave": 1,
+                      "NextSpawnType": "EAbyssMonsterSpawnType::Spawn_KillAll",
+                      "SpawnTime": 0.0,
+                      "MonsterPoolID": "Abyss_14_12_1_1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "AwardDropID": "None",
+            "MaximumTime": 600.0,
+            "bOnlyHalf": false,
+            "FirstRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_COSMOS",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ],
+            "SecondRecommendElementTypeArray": [
+              "CHARACTER_ELEMENT_TYPE_PSYCHE",
+              "CHARACTER_ELEMENT_TYPE_LAKSHANA"
+            ]
+          }
+        ]
       }
     }
   }

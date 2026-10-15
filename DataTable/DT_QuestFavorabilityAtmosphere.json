@@ -37863,7 +37863,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1000.0,
+          "LockTime": 1700.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -37958,7 +37958,25 @@
               "bShowNavigationPath": true
             },
             "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -268309.12,
+                "Y": 360828.97,
+                "Z": 4233.0
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": 544.9373,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": 544.9373,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": false
+            },
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
@@ -38061,19 +38079,17 @@
         "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 3.0,
-            "ConvoyLocation": {
-              "X": 0.0,
-              "Y": 0.0,
-              "Z": 0.0
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
             },
-            "bBindOnTracking": true,
-            "ObjectiveID": "None",
+            "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_038/Date/BP_NPC_038_Date01_WJ1064.BP_NPC_038_Date01_WJ1064_C",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_038/Date/BP_NPC_038_Date01_WJ1064JT.BP_NPC_038_Date01_WJ1064JT_C",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -38083,7 +38099,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ106402_dec",
+              "SourceString": "聆听<blue>明音</>的演奏",
+              "LocalizedString": "聆听<blue>明音</>的演奏"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -38095,9 +38114,9 @@
             "TrackInfo": {
               "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -268458.0,
-                "Y": 360767.0,
-                "Z": 4233.0
+                "X": -267992.0,
+                "Y": 360362.0,
+                "Z": 4231.0
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -38110,7 +38129,7 @@
               "TrackMapName": "",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
+              "bNeedPassParking": true,
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
