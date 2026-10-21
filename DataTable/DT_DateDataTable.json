@@ -6323,6 +6323,133 @@
           "bNeedFirstPerson": false,
           "TargetTag": "None"
         }
+      },
+      "D0281090": {
+        "LikeabilityAwardID": "None",
+        "CharacterID": "1090",
+        "AddLikeabilityValue": 200,
+        "Steps": [
+          {
+            "DinnerID": "sitbench",
+            "ExtensionID": "DatingBoat",
+            "bShowCameraSwitch": true,
+            "BuffList": [],
+            "Participants": [
+              {
+                "MontageName": "None",
+                "CollisionProfileName": "None",
+                "bNeedBreakAllMontage": true,
+                "Location": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": 55.0,
+                  "Roll": 0.0
+                },
+                "UseSpecialLocationOffset": true
+              },
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_030/Dating/D0281090/BP_NPC_030_Date_D0281090.BP_NPC_030_Date_D0281090_C",
+                  "SubPathString": ""
+                },
+                "DlgIdleState": {
+                  "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_030/Dating/D0281090/Idle_NPC_001_D0281090_S00.Idle_NPC_001_D0281090_S00_C",
+                  "SubPathString": ""
+                },
+                "Location": {
+                  "X": 67104.72,
+                  "Y": 181025.66,
+                  "Z": 2603.8215
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": 399.0,
+                  "Roll": 0.0
+                },
+                "UseSpecialLocationOffset": false
+              }
+            ],
+            "NeedClearLastParticipant": true,
+            "bNeedFadeInOut": true,
+            "bNeedFirstPerson": true,
+            "TargetTag": "D028"
+          }
+        ],
+        "UnSatisfiedText": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_35",
+          "SourceString": "获取LV.6羁遇等级奖励解锁",
+          "LocalizedString": "获取LV.6羁遇等级奖励解锁"
+        },
+        "TextData": {
+          "TableId": "/Game/Text/ST_Date.ST_Date",
+          "Key": "D001_Name",
+          "SourceString": "摩天轮之约",
+          "LocalizedString": "摩天轮之约"
+        },
+        "TextDesc": {
+          "TableId": "/Game/Text/ST_Date.ST_Date",
+          "Key": "D001_Des",
+          "SourceString": "要一起开启一场逃离引力的小小冒险吗？听说当摩天轮转到最高点时，会有奇迹发生哦。",
+          "LocalizedString": "要一起开启一场逃离引力的小小冒险吗？听说当摩天轮转到最高点时，会有奇迹发生哦。"
+        },
+        "SoftIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_111.YH_UI_Mapicon_111",
+          "SubPathString": ""
+        },
+        "SoftImg": {
+          "AssetPathName": "/Game/UI/UI/likeability/Date/MeetingUI/UI_YH_Bond_Date_Details_Position_002.UI_YH_Bond_Date_Details_Position_002",
+          "SubPathString": ""
+        },
+        "EndStep": {
+          "Participants": [
+            {
+              "MontageName": "None",
+              "CollisionProfileName": "None",
+              "bNeedBreakAllMontage": true,
+              "Location": {
+                "X": 66484.734,
+                "Y": 181561.89,
+                "Z": 2331.808
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 125.0,
+                "Roll": 0.0
+              },
+              "UseSpecialLocationOffset": false
+            },
+            {
+              "AITemplate": {
+                "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_030/Dating/BP_CompanionCharacter_030_Date.BP_CompanionCharacter_030_Date_C",
+                "SubPathString": ""
+              },
+              "DlgIdleState": {
+                "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_030/Dating/D0281090/Idle_NPC_001_D0281090_SE.Idle_NPC_001_D0281090_SE_C",
+                "SubPathString": ""
+              },
+              "Location": {
+                "X": 66384.29,
+                "Y": 181710.5,
+                "Z": 2531.808
+              },
+              "Rotation": {
+                "Pitch": -0.0,
+                "Yaw": -50.0,
+                "Roll": 0.0
+              },
+              "UseSpecialLocationOffset": false
+            }
+          ],
+          "NeedClearLastParticipant": true,
+          "bNeedFadeInOut": true,
+          "bNeedFirstPerson": false,
+          "TargetTag": "None"
+        }
       }
     }
   }
