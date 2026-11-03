@@ -62,7 +62,7 @@
           "SourceString": "本局内，所有紫色品质的藏品价值翻倍。",
           "LocalizedString": "本局内，所有紫色品质的藏品价值翻倍。"
         },
-        "EffectType": "EBidKingEffectType::BKE_PurpleDoubleValue",
+        "EffectType": "EBidKingEffectType::BKE_OrangeDoubleValue",
         "Weight": 50,
         "RatioValue": 0.0
       },
@@ -80,7 +80,7 @@
           "SourceString": "本局内，所有金色品质的藏品价值翻倍。",
           "LocalizedString": "本局内，所有金色品质的藏品价值翻倍。"
         },
-        "EffectType": "EBidKingEffectType::BKE_OrangeDoubleValue",
+        "EffectType": "EBidKingEffectType::BKE_JewelLimit1x1",
         "Weight": 25,
         "RatioValue": 0.0
       },
@@ -98,7 +98,7 @@
           "SourceString": "在本局竞拍开始时，所有轮廓为1x1的藏品全部转变为轮廓为1x1随机宝石类藏品。",
           "LocalizedString": "在本局竞拍开始时，所有轮廓为1x1的藏品全部转变为轮廓为1x1随机宝石类藏品。"
         },
-        "EffectType": "EBidKingEffectType::BKE_JewelLimit1x1",
+        "EffectType": "EBidKingEffectType::BKE_MAX",
         "Weight": 5,
         "RatioValue": 0.0
       },
@@ -135,7 +135,7 @@
           "LocalizedString": "本局内，竞拍将按照标准规则进行。"
         },
         "EffectType": "EBidKingEffectType::BKE_Normal",
-        "Weight": 750,
+        "Weight": 700,
         "RatioValue": 0.0
       },
       "EZ_effect_1": {
@@ -152,7 +152,7 @@
           "SourceString": "本局内，所有紫色品质的藏品价值翻倍。",
           "LocalizedString": "本局内，所有紫色品质的藏品价值翻倍。"
         },
-        "EffectType": "EBidKingEffectType::BKE_PurpleDoubleValue",
+        "EffectType": "EBidKingEffectType::BKE_OrangeDoubleValue",
         "Weight": 75,
         "RatioValue": 0.0
       },
@@ -170,7 +170,7 @@
           "SourceString": "本局内，所有金色品质的藏品价值翻倍。",
           "LocalizedString": "本局内，所有金色品质的藏品价值翻倍。"
         },
-        "EffectType": "EBidKingEffectType::BKE_OrangeDoubleValue",
+        "EffectType": "EBidKingEffectType::BKE_JewelLimit1x1",
         "Weight": 25,
         "RatioValue": 0.0
       },
@@ -207,7 +207,7 @@
           "LocalizedString": "本局内，竞拍将按照标准规则进行。"
         },
         "EffectType": "EBidKingEffectType::BKE_Normal",
-        "Weight": 800,
+        "Weight": 780,
         "RatioValue": 0.0
       },
       "HD_effect_8": {
@@ -260,7 +260,7 @@
           "SourceString": "本局内，所有紫色品质的藏品价值翻倍。",
           "LocalizedString": "本局内，所有紫色品质的藏品价值翻倍。"
         },
-        "EffectType": "EBidKingEffectType::BKE_PurpleDoubleValue",
+        "EffectType": "EBidKingEffectType::BKE_OrangeDoubleValue",
         "Weight": 50,
         "RatioValue": 0.0
       },
@@ -278,7 +278,7 @@
           "SourceString": "本局内，所有金色品质的藏品价值翻倍。",
           "LocalizedString": "本局内，所有金色品质的藏品价值翻倍。"
         },
-        "EffectType": "EBidKingEffectType::BKE_OrangeDoubleValue",
+        "EffectType": "EBidKingEffectType::BKE_JewelLimit1x1",
         "Weight": 25,
         "RatioValue": 0.0
       },
@@ -296,7 +296,7 @@
           "SourceString": "在本局竞拍开始时，所有轮廓为1x1的藏品全部转变为轮廓为1x1随机宝石类藏品。",
           "LocalizedString": "在本局竞拍开始时，所有轮廓为1x1的藏品全部转变为轮廓为1x1随机宝石类藏品。"
         },
-        "EffectType": "EBidKingEffectType::BKE_JewelLimit1x1",
+        "EffectType": "EBidKingEffectType::BKE_MAX",
         "Weight": 5,
         "RatioValue": 0.0
       },
@@ -333,7 +333,61 @@
           "LocalizedString": "本局内，竞拍将按照标准规则进行。"
         },
         "EffectType": "EBidKingEffectType::BKE_Normal",
-        "Weight": 650,
+        "Weight": 620,
+        "RatioValue": 0.0
+      },
+      "EZ_effect_5": {
+        "EffectPoolId": "efffectpool_1",
+        "EffectName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingEffect_Urgency",
+          "SourceString": "紧迫危机",
+          "LocalizedString": "紧迫危机"
+        },
+        "EffectDesc": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingEffect_Urgency_Desc",
+          "SourceString": "每回合的出价时间降低为20秒，时间耗尽时不会触发自动弃权。",
+          "LocalizedString": "每回合的出价时间降低为20秒，时间耗尽时不会触发自动弃权。"
+        },
+        "EffectType": "EBidKingEffectType::BKE_PurpleDoubleValue",
+        "Weight": 20,
+        "RatioValue": 0.0
+      },
+      "NM_effect_8": {
+        "EffectPoolId": "efffectpool_2",
+        "EffectName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingEffect_Urgency",
+          "SourceString": "紧迫危机",
+          "LocalizedString": "紧迫危机"
+        },
+        "EffectDesc": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingEffect_Urgency_Desc",
+          "SourceString": "每回合的出价时间降低为20秒，时间耗尽时不会触发自动弃权。",
+          "LocalizedString": "每回合的出价时间降低为20秒，时间耗尽时不会触发自动弃权。"
+        },
+        "EffectType": "EBidKingEffectType::BKE_PurpleDoubleValue",
+        "Weight": 50,
+        "RatioValue": 0.0
+      },
+      "NM_effect_15": {
+        "EffectPoolId": "efffectpool_3",
+        "EffectName": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingEffect_Urgency",
+          "SourceString": "紧迫危机",
+          "LocalizedString": "紧迫危机"
+        },
+        "EffectDesc": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingEffect_Urgency_Desc",
+          "SourceString": "每回合的出价时间降低为20秒，时间耗尽时不会触发自动弃权。",
+          "LocalizedString": "每回合的出价时间降低为20秒，时间耗尽时不会触发自动弃权。"
+        },
+        "EffectType": "EBidKingEffectType::BKE_PurpleDoubleValue",
+        "Weight": 20,
         "RatioValue": 0.0
       }
     }

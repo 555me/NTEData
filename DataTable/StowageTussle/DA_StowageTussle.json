@@ -14,61 +14,50 @@
         "ObjectName": "DataTable'DT_StowageTussleItemShapeConfig'",
         "ObjectPath": "/Game/DataTable/StowageTussle/DT_StowageTussleItemShapeConfig.0"
       },
-      "WarehouseSizeMap": [
-        {
-          "Key": "ELatticeWarehouseType::PlayerCommon",
-          "Value": {
-            "X": 7,
-            "Y": 3
-          }
-        },
-        {
-          "Key": "ELatticeWarehouseType::InUse",
-          "Value": {
-            "X": 7,
-            "Y": 5
-          }
-        }
-      ],
-      "DefaultWarehouseSizeMap": [
-        {
-          "Key": "ELatticeWarehouseType::PlayerCommon",
-          "Value": {
-            "X": 7,
-            "Y": 3
-          }
-        },
-        {
-          "Key": "ELatticeWarehouseType::InUse",
-          "Value": {
-            "X": 5,
-            "Y": 3
-          }
-        }
-      ],
+      "ItemBuffDataTable": {
+        "ObjectName": "DataTable'DT_StowageTussleBuff'",
+        "ObjectPath": "/Game/DataTable/StowageTussle/DT_StowageTussleBuff.0"
+      },
+      "PveWarehouseSettingDataTable": {
+        "ObjectName": "DataTable'DT_StowageTussleWarehouseSetting'",
+        "ObjectPath": "/Game/DataTable/StowageTussle/DT_StowageTussleWarehouseSetting.0"
+      },
+      "MonsterDataTable": {
+        "ObjectName": "DataTable'DT_StowageTussleMonster'",
+        "ObjectPath": "/Game/DataTable/StowageTussle/DT_StowageTussleMonster.0"
+      },
+      "ShopItemDataTable": {
+        "ObjectName": "DataTable'DT_StowageTussleItemRandomPool'",
+        "ObjectPath": "/Game/DataTable/StowageTussle/DT_StowageTussleItemRandomPool.0"
+      },
+      "ShopItemID": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_DLC_StowageTussle_1",
+      "ShopItemAmount": 8,
+      "ShopRefreshCostSetting": [],
+      "ShopItemMaxQuality": "EItemQuality::ITEM_QUALITY_MAX",
       "StowageTussleGameConfig": {
         "GameTransform": {
-          "Translation": {
-            "X": -91132.42,
-            "Y": 131988.72,
-            "Z": -3353.6755
-          }
-        },
-        "DataLayerAssets": [
-          {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_CloneResource_01.W_Unload_CloneResource_01",
-            "SubPathString": ""
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 0.0,
+            "IsNormalized": false,
+            "Size": 0.0,
+            "SizeSquared": 0.0
           },
-          {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_CloneResource_02.W_Unload_CloneResource_02",
-            "SubPathString": ""
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
           }
-        ],
-        "StartUIName": "StowageTussleStartMain",
-        "PrepareUIName": "StowageTussleShop",
-        "BattleUIName": "StwoageTussleBattle",
-        "ResultUIName": "StwoageTussleResult"
-      }
+        }
+      },
+      "NativeClass": null
     }
   }
 ]

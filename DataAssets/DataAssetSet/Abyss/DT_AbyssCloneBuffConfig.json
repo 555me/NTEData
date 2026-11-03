@@ -373,8 +373,8 @@
         "BuffDesc": {
           "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
           "Key": "abyss_13_buff_01_des",
-          "SourceString": "全队获得<lv>25%</>全属性穿透；触发异能环合时，参与触发的角色获得<lv>20%</>伤害增强，持续12秒，重复触发刷新持续时间。",
-          "LocalizedString": "全队获得<lv>25%</>全属性穿透；触发异能环合时，参与触发的角色获得<lv>20%</>伤害增强，持续12秒，重复触发刷新持续时间。"
+          "SourceString": "全队无视敌人<lv>25%</>全属性异能抗性；触发异能环合时，参与触发的角色获得<lv>20%</>伤害增强，持续12秒，重复触发刷新持续时间。",
+          "LocalizedString": "全队无视敌人<lv>25%</>全属性异能抗性；触发异能环合时，参与触发的角色获得<lv>20%</>伤害增强，持续12秒，重复触发刷新持续时间。"
         },
         "BuffIcon": {
           "AssetPathName": "/Game/UI/UI/Abyss/BUFF/Ayss_buff_14.Ayss_buff_14",
@@ -393,24 +393,51 @@
       "abyss_14_buff_01": {
         "BuffName": {
           "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
-          "Key": "abyss_12_buff_01_name",
-          "SourceString": "百川归海",
-          "LocalizedString": "百川归海"
+          "Key": "abyss_14_buff_01_name",
+          "SourceString": "寒光流转",
+          "LocalizedString": "寒光流转"
         },
         "BuffDesc": {
           "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
-          "Key": "abyss_12_buff_01_des",
-          "SourceString": "己方编队角色造成的相属性异能伤害和魂属性异能伤害提高<lv>45%</>。",
-          "LocalizedString": "己方编队角色造成的相属性异能伤害和魂属性异能伤害提高<lv>45%</>。"
+          "Key": "abyss_14_buff_01_des",
+          "SourceString": "全队获得<lv>20%</>无视防御；释放「极轨终结」时，当前角色无视敌人<lv>20%</>全属性异能抗性，持续<lv>20</>秒，重复触发刷新持续时间。",
+          "LocalizedString": "全队获得<lv>20%</>无视防御；释放「极轨终结」时，当前角色无视敌人<lv>20%</>全属性异能抗性，持续<lv>20</>秒，重复触发刷新持续时间。"
         },
         "BuffIcon": {
-          "AssetPathName": "/Game/UI/UI/Abyss/BUFF/Ayss_buff_13.Ayss_buff_13",
+          "AssetPathName": "/Game/UI/UI/Abyss/BUFF/Ayss_buff_16.Ayss_buff_16",
           "SubPathString": ""
         },
         "CloneBuffArray": [
           {
             "BuffGE": {
-              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Phases/P12/Buff_Abyss_Phase_012.Buff_Abyss_Phase_012_C",
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Phases/P14/Buff_Abyss_Phase_014.Buff_Abyss_Phase_014_C",
+              "SubPathString": ""
+            },
+            "bAddToCharacter": true
+          }
+        ]
+      },
+      "abyss_15_buff_01": {
+        "BuffName": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "abyss_15_buff_01_name",
+          "SourceString": "众生回唱",
+          "LocalizedString": "众生回唱"
+        },
+        "BuffDesc": {
+          "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+          "Key": "abyss_15_buff_01_des",
+          "SourceString": "己方编队角色的召唤物造成的伤害提高<lv>45%</>。",
+          "LocalizedString": "己方编队角色的召唤物造成的伤害提高<lv>45%</>。"
+        },
+        "BuffIcon": {
+          "AssetPathName": "/Game/UI/UI/Abyss/BUFF/Ayss_buff_15.Ayss_buff_15",
+          "SubPathString": ""
+        },
+        "CloneBuffArray": [
+          {
+            "BuffGE": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Abyss/Phases/P15/Buff_Abyss_Phase_015.Buff_Abyss_Phase_015_C",
               "SubPathString": ""
             },
             "bAddToCharacter": true

@@ -2273,8 +2273,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
               "Key": "Xitong_Des_36_1",
-              "SourceString": "鉴定师家可以在呗果上浏览其他玩家发布的帖子。",
-              "LocalizedString": "鉴定师家可以在呗果上浏览其他玩家发布的帖子。"
+              "SourceString": "鉴定师可以在呗果上浏览其他玩家发布的帖子。",
+              "LocalizedString": "鉴定师可以在呗果上浏览其他玩家发布的帖子。"
             },
             "PlatformDescription": [],
             "GamepadDescription": [],
@@ -9732,8 +9732,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
               "Key": "PukaLand_1_Desc",
-              "SourceString": "在甜蜜大摆圈中，只需点击对应方向键，集中对应的圆圈，即可获得分数。\r\n圆圈分为单点\\长按\\连点三类，注意颜色区分。\r\n粉色糖圈：单次点击\r\n蓝色糖圈：长按点击\r\n橙色糖圈：连续点击",
-              "LocalizedString": "在甜蜜大摆圈中，只需点击对应方向键，集中对应的圆圈，即可获得分数。\r\n圆圈分为单点\\长按\\连点三类，注意颜色区分。\r\n粉色糖圈：单次点击\r\n蓝色糖圈：长按点击\r\n橙色糖圈：连续点击"
+              "SourceString": "在甜蜜大摆圈中，只需点击对应方向键，击中对应的圆圈，即可获得分数。\r\n圆圈分为单点\\长按\\连点三类，注意颜色区分。\r\n粉色糖圈：单次点击\r\n蓝色糖圈：长按点击\r\n橙色糖圈：连续点击",
+              "LocalizedString": "在甜蜜大摆圈中，只需点击对应方向键，击中对应的圆圈，即可获得分数。\r\n圆圈分为单点\\长按\\连点三类，注意颜色区分。\r\n粉色糖圈：单次点击\r\n蓝色糖圈：长按点击\r\n橙色糖圈：连续点击"
             },
             "PlatformDescription": [],
             "GamepadDescription": [],
@@ -11011,6 +11011,323 @@
           "SubPathString": ""
         },
         "UnLockID": "Defend_NS",
+        "IsPSShow": true,
+        "bShowMainGuide": true,
+        "bFirstClickAward": true,
+        "bBackendUnlock": false,
+        "IsInTrialCharacter": false,
+        "ShortcutItemID": "None",
+        "QuestId": "None"
+      },
+      "CharacterTeach_Elyms": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+          "Key": "Elyms_Title",
+          "SourceString": "角色教学·曳尔沐",
+          "LocalizedString": "角色教学·曳尔沐"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+              "Key": "Elyms_Title",
+              "SourceString": "角色教学·曳尔沐",
+              "LocalizedString": "角色教学·曳尔沐"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+              "Key": "Elyms_des",
+              "SourceString": "曳尔沐是一位能通过增强<red>「信号强度」</>强化自身战斗能力，并为队友提供<red>攻击提升</>与<red>后台协同攻击</>的角色。\r\n曳尔沐的<red>「信号强度」</>共有三级。处于<red>「弱信号」</>状态时，使用五段普通攻击，释放<red>普攻第五段</>或<red>基础技能「离去的人们」</>后可激活<red>强化技能「不连续的存在」</>；入战时，强化技能「不连续的存在」直接处于可施放状态。\r\n释放<red>基础技能「离去的人们」</>可瞬间充满<red>环合能量</>；释放<red>强化技能「不连续的存在」</>或<red>援护技</>可使曳尔沐的信号强度从<red>「弱信号」</>提升至<red>「中等信号」</>，并获得一层增益效果<red>「错视幻觉」</>。\r\n<red>「中等信号」或「强信号」状态</>下，普通攻击变为三段，释放<red>普攻第三段</>后可激活<red>进阶强化技能「对你说再见」</>。释放进阶强化技能可增强至<red>「强信号」状态</>，并消耗全部<red>「错视幻觉」</>层数，提高本次技能的伤害倍率。\r\n释放<red>强化技能和进阶强化技能</>或释放<red>援护技</>时会检索周围敌人数量，决定极轨终结的<red>对单或对群形态</>；在<red>「弱信号」</>状态释放极轨终结时，默认使用对群形态。\r\n释放<red>极轨终结</>后，为其他队友提供<red>攻击提升</>，并获得<red>「后台连线」</>状态。切换至队友后，曳尔沐会根据大招形态及释放时的信号强度自动进行<red>协同攻击</>，该伤害视为<red>追加攻击</>。 ",
+              "LocalizedString": "曳尔沐是一位能通过增强<red>「信号强度」</>强化自身战斗能力，并为队友提供<red>攻击提升</>与<red>后台协同攻击</>的角色。\r\n曳尔沐的<red>「信号强度」</>共有三级。处于<red>「弱信号」</>状态时，使用五段普通攻击，释放<red>普攻第五段</>或<red>基础技能「离去的人们」</>后可激活<red>强化技能「不连续的存在」</>；入战时，强化技能「不连续的存在」直接处于可施放状态。\r\n释放<red>基础技能「离去的人们」</>可瞬间充满<red>环合能量</>；释放<red>强化技能「不连续的存在」</>或<red>援护技</>可使曳尔沐的信号强度从<red>「弱信号」</>提升至<red>「中等信号」</>，并获得一层增益效果<red>「错视幻觉」</>。\r\n<red>「中等信号」或「强信号」状态</>下，普通攻击变为三段，释放<red>普攻第三段</>后可激活<red>进阶强化技能「对你说再见」</>。释放进阶强化技能可增强至<red>「强信号」状态</>，并消耗全部<red>「错视幻觉」</>层数，提高本次技能的伤害倍率。\r\n释放<red>强化技能和进阶强化技能</>或释放<red>援护技</>时会检索周围敌人数量，决定极轨终结的<red>对单或对群形态</>；在<red>「弱信号」</>状态释放极轨终结时，默认使用对群形态。\r\n释放<red>极轨终结</>后，为其他队友提供<red>攻击提升</>，并获得<red>「后台连线」</>状态。切换至队友后，曳尔沐会根据大招形态及释放时的信号强度自动进行<red>协同攻击</>，该伤害视为<red>追加攻击</>。 "
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0175.UI_YH_Guide_Banner_0175",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0175.UI_YH_Guide_Banner_0175",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0175.UI_YH_Guide_Banner_0175",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": true,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockID": "CharacterTeach_Elyms",
+        "IsPSShow": true,
+        "bShowMainGuide": false,
+        "bFirstClickAward": false,
+        "bBackendUnlock": false,
+        "IsInTrialCharacter": false,
+        "ShortcutItemID": "None",
+        "QuestId": "None"
+      },
+      "CharacterTeach_Exe": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+          "Key": "Exe_Title",
+          "SourceString": "角色教学·Exe",
+          "LocalizedString": "角色教学·Exe"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+              "Key": "Exe_Title",
+              "SourceString": "角色教学·Exe",
+              "LocalizedString": "角色教学·Exe"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+              "Key": "Exe_des",
+              "SourceString": "Exe是一位擅长<red>远程</>攻击的<red>输出角色</>。 \r\n攻击命中敌人可积攒<red>「帧数」</>与<red>「评分」</>，<red>「评分」等级</>越高，<red>「帧数」</>的积攒速度越快；<red>普通攻击</>第5段与部分招式会消耗<red>「帧数」</>导出<red>「数字残像」</>协同攻击。\r\n长按<red>普通攻击</>可发动<red>「普通攻击：纵深侵入」</>，重置普攻连段；\r\n释放<red>变轨技能</>，可消耗大量<red>「帧数」</>导出多个<red>「数字残像」</>，快速提升<red>「评分」</>等级。\r\n 释放<red>极轨终结</>后进入<red>「方程构建」</>状态，期间Exe的所有攻击均可消耗<red>「帧数」</>导出<red>「数字残像」</>。 \r\n<red>「方程构建」</>持续期间，<red>「普通攻击：纵深侵入」</>可处决生命值低于一定比例的非Boss敌人，并延长<red>「方程构建」</>状态的持续时间。",
+              "LocalizedString": "Exe是一位擅长<red>远程</>攻击的<red>输出角色</>。 \r\n攻击命中敌人可积攒<red>「帧数」</>与<red>「评分」</>，<red>「评分」等级</>越高，<red>「帧数」</>的积攒速度越快；<red>普通攻击</>第5段与部分招式会消耗<red>「帧数」</>导出<red>「数字残像」</>协同攻击。\r\n长按<red>普通攻击</>可发动<red>「普通攻击：纵深侵入」</>，重置普攻连段；\r\n释放<red>变轨技能</>，可消耗大量<red>「帧数」</>导出多个<red>「数字残像」</>，快速提升<red>「评分」</>等级。\r\n 释放<red>极轨终结</>后进入<red>「方程构建」</>状态，期间Exe的所有攻击均可消耗<red>「帧数」</>导出<red>「数字残像」</>。 \r\n<red>「方程构建」</>持续期间，<red>「普通攻击：纵深侵入」</>可处决生命值低于一定比例的非Boss敌人，并延长<red>「方程构建」</>状态的持续时间。"
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0176.UI_YH_Guide_Banner_0176",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0176.UI_YH_Guide_Banner_0176",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0176.UI_YH_Guide_Banner_0176",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": true,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockID": "CharacterTeach_Exe",
+        "IsPSShow": true,
+        "bShowMainGuide": false,
+        "bFirstClickAward": false,
+        "bBackendUnlock": false,
+        "IsInTrialCharacter": false,
+        "ShortcutItemID": "None",
+        "QuestId": "None"
+      },
+      "Volleyball_PVP": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+          "Key": "UI_Volleyball",
+          "SourceString": "排球之星",
+          "LocalizedString": "排球之星"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_999",
+              "SourceString": "进阶比赛规则",
+              "LocalizedString": "进阶比赛规则"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_998",
+              "SourceString": "当段位达到「职业Ⅳ」及以上时，比赛将启用进阶规则。\r\n\r\n与好友组队时，只要队伍中任意一人达到「职业Ⅳ」及以上，整场比赛也将启用进阶规则。",
+              "LocalizedString": "当段位达到「职业Ⅳ」及以上时，比赛将启用进阶规则。\r\n\r\n与好友组队时，只要队伍中任意一人达到「职业Ⅳ」及以上，整场比赛也将启用进阶规则。"
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_1.UI_YH_Guide_Volleyball_1",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_1.UI_YH_Guide_Volleyball_1",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_1.UI_YH_Guide_Volleyball_1",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_06",
+              "SourceString": "预判落点",
+              "LocalizedString": "预判落点"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_01",
+              "SourceString": "进阶比赛中，将不再显示排球的落点提示。仔细观察球的飞行轨迹，提前判断落点并移动接球。",
+              "LocalizedString": "进阶比赛中，将不再显示排球的落点提示。仔细观察球的飞行轨迹，提前判断落点并移动接球。"
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_2.UI_YH_Guide_Volleyball_2",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_2.UI_YH_Guide_Volleyball_2",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_2.UI_YH_Guide_Volleyball_2",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_07",
+              "SourceString": "体力消耗",
+              "LocalizedString": "体力消耗"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_02",
+              "SourceString": "接球、救球、拦网和扣球都会消耗体力。体力越低，角色的各项能力也会逐渐下降。每分结束后，所有角色的体力恢复至满值。",
+              "LocalizedString": "接球、救球、拦网和扣球都会消耗体力。体力越低，角色的各项能力也会逐渐下降。每分结束后，所有角色的体力恢复至满值。"
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_3.UI_YH_Guide_Volleyball_3",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_3.UI_YH_Guide_Volleyball_3",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_3.UI_YH_Guide_Volleyball_3",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_08",
+              "SourceString": "方向二传",
+              "LocalizedString": "方向二传"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_03",
+              "SourceString": "二传时，按住「左」或「右」并传球，即可将球传向对应方向。观察对方的防守站位，选择更有利的传球路线。",
+              "LocalizedString": "二传时，按住「左」或「右」并传球，即可将球传向对应方向。观察对方的防守站位，选择更有利的传球路线。"
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_4.UI_YH_Guide_Volleyball_4",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_4.UI_YH_Guide_Volleyball_4",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_4.UI_YH_Guide_Volleyball_4",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_09",
+              "SourceString": "快慢传球",
+              "LocalizedString": "快慢传球"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_04",
+              "SourceString": "传球时，按住「上」可进行快传，按住「下」可进行慢传。还可以组合使用方向键，例如同时按住「右」和「下」传球，即可向右侧慢传。",
+              "LocalizedString": "传球时，按住「上」可进行快传，按住「下」可进行慢传。还可以组合使用方向键，例如同时按住「右」和「下」传球，即可向右侧慢传。"
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_5.UI_YH_Guide_Volleyball_5",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_5.UI_YH_Guide_Volleyball_5",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_5.UI_YH_Guide_Volleyball_5",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_10",
+              "SourceString": "方向轻扣",
+              "LocalizedString": "方向轻扣"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
+              "Key": "UI_Volleyball_Teach_05",
+              "SourceString": "空中轻扣时，不按方向键即可打出原有的吊球；按住「上」「下」「左」或「右」中的任意一个方向键，即可将球打向对应方向，灵活改变落点，避开对方防守。",
+              "LocalizedString": "空中轻扣时，不按方向键即可打出原有的吊球；按住「上」「下」「左」或「右」中的任意一个方向键，即可将球打向对应方向，灵活改变落点，避开对方防守。"
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_6.UI_YH_Guide_Volleyball_6",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_6.UI_YH_Guide_Volleyball_6",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/SCNEW/UI_YH_Guide_Volleyball_6.UI_YH_Guide_Volleyball_6",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": true,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockID": "Volleyball_PVP",
         "IsPSShow": true,
         "bShowMainGuide": true,
         "bFirstClickAward": true,
