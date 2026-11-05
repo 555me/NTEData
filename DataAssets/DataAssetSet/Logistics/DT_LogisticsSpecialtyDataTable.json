@@ -11,6 +11,223 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "Specialty_Normal": {
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_001_Name",
+          "SourceString": "普通司机",
+          "LocalizedString": "普通司机"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_001_Des",
+          "SourceString": "普通货物订单派送时间-10%，满意度+10",
+          "LocalizedString": "普通货物订单派送时间-10%，满意度+10"
+        },
+        "CargoCategory": "NormalGoods",
+        "Channel": "EHTLogisticsChannel::Company",
+        "bMatchChannel": false,
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::OrderScore",
+            "Value": 10
+          },
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::DeliveryTimePercent",
+            "Value": -10
+          }
+        ]
+      },
+      "Specialty_LargeCargo": {
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_002_Name",
+          "SourceString": "大型运输专家",
+          "LocalizedString": "大型运输专家"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_002_Des",
+          "SourceString": "大型货物订单派送时间-10%，满意度+10",
+          "LocalizedString": "大型货物订单派送时间-10%，满意度+10"
+        },
+        "CargoCategory": "BigGoods",
+        "Channel": "EHTLogisticsChannel::Company",
+        "bMatchChannel": false,
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::OrderScore",
+            "Value": 10
+          },
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::DeliveryTimePercent",
+            "Value": -10
+          }
+        ]
+      },
+      "Specialty_FragileCargo": {
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_003_Name",
+          "SourceString": "易损运输专家",
+          "LocalizedString": "易损运输专家"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_003_Des",
+          "SourceString": "易损货物订单派送时间-10%，满意度+10",
+          "LocalizedString": "易损货物订单派送时间-10%，满意度+10"
+        },
+        "CargoCategory": "DamageableGoods",
+        "Channel": "EHTLogisticsChannel::Company",
+        "bMatchChannel": false,
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::OrderScore",
+            "Value": 10
+          },
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::DeliveryTimePercent",
+            "Value": -10
+          }
+        ]
+      },
+      "Specialty_ExpressCargo": {
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_004_Name",
+          "SourceString": "加急运输专家",
+          "LocalizedString": "加急运输专家"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_004_Des",
+          "SourceString": "加急货物订单派送时间-10%，满意度+10",
+          "LocalizedString": "加急货物订单派送时间-10%，满意度+10"
+        },
+        "CargoCategory": "UrgendGoods",
+        "Channel": "EHTLogisticsChannel::Company",
+        "bMatchChannel": false,
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::OrderScore",
+            "Value": 10
+          },
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::DeliveryTimePercent",
+            "Value": -10
+          }
+        ]
+      },
+      "Specialty_AnomalyCargo": {
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_005_Name",
+          "SourceString": "异象运输专家",
+          "LocalizedString": "异象运输专家"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_005_Des",
+          "SourceString": "异象货物订单派送时间-10%，满意度+10",
+          "LocalizedString": "异象货物订单派送时间-10%，满意度+10"
+        },
+        "CargoCategory": "HeteromorphismGoods",
+        "Channel": "EHTLogisticsChannel::Company",
+        "bMatchChannel": false,
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::OrderScore",
+            "Value": 10
+          },
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::DeliveryTimePercent",
+            "Value": -10
+          }
+        ]
+      },
+      "Specialty_ValuableEscort": {
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_006_Name",
+          "SourceString": "高值押运专家",
+          "LocalizedString": "高值押运专家"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_006_Des",
+          "SourceString": "贵重货物订单派送时间-10%，满意度+10",
+          "LocalizedString": "贵重货物订单派送时间-10%，满意度+10"
+        },
+        "CargoCategory": "ValuableGoods",
+        "Channel": "EHTLogisticsChannel::Company",
+        "bMatchChannel": false,
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::OrderScore",
+            "Value": 10
+          },
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::DeliveryTimePercent",
+            "Value": -10
+          }
+        ]
+      },
+      "Specialty_UndergroundCargo": {
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_008_Name",
+          "SourceString": "地下运输熟手",
+          "LocalizedString": "地下运输熟手"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_008_Des",
+          "SourceString": "地下渠道订单派送时间-5%，满意度+10",
+          "LocalizedString": "地下渠道订单派送时间-5%，满意度+10"
+        },
+        "CargoCategory": "None",
+        "Channel": "EHTLogisticsChannel::Underground",
+        "bMatchChannel": true,
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::OrderScore",
+            "Value": 10
+          },
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::DeliveryTimePercent",
+            "Value": -5
+          }
+        ]
+      },
+      "Specialty_OfficialCargo": {
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_009_Name",
+          "SourceString": "官方货运专员",
+          "LocalizedString": "官方货运专员"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Driver_Common_Specialty_009_Des",
+          "SourceString": "官方渠道订单派送时间-5%，满意度+10",
+          "LocalizedString": "官方渠道订单派送时间-5%，满意度+10"
+        },
+        "CargoCategory": "None",
+        "Channel": "EHTLogisticsChannel::Official",
+        "bMatchChannel": true,
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::OrderScore",
+            "Value": 10
+          },
+          {
+            "EffectType": "EHTLogisticsSpecialtyEffectType::DeliveryTimePercent",
+            "Value": -5
+          }
+        ]
+      }
+    }
   }
 ]

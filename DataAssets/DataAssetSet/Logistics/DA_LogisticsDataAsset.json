@@ -4,6 +4,626 @@
     "Name": "DA_LogisticsDataAsset",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'HTLogisticsDataAsset'",
-    "Package": "/Game/DataAssets/DataAssetSet/Logistics/DA_LogisticsDataAsset"
+    "Package": "/Game/DataAssets/DataAssetSet/Logistics/DA_LogisticsDataAsset",
+    "Properties": {
+      "RestoreTransformID": "LogisticsRestore",
+      "WorldDriverMapIconID": "LogisticsDriver",
+      "WorldDriverRangeMapIconID": "TraceRange_LogisticsDriver",
+      "TimeCountDownPreviewHoursFormat": {
+        "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+        "Key": "YHUI_Logistics_Compact_Hours",
+        "SourceString": "{0}小时",
+        "LocalizedString": "{0}小时"
+      },
+      "TimeCountDownPreviewMinutesFormat": {
+        "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+        "Key": "YHUI_Logistics_Compact_Min",
+        "SourceString": "{0}分钟",
+        "LocalizedString": "{0}分钟"
+      },
+      "TimeCountDownPreviewSecondsFormat": {
+        "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+        "Key": "YHUI_Logistics_Compact_Sec",
+        "SourceString": "{0}秒",
+        "LocalizedString": "{0}秒"
+      },
+      "TimeCountDownPreviewFormat": {
+        "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+        "Key": "YHUI_Logistics_Compact",
+        "SourceString": "{0}{1}{2}",
+        "LocalizedString": "{0}{1}{2}"
+      },
+      "FunctionUnlockId": "DelegateMission",
+      "CompanyFunctionUnlockId": "LogisticsCenter",
+      "CompanyGuideQuestId": "S112101",
+      "CompanyGuideQuestRequiredPersonalCompletionCount": 3,
+      "InitialOfficialReputationScore": 100,
+      "InitialUndergroundReputationScore": 50,
+      "CompanyBaseOrderWeight": 200,
+      "BaseDailyMarketOrderCount": 6,
+      "BaseManualMarketRefreshCount": 0,
+      "BaseDriverCapacity": 6,
+      "BaseMaxConcurrentDispatch": 3,
+      "MinDriverDispatchDurationSeconds": 60,
+      "ResumeCandidateCount": 8,
+      "GreenQualityWeight": 40,
+      "BlueQualityWeight": 35,
+      "PurpleQualityWeight": 25,
+      "FonsItemId": "Fons",
+      "LogisticsCoinItemId": "LogisticsCoin",
+      "SkillPointItemId": "LogisticsSkillPoint",
+      "CompanyExpItemId": "LogisticsExp",
+      "DriverLogisticsCoinRewardLimit": 57220,
+      "DriverSkillPointRewardLimit": 15455,
+      "StandardOrderRewardDropId": "drop_Logistics_StandardReward",
+      "UnselectedDriverPreviewMaxDeductionPercent": 75,
+      "SatisfactionGradeConfigs": [
+        {
+          "SatisfactionRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 90
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 100
+            }
+          },
+          "Grade": "EHTLogisticsSettleGrade::S",
+          "GradeIcon": {
+            "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSettle/UI_YH_Kool_Settlement_Rating_S.UI_YH_Kool_Settlement_Rating_S",
+            "SubPathString": ""
+          },
+          "GradeIcon2": {
+            "AssetPathName": "/Game/UI/UI/DeliveryCompany/UI_YH_Kool_DriverSkills_S.UI_YH_Kool_DriverSkills_S",
+            "SubPathString": ""
+          },
+          "LevelEffectIcon": {
+            "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_face_S.YH_UI_weituo_face_S",
+            "SubPathString": ""
+          }
+        },
+        {
+          "SatisfactionRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 70
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 90
+            }
+          },
+          "Grade": "EHTLogisticsSettleGrade::A",
+          "GradeIcon": {
+            "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSettle/UI_YH_Kool_Settlement_Rating_A.UI_YH_Kool_Settlement_Rating_A",
+            "SubPathString": ""
+          },
+          "GradeIcon2": {
+            "AssetPathName": "/Game/UI/UI/DeliveryCompany/UI_YH_Kool_DriverSkills_A.UI_YH_Kool_DriverSkills_A",
+            "SubPathString": ""
+          },
+          "LevelEffectIcon": {
+            "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_face_A.YH_UI_weituo_face_A",
+            "SubPathString": ""
+          }
+        },
+        {
+          "SatisfactionRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 50
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 70
+            }
+          },
+          "Grade": "EHTLogisticsSettleGrade::B",
+          "GradeIcon": {
+            "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSettle/UI_YH_Kool_Settlement_Rating_B.UI_YH_Kool_Settlement_Rating_B",
+            "SubPathString": ""
+          },
+          "GradeIcon2": {
+            "AssetPathName": "/Game/UI/UI/DeliveryCompany/UI_YH_Kool_DriverSkills_B.UI_YH_Kool_DriverSkills_B",
+            "SubPathString": ""
+          },
+          "LevelEffectIcon": {
+            "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_face_B.YH_UI_weituo_face_B",
+            "SubPathString": ""
+          }
+        },
+        {
+          "SatisfactionRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 50
+            }
+          },
+          "Grade": "EHTLogisticsSettleGrade::C",
+          "GradeIcon": {
+            "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSettle/UI_YH_Kool_Settlement_Rating_C.UI_YH_Kool_Settlement_Rating_C",
+            "SubPathString": ""
+          },
+          "GradeIcon2": {
+            "AssetPathName": "/Game/UI/UI/DeliveryCompany/UI_YH_Kool_DriverSkills_C.UI_YH_Kool_DriverSkills_C",
+            "SubPathString": ""
+          },
+          "LevelEffectIcon": {
+            "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_face_C.YH_UI_weituo_face_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DefaultPersonalStages": [
+        {
+          "StageType": "EHTLogisticsStageType::Preparation",
+          "CompletionType": "EHTLogisticsStageCompletionType::QuestCompleted",
+          "BeginQuestIdOverride": "LogisticsQuest01",
+          "CompletionQuestIdOverride": "LogisticsQuest01",
+          "CompletionHandlerId": "None",
+          "TimerAction": "EHTLogisticsStageTimerAction::None",
+          "VehiclePolicy": "EHTLogisticsVehiclePolicy::None",
+          "bInitializeCargoDurability": false
+        },
+        {
+          "StageType": "EHTLogisticsStageType::StandardDelivery",
+          "CompletionType": "EHTLogisticsStageCompletionType::QuestCompleted",
+          "BeginQuestIdOverride": "LogisticsQuest02",
+          "CompletionQuestIdOverride": "LogisticsQuest02",
+          "CompletionHandlerId": "None",
+          "TimerAction": "EHTLogisticsStageTimerAction::Start",
+          "VehiclePolicy": "EHTLogisticsVehiclePolicy::MustStayInVehicle",
+          "bInitializeCargoDurability": true
+        },
+        {
+          "StageType": "EHTLogisticsStageType::Handover",
+          "CompletionType": "EHTLogisticsStageCompletionType::QuestCompleted",
+          "BeginQuestIdOverride": "LogisticsQuest03",
+          "CompletionQuestIdOverride": "LogisticsQuest03",
+          "CompletionHandlerId": "None",
+          "TimerAction": "EHTLogisticsStageTimerAction::Stop",
+          "VehiclePolicy": "EHTLogisticsVehiclePolicy::None",
+          "bInitializeCargoDurability": false
+        }
+      ],
+      "DefaultStageQuestIds": [
+        {
+          "Key": "EHTLogisticsStageType::Preparation",
+          "Value": "LogisticsQuest01"
+        },
+        {
+          "Key": "EHTLogisticsStageType::StandardDelivery",
+          "Value": "LogisticsQuest02"
+        },
+        {
+          "Key": "EHTLogisticsStageType::Handover",
+          "Value": "LogisticsQuest03"
+        }
+      ],
+      "CargoDamageScale": 0.04,
+      "ChannelDisplayConfigs": [
+        {
+          "Channel": "EHTLogisticsChannel::Official",
+          "DisplayName": {
+            "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+            "Key": "YHUI_Logistics_Order_Commission_Official",
+            "SourceString": "官方委托",
+            "LocalizedString": "官方委托"
+          },
+          "ReputationDisplayName": {
+            "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+            "Key": "YHUI_Logistics_Relationship_Official_Reputation",
+            "SourceString": "官方信誉",
+            "LocalizedString": "官方信誉"
+          }
+        },
+        {
+          "Channel": "EHTLogisticsChannel::Underground",
+          "DisplayName": {
+            "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+            "Key": "YHUI_Logistics_Order_Commission_Underground",
+            "SourceString": "地下委托",
+            "LocalizedString": "地下委托"
+          },
+          "ReputationDisplayName": {
+            "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+            "Key": "YHUI_Logistics_Relationship_Underground_Reputation",
+            "SourceString": "地下信誉",
+            "LocalizedString": "地下信誉"
+          }
+        },
+        {
+          "Channel": "EHTLogisticsChannel::Company",
+          "DisplayName": {
+            "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+            "Key": "YHUI_Logistics_Order_Commission_General",
+            "SourceString": "通常委托",
+            "LocalizedString": "通常委托"
+          },
+          "ReputationDisplayName": {
+            "CultureInvariantString": null
+          }
+        }
+      ],
+      "GoodsServiceTypeDisplayTexts": [
+        {
+          "Key": "EHTLogisticsGoodsServiceType::DeliveryService",
+          "Value": {
+            "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+            "Key": "YHUI_Logistics_Order_Freight",
+            "SourceString": "货运订单",
+            "LocalizedString": "货运订单"
+          }
+        },
+        {
+          "Key": "EHTLogisticsGoodsServiceType::SpecialService",
+          "Value": {
+            "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+            "Key": "YHUI_Logistics_Order_Special",
+            "SourceString": "特殊订单",
+            "LocalizedString": "特殊订单"
+          }
+        }
+      ],
+      "ReputationStageConfigs": [
+        {
+          "Key": "EHTLogisticsReputationType::Official",
+          "Value": {
+            "Stages": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 50
+                  }
+                },
+                "Name": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Official_Tier_001",
+                  "SourceString": "合作备案",
+                  "LocalizedString": "合作备案"
+                },
+                "Description": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Official_Tier_001",
+                  "SourceString": "合作备案",
+                  "LocalizedString": "合作备案"
+                }
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 50
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 100
+                  }
+                },
+                "Name": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Official_Tier_002",
+                  "SourceString": "正式合作",
+                  "LocalizedString": "正式合作"
+                },
+                "Description": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Official_Tier_002",
+                  "SourceString": "正式合作",
+                  "LocalizedString": "正式合作"
+                }
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 100
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 150
+                  }
+                },
+                "Name": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Official_Tier_003",
+                  "SourceString": "深入合作",
+                  "LocalizedString": "深入合作"
+                },
+                "Description": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Official_Tier_003",
+                  "SourceString": "深入合作",
+                  "LocalizedString": "深入合作"
+                }
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 150
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 200
+                  }
+                },
+                "Name": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Official_Tier_004",
+                  "SourceString": "战略合作",
+                  "LocalizedString": "战略合作"
+                },
+                "Description": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Official_Tier_004",
+                  "SourceString": "战略合作",
+                  "LocalizedString": "战略合作"
+                }
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 300
+                  }
+                },
+                "Name": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Official_Tier_005",
+                  "SourceString": "特许合作",
+                  "LocalizedString": "特许合作"
+                },
+                "Description": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Official_Tier_005",
+                  "SourceString": "特许合作",
+                  "LocalizedString": "特许合作"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EHTLogisticsReputationType::Underground",
+          "Value": {
+            "Stages": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 50
+                  }
+                },
+                "Name": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Underground_Tier_001",
+                  "SourceString": "初步接触",
+                  "LocalizedString": "初步接触"
+                },
+                "Description": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Underground_Tier_001",
+                  "SourceString": "初步接触",
+                  "LocalizedString": "初步接触"
+                }
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 50
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 100
+                  }
+                },
+                "Name": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Underground_Tier_002",
+                  "SourceString": "逐渐熟悉",
+                  "LocalizedString": "逐渐熟悉"
+                },
+                "Description": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Underground_Tier_002",
+                  "SourceString": "逐渐熟悉",
+                  "LocalizedString": "逐渐熟悉"
+                }
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 100
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 150
+                  }
+                },
+                "Name": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Underground_Tier_003",
+                  "SourceString": "建立信任",
+                  "LocalizedString": "建立信任"
+                },
+                "Description": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Underground_Tier_003",
+                  "SourceString": "建立信任",
+                  "LocalizedString": "建立信任"
+                }
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 150
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 200
+                  }
+                },
+                "Name": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Underground_Tier_004",
+                  "SourceString": "深得信赖",
+                  "LocalizedString": "深得信赖"
+                },
+                "Description": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Underground_Tier_004",
+                  "SourceString": "深得信赖",
+                  "LocalizedString": "深得信赖"
+                }
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 300
+                  }
+                },
+                "Name": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Underground_Tier_005",
+                  "SourceString": "荣誉成员",
+                  "LocalizedString": "荣誉成员"
+                },
+                "Description": {
+                  "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+                  "Key": "YHUI_Logistics_Relationship_Underground_Tier_005",
+                  "SourceString": "荣誉成员",
+                  "LocalizedString": "荣誉成员"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "OrderStarActiveIcon": {
+        "AssetPathName": "/Game/UI/UI/DeliveryCompany/UI_YH_Kool_Order_List_Lv_Icon_02.UI_YH_Kool_Order_List_Lv_Icon_02",
+        "SubPathString": ""
+      },
+      "OrderStarInactiveIcon": {
+        "AssetPathName": "/Game/UI/UI/DeliveryCompany/UI_YH_Kool_Order_List_Lv_Icon_01.UI_YH_Kool_Order_List_Lv_Icon_01",
+        "SubPathString": ""
+      },
+      "UnselectedDriverImage": {
+        "AssetPathName": "/Game/UI/UI/DeliveryCompany/UI_YH_Kool_Order_Details_AddRole_Normal.UI_YH_Kool_Order_Details_AddRole_Normal",
+        "SubPathString": ""
+      },
+      "DriverIdleText": {
+        "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+        "Key": "YHUI_Logistics_Driver_Common_Status_Idle",
+        "SourceString": "空闲中",
+        "LocalizedString": "空闲中"
+      },
+      "DriverDispatchingText": {
+        "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+        "Key": "YHUI_Logistics_Driver_Common_Status_Dispatching",
+        "SourceString": "派遣中",
+        "LocalizedString": "派遣中"
+      },
+      "DriverRestingText": {
+        "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+        "Key": "YHUI_Logistics_Driver_Common_Status_Resting",
+        "SourceString": "休息中",
+        "LocalizedString": "休息中"
+      },
+      "DT_OrderConfigTable": {
+        "ObjectName": "DataTable'DT_LogisticsOrderDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsOrderDataTable.0"
+      },
+      "DT_PointConfigTable": {
+        "ObjectName": "DataTable'DT_LogisticsPointDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsPointDataTable.0"
+      },
+      "DT_RouteBindTable": {
+        "ObjectName": "DataTable'DT_LogisticsRouteBindDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsRouteBindDataTable.0"
+      },
+      "DT_DestinationConfigTable": {
+        "ObjectName": "DataTable'DT_LogisticsDestinationDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsDestinationDataTable.0"
+      },
+      "DT_GoodsCategoryTable": {
+        "ObjectName": "DataTable'DT_LogisticsGoodsCategoryDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsGoodsCategoryDataTable.0"
+      },
+      "DT_DriverQualityRuleTable": {
+        "ObjectName": "DataTable'DT_LogisticsDriverQualityRuleDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsDriverQualityRuleDataTable.0"
+      },
+      "DT_SpecialtyTable": {
+        "ObjectName": "DataTable'DT_LogisticsSpecialtyDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsSpecialtyDataTable.0"
+      },
+      "DT_TraitTable": {
+        "ObjectName": "DataTable'DT_LogisticsTraitDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsTraitDataTable.0"
+      },
+      "DT_CompanyLevelRuleTable": {
+        "ObjectName": "DataTable'DT_LogisticsCompanyLevelRuleDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsCompanyLevelRuleDataTable.0"
+      },
+      "DT_OrganizationTable": {
+        "ObjectName": "DataTable'DT_LogisticsOrganizationDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsOrganizationDataTable.0"
+      },
+      "DT_SkillTable": {
+        "ObjectName": "DataTable'DT_LogisticsSkillDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsSkillDataTable.0"
+      },
+      "DT_ManagerTable": {
+        "ObjectName": "DataTable'DT_LogisticsManagerDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsManagerDataTable.0"
+      },
+      "DT_WorldDriverTable": {
+        "ObjectName": "DataTable'DT_LogisticsWorldDriverDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsWorldDriverDataTable.0"
+      },
+      "DT_ResumeNameTable": {
+        "ObjectName": "DataTable'DT_LogisticsResumeNameDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsResumeNameDataTable.0"
+      },
+      "DT_ResumeBackgroundTable": {
+        "ObjectName": "DataTable'DT_LogisticsResumeBackgroundDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsResumeBackgroundDataTable.0"
+      },
+      "DT_ResumeAppearanceTable": {
+        "ObjectName": "DataTable'DT_LogisticsResumeAppearanceDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsResumeAppearanceDataTable.0"
+      },
+      "DT_ResumeRefreshTagTable": {
+        "ObjectName": "DataTable'DT_LogisticsResumeRefreshTagDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Logistics/DT_LogisticsResumeRefreshTagDataTable.0"
+      }
+    }
   }
 ]

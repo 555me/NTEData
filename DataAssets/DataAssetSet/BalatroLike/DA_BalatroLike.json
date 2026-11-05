@@ -4,6 +4,833 @@
     "Name": "DA_BalatroLike",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'HTBalatroLikeDataAsset'",
-    "Package": "/Game/DataAssets/DataAssetSet/BalatroLike/DA_BalatroLike"
+    "Package": "/Game/DataAssets/DataAssetSet/BalatroLike/DA_BalatroLike",
+    "Properties": {
+      "ScoreBurnExcessPercentThresholds": [
+        100.0,
+        300.0,
+        500.0
+      ],
+      "ShopPlotDisplay": [
+        {
+          "Key": "EHTBalatroPlotType::Riverside",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "Plot_Riverside",
+              "SourceString": "河景",
+              "LocalizedString": "河景"
+            },
+            "Category": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "Plot_Riverside_Desc",
+              "SourceString": "结算时，接收相邻建筑的溢出客流，最多80点并在下一次结算产流前释放给相邻未超载建筑",
+              "LocalizedString": "结算时，接收相邻建筑的溢出客流，最多80点并在下一次结算产流前释放给相邻未超载建筑"
+            },
+            "IconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroPlotType::HighValue",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "Plot_HighValue",
+              "SourceString": "高价值",
+              "LocalizedString": "高价值"
+            },
+            "Category": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "Plot_HighValue_Desc",
+              "SourceString": "计分建筑每覆盖一格高价值地块，获得＋15客流、＋15%积分转化率",
+              "LocalizedString": "计分建筑每覆盖一格高价值地块，获得＋15客流、＋15%积分转化率"
+            },
+            "IconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroPlotType::Monument",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "Plot_Monument",
+              "SourceString": "城市纪念碑",
+              "LocalizedString": "城市纪念碑"
+            },
+            "Category": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "Plot_Monument_Desc",
+              "SourceString": "结算后，记录相邻建筑得分结算时，获得25%记录积分的额外积分",
+              "LocalizedString": "结算后，记录相邻建筑得分结算时，获得25%记录积分的额外积分"
+            },
+            "IconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        }
+      ],
+      "InactiveFloorMesh": {
+        "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_Balatro/Mesh/SM_Balatro_floor01.SM_Balatro_floor01",
+        "SubPathString": ""
+      },
+      "ActiveFloorMesh": {
+        "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_Balatro/Mesh/SM_Balatro_floor02.SM_Balatro_floor02",
+        "SubPathString": ""
+      },
+      "PlotVisualMeshes": [
+        {
+          "Key": "EHTBalatroPlotType::HighValue",
+          "Value": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_Balatro/Mesh/SM_Balatro_Specialfloor03.SM_Balatro_Specialfloor03",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EHTBalatroPlotType::Riverside",
+          "Value": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_Balatro/Mesh/SM_Balatro_Specialfloor01.SM_Balatro_Specialfloor01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EHTBalatroPlotType::Monument",
+          "Value": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_Balatro/Mesh/SM_Balatro_Specialfloor07.SM_Balatro_Specialfloor07",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EHTBalatroPlotType::Normal",
+          "Value": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EHTBalatroPlotType::Construction",
+          "Value": {
+            "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_Balatro/Mesh/SM_Balatro_Specialfloor04.SM_Balatro_Specialfloor04",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PlotHighlightMeshSlots": [
+        {
+          "Key": "/Game/Environment/Building/DLC_Structures/DLC_Balatro/Mesh/SM_Balatro_Specialfloor03.SM_Balatro_Specialfloor03",
+          "Value": {
+            "MaterialSlots": [
+              1
+            ]
+          }
+        }
+      ],
+      "AttachEffectVisuals": [
+        {
+          "Key": "EHTBalatroAttachEffect::Laser",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "CardModifier_Laser",
+              "SourceString": "镭射",
+              "LocalizedString": "镭射"
+            },
+            "Tint": {
+              "R": 0.140025,
+              "G": 0.048367,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "683EFF"
+            },
+            "icon": null,
+            "HandMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MI_BalatroLaser3_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/UIInstance/MI_BalatroLaser3_Inst.0"
+            },
+            "BuildingBaseMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroLaser3_Mesh_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/MeshInstance/MM_BalatroLaser3_Mesh_Inst.0"
+            },
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Shiny",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "CardModifier_Foil",
+              "SourceString": "闪箔",
+              "LocalizedString": "闪箔"
+            },
+            "Tint": {
+              "R": 0.320871,
+              "G": 0.441474,
+              "B": 0.619792,
+              "A": 1.0,
+              "Hex": "9AB2CF"
+            },
+            "icon": null,
+            "HandMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroLaser2_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/UIInstance/MM_BalatroLaser2_Inst.0"
+            },
+            "BuildingBaseMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroLaser2_Mesh_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/MeshInstance/MM_BalatroLaser2_Mesh_Inst.0"
+            },
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Hologram",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "CardModifier_Shining",
+              "SourceString": "闪亮",
+              "LocalizedString": "闪亮"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MI_BalatroTrigle_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/UIInstance/MI_BalatroTrigle_Inst.0"
+            },
+            "BuildingBaseMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroTrigle_Mesh_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/MeshInstance/MM_BalatroTrigle_Mesh_Inst.0"
+            },
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        }
+      ],
+      "ShopBuildingAttachWeights": [
+        {
+          "Key": "EHTBalatroAttachEffect::Laser",
+          "Value": 1.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Silver",
+          "Value": 1.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Hologram",
+          "Value": 1.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Shiny",
+          "Value": 1.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Recyclable",
+          "Value": 1.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Energy",
+          "Value": 1.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Glass",
+          "Value": 1.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Digital",
+          "Value": 1.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Steel",
+          "Value": 1.0
+        }
+      ],
+      "ShopJokerAttachWeights": [
+        {
+          "Key": "EHTBalatroAttachEffect::NegativeFilm",
+          "Value": 1.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Galaxy",
+          "Value": 1.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Hologram",
+          "Value": 2.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Silver",
+          "Value": 2.0
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::GalaxyRetrigger",
+          "Value": 1.0
+        }
+      ],
+      "BuildingAttachEffectPriceDeltas": [
+        {
+          "Key": "EHTBalatroAttachEffect::Laser",
+          "Value": 2
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Silver",
+          "Value": 2
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Shiny",
+          "Value": 4
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Hologram",
+          "Value": 3
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Recyclable",
+          "Value": 2
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Energy",
+          "Value": 2
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Glass",
+          "Value": 2
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Digital",
+          "Value": 3
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Steel",
+          "Value": 4
+        }
+      ],
+      "JokerAttachEffectPriceDeltas": [
+        {
+          "Key": "EHTBalatroAttachEffect::NegativeFilm",
+          "Value": 6
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Hologram",
+          "Value": 3
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Silver",
+          "Value": 3
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Galaxy",
+          "Value": 5
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::GalaxyRetrigger",
+          "Value": 5
+        }
+      ],
+      "GameLevelInstance": {
+        "AssetPathName": "/Game/Maps/Map_DLC/DLC_BalatroLike/DLC_BalatroLike.DLC_BalatroLike",
+        "SubPathString": ""
+      },
+      "LevelLoadZPos": -30000.0,
+      "DT_BuildingCards": {
+        "ObjectName": "DataTable'DT_BuildingCards'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_BuildingCards.0"
+      },
+      "DT_EmpowerCards": {
+        "ObjectName": "DataTable'DT_EmpowerCards'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_EmpowerCards.0"
+      },
+      "DT_JokerCards": {
+        "ObjectName": "DataTable'DT_JokerCards'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_JokerCards.0"
+      },
+      "DT_PhantomCards": {
+        "ObjectName": "DataTable'DT_PhantomCards'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_PhantomCards.0"
+      },
+      "DT_EffectSets": {
+        "ObjectName": "DataTable'DT_EffectSets'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_EffectSets.0"
+      },
+      "DT_BossConfigs": {
+        "ObjectName": "DataTable'DT_BossConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_BossConfig.0"
+      },
+      "DT_TerrainConfigs": {
+        "ObjectName": "DataTable'DT_TerrainConfigs'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_TerrainConfigs.0"
+      },
+      "DT_HoverTagBackgrounds": {
+        "ObjectName": "DataTable'DT_HoverTagBackgrounds'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_HoverTagBackgrounds.0"
+      },
+      "DT_Coupons": {
+        "ObjectName": "DataTable'DT_Coupons'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_Coupons.0"
+      },
+      "DT_SkipTags": {
+        "ObjectName": "DataTable'DT_SkipTags'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_SkipTags.0"
+      },
+      "DT_CardPacks": {
+        "ObjectName": "DataTable'DT_CardPacks'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_CardPacks.0"
+      },
+      "DT_NPCConfigs": {
+        "ObjectName": "DataTable'DT_NPCConfigs'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_NPCConfigs.0"
+      },
+      "DT_NPCAssistantTipConfigs": {
+        "ObjectName": "DataTable'DT_NPCAssistantTipConfigs'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_NPCAssistantTipConfigs.0"
+      },
+      "DT_GameFlowConfigs": {
+        "ObjectName": "DataTable'DT_GameFlowConfigs'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_GameFlowConfigs.0"
+      },
+      "DT_NPCChallenges": {
+        "ObjectName": "DataTable'DT_NPCChallengeConfig'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/BalatroLike/DT_NPCChallengeConfig.0"
+      },
+      "GameConfig": {
+        "StartHandSize": 5,
+        "BossBlindRewardBase": 8,
+        "bEnableInterest": true,
+        "HighValuePlotCost": 5,
+        "ShopCouponCount": 1,
+        "ShopPackCount": 2,
+        "DefaultTotalBlinds": 8
+      },
+      "RarityWeights": [
+        {
+          "Key": "EHTBalatroLikeDifficulty::Beginner",
+          "Value": {
+            "WeightCommon": 50.0,
+            "WeightRare": 40.0,
+            "WeightEpic": 10.0,
+            "WeightLegendary": 0.0
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Normal",
+          "Value": {
+            "WeightCommon": 50.0,
+            "WeightRare": 40.0,
+            "WeightEpic": 10.0,
+            "WeightLegendary": 0.0
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hard",
+          "Value": {
+            "WeightCommon": 50.0,
+            "WeightRare": 40.0,
+            "WeightEpic": 10.0,
+            "WeightLegendary": 0.0
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hell",
+          "Value": {
+            "WeightCommon": 50.0,
+            "WeightRare": 40.0,
+            "WeightEpic": 10.0,
+            "WeightLegendary": 0.0
+          }
+        }
+      ],
+      "DifficultyTxtMap": [
+        {
+          "Key": "EHTBalatroLikeDifficulty::Beginner",
+          "Value": {
+            "Namespace": "",
+            "Key": "D198C54745A6022F7CCF0BA641B8C681",
+            "SourceString": "新手",
+            "LocalizedString": "新手"
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Normal",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Difficulty_1_DisplayName",
+            "SourceString": "正常营业",
+            "LocalizedString": "正常营业"
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hard",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Difficulty_2_DisplayName",
+            "SourceString": "业绩加码",
+            "LocalizedString": "业绩加码"
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hell",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Difficulty_3_DisplayName",
+            "SourceString": "调度受限",
+            "LocalizedString": "调度受限"
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hell1",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Difficulty_4_DisplayName",
+            "SourceString": "严苛审查",
+            "LocalizedString": "严苛审查"
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hell2",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Difficulty_5_DisplayName",
+            "SourceString": "钉子难题",
+            "LocalizedString": "钉子难题"
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hell3",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Difficulty_6_DisplayName",
+            "SourceString": "收益缩水",
+            "LocalizedString": "收益缩水"
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hell4",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Difficulty_7_DisplayName",
+            "SourceString": "负债经营",
+            "LocalizedString": "负债经营"
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hell5",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Difficulty_8_DisplayName",
+            "SourceString": "业绩重压",
+            "LocalizedString": "业绩重压"
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hell6",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Difficulty_9_DisplayName",
+            "SourceString": "短租经营",
+            "LocalizedString": "短租经营"
+          }
+        },
+        {
+          "Key": "EHTBalatroLikeDifficulty::Hell7",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Difficulty_10_DisplayName",
+            "SourceString": "货架紧缩",
+            "LocalizedString": "货架紧缩"
+          }
+        }
+      ],
+      "BlindTypeTxtMap": [
+        {
+          "Key": "EHTBalatroBlindType::Small",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "balatrolike_enum_ehtbalatroblindtype_small",
+            "SourceString": "小关",
+            "LocalizedString": "小关"
+          }
+        },
+        {
+          "Key": "EHTBalatroBlindType::Big",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "balatrolike_enum_ehtbalatroblindtype_big",
+            "SourceString": "大关",
+            "LocalizedString": "大关"
+          }
+        },
+        {
+          "Key": "EHTBalatroBlindType::Boss",
+          "Value": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "balatrolike_enum_ehtbalatroblindtype_boss",
+            "SourceString": "Boss",
+            "LocalizedString": "Boss"
+          }
+        }
+      ],
+      "DefaultInitialCards": [
+        {
+          "CardID": "OneCafe",
+          "bIsSelected": false,
+          "HandEntryType": "EHTBalatroHandEntryType::None",
+          "bExpiresAtBlindEnd": false,
+          "bRecalledThisRound": false,
+          "PlayCountInBlind": 0,
+          "ScoringTriggerCountInBlind": 0,
+          "BlindUpgradeLevel": 0,
+          "BlindTransformOriginalCardID": "None",
+          "BlindTransformOriginalAttachEffects": [],
+          "bBlindTransformOriginalPlacementRotated": false,
+          "BlindCleansedAttachEffects": [],
+          "BlindCleansedBossDebuffs": [],
+          "BlindCleanseCapacityBonus": 0,
+          "bPlacementRotated": false,
+          "AttachEffects": [],
+          "ShopTagPriceMultiplier": -1.0,
+          "ShopFinalPrice": -1,
+          "ReferenceBuyPrice": -1,
+          "AcquisitionDiscount": -1.0,
+          "AcquisitionPaidPrice": -1,
+          "InstanceID": "00000000-00000000-00000000-00000000",
+          "UpgradeLevel": 0,
+          "PermanentCapacityBonus": 0,
+          "PermanentConversionRateBonus": 0.0,
+          "PermanentChipsBonus": 0.0,
+          "PermanentMultBonus": 0.0
+        },
+        {
+          "CardID": "Takoyaki",
+          "bIsSelected": false,
+          "HandEntryType": "EHTBalatroHandEntryType::None",
+          "bExpiresAtBlindEnd": false,
+          "bRecalledThisRound": false,
+          "PlayCountInBlind": 0,
+          "ScoringTriggerCountInBlind": 0,
+          "BlindUpgradeLevel": 0,
+          "BlindTransformOriginalCardID": "None",
+          "BlindTransformOriginalAttachEffects": [],
+          "bBlindTransformOriginalPlacementRotated": false,
+          "BlindCleansedAttachEffects": [],
+          "BlindCleansedBossDebuffs": [],
+          "BlindCleanseCapacityBonus": 0,
+          "bPlacementRotated": false,
+          "AttachEffects": [],
+          "ShopTagPriceMultiplier": -1.0,
+          "ShopFinalPrice": -1,
+          "ReferenceBuyPrice": -1,
+          "AcquisitionDiscount": -1.0,
+          "AcquisitionPaidPrice": -1,
+          "InstanceID": "00000000-00000000-00000000-00000000",
+          "UpgradeLevel": 0,
+          "PermanentCapacityBonus": 0,
+          "PermanentConversionRateBonus": 0.0,
+          "PermanentChipsBonus": 0.0,
+          "PermanentMultBonus": 0.0
+        },
+        {
+          "CardID": "Gacha",
+          "bIsSelected": false,
+          "HandEntryType": "EHTBalatroHandEntryType::None",
+          "bExpiresAtBlindEnd": false,
+          "bRecalledThisRound": false,
+          "PlayCountInBlind": 0,
+          "ScoringTriggerCountInBlind": 0,
+          "BlindUpgradeLevel": 0,
+          "BlindTransformOriginalCardID": "None",
+          "BlindTransformOriginalAttachEffects": [],
+          "bBlindTransformOriginalPlacementRotated": false,
+          "BlindCleansedAttachEffects": [],
+          "BlindCleansedBossDebuffs": [],
+          "BlindCleanseCapacityBonus": 0,
+          "bPlacementRotated": false,
+          "AttachEffects": [],
+          "ShopTagPriceMultiplier": -1.0,
+          "ShopFinalPrice": -1,
+          "ReferenceBuyPrice": -1,
+          "AcquisitionDiscount": -1.0,
+          "AcquisitionPaidPrice": -1,
+          "InstanceID": "00000000-00000000-00000000-00000000",
+          "UpgradeLevel": 0,
+          "PermanentCapacityBonus": 0,
+          "PermanentConversionRateBonus": 0.0,
+          "PermanentChipsBonus": 0.0,
+          "PermanentMultBonus": 0.0
+        },
+        {
+          "CardID": "Arcade",
+          "bIsSelected": false,
+          "HandEntryType": "EHTBalatroHandEntryType::None",
+          "bExpiresAtBlindEnd": false,
+          "bRecalledThisRound": false,
+          "PlayCountInBlind": 0,
+          "ScoringTriggerCountInBlind": 0,
+          "BlindUpgradeLevel": 0,
+          "BlindTransformOriginalCardID": "None",
+          "BlindTransformOriginalAttachEffects": [],
+          "bBlindTransformOriginalPlacementRotated": false,
+          "BlindCleansedAttachEffects": [],
+          "BlindCleansedBossDebuffs": [],
+          "BlindCleanseCapacityBonus": 0,
+          "bPlacementRotated": false,
+          "AttachEffects": [],
+          "ShopTagPriceMultiplier": -1.0,
+          "ShopFinalPrice": -1,
+          "ReferenceBuyPrice": -1,
+          "AcquisitionDiscount": -1.0,
+          "AcquisitionPaidPrice": -1,
+          "InstanceID": "00000000-00000000-00000000-00000000",
+          "UpgradeLevel": 0,
+          "PermanentCapacityBonus": 0,
+          "PermanentConversionRateBonus": 0.0,
+          "PermanentChipsBonus": 0.0,
+          "PermanentMultBonus": 0.0
+        },
+        {
+          "CardID": "StreetShop",
+          "bIsSelected": false,
+          "HandEntryType": "EHTBalatroHandEntryType::None",
+          "bExpiresAtBlindEnd": false,
+          "bRecalledThisRound": false,
+          "PlayCountInBlind": 0,
+          "ScoringTriggerCountInBlind": 0,
+          "BlindUpgradeLevel": 0,
+          "BlindTransformOriginalCardID": "None",
+          "BlindTransformOriginalAttachEffects": [],
+          "bBlindTransformOriginalPlacementRotated": false,
+          "BlindCleansedAttachEffects": [],
+          "BlindCleansedBossDebuffs": [],
+          "BlindCleanseCapacityBonus": 0,
+          "bPlacementRotated": false,
+          "AttachEffects": [],
+          "ShopTagPriceMultiplier": -1.0,
+          "ShopFinalPrice": -1,
+          "ReferenceBuyPrice": -1,
+          "AcquisitionDiscount": -1.0,
+          "AcquisitionPaidPrice": -1,
+          "InstanceID": "00000000-00000000-00000000-00000000",
+          "UpgradeLevel": 0,
+          "PermanentCapacityBonus": 0,
+          "PermanentConversionRateBonus": 0.0,
+          "PermanentChipsBonus": 0.0,
+          "PermanentMultBonus": 0.0
+        },
+        {
+          "CardID": "BikeStation",
+          "bIsSelected": false,
+          "HandEntryType": "EHTBalatroHandEntryType::None",
+          "bExpiresAtBlindEnd": false,
+          "bRecalledThisRound": false,
+          "PlayCountInBlind": 0,
+          "ScoringTriggerCountInBlind": 0,
+          "BlindUpgradeLevel": 0,
+          "BlindTransformOriginalCardID": "None",
+          "BlindTransformOriginalAttachEffects": [],
+          "bBlindTransformOriginalPlacementRotated": false,
+          "BlindCleansedAttachEffects": [],
+          "BlindCleansedBossDebuffs": [],
+          "BlindCleanseCapacityBonus": 0,
+          "bPlacementRotated": false,
+          "AttachEffects": [],
+          "ShopTagPriceMultiplier": -1.0,
+          "ShopFinalPrice": -1,
+          "ReferenceBuyPrice": -1,
+          "AcquisitionDiscount": -1.0,
+          "AcquisitionPaidPrice": -1,
+          "InstanceID": "00000000-00000000-00000000-00000000",
+          "UpgradeLevel": 0,
+          "PermanentCapacityBonus": 0,
+          "PermanentConversionRateBonus": 0.0,
+          "PermanentChipsBonus": 0.0,
+          "PermanentMultBonus": 0.0
+        },
+        {
+          "CardID": "FlowMid",
+          "bIsSelected": false,
+          "HandEntryType": "EHTBalatroHandEntryType::None",
+          "bExpiresAtBlindEnd": false,
+          "bRecalledThisRound": false,
+          "PlayCountInBlind": 0,
+          "ScoringTriggerCountInBlind": 0,
+          "BlindUpgradeLevel": 0,
+          "BlindTransformOriginalCardID": "None",
+          "BlindTransformOriginalAttachEffects": [],
+          "bBlindTransformOriginalPlacementRotated": false,
+          "BlindCleansedAttachEffects": [],
+          "BlindCleansedBossDebuffs": [],
+          "BlindCleanseCapacityBonus": 0,
+          "bPlacementRotated": false,
+          "AttachEffects": [],
+          "ShopTagPriceMultiplier": -1.0,
+          "ShopFinalPrice": -1,
+          "ReferenceBuyPrice": -1,
+          "AcquisitionDiscount": -1.0,
+          "AcquisitionPaidPrice": -1,
+          "InstanceID": "00000000-00000000-00000000-00000000",
+          "UpgradeLevel": 0,
+          "PermanentCapacityBonus": 0,
+          "PermanentConversionRateBonus": 0.0,
+          "PermanentChipsBonus": 0.0,
+          "PermanentMultBonus": 0.0
+        },
+        {
+          "CardID": "LittleGreen",
+          "bIsSelected": false,
+          "HandEntryType": "EHTBalatroHandEntryType::None",
+          "bExpiresAtBlindEnd": false,
+          "bRecalledThisRound": false,
+          "PlayCountInBlind": 0,
+          "ScoringTriggerCountInBlind": 0,
+          "BlindUpgradeLevel": 0,
+          "BlindTransformOriginalCardID": "None",
+          "BlindTransformOriginalAttachEffects": [],
+          "bBlindTransformOriginalPlacementRotated": false,
+          "BlindCleansedAttachEffects": [],
+          "BlindCleansedBossDebuffs": [],
+          "BlindCleanseCapacityBonus": 0,
+          "bPlacementRotated": false,
+          "AttachEffects": [],
+          "ShopTagPriceMultiplier": -1.0,
+          "ShopFinalPrice": -1,
+          "ReferenceBuyPrice": -1,
+          "AcquisitionDiscount": -1.0,
+          "AcquisitionPaidPrice": -1,
+          "InstanceID": "00000000-00000000-00000000-00000000",
+          "UpgradeLevel": 0,
+          "PermanentCapacityBonus": 0,
+          "PermanentConversionRateBonus": 0.0,
+          "PermanentChipsBonus": 0.0,
+          "PermanentMultBonus": 0.0
+        }
+      ]
+    }
   }
 ]

@@ -11,6 +11,3168 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "OneCafe": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_OneCafe_Desc",
+            "SourceString": "结算时，若存在相邻的<Default>餐饮</>建筑，自身获得<green>+10客流</>",
+            "LocalizedString": "结算时，若存在相邻的<Default>餐饮</>建筑，自身获得<green>+10客流</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_OneCafe",
+            "SourceString": "一咖舍",
+            "LocalizedString": "一咖舍"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::AdjacentBuildingType",
+              "ConditionParam": "Dining",
+              "ConditionThreshold": 1,
+              "Op": "EHTBalatroEffectOp::AddFlow",
+              "Value": 10.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": false,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 10.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": true,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [
+                {
+                  "Condition": "EHTBalatroEffectCondition::AdjacentSameCard",
+                  "ConditionParam": "OneCafe",
+                  "PerUnit": 1,
+                  "Threshold": 1,
+                  "ConditionValue": 0.0,
+                  "bInvert": true
+                }
+              ],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            },
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::AdjacentDistinctCardsOfType",
+              "ConditionParam": "Dining",
+              "ConditionThreshold": 2,
+              "Op": "EHTBalatroEffectOp::AddFlow",
+              "Value": 10.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": false,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 10.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": true,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [
+                {
+                  "Condition": "EHTBalatroEffectCondition::AdjacentSameCard",
+                  "ConditionParam": "OneCafe",
+                  "PerUnit": 1,
+                  "Threshold": 1,
+                  "ConditionValue": 0.0,
+                  "bInvert": false
+                }
+              ],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/06_Food_Coffee.06_Food_Coffee",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_2_Food_Orange.YH_UI_Balatrolike_CardBG_2_Food_Orange",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_2_Food_Orange.YH_UI_Balatrolike_CardBG_2_Food_Orange",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_FoodIocn.YH_UI_Balatrolike_FoodIocn",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Dining",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 20,
+        "UpgradeCapacities": [
+          20,
+          20
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_OneCafe.BP_Building_OneCafe_C",
+          "SubPathString": ""
+        }
+      },
+      "Mcdonald": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_Mcdonald_Desc",
+            "SourceString": "结算时，每有一栋相邻的<Default>便利快餐</>，自身<blue>最终结算得分+50%</>",
+            "LocalizedString": "结算时，每有一栋相邻的<Default>便利快餐</>，自身<blue>最终结算得分+50%</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_Mcdonald",
+            "SourceString": "便利快餐",
+            "LocalizedString": "便利快餐"
+          },
+          "Rarity": "EHTCardRarity::Rare",
+          "ShopPrice": 5,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::AdjacentSameCard",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddMult",
+              "Value": 0.5,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/05_Food_Burger.05_Food_Burger",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_2_Food_Orange.YH_UI_Balatrolike_CardBG_2_Food_Orange",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_2_Food_Orange.YH_UI_Balatrolike_CardBG_2_Food_Orange",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x2.YH_UI_Balatrolike_Frame1x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_FoodIocn.YH_UI_Balatrolike_FoodIocn",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Dining",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 30,
+        "UpgradeCapacities": [
+          30,
+          30
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_Mcdonald.BP_Building_Mcdonald_C",
+          "SubPathString": ""
+        }
+      },
+      "Takoyaki": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_Takoyaki_Desc",
+            "SourceString": "通过关卡时，获得<img id=\"Coin\"/><Yellow>1</>",
+            "LocalizedString": "通过关卡时，获得<img id=\"Coin\"/><Yellow>1</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_Takoyaki",
+            "SourceString": "丸子小摊",
+            "LocalizedString": "丸子小摊"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnBlindCleared",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddMoney",
+              "Value": 1.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 1.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/07_Food_Balls.07_Food_Balls",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_2_Food_Orange.YH_UI_Balatrolike_CardBG_2_Food_Orange",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_2_Food_Orange.YH_UI_Balatrolike_CardBG_2_Food_Orange",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_FoodIocn.YH_UI_Balatrolike_FoodIocn",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Dining",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 10,
+        "UpgradeCapacities": [
+          10,
+          10
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_Takoyaki.BP_Building_Takoyaki_C",
+          "SubPathString": ""
+        }
+      },
+      "Bread": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_Bread_Desc",
+            "SourceString": "结算时，每有1种<Default>不同名称</>的相邻建筑，自身获得<green>+8客流</>",
+            "LocalizedString": "结算时，每有1种<Default>不同名称</>的相邻建筑，自身获得<green>+8客流</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_Bread",
+            "SourceString": "烘焙工坊",
+            "LocalizedString": "烘焙工坊"
+          },
+          "Rarity": "EHTCardRarity::Rare",
+          "ShopPrice": 5,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::AdjacentDistinctCards",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddFlow",
+              "Value": 8.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 40.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": true,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/26_Food_Bread.26_Food_Bread",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_2_Food_Orange.YH_UI_Balatrolike_CardBG_2_Food_Orange",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_2_Food_Orange.YH_UI_Balatrolike_CardBG_2_Food_Orange",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x2.YH_UI_Balatrolike_Frame1x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_FoodIocn.YH_UI_Balatrolike_FoodIocn",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Dining",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 40,
+        "UpgradeCapacities": [
+          40,
+          40
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_Bread.BP_Building_Bread_C",
+          "SubPathString": ""
+        }
+      },
+      "BrandHotel": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": true,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_BrandHotel_Desc",
+            "SourceString": "结算时，每有1种<Default>不同名称</>的相邻<Default>餐饮</>建筑，自身获得<green>+10客流</>且<blue>积分转化率+40%</>",
+            "LocalizedString": "结算时，每有1种<Default>不同名称</>的相邻<Default>餐饮</>建筑，自身获得<green>+10客流</>且<blue>积分转化率+40%</>"
+          },
+          "UnlockConditionText": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_BrandHotel_Unlock_Desc",
+            "SourceString": "本局游戏的牌库中至少拥有6张餐饮主题建筑牌",
+            "LocalizedString": "本局游戏的牌库中至少拥有6张餐饮主题建筑牌"
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Dining_BrandHotel",
+            "SourceString": "深夜食堂",
+            "LocalizedString": "深夜食堂"
+          },
+          "Rarity": "EHTCardRarity::Epic",
+          "ShopPrice": 10,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::AdjacentDistinctCardsOfType",
+              "ConditionParam": "Dining",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddFlow",
+              "Value": 10.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": true,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            },
+            {
+              "Trigger": "EHTBalatroEffectTrigger::BeforeSettlement",
+              "Condition": "EHTBalatroEffectCondition::AdjacentDistinctCardsOfType",
+              "ConditionParam": "Dining",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddConversionRate",
+              "Value": 0.4,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": true,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/08_Food_Hotel.08_Food_Hotel",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_2_Food_Orange.YH_UI_Balatrolike_CardBG_2_Food_Orange",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_2_Food_Orange.YH_UI_Balatrolike_CardBG_2_Food_Orange",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame2x2.YH_UI_Balatrolike_Frame2x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_FoodIocn.YH_UI_Balatrolike_FoodIocn",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Dining",
+        "BldTags": [],
+        "BuildWidth": 2,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 120,
+        "UpgradeCapacities": [
+          120,
+          120
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_BrandHotel.BP_Building_BrandHotel_C",
+          "SubPathString": ""
+        }
+      },
+      "Arcade": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_Arcade_Desc",
+            "SourceString": "结算时，使相邻具有<Default>重复结算</>的建筑，<Default>结算次数+1</>",
+            "LocalizedString": "结算时，使相邻具有<Default>重复结算</>的建筑，<Default>结算次数+1</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_Arcade",
+            "SourceString": "电玩店",
+            "LocalizedString": "电玩店"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/04_Fun_Game.04_Fun_Game",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_1_Fun_Blue.YH_UI_Balatrolike_CardBG_1_Fun_Blue",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_1_Fun_Blue.YH_UI_Balatrolike_CardBG_1_Fun_Blue",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_FunIcon.YH_UI_Balatrolike_FunIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Entertainment",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 15,
+        "UpgradeCapacities": [
+          15,
+          15
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [
+          {
+            "Type": "EHTBalatroAuraType::ExtraSpecialSettlement",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "BuffID": "Arcade",
+            "bStackSameBuff": true,
+            "bExcludeNature": true,
+            "bRequireAdjacentOtherNature": false
+          }
+        ],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_Arcade.BP_Building_Arcade_C",
+          "SubPathString": ""
+        }
+      },
+      "Gacha": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_Gacha_Desc",
+            "SourceString": "<Default>重复结算</>：自身积分转化率为0\r\n每有<green>15客流</>结算1次，每次结算获得<blue>15积分</>",
+            "LocalizedString": "<Default>重复结算</>：自身积分转化率为0\r\n每有<green>15客流</>结算1次，每次结算获得<blue>15积分</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_Gacha",
+            "SourceString": "扭蛋店",
+            "LocalizedString": "扭蛋店"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/03_Fun_Gacha.03_Fun_Gacha",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_1_Fun_Blue.YH_UI_Balatrolike_CardBG_1_Fun_Blue",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_1_Fun_Blue.YH_UI_Balatrolike_CardBG_1_Fun_Blue",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_FunIcon.YH_UI_Balatrolike_FunIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Entertainment",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 30,
+        "UpgradeCapacities": [
+          30,
+          30
+        ],
+        "ConversionRate": 0.0,
+        "SettlementFlowPerRepeat": 15,
+        "RepeatBaseChips": 15.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_Gacha.BP_Building_Gacha_C",
+          "SubPathString": ""
+        }
+      },
+      "DeskGame": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_DeskGame_Desc",
+            "SourceString": "放置时，从牌库中抽1张牌，生效后<Default>不可撤回</>",
+            "LocalizedString": "放置时，从牌库中抽1张牌，生效后<Default>不可撤回</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_DeskGame",
+            "SourceString": "桌游店",
+            "LocalizedString": "桌游店"
+          },
+          "Rarity": "EHTCardRarity::Rare",
+          "ShopPrice": 5,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnPlaced",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::DrawCards",
+              "Value": 1.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 1.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": true,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/25_Fun_BoardGame.25_Fun_BoardGame",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_1_Fun_Blue.YH_UI_Balatrolike_CardBG_1_Fun_Blue",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_1_Fun_Blue.YH_UI_Balatrolike_CardBG_1_Fun_Blue",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x2.YH_UI_Balatrolike_Frame1x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_FunIcon.YH_UI_Balatrolike_FunIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Entertainment",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 30,
+        "UpgradeCapacities": [
+          30,
+          30
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": true,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_DeskGame.BP_Building_DeskGame_C",
+          "SubPathString": ""
+        }
+      },
+      "Cinema": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_Cinema_Desc",
+            "SourceString": "结算时，本建筑每获得<green>20点客流</>，周围建筑<Default>每次结算</>额外获得<blue>+5积分</>",
+            "LocalizedString": "结算时，本建筑每获得<green>20点客流</>，周围建筑<Default>每次结算</>额外获得<blue>+5积分</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_Cinema",
+            "SourceString": "电影院",
+            "LocalizedString": "电影院"
+          },
+          "Rarity": "EHTCardRarity::Rare",
+          "ShopPrice": 5,
+          "Effects": [],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/02_Fun_Cinema.02_Fun_Cinema",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_1_Fun_Blue.YH_UI_Balatrolike_CardBG_1_Fun_Blue",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_1_Fun_Blue.YH_UI_Balatrolike_CardBG_1_Fun_Blue",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x2.YH_UI_Balatrolike_Frame1x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_FunIcon.YH_UI_Balatrolike_FunIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Entertainment",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 40,
+        "UpgradeCapacities": [
+          40,
+          40
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [
+          {
+            "Type": "EHTBalatroAuraType::ChipsPerSourceFlow",
+            "Value": 5.0,
+            "PerUnit": 20,
+            "BuffID": "CinemaBuff",
+            "bStackSameBuff": true,
+            "bExcludeNature": false,
+            "bRequireAdjacentOtherNature": false
+          }
+        ],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_Cinema.BP_Building_Cinema_C",
+          "SubPathString": ""
+        }
+      },
+      "ThemePark": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": true,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_ThemePark_Desc",
+            "SourceString": "<Default>重复结算</>：自身积分转化率为0\r\n每有<green>20客流</>结算1次，首次结算获得<blue>20积分</>，此后<Default>本关卡</>每次结算多获得<blue>3积分</>",
+            "LocalizedString": "<Default>重复结算</>：自身积分转化率为0\r\n每有<green>20客流</>结算1次，首次结算获得<blue>20积分</>，此后<Default>本关卡</>每次结算多获得<blue>3积分</>"
+          },
+          "UnlockConditionText": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_ThemePark_Unlock_Desc",
+            "SourceString": "单个建筑一回合至少结算4次",
+            "LocalizedString": "单个建筑一回合至少结算4次"
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Entertainment_ThemePark",
+            "SourceString": "噗卡主题公园",
+            "LocalizedString": "噗卡主题公园"
+          },
+          "Rarity": "EHTCardRarity::Epic",
+          "ShopPrice": 10,
+          "Effects": [],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/01_Fun_PukaLand.01_Fun_PukaLand",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_1_Fun_Blue.YH_UI_Balatrolike_CardBG_1_Fun_Blue",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_1_Fun_Blue.YH_UI_Balatrolike_CardBG_1_Fun_Blue",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame2x2.YH_UI_Balatrolike_Frame2x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_FunIcon.YH_UI_Balatrolike_FunIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Entertainment",
+        "BldTags": [],
+        "BuildWidth": 2,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 120,
+        "UpgradeCapacities": [
+          120,
+          120
+        ],
+        "ConversionRate": 0.0,
+        "SettlementFlowPerRepeat": 20,
+        "RepeatBaseChips": 20.0,
+        "RepeatChipsIncrement": 3.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_ThemePark.BP_Building_ThemePark_C",
+          "SubPathString": ""
+        }
+      },
+      "StreetShop": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_StreetShop_Desc",
+            "SourceString": "在场上时，每次<Default>换牌</>获得<img id=\"Coin\"/><Yellow>1</>",
+            "LocalizedString": "在场上时，每次<Default>换牌</>获得<img id=\"Coin\"/><Yellow>1</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_StreetShop",
+            "SourceString": "街边小铺",
+            "LocalizedString": "街边小铺"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnDiscard",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddMoney",
+              "Value": 1.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 1.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": true,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/10_Shop_Convenience.10_Shop_Convenience",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_3_Shop_Yellow.YH_UI_Balatrolike_CardBG_3_Shop_Yellow",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_3_Shop_Yellow.YH_UI_Balatrolike_CardBG_3_Shop_Yellow",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_ShopIcon.YH_UI_Balatrolike_ShopIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Consumption",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 10,
+        "UpgradeCapacities": [
+          10,
+          10
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_StreetShop.BP_Building_StreetShop_C",
+          "SubPathString": ""
+        }
+      },
+      "Konbini": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_Konbini_Desc",
+            "SourceString": "结算时，若相邻位置均存在建筑，获得<img id=\"Coin\"/><Yellow>1</>",
+            "LocalizedString": "结算时，若相邻位置均存在建筑，获得<img id=\"Coin\"/><Yellow>1</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_Konbini",
+            "SourceString": "社区便利店",
+            "LocalizedString": "社区便利店"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::Surrounded",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddMoney",
+              "Value": 1.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 1.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/10_Shop_Convenience.10_Shop_Convenience",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_3_Shop_Yellow.YH_UI_Balatrolike_CardBG_3_Shop_Yellow",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_3_Shop_Yellow.YH_UI_Balatrolike_CardBG_3_Shop_Yellow",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_ShopIcon.YH_UI_Balatrolike_ShopIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Consumption",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 10,
+        "UpgradeCapacities": [
+          10,
+          10
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_Konbini.BP_Building_Konbini_C",
+          "SubPathString": ""
+        }
+      },
+      "LargeStore": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_LargeStore_Desc",
+            "SourceString": "<Default>首次结算</>时，场上每有2种<Default>不同名称</>建筑，获得<img id=\"Coin\"/><Yellow>1</>\r\n此后<Default>每次结算</>获得<img id=\"Coin\"/><Yellow>1</>",
+            "LocalizedString": "<Default>首次结算</>时，场上每有2种<Default>不同名称</>建筑，获得<img id=\"Coin\"/><Yellow>1</>\r\n此后<Default>每次结算</>获得<img id=\"Coin\"/><Yellow>1</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_LargeStore",
+            "SourceString": "大型商店",
+            "LocalizedString": "大型商店"
+          },
+          "Rarity": "EHTCardRarity::Rare",
+          "ShopPrice": 6,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::OtherDistinctCards",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddMoney",
+              "Value": 1.0,
+              "PerUnit": 2,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": true,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            },
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::SelfAfterFirstSettlement",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddMoney",
+              "Value": 1.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 1.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/11_Shop_BigShop.11_Shop_BigShop",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_3_Shop_Yellow.YH_UI_Balatrolike_CardBG_3_Shop_Yellow",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_3_Shop_Yellow.YH_UI_Balatrolike_CardBG_3_Shop_Yellow",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x2.YH_UI_Balatrolike_Frame1x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_ShopIcon.YH_UI_Balatrolike_ShopIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Consumption",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 30,
+        "UpgradeCapacities": [
+          30,
+          30
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_LargeStore.BP_Building_LargeStore_C",
+          "SubPathString": ""
+        }
+      },
+      "LuxuryHall": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_LuxuryHall_Desc",
+            "SourceString": "结算时，如果本建筑客流达到容量上限，获得<img id=\"Coin\"/><Yellow>2</>",
+            "LocalizedString": "结算时，如果本建筑客流达到容量上限，获得<img id=\"Coin\"/><Yellow>2</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_LuxuryHall",
+            "SourceString": "奢侈品长廊",
+            "LocalizedString": "奢侈品长廊"
+          },
+          "Rarity": "EHTCardRarity::Rare",
+          "ShopPrice": 6,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::SelfFullCapacity",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddMoney",
+              "Value": 2.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": false,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 2.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/24_Shop_LuxuryStore.24_Shop_LuxuryStore",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_3_Shop_Yellow.YH_UI_Balatrolike_CardBG_3_Shop_Yellow",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_3_Shop_Yellow.YH_UI_Balatrolike_CardBG_3_Shop_Yellow",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x3.YH_UI_Balatrolike_Frame1x3",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_ShopIcon.YH_UI_Balatrolike_ShopIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Consumption",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 3,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 60,
+        "UpgradeCapacities": [
+          60,
+          60
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_LuxuryHall.BP_Building_LuxuryHall_C",
+          "SubPathString": ""
+        }
+      },
+      "InvestCenter": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": true,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_InvestCenter_Desc",
+            "SourceString": "本关卡<Default>商业</>建筑每赚取<img id=\"Coin\"/><Yellow>1</>，自身<blue>积分转化率提升15%</>\r\n关卡通过时，获得<img id=\"Coin\"/><Yellow>3</>",
+            "LocalizedString": "本关卡<Default>商业</>建筑每赚取<img id=\"Coin\"/><Yellow>1</>，自身<blue>积分转化率提升15%</>\r\n关卡通过时，获得<img id=\"Coin\"/><Yellow>3</>"
+          },
+          "UnlockConditionText": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_InvestCenter_Unlock_Desc",
+            "SourceString": "单关卡通过消费建筑赚取10金币",
+            "LocalizedString": "单关卡通过消费建筑赚取10金币"
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Consumption_InvestCenter",
+            "SourceString": "投资中心",
+            "LocalizedString": "投资中心"
+          },
+          "Rarity": "EHTCardRarity::Epic",
+          "ShopPrice": 10,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnBlindCleared",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddMoney",
+              "Value": 3.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": false,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 3.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            },
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddScore",
+              "Value": 0.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/12_Shop_Investment.12_Shop_Investment",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_3_Shop_Yellow.YH_UI_Balatrolike_CardBG_3_Shop_Yellow",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_3_Shop_Yellow.YH_UI_Balatrolike_CardBG_3_Shop_Yellow",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame2x2.YH_UI_Balatrolike_Frame2x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_ShopIcon.YH_UI_Balatrolike_ShopIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Consumption",
+        "BldTags": [],
+        "BuildWidth": 2,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 120,
+        "UpgradeCapacities": [
+          120,
+          120
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.15,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_InvestCenter.BP_Building_InvestCenter_C",
+          "SubPathString": ""
+        }
+      },
+      "BuildSite": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Special_BuildSite_Desc",
+            "SourceString": "<Default>首次结算</>时，变化为一个随机相邻同尺寸建筑",
+            "LocalizedString": "<Default>首次结算</>时，变化为一个随机相邻同尺寸建筑"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Special_BuildSite",
+            "SourceString": "工地",
+            "LocalizedString": "工地"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::BeforeSettlement",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::TransformIntoAdjacent",
+              "Value": 0.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": false,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/19_Special_ConstructionSite.19_Special_ConstructionSite",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_5_Special_Grey.YH_UI_Balatrolike_CardBG_5_Special_Grey",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_5_Special_Grey.YH_UI_Balatrolike_CardBG_5_Special_Grey",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_SpecialIcon.YH_UI_Balatrolike_SpecialIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Special",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 0,
+        "UpgradeCapacities": [
+          0,
+          0
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_BuildSite.BP_Building_BuildSite_C",
+          "SubPathString": ""
+        }
+      },
+      "TempStore": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Special_TempStore_Desc",
+            "SourceString": "同时拥有<Default>餐饮</>、<Default>娱乐</>、<Default>消费</>、<Default>自然</>、<Default>交通</>、<Default>通用</>主题",
+            "LocalizedString": "同时拥有<Default>餐饮</>、<Default>娱乐</>、<Default>消费</>、<Default>自然</>、<Default>交通</>、<Default>通用</>主题"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Special_TempStore",
+            "SourceString": "临时店铺",
+            "LocalizedString": "临时店铺"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/18_Special_TempStore.18_Special_TempStore",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_5_Special_Grey.YH_UI_Balatrolike_CardBG_5_Special_Grey",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_5_Special_Grey.YH_UI_Balatrolike_CardBG_5_Special_Grey",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_SpecialIcon.YH_UI_Balatrolike_SpecialIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Special",
+        "BldTags": [
+          "EHTBalatroBuildingType::Dining",
+          "EHTBalatroBuildingType::Entertainment",
+          "EHTBalatroBuildingType::Consumption",
+          "EHTBalatroBuildingType::Transport",
+          "EHTBalatroBuildingType::Nature"
+        ],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 15,
+        "UpgradeCapacities": [
+          15,
+          15
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_TempStore.BP_Building_TempStore_C",
+          "SubPathString": ""
+        }
+      },
+      "LoanCenter": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": true,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Special_LoanCenter_Desc",
+            "SourceString": "每换掉1张手牌，获得<green>+15客流</>，自身<blue>最终结算得分+20%</>，结算后重置",
+            "LocalizedString": "每换掉1张手牌，获得<green>+15客流</>，自身<blue>最终结算得分+20%</>，结算后重置"
+          },
+          "UnlockConditionText": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Special_LoanCenter_Unlock_Desc",
+            "SourceString": "单回合换掉5张手牌",
+            "LocalizedString": "单回合换掉5张手牌"
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Special_LoanCenter",
+            "SourceString": "抵押中心",
+            "LocalizedString": "抵押中心"
+          },
+          "Rarity": "EHTCardRarity::Epic",
+          "ShopPrice": 10,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnDiscard",
+              "Condition": "EHTBalatroEffectCondition::DiscardedCardCount",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddFlow",
+              "Value": 15.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": true,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            },
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnDiscard",
+              "Condition": "EHTBalatroEffectCondition::DiscardedCardCount",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddRoundMult",
+              "Value": 0.2,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": true,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/20_Special_MortgageCenter.20_Special_MortgageCenter",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_5_Special_Grey.YH_UI_Balatrolike_CardBG_5_Special_Grey",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_5_Special_Grey.YH_UI_Balatrolike_CardBG_5_Special_Grey",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame2x2.YH_UI_Balatrolike_Frame2x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_SpecialIcon.YH_UI_Balatrolike_SpecialIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Special",
+        "BldTags": [],
+        "BuildWidth": 2,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 120,
+        "UpgradeCapacities": [
+          120,
+          120
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_LoanCenter.BP_Building_LoanCenter_C",
+          "SubPathString": ""
+        }
+      },
+      "Metro": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Transport_Metro_Desc",
+            "SourceString": "结算时，沿自身所在行、列向外延伸2格，为范围内的<Default>计分建筑</>提供<green>+15客流</>",
+            "LocalizedString": "结算时，沿自身所在行、列向外延伸2格，为范围内的<Default>计分建筑</>提供<green>+15客流</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Transport_Metro",
+            "SourceString": "地铁口",
+            "LocalizedString": "地铁口"
+          },
+          "Rarity": "EHTCardRarity::Rare",
+          "ShopPrice": 6,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddFlow",
+              "Value": 15.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": false,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 15.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 2,
+              "FlowShape": "EHTBalatroFlowShape::RowsAndColumns",
+              "bOnlyScoringFlowTargets": true,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/21_Traffic_Metro.21_Traffic_Metro",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_6_Traffic_Purple.YH_UI_Balatrolike_CardBG_6_Traffic_Purple",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_6_Traffic_Purple.YH_UI_Balatrolike_CardBG_6_Traffic_Purple",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x2.YH_UI_Balatrolike_Frame1x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_TrafficIcon.YH_UI_Balatrolike_TrafficIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Transport",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 0,
+        "UpgradeCapacities": [],
+        "ConversionRate": 0.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": false,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Steel"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_Metro.BP_Building_Metro_C",
+          "SubPathString": ""
+        }
+      },
+      "BikeStation": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Transport_BikeStation_Desc",
+            "SourceString": "结算时，为自身周围1圈内的<Default>计分建筑</>提供<green>+10客流</>",
+            "LocalizedString": "结算时，为自身周围1圈内的<Default>计分建筑</>提供<green>+10客流</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Transport_BikeStation",
+            "SourceString": "共享骑车站",
+            "LocalizedString": "共享骑车站"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddFlow",
+              "Value": 10.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": false,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 10.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 1,
+              "FlowShape": "EHTBalatroFlowShape::SurroundingRing",
+              "bOnlyScoringFlowTargets": true,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/23_Traffic_SharingBike.23_Traffic_SharingBike",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_6_Traffic_Purple.YH_UI_Balatrolike_CardBG_6_Traffic_Purple",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_6_Traffic_Purple.YH_UI_Balatrolike_CardBG_6_Traffic_Purple",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_TrafficIcon.YH_UI_Balatrolike_TrafficIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Transport",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 0,
+        "UpgradeCapacities": [],
+        "ConversionRate": 0.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": false,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Steel"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_BikeStation.BP_Building_BikeStation_C",
+          "SubPathString": ""
+        }
+      },
+      "TrafficStation": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Transport_TrafficStation_Desc",
+            "SourceString": "结算时，生成一张<Default>临时</>的<green>小批客流</>",
+            "LocalizedString": "结算时，生成一张<Default>临时</>的<green>小批客流</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Transport_TrafficStation",
+            "SourceString": "客运小站",
+            "LocalizedString": "客运小站"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 4,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::GenerateTemporaryCard",
+              "Value": 1.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": false,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "FlowMid",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/23_Traffic_SharingBike.23_Traffic_SharingBike",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_6_Traffic_Purple.YH_UI_Balatrolike_CardBG_6_Traffic_Purple",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_6_Traffic_Purple.YH_UI_Balatrolike_CardBG_6_Traffic_Purple",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_TrafficIcon.YH_UI_Balatrolike_TrafficIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Transport",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 0,
+        "UpgradeCapacities": [],
+        "ConversionRate": 0.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": false,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Steel"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_TrafficStation.BP_Building_TrafficStation_C",
+          "SubPathString": ""
+        }
+      },
+      "CommuHouse": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Transport_CommuHouse_Desc",
+            "SourceString": "结算时，若自身短边两侧相邻的<Default>计分建筑</>都受到<Default>交通</>建筑影响，为它们提供<green>+50客流</>和<blue>+50%积分转化率</>",
+            "LocalizedString": "结算时，若自身短边两侧相邻的<Default>计分建筑</>都受到<Default>交通</>建筑影响，为它们提供<green>+50客流</>和<blue>+50%积分转化率</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Transport_CommuHouse",
+            "SourceString": "通勤调度室",
+            "LocalizedString": "通勤调度室"
+          },
+          "Rarity": "EHTCardRarity::Rare",
+          "ShopPrice": 5,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddScore",
+              "Value": 0.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/22_Traffic_DispatchStation.22_Traffic_DispatchStation",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_6_Traffic_Purple.YH_UI_Balatrolike_CardBG_6_Traffic_Purple",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_6_Traffic_Purple.YH_UI_Balatrolike_CardBG_6_Traffic_Purple",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x2.YH_UI_Balatrolike_Frame1x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_TrafficIcon.YH_UI_Balatrolike_TrafficIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Transport",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 0,
+        "UpgradeCapacities": [],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [
+          {
+            "Type": "EHTBalatroAuraType::Commute",
+            "Value": 50.0,
+            "PerUnit": 1,
+            "BuffID": "CommuHouseBuff",
+            "bStackSameBuff": true,
+            "bExcludeNature": false,
+            "bRequireAdjacentOtherNature": false
+          }
+        ],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": false,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Steel"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_CommuHouse.BP_Building_CommuHouse_C",
+          "SubPathString": ""
+        }
+      },
+      "LittleGreen": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_LittleGreen_Desc",
+            "SourceString": "放置时，随机选择1栋带有<Default>负面效果</>的相邻建筑，清除其当前全部负面效果，并使其本关卡<green>容量+10</>，<Default>生效后不可撤回</>",
+            "LocalizedString": "放置时，随机选择1栋带有<Default>负面效果</>的相邻建筑，清除其当前全部负面效果，并使其本关卡<green>容量+10</>，<Default>生效后不可撤回</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_LittleGreen",
+            "SourceString": "小绿化带",
+            "LocalizedString": "小绿化带"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnPlaced",
+              "Condition": "EHTBalatroEffectCondition::None",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::CleanseRandomWeakened",
+              "Value": 10.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": false,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": true,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": false,
+              "AdditionalConditions": [],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/13_Green_SmallBelt.13_Green_SmallBelt",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_4_Green_Green.YH_UI_Balatrolike_CardBG_4_Green_Green",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_4_Green_Green.YH_UI_Balatrolike_CardBG_4_Green_Green",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_GreenIcon.YH_UI_Balatrolike_GreenIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Nature",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 5,
+        "UpgradeCapacities": [
+          5,
+          5
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": true,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_LittleGreen.BP_Building_LittleGreen_C",
+          "SubPathString": ""
+        }
+      },
+      "CityGarden": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_CityGarden_Desc",
+            "SourceString": "<Default>首次结算</>时，相邻每有1种<Default>不同名称</>的建筑，获得<blue>+25积分</>",
+            "LocalizedString": "<Default>首次结算</>时，相邻每有1种<Default>不同名称</>的建筑，获得<blue>+25积分</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_CityGarden",
+            "SourceString": "城市花园",
+            "LocalizedString": "城市花园"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 3,
+          "Effects": [
+            {
+              "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+              "Condition": "EHTBalatroEffectCondition::AdjacentDistinctCards",
+              "ConditionParam": "None",
+              "ConditionThreshold": 0,
+              "Op": "EHTBalatroEffectOp::AddScore",
+              "Value": 25.0,
+              "PerUnit": 1,
+              "bScaleValueWithUnitCount": true,
+              "bAddBaseOneForXMult": false,
+              "MaxValue": 0.0,
+              "Probability": 1.0,
+              "bRollProbabilityPerUnit": false,
+              "ConditionValue": 0.0,
+              "bDestroyOnTrigger": false,
+              "bCannotRecallAfterTrigger": false,
+              "FlowTargetRange": 0,
+              "FlowShape": "EHTBalatroFlowShape::Manhattan",
+              "bOnlyScoringFlowTargets": false,
+              "GeneratedCardID": "None",
+              "bOnlyOnFirstSettlement": true,
+              "AdditionalConditions": [
+                {
+                  "Condition": "EHTBalatroEffectCondition::SelfFirstSettlement",
+                  "ConditionParam": "None",
+                  "PerUnit": 1,
+                  "Threshold": 1,
+                  "ConditionValue": 0.0,
+                  "bInvert": false
+                }
+              ],
+              "TagParams": {
+                "TargetCategories": [],
+                "TargetRarity": "EHTCardRarity::Common",
+                "AttachEffects": [],
+                "PriceMultiplier": -1.0,
+                "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+                "bAllTargets": false,
+                "PackID": "None"
+              }
+            }
+          ],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/14_Green_CityGarden.14_Green_CityGarden",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_4_Green_Green.YH_UI_Balatrolike_CardBG_4_Green_Green",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_4_Green_Green.YH_UI_Balatrolike_CardBG_4_Green_Green",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x1.YH_UI_Balatrolike_Frame1x1",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_GreenIcon.YH_UI_Balatrolike_GreenIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Nature",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 1,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 5,
+        "UpgradeCapacities": [
+          5,
+          5
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": false,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_CityGarden.BP_Building_CityGarden_C",
+          "SubPathString": ""
+        }
+      },
+      "RainGarden": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_RainGarden_Desc",
+            "SourceString": "<Default>光环</>：所有相邻的<Default>计分建筑</><green>容量+30</>\r\n<Default>同一光环效果不叠加</>",
+            "LocalizedString": "<Default>光环</>：所有相邻的<Default>计分建筑</><green>容量+30</>\r\n<Default>同一光环效果不叠加</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_RainGarden",
+            "SourceString": "雨水花市",
+            "LocalizedString": "雨水花市"
+          },
+          "Rarity": "EHTCardRarity::Rare",
+          "ShopPrice": 5,
+          "Effects": [],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/17_Green_EcoRoom.17_Green_EcoRoom",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_4_Green_Green.YH_UI_Balatrolike_CardBG_4_Green_Green",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_4_Green_Green.YH_UI_Balatrolike_CardBG_4_Green_Green",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x2.YH_UI_Balatrolike_Frame1x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_GreenIcon.YH_UI_Balatrolike_GreenIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Nature",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 10,
+        "UpgradeCapacities": [
+          10,
+          10
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [
+          {
+            "Type": "EHTBalatroAuraType::Capacity",
+            "Value": 30.0,
+            "PerUnit": 1,
+            "BuffID": "RainGardenBuff",
+            "bStackSameBuff": false,
+            "bExcludeNature": false,
+            "bRequireAdjacentOtherNature": false
+          }
+        ],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": false,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_RainGarden.BP_Building_RainGarden_C",
+          "SubPathString": ""
+        }
+      },
+      "GreenHall": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": false,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_GreenHall_Desc",
+            "SourceString": "<Default>光环</>：所有相邻的<Default>计分建筑</><blue>积分转化率+40%</>\r\n<Default>同一光环效果不叠加</>",
+            "LocalizedString": "<Default>光环</>：所有相邻的<Default>计分建筑</><blue>积分转化率+40%</>\r\n<Default>同一光环效果不叠加</>"
+          },
+          "UnlockConditionText": {
+            "CultureInvariantString": null
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_GreenHall",
+            "SourceString": "绿荫长廊",
+            "LocalizedString": "绿荫长廊"
+          },
+          "Rarity": "EHTCardRarity::Rare",
+          "ShopPrice": 5,
+          "Effects": [],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/15_Green_RainGarden.15_Green_RainGarden",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_4_Green_Green.YH_UI_Balatrolike_CardBG_4_Green_Green",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_4_Green_Green.YH_UI_Balatrolike_CardBG_4_Green_Green",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame1x2.YH_UI_Balatrolike_Frame1x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_GreenIcon.YH_UI_Balatrolike_GreenIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Nature",
+        "BldTags": [],
+        "BuildWidth": 1,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 10,
+        "UpgradeCapacities": [
+          10,
+          10
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [
+          {
+            "Type": "EHTBalatroAuraType::ConversionRate",
+            "Value": 0.4,
+            "PerUnit": 1,
+            "BuffID": "GreenHallBuff",
+            "bStackSameBuff": false,
+            "bExcludeNature": false,
+            "bRequireAdjacentOtherNature": false
+          }
+        ],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": false,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_GreenHall.BP_Building_GreenHall_C",
+          "SubPathString": ""
+        }
+      },
+      "WishFountain": {
+        "Common": {
+          "bRequiresUnlockForRandomPool": true,
+          "Description": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_WishFountain_Desc",
+            "SourceString": "<Default>光环</>：若相邻的<Default>计分建筑</>与另一栋<Default>自然</>建筑相邻，则使其获得<Default>神赐</>：<green>客流上限+50</>，<blue>积分转化率+50%</>\r\n<Default>同一光环效果不叠加</>",
+            "LocalizedString": "<Default>光环</>：若相邻的<Default>计分建筑</>与另一栋<Default>自然</>建筑相邻，则使其获得<Default>神赐</>：<green>客流上限+50</>，<blue>积分转化率+50%</>\r\n<Default>同一光环效果不叠加</>"
+          },
+          "UnlockConditionText": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_WishFountain_Unlock_Desc",
+            "SourceString": "结算时，至少8栋计分建筑受到自然建筑的光环影响",
+            "LocalizedString": "结算时，至少8栋计分建筑受到自然建筑的光环影响"
+          },
+          "DescriptionTags": [],
+          "DisplayName": {
+            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+            "Key": "Building_Nature_WishFountain",
+            "SourceString": "纳库佩达许愿池",
+            "LocalizedString": "纳库佩达许愿池"
+          },
+          "Rarity": "EHTCardRarity::Common",
+          "ShopPrice": 10,
+          "Effects": [],
+          "IconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/CardBuildingsIocn/16_Green_WishingWell.16_Green_WishingWell",
+            "SubPathString": ""
+          },
+          "HandFrameTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_4_Green_Green.YH_UI_Balatrolike_CardBG_4_Green_Green",
+            "SubPathString": ""
+          },
+          "HandBackgroundTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_CardBG_4_Green_Green.YH_UI_Balatrolike_CardBG_4_Green_Green",
+            "SubPathString": ""
+          },
+          "HandGridIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_Frame2x2.YH_UI_Balatrolike_Frame2x2",
+            "SubPathString": ""
+          },
+          "HandTypeIconTexture": {
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Cards/YH_UI_Balatrolike_GreenIcon.YH_UI_Balatrolike_GreenIcon",
+            "SubPathString": ""
+          }
+        },
+        "BldType": "EHTBalatroBuildingType::Nature",
+        "BldTags": [],
+        "BuildWidth": 2,
+        "BuildHeight": 2,
+        "RotatedIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RotatedHandGridIconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BaseCapacity": 20,
+        "UpgradeCapacities": [
+          20,
+          20
+        ],
+        "ConversionRate": 1.0,
+        "SettlementFlowPerRepeat": 0,
+        "RepeatBaseChips": 0.0,
+        "RepeatChipsIncrement": 0.0,
+        "bCannotRecallAfterPlacement": false,
+        "Auras": [
+          {
+            "Type": "EHTBalatroAuraType::NatureBlessing",
+            "Value": 50.0,
+            "PerUnit": 1,
+            "BuffID": "WishFountainBuff",
+            "bStackSameBuff": false,
+            "bExcludeNature": false,
+            "bRequireAdjacentOtherNature": true
+          }
+        ],
+        "bIsLandmark": false,
+        "ConversionRatePerCommercialMoney": 0.0,
+        "bResetFlowAfterSettlement": false,
+        "PhantomGeneratedAttachEffects": [
+          "EHTBalatroAttachEffect::Laser",
+          "EHTBalatroAttachEffect::Shiny",
+          "EHTBalatroAttachEffect::Hologram",
+          "EHTBalatroAttachEffect::Recyclable",
+          "EHTBalatroAttachEffect::Glass",
+          "EHTBalatroAttachEffect::Digital",
+          "EHTBalatroAttachEffect::Steel",
+          "EHTBalatroAttachEffect::Silver",
+          "EHTBalatroAttachEffect::Energy"
+        ],
+        "ModelClass": {
+          "AssetPathName": "/Game/Blueprints/Actors/BalatroLike/LocalModelTrial_20261015/BP_Building_WishFountain.BP_Building_WishFountain_C",
+          "SubPathString": ""
+        }
+      }
+    }
   }
 ]

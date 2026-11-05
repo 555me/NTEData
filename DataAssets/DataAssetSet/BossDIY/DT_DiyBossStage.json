@@ -11,6 +11,3013 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "DiyBossStage1": {
+        "DescName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DiyBoss01_Name",
+          "SourceString": "无法换台之物",
+          "LocalizedString": "无法换台之物"
+        },
+        "Comment": "塔吉多",
+        "UnlockNode": {
+          "PreLevelId": "None",
+          "ActiveOpenedHours": 0,
+          "UnlockDesc": {
+            "CultureInvariantString": null
+          }
+        },
+        "DifficultyMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 1.0
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 2.0
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 3.0
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 5.0
+            }
+          }
+        ],
+        "ScoreAwardMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "LimitScore": 500,
+              "DropID": "drop_DiyBoss_diff1",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 1,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LimitScore": 1000,
+              "DropID": "drop_DiyBoss_diff2",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 2,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LimitScore": 2000,
+              "DropID": "drop_DiyBoss_diff3_new",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 3,
+              "RecommendPresets": [
+                "TimeOP001",
+                "Attack002",
+                "AnOP001",
+                "LifeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LimitScore": 3000,
+              "DropID": "drop_DiyBoss_diff4",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "LimitScore": 5000,
+              "DropID": "drop_DiyBoss_diff5",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          }
+        ],
+        "OptionChoices": [
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
+            "Options": [
+              "TimeOP001",
+              "TimeOP002",
+              "TimeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
+            "Options": [
+              "LifeOP001",
+              "LifeOP002",
+              "LifeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
+            "Options": [
+              "Attack001",
+              "Attack002",
+              "Attack003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceLin",
+              "SourceString": "敌方灵抗性提升",
+              "LocalizedString": "敌方灵抗性提升"
+            },
+            "Options": [
+              "LingOP001",
+              "LingOP002",
+              "LingOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceZhou",
+              "SourceString": "敌方咒抗性提升",
+              "LocalizedString": "敌方咒抗性提升"
+            },
+            "Options": [
+              "ZhouOP001",
+              "ZhouOP002",
+              "ZhouOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceAn",
+              "SourceString": "敌方暗抗性提升",
+              "LocalizedString": "敌方暗抗性提升"
+            },
+            "Options": [
+              "AnOP001",
+              "AnOP002",
+              "AnOP003"
+            ]
+          }
+        ],
+        "MechanismCategoryTitle": {
+          "TableId": "/Game/Text/UI/ST_UI_wzj.ST_UI_wzj",
+          "Key": "diyBoss_goal_txt",
+          "SourceString": "额外挑战目标",
+          "LocalizedString": "额外挑战目标"
+        },
+        "MechanismOptionChoices": [
+          {
+            "OptionID": "DiyBoss_Tajiduo_01"
+          },
+          {
+            "OptionID": "DiyBoss_Tajiduo_02"
+          },
+          {
+            "OptionID": "DiyBoss_Tajiduo_03"
+          }
+        ],
+        "MechanismScoreLimit": 75,
+        "DifficultyDisplayData": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_04_Name",
+                "SourceString": "塔吉多",
+                "LocalizedString": "塔吉多"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_001.UI_YH_PVEBOSS_BOSSList_Boss_001",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_04_icon.boss_04_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_02.UI_avatarbg_Icon_02",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_04_BP_Found",
+                "SourceString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」",
+                "LocalizedString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」"
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_04_Name",
+                "SourceString": "塔吉多",
+                "LocalizedString": "塔吉多"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_001.UI_YH_PVEBOSS_BOSSList_Boss_001",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_04_icon.boss_04_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_02.UI_avatarbg_Icon_02",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_04_BP_Found",
+                "SourceString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」",
+                "LocalizedString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」"
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_04_Name",
+                "SourceString": "塔吉多",
+                "LocalizedString": "塔吉多"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_001.UI_YH_PVEBOSS_BOSSList_Boss_001",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_04_icon.boss_04_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_02.UI_avatarbg_Icon_02",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_04_BP_Found",
+                "SourceString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」",
+                "LocalizedString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」"
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_04_Name",
+                "SourceString": "塔吉多",
+                "LocalizedString": "塔吉多"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_001.UI_YH_PVEBOSS_BOSSList_Boss_001",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/boss_04_icon.boss_04_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_02.UI_avatarbg_Icon_02",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_04_BP_Found",
+                "SourceString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」",
+                "LocalizedString": "诞生原因不明的歧骸。其外观为一只穿黄色外套的海獭，头部被一台电视机取代，自身样貌显示在电视机屏幕上。目前在伊波恩古董店担任维修师。\r\n「Taygedo?」"
+              }
+            }
+          }
+        ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorArray": [
+          {
+            "PreviewActorClass": {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/boss_04/boss_04_BP_UI.boss_04_BP_UI_C",
+              "SubPathString": ""
+            },
+            "PreviewActorTransformOverride": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 1.0,
+                "W": 6.123234E-17,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": -3.0,
+                "Z": 10.0
+              },
+              "Scale3D": {
+                "X": 0.035,
+                "Y": 0.035,
+                "Z": 0.035
+              }
+            }
+          }
+        ]
+      },
+      "DiyBossStage2": {
+        "DescName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DiyBoss10_Name",
+          "SourceString": "你的名字是？",
+          "LocalizedString": "你的名字是？"
+        },
+        "Comment": "黑之书",
+        "UnlockNode": {
+          "PreLevelId": "DiyBossStage1",
+          "ActiveOpenedHours": 0,
+          "UnlockDesc": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Unlock_Cond_L2",
+            "SourceString": "通关上一关解锁",
+            "LocalizedString": "通关上一关解锁"
+          }
+        },
+        "DifficultyMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 1.0
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 2.0
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 3.0
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 5.0
+            }
+          }
+        ],
+        "ScoreAwardMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "LimitScore": 500,
+              "DropID": "drop_DiyBoss_diff1",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 1,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LimitScore": 1000,
+              "DropID": "drop_DiyBoss_diff2",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 2,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LimitScore": 2000,
+              "DropID": "drop_DiyBoss_diff3_new",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 3,
+              "RecommendPresets": [
+                "TimeOP001",
+                "Attack002",
+                "XiangOP001",
+                "LifeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LimitScore": 3000,
+              "DropID": "drop_DiyBoss_diff4",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "LimitScore": 5000,
+              "DropID": "drop_DiyBoss_diff5",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          }
+        ],
+        "OptionChoices": [
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
+            "Options": [
+              "TimeOP001",
+              "TimeOP002",
+              "TimeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
+            "Options": [
+              "LifeOP001",
+              "LifeOP002",
+              "LifeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
+            "Options": [
+              "Attack001",
+              "Attack002",
+              "Attack003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceGuang",
+              "SourceString": "敌方光抗性提升",
+              "LocalizedString": "敌方光抗性提升"
+            },
+            "Options": [
+              "LightOP001",
+              "LightOP002",
+              "LightOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceLin",
+              "SourceString": "敌方灵抗性提升",
+              "LocalizedString": "敌方灵抗性提升"
+            },
+            "Options": [
+              "LingOP001",
+              "LingOP002",
+              "LingOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceXiang",
+              "SourceString": "敌方相抗性提升",
+              "LocalizedString": "敌方相抗性提升"
+            },
+            "Options": [
+              "XiangOP001",
+              "XiangOP002",
+              "XiangOP003"
+            ]
+          }
+        ],
+        "MechanismCategoryTitle": {
+          "TableId": "/Game/Text/UI/ST_UI_wzj.ST_UI_wzj",
+          "Key": "diyBoss_goal_txt",
+          "SourceString": "额外挑战目标",
+          "LocalizedString": "额外挑战目标"
+        },
+        "MechanismOptionChoices": [
+          {
+            "OptionID": "DiyBoss_Heizhishu_01"
+          },
+          {
+            "OptionID": "DiyBoss_Heizhishu_02"
+          },
+          {
+            "OptionID": "DiyBoss_Heizhishu_03"
+          }
+        ],
+        "MechanismScoreLimit": 75,
+        "DifficultyDisplayData": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                "Key": "boss_09_BP",
+                "SourceString": "黑之书",
+                "LocalizedString": "黑之书"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_010.UI_YH_PVEBOSS_BOSSList_Boss_010",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon01.YH_UI_zfsw_BOSS100_icon01",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_09_BP_Found",
+                "SourceString": "掩藏黑渊中的罪孽终将得到彼岸的审判，成为吾主吧，只需要写下……你的名字。你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？\r\n「你的名字是？」",
+                "LocalizedString": "掩藏黑渊中的罪孽终将得到彼岸的审判，成为吾主吧，只需要写下……你的名字。你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？\r\n「你的名字是？」"
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                "Key": "boss_09_BP",
+                "SourceString": "黑之书",
+                "LocalizedString": "黑之书"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_010.UI_YH_PVEBOSS_BOSSList_Boss_010",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon01.YH_UI_zfsw_BOSS100_icon01",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_09_BP_Found",
+                "SourceString": "掩藏黑渊中的罪孽终将得到彼岸的审判，成为吾主吧，只需要写下……你的名字。你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？\r\n「你的名字是？」",
+                "LocalizedString": "掩藏黑渊中的罪孽终将得到彼岸的审判，成为吾主吧，只需要写下……你的名字。你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？\r\n「你的名字是？」"
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                "Key": "boss_09_BP",
+                "SourceString": "黑之书",
+                "LocalizedString": "黑之书"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_010.UI_YH_PVEBOSS_BOSSList_Boss_010",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon01.YH_UI_zfsw_BOSS100_icon01",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_09_BP_Found",
+                "SourceString": "掩藏黑渊中的罪孽终将得到彼岸的审判，成为吾主吧，只需要写下……你的名字。你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？\r\n「你的名字是？」",
+                "LocalizedString": "掩藏黑渊中的罪孽终将得到彼岸的审判，成为吾主吧，只需要写下……你的名字。你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？\r\n「你的名字是？」"
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                "Key": "boss_09_BP",
+                "SourceString": "黑之书",
+                "LocalizedString": "黑之书"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_010.UI_YH_PVEBOSS_BOSSList_Boss_010",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon01.YH_UI_zfsw_BOSS100_icon01",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_03.UI_avatarbg_Icon_03",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_09_BP_Found",
+                "SourceString": "掩藏黑渊中的罪孽终将得到彼岸的审判，成为吾主吧，只需要写下……你的名字。你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？\r\n「你的名字是？」",
+                "LocalizedString": "掩藏黑渊中的罪孽终将得到彼岸的审判，成为吾主吧，只需要写下……你的名字。你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？你的名字是？\r\n「你的名字是？」"
+              }
+            }
+          }
+        ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorArray": [
+          {
+            "PreviewActorClass": {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/boss_09/boss_09_UI.boss_09_UI_C",
+              "SubPathString": ""
+            },
+            "PreviewActorTransformOverride": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 1.0,
+                "W": 6.123234E-17,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": -5.0,
+                "Z": 7.0
+              },
+              "Scale3D": {
+                "X": 0.12,
+                "Y": 0.12,
+                "Z": 0.12
+              }
+            }
+          }
+        ]
+      },
+      "DiyBossStage7": {
+        "DescName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DiyBoss12_Name",
+          "SourceString": "心脏与羽毛",
+          "LocalizedString": "心脏与羽毛"
+        },
+        "Comment": "审判官双阶段",
+        "UnlockNode": {
+          "PreLevelId": "DiyBossStage2",
+          "ActiveOpenedHours": 0,
+          "UnlockDesc": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Unlock_Cond_L2",
+            "SourceString": "通关上一关解锁",
+            "LocalizedString": "通关上一关解锁"
+          }
+        },
+        "DifficultyMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 1.0
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 2.0
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 3.0
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 5.0
+            }
+          }
+        ],
+        "ScoreAwardMap": [],
+        "OptionChoices": [
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
+            "Options": [
+              "TimeOP001_challenge",
+              "TimeOP002_challenge",
+              "TimeOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
+            "Options": [
+              "LifeOP001_challenge",
+              "LifeOP002_challenge",
+              "LifeOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
+            "Options": [
+              "Attack001_challenge",
+              "Attack002_challenge",
+              "Attack003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceZhou",
+              "SourceString": "敌方咒抗性提升",
+              "LocalizedString": "敌方咒抗性提升"
+            },
+            "Options": [
+              "ZhouOP001_challenge",
+              "ZhouOP002_challenge",
+              "ZhouOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceAn",
+              "SourceString": "敌方暗抗性提升",
+              "LocalizedString": "敌方暗抗性提升"
+            },
+            "Options": [
+              "AnOP001_challenge",
+              "AnOP002_challenge",
+              "AnOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceHun",
+              "SourceString": "敌方魂抗性提升",
+              "LocalizedString": "敌方魂抗性提升"
+            },
+            "Options": [
+              "HunOP001_challenge",
+              "HunOP002_challenge",
+              "HunOP003_challenge"
+            ]
+          }
+        ],
+        "MechanismCategoryTitle": {
+          "TableId": "/Game/Text/UI/ST_UI_wzj.ST_UI_wzj",
+          "Key": "diyBoss_goal_txt",
+          "SourceString": "额外挑战目标",
+          "LocalizedString": "额外挑战目标"
+        },
+        "MechanismOptionChoices": [
+          {
+            "OptionID": "DiyBoss_Shenpanguan_01"
+          },
+          {
+            "OptionID": "DiyBoss_Shenpanguan_02"
+          },
+          {
+            "OptionID": "DiyBoss_Shenpanguan_03"
+          }
+        ],
+        "MechanismScoreLimit": 2100,
+        "DifficultyDisplayData": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+                "Key": "HM_U01C08_003a_NPC021_016",
+                "SourceString": "审判官",
+                "LocalizedString": "审判官"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_012.UI_YH_PVEBOSS_BOSSList_Boss_012",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon03.YH_UI_zfsw_BOSS100_icon03",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Boss_Desc_039",
+                "SourceString": "自异象「猎巫」中衍生的生物异象，曾经是名为「科顿」的人类，后成为歧骸审判官的宿主。审判官是人们「审判魔女」的执念化身，同样也能从人们的指控和攻讦中汲取养分，拥有驾驭火焰的能力，并用火焰焚烧他认为的「魔女」。\r\n「暴政的种子，根植于无限的权力。」",
+                "LocalizedString": "自异象「猎巫」中衍生的生物异象，曾经是名为「科顿」的人类，后成为歧骸审判官的宿主。审判官是人们「审判魔女」的执念化身，同样也能从人们的指控和攻讦中汲取养分，拥有驾驭火焰的能力，并用火焰焚烧他认为的「魔女」。\r\n「暴政的种子，根植于无限的权力。」"
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+                "Key": "HM_U01C08_003a_NPC021_016",
+                "SourceString": "审判官",
+                "LocalizedString": "审判官"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_012.UI_YH_PVEBOSS_BOSSList_Boss_012",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon03.YH_UI_zfsw_BOSS100_icon03",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Boss_Desc_039",
+                "SourceString": "自异象「猎巫」中衍生的生物异象，曾经是名为「科顿」的人类，后成为歧骸审判官的宿主。审判官是人们「审判魔女」的执念化身，同样也能从人们的指控和攻讦中汲取养分，拥有驾驭火焰的能力，并用火焰焚烧他认为的「魔女」。\r\n「暴政的种子，根植于无限的权力。」",
+                "LocalizedString": "自异象「猎巫」中衍生的生物异象，曾经是名为「科顿」的人类，后成为歧骸审判官的宿主。审判官是人们「审判魔女」的执念化身，同样也能从人们的指控和攻讦中汲取养分，拥有驾驭火焰的能力，并用火焰焚烧他认为的「魔女」。\r\n「暴政的种子，根植于无限的权力。」"
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+                "Key": "HM_U01C08_003a_NPC021_016",
+                "SourceString": "审判官",
+                "LocalizedString": "审判官"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_012.UI_YH_PVEBOSS_BOSSList_Boss_012",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon03.YH_UI_zfsw_BOSS100_icon03",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Boss_Desc_039",
+                "SourceString": "自异象「猎巫」中衍生的生物异象，曾经是名为「科顿」的人类，后成为歧骸审判官的宿主。审判官是人们「审判魔女」的执念化身，同样也能从人们的指控和攻讦中汲取养分，拥有驾驭火焰的能力，并用火焰焚烧他认为的「魔女」。\r\n「暴政的种子，根植于无限的权力。」",
+                "LocalizedString": "自异象「猎巫」中衍生的生物异象，曾经是名为「科顿」的人类，后成为歧骸审判官的宿主。审判官是人们「审判魔女」的执念化身，同样也能从人们的指控和攻讦中汲取养分，拥有驾驭火焰的能力，并用火焰焚烧他认为的「魔女」。\r\n「暴政的种子，根植于无限的权力。」"
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/Dialogue/ST_Main_BlackBird.ST_Main_BlackBird",
+                "Key": "HM_U01C08_003a_NPC021_016",
+                "SourceString": "审判官",
+                "LocalizedString": "审判官"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_012.UI_YH_PVEBOSS_BOSSList_Boss_012",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon03.YH_UI_zfsw_BOSS100_icon03",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Boss_Desc_039",
+                "SourceString": "自异象「猎巫」中衍生的生物异象，曾经是名为「科顿」的人类，后成为歧骸审判官的宿主。审判官是人们「审判魔女」的执念化身，同样也能从人们的指控和攻讦中汲取养分，拥有驾驭火焰的能力，并用火焰焚烧他认为的「魔女」。\r\n「暴政的种子，根植于无限的权力。」",
+                "LocalizedString": "自异象「猎巫」中衍生的生物异象，曾经是名为「科顿」的人类，后成为歧骸审判官的宿主。审判官是人们「审判魔女」的执念化身，同样也能从人们的指控和攻讦中汲取养分，拥有驾驭火焰的能力，并用火焰焚烧他认为的「魔女」。\r\n「暴政的种子，根植于无限的权力。」"
+              }
+            }
+          }
+        ],
+        "bSpecialHighDifficulty": true,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/Transparent.Transparent",
+          "SubPathString": ""
+        },
+        "PreviewActorArray": [
+          {
+            "PreviewActorClass": {
+              "AssetPathName": "/Game/Maps_4N/Blueprints/Character/Monster/boss_39/Boss_039_S1_UI.Boss_039_S1_UI_C",
+              "SubPathString": ""
+            },
+            "PreviewActorTransformOverride": {
+              "Rotation": {
+                "X": -0.0,
+                "Y": 0.0,
+                "Z": -0.99904823,
+                "W": 0.043619033,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": -3.0,
+                "Z": 13.0
+              },
+              "Scale3D": {
+                "X": 0.1,
+                "Y": 0.1,
+                "Z": 0.1
+              }
+            }
+          }
+        ]
+      },
+      "DiyBossStage3": {
+        "DescName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DiyBoss07_Name",
+          "SourceString": "永不停歇的蓝火",
+          "LocalizedString": "永不停歇的蓝火"
+        },
+        "Comment": "无首铁驭",
+        "UnlockNode": {
+          "PreLevelId": "DiyBossStage2",
+          "ActiveOpenedHours": 24,
+          "UnlockDesc": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Unlock_Cond_L3_challenge",
+            "SourceString": "活动开始第二天，且通关「你的名字是？」解锁",
+            "LocalizedString": "活动开始第二天，且通关「你的名字是？」解锁"
+          }
+        },
+        "DifficultyMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 1.0
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 2.0
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 3.0
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 5.0
+            }
+          }
+        ],
+        "ScoreAwardMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "LimitScore": 500,
+              "DropID": "drop_DiyBoss_diff1",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 1,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LimitScore": 1000,
+              "DropID": "drop_DiyBoss_diff2",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 2,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LimitScore": 2000,
+              "DropID": "drop_DiyBoss_diff3_new",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 3,
+              "RecommendPresets": [
+                "TimeOP001",
+                "Attack002",
+                "XiangOP001",
+                "LifeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LimitScore": 3000,
+              "DropID": "drop_DiyBoss_diff4",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "LimitScore": 5000,
+              "DropID": "drop_DiyBoss_diff5",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          }
+        ],
+        "OptionChoices": [
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
+            "Options": [
+              "TimeOP001",
+              "TimeOP002",
+              "TimeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
+            "Options": [
+              "LifeOP001",
+              "LifeOP002",
+              "LifeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
+            "Options": [
+              "Attack001",
+              "Attack002",
+              "Attack003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceGuang",
+              "SourceString": "敌方光抗性提升",
+              "LocalizedString": "敌方光抗性提升"
+            },
+            "Options": [
+              "LightOP001",
+              "LightOP002",
+              "LightOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceLin",
+              "SourceString": "敌方灵抗性提升",
+              "LocalizedString": "敌方灵抗性提升"
+            },
+            "Options": [
+              "LingOP001",
+              "LingOP002",
+              "LingOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceZhou",
+              "SourceString": "敌方咒抗性提升",
+              "LocalizedString": "敌方咒抗性提升"
+            },
+            "Options": [
+              "ZhouOP001",
+              "ZhouOP002",
+              "ZhouOP003"
+            ]
+          }
+        ],
+        "MechanismCategoryTitle": {
+          "TableId": "/Game/Text/UI/ST_UI_wzj.ST_UI_wzj",
+          "Key": "diyBoss_goal_txt",
+          "SourceString": "额外挑战目标",
+          "LocalizedString": "额外挑战目标"
+        },
+        "MechanismOptionChoices": [
+          {
+            "OptionID": "DiyBoss_Jiejiexiong_02"
+          },
+          {
+            "OptionID": "DiyBoss_Wushoutieyu_01"
+          },
+          {
+            "OptionID": "DiyBoss_Wushoutieyu_03"
+          }
+        ],
+        "MechanismScoreLimit": 75,
+        "DifficultyDisplayData": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_13_Name",
+                "SourceString": "无首铁驭",
+                "LocalizedString": "无首铁驭"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_005.UI_YH_PVEBOSS_BOSSList_Boss_005",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_13_icon.Boss_13_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_05.UI_avatarbg_Icon_05",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_13_BP_Found",
+                "SourceString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」",
+                "LocalizedString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」"
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_13_Name",
+                "SourceString": "无首铁驭",
+                "LocalizedString": "无首铁驭"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_005.UI_YH_PVEBOSS_BOSSList_Boss_005",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_13_icon.Boss_13_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_05.UI_avatarbg_Icon_05",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_13_BP_Found",
+                "SourceString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」",
+                "LocalizedString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」"
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_13_Name",
+                "SourceString": "无首铁驭",
+                "LocalizedString": "无首铁驭"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_005.UI_YH_PVEBOSS_BOSSList_Boss_005",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_13_icon.Boss_13_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_05.UI_avatarbg_Icon_05",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_13_BP_Found",
+                "SourceString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」",
+                "LocalizedString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」"
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_13_Name",
+                "SourceString": "无首铁驭",
+                "LocalizedString": "无首铁驭"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_005.UI_YH_PVEBOSS_BOSSList_Boss_005",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_13_icon.Boss_13_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_05.UI_avatarbg_Icon_05",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_13_BP_Found",
+                "SourceString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」",
+                "LocalizedString": "只有深夜才会出现，骑着一台黑色摩托机车游荡于都市街头的无头骑士。据说会盯上时速超高的飙车族，与其进行竞速比赛并在胜利后用可怖的镰刀收割他们的暴走之魂。\r\n「刺骨的蓝火会燃尽一切热血。」"
+              }
+            }
+          }
+        ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorArray": [
+          {
+            "PreviewActorClass": {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/boss_13/boss_13_BP_UI.boss_13_BP_UI_C",
+              "SubPathString": ""
+            },
+            "PreviewActorTransformOverride": {
+              "Rotation": {
+                "X": -0.0,
+                "Y": 0.0,
+                "Z": -0.92388,
+                "W": 0.382683,
+                "IsNormalized": true,
+                "Size": 1.0000002,
+                "SizeSquared": 1.0000005
+              },
+              "Translation": {
+                "X": 450.0,
+                "Y": -60.0,
+                "Z": -30.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ]
+      },
+      "DiyBossStage4": {
+        "DescName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DiyBoss11_Name",
+          "SourceString": "幻想伙伴",
+          "LocalizedString": "幻想伙伴"
+        },
+        "Comment": "桀桀熊",
+        "UnlockNode": {
+          "PreLevelId": "DiyBossStage3",
+          "ActiveOpenedHours": 48,
+          "UnlockDesc": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Unlock_Cond_L4",
+            "SourceString": "活动开始第三天，且通关上一关解锁",
+            "LocalizedString": "活动开始第三天，且通关上一关解锁"
+          }
+        },
+        "DifficultyMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 1.0
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 2.0
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 3.0
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 5.0
+            }
+          }
+        ],
+        "ScoreAwardMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "LimitScore": 500,
+              "DropID": "drop_DiyBoss_diff1",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 1,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LimitScore": 1000,
+              "DropID": "drop_DiyBoss_diff2",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 2,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LimitScore": 2000,
+              "DropID": "drop_DiyBoss_diff3_new",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 3,
+              "RecommendPresets": [
+                "TimeOP001",
+                "Attack002",
+                "HunOP001",
+                "LifeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LimitScore": 3000,
+              "DropID": "drop_DiyBoss_diff4",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "LimitScore": 5000,
+              "DropID": "drop_DiyBoss_diff5",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          }
+        ],
+        "OptionChoices": [
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
+            "Options": [
+              "TimeOP001",
+              "TimeOP002",
+              "TimeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
+            "Options": [
+              "LifeOP001",
+              "LifeOP002",
+              "LifeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
+            "Options": [
+              "Attack001",
+              "Attack002",
+              "Attack003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceGuang",
+              "SourceString": "敌方光抗性提升",
+              "LocalizedString": "敌方光抗性提升"
+            },
+            "Options": [
+              "LightOP001",
+              "LightOP002",
+              "LightOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceHun",
+              "SourceString": "敌方魂抗性提升",
+              "LocalizedString": "敌方魂抗性提升"
+            },
+            "Options": [
+              "HunOP001",
+              "HunOP002",
+              "HunOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceXiang",
+              "SourceString": "敌方相抗性提升",
+              "LocalizedString": "敌方相抗性提升"
+            },
+            "Options": [
+              "XiangOP001",
+              "XiangOP002",
+              "XiangOP003"
+            ]
+          }
+        ],
+        "MechanismCategoryTitle": {
+          "TableId": "/Game/Text/UI/ST_UI_wzj.ST_UI_wzj",
+          "Key": "diyBoss_goal_txt",
+          "SourceString": "额外挑战目标",
+          "LocalizedString": "额外挑战目标"
+        },
+        "MechanismOptionChoices": [
+          {
+            "OptionID": "DiyBoss_Jiejiexiong_01"
+          },
+          {
+            "OptionID": "DiyBoss_Wushoutieyu_02"
+          },
+          {
+            "OptionID": "DiyBoss_Jiejiexiong_03"
+          }
+        ],
+        "MechanismScoreLimit": 75,
+        "DifficultyDisplayData": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                "Key": "mon_051_BP",
+                "SourceString": "桀桀熊",
+                "LocalizedString": "桀桀熊"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_011.UI_YH_PVEBOSS_BOSSList_Boss_011",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon02.YH_UI_zfsw_BOSS100_icon02",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_06.UI_avatarbg_Icon_06",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Mon_Desc_051",
+                "SourceString": "因无法接受孩子已经成长、不再需要自己或遗忘自己的事实，由异象「抱抱熊」衍生而出的物体异象。通常以容易受到孩子喜爱的毛绒玩具感的歧骸形象出现，每一只形象都会根据视作目标的孩子对症下药地改变，很多时候无法锁定该异象的真名。\r\n「复仇、复仇……桀桀桀！！！」",
+                "LocalizedString": "因无法接受孩子已经成长、不再需要自己或遗忘自己的事实，由异象「抱抱熊」衍生而出的物体异象。通常以容易受到孩子喜爱的毛绒玩具感的歧骸形象出现，每一只形象都会根据视作目标的孩子对症下药地改变，很多时候无法锁定该异象的真名。\r\n「复仇、复仇……桀桀桀！！！」"
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                "Key": "mon_051_BP",
+                "SourceString": "桀桀熊",
+                "LocalizedString": "桀桀熊"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_011.UI_YH_PVEBOSS_BOSSList_Boss_011",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon02.YH_UI_zfsw_BOSS100_icon02",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_06.UI_avatarbg_Icon_06",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Mon_Desc_051",
+                "SourceString": "因无法接受孩子已经成长、不再需要自己或遗忘自己的事实，由异象「抱抱熊」衍生而出的物体异象。通常以容易受到孩子喜爱的毛绒玩具感的歧骸形象出现，每一只形象都会根据视作目标的孩子对症下药地改变，很多时候无法锁定该异象的真名。\r\n「复仇、复仇……桀桀桀！！！」",
+                "LocalizedString": "因无法接受孩子已经成长、不再需要自己或遗忘自己的事实，由异象「抱抱熊」衍生而出的物体异象。通常以容易受到孩子喜爱的毛绒玩具感的歧骸形象出现，每一只形象都会根据视作目标的孩子对症下药地改变，很多时候无法锁定该异象的真名。\r\n「复仇、复仇……桀桀桀！！！」"
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                "Key": "mon_051_BP",
+                "SourceString": "桀桀熊",
+                "LocalizedString": "桀桀熊"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_011.UI_YH_PVEBOSS_BOSSList_Boss_011",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon02.YH_UI_zfsw_BOSS100_icon02",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_06.UI_avatarbg_Icon_06",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Mon_Desc_051",
+                "SourceString": "因无法接受孩子已经成长、不再需要自己或遗忘自己的事实，由异象「抱抱熊」衍生而出的物体异象。通常以容易受到孩子喜爱的毛绒玩具感的歧骸形象出现，每一只形象都会根据视作目标的孩子对症下药地改变，很多时候无法锁定该异象的真名。\r\n「复仇、复仇……桀桀桀！！！」",
+                "LocalizedString": "因无法接受孩子已经成长、不再需要自己或遗忘自己的事实，由异象「抱抱熊」衍生而出的物体异象。通常以容易受到孩子喜爱的毛绒玩具感的歧骸形象出现，每一只形象都会根据视作目标的孩子对症下药地改变，很多时候无法锁定该异象的真名。\r\n「复仇、复仇……桀桀桀！！！」"
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/DataAssets/DataAssetSet/Abyss/ST_AbyssBattle.ST_AbyssBattle",
+                "Key": "mon_051_BP",
+                "SourceString": "桀桀熊",
+                "LocalizedString": "桀桀熊"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_011.UI_YH_PVEBOSS_BOSSList_Boss_011",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon02.YH_UI_zfsw_BOSS100_icon02",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_06.UI_avatarbg_Icon_06",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Mon_Desc_051",
+                "SourceString": "因无法接受孩子已经成长、不再需要自己或遗忘自己的事实，由异象「抱抱熊」衍生而出的物体异象。通常以容易受到孩子喜爱的毛绒玩具感的歧骸形象出现，每一只形象都会根据视作目标的孩子对症下药地改变，很多时候无法锁定该异象的真名。\r\n「复仇、复仇……桀桀桀！！！」",
+                "LocalizedString": "因无法接受孩子已经成长、不再需要自己或遗忘自己的事实，由异象「抱抱熊」衍生而出的物体异象。通常以容易受到孩子喜爱的毛绒玩具感的歧骸形象出现，每一只形象都会根据视作目标的孩子对症下药地改变，很多时候无法锁定该异象的真名。\r\n「复仇、复仇……桀桀桀！！！」"
+              }
+            }
+          }
+        ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorArray": [
+          {
+            "PreviewActorClass": {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/mon_51/mon_51_UI.mon_51_UI_C",
+              "SubPathString": ""
+            },
+            "PreviewActorTransformOverride": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 1.0,
+                "W": 6.123234E-17,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": -4.0,
+                "Z": 13.0
+              },
+              "Scale3D": {
+                "X": 0.08,
+                "Y": 0.08,
+                "Z": 0.08
+              }
+            }
+          }
+        ]
+      },
+      "DiyBossStage5": {
+        "DescName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DiyBoss05_Name",
+          "SourceString": "文明观影",
+          "LocalizedString": "文明观影"
+        },
+        "Comment": "斑蝶（简化版）",
+        "UnlockNode": {
+          "PreLevelId": "DiyBossStage4",
+          "ActiveOpenedHours": 72,
+          "UnlockDesc": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Unlock_Cond_L5",
+            "SourceString": "活动开始第四天，且通关上一关解锁",
+            "LocalizedString": "活动开始第四天，且通关上一关解锁"
+          }
+        },
+        "DifficultyMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 1.0
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 2.0
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 3.0
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 5.0
+            }
+          }
+        ],
+        "ScoreAwardMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "LimitScore": 500,
+              "DropID": "drop_DiyBoss_diff1",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 1,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LimitScore": 1000,
+              "DropID": "drop_DiyBoss_diff2",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 2,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LimitScore": 2000,
+              "DropID": "drop_DiyBoss_diff3_new",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 3,
+              "RecommendPresets": [
+                "TimeOP001",
+                "Attack002",
+                "ZhouOP001",
+                "LifeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LimitScore": 3000,
+              "DropID": "drop_DiyBoss_diff4",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "LimitScore": 5000,
+              "DropID": "drop_DiyBoss_diff5",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          }
+        ],
+        "OptionChoices": [
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
+            "Options": [
+              "TimeOP001",
+              "TimeOP002",
+              "TimeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
+            "Options": [
+              "LifeOP001",
+              "LifeOP002",
+              "LifeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
+            "Options": [
+              "Attack001",
+              "Attack002",
+              "Attack003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceAn",
+              "SourceString": "敌方暗抗性提升",
+              "LocalizedString": "敌方暗抗性提升"
+            },
+            "Options": [
+              "AnOP001",
+              "AnOP002",
+              "AnOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceHun",
+              "SourceString": "敌方魂抗性提升",
+              "LocalizedString": "敌方魂抗性提升"
+            },
+            "Options": [
+              "HunOP001",
+              "HunOP002",
+              "HunOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceXiang",
+              "SourceString": "敌方相抗性提升",
+              "LocalizedString": "敌方相抗性提升"
+            },
+            "Options": [
+              "XiangOP001",
+              "XiangOP002",
+              "XiangOP003"
+            ]
+          }
+        ],
+        "MechanismCategoryTitle": {
+          "TableId": "/Game/Text/UI/ST_UI_wzj.ST_UI_wzj",
+          "Key": "diyBoss_goal_txt",
+          "SourceString": "额外挑战目标",
+          "LocalizedString": "额外挑战目标"
+        },
+        "MechanismOptionChoices": [
+          {
+            "OptionID": "DiyBoss_Bandie_01"
+          },
+          {
+            "OptionID": "DiyBoss_Bandie_02"
+          },
+          {
+            "OptionID": "DiyBoss_Bandie_03"
+          }
+        ],
+        "MechanismScoreLimit": 75,
+        "DifficultyDisplayData": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_08_Name",
+                "SourceString": "斑蝶",
+                "LocalizedString": "斑蝶"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_002.UI_YH_PVEBOSS_BOSSList_Boss_002",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_08_icon.Boss_08_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_01.UI_avatarbg_Icon_01",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_08_BP_Found",
+                "SourceString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」",
+                "LocalizedString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」"
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_08_Name",
+                "SourceString": "斑蝶",
+                "LocalizedString": "斑蝶"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_002.UI_YH_PVEBOSS_BOSSList_Boss_002",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_08_icon.Boss_08_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_01.UI_avatarbg_Icon_01",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_08_BP_Found",
+                "SourceString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」",
+                "LocalizedString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」"
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_08_Name",
+                "SourceString": "斑蝶",
+                "LocalizedString": "斑蝶"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_002.UI_YH_PVEBOSS_BOSSList_Boss_002",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_08_icon.Boss_08_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_01.UI_avatarbg_Icon_01",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_08_BP_Found",
+                "SourceString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」",
+                "LocalizedString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」"
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_08_Name",
+                "SourceString": "斑蝶",
+                "LocalizedString": "斑蝶"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_002.UI_YH_PVEBOSS_BOSSList_Boss_002",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_08_icon.Boss_08_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_01.UI_avatarbg_Icon_01",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_08_BP_Found",
+                "SourceString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」",
+                "LocalizedString": "笨重而庞大的蝴蝶拖着身上的电影票根，一直试图向高空飞行，却只能终日在此徘徊。\r\n「逃走吧，能逃走吗？」"
+              }
+            }
+          }
+        ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorArray": [
+          {
+            "PreviewActorClass": {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/boss_08/Boss_08_BP_UI.Boss_08_BP_UI_C",
+              "SubPathString": ""
+            },
+            "PreviewActorTransformOverride": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 1.0,
+                "W": 0.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": -4.0,
+                "Z": 10.0
+              },
+              "Scale3D": {
+                "X": 0.06,
+                "Y": 0.06,
+                "Z": 0.06
+              }
+            }
+          }
+        ]
+      },
+      "DiyBossStage8": {
+        "DescName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DiyBoss13_Name",
+          "SourceString": "童话故事集",
+          "LocalizedString": "童话故事集"
+        },
+        "Comment": "玛门&瓦楞城堡",
+        "UnlockNode": {
+          "PreLevelId": "DiyBossStage5",
+          "ActiveOpenedHours": 72,
+          "UnlockDesc": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Unlock_Cond_L5",
+            "SourceString": "活动开始第四天，且通关上一关解锁",
+            "LocalizedString": "活动开始第四天，且通关上一关解锁"
+          }
+        },
+        "DifficultyMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 1.0
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 2.0
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 3.0
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 5.0
+            }
+          }
+        ],
+        "ScoreAwardMap": [],
+        "OptionChoices": [
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
+            "Options": [
+              "TimeOP001_challenge",
+              "TimeOP002_challenge",
+              "TimeOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
+            "Options": [
+              "LifeOP001_challenge",
+              "LifeOP002_challenge",
+              "LifeOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
+            "Options": [
+              "Attack001_challenge",
+              "Attack002_challenge",
+              "Attack003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceGuang",
+              "SourceString": "敌方光抗性提升",
+              "LocalizedString": "敌方光抗性提升"
+            },
+            "Options": [
+              "LightOP001_challenge",
+              "LightOP002_challenge",
+              "LightOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceLin",
+              "SourceString": "敌方灵抗性提升",
+              "LocalizedString": "敌方灵抗性提升"
+            },
+            "Options": [
+              "LingOP001_challenge",
+              "LingOP002_challenge",
+              "LingOP003_challenge"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceXiang",
+              "SourceString": "敌方相抗性提升",
+              "LocalizedString": "敌方相抗性提升"
+            },
+            "Options": [
+              "XiangOP001_challenge",
+              "XiangOP002_challenge",
+              "XiangOP003_challenge"
+            ]
+          }
+        ],
+        "MechanismCategoryTitle": {
+          "TableId": "/Game/Text/UI/ST_UI_wzj.ST_UI_wzj",
+          "Key": "diyBoss_goal_txt",
+          "SourceString": "额外挑战目标",
+          "LocalizedString": "额外挑战目标"
+        },
+        "MechanismOptionChoices": [
+          {
+            "OptionID": "DiyBoss_Mamen_02"
+          },
+          {
+            "OptionID": "DiyBoss_Mamen_01"
+          },
+          {
+            "OptionID": "DiyBoss_Mamen_03"
+          }
+        ],
+        "MechanismScoreLimit": 525,
+        "DifficultyDisplayData": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "Anomaly_013_Name",
+                "SourceString": "墨菲克斯",
+                "LocalizedString": "墨菲克斯"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_013.UI_YH_PVEBOSS_BOSSList_Boss_013",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon04.YH_UI_zfsw_BOSS100_icon04",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Boss_Desc_duo_1",
+                "SourceString": "有时候异象们会互相合作，获取共同利益。正如此刻，吞食财富的玛门盘踞在瓦楞城堡中，等待着下一个自投罗网的勇者。\r\n「下一位应门的挑战者！是谁？」",
+                "LocalizedString": "有时候异象们会互相合作，获取共同利益。正如此刻，吞食财富的玛门盘踞在瓦楞城堡中，等待着下一个自投罗网的勇者。\r\n「下一位应门的挑战者！是谁？」"
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "Anomaly_013_Name",
+                "SourceString": "墨菲克斯",
+                "LocalizedString": "墨菲克斯"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_013.UI_YH_PVEBOSS_BOSSList_Boss_013",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon04.YH_UI_zfsw_BOSS100_icon04",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Boss_Desc_duo_1",
+                "SourceString": "有时候异象们会互相合作，获取共同利益。正如此刻，吞食财富的玛门盘踞在瓦楞城堡中，等待着下一个自投罗网的勇者。\r\n「下一位应门的挑战者！是谁？」",
+                "LocalizedString": "有时候异象们会互相合作，获取共同利益。正如此刻，吞食财富的玛门盘踞在瓦楞城堡中，等待着下一个自投罗网的勇者。\r\n「下一位应门的挑战者！是谁？」"
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "Anomaly_013_Name",
+                "SourceString": "墨菲克斯",
+                "LocalizedString": "墨菲克斯"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_013.UI_YH_PVEBOSS_BOSSList_Boss_013",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon04.YH_UI_zfsw_BOSS100_icon04",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Boss_Desc_duo_1",
+                "SourceString": "有时候异象们会互相合作，获取共同利益。正如此刻，吞食财富的玛门盘踞在瓦楞城堡中，等待着下一个自投罗网的勇者。\r\n「下一位应门的挑战者！是谁？」",
+                "LocalizedString": "有时候异象们会互相合作，获取共同利益。正如此刻，吞食财富的玛门盘踞在瓦楞城堡中，等待着下一个自投罗网的勇者。\r\n「下一位应门的挑战者！是谁？」"
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "Anomaly_013_Name",
+                "SourceString": "墨菲克斯",
+                "LocalizedString": "墨菲克斯"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_013.UI_YH_PVEBOSS_BOSSList_Boss_013",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/YH_UI_zfsw_BOSS100_icon04.YH_UI_zfsw_BOSS100_icon04",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Boss_Desc_duo_1",
+                "SourceString": "有时候异象们会互相合作，获取共同利益。正如此刻，吞食财富的玛门盘踞在瓦楞城堡中，等待着下一个自投罗网的勇者。\r\n「下一位应门的挑战者！是谁？」",
+                "LocalizedString": "有时候异象们会互相合作，获取共同利益。正如此刻，吞食财富的玛门盘踞在瓦楞城堡中，等待着下一个自投罗网的勇者。\r\n「下一位应门的挑战者！是谁？」"
+              }
+            }
+          }
+        ],
+        "bSpecialHighDifficulty": true,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/Transparent.Transparent",
+          "SubPathString": ""
+        },
+        "PreviewActorArray": [
+          {
+            "PreviewActorClass": {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/mon_48/mon_48_UI.mon_48_UI_C",
+              "SubPathString": ""
+            },
+            "PreviewActorTransformOverride": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.9914449,
+                "W": 0.13052619,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 12.0,
+                "Y": -13.0,
+                "Z": 14.0
+              },
+              "Scale3D": {
+                "X": 0.05,
+                "Y": 0.05,
+                "Z": 0.05
+              }
+            }
+          },
+          {
+            "PreviewActorClass": {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/boss_17/Boss_017_BP_UI.Boss_017_BP_UI_C",
+              "SubPathString": ""
+            },
+            "PreviewActorTransformOverride": {
+              "Rotation": {
+                "X": -0.0,
+                "Y": 0.0,
+                "Z": -0.9914449,
+                "W": 0.13052619,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": -2.0,
+                "Y": 6.0,
+                "Z": 14.0
+              },
+              "Scale3D": {
+                "X": 0.04,
+                "Y": 0.04,
+                "Z": 0.04
+              }
+            }
+          }
+        ]
+      },
+      "DiyBossStage6": {
+        "DescName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DiyBoss04_Name",
+          "SourceString": "请遵守信用",
+          "LocalizedString": "请遵守信用"
+        },
+        "Comment": "讨债人",
+        "UnlockNode": {
+          "PreLevelId": "DiyBossStage5",
+          "ActiveOpenedHours": 96,
+          "UnlockDesc": {
+            "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+            "Key": "DiyBoss_Unlock_Cond_L6_challenge",
+            "SourceString": "活动开始第五天，且通关「文明观影」解锁",
+            "LocalizedString": "活动开始第五天，且通关「文明观影」解锁"
+          }
+        },
+        "DifficultyMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty1",
+                "SourceString": "简单 积分倍率x1",
+                "LocalizedString": "简单 积分倍率x1"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 1.0
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty2",
+                "SourceString": "普通 积分倍率x2",
+                "LocalizedString": "普通 积分倍率x2"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 2.0
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty3",
+                "SourceString": "困难 积分倍率x3",
+                "LocalizedString": "困难 积分倍率x3"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 3.0
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+                "Key": "DiyBoss_Difficulty4",
+                "SourceString": "极难 积分倍率x5",
+                "LocalizedString": "极难 积分倍率x5"
+              },
+              "BaseScore": 500,
+              "ScoreRate": 5.0
+            }
+          }
+        ],
+        "ScoreAwardMap": [
+          {
+            "Key": "1",
+            "Value": {
+              "LimitScore": 500,
+              "DropID": "drop_DiyBoss_diff1",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 1,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "LimitScore": 1000,
+              "DropID": "drop_DiyBoss_diff2",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 2,
+              "RecommendPresets": [
+                "TimeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "LimitScore": 2000,
+              "DropID": "drop_DiyBoss_diff3_new",
+              "bHasRecommend": true,
+              "RecommendDifficulty": 3,
+              "RecommendPresets": [
+                "TimeOP001",
+                "Attack002",
+                "XiangOP001",
+                "LifeOP001"
+              ],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "LimitScore": 3000,
+              "DropID": "drop_DiyBoss_diff4",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "LimitScore": 5000,
+              "DropID": "drop_DiyBoss_diff5",
+              "bHasRecommend": false,
+              "RecommendDifficulty": 0,
+              "RecommendPresets": [],
+              "RecommendMechanismPresets": []
+            }
+          }
+        ],
+        "OptionChoices": [
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_TimeChoice",
+              "SourceString": "挑战目标时间",
+              "LocalizedString": "挑战目标时间"
+            },
+            "Options": [
+              "TimeOP001",
+              "TimeOP002",
+              "TimeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_HPChoice",
+              "SourceString": "敌方生命值提升",
+              "LocalizedString": "敌方生命值提升"
+            },
+            "Options": [
+              "LifeOP001",
+              "LifeOP002",
+              "LifeOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_AtkChoice",
+              "SourceString": "敌方攻击力提升",
+              "LocalizedString": "敌方攻击力提升"
+            },
+            "Options": [
+              "Attack001",
+              "Attack002",
+              "Attack003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceZhou",
+              "SourceString": "敌方咒抗性提升",
+              "LocalizedString": "敌方咒抗性提升"
+            },
+            "Options": [
+              "ZhouOP001",
+              "ZhouOP002",
+              "ZhouOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceAn",
+              "SourceString": "敌方暗抗性提升",
+              "LocalizedString": "敌方暗抗性提升"
+            },
+            "Options": [
+              "AnOP001",
+              "AnOP002",
+              "AnOP003"
+            ]
+          },
+          {
+            "CategoryDesc": {
+              "TableId": "/Game/Text/ST_UI_N.ST_UI_N",
+              "Key": "DiyBoss_ChoiceHun",
+              "SourceString": "敌方魂抗性提升",
+              "LocalizedString": "敌方魂抗性提升"
+            },
+            "Options": [
+              "HunOP001",
+              "HunOP002",
+              "HunOP003"
+            ]
+          }
+        ],
+        "MechanismCategoryTitle": {
+          "TableId": "/Game/Text/UI/ST_UI_wzj.ST_UI_wzj",
+          "Key": "diyBoss_goal_txt",
+          "SourceString": "额外挑战目标",
+          "LocalizedString": "额外挑战目标"
+        },
+        "MechanismOptionChoices": [
+          {
+            "OptionID": "DiyBoss_Taozhairen_01"
+          },
+          {
+            "OptionID": "DiyBoss_Taozhairen_02"
+          },
+          {
+            "OptionID": "DiyBoss_Taozhairen_03"
+          }
+        ],
+        "MechanismScoreLimit": 75,
+        "DifficultyDisplayData": [
+          {
+            "Key": "1",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_26_Name",
+                "SourceString": "讨债人",
+                "LocalizedString": "讨债人"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_26_BP_Found",
+                "SourceString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」",
+                "LocalizedString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」"
+              }
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_26_Name",
+                "SourceString": "讨债人",
+                "LocalizedString": "讨债人"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_26_BP_Found",
+                "SourceString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」",
+                "LocalizedString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」"
+              }
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_26_Name",
+                "SourceString": "讨债人",
+                "LocalizedString": "讨债人"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_26_BP_Found",
+                "SourceString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」",
+                "LocalizedString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」"
+              }
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Desc": {
+                "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+                "Key": "boss_26_Name",
+                "SourceString": "讨债人",
+                "LocalizedString": "讨债人"
+              },
+              "BossIcon": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/UI_YH_PVEBOSS_BOSSList_Boss_006.UI_YH_PVEBOSS_BOSSList_Boss_006",
+                "SubPathString": ""
+              },
+              "BossIconMini": {
+                "AssetPathName": "/Game/UI/UI/DiyBoss/Boss_26_icon.Boss_26_icon",
+                "SubPathString": ""
+              },
+              "BossWeakPointIcon": {
+                "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Icon_04.UI_avatarbg_Icon_04",
+                "SubPathString": ""
+              },
+              "DetailDesc": {
+                "TableId": "/Game/Text/ST_MonsterManual.ST_MonsterManual",
+                "Key": "boss_26_BP_Found",
+                "SourceString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」",
+                "LocalizedString": "因「窃取」时间的行为诞生的异象，为消除影响、索还取巧得来的时间而行动。即使是盛极一时的康斯坦丁家族，最终也在它的追索下走向覆灭。\r\n「尘归尘，土归土。」"
+              }
+            }
+          }
+        ],
+        "bSpecialHighDifficulty": false,
+        "SpecialHighDifficultySlotBkg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewActorArray": [
+          {
+            "PreviewActorClass": {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/boss_26/boss_26_BP_UI.boss_26_BP_UI_C",
+              "SubPathString": ""
+            },
+            "PreviewActorTransformOverride": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 1.0,
+                "W": 0.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": -4.0,
+                "Z": 10.0
+              },
+              "Scale3D": {
+                "X": 0.1,
+                "Y": 0.1,
+                "Z": 0.1
+              }
+            }
+          }
+        ]
+      }
+    }
   }
 ]

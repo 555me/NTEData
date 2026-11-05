@@ -4,6 +4,25 @@
     "Name": "DA_DivinationStall",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'HTDivinationStallDataAsset'",
-    "Package": "/Game/DataAssets/DA_DivinationStall"
+    "Package": "/Game/DataAssets/DA_DivinationStall",
+    "Properties": {
+      "bEnableVehicleRoadPlacementCheck": true,
+      "StallConfig": {
+        "DefaultDialoguePool": [
+          {
+            "Dialogue": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Mass/NPC_AI/Dlg_NPC_Divination_FL.Dlg_NPC_Divination_FL",
+              "SubPathString": ""
+            },
+            "Weight": 1.0
+          }
+        ],
+        "MaxWaitingCustomers": 3
+      },
+      "DialogueRewardTable": {
+        "ObjectName": "DataTable'DT_FortuneStallDialogueReward'",
+        "ObjectPath": "/Game/DataTable/Divination/DT_FortuneStallDialogueReward.0"
+      }
+    }
   }
 ]

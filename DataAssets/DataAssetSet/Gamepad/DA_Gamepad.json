@@ -98,15 +98,48 @@
         "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_GamepadButtonSettings.DT_GamepadButtonSettings",
         "SubPathString": ""
       },
-      "ActiveLayersToFindDataTable": {
+      "QuickMenuCommonSceneConfigDataTable": {
         "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_GamepadQuickMenuCommonSceneConfig.DT_GamepadQuickMenuCommonSceneConfig",
         "SubPathString": ""
       },
-      "ViewportLayersToFindDataTable": {
+      "ActiveLayersToFindDataTable": {
         "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_ActivableLayers.DT_ActivableLayers",
         "SubPathString": ""
       },
-      "LeftStickThresholdToReturnTab": 1.3E-44
+      "ViewportLayersToFindDataTable": {
+        "AssetPathName": "/Game/DataAssets/DataAssetSet/Gamepad/DT_ViewportLayers.DT_ViewportLayers",
+        "SubPathString": ""
+      },
+      "XBoxMaxMotionVolumn": 40.0,
+      "CombinationActions": [
+        {
+          "Key": "AbyssCardSkill",
+          "Value": {
+            "Keys": [
+              {
+                "KeyName": "Gamepad_FaceButton_Left"
+              },
+              {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "ExtraUltSkill",
+          "Value": {
+            "Keys": [
+              {
+                "KeyName": "Gamepad_FaceButton_Top"
+              },
+              {
+                "KeyName": "Gamepad_FaceButton_Right"
+              }
+            ]
+          }
+        }
+      ],
+      "LoadPolicy": "EHTDataAssetSetLoadPolicy::Cache"
     }
   }
 ]

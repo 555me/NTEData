@@ -11,6 +11,3657 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "NormalGoods": {
+        "ServiceType": "EHTLogisticsGoodsServiceType::DeliveryService",
+        "MapIconID": "TakeOrders_01",
+        "TargetMapIconID": "TakeOrders_02",
+        "CategoryName": {
+          "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
+          "Key": "TakeOrders_Goods_01",
+          "SourceString": "普通货物",
+          "LocalizedString": "普通货物"
+        },
+        "CategoryIcon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/OrdersIcon/YH_UI_Takeorders_Goods_001_256.YH_UI_Takeorders_Goods_001_256",
+          "SubPathString": ""
+        },
+        "JourneyRules": [
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Short",
+            "TotalTimeSeconds": 300,
+            "DriverTotalTimeSeconds": 300,
+            "DriverResetTime": 30,
+            "InitialCargoDurability": 300,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 140.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 100.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 140.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 100.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 120.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 120.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Long",
+            "TotalTimeSeconds": 600,
+            "DriverTotalTimeSeconds": 900,
+            "DriverResetTime": 150,
+            "InitialCargoDurability": 600,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 280.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 280.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 480.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 480.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::ExtraLong",
+            "TotalTimeSeconds": 1200,
+            "DriverTotalTimeSeconds": 1800,
+            "DriverResetTime": 300,
+            "InitialCargoDurability": 900,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 560.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 400.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 560.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 400.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 900.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 540.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 540.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          }
+        ]
+      },
+      "BigGoods": {
+        "ServiceType": "EHTLogisticsGoodsServiceType::DeliveryService",
+        "MapIconID": "TakeOrders_03",
+        "TargetMapIconID": "TakeOrders_04",
+        "CategoryName": {
+          "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
+          "Key": "TakeOrders_Goods_02",
+          "SourceString": "大型货物",
+          "LocalizedString": "大型货物"
+        },
+        "CategoryIcon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/OrdersIcon/YH_UI_Takeorders_Goods_003_256.YH_UI_Takeorders_Goods_003_256",
+          "SubPathString": ""
+        },
+        "JourneyRules": [
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Short",
+            "TotalTimeSeconds": 300,
+            "DriverTotalTimeSeconds": 600,
+            "DriverResetTime": 60,
+            "InitialCargoDurability": 300,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 140.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 100.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 140.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 100.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 120.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 120.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Long",
+            "TotalTimeSeconds": 600,
+            "DriverTotalTimeSeconds": 1800,
+            "DriverResetTime": 300,
+            "InitialCargoDurability": 600,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 280.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 280.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 480.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 480.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::ExtraLong",
+            "TotalTimeSeconds": 1200,
+            "DriverTotalTimeSeconds": 3600,
+            "DriverResetTime": 600,
+            "InitialCargoDurability": 900,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 560.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 400.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 560.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 400.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 900.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 540.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 540.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          }
+        ]
+      },
+      "DamageableGoods": {
+        "ServiceType": "EHTLogisticsGoodsServiceType::DeliveryService",
+        "MapIconID": "TakeOrders_05",
+        "TargetMapIconID": "TakeOrders_06",
+        "CategoryName": {
+          "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
+          "Key": "TakeOrders_Goods_03",
+          "SourceString": "易损货物",
+          "LocalizedString": "易损货物"
+        },
+        "CategoryIcon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/OrdersIcon/YH_UI_Takeorders_Goods_002_256.YH_UI_Takeorders_Goods_002_256",
+          "SubPathString": ""
+        },
+        "JourneyRules": [
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Short",
+            "TotalTimeSeconds": 300,
+            "DriverTotalTimeSeconds": 900,
+            "DriverResetTime": 90,
+            "InitialCargoDurability": 200,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 140.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 100.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 140.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 100.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 160.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 120.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 160.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 120.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Long",
+            "TotalTimeSeconds": 600,
+            "DriverTotalTimeSeconds": 2700,
+            "DriverResetTime": 450,
+            "InitialCargoDurability": 400,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 280.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 280.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 400.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 320.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 320.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::ExtraLong",
+            "TotalTimeSeconds": 1200,
+            "DriverTotalTimeSeconds": 5400,
+            "DriverResetTime": 900,
+            "InitialCargoDurability": 600,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 560.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 400.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 560.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 400.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 540.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 480.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 540.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 480.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          }
+        ]
+      },
+      "HeteromorphismGoods": {
+        "ServiceType": "EHTLogisticsGoodsServiceType::DeliveryService",
+        "MapIconID": "TakeOrders_07",
+        "TargetMapIconID": "TakeOrders_08",
+        "CategoryName": {
+          "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
+          "Key": "TakeOrders_Goods_04",
+          "SourceString": "异象货物",
+          "LocalizedString": "异象货物"
+        },
+        "CategoryIcon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/OrdersIcon/YH_UI_Takeorders_Goods_005_256.YH_UI_Takeorders_Goods_005_256",
+          "SubPathString": ""
+        },
+        "JourneyRules": [
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Short",
+            "TotalTimeSeconds": 300,
+            "DriverTotalTimeSeconds": 1800,
+            "DriverResetTime": 180,
+            "InitialCargoDurability": 200,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 210.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 210.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 140.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 140.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 160.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 120.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 160.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 120.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Long",
+            "TotalTimeSeconds": 600,
+            "DriverTotalTimeSeconds": 5400,
+            "DriverResetTime": 900,
+            "InitialCargoDurability": 400,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 420.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 420.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 280.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 280.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 400.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 320.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 320.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::ExtraLong",
+            "TotalTimeSeconds": 1200,
+            "DriverTotalTimeSeconds": 10800,
+            "DriverResetTime": 1800,
+            "InitialCargoDurability": 600,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 840.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 840.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 560.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 560.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 540.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 480.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 540.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 480.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          }
+        ]
+      },
+      "UrgendGoods": {
+        "ServiceType": "EHTLogisticsGoodsServiceType::DeliveryService",
+        "MapIconID": "TakeOrders_09",
+        "TargetMapIconID": "TakeOrders_10",
+        "CategoryName": {
+          "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
+          "Key": "TakeOrders_Goods_05",
+          "SourceString": "加急货物",
+          "LocalizedString": "加急货物"
+        },
+        "CategoryIcon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/OrdersIcon/YH_UI_Takeorders_Goods_004_256.YH_UI_Takeorders_Goods_004_256",
+          "SubPathString": ""
+        },
+        "JourneyRules": [
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Short",
+            "TotalTimeSeconds": 300,
+            "DriverTotalTimeSeconds": 600,
+            "DriverResetTime": 60,
+            "InitialCargoDurability": 300,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 210.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 210.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 140.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 140.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 120.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 120.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Long",
+            "TotalTimeSeconds": 600,
+            "DriverTotalTimeSeconds": 1800,
+            "DriverResetTime": 300,
+            "InitialCargoDurability": 600,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 420.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 420.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 280.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 280.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 480.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 480.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::ExtraLong",
+            "TotalTimeSeconds": 1200,
+            "DriverTotalTimeSeconds": 3600,
+            "DriverResetTime": 600,
+            "InitialCargoDurability": 900,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 840.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 840.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 560.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 560.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 900.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 540.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 540.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          }
+        ]
+      },
+      "FurnitureGoods": {
+        "ServiceType": "EHTLogisticsGoodsServiceType::DeliveryService",
+        "MapIconID": "TakeOrders_07",
+        "TargetMapIconID": "TakeOrders_08",
+        "CategoryName": {
+          "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
+          "Key": "TakeOrders_Goods_04",
+          "SourceString": "异象货物",
+          "LocalizedString": "异象货物"
+        },
+        "CategoryIcon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/OrdersIcon/YH_UI_Takeorders_Goods_005_256.YH_UI_Takeorders_Goods_005_256",
+          "SubPathString": ""
+        },
+        "JourneyRules": [
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Short",
+            "TotalTimeSeconds": 300,
+            "DriverTotalTimeSeconds": 300,
+            "DriverResetTime": 30,
+            "InitialCargoDurability": 200,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 210.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 210.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 140.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 140.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 160.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 120.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 160.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 120.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Long",
+            "TotalTimeSeconds": 600,
+            "DriverTotalTimeSeconds": 600,
+            "DriverResetTime": 60,
+            "InitialCargoDurability": 400,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 420.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 420.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 280.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 280.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 400.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 320.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 320.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::ExtraLong",
+            "TotalTimeSeconds": 1200,
+            "DriverTotalTimeSeconds": 1200,
+            "DriverResetTime": 120,
+            "InitialCargoDurability": 600,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 840.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 840.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 560.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 560.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 540.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 480.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 540.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 480.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          }
+        ]
+      },
+      "ValuableGoods": {
+        "ServiceType": "EHTLogisticsGoodsServiceType::DeliveryService",
+        "MapIconID": "TakeOrders_11",
+        "TargetMapIconID": "TakeOrders_12",
+        "CategoryName": {
+          "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
+          "Key": "TakeOrders_Goods_06",
+          "SourceString": "贵重货物",
+          "LocalizedString": "贵重货物"
+        },
+        "CategoryIcon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/OrdersIcon/YH_UI_Takeorders_Goods_006_256.YH_UI_Takeorders_Goods_006_256",
+          "SubPathString": ""
+        },
+        "JourneyRules": [
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Short",
+            "TotalTimeSeconds": 300,
+            "DriverTotalTimeSeconds": 2400,
+            "DriverResetTime": 240,
+            "InitialCargoDurability": 100,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 140.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 100.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 140.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 100.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 90.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 100.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 80.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 90.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 60.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 80.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 60.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Long",
+            "TotalTimeSeconds": 600,
+            "DriverTotalTimeSeconds": 7200,
+            "DriverResetTime": 1200,
+            "InitialCargoDurability": 200,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 280.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 280.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 160.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 120.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 160.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 120.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::ExtraLong",
+            "TotalTimeSeconds": 1200,
+            "DriverTotalTimeSeconds": 14400,
+            "DriverResetTime": 2400,
+            "InitialCargoDurability": 300,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 560.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 400.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 560.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 400.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 270.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 270.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          }
+        ]
+      },
+      "EmergencyMedicalService": {
+        "ServiceType": "EHTLogisticsGoodsServiceType::SpecialService",
+        "MapIconID": "TakeOrders_13",
+        "TargetMapIconID": "TakeOrders_14",
+        "CategoryName": {
+          "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
+          "Key": "TakeOrders_Service_01",
+          "SourceString": "病患急救",
+          "LocalizedString": "病患急救"
+        },
+        "CategoryIcon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/OrdersIcon/YH_UI_Takeorders_Service_001_256.YH_UI_Takeorders_Service_001_256",
+          "SubPathString": ""
+        },
+        "JourneyRules": [
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Short",
+            "TotalTimeSeconds": 300,
+            "DriverTotalTimeSeconds": 600,
+            "DriverResetTime": 60,
+            "InitialCargoDurability": 100,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 140.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 100.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 140.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 100.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 90.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 100.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 80.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 90.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 60.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 80.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 60.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Long",
+            "TotalTimeSeconds": 600,
+            "DriverTotalTimeSeconds": 1800,
+            "DriverResetTime": 300,
+            "InitialCargoDurability": 200,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 280.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 280.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 160.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 120.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 160.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 120.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::ExtraLong",
+            "TotalTimeSeconds": 1200,
+            "DriverTotalTimeSeconds": 3600,
+            "DriverResetTime": 600,
+            "InitialCargoDurability": 300,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 560.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 400.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 560.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 400.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 270.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 270.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          }
+        ]
+      },
+      "PrisonerTransportService": {
+        "ServiceType": "EHTLogisticsGoodsServiceType::SpecialService",
+        "MapIconID": "TakeOrders_15",
+        "TargetMapIconID": "TakeOrders_16",
+        "CategoryName": {
+          "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
+          "Key": "TakeOrders_Service_02",
+          "SourceString": "囚犯转运",
+          "LocalizedString": "囚犯转运"
+        },
+        "CategoryIcon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/OrdersIcon/YH_UI_Takeorders_Service_002_256.YH_UI_Takeorders_Service_002_256",
+          "SubPathString": ""
+        },
+        "JourneyRules": [
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Short",
+            "TotalTimeSeconds": 300,
+            "DriverTotalTimeSeconds": 600,
+            "DriverResetTime": 60,
+            "InitialCargoDurability": 200,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 210.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 210.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 140.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 140.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 160.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 120.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 160.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 120.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Long",
+            "TotalTimeSeconds": 600,
+            "DriverTotalTimeSeconds": 1800,
+            "DriverResetTime": 300,
+            "InitialCargoDurability": 400,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 420.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 420.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 280.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 280.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 400.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 320.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 320.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::ExtraLong",
+            "TotalTimeSeconds": 1200,
+            "DriverTotalTimeSeconds": 3600,
+            "DriverResetTime": 600,
+            "InitialCargoDurability": 600,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 840.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 840.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 560.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 560.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 540.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 480.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 540.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 480.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          }
+        ]
+      },
+      "RoadsideAssistanceService": {
+        "ServiceType": "EHTLogisticsGoodsServiceType::SpecialService",
+        "MapIconID": "TakeOrders_17",
+        "TargetMapIconID": "TakeOrders_18",
+        "CategoryName": {
+          "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
+          "Key": "TakeOrders_Service_03",
+          "SourceString": "道路救援",
+          "LocalizedString": "道路救援"
+        },
+        "CategoryIcon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/OrdersIcon/YH_UI_Takeorders_Service_003_256.YH_UI_Takeorders_Service_003_256",
+          "SubPathString": ""
+        },
+        "JourneyRules": [
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Short",
+            "TotalTimeSeconds": 300,
+            "DriverTotalTimeSeconds": 600,
+            "DriverResetTime": 60,
+            "InitialCargoDurability": 200,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 210.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 300.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 210.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 140.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 140.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 180.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 160.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 180.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 120.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 160.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 120.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::Long",
+            "TotalTimeSeconds": 600,
+            "DriverTotalTimeSeconds": 1800,
+            "DriverResetTime": 300,
+            "InitialCargoDurability": 400,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 420.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 420.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 280.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 280.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 400.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 320.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 240.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 320.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 240.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          },
+          {
+            "JourneyType": "EHTLogisticsJourneyType::ExtraLong",
+            "TotalTimeSeconds": 1200,
+            "DriverTotalTimeSeconds": 3600,
+            "DriverResetTime": 600,
+            "InitialCargoDurability": 600,
+            "bFailWhenCargoDurabilityDepleted": false,
+            "TimeSatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 840.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1200.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 720.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 840.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 560.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 720.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 560.0
+                  }
+                },
+                "Satisfaction": 20
+              }
+            ],
+            "CargoDurabilitySatisfactionTiers": [
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 540.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 600.0
+                  }
+                },
+                "Satisfaction": 50
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 480.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 540.0
+                  }
+                },
+                "Satisfaction": 40
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 360.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 480.0
+                  }
+                },
+                "Satisfaction": 30
+              },
+              {
+                "Range": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Inclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 360.0
+                  }
+                },
+                "Satisfaction": 10
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 ]

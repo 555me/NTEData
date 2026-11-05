@@ -4,6 +4,55 @@
     "Name": "DA_OpActLogisticsDataAsset",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'HTOpActLogisticsDataAsset'",
-    "Package": "/Game/DataAssets/DataAssetSet/Activity/Logistics/DA_OpActLogisticsDataAsset"
+    "Package": "/Game/DataAssets/DataAssetSet/Activity/Logistics/DA_OpActLogisticsDataAsset",
+    "Properties": {
+      "QuestDataTable": {
+        "ObjectName": "DataTable'DT_OpActLogisticsSimpleQuestDataTable'",
+        "ObjectPath": "/Game/DataAssets/DataAssetSet/Activity/Logistics/DT_OpActLogisticsSimpleQuestDataTable.0"
+      },
+      "QuestTypeArray": [
+        {
+          "TabName": {
+            "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+            "Key": "YHUI_Logistics_Event_Stage_001",
+            "SourceString": "社区站点",
+            "LocalizedString": "社区站点"
+          },
+          "QuestIDArray": [
+            "OpActLogisticsQuest01",
+            "OpActLogisticsQuest02",
+            "OpActLogisticsQuest03"
+          ]
+        },
+        {
+          "TabName": {
+            "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+            "Key": "YHUI_Logistics_Event_Stage_002",
+            "SourceString": "本地流通",
+            "LocalizedString": "本地流通"
+          },
+          "QuestIDArray": [
+            "OpActLogisticsQuest04",
+            "OpActLogisticsQuest05",
+            "OpActLogisticsQuest06"
+          ]
+        },
+        {
+          "TabName": {
+            "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+            "Key": "YHUI_Logistics_Event_Stage_003",
+            "SourceString": "全市覆盖",
+            "LocalizedString": "全市覆盖"
+          },
+          "QuestIDArray": [
+            "OpActLogisticsQuest07",
+            "OpActLogisticsQuest08"
+          ]
+        }
+      ],
+      "DisplayDropID": "drop_OpActLogistics_Display",
+      "UltimateRewardDropID": "drop_OpActLogisticsTotal",
+      "AwardQuestUIClass": "OpActLogisticsQuest"
+    }
   }
 ]

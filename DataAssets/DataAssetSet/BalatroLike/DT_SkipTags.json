@@ -11,6 +11,1194 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "tag_investment": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Investment",
+          "SourceString": "年终奖",
+          "LocalizedString": "年终奖"
+        },
+        "EnglishName": "InvestmentTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Investment_Desc",
+          "SourceString": "下一次通关BOSS关卡时，获得25金币",
+          "LocalizedString": "下一次通关BOSS关卡时，获得25金币"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleValue",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnBlindCleared",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddMoney",
+            "Value": 25.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [
+              {
+                "Condition": "EHTBalatroEffectCondition::BlindTypeMatch",
+                "ConditionParam": "Boss",
+                "PerUnit": 1,
+                "Threshold": 1,
+                "ConditionValue": 0.0,
+                "bInvert": false
+              }
+            ],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B2:J2。"
+      },
+      "tag_economy": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Economy",
+          "SourceString": "杠杆玩家",
+          "LocalizedString": "杠杆玩家"
+        },
+        "EnglishName": "EconomyTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Economy_Desc",
+          "SourceString": "领取时，获得与当前持有金币等量的金币，最多获得30金币",
+          "LocalizedString": "领取时，获得与当前持有金币等量的金币，最多获得30金币"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleValue",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnTagAcquired",
+            "Condition": "EHTBalatroEffectCondition::Money",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddMoney",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": true,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 30.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B3:J3。"
+      },
+      "tag_foil": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Foil",
+          "SourceString": "闪箔流光",
+          "LocalizedString": "闪箔流光"
+        },
+        "EnglishName": "FoilTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Foil_Desc",
+          "SourceString": "下一家商店的初始货架中，随机1张策略牌或建筑牌获得【闪箔】且免费",
+          "LocalizedString": "下一家商店的初始货架中，随机1张策略牌或建筑牌获得【闪箔】且免费"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleCount",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnShopCreated",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::ModifyShopOffers",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [
+                "EHTBalatroCardCategory::Building",
+                "EHTBalatroCardCategory::Joker"
+              ],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [
+                "EHTBalatroAttachEffect::Silver"
+              ],
+              "PriceMultiplier": 0.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B4:J4。随机两张"
+      },
+      "tag_holographic": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Holographic",
+          "SourceString": "全息幻影",
+          "LocalizedString": "全息幻影"
+        },
+        "EnglishName": "HolographicTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Holographic_Desc",
+          "SourceString": "下一家商店的初始货架中，随机1张策略牌或建筑牌获得【全息】且免费",
+          "LocalizedString": "下一家商店的初始货架中，随机1张策略牌或建筑牌获得【全息】且免费"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleCount",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnShopCreated",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::ModifyShopOffers",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [
+                "EHTBalatroCardCategory::Building",
+                "EHTBalatroCardCategory::Joker"
+              ],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [
+                "EHTBalatroAttachEffect::Hologram"
+              ],
+              "PriceMultiplier": 0.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B5:J5。随机两张"
+      },
+      "tag_polychrome": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Polychrome",
+          "SourceString": "炫彩霓虹",
+          "LocalizedString": "炫彩霓虹"
+        },
+        "EnglishName": "PolychromeTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Polychrome_Desc",
+          "SourceString": "下一家商店的初始货架中，随机1张策略牌获得【多彩】且免费",
+          "LocalizedString": "下一家商店的初始货架中，随机1张策略牌获得【多彩】且免费"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleCount",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnShopCreated",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::ModifyShopOffers",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [
+                "EHTBalatroCardCategory::Joker"
+              ],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [
+                "EHTBalatroAttachEffect::Galaxy"
+              ],
+              "PriceMultiplier": 0.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B6:J6。随机两张"
+      },
+      "tag_negative": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Negative",
+          "SourceString": "负片映像",
+          "LocalizedString": "负片映像"
+        },
+        "EnglishName": "NegativeTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Negative_Desc",
+          "SourceString": "下一家商店的初始货架中，随机1张策略牌获得【负片】且免费",
+          "LocalizedString": "下一家商店的初始货架中，随机1张策略牌获得【负片】且免费"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 2,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleCount",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnShopCreated",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::ModifyShopOffers",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [
+                "EHTBalatroCardCategory::Joker"
+              ],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [
+                "EHTBalatroAttachEffect::NegativeFilm"
+              ],
+              "PriceMultiplier": 0.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B7:J7。随机两张"
+      },
+      "tag_d6": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_D6",
+          "SourceString": "首刷免费",
+          "LocalizedString": "首刷免费"
+        },
+        "EnglishName": "D6RerollTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_D6_Desc",
+          "SourceString": "下一家商店的刷新价格从0金币起步",
+          "LocalizedString": "下一家商店的刷新价格从0金币起步"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::None",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnShopCreated",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::SetShopRerollStartCost",
+            "Value": 0.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B8:J8。"
+      },
+      "tag_coupon": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Coupon",
+          "SourceString": "打骨折",
+          "LocalizedString": "打骨折"
+        },
+        "EnglishName": "CouponTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Coupon_Desc",
+          "SourceString": "下一家商店初始货架的直售卡牌和卡包半价",
+          "LocalizedString": "下一家商店初始货架的直售卡牌和卡包半价"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 2,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::None",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnShopCreated",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::ModifyShopOffers",
+            "Value": 0.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": 0.5,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCardsAndPacks",
+              "bAllTargets": true,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B9:J9。初始货架0元（仅直售，卡包）备注0元与效果栏半价冲突；按需求和效果栏采用0.5。"
+      },
+      "tag_voucher": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Voucher",
+          "SourceString": "券力以赴",
+          "LocalizedString": "券力以赴"
+        },
+        "EnglishName": "VoucherTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Voucher_Desc",
+          "SourceString": "下一家商店额外上架1张城市优惠券",
+          "LocalizedString": "下一家商店额外上架1张城市优惠券"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 2,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::None",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnShopCreated",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddShopCoupon",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B10:J10。随机两张"
+      },
+      "tag_land_grant": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_LandGrant",
+          "SourceString": "地块贱卖",
+          "LocalizedString": "地块贱卖"
+        },
+        "EnglishName": "LandGrantTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_LandGrant_Desc",
+          "SourceString": "下一家商店的地块起始购买价格降低3金币",
+          "LocalizedString": "下一家商店的地块起始购买价格降低3金币"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleValue",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnShopCreated",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddShopPlotPrice",
+            "Value": -3.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B11:J11。-6并价格取max（0，价格）"
+      },
+      "tag_boss_reroll": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_BossReroll",
+          "SourceString": "一键重启",
+          "LocalizedString": "一键重启"
+        },
+        "EnglishName": "BossRerollTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_BossReroll_Desc",
+          "SourceString": "领取时，重新随机本章节的BOSS效果",
+          "LocalizedString": "领取时，重新随机本章节的BOSS效果"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::None",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnTagAcquired",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::RerollBoss",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B12:J12。"
+      },
+      "tag_double": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Double",
+          "SourceString": "升维打击",
+          "LocalizedString": "升维打击"
+        },
+        "EnglishName": "DoubleTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Double_Desc",
+          "SourceString": "领取时，使下一个可翻倍的跳关奖励效果翻倍",
+          "LocalizedString": "领取时，使下一个可翻倍的跳关奖励效果翻倍"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::None",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnTagAcquired",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::GrantDoubleTag",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B13:J13。"
+      },
+      "tag_speed": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Speed",
+          "SourceString": "合法摸鱼",
+          "LocalizedString": "合法摸鱼"
+        },
+        "EnglishName": "SpeedTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Speed_Desc",
+          "SourceString": "领取时，本局游戏每跳过1个关卡，获得5金币",
+          "LocalizedString": "领取时，本局游戏每跳过1个关卡，获得5金币"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 2,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleValue",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnTagAcquired",
+            "Condition": "EHTBalatroEffectCondition::RunSkippedBlindCount",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddMoney",
+            "Value": 5.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": true,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B14:J14。计数器×2"
+      },
+      "tag_handy": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Handy",
+          "SourceString": "薅羊毛",
+          "LocalizedString": "薅羊毛"
+        },
+        "EnglishName": "HandyTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Handy_Desc",
+          "SourceString": "领取时，本局游戏每完成1次出牌结算，获得1金币",
+          "LocalizedString": "领取时，本局游戏每完成1次出牌结算，获得1金币"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 2,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleValue",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnTagAcquired",
+            "Condition": "EHTBalatroEffectCondition::RunHandsPlayedCount",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddMoney",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": true,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B15:J15。计数器×2"
+      },
+      "tag_garbage": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Garbage",
+          "SourceString": "余额变现",
+          "LocalizedString": "余额变现"
+        },
+        "EnglishName": "GarbageTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Garbage_Desc",
+          "SourceString": "领取时，本局游戏已结束的关卡，每累计剩余1次换牌机会，获得1金币",
+          "LocalizedString": "领取时，本局游戏已结束的关卡，每累计剩余1次换牌机会，获得1金币"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 2,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleValue",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnTagAcquired",
+            "Condition": "EHTBalatroEffectCondition::RunUnusedDiscardCount",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddMoney",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": true,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B16:J16。计数器×2"
+      },
+      "tag_uncommon": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Uncommon",
+          "SourceString": "幸运一抽",
+          "LocalizedString": "幸运一抽"
+        },
+        "EnglishName": "UncommonTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Uncommon_Desc",
+          "SourceString": "下一家商店额外上架1张免费的稀有策略牌",
+          "LocalizedString": "下一家商店额外上架1张免费的稀有策略牌"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleCount",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnShopCreated",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddShopJoker",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Rare",
+              "AttachEffects": [],
+              "PriceMultiplier": 0.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B17:J17。必定出现两张稀有度按程序需求统一为Rare/Epic，名称文案同步项目稀有度。"
+      },
+      "tag_rare": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Rare",
+          "SourceString": "单抽奇迹",
+          "LocalizedString": "单抽奇迹"
+        },
+        "EnglishName": "RareTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_Rare_Desc",
+          "SourceString": "下一家商店额外上架1张半价的史诗策略牌",
+          "LocalizedString": "下一家商店额外上架1张半价的史诗策略牌"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 2,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleCount",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnShopCreated",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddShopJoker",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Epic",
+              "AttachEffects": [],
+              "PriceMultiplier": 0.5,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B18:J18。必定出现两张稀有度按程序需求统一为Rare/Epic，名称文案同步项目稀有度。"
+      },
+      "tag_hand_size": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_HandSize",
+          "SourceString": "仓鼠党",
+          "LocalizedString": "仓鼠党"
+        },
+        "EnglishName": "HandSizeTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_HandSize_Desc",
+          "SourceString": "下一场开始的关卡中，手牌上限+2",
+          "LocalizedString": "下一场开始的关卡中，手牌上限+2"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 2,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleValue",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnRoundStart",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddBlindHandSize",
+            "Value": 2.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B20:J20。4"
+      },
+      "tag_extra_hand": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_ExtraHand",
+          "SourceString": "复读机",
+          "LocalizedString": "复读机"
+        },
+        "EnglishName": "ExtraHandTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_ExtraHand_Desc",
+          "SourceString": "下一场开始的关卡中，结算次数+1",
+          "LocalizedString": "下一场开始的关卡中，结算次数+1"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 2,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleValue",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnRoundStart",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::AddBlindHands",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ],
+        "DesignerNote": "来源：最新版设计表 标签表 B21:J21。2"
+      },
+      "tag_spectralpack": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_SpectralPack",
+          "SourceString": "都市点子王",
+          "LocalizedString": "都市点子王"
+        },
+        "EnglishName": "SpectralPackTag",
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "SkipTag_SpectralPack_Desc",
+          "SourceString": "领取时，获得1个基础灵感卡包，并在下一家商店开启",
+          "LocalizedString": "领取时，获得1个基础灵感卡包，并在下一家商店开启"
+        },
+        "IconTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MinAct": 2,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "DoubleMode": "EHTBalatroTagDoubleMode::ScaleCount",
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnTagAcquired",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::GrantCardPack",
+            "Value": 1.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "PackPhantomStandard"
+            }
+          }
+        ],
+        "DesignerNote": "2026-10-28用户要求补充幻灵标签；免费领取PackPhantomStandard（2选1），双倍按包数量翻倍。"
+      }
+    }
   }
 ]

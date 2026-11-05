@@ -30,34 +30,127 @@
         "ObjectName": "DataTable'DT_StowageTussleItemRandomPool'",
         "ObjectPath": "/Game/DataTable/StowageTussle/DT_StowageTussleItemRandomPool.0"
       },
-      "ShopItemID": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_DLC_StowageTussle_1",
-      "ShopItemAmount": 8,
-      "ShopRefreshCostSetting": [],
-      "ShopItemMaxQuality": "EItemQuality::ITEM_QUALITY_MAX",
-      "StowageTussleGameConfig": {
-        "GameTransform": {
-          "Rotation": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0,
-            "W": 0.0,
-            "IsNormalized": false,
-            "Size": 0.0,
-            "SizeSquared": 0.0
-          },
-          "Translation": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          "Scale3D": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
+      "WarehouseSizeMap": [
+        {
+          "Key": "ELatticeWarehouseType::PlayerCommon",
+          "Value": {
+            "X": 7,
+            "Y": 3
+          }
+        },
+        {
+          "Key": "ELatticeWarehouseType::InUse",
+          "Value": {
+            "X": 7,
+            "Y": 5
           }
         }
-      },
-      "NativeClass": null
+      ],
+      "DefaultWarehouseSizeMap": [
+        {
+          "Key": "ELatticeWarehouseType::PlayerCommon",
+          "Value": {
+            "X": 7,
+            "Y": 3
+          }
+        }
+      ],
+      "RoundWarehouseSizeMap": [
+        {
+          "Key": "1",
+          "Value": {
+            "X": 6,
+            "Y": 4
+          }
+        },
+        {
+          "Key": "0",
+          "Value": {
+            "X": 5,
+            "Y": 3
+          }
+        }
+      ],
+      "ShopItemID": "BidkingCoin",
+      "ShopRefreshCostSetting": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "RoundShopCurrencyMap": [
+        {
+          "Key": "1",
+          "Value": 10
+        },
+        {
+          "Key": "0",
+          "Value": 10
+        }
+      ],
+      "ItemTypeTextureMap": [
+        {
+          "Key": "EStowageTussleItemType::Skill",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Activity/StowageTussle/YH_UI_YXJZ_jineng.YH_UI_YXJZ_jineng",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EStowageTussleItemType::Food",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Activity/StowageTussle/YH_UI_YXJZ_shiwu.YH_UI_YXJZ_shiwu",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EStowageTussleItemType::Medicine",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Activity/StowageTussle/YH_UI_YXJZ_yaoping.YH_UI_YXJZ_yaoping",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EStowageTussleItemType::Furniture",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Activity/StowageTussle/YH_UI_YXJZ_jiaju.YH_UI_YXJZ_jiaju",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EStowageTussleItemType::Equipment",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Activity/StowageTussle/YH_UI_YXJZ_yaoping.YH_UI_YXJZ_yaoping",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EStowageTussleItemType::Jewelry",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Activity/StowageTussle/YH_UI_YXJZ_zhubao.YH_UI_YXJZ_zhubao",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "StowageTussleGameConfig": {
+        "GameTransform": {
+          "Translation": {
+            "X": -161030.0,
+            "Y": 24030.0,
+            "Z": -30310.0
+          }
+        },
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_DLC_StowageTussle.W_Unload_DLC_StowageTussle",
+            "SubPathString": ""
+          }
+        ],
+        "StartUIName": "StowageTussleStartMain",
+        "PrepareUIName": "StowageTussleShop",
+        "BattleUIName": "StwoageTussleBattle",
+        "ResultUIName": "StwoageTussleResult"
+      }
     }
   }
 ]

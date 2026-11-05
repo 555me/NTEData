@@ -11,6 +11,667 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "Management_CapacityPlanning": {
+        "Category": "Management_CapacityPlanning",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Management_CapacityPlanning",
+          "SourceString": "运力统筹",
+          "LocalizedString": "运力统筹"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_008.UI_YH_Kool_Skill_Icon_008",
+          "SubPathString": ""
+        },
+        "Levels": [
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Management_CapacityPlanning_lv1",
+              "SourceString": "可同时派遣司机+1",
+              "LocalizedString": "可同时派遣司机+1"
+            },
+            "RequiredCompanyLevel": 11,
+            "SkillPointCost": 1200,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::MaxConcurrentDispatchAdd",
+                "Value": 1
+              }
+            ]
+          }
+        ]
+      },
+      "Management_CapacityExpansion": {
+        "Category": "Management_CapacityExpansion",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Management_CapacityExpansion",
+          "SourceString": "运力扩张",
+          "LocalizedString": "运力扩张"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_007.UI_YH_Kool_Skill_Icon_007",
+          "SubPathString": ""
+        },
+        "Levels": [
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Management_CapacityExpansion_lv1",
+              "SourceString": "可合作司机上限+1",
+              "LocalizedString": "可合作司机上限+1"
+            },
+            "RequiredCompanyLevel": 5,
+            "SkillPointCost": 150,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::DriverCapacityAdd",
+                "Value": 1
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Management_CapacityExpansion_lv2",
+              "SourceString": "可合作司机上限+2",
+              "LocalizedString": "可合作司机上限+2"
+            },
+            "RequiredCompanyLevel": 11,
+            "SkillPointCost": 600,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::DriverCapacityAdd",
+                "Value": 2
+              }
+            ]
+          }
+        ]
+      },
+      "Management_Renegotiation": {
+        "Category": "Management_Renegotiation",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Management_Renegotiation",
+          "SourceString": "再谈判",
+          "LocalizedString": "再谈判"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_009.UI_YH_Kool_Skill_Icon_009",
+          "SubPathString": ""
+        },
+        "Levels": [
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Management_Renegotiation_lv1",
+              "SourceString": "订单每日刷新次数+1",
+              "LocalizedString": "订单每日刷新次数+1"
+            },
+            "RequiredCompanyLevel": 10,
+            "SkillPointCost": 1200,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::ManualMarketRefreshCountAdd",
+                "Value": 1
+              }
+            ]
+          }
+        ]
+      },
+      "Management_Delegation": {
+        "Category": "Management_Delegation",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Management_Delegation",
+          "SourceString": "授权管理",
+          "LocalizedString": "授权管理"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_002.UI_YH_Kool_Skill_Icon_002",
+          "SubPathString": ""
+        },
+        "Levels": [
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Management_Delegation_lv1",
+              "SourceString": "可派驻1位物流助理",
+              "LocalizedString": "可派驻1位物流助理"
+            },
+            "RequiredCompanyLevel": 2,
+            "SkillPointCost": 10,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::ManagementSlotCountAdd",
+                "Value": 1
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Management_Delegation_lv2",
+              "SourceString": "可派驻2位物流助理",
+              "LocalizedString": "可派驻2位物流助理"
+            },
+            "RequiredCompanyLevel": 7,
+            "SkillPointCost": 300,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::ManagementSlotCountAdd",
+                "Value": 2
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Management_Delegation_lv3",
+              "SourceString": "可派驻3位物流助理",
+              "LocalizedString": "可派驻3位物流助理"
+            },
+            "RequiredCompanyLevel": 13,
+            "SkillPointCost": 600,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::ManagementSlotCountAdd",
+                "Value": 3
+              }
+            ]
+          }
+        ]
+      },
+      "Dispatch_RouteOptimization": {
+        "Category": "Dispatch_RouteOptimization",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Dispatch_RouteOptimization",
+          "SourceString": "优化路线",
+          "LocalizedString": "优化路线"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_005.UI_YH_Kool_Skill_Icon_005",
+          "SubPathString": ""
+        },
+        "Levels": [
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Dispatch_RouteOptimization_lv1",
+              "SourceString": "司机派送所需时间-5%",
+              "LocalizedString": "司机派送所需时间-5%"
+            },
+            "RequiredCompanyLevel": 5,
+            "SkillPointCost": 150,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::DispatchDurationPercent",
+                "Value": -5
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Dispatch_RouteOptimization_lv2",
+              "SourceString": "司机派送所需时间-10%",
+              "LocalizedString": "司机派送所需时间-10%"
+            },
+            "RequiredCompanyLevel": 10,
+            "SkillPointCost": 500,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::DispatchDurationPercent",
+                "Value": -10
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Dispatch_RouteOptimization_lv3",
+              "SourceString": "司机派送所需时间-15%",
+              "LocalizedString": "司机派送所需时间-15%"
+            },
+            "RequiredCompanyLevel": 15,
+            "SkillPointCost": 1200,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::DispatchDurationPercent",
+                "Value": -15
+              }
+            ]
+          }
+        ]
+      },
+      "Dispatch_ProfessionalTraining": {
+        "Category": "Dispatch_ProfessionalTraining",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Dispatch_ProfessionalTraining",
+          "SourceString": "专业培训",
+          "LocalizedString": "专业培训"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_010.UI_YH_Kool_Skill_Icon_010",
+          "SubPathString": ""
+        },
+        "Levels": [
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Dispatch_ProfessionalTraining_lv1",
+              "SourceString": "司机派送订单满意度+5",
+              "LocalizedString": "司机派送订单满意度+5"
+            },
+            "RequiredCompanyLevel": 2,
+            "SkillPointCost": 10,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::DispatchExtraSatisfaction",
+                "Value": 5
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Dispatch_ProfessionalTraining_lv2",
+              "SourceString": "司机派送订单满意度+10",
+              "LocalizedString": "司机派送订单满意度+10"
+            },
+            "RequiredCompanyLevel": 7,
+            "SkillPointCost": 300,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::DispatchExtraSatisfaction",
+                "Value": 10
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Dispatch_ProfessionalTraining_lv3",
+              "SourceString": "司机派送订单满意度+15",
+              "LocalizedString": "司机派送订单满意度+15"
+            },
+            "RequiredCompanyLevel": 13,
+            "SkillPointCost": 600,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::DispatchExtraSatisfaction",
+                "Value": 15
+              }
+            ]
+          }
+        ]
+      },
+      "Dispatch_InformationNetwork": {
+        "Category": "Dispatch_InformationNetwork",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Dispatch_InformationNetwork",
+          "SourceString": "信息网络",
+          "LocalizedString": "信息网络"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_003.UI_YH_Kool_Skill_Icon_003",
+          "SubPathString": ""
+        },
+        "Levels": [
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Dispatch_InformationNetwork_lv1",
+              "SourceString": "司机情报每日刷新次数+1",
+              "LocalizedString": "司机情报每日刷新次数+1"
+            },
+            "RequiredCompanyLevel": 8,
+            "SkillPointCost": 1200,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::ManualResumeRefreshCountAdd",
+                "Value": 1
+              }
+            ]
+          }
+        ]
+      },
+      "Dispatch_BargainingPower": {
+        "Category": "Dispatch_BargainingPower",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Dispatch_BargainingPower",
+          "SourceString": "议价权",
+          "LocalizedString": "议价权"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_004.UI_YH_Kool_Skill_Icon_004",
+          "SubPathString": ""
+        },
+        "Levels": []
+      },
+      "Business_OrganizationalReform": {
+        "Category": "Business_OrganizationalReform",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Business_OrganizationalReform",
+          "SourceString": "组织改革",
+          "LocalizedString": "组织改革"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_011.UI_YH_Kool_Skill_Icon_011",
+          "SubPathString": ""
+        },
+        "Levels": [
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_OrganizationalReform_lv1",
+              "SourceString": "司机派送获得的库霸宣传单+2%",
+              "LocalizedString": "司机派送获得的库霸宣传单+2%"
+            },
+            "RequiredCompanyLevel": 2,
+            "SkillPointCost": 10,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::CompanyExpRewardPercent",
+                "Value": 2
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_OrganizationalReform_lv2",
+              "SourceString": "司机派送获得的库霸宣传单+4%",
+              "LocalizedString": "司机派送获得的库霸宣传单+4%"
+            },
+            "RequiredCompanyLevel": 4,
+            "SkillPointCost": 75,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::CompanyExpRewardPercent",
+                "Value": 4
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_OrganizationalReform_lv3",
+              "SourceString": "司机派送获得的库霸宣传单+6%",
+              "LocalizedString": "司机派送获得的库霸宣传单+6%"
+            },
+            "RequiredCompanyLevel": 6,
+            "SkillPointCost": 200,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::CompanyExpRewardPercent",
+                "Value": 6
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_OrganizationalReform_lv4",
+              "SourceString": "司机派送获得的库霸宣传单+8%",
+              "LocalizedString": "司机派送获得的库霸宣传单+8%"
+            },
+            "RequiredCompanyLevel": 8,
+            "SkillPointCost": 400,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::CompanyExpRewardPercent",
+                "Value": 8
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_OrganizationalReform_lv5",
+              "SourceString": "司机派送获得的库霸宣传单+10%",
+              "LocalizedString": "司机派送获得的库霸宣传单+10%"
+            },
+            "RequiredCompanyLevel": 10,
+            "SkillPointCost": 500,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::CompanyExpRewardPercent",
+                "Value": 10
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_OrganizationalReform_lv6",
+              "SourceString": "司机派送获得的库霸宣传单+12%",
+              "LocalizedString": "司机派送获得的库霸宣传单+12%"
+            },
+            "RequiredCompanyLevel": 12,
+            "SkillPointCost": 600,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::CompanyExpRewardPercent",
+                "Value": 12
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_OrganizationalReform_lv7",
+              "SourceString": "司机派送获得的库霸宣传单+15%",
+              "LocalizedString": "司机派送获得的库霸宣传单+15%"
+            },
+            "RequiredCompanyLevel": 14,
+            "SkillPointCost": 800,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::CompanyExpRewardPercent",
+                "Value": 15
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_OrganizationalReform_lv8",
+              "SourceString": "司机派送获得的库霸宣传单+20%",
+              "LocalizedString": "司机派送获得的库霸宣传单+20%"
+            },
+            "RequiredCompanyLevel": 15,
+            "SkillPointCost": 1200,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::CompanyExpRewardPercent",
+                "Value": 20
+              }
+            ]
+          }
+        ]
+      },
+      "Business_ExperienceReview": {
+        "Category": "Business_ExperienceReview",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Business_ExperienceReview",
+          "SourceString": "经验复盘",
+          "LocalizedString": "经验复盘"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_001.UI_YH_Kool_Skill_Icon_001",
+          "SubPathString": ""
+        },
+        "Levels": [
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_ExperienceReview_lv1",
+              "SourceString": "司机派送获得的库霸资源库+10%",
+              "LocalizedString": "司机派送获得的库霸资源库+10%"
+            },
+            "RequiredCompanyLevel": 3,
+            "SkillPointCost": 25,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::SkillPointRewardPercent",
+                "Value": 10
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_ExperienceReview_lv2",
+              "SourceString": "司机派送获得的库霸资源库+15%",
+              "LocalizedString": "司机派送获得的库霸资源库+15%"
+            },
+            "RequiredCompanyLevel": 6,
+            "SkillPointCost": 200,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::SkillPointRewardPercent",
+                "Value": 15
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_ExperienceReview_lv3",
+              "SourceString": "司机派送获得的库霸资源库+20%",
+              "LocalizedString": "司机派送获得的库霸资源库+20%"
+            },
+            "RequiredCompanyLevel": 9,
+            "SkillPointCost": 400,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::SkillPointRewardPercent",
+                "Value": 20
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_ExperienceReview_lv4",
+              "SourceString": "司机派送获得的库霸资源库+25%",
+              "LocalizedString": "司机派送获得的库霸资源库+25%"
+            },
+            "RequiredCompanyLevel": 12,
+            "SkillPointCost": 600,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::SkillPointRewardPercent",
+                "Value": 25
+              }
+            ]
+          }
+        ]
+      },
+      "Business_FavorableTerms": {
+        "Category": "Business_FavorableTerms",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Strategy_Business_FavorableTerms",
+          "SourceString": "有利条款",
+          "LocalizedString": "有利条款"
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI/DeliveryCompany/LogisticsSkills/UI_YH_Kool_Skill_Icon_006.UI_YH_Kool_Skill_Icon_006",
+          "SubPathString": ""
+        },
+        "Levels": [
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_FavorableTerms_lv1",
+              "SourceString": "司机派送获得的库霸兑换币+10%",
+              "LocalizedString": "司机派送获得的库霸兑换币+10%"
+            },
+            "RequiredCompanyLevel": 3,
+            "SkillPointCost": 25,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::LogisticsCoinRewardPercent",
+                "Value": 10
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_FavorableTerms_lv2",
+              "SourceString": "司机派送获得的库霸兑换币+15%",
+              "LocalizedString": "司机派送获得的库霸兑换币+15%"
+            },
+            "RequiredCompanyLevel": 6,
+            "SkillPointCost": 200,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::LogisticsCoinRewardPercent",
+                "Value": 15
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_FavorableTerms_lv3",
+              "SourceString": "司机派送获得的库霸兑换币+20%",
+              "LocalizedString": "司机派送获得的库霸兑换币+20%"
+            },
+            "RequiredCompanyLevel": 9,
+            "SkillPointCost": 400,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::LogisticsCoinRewardPercent",
+                "Value": 20
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_FavorableTerms_lv4",
+              "SourceString": "司机派送获得的库霸兑换币+25%",
+              "LocalizedString": "司机派送获得的库霸兑换币+25%"
+            },
+            "RequiredCompanyLevel": 12,
+            "SkillPointCost": 600,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::LogisticsCoinRewardPercent",
+                "Value": 25
+              }
+            ]
+          },
+          {
+            "Description": {
+              "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+              "Key": "Strategy_Business_FavorableTerms_lv5",
+              "SourceString": "司机派送获得的库霸兑换币+30%",
+              "LocalizedString": "司机派送获得的库霸兑换币+30%"
+            },
+            "RequiredCompanyLevel": 15,
+            "SkillPointCost": 1200,
+            "Effects": [
+              {
+                "EffectType": "EHTLogisticsSkillEffectType::LogisticsCoinRewardPercent",
+                "Value": 30
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 ]

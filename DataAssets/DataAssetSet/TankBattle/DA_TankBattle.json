@@ -4,6 +4,154 @@
     "Name": "DA_TankBattle",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'TankBattleDataAsset'",
-    "Package": "/Game/DataAssets/DataAssetSet/TankBattle/DA_TankBattle"
+    "Package": "/Game/DataAssets/DataAssetSet/TankBattle/DA_TankBattle",
+    "Properties": {
+      "DT_TankBattleTeamInformation": {
+        "ObjectName": "DataTable'DT_TankBattleTeamInformation'",
+        "ObjectPath": "/Game/DataTable/TankBattle/DT_TankBattleTeamInformation.0"
+      },
+      "DT_TankBattleDropItemBuff": {
+        "ObjectName": "DataTable'DT_TankBattleItemBuff'",
+        "ObjectPath": "/Game/DataTable/TankBattle/DT_TankBattleItemBuff.0"
+      },
+      "DT_TankBattleScoreInformation": {
+        "ObjectName": "DataTable'DT_TankBattleScoreInformation'",
+        "ObjectPath": "/Game/DataTable/TankBattle/DT_TankBattleScoreInformation.0"
+      },
+      "TankBattleImageTypes": [
+        {
+          "Key": "ETankBattleImageType::None",
+          "Value": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ETankBattleImageType::TeamA",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_player1.UI_YH_tank_icon_player1",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ETankBattleImageType::TeamB",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_player2.UI_YH_tank_icon_player2",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ETankBattleImageType::TeamC",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_player3.UI_YH_tank_icon_player3",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ETankBattleImageType::TeamD",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_player4.UI_YH_tank_icon_player4",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ETankBattleImageType::SelfPanel_Recover",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_weixiu.UI_YH_tank_icon_weixiu",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ETankBattleImageType::SelfPanel_DamageToOthers",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_jizhong1.UI_YH_tank_icon_jizhong1",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ETankBattleImageType::SelfPanel_OthersDamageSelf",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_jizhong2.UI_YH_tank_icon_jizhong2",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ETankBattleImageType::SelfPanel_OthersDamage_ShieldAmount",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_fangyu.UI_YH_tank_icon_fangyu",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ETankBattleImageType::SelfPanel_OthersDamage_ShieldCount",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_fangyu.UI_YH_tank_icon_fangyu",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ETankBattleImageType::DefaultKill",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_jisha.UI_YH_tank_icon_jisha",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DT_TankBattleDropConfig": {
+        "ObjectName": "DataTable'DT_TankBattleDropConfig'",
+        "ObjectPath": "/Game/DataTable/TankBattle/DT_TankBattleDropConfig.0"
+      },
+      "TankVehicleId": "Vehicle045_game",
+      "NeedUseModuleType": [
+        "EVehicleModuleType::EVMT_Skin"
+      ],
+      "WaitingTimeMap": [
+        {
+          "Key": "ETankBattleGameState::WaitingStart",
+          "Value": 20.0
+        },
+        {
+          "Key": "ETankBattleGameState::PrepareStart",
+          "Value": 5.0
+        }
+      ],
+      "CoreBattleArea": {
+        "LowerBound": {
+          "Type": "ERangeBoundTypes::Inclusive",
+          "Value": 240.0
+        },
+        "UpperBound": {
+          "Type": "ERangeBoundTypes::Inclusive",
+          "Value": 420.0
+        }
+      },
+      "TankBattleDeadReplay": 1.0,
+      "TankBattleRespawnTime": 10.0,
+      "ResultAwardRate": [
+        {
+          "Key": "TankBattleCoin",
+          "Value": 0.1
+        }
+      ],
+      "InGamingMaxGotCoin": 2000,
+      "MatchKey": "TankBattle",
+      "StartEquipInfo": [
+        {
+          "EquipIndex": 0,
+          "ItemID": "TankBattleItem_Bullet_Base",
+          "WeaponID": "None",
+          "ItemType": "EItemType::ITEM_TYPE_TANKBATTLE_BULLET",
+          "ItemCount": 9999
+        }
+      ],
+      "DataLayerAssets_TankBattleUnique": [
+        {
+          "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_SystemActivity_TankBattle.W_Unload_SystemActivity_TankBattle",
+          "SubPathString": ""
+        }
+      ],
+      "DisplayDropID": "drop_TankBattleDisplayReward",
+      "CoinID": "TankBattleCoin"
+    }
   }
 ]

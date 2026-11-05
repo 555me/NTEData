@@ -11,46 +11,106 @@
       "MaxRewardScore": 6000,
       "RotateRate": 60.0,
       "DisguiseNiagaraSocketName": "PropHuntEffect",
-      "DT_PropHuntTeleportInfo": {
+      "DT_PropHuntRoleAllocation": {
         "ObjectName": "DataTable'DT_PropHuntRoleAllocation'",
         "ObjectPath": "/Game/DataTable/PropHunt/DT_PropHuntRoleAllocation.0"
       },
-      "DT_PropHuntDisguiseInfo": {
+      "DT_PropHuntTeleportInfo": {
         "ObjectName": "DataTable'DT_PropHuntTeleportInfo'",
         "ObjectPath": "/Game/DataTable/PropHunt/DT_PropHuntTeleportInfo.0"
       },
-      "DT_PropHuntTrialInfo": {
+      "DT_PropHuntDisguiseInfo": {
         "ObjectName": "DataTable'DT_PropHuntDisguiseInfo'",
         "ObjectPath": "/Game/DataTable/PropHunt/DT_PropHuntDisguiseInfo.0"
       },
-      "IMC_PropHuntInputMapping": {
+      "DT_PropHuntTrialInfo": {
         "ObjectName": "DataTable'DT_PropHuntTrialInfo'",
         "ObjectPath": "/Game/DataTable/PropHunt/DT_PropHuntTrialInfo.0"
       },
-      "BaitGE": {
+      "DT_PropHuntRobotInfo": {
         "ObjectName": "DataTable'DT_PropHuntRobotInfo'",
         "ObjectPath": "/Game/DataTable/PropHunt/DT_PropHuntRobotInfo.0"
       },
-      "DisguiseGE": {
+      "IMC_PropHuntInputMapping": {
         "ObjectName": "InputMappingContext'IMC_PropHunt'",
         "ObjectPath": "/Game/Input/IMC_PropHunt.0"
       },
-      "MoveInputGE": {
+      "BaitGE": {
         "ObjectName": "BlueprintGeneratedClass'Buff_PickAndSeek_Hider_C'",
         "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_HideAndSeek/Hider/Buff_PickAndSeek_Hider.0"
       },
-      "MoveAdjustGE": {
+      "DisguiseGE": {
         "ObjectName": "BlueprintGeneratedClass'Buff_PickAndSeek_ChangeActor_C'",
         "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_HideAndSeek/Hider/Buff_PickAndSeek_ChangeActor.1"
       },
-      "CantAimingGE": {
+      "MoveInputGE": {
         "ObjectName": "BlueprintGeneratedClass'Buff_CantMove_C'",
         "ObjectPath": "/Game/Blueprints/Character/Monster/Buff/Buff_CantMove.0"
       },
-      "CantJumpGE": {
+      "MoveAdjustGE": {
         "ObjectName": "BlueprintGeneratedClass'Buff_PickAndSeek_SpeedUP_C'",
         "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_HideAndSeek/Hider/Buff_PickAndSeek_SpeedUP.0"
-      }
+      },
+      "CantAimingGE": {
+        "ObjectName": "BlueprintGeneratedClass'Buff_PickAndSeek_Catcher_CantAim_C'",
+        "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_HideAndSeek/Catcher/Buff_PickAndSeek_Catcher_CantAim.1"
+      },
+      "CantJumpGE": {
+        "ObjectName": "BlueprintGeneratedClass'Buff_PickAndSeek_Catcher_CantJump_C'",
+        "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_HideAndSeek/Hider/Buff_PickAndSeek_Catcher_CantJump.1"
+      },
+      "DisguiseNiagara": {
+        "AssetPathName": "/Game/FX/Nia/Common/PropHunt/NS_PropHunt_arrow.NS_PropHunt_arrow",
+        "SubPathString": ""
+      },
+      "MatchKey": "PropHunt",
+      "PhaseLastTimeMap": [
+        {
+          "Key": "EPropHuntPhaseType::Init",
+          "Value": 15
+        },
+        {
+          "Key": "EPropHuntPhaseType::Prepare",
+          "Value": 30
+        },
+        {
+          "Key": "EPropHuntPhaseType::Gaming",
+          "Value": 120
+        },
+        {
+          "Key": "EPropHuntPhaseType::Frenzy",
+          "Value": 20
+        },
+        {
+          "Key": "EPropHuntPhaseType::End",
+          "Value": 20
+        }
+      ],
+      "ScoreMap": [
+        {
+          "Key": "EPropHuntGroupType::Hunt",
+          "Value": {
+            "BaseValue": 2000.0,
+            "PropWeight": 1.0,
+            "BaitWeight": 0.5,
+            "LiveWeight": 0.2,
+            "ResultWeight": 0.25,
+            "StaminaRate": 0.01
+          }
+        },
+        {
+          "Key": "EPropHuntGroupType::Prop",
+          "Value": {
+            "BaseValue": 1000.0,
+            "PropWeight": 0.0,
+            "BaitWeight": 0.0,
+            "LiveWeight": 1.0,
+            "ResultWeight": 0.25,
+            "StaminaRate": 0.01
+          }
+        }
+      ],
+      "ExtraSkillPanelExtensionID": "PropHuntSkill"
     }
   }
 ]

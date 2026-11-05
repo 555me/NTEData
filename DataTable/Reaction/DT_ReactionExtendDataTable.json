@@ -776,8 +776,42 @@
           "CultureInvariantString": "曳尔沐"
         },
         "ReactionDataArray": [
-          null,
-          null
+          {
+            "ApplyDelay": 7.5,
+            "TriggerCooldown": 7.0,
+            "SlomoGEClass": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Reaction_3_new_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction3/New/Buff_Reaction_3_new.1"
+            },
+            "ReactionAbilityID": "GA_Elyms_Passive1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Elyms_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_090_Elyms/PassiveEffect/Buff_Elyms_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "TeamDamageBuff": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Reaction_GuangLingXiang_1090_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction7/GE_Reaction_GuangLingXiang_1090.1"
+            },
+            "ReactionAbilityID": "GA_Elyms_Passive1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Elyms_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_090_Elyms/PassiveEffect/Buff_Elyms_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          }
         ],
         "Desc": {
           "CultureInvariantString": "队伍中任意角色对目标施加延滞时，曳尔沐会在x秒后对该目标追加一次延滞。该效果每x秒至多触发一次，且通过该效果施加的延滞不会再次触发该效果.每次触发盈蓄为全队提供5%光属性伤害提升，持续3秒，可叠加8层，重复触发延长持续时间"

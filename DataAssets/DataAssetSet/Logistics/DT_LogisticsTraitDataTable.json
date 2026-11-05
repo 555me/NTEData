@@ -11,6 +11,596 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "Score_1": {
+        "Quality": "EHTLogisticsDriverQuality::Blue",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Score_name",
+          "SourceString": "金牌服务",
+          "LocalizedString": "金牌服务"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Score_1_des",
+          "SourceString": "司机派送订单满意度+5",
+          "LocalizedString": "司机派送订单满意度+5"
+        },
+        "ExclusiveTraitIds": [
+          "Score_2",
+          "Score_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::SatisfactionDelta",
+            "Value": 5
+          }
+        ]
+      },
+      "Score_2": {
+        "Quality": "EHTLogisticsDriverQuality::Purple",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Score_name",
+          "SourceString": "金牌服务",
+          "LocalizedString": "金牌服务"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Score_2_des",
+          "SourceString": "司机派送订单满意度+10",
+          "LocalizedString": "司机派送订单满意度+10"
+        },
+        "ExclusiveTraitIds": [
+          "Score_1",
+          "Score_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::SatisfactionDelta",
+            "Value": 10
+          }
+        ]
+      },
+      "Score_3": {
+        "Quality": "EHTLogisticsDriverQuality::Orange",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Score_name",
+          "SourceString": "金牌服务",
+          "LocalizedString": "金牌服务"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Score_3_des",
+          "SourceString": "司机派送订单满意度+15",
+          "LocalizedString": "司机派送订单满意度+15"
+        },
+        "ExclusiveTraitIds": [
+          "Score_1",
+          "Score_2"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::SatisfactionDelta",
+            "Value": 15
+          }
+        ]
+      },
+      "CargoLoss_1": {
+        "Quality": "EHTLogisticsDriverQuality::Blue",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_CargoLoss_name",
+          "SourceString": "爱车如命",
+          "LocalizedString": "爱车如命"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_CargoLoss_1_des",
+          "SourceString": "司机送达时保留的货物耐久值+10%",
+          "LocalizedString": "司机送达时保留的货物耐久值+10%"
+        },
+        "ExclusiveTraitIds": [
+          "CargoLoss_2",
+          "CargoLoss_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::CargoDurabilityLossPoints",
+            "Value": -5
+          }
+        ]
+      },
+      "CargoLoss_2": {
+        "Quality": "EHTLogisticsDriverQuality::Purple",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_CargoLoss_name",
+          "SourceString": "爱车如命",
+          "LocalizedString": "爱车如命"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_CargoLoss_2_des",
+          "SourceString": "司机送达时保留的货物耐久值+15%",
+          "LocalizedString": "司机送达时保留的货物耐久值+15%"
+        },
+        "ExclusiveTraitIds": [
+          "CargoLoss_1",
+          "CargoLoss_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::CargoDurabilityLossPoints",
+            "Value": -10
+          }
+        ]
+      },
+      "CargoLoss_3": {
+        "Quality": "EHTLogisticsDriverQuality::Orange",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_CargoLoss_name",
+          "SourceString": "爱车如命",
+          "LocalizedString": "爱车如命"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_CargoLoss_3_des",
+          "SourceString": "司机送达时保留的货物耐久值+20%",
+          "LocalizedString": "司机送达时保留的货物耐久值+20%"
+        },
+        "ExclusiveTraitIds": [
+          "CargoLoss_1",
+          "CargoLoss_2"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::CargoDurabilityLossPoints",
+            "Value": -20
+          }
+        ]
+      },
+      "Time_1": {
+        "Quality": "EHTLogisticsDriverQuality::Blue",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Time_name",
+          "SourceString": "老马识途",
+          "LocalizedString": "老马识途"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Time_1_des",
+          "SourceString": "司机派送所需时间-5%",
+          "LocalizedString": "司机派送所需时间-5%"
+        },
+        "ExclusiveTraitIds": [
+          "Time_2",
+          "Time_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::DispatchDurationPercentDelta",
+            "Value": -5
+          }
+        ]
+      },
+      "Time_2": {
+        "Quality": "EHTLogisticsDriverQuality::Purple",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Time_name",
+          "SourceString": "老马识途",
+          "LocalizedString": "老马识途"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Time_2_des",
+          "SourceString": "司机派送所需时间-10%",
+          "LocalizedString": "司机派送所需时间-10%"
+        },
+        "ExclusiveTraitIds": [
+          "Time_1",
+          "Time_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::DispatchDurationPercentDelta",
+            "Value": -10
+          }
+        ]
+      },
+      "Time_3": {
+        "Quality": "EHTLogisticsDriverQuality::Orange",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Time_name",
+          "SourceString": "老马识途",
+          "LocalizedString": "老马识途"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_Time_3_des",
+          "SourceString": "司机派送所需时间-15%",
+          "LocalizedString": "司机派送所需时间-15%"
+        },
+        "ExclusiveTraitIds": [
+          "Time_1",
+          "Time_2"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::DispatchDurationPercentDelta",
+            "Value": -15
+          }
+        ]
+      },
+      "TimeUP_1": {
+        "Quality": "EHTLogisticsDriverQuality::Purple",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_TimeUP_name",
+          "SourceString": "过度谨慎",
+          "LocalizedString": "过度谨慎"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_TimeUP_1_des",
+          "SourceString": "司机派送所需时间+15%，订单满意度+20",
+          "LocalizedString": "司机派送所需时间+15%，订单满意度+20"
+        },
+        "ExclusiveTraitIds": [
+          "TimeDown_1"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::DispatchDurationPercentDelta",
+            "Value": 15
+          },
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::SatisfactionDelta",
+            "Value": 20
+          }
+        ]
+      },
+      "TimeDown_1": {
+        "Quality": "EHTLogisticsDriverQuality::Purple",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_TimeDown_name",
+          "SourceString": "粗暴驾驶",
+          "LocalizedString": "粗暴驾驶"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_TimeDown_1_des",
+          "SourceString": "司机派送订单满意度-15，所需时间-20%",
+          "LocalizedString": "司机派送订单满意度-15，所需时间-20%"
+        },
+        "ExclusiveTraitIds": [
+          "TimeUP_1"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::DispatchDurationPercentDelta",
+            "Value": -20
+          },
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::SatisfactionDelta",
+            "Value": -15
+          }
+        ]
+      },
+      "LogisticsCoin_1": {
+        "Quality": "EHTLogisticsDriverQuality::Blue",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsCoin_name",
+          "SourceString": "高效物流",
+          "LocalizedString": "高效物流"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsCoin_1_des",
+          "SourceString": "司机派送获得的库霸兑换币+5%",
+          "LocalizedString": "司机派送获得的库霸兑换币+5%"
+        },
+        "ExclusiveTraitIds": [
+          "LogisticsCoin_2",
+          "LogisticsCoin_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::LogisticsCoinRewardPercent",
+            "Value": 5
+          }
+        ]
+      },
+      "LogisticsCoin_2": {
+        "Quality": "EHTLogisticsDriverQuality::Purple",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsCoin_name",
+          "SourceString": "高效物流",
+          "LocalizedString": "高效物流"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsCoin_2_des",
+          "SourceString": "司机派送获得的库霸兑换币+10%",
+          "LocalizedString": "司机派送获得的库霸兑换币+10%"
+        },
+        "ExclusiveTraitIds": [
+          "LogisticsCoin_1",
+          "LogisticsCoin_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::LogisticsCoinRewardPercent",
+            "Value": 10
+          }
+        ]
+      },
+      "LogisticsCoin_3": {
+        "Quality": "EHTLogisticsDriverQuality::Orange",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsCoin_name",
+          "SourceString": "高效物流",
+          "LocalizedString": "高效物流"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsCoin_3_des",
+          "SourceString": "司机派送获得的库霸兑换币+15%",
+          "LocalizedString": "司机派送获得的库霸兑换币+15%"
+        },
+        "ExclusiveTraitIds": [
+          "LogisticsCoin_1",
+          "LogisticsCoin_2"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::LogisticsCoinRewardPercent",
+            "Value": 15
+          }
+        ]
+      },
+      "LogisticsSkillPoint_1": {
+        "Quality": "EHTLogisticsDriverQuality::Blue",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsSkillPoint_name",
+          "SourceString": "快速学习",
+          "LocalizedString": "快速学习"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsSkillPoint_1_des",
+          "SourceString": "司机派送获得的库霸资源库+5%",
+          "LocalizedString": "司机派送获得的库霸资源库+5%"
+        },
+        "ExclusiveTraitIds": [
+          "LogisticsSkillPoint_2",
+          "LogisticsSkillPoint_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::SkillPointRewardPercent",
+            "Value": 5
+          }
+        ]
+      },
+      "LogisticsSkillPoint_2": {
+        "Quality": "EHTLogisticsDriverQuality::Purple",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsSkillPoint_name",
+          "SourceString": "快速学习",
+          "LocalizedString": "快速学习"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsSkillPoint_2_des",
+          "SourceString": "司机派送获得的库霸资源库+10%",
+          "LocalizedString": "司机派送获得的库霸资源库+10%"
+        },
+        "ExclusiveTraitIds": [
+          "LogisticsSkillPoint_1",
+          "LogisticsSkillPoint_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::SkillPointRewardPercent",
+            "Value": 10
+          }
+        ]
+      },
+      "LogisticsSkillPoint_3": {
+        "Quality": "EHTLogisticsDriverQuality::Orange",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsSkillPoint_name",
+          "SourceString": "快速学习",
+          "LocalizedString": "快速学习"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_LogisticsSkillPoint_3_des",
+          "SourceString": "司机派送获得的库霸资源库+15%",
+          "LocalizedString": "司机派送获得的库霸资源库+15%"
+        },
+        "ExclusiveTraitIds": [
+          "LogisticsSkillPoint_1",
+          "LogisticsSkillPoint_2"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::SkillPointRewardPercent",
+            "Value": 15
+          }
+        ]
+      },
+      "OfficialReputation_1": {
+        "Quality": "EHTLogisticsDriverQuality::Blue",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_OfficialReputation_name",
+          "SourceString": "官方联络人",
+          "LocalizedString": "官方联络人"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_OfficialReputation_1_des",
+          "SourceString": "司机派送每单官方信誉+1",
+          "LocalizedString": "司机派送每单官方信誉+1"
+        },
+        "ExclusiveTraitIds": [
+          "OfficialReputation_2",
+          "OfficialReputation_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::OfficialReputationDelta",
+            "Value": 1
+          }
+        ]
+      },
+      "OfficialReputation_2": {
+        "Quality": "EHTLogisticsDriverQuality::Purple",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_OfficialReputation_name",
+          "SourceString": "官方联络人",
+          "LocalizedString": "官方联络人"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_OfficialReputation_2_des",
+          "SourceString": "司机派送每单官方信誉+2",
+          "LocalizedString": "司机派送每单官方信誉+2"
+        },
+        "ExclusiveTraitIds": [
+          "OfficialReputation_1",
+          "OfficialReputation_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::OfficialReputationDelta",
+            "Value": 2
+          }
+        ]
+      },
+      "OfficialReputation_3": {
+        "Quality": "EHTLogisticsDriverQuality::Orange",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_OfficialReputation_name",
+          "SourceString": "官方联络人",
+          "LocalizedString": "官方联络人"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_OfficialReputation_3_des",
+          "SourceString": "司机派送每单官方信誉+2，订单满意度+5",
+          "LocalizedString": "司机派送每单官方信誉+2，订单满意度+5"
+        },
+        "ExclusiveTraitIds": [
+          "OfficialReputation_1",
+          "OfficialReputation_2"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::OfficialReputationDelta",
+            "Value": 2
+          },
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::SatisfactionDelta",
+            "Value": 5
+          }
+        ]
+      },
+      "UndergroundReputation_1": {
+        "Quality": "EHTLogisticsDriverQuality::Blue",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_UndergroundReputation_name",
+          "SourceString": "地下掮客",
+          "LocalizedString": "地下掮客"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_UndergroundReputation_1_des",
+          "SourceString": "司机派送每单地下信誉+1",
+          "LocalizedString": "司机派送每单地下信誉+1"
+        },
+        "ExclusiveTraitIds": [
+          "UndergroundReputation_2",
+          "UndergroundReputation_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::UndergroundReputationDelta",
+            "Value": 1
+          }
+        ]
+      },
+      "UndergroundReputation_2": {
+        "Quality": "EHTLogisticsDriverQuality::Purple",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_UndergroundReputation_name",
+          "SourceString": "地下掮客",
+          "LocalizedString": "地下掮客"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_UndergroundReputation_2_des",
+          "SourceString": "司机派送每单地下信誉+2",
+          "LocalizedString": "司机派送每单地下信誉+2"
+        },
+        "ExclusiveTraitIds": [
+          "UndergroundReputation_1",
+          "UndergroundReputation_3"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::UndergroundReputationDelta",
+            "Value": 2
+          }
+        ]
+      },
+      "UndergroundReputation_3": {
+        "Quality": "EHTLogisticsDriverQuality::Orange",
+        "DisplayName": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_UndergroundReputation_name",
+          "SourceString": "地下掮客",
+          "LocalizedString": "地下掮客"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_LogisticsCenterUI.ST_LogisticsCenterUI",
+          "Key": "YHUI_Logistics_Trait_UndergroundReputation_3_des",
+          "SourceString": "司机派送每单地下信誉+2，订单满意度+5",
+          "LocalizedString": "司机派送每单地下信誉+2，订单满意度+5"
+        },
+        "ExclusiveTraitIds": [
+          "UndergroundReputation_1",
+          "UndergroundReputation_2"
+        ],
+        "Effects": [
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::UndergroundReputationDelta",
+            "Value": 2
+          },
+          {
+            "EffectType": "EHTLogisticsTraitEffectType::SatisfactionDelta",
+            "Value": 5
+          }
+        ]
+      }
+    }
   }
 ]

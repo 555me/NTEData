@@ -11,6 +11,401 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "MunicipalRepairs": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_MunicipalRepairs",
+          "SourceString": "【市政大修】",
+          "LocalizedString": "【市政大修】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_MunicipalRepairs_desc",
+          "SourceString": "随机4个当前可用地块临时失效，无法放置建筑",
+          "LocalizedString": "随机4个当前可用地块临时失效，无法放置建筑"
+        },
+        "Type": "EHTBalatroBossDebuff::BanTiles",
+        "MinAnte": 5,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "LicenseInspection": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_LicenseInspection",
+          "SourceString": "【资质抽查】",
+          "LocalizedString": "【资质抽查】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_LicenseInspection_desc",
+          "SourceString": "随机1张策略牌被封印失效；拖拽调整位置不会改变被封印目标",
+          "LocalizedString": "随机1张策略牌被封印失效；拖拽调整位置不会改变被封印目标"
+        },
+        "Type": "EHTBalatroBossDebuff::DisableJoker",
+        "MinAnte": 5,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "OuterDecay": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_OuterDecay",
+          "SourceString": "【外环衰退】",
+          "LocalizedString": "【外环衰退】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_OuterDecay_desc",
+          "SourceString": "占用棋盘最外圈地块的建筑，结算时积分减少50%",
+          "LocalizedString": "占用棋盘最外圈地块的建筑，结算时积分减少50%"
+        },
+        "Type": "EHTBalatroBossDebuff::EdgeDecay",
+        "MinAnte": 5,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "AnomalySurge": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_AnomalySurge",
+          "SourceString": "【异象侵扰】",
+          "LocalizedString": "【异象侵扰】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_AnomalySurge_desc",
+          "SourceString": "结算后，随机摧毁场上一栋建筑",
+          "LocalizedString": "结算后，随机摧毁场上一栋建筑"
+        },
+        "Type": "EHTBalatroBossDebuff::Anomaly",
+        "MinAnte": 5,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "FixedSupply": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_FixedSupply",
+          "SourceString": "【定额补给】",
+          "LocalizedString": "【定额补给】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_FixedSupply_desc",
+          "SourceString": "换牌或结算后，总是抽三张牌",
+          "LocalizedString": "换牌或结算后，总是抽三张牌"
+        },
+        "Type": "EHTBalatroBossDebuff::Serpent",
+        "MinAnte": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "SectorRivalry": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_SectorRivalry",
+          "SourceString": "【同业内卷】",
+          "LocalizedString": "【同业内卷】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_SectorRivalry_desc",
+          "SourceString": "建筑结算时，场上每有一种同主题建筑，结算积分-8%",
+          "LocalizedString": "建筑结算时，场上每有一种同主题建筑，结算积分-8%"
+        },
+        "Type": "EHTBalatroBossDebuff::ThemeDecay",
+        "MinAnte": 5,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "TargetHike": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_TargetHike",
+          "SourceString": "【指标加码】",
+          "LocalizedString": "【指标加码】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_TargetHike_desc",
+          "SourceString": "分数要求进一步提高",
+          "LocalizedString": "分数要求进一步提高"
+        },
+        "Type": "EHTBalatroBossDebuff::Wall",
+        "MinAnte": 5,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 3.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "BusinessSuspension": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_BusinessSuspension",
+          "SourceString": "【停业整顿】",
+          "LocalizedString": "【停业整顿】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_BusinessSuspension_desc",
+          "SourceString": "每栋建筑正常结算后，附加一回合【封锁】效果",
+          "LocalizedString": "每栋建筑正常结算后，附加一回合【封锁】效果"
+        },
+        "Type": "EHTBalatroBossDebuff::SettlementBlock",
+        "MinAnte": 5,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "TightDeadline": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_TightDeadline",
+          "SourceString": "【工期压缩】",
+          "LocalizedString": "【工期压缩】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_TightDeadline_desc",
+          "SourceString": "结算次数-1",
+          "LocalizedString": "结算次数-1"
+        },
+        "Type": "EHTBalatroBossDebuff::Needle",
+        "MinAnte": 5,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "DiningRestriction": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_DiningRestriction",
+          "SourceString": "【餐饮限令】",
+          "LocalizedString": "【餐饮限令】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_DiningRestriction_desc",
+          "SourceString": "所有【餐饮】属性建筑附加【削弱】效果",
+          "LocalizedString": "所有【餐饮】属性建筑附加【削弱】效果"
+        },
+        "Type": "EHTBalatroBossDebuff::WeakenDining",
+        "MinAnte": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "EntertainmentControl": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_EntertainmentControl",
+          "SourceString": "【娱乐管制】",
+          "LocalizedString": "【娱乐管制】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_EntertainmentControl_desc",
+          "SourceString": "所有【娱乐】属性建筑附加【削弱】效果",
+          "LocalizedString": "所有【娱乐】属性建筑附加【削弱】效果"
+        },
+        "Type": "EHTBalatroBossDebuff::WeakenEntertainment",
+        "MinAnte": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "HeightLimit": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_HeightLimit",
+          "SourceString": "【限高令】",
+          "LocalizedString": "【限高令】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_HeightLimit_desc",
+          "SourceString": "占地2格及以上建筑的自身基础倍率与附加效果减半",
+          "LocalizedString": "占地2格及以上建筑的自身基础倍率与附加效果减半"
+        },
+        "Type": "EHTBalatroBossDebuff::HighRiseLimit",
+        "MinAnte": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": true
+      },
+      "BusinessTax": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_BusinessTax",
+          "SourceString": "【经营税】",
+          "LocalizedString": "【经营税】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_BusinessTax_desc",
+          "SourceString": "本局所有来源产生的积分减少25%",
+          "LocalizedString": "本局所有来源产生的积分减少25%"
+        },
+        "Type": "EHTBalatroBossDebuff::TrafficTax",
+        "MinAnte": 5,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "DisposalFee": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_DisposalFee",
+          "SourceString": "【清运收费】",
+          "LocalizedString": "【清运收费】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_DisposalFee_desc",
+          "SourceString": "每次换牌失去10金币；金币少于10时无法换牌",
+          "LocalizedString": "每次换牌失去10金币；金币少于10时无法换牌"
+        },
+        "Type": "EHTBalatroBossDebuff::DiscardAudit",
+        "MinAnte": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "CongestionPenalty": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_CongestionPenalty",
+          "SourceString": "【拥堵问责】",
+          "LocalizedString": "【拥堵问责】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_CongestionPenalty_desc",
+          "SourceString": "若本次结算产生拥堵，本次结算的积分归零",
+          "LocalizedString": "若本次结算产生拥堵，本次结算的积分归零"
+        },
+        "Type": "EHTBalatroBossDebuff::CongestionPenalty",
+        "MinAnte": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "RelocationBan": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_RelocationBan",
+          "SourceString": "【迁改禁令】",
+          "LocalizedString": "【迁改禁令】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_RelocationBan_desc",
+          "SourceString": "本关卡内所有建筑附加【钉子】效果",
+          "LocalizedString": "本关卡内所有建筑附加【钉子】效果"
+        },
+        "Type": "EHTBalatroBossDebuff::NailAll",
+        "MinAnte": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "PollutionIncident": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_PollutionIncident",
+          "SourceString": "【污染事件】",
+          "LocalizedString": "【污染事件】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_PollutionIncident_desc",
+          "SourceString": "本关卡内所有建筑附加【污染】效果",
+          "LocalizedString": "本关卡内所有建筑附加【污染】效果"
+        },
+        "Type": "EHTBalatroBossDebuff::PollutionAll",
+        "MinAnte": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "SectorDebt": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_SectorDebt",
+          "SourceString": "【行业欠款】",
+          "LocalizedString": "【行业欠款】"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "BossBlind_SectorDebt_desc",
+          "SourceString": "牌库内数量最多的主题建筑附加【欠款】效果",
+          "LocalizedString": "牌库内数量最多的主题建筑附加【欠款】效果"
+        },
+        "Type": "EHTBalatroBossDebuff::DebtDominant",
+        "MinAnte": 1,
+        "Weight": 1.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 2.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "NpcChallengeDiningBoss": {
+        "DisplayName": {
+          "Namespace": "NpcChallengeDining",
+          "Key": "DisplayName",
+          "SourceString": "第一关：餐饮主题",
+          "LocalizedString": "第一关：餐饮主题"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "Type": "EHTBalatroBossDebuff::None",
+        "MinAnte": 1,
+        "Weight": 0.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 1.0,
+        "bHighRiseScoringRuleConfirmed": false
+      },
+      "NpcChallengeSandboxBoss": {
+        "DisplayName": {
+          "Namespace": "NpcChallengeSandbox",
+          "Key": "DisplayName",
+          "SourceString": "空白流派测试",
+          "LocalizedString": "空白流派测试"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "Type": "EHTBalatroBossDebuff::WeakenDining",
+        "MinAnte": 1,
+        "Weight": 0.0,
+        "bEnabled": true,
+        "TargetScoreFactor": 1.0,
+        "bHighRiseScoringRuleConfirmed": false
+      }
+    }
   }
 ]

@@ -11,6 +11,322 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "Riverside": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Plot_Riverside_Desc",
+          "SourceString": "结算时，接收相邻建筑的溢出客流，最多80点并在下一次结算产流前释放给相邻未超载建筑",
+          "LocalizedString": "结算时，接收相邻建筑的溢出客流，最多80点并在下一次结算产流前释放给相邻未超载建筑"
+        },
+        "Effects": []
+      },
+      "HighValue": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Plot_HighValue_Desc",
+          "SourceString": "计分建筑每覆盖一格高价值地块，获得＋15客流、＋15%积分转化率",
+          "LocalizedString": "计分建筑每覆盖一格高价值地块，获得＋15客流、＋15%积分转化率"
+        },
+        "Effects": []
+      },
+      "Park": {
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 0,
+            "Op": "EHTBalatroEffectOp::AddChips",
+            "Value": 8.0,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": true,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ]
+      },
+      "Laser": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_laser_description",
+          "SourceString": "建筑客流上限增加50",
+          "LocalizedString": "建筑客流上限增加50"
+        },
+        "Effects": []
+      },
+      "Shiny": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_shiny_description",
+          "SourceString": "建筑参与结算时，获得1金币",
+          "LocalizedString": "建筑参与结算时，获得1金币"
+        },
+        "Effects": []
+      },
+      "Hologram": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_hologram_description",
+          "SourceString": "提供+1倍率",
+          "LocalizedString": "提供+1倍率"
+        },
+        "Effects": []
+      },
+      "Recyclable": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_recyclable_description",
+          "SourceString": "每个结算回合限1次，可以从场上撤回本建筑",
+          "LocalizedString": "每个结算回合限1次，可以从场上撤回本建筑"
+        },
+        "Effects": []
+      },
+      "Glass": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_glass_description",
+          "SourceString": "建筑额外获得30客流，积分转化比+30%，结算后有25%概率在本关卡损毁",
+          "LocalizedString": "建筑额外获得30客流，积分转化比+30%，结算后有25%概率在本关卡损毁"
+        },
+        "Effects": []
+      },
+      "Hardened": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_hardened_description",
+          "SourceString": "无法换掉这张牌",
+          "LocalizedString": "无法换掉这张牌"
+        },
+        "Effects": []
+      },
+      "Digital": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_digital_description",
+          "SourceString": "在建筑类型判定中可视为所有建筑类型",
+          "LocalizedString": "在建筑类型判定中可视为所有建筑类型"
+        },
+        "Effects": []
+      },
+      "Steel": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_steel_description",
+          "SourceString": "结算时，每张仍留在手牌中的钢铁建筑使最终结算得分×1.5",
+          "LocalizedString": "结算时，每张仍留在手牌中的钢铁建筑使最终结算得分×1.5"
+        },
+        "Effects": []
+      },
+      "Weakened": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_weakened_description",
+          "SourceString": "建筑积分转化率降为正常值的75%",
+          "LocalizedString": "建筑积分转化率降为正常值的75%"
+        },
+        "Effects": []
+      },
+      "Lonely": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_lonely_description",
+          "SourceString": "不能与其他建筑四边相邻",
+          "LocalizedString": "不能与其他建筑四边相邻"
+        },
+        "Effects": []
+      },
+      "NegativeFilm": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_negativefilm_description",
+          "SourceString": "策略牌不占用策略槽位",
+          "LocalizedString": "策略牌不占用策略槽位"
+        },
+        "Effects": []
+      },
+      "Silver": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_silver_description",
+          "SourceString": "提供+50基础积分",
+          "LocalizedString": "提供+50基础积分"
+        },
+        "Effects": []
+      },
+      "Gold": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_gold_description",
+          "SourceString": "策略牌出售价格+10金币",
+          "LocalizedString": "策略牌出售价格+10金币"
+        },
+        "Effects": []
+      },
+      "Galaxy": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_galaxy_description",
+          "SourceString": "策略牌结算时，总倍率×1.5",
+          "LocalizedString": "策略牌结算时，总倍率×1.5"
+        },
+        "Effects": [
+          {
+            "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
+            "Condition": "EHTBalatroEffectCondition::None",
+            "ConditionParam": "None",
+            "ConditionThreshold": 1,
+            "Op": "EHTBalatroEffectOp::XMult",
+            "Value": 1.5,
+            "PerUnit": 1,
+            "bScaleValueWithUnitCount": false,
+            "bAddBaseOneForXMult": false,
+            "MaxValue": 0.0,
+            "Probability": 1.0,
+            "bRollProbabilityPerUnit": false,
+            "ConditionValue": 0.0,
+            "bDestroyOnTrigger": false,
+            "bCannotRecallAfterTrigger": false,
+            "FlowTargetRange": 0,
+            "FlowShape": "EHTBalatroFlowShape::Manhattan",
+            "bOnlyScoringFlowTargets": false,
+            "GeneratedCardID": "None",
+            "bOnlyOnFirstSettlement": false,
+            "AdditionalConditions": [],
+            "TagParams": {
+              "TargetCategories": [],
+              "TargetRarity": "EHTCardRarity::Common",
+              "AttachEffects": [],
+              "PriceMultiplier": -1.0,
+              "ShopScope": "EHTBalatroTagShopScope::DirectCards",
+              "bAllTargets": false,
+              "PackID": "None"
+            }
+          }
+        ]
+      },
+      "Void": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_void_description",
+          "SourceString": "策略牌无法出售或摧毁",
+          "LocalizedString": "策略牌无法出售或摧毁"
+        },
+        "Effects": []
+      },
+      "Energy": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_energy_description",
+          "SourceString": "建筑积分转化率+50%",
+          "LocalizedString": "建筑积分转化率+50%"
+        },
+        "Effects": []
+      },
+      "Nail": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_nail_description",
+          "SourceString": "建筑不可移动、旋转、撤回或拆除",
+          "LocalizedString": "建筑不可移动、旋转、撤回或拆除"
+        },
+        "Effects": []
+      },
+      "Pollution": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_pollution_description",
+          "SourceString": "建筑客流上限减少10，最低为0",
+          "LocalizedString": "建筑客流上限减少10，最低为0"
+        },
+        "Effects": []
+      },
+      "ShortRental": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_shortrental_description",
+          "SourceString": "建筑在场上完成两轮结算后，在本关卡损毁",
+          "LocalizedString": "建筑在场上完成两轮结算后，在本关卡损毁"
+        },
+        "Effects": []
+      },
+      "Debt": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_debt_description",
+          "SourceString": "关卡结束时扣除2金币",
+          "LocalizedString": "关卡结束时扣除2金币"
+        },
+        "Effects": []
+      },
+      "Blocked": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_blocked_description",
+          "SourceString": "此建筑本回合结算得分为0",
+          "LocalizedString": "此建筑本回合结算得分为0"
+        },
+        "Effects": []
+      },
+      "Upgraded": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_upgraded_description",
+          "SourceString": "建筑最终结算得分增加50%；持有环保主义时，可以使自然建筑提供的光环增益翻倍",
+          "LocalizedString": "建筑最终结算得分增加50%；持有环保主义时，可以使自然建筑提供的光环增益翻倍"
+        },
+        "Effects": []
+      },
+      "Temporary": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_temporary_description",
+          "SourceString": "下一次结算结束后消失",
+          "LocalizedString": "下一次结算结束后消失"
+        },
+        "Effects": []
+      },
+      "Mirage": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_mirage_description",
+          "SourceString": "视为与全场建筑相邻；结算回合后从牌库中永久移除",
+          "LocalizedString": "视为与全场建筑相邻；结算回合后从牌库中永久移除"
+        },
+        "Effects": []
+      },
+      "GalaxyRetrigger": {
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "balatrolike_hover_attach_galaxyretrigger_description",
+          "SourceString": "策略牌结算时有25%概率额外触发一次效果，不连续重复触发",
+          "LocalizedString": "策略牌结算时有25%概率额外触发一次效果，不连续重复触发"
+        },
+        "Effects": []
+      }
+    }
   }
 ]

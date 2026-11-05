@@ -11,6 +11,455 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "BalatroLike_Unlock_HeadlineStar": {
+        "Counter": "EHTBalatroQuestCounter::BuildingSettlementCount",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 4,
+        "Threshold": -1,
+        "UnlockCardID": "HeadlineStar",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_HeadlineStar_Description",
+          "SourceString": "单个建筑单回合至少结算4次",
+          "LocalizedString": "单个建筑单回合至少结算4次"
+        }
+      },
+      "BalatroLike_Unlock_EntertainmentSupremacy": {
+        "Counter": "EHTBalatroQuestCounter::JokersBoughtByTheme",
+        "Parameter": 1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 5,
+        "Threshold": -1,
+        "UnlockCardID": "EntertainmentSupremacy",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_EntertainmentSupremacy_Description",
+          "SourceString": "玩家累计购买5次主题为娱乐的策略牌",
+          "LocalizedString": "玩家累计购买5次主题为娱乐的策略牌"
+        }
+      },
+      "BalatroLike_Unlock_CommercialEmpire": {
+        "Counter": "EHTBalatroQuestCounter::BoardBuildingsByTheme",
+        "Parameter": 1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 4,
+        "Threshold": -1,
+        "UnlockCardID": "CommercialEmpire",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_CommercialEmpire_Description",
+          "SourceString": "场上放置至少4栋娱乐建筑",
+          "LocalizedString": "场上放置至少4栋娱乐建筑"
+        }
+      },
+      "BalatroLike_Unlock_BigSpender": {
+        "Counter": "EHTBalatroQuestCounter::JokersBoughtByTheme",
+        "Parameter": 2,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 5,
+        "Threshold": -1,
+        "UnlockCardID": "BigSpender",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_BigSpender_Description",
+          "SourceString": "玩家累计购买5次主题为消费的策略牌",
+          "LocalizedString": "玩家累计购买5次主题为消费的策略牌"
+        }
+      },
+      "BalatroLike_Unlock_Tycoon": {
+        "Counter": "EHTBalatroQuestCounter::FinishedRunPeakMoney",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 50,
+        "Threshold": -1,
+        "UnlockCardID": "Tycoon",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_Tycoon_Description",
+          "SourceString": "游戏结束时，单局游戏中至少拥有50金币",
+          "LocalizedString": "游戏结束时，单局游戏中至少拥有50金币"
+        }
+      },
+      "BalatroLike_Unlock_OnePunch": {
+        "Counter": "EHTBalatroQuestCounter::WonBlindSettlementCount",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtMost",
+        "Amount": 1,
+        "Threshold": 1,
+        "UnlockCardID": "OnePunch",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_OnePunch_Description",
+          "SourceString": "关卡首次结算达到目标分数",
+          "LocalizedString": "关卡首次结算达到目标分数"
+        }
+      },
+      "BalatroLike_Unlock_Blueprint": {
+        "Counter": "EHTBalatroQuestCounter::Wins",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 1,
+        "Threshold": -1,
+        "UnlockCardID": "Blueprint",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_Blueprint_Description",
+          "SourceString": "赢得一局游戏",
+          "LocalizedString": "赢得一局游戏"
+        }
+      },
+      "BalatroLike_Unlock_Brainstorm": {
+        "Counter": "EHTBalatroQuestCounter::DiscardThemeCount",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 5,
+        "Threshold": -1,
+        "UnlockCardID": "Brainstorm",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_Brainstorm_Description",
+          "SourceString": "本局游戏中累计换掉餐饮、娱乐、消费、自然、交通五种主题的建筑牌",
+          "LocalizedString": "本局游戏中累计换掉餐饮、娱乐、消费、自然、交通五种主题的建筑牌"
+        }
+      },
+      "BalatroLike_Unlock_CoreTeam": {
+        "Counter": "EHTBalatroQuestCounter::WonRunJokerCount",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtMost",
+        "Amount": 1,
+        "Threshold": 4,
+        "UnlockCardID": "CoreTeam",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_CoreTeam_Description",
+          "SourceString": "通关一局游戏时，只拥有不超过4张策略牌",
+          "LocalizedString": "通关一局游戏时，只拥有不超过4张策略牌"
+        }
+      },
+      "BalatroLike_Unlock_SmallThingsAddUp": {
+        "Counter": "EHTBalatroQuestCounter::BoardBuildingCount",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 15,
+        "Threshold": -1,
+        "UnlockCardID": "SmallThingsAddUp",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_SmallThingsAddUp_Description",
+          "SourceString": "场上同时存在15栋建筑",
+          "LocalizedString": "场上同时存在15栋建筑"
+        }
+      },
+      "BalatroLike_Unlock_PickySelection": {
+        "Counter": "EHTBalatroQuestCounter::RoundScore",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 10000,
+        "Threshold": -1,
+        "UnlockCardID": "PickySelection",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_PickySelection_Description",
+          "SourceString": "单次结算得到至少10000分",
+          "LocalizedString": "单次结算得到至少10000分"
+        }
+      },
+      "BalatroLike_Unlock_Environmentalist": {
+        "Counter": "EHTBalatroQuestCounter::UpgradeCardsUsed",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 5,
+        "Threshold": -1,
+        "UnlockCardID": "Environmentalist",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_Environmentalist_Description",
+          "SourceString": "玩家累计使用【修缮】功能牌5次",
+          "LocalizedString": "玩家累计使用【修缮】功能牌5次"
+        }
+      },
+      "BalatroLike_Unlock_LivableCity": {
+        "Counter": "EHTBalatroQuestCounter::JokersBoughtByTheme",
+        "Parameter": 3,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 5,
+        "Threshold": -1,
+        "UnlockCardID": "LivableCity",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_LivableCity_Description",
+          "SourceString": "玩家累计购买5次主题为自然的策略牌",
+          "LocalizedString": "玩家累计购买5次主题为自然的策略牌"
+        }
+      },
+      "BalatroLike_Unlock_ParallelTransit": {
+        "Counter": "EHTBalatroQuestCounter::TrafficCardsUsed",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 10,
+        "Threshold": -1,
+        "UnlockCardID": "ParallelTransit",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_ParallelTransit_Description",
+          "SourceString": "玩家累计使用客流牌10次",
+          "LocalizedString": "玩家累计使用客流牌10次"
+        }
+      },
+      "BalatroLike_Unlock_UrbanArtery": {
+        "Counter": "EHTBalatroQuestCounter::JokersBoughtByTheme",
+        "Parameter": 4,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 5,
+        "Threshold": -1,
+        "UnlockCardID": "UrbanArtery",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_UrbanArtery_Description",
+          "SourceString": "玩家累计购买5次主题为交通的策略牌",
+          "LocalizedString": "玩家累计购买5次主题为交通的策略牌"
+        }
+      },
+      "BalatroLike_Unlock_FlagshipStore": {
+        "Counter": "EHTBalatroQuestCounter::BuildingScore",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 200,
+        "Threshold": -1,
+        "UnlockCardID": "FlagshipStore",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_FlagshipStore_Description",
+          "SourceString": "单栋建筑结算时至少获得200积分",
+          "LocalizedString": "单栋建筑结算时至少获得200积分"
+        }
+      },
+      "BalatroLike_Unlock_RestaurantGroup": {
+        "Counter": "EHTBalatroQuestCounter::JokersBoughtByTheme",
+        "Parameter": 0,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 5,
+        "Threshold": -1,
+        "UnlockCardID": "RestaurantGroup",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_RestaurantGroup_Description",
+          "SourceString": "玩家累计购买5次主题为餐饮的策略牌",
+          "LocalizedString": "玩家累计购买5次主题为餐饮的策略牌"
+        }
+      },
+      "BalatroLike_Unlock_OneMoreRound": {
+        "Counter": "EHTBalatroQuestCounter::RoundSettlementCount",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 20,
+        "Threshold": -1,
+        "UnlockCardID": "OneMoreRound",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_OneMoreRound_Description",
+          "SourceString": "单次结算中，场上总结算次数达到20次",
+          "LocalizedString": "单次结算中，场上总结算次数达到20次"
+        }
+      },
+      "BalatroLike_Unlock_TourBuzz": {
+        "Counter": "EHTBalatroQuestCounter::DiscardBuildingsByTheme",
+        "Parameter": 1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 2,
+        "Threshold": -1,
+        "UnlockCardID": "TourBuzz",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_TourBuzz_Description",
+          "SourceString": "同时换掉至少两张娱乐建筑",
+          "LocalizedString": "同时换掉至少两张娱乐建筑"
+        }
+      },
+      "BalatroLike_Unlock_CreditTerms": {
+        "Counter": "EHTBalatroQuestCounter::DiscardBuildingsByTheme",
+        "Parameter": 2,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 2,
+        "Threshold": -1,
+        "UnlockCardID": "CreditTerms",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_CreditTerms_Description",
+          "SourceString": "同时换掉至少两张消费建筑",
+          "LocalizedString": "同时换掉至少两张消费建筑"
+        }
+      },
+      "BalatroLike_Unlock_OniWarrior": {
+        "Counter": "EHTBalatroQuestCounter::JokersSold",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 10,
+        "Threshold": -1,
+        "UnlockCardID": "OniWarrior",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_OniWarrior_Description",
+          "SourceString": "玩家累计售出10次策略牌",
+          "LocalizedString": "玩家累计售出10次策略牌"
+        }
+      },
+      "BalatroLike_Unlock_EmpowerDna": {
+        "Counter": "EHTBalatroQuestCounter::FinishedRunEffectCards",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 5,
+        "Threshold": -1,
+        "UnlockCardID": "EmpowerDna",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_EmpowerDna_Description",
+          "SourceString": "游戏结束时，牌库中至少有5张功能牌",
+          "LocalizedString": "游戏结束时，牌库中至少有5张功能牌"
+        }
+      },
+      "BalatroLike_Unlock_HologramProjection": {
+        "Counter": "EHTBalatroQuestCounter::FinishedRunBuildingCards",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 20,
+        "Threshold": -1,
+        "UnlockCardID": "HologramProjection",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_HologramProjection_Description",
+          "SourceString": "游戏结束时，牌库中至少有20张建筑牌",
+          "LocalizedString": "游戏结束时，牌库中至少有20张建筑牌"
+        }
+      },
+      "BalatroLike_Unlock_MrBones": {
+        "Counter": "EHTBalatroQuestCounter::Losses",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 1,
+        "Threshold": -1,
+        "UnlockCardID": "MrBones",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_MrBones_Description",
+          "SourceString": "输掉一局游戏",
+          "LocalizedString": "输掉一局游戏"
+        }
+      },
+      "BalatroLike_Unlock_Ramen": {
+        "Counter": "EHTBalatroQuestCounter::WonBlindDiscardCount",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::Equal",
+        "Amount": 1,
+        "Threshold": 0,
+        "UnlockCardID": "Ramen",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_Ramen_Description",
+          "SourceString": "不换牌赢得一个关卡",
+          "LocalizedString": "不换牌赢得一个关卡"
+        }
+      },
+      "BalatroLike_Unlock_ImportantCustomer": {
+        "Counter": "EHTBalatroQuestCounter::RunInterest",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 50,
+        "Threshold": -1,
+        "UnlockCardID": "ImportantCustomer",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_ImportantCustomer_Description",
+          "SourceString": "本局游戏通过利息赚取50金币",
+          "LocalizedString": "本局游戏通过利息赚取50金币"
+        }
+      },
+      "BalatroLike_Unlock_GreenAudit": {
+        "Counter": "EHTBalatroQuestCounter::DiscardBuildingsByTheme",
+        "Parameter": 3,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 2,
+        "Threshold": -1,
+        "UnlockCardID": "GreenAudit",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_GreenAudit_Description",
+          "SourceString": "同时换掉至少两张自然建筑",
+          "LocalizedString": "同时换掉至少两张自然建筑"
+        }
+      },
+      "BalatroLike_Unlock_GreenArchive": {
+        "Counter": "EHTBalatroQuestCounter::WonRunBuildingsByTheme",
+        "Parameter": 3,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 4,
+        "Threshold": -1,
+        "UnlockCardID": "GreenArchive",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_GreenArchive_Description",
+          "SourceString": "通关一局游戏时，携带不少于4张自然建筑",
+          "LocalizedString": "通关一局游戏时，携带不少于4张自然建筑"
+        }
+      },
+      "BalatroLike_Unlock_CentralHub": {
+        "Counter": "EHTBalatroQuestCounter::BoardBuildingsByTheme",
+        "Parameter": 4,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 3,
+        "Threshold": -1,
+        "UnlockCardID": "CentralHub",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_CentralHub_Description",
+          "SourceString": "场上同时存在至少3栋交通建筑",
+          "LocalizedString": "场上同时存在至少3栋交通建筑"
+        }
+      },
+      "BalatroLike_Unlock_CrowdFrenzy": {
+        "Counter": "EHTBalatroQuestCounter::TrafficCapacity",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 500,
+        "Threshold": -1,
+        "UnlockCardID": "CrowdFrenzy",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_CrowdFrenzy_Description",
+          "SourceString": "总客流条上限达到500",
+          "LocalizedString": "总客流条上限达到500"
+        }
+      },
+      "BalatroLike_Unlock_ForestRestaurant": {
+        "Counter": "EHTBalatroQuestCounter::FoodAndNatureBuildingsBought",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 4,
+        "Threshold": -1,
+        "UnlockCardID": "ForestRestaurant",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_ForestRestaurant_Description",
+          "SourceString": "玩家累计购买4次餐饮建筑、4次自然建筑",
+          "LocalizedString": "玩家累计购买4次餐饮建筑、4次自然建筑"
+        }
+      },
+      "BalatroLike_Unlock_SignboardStreet": {
+        "Counter": "EHTBalatroQuestCounter::BoardDistinctBuildingsByTheme",
+        "Parameter": 0,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 4,
+        "Threshold": -1,
+        "UnlockCardID": "SignboardStreet",
+        "Description": {
+          "Namespace": "DT_BalatroLikeJokerUnlockQuests",
+          "Key": "BalatroLike_Unlock_SignboardStreet_Description",
+          "SourceString": "场上同时存在4种餐饮主题建筑",
+          "LocalizedString": "场上同时存在4种餐饮主题建筑"
+        }
+      }
+    }
   }
 ]

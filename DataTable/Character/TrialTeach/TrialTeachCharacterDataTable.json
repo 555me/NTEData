@@ -20308,7 +20308,18 @@
                     "ObjectPath": "/Game/Blueprints/Level/World/Common/ResourceClone/HoudiniMagicDoor/TeachCloneCondition/Elyms/TeachCloneCondition_Elyms_ExcludeElyms.0"
                   }
                 },
-                null,
+                {
+                  "HeterochromePercent": 100.0,
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 1,
+                  "ApplyTime_GEClass": "None",
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server",
+                  "ConditionClass": {
+                    "ObjectName": "BlueprintGeneratedClass'TeachCloneCondition_Elyms_ExcludeElyms_C'",
+                    "ObjectPath": "/Game/Blueprints/Level/World/Common/ResourceClone/HoudiniMagicDoor/TeachCloneCondition/Elyms/TeachCloneCondition_Elyms_ExcludeElyms.0"
+                  }
+                },
                 {
                   "ApplyGEClass": {
                     "ObjectName": "BlueprintGeneratedClass'Buff_ClearSkillCD_TA_C'",
@@ -20892,7 +20903,20 @@
               },
               "StageFinishWaitTime": 0.0,
               "TeachApplyEffects": [
-                null,
+                {
+                  "LogicObjClass": {
+                    "AssetPathName": "/Script/HTGame.ExeLogicObj",
+                    "SubPathString": ""
+                  },
+                  "FunctionName": "ModifyExeFrame",
+                  "FunctionParams": "50",
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 1,
+                  "ApplyTime_GEClass": "None",
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server",
+                  "ConditionClass": null
+                },
                 {
                   "ApplyGEClass": {
                     "ObjectName": "BlueprintGeneratedClass'Buff_ClearSkillCD_TA_C'",
@@ -20991,7 +21015,33 @@
                     }
                   ]
                 },
-                null
+                {
+                  "IndependentShowUI": false,
+                  "SlotContent": {
+                    "Title": {
+                      "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                      "Key": "Trial_Exe_5_2",
+                      "SourceString": "普攻命中敌人并导出1个「数字残像」",
+                      "LocalizedString": "普攻命中敌人并导出1个「数字残像」"
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "StageFinishWaitTime": 0.0,
+                  "TeachApplyEffects": [
+                    {
+                      "GuideID": "Teach_Exe_5_2",
+                      "ApplyTargetType": "ETeachApplyTargetType::Player",
+                      "ApplyOperation": "ETeachApplyOperation::Add",
+                      "ApplyTime": 1,
+                      "ApplyTime_GEClass": "None",
+                      "ApplyNetPolicy": "ETeachApplyNetPolicy::Client",
+                      "ConditionClass": null
+                    }
+                  ]
+                }
               ],
               "IndependentShowUI": true,
               "SlotContent": {
@@ -21092,7 +21142,122 @@
             "bStateMonsterNeedAttack": false,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
-            "TeachSateges": null
+            "TeachSateges": {
+              "ExecutionBuffGE": {
+                "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_074_Exe/Buff/Buff_Player_Exe_Kill.Buff_Player_Exe_Kill_C",
+                "SubPathString": ""
+              },
+              "LockHPBuffGE": {
+                "AssetPathName": "/Game/Blueprints/Character/Monster/mon_16/Trial/buff_Trial_LockHP100_BP.buff_Trial_LockHP100_BP_C",
+                "SubPathString": ""
+              },
+              "MonsterHPPercent": 10.0,
+              "IndependentShowUI": false,
+              "SlotContent": {
+                "Title": {
+                  "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                  "Key": "Trial_Exe_6_1",
+                  "SourceString": "Exe处于「方程构建」状态时，发动「普通攻击：纵深侵入」处决敌人",
+                  "LocalizedString": "Exe处于「方程构建」状态时，发动「普通攻击：纵深侵入」处决敌人"
+                },
+                "SlotClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                }
+              },
+              "StageFinishWaitTime": 0.0,
+              "TeachApplyEffects": [
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_CantUseUltraSkill_TA_Infinity_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_CantUseUltraSkill_TA_Infinity.1"
+                  },
+                  "ApplyGESoftClass": {
+                    "AssetPathName": "",
+                    "SubPathString": ""
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::FillOrRemove",
+                  "ApplyTime": 1,
+                  "ApplyTime_GEClass": "None",
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server",
+                  "ConditionClass": null
+                },
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_CantUseSkill_TA_Infinity_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_CantUseSkill_TA_Infinity.1"
+                  },
+                  "ApplyGESoftClass": {
+                    "AssetPathName": "",
+                    "SubPathString": ""
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::FillOrRemove",
+                  "ApplyTime": 1,
+                  "ApplyTime_GEClass": "None",
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server",
+                  "ConditionClass": null
+                },
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_NoConsume_TA_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_NoConsume_TA.0"
+                  },
+                  "ApplyGESoftClass": {
+                    "AssetPathName": "",
+                    "SubPathString": ""
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 5,
+                  "ApplyTime_GEClass": "None",
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server",
+                  "ConditionClass": null
+                },
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_UltraSkillEnergyAdd_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Abyss/Buff_UltraSkillEnergyAdd.1"
+                  },
+                  "ApplyGESoftClass": {
+                    "AssetPathName": "",
+                    "SubPathString": ""
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 5,
+                  "ApplyTime_GEClass": "None",
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server",
+                  "ConditionClass": null
+                },
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_ClearSkillCD_TA_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_ClearSkillCD_TA.0"
+                  },
+                  "ApplyGESoftClass": {
+                    "AssetPathName": "",
+                    "SubPathString": ""
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 5,
+                  "ApplyTime_GEClass": "None",
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server",
+                  "ConditionClass": null
+                },
+                {
+                  "GuideID": "Teach_Exe_6_1",
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 1,
+                  "ApplyTime_GEClass": "None",
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Client",
+                  "ConditionClass": null
+                }
+              ]
+            }
           },
           {
             "bStateMonsterNeedAttack": false,

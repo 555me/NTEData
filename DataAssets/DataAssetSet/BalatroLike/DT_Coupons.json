@@ -11,6 +11,502 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "CouponDiscard": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Discard",
+          "SourceString": "第三只手",
+          "LocalizedString": "第三只手"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Discard_Desc",
+          "SourceString": "在本局游戏中，每个关卡的换牌次数永久增加1次",
+          "LocalizedString": "在本局游戏中，每个关卡的换牌次数永久增加1次"
+        },
+        "Cost": 10,
+        "ExtraDiscards": 1,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "None",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponDiscardPlus": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Discard_Plus",
+          "SourceString": "四手霸王",
+          "LocalizedString": "四手霸王"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Discard_Plus_Desc",
+          "SourceString": "在本局游戏中，每个关卡的出牌次数永久增加1次",
+          "LocalizedString": "在本局游戏中，每个关卡的出牌次数永久增加1次"
+        },
+        "Cost": 15,
+        "ExtraDiscards": 0,
+        "ExtraHands": 1,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "CouponDiscard",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponHandSize": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_HandSize",
+          "SourceString": "扩容弹匣",
+          "LocalizedString": "扩容弹匣"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_HandSize_Desc",
+          "SourceString": "在本局游戏中，手牌抽取上限永久+1",
+          "LocalizedString": "在本局游戏中，手牌抽取上限永久+1"
+        },
+        "Cost": 10,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 1,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "None",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponHandSizePlus": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_HandSize_Plus",
+          "SourceString": "战术弹鼓",
+          "LocalizedString": "战术弹鼓"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_HandSize_Plus_Desc",
+          "SourceString": "在本局游戏中，手牌抽取上限永久+1",
+          "LocalizedString": "在本局游戏中，手牌抽取上限永久+1"
+        },
+        "Cost": 15,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 1,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "CouponHandSize",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponDiscount": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Discount",
+          "SourceString": "商店供应点",
+          "LocalizedString": "商店供应点"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Discount_Desc",
+          "SourceString": "在本局游戏中，商店内所有卡牌、策略与卡包价格立减20%",
+          "LocalizedString": "在本局游戏中，商店内所有卡牌、策略与卡包价格立减20%"
+        },
+        "Cost": 10,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.2,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "None",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponDiscountPlus": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Discount_Plus",
+          "SourceString": "城市供应链",
+          "LocalizedString": "城市供应链"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Discount_Plus_Desc",
+          "SourceString": "在本局游戏中，商店内所有卡牌、策略、卡包、地块价格立减40%",
+          "LocalizedString": "在本局游戏中，商店内所有卡牌、策略、卡包、地块价格立减40%"
+        },
+        "Cost": 15,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.4,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": true,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "CouponDiscount",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponReroll": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Reroll",
+          "SourceString": "老店主顾",
+          "LocalizedString": "老店主顾"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Reroll_Desc",
+          "SourceString": "在本局游戏中，商店刷新货架费用降低2金币",
+          "LocalizedString": "在本局游戏中，商店刷新货架费用降低2金币"
+        },
+        "Cost": 10,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 2,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "None",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponRerollPlus": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Reroll_Plus",
+          "SourceString": "黑卡会员",
+          "LocalizedString": "黑卡会员"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Reroll_Plus_Desc",
+          "SourceString": "在本局游戏中，商店刷新货架费用从0开始增加",
+          "LocalizedString": "在本局游戏中，商店刷新货架费用从0开始增加"
+        },
+        "Cost": 15,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": 0,
+        "PrerequisiteCouponID": "CouponReroll",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponSlot": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Slot",
+          "SourceString": "初级采购",
+          "LocalizedString": "初级采购"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Slot_Desc",
+          "SourceString": "在本局游戏中，直售专柜永久增加1个售卖槽位",
+          "LocalizedString": "在本局游戏中，直售专柜永久增加1个售卖槽位"
+        },
+        "Cost": 10,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 1,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "None",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponSlotPlus": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Slot_Plus",
+          "SourceString": "特级采购",
+          "LocalizedString": "特级采购"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Slot_Plus_Desc",
+          "SourceString": "在本局游戏中，直售专柜永久增加1个售卖槽位，且此槽位里只会刷新史诗品质策略或建筑",
+          "LocalizedString": "在本局游戏中，直售专柜永久增加1个售卖槽位，且此槽位里只会刷新史诗品质策略或建筑"
+        },
+        "Cost": 15,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 1,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "CouponSlot",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponBonus": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Bonus",
+          "SourceString": "概率学入门",
+          "LocalizedString": "概率学入门"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Bonus_Desc",
+          "SourceString": "在本局游戏中，获得附加效果的概率从10%提高到20%",
+          "LocalizedString": "在本局游戏中，获得附加效果的概率从10%提高到20%"
+        },
+        "Cost": 10,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": 0.2,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "None",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponBonusPlus": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Bonus_Plus",
+          "SourceString": "概率学研究",
+          "LocalizedString": "概率学研究"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Bonus_Plus_Desc",
+          "SourceString": "在本局游戏中，获得附加效果的概率从20%提高到35%",
+          "LocalizedString": "在本局游戏中，获得附加效果的概率从20%提高到35%"
+        },
+        "Cost": 15,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": 0.35,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "CouponBonus",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponInterest": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Interest",
+          "SourceString": "按息取酬",
+          "LocalizedString": "按息取酬"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Interest_Desc",
+          "SourceString": "在本局游戏中，利息获取上限提升至8金币",
+          "LocalizedString": "在本局游戏中，利息获取上限提升至8金币"
+        },
+        "Cost": 10,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 8,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "None",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "CouponInterestPlus": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Interest_Plus",
+          "SourceString": "生生不息",
+          "LocalizedString": "生生不息"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Interest_Plus_Desc",
+          "SourceString": "本局游戏，你总能获得最高的利息",
+          "LocalizedString": "本局游戏，你总能获得最高的利息"
+        },
+        "Cost": 15,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": true,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": -1,
+        "PrerequisiteCouponID": "CouponInterest",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      },
+      "NpcMintRerollZero": {
+        "DisplayName": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Reroll_Plus",
+          "SourceString": "黑卡会员",
+          "LocalizedString": "黑卡会员"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+          "Key": "Coupons_Reroll_Plus_Desc",
+          "SourceString": "在本局游戏中，商店刷新货架费用从0开始增加",
+          "LocalizedString": "在本局游戏中，商店刷新货架费用从0开始增加"
+        },
+        "Cost": 15,
+        "ExtraDiscards": 0,
+        "ExtraHands": 0,
+        "ExtraHandSize": 0,
+        "ExtraJokerSlots": 0,
+        "ShopDiscount": 0.0,
+        "RerollCostReduce": 0,
+        "ExtraShopCardSlots": 0,
+        "ExtraEpicCardSlots": 0,
+        "ShopAttachChance": -1.0,
+        "InterestCapMinimum": 0,
+        "bAlwaysMaxInterest": false,
+        "bDiscountPlots": false,
+        "RerollStartCostOverride": 0,
+        "PrerequisiteCouponID": "None",
+        "IconTexture": {
+          "AssetPathName": "/Game/UI/UI/BalatroLike/Shop/YH_UI_Balatrolike_Shop_Coupon.YH_UI_Balatrolike_Shop_Coupon",
+          "SubPathString": ""
+        }
+      }
+    }
   }
 ]

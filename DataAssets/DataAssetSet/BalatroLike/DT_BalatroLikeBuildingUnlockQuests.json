@@ -11,6 +11,77 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "BalatroLike_Unlock_BrandHotel": {
+        "Counter": "EHTBalatroQuestCounter::DeckBuildingsByTheme",
+        "Parameter": 0,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 6,
+        "Threshold": -1,
+        "UnlockCardID": "BrandHotel",
+        "Description": {
+          "Namespace": "DT_BalatroLikeBuildingUnlockQuests",
+          "Key": "BalatroLike_Unlock_BrandHotel_Description",
+          "SourceString": "本局游戏的牌库中至少拥有6张餐饮主题建筑牌",
+          "LocalizedString": "本局游戏的牌库中至少拥有6张餐饮主题建筑牌"
+        }
+      },
+      "BalatroLike_Unlock_ThemePark": {
+        "Counter": "EHTBalatroQuestCounter::BuildingSettlementCount",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 3,
+        "Threshold": -1,
+        "UnlockCardID": "ThemePark",
+        "Description": {
+          "Namespace": "DT_BalatroLikeBuildingUnlockQuests",
+          "Key": "BalatroLike_Unlock_ThemePark_Description",
+          "SourceString": "单个建筑一回合至少结算4次",
+          "LocalizedString": "单个建筑一回合至少结算4次"
+        }
+      },
+      "BalatroLike_Unlock_InvestCenter": {
+        "Counter": "EHTBalatroQuestCounter::BlindCommercialIncome",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 10,
+        "Threshold": -1,
+        "UnlockCardID": "InvestCenter",
+        "Description": {
+          "Namespace": "DT_BalatroLikeBuildingUnlockQuests",
+          "Key": "BalatroLike_Unlock_InvestCenter_Description",
+          "SourceString": "单关卡通过消费建筑赚取10金币",
+          "LocalizedString": "单关卡通过消费建筑赚取10金币"
+        }
+      },
+      "BalatroLike_Unlock_LoanCenter": {
+        "Counter": "EHTBalatroQuestCounter::RoundDiscardCount",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 5,
+        "Threshold": -1,
+        "UnlockCardID": "LoanCenter",
+        "Description": {
+          "Namespace": "DT_BalatroLikeBuildingUnlockQuests",
+          "Key": "BalatroLike_Unlock_LoanCenter_Description",
+          "SourceString": "单回合换掉5张手牌",
+          "LocalizedString": "单回合换掉5张手牌"
+        }
+      },
+      "BalatroLike_Unlock_WishFountain": {
+        "Counter": "EHTBalatroQuestCounter::NatureAffectedBuildings",
+        "Parameter": -1,
+        "Comparison": "EHTBalatroQuestComparison::AtLeast",
+        "Amount": 8,
+        "Threshold": -1,
+        "UnlockCardID": "WishFountain",
+        "Description": {
+          "Namespace": "DT_BalatroLikeBuildingUnlockQuests",
+          "Key": "BalatroLike_Unlock_WishFountain_Description",
+          "SourceString": "结算时，至少8栋计分建筑受到自然建筑的光环影响",
+          "LocalizedString": "结算时，至少8栋计分建筑受到自然建筑的光环影响"
+        }
+      }
+    }
   }
 ]

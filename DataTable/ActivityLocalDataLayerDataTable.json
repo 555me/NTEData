@@ -1376,8 +1376,14 @@
         "OnlyInHybridMode": false,
         "AreaIds": [],
         "bOnlyLoadNotActive": false,
-        "ActiveCondition": null,
-        "UnLoadCondition": null
+        "ActiveCondition": {
+          "ActivityType": "BalatroLike",
+          "bNeedOpen": true
+        },
+        "UnLoadCondition": {
+          "ActivityType": "BalatroLike",
+          "bNeedOpen": false
+        }
       }
     }
   }

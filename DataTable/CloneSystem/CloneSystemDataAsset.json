@@ -15,12 +15,100 @@
         "ObjectName": "DataTable'DT_CloneEnter'",
         "ObjectPath": "/Game/DataTable/CloneSystem/DT_CloneEnter.0"
       },
-      "DT_CloneMonsterInfo": {
+      "DT_ClonePopupUIData": {
         "ObjectName": "DataTable'DT_ClonePopupUIData'",
         "ObjectPath": "/Game/DataTable/CloneSystem/DT_ClonePopupUIData.0"
       },
-      "ExitGameCoolDownTime": -4,
-      "CloneReliveHPPer": 4.905E-42
+      "DT_CloneMonsterInfo": null,
+      "ExitGameCoolDownTime": 3500,
+      "CloneReliveHPPer": 1.0,
+      "ReceiveAwardDatas": [
+        {
+          "CloneType": "ECloneType::Weekly_Clone",
+          "ReceiveCount": 3
+        }
+      ],
+      "CloneAISpawnManagerGuid": "9E423CD748219FDF1E25398FEA31D0DA",
+      "GoldCloneLevelInstanceDiffVector": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -40000.0
+      },
+      "GoldClonePlayerTransferDiffVector": {
+        "X": -1850.0,
+        "Y": 0.0,
+        "Z": -40000.0
+      },
+      "GoldCloneTransferID": "MammonClone",
+      "GoldCloneCameraRotation": {
+        "Pitch": 0.1,
+        "Yaw": 0.0,
+        "Roll": 0.1
+      },
+      "AutoOnlineCancelMatch": 60.0,
+      "BrokeMatchStateUI": [
+        "CloneSystemMainForm",
+        "Dialogue",
+        "SideDialogue",
+        "DlgInteraction",
+        "NPCShop",
+        "CloneSystemLibraryMainForm",
+        "CloneSystemGoldMainForm",
+        "RobBankMain",
+        "FishMain",
+        "MahjongMainForm",
+        "RacingChooseMode"
+      ],
+      "LimitInputCloneTypes": [
+        "ECloneType::Trial_Clone",
+        "ECloneType::Talent_Clone",
+        "ECloneType::ArcDisk_Clone",
+        "ECloneType::AirCurtain_Clone",
+        "ECloneType::Weekly_Clone",
+        "ECloneType::Gold_Clone"
+      ],
+      "ForceFightStateGE": {
+        "AssetPathName": "/Game/Blueprints/Abilities/Buff/Common/Player/Buff_Player_ForceFightState.Buff_Player_ForceFightState_C",
+        "SubPathString": ""
+      },
+      "RecommendTeamLevelMap": [
+        {
+          "Key": "0",
+          "Value": 20
+        },
+        {
+          "Key": "1",
+          "Value": 30
+        },
+        {
+          "Key": "2",
+          "Value": 40
+        },
+        {
+          "Key": "3",
+          "Value": 50
+        },
+        {
+          "Key": "4",
+          "Value": 60
+        },
+        {
+          "Key": "5",
+          "Value": 70
+        },
+        {
+          "Key": "6",
+          "Value": 80
+        },
+        {
+          "Key": "7",
+          "Value": 80
+        }
+      ],
+      "ForbidCancelCloneType": [
+        "EMatchCloneType::Racing_PVP",
+        "EMatchCloneType::Racing_BigBattle"
+      ]
     }
   }
 ]
