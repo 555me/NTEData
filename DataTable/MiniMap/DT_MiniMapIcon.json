@@ -55440,166 +55440,6 @@
         "PreviewAwardDropId": "None",
         "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
       },
-      "Tank_Battle_MainPoint": {
-        "Comment": "坦克核心区",
-        "IconRenderStateData": {
-          "IconRenderData": [
-            {
-              "Key": "EMiniMapIconState::Default",
-              "Value": {
-                "IconImage": {
-                  "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_hexin_.UI_YH_tank_icon_hexin_",
-                  "SubPathString": ""
-                },
-                "SizeMatParameter": "None",
-                "Alignment": {
-                  "X": 0.5,
-                  "Y": 0.5
-                },
-                "Pivot": {
-                  "X": 0.5,
-                  "Y": 0.5
-                },
-                "RenderAngle": 0.0,
-                "IconDrawSize": {
-                  "X": 38.0,
-                  "Y": 38.0
-                },
-                "IconSphere": "EMiniMapIconSphere::Rect"
-              }
-            }
-          ]
-        },
-        "IconRenderStateDataTypeOverride": [
-          {
-            "Key": "EMiniMapType::BigMap",
-            "Value": {
-              "IconRenderData": [
-                {
-                  "Key": "EMiniMapIconState::Default",
-                  "Value": {
-                    "IconImage": {
-                      "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_hexin_.UI_YH_tank_icon_hexin_",
-                      "SubPathString": ""
-                    },
-                    "SizeMatParameter": "None",
-                    "Alignment": {
-                      "X": 0.5,
-                      "Y": 0.5
-                    },
-                    "Pivot": {
-                      "X": 0.5,
-                      "Y": 0.5
-                    },
-                    "RenderAngle": 0.0,
-                    "IconDrawSize": {
-                      "X": 48.0,
-                      "Y": 48.0
-                    },
-                    "IconSphere": "EMiniMapIconSphere::Rect"
-                  }
-                }
-              ]
-            }
-          }
-        ],
-        "bInactiveHide": false,
-        "bShowInRacing": false,
-        "ShowInSearchList": false,
-        "ShowInFilterList": true,
-        "SearchType": "None",
-        "ShowInSearchListPriority": 31,
-        "ShowAnimation": {
-          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
-          "SubPathString": ""
-        },
-        "HideAnimation": {
-          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
-          "SubPathString": ""
-        },
-        "LoopAnimation": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "ZOrder": 55,
-        "IconName": {
-          "CultureInvariantString": "坦克核心区"
-        },
-        "IconDesc": {
-          "CultureInvariantString": "坦克核心区测试"
-        },
-        "TypeName": {
-          "CultureInvariantString": "坦克核心区"
-        },
-        "MiniMapIconClass": {
-          "ObjectName": "Class'HTMiniMapIcon'",
-          "ObjectPath": "/Script/HTGame"
-        },
-        "bShowHeightDirect": false,
-        "bShowFloorIcon": true,
-        "ShowDistance": 0.0,
-        "ShowMapScaleRange": {
-          "LowerBound": {
-            "Type": "ERangeBoundTypes::Inclusive",
-            "Value": 0.3
-          },
-          "UpperBound": {
-            "Type": "ERangeBoundTypes::Inclusive",
-            "Value": 1.0
-          }
-        },
-        "DefaultIconDrawData": {
-          "ShowAtEdgeWhenOutOfView": false,
-          "ShowAtEdgeDistance": 26.0
-        },
-        "IconDrawDataOverride": [
-          {
-            "Key": "EMiniMapType::BigMap",
-            "Value": {
-              "ShowAtEdgeWhenOutOfView": false,
-              "ShowAtEdgeDistance": 150.0
-            }
-          }
-        ],
-        "CanTrace": true,
-        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
-        "TraceCategory": "",
-        "TraceIconID": "Trace",
-        "bTraceInWorld": true,
-        "TraceIconInWorld": {
-          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_hexin_.UI_YH_tank_icon_hexin_",
-          "SubPathString": ""
-        },
-        "TraceHideDistance": 500.0,
-        "EdgeArrowIconID": "SelfOutForward",
-        "IconScaleData": [],
-        "CanClick": true,
-        "ClickPriority": 0,
-        "CanChoose": true,
-        "ListIcon": {
-          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_hexin_.UI_YH_tank_icon_hexin_",
-          "SubPathString": ""
-        },
-        "ClickSound": {
-          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
-          "SubPathString": ""
-        },
-        "ShowIconDetails": true,
-        "IsTeleport": false,
-        "IsMonsterTrace": false,
-        "IsViewPoint": false,
-        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
-        "DetailsIcon": {
-          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_hexin_.UI_YH_tank_icon_hexin_",
-          "SubPathString": ""
-        },
-        "DetailsBackImage": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PreviewAwardDropId": "None",
-        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
-      },
       "Tank_Battle": {
         "Comment": "坦克大战",
         "IconRenderStateData": {
@@ -55608,7 +55448,7 @@
               "Key": "EMiniMapIconState::Default",
               "Value": {
                 "IconImage": {
-                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/tank_battle.tank_battle",
+                  "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/tank_battle.Tank_Battle",
                   "SubPathString": ""
                 },
                 "SizeMatParameter": "None",
@@ -55639,7 +55479,7 @@
                   "Key": "EMiniMapIconState::Default",
                   "Value": {
                     "IconImage": {
-                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/tank_battle.tank_battle",
+                      "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/tank_battle.Tank_Battle",
                       "SubPathString": ""
                     },
                     "SizeMatParameter": "None",
@@ -55736,7 +55576,7 @@
         "TraceIconID": "Trace",
         "bTraceInWorld": true,
         "TraceIconInWorld": {
-          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/tank_battle.tank_battle",
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/tank_battle.Tank_Battle",
           "SubPathString": ""
         },
         "TraceHideDistance": 500.0,
@@ -55760,6 +55600,774 @@
         "DetailsWidgetExtensionID": "MapIconDetails_Normal",
         "DetailsIcon": {
           "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/tank_battle_128.tank_battle_128",
+          "SubPathString": ""
+        },
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewAwardDropId": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+      },
+      "Tank_Battle_box_01": {
+        "Comment": "坦克空投1",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box.UI_YH_tank_icon_box",
+                  "SubPathString": ""
+                },
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+                },
+                "IconSphere": "EMiniMapIconSphere::Circle"
+              }
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box.UI_YH_tank_icon_box",
+                      "SubPathString": ""
+                    },
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+                    },
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 31,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+        },
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+        },
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ZOrder": 55,
+        "IconName": {
+          "CultureInvariantString": "坦克空投1"
+        },
+        "IconDesc": {
+          "CultureInvariantString": "坦克空投1"
+        },
+        "TypeName": {
+          "CultureInvariantString": "坦克空投1"
+        },
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "bShowHeightDirect": false,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+          }
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+        },
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+            }
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box.UI_YH_tank_icon_box",
+          "SubPathString": ""
+        },
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box.UI_YH_tank_icon_box",
+          "SubPathString": ""
+        },
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+        },
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box.UI_YH_tank_icon_box",
+          "SubPathString": ""
+        },
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewAwardDropId": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+      },
+      "Tank_Battle_box_02": {
+        "Comment": "坦克空投2",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box2.UI_YH_tank_icon_box2",
+                  "SubPathString": ""
+                },
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+                },
+                "IconSphere": "EMiniMapIconSphere::Circle"
+              }
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box2.UI_YH_tank_icon_box2",
+                      "SubPathString": ""
+                    },
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+                    },
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 31,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+        },
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+        },
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ZOrder": 55,
+        "IconName": {
+          "CultureInvariantString": "坦克空投2"
+        },
+        "IconDesc": {
+          "CultureInvariantString": "坦克空投2"
+        },
+        "TypeName": {
+          "CultureInvariantString": "坦克空投2"
+        },
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "bShowHeightDirect": false,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+          }
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+        },
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+            }
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box2.UI_YH_tank_icon_box2",
+          "SubPathString": ""
+        },
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box2.UI_YH_tank_icon_box2",
+          "SubPathString": ""
+        },
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+        },
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box2.UI_YH_tank_icon_box2",
+          "SubPathString": ""
+        },
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewAwardDropId": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+      },
+      "Tank_Battle_box_03": {
+        "Comment": "坦克空投3",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box3.UI_YH_tank_icon_box3",
+                  "SubPathString": ""
+                },
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+                },
+                "IconSphere": "EMiniMapIconSphere::Circle"
+              }
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box3.UI_YH_tank_icon_box3",
+                      "SubPathString": ""
+                    },
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+                    },
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 31,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+        },
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+        },
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ZOrder": 55,
+        "IconName": {
+          "CultureInvariantString": "坦克空投3"
+        },
+        "IconDesc": {
+          "CultureInvariantString": "坦克空投3"
+        },
+        "TypeName": {
+          "CultureInvariantString": "坦克空投3"
+        },
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "bShowHeightDirect": false,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+          }
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+        },
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+            }
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box3.UI_YH_tank_icon_box3",
+          "SubPathString": ""
+        },
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box3.UI_YH_tank_icon_box3",
+          "SubPathString": ""
+        },
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+        },
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Main/UI_YH_tank_icon_box3.UI_YH_tank_icon_box3",
+          "SubPathString": ""
+        },
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewAwardDropId": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+      },
+      "Tank_Battle_box_04": {
+        "Comment": "坦克空投4",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI/ScratchCard/1/4.4",
+                  "SubPathString": ""
+                },
+                "SizeMatParameter": "None",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 38.0,
+                  "Y": 38.0
+                },
+                "IconSphere": "EMiniMapIconSphere::Circle"
+              }
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "IconRenderData": [
+                {
+                  "Key": "EMiniMapIconState::Default",
+                  "Value": {
+                    "IconImage": {
+                      "AssetPathName": "/Game/UI/UI/ScratchCard/1/4.4",
+                      "SubPathString": ""
+                    },
+                    "SizeMatParameter": "None",
+                    "Alignment": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "Pivot": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "RenderAngle": 0.0,
+                    "IconDrawSize": {
+                      "X": 48.0,
+                      "Y": 48.0
+                    },
+                    "IconSphere": "EMiniMapIconSphere::Rect"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 31,
+        "ShowAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Show.MiniMapIconAnimation_Show_C",
+          "SubPathString": ""
+        },
+        "HideAnimation": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconAnimations/MiniMapIconAnimation_Hide.MiniMapIconAnimation_Hide_C",
+          "SubPathString": ""
+        },
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ZOrder": 55,
+        "IconName": {
+          "CultureInvariantString": "坦克空投4"
+        },
+        "IconDesc": {
+          "CultureInvariantString": "坦克空投4"
+        },
+        "TypeName": {
+          "CultureInvariantString": "坦克空投4"
+        },
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "bShowHeightDirect": false,
+        "bShowFloorIcon": true,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.3
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+          }
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+        },
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+            }
+          }
+        ],
+        "CanTrace": true,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": true,
+        "TraceIconInWorld": {
+          "AssetPathName": "/Game/UI/UI/ScratchCard/1/4.4",
+          "SubPathString": ""
+        },
+        "TraceHideDistance": 500.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": true,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "/Game/UI/UI/ScratchCard/1/4.4",
+          "SubPathString": ""
+        },
+        "ClickSound": {
+          "AssetPathName": "/Game/WwiseAudio/Events/UI/UI/Play_Sfx_UI_Map_Click_Icon.Play_Sfx_UI_Map_Click_Icon",
+          "SubPathString": ""
+        },
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "MapIconDetails_Normal",
+        "DetailsIcon": {
+          "AssetPathName": "/Game/UI/UI/ScratchCard/1/4.4",
+          "SubPathString": ""
+        },
+        "DetailsBackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PreviewAwardDropId": "None",
+        "DetailsFuncType": "EMiniMapIconDetailsFunc::None"
+      },
+      "Tank_MainPoint": {
+        "Comment": "坦克中心范围",
+        "IconRenderStateData": {
+          "IconRenderData": [
+            {
+              "Key": "EMiniMapIconState::Default",
+              "Value": {
+                "IconImage": {
+                  "AssetPathName": "/Game/UI/UI_Effect/UIMaterial/Map/UI_MI_MapMaskDivination_Inst1.UI_MI_MapMaskDivination_Inst1",
+                  "SubPathString": ""
+                },
+                "SizeMatParameter": "ImageSize",
+                "Alignment": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "Pivot": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "RenderAngle": 0.0,
+                "IconDrawSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "IconSphere": "EMiniMapIconSphere::Rect"
+              }
+            }
+          ]
+        },
+        "IconRenderStateDataTypeOverride": [],
+        "bInactiveHide": false,
+        "bShowInRacing": false,
+        "ShowInSearchList": false,
+        "ShowInFilterList": true,
+        "SearchType": "None",
+        "ShowInSearchListPriority": 0,
+        "ShowAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LoopAnimation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ZOrder": 71,
+        "IconName": {
+          "CultureInvariantString": "坦克核心区测试"
+        },
+        "IconDesc": {
+          "CultureInvariantString": null
+        },
+        "TypeName": {
+          "CultureInvariantString": null
+        },
+        "MiniMapIconClass": {
+          "ObjectName": "Class'HTMiniMapIcon'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "bShowHeightDirect": false,
+        "bShowFloorIcon": false,
+        "ShowDistance": 0.0,
+        "ShowMapScaleRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1.0
+          }
+        },
+        "DefaultIconDrawData": {
+          "ShowAtEdgeWhenOutOfView": false,
+          "ShowAtEdgeDistance": 26.0
+        },
+        "IconDrawDataOverride": [
+          {
+            "Key": "EMiniMapType::BigMap",
+            "Value": {
+              "ShowAtEdgeWhenOutOfView": false,
+              "ShowAtEdgeDistance": 150.0
+            }
+          }
+        ],
+        "CanTrace": false,
+        "TraceDrawType": "EMiniMapIconTraceDrawType::Normal",
+        "TraceCategory": "",
+        "TraceIconID": "Trace",
+        "bTraceInWorld": false,
+        "TraceIconInWorld": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TraceHideDistance": 0.0,
+        "EdgeArrowIconID": "SelfOutForward",
+        "IconScaleData": [],
+        "CanClick": false,
+        "ClickPriority": 0,
+        "CanChoose": true,
+        "ListIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ClickSound": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowIconDetails": true,
+        "IsTeleport": false,
+        "IsMonsterTrace": false,
+        "IsViewPoint": false,
+        "DetailsWidgetExtensionID": "None",
+        "DetailsIcon": {
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "DetailsBackImage": {

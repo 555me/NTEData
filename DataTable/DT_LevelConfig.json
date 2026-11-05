@@ -5686,11 +5686,11 @@
         "SingleExtensionData": null,
         "MapEntranceList": [],
         "MainFormThemeID": "None",
-        "ShieldUIFlags": 1,
-        "ShieldFunctionID": "SurvivalGamePlay",
-        "bLimitCloneEffect": false,
+        "ShieldUIFlags": 0,
+        "ShieldFunctionID": "None",
+        "bLimitCloneEffect": true,
         "bLimitCanVault": false,
-        "bLimitCanVines": false,
+        "bLimitCanVines": true,
         "bLimitCanMelee": false,
         "bLimitCanAbility": false,
         "bLimitCanEvade": false,
@@ -5953,6 +5953,183 @@
           "X": 0.0,
           "Y": 0.0,
           "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "QuickBarProfileTag": "None",
+        "bCanUIOpenPauseTime": true,
+        "bCanPlayGuitar": true,
+        "bCreatOtherCharacters": true
+      },
+      "DLC_MainQuestPUKA": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bDisableSwitchTrack": true,
+          "bEnableCrossBoxTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": true,
+          "bEnableTrackTeammate": true,
+          "LimitTrackChapterID": "MU01_10",
+          "LimitTrackChapterList": [
+            "MU01_10"
+          ],
+          "bMiniMapIconNeedCrossBox": false,
+          "bShowQuestItemDistance": true
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": {
+          "ExitMapName": "",
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "EnterSpecLoadingID": "DLC_WuChao_Entry",
+          "EnterTransformID": "DLC_Wuchao_int",
+          "ExitSpecLoadingID": "DLC_WuChao_Exit"
+        },
+        "MapEntranceList": [
+          "DLC_MainQuestPUKA"
+        ],
+        "MainFormThemeID": "None",
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "StoryClone",
+        "bLimitCloneEffect": true,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": true,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": true,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanSwitchSkill": false,
+        "bLimitCanTransformFly": false,
+        "bLimitCanLongPressFly": true,
+        "LimitAddGamePlayTags": [],
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": true,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "QuickBarProfileTag": "None",
+        "bCanUIOpenPauseTime": true,
+        "bCanPlayGuitar": true,
+        "bCreatOtherCharacters": true
+      },
+      "lvqq_level": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bDisableSwitchTrack": false,
+          "bEnableCrossBoxTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": true,
+          "LimitTrackChapterID": "None",
+          "LimitTrackChapterList": [],
+          "bMiniMapIconNeedCrossBox": false,
+          "bShowQuestItemDistance": true
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [
+          "FilmOrbit_To_BigWorld",
+          "Hotel_To_BigWorld",
+          "FilmOrbit_World_To_BigWorld"
+        ],
+        "MainFormThemeID": "None",
+        "ShieldUIFlags": 2,
+        "ShieldFunctionID": "OnlineMainForm",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanSwitchSkill": false,
+        "bLimitCanTransformFly": false,
+        "bLimitCanLongPressFly": false,
+        "LimitAddGamePlayTags": [],
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
         },
         "ResetRotator": {
           "Pitch": 0.0,

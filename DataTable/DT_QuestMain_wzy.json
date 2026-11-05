@@ -44546,7 +44546,7 @@
                 "Yaw": 1.0,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_FadeOut",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
               "CameraRotation": {
                 "Pitch": 0.0,
                 "Yaw": 1.0,
@@ -44789,7 +44789,7 @@
         },
         "QuestWeatherLock": null,
         "ReloadLocation": null,
-        "TrialCharacterID": "Trial23",
+        "TrialCharacterID": "None",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -44950,7 +44950,7 @@
         },
         "QuestWeatherLock": null,
         "ReloadLocation": null,
-        "TrialCharacterID": "Trial23",
+        "TrialCharacterID": "None",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -45047,7 +45047,7 @@
                 "Yaw": 53.0,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_FadeOut",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
               "CameraRotation": {
                 "Pitch": 0.0,
                 "Yaw": 53.0,
@@ -45129,7 +45129,7 @@
         },
         "QuestWeatherLock": null,
         "ReloadLocation": null,
-        "TrialCharacterID": "Trial23",
+        "TrialCharacterID": "None",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],
         "AcceptActivateYahahaIDs": [],
@@ -45980,8 +45980,8 @@
             "Description": {
               "TableId": "/Game/Text/Dialogue/ST_Main_Exe01.ST_Main_Exe01",
               "Key": "q111015_ObjDes_1",
-              "SourceString": "等待<blue>电梯</>运行",
-              "LocalizedString": "等待<blue>电梯</>运行"
+              "SourceString": "前往楼层<blue>禁制机动队</>",
+              "LocalizedString": "前往楼层<blue>禁制机动队</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -50858,7 +50858,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/Dialogue/ST_Main_Exe01.ST_Main_Exe01",
+              "Key": "q111029_Room1_13_ObjDes_1",
+              "SourceString": "调查身处的房间",
+              "LocalizedString": "调查身处的房间"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -77741,7 +77744,19 @@
         "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
-        "ReloadLocation": null,
+        "ReloadLocation": {
+          "LevelName": "DLC_DeadNumber",
+          "Location": {
+            "X": 1207.032,
+            "Y": -8955.844,
+            "Z": -57817.438
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 78.0,
+            "Roll": 0.0
+          }
+        },
         "TrialCharacterID": "Trial24",
         "ActivateYahahaID": "None",
         "SubmitActivateYahahaIDs": [],

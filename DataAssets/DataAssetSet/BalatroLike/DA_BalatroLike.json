@@ -173,11 +173,11 @@
           }
         },
         {
-          "Key": "EHTBalatroAttachEffect::Shiny",
+          "Key": "EHTBalatroAttachEffect::Silver",
           "Value": {
             "DisplayName": {
               "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-              "Key": "CardModifier_Foil",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_silver",
               "SourceString": "闪箔",
               "LocalizedString": "闪箔"
             },
@@ -208,9 +208,9 @@
           "Value": {
             "DisplayName": {
               "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-              "Key": "CardModifier_Shining",
-              "SourceString": "闪亮",
-              "LocalizedString": "闪亮"
+              "Key": "CardModifier_Holographic",
+              "SourceString": "全息",
+              "LocalizedString": "全息"
             },
             "Tint": {
               "R": 1.0,
@@ -221,13 +221,440 @@
             },
             "icon": null,
             "HandMaterial": {
-              "ObjectName": "MaterialInstanceConstant'MI_BalatroTrigle_Inst'",
-              "ObjectPath": "/Game/UI/UI_Material/Balatro/UIInstance/MI_BalatroTrigle_Inst.0"
+              "ObjectName": "MaterialInstanceConstant'MI_BalatroLaser1_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/UIInstance/MI_BalatroLaser1_Inst.0"
             },
             "BuildingBaseMaterial": {
-              "ObjectName": "MaterialInstanceConstant'MM_BalatroTrigle_Mesh_Inst'",
-              "ObjectPath": "/Game/UI/UI_Material/Balatro/MeshInstance/MM_BalatroTrigle_Mesh_Inst.0"
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroLaser_Mesh_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/MeshInstance/MM_BalatroLaser_Mesh_Inst.0"
             },
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Nail",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "CardModifier_Nail",
+              "SourceString": "钉子",
+              "LocalizedString": "钉子"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": {
+              "ObjectName": "Texture2D'YH_UI_LaFeng_DingZi'",
+              "ObjectPath": "/Game/UI/UI/BalatroLike/Seal/YH_UI_LaFeng_DingZi.0"
+            },
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::ShortRental",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "CardModifier_Rent",
+              "SourceString": "短期租用",
+              "LocalizedString": "短期租用"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": {
+              "ObjectName": "Texture2D'YH_UI_LaFeng_ZuYong'",
+              "ObjectPath": "/Game/UI/UI/BalatroLike/Seal/YH_UI_LaFeng_ZuYong.0"
+            },
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Debt",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "CardModifier_Debt",
+              "SourceString": "欠款",
+              "LocalizedString": "欠款"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": {
+              "ObjectName": "Texture2D'YH_UI_LaFeng_QianKuan'",
+              "ObjectPath": "/Game/UI/UI/BalatroLike/Seal/YH_UI_LaFeng_QianKuan.0"
+            },
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Mirage",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "CardModifier_Mirage",
+              "SourceString": "海市蜃楼",
+              "LocalizedString": "海市蜃楼"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": {
+              "ObjectName": "Texture2D'YH_UI_LaFeng_HSSL'",
+              "ObjectPath": "/Game/UI/UI/BalatroLike/Seal/YH_UI_LaFeng_HSSL.0"
+            },
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Recyclable",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_recyclable",
+              "SourceString": "可回收",
+              "LocalizedString": "可回收"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Glass",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_glass",
+              "SourceString": "玻璃",
+              "LocalizedString": "玻璃"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroTransluent_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/UIInstance/MM_BalatroTransluent_Inst.0"
+            },
+            "BuildingBaseMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroTransluent_Mesh_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/MeshInstance/MM_BalatroTransluent_Mesh_Inst.0"
+            },
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Digital",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_digital",
+              "SourceString": "数字/万用",
+              "LocalizedString": "数字/万用"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Steel",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "CardModifier_Steel",
+              "SourceString": "钢铁",
+              "LocalizedString": "钢铁"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroMetallic_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/UIInstance/MM_BalatroMetallic_Inst.0"
+            },
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Weakened",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_weakened",
+              "SourceString": "削弱",
+              "LocalizedString": "削弱"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::NegativeFilm",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_negativefilm",
+              "SourceString": "负片",
+              "LocalizedString": "负片"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Galaxy",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_galaxy",
+              "SourceString": "多彩",
+              "LocalizedString": "多彩"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Energy",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_energy",
+              "SourceString": "能量",
+              "LocalizedString": "能量"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroSpiral_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/UIInstance/MM_BalatroSpiral_Inst.0"
+            },
+            "BuildingBaseMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroSpiral_Mesh_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/MeshInstance/MM_BalatroSpiral_Mesh_Inst.0"
+            },
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Pollution",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_pollution",
+              "SourceString": "污染",
+              "LocalizedString": "污染"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Blocked",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_blocked",
+              "SourceString": "封锁",
+              "LocalizedString": "封锁"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::Temporary",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_temporary",
+              "SourceString": "临时",
+              "LocalizedString": "临时"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
+            "CollectionIconTexture": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroAttachEffect::GalaxyRetrigger",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
+              "Key": "balatrolike_enum_ehtbalatroattacheffect_galaxyretrigger",
+              "SourceString": "银河",
+              "LocalizedString": "银河"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "icon": null,
+            "HandMaterial": null,
+            "BuildingBaseMaterial": null,
             "CollectionIconTexture": {
               "AssetPathName": "",
               "SubPathString": ""
@@ -235,6 +662,10 @@
           }
         }
       ],
+      "BlindLimitedEmpowerSealIcon": {
+        "ObjectName": "Texture2D'YH_UI_LaFeng_FanQie'",
+        "ObjectPath": "/Game/UI/UI/BalatroLike/Seal/YH_UI_LaFeng_FanQie.0"
+      },
       "ShopBuildingAttachWeights": [
         {
           "Key": "EHTBalatroAttachEffect::Laser",
