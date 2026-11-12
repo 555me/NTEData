@@ -16512,8 +16512,88 @@
             "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_032/DA_Appearance_NPC_032_0_RideAlong.DA_Appearance_NPC_032_0_RideAlong",
             "SubPathString": ""
           },
-          "DyeMaterialMap": [],
-          "AppearanceOptionRuleMap": [],
+          "DyeMaterialMap": [
+            {
+              "Key": "-1",
+              "Value": {
+                "MeshMaterials": [],
+                "MeshAttachEffects": [],
+                "DyeName": {
+                  "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+                  "Key": "Fashion_1074_2_Name",
+                  "SourceString": "不逝于雨",
+                  "LocalizedString": "不逝于雨"
+                },
+                "DyeDesc": {
+                  "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+                  "Key": "Fashion_1074_2_Desc",
+                  "SourceString": "特别的户外防水服饰，可能会导致被判定为雨夜的杀人鬼或死神一类的角色。\r\n——洗刷不去的颜色所代表的是，绝不容许消逝的一切瞬间。",
+                  "LocalizedString": "特别的户外防水服饰，可能会导致被判定为雨夜的杀人鬼或死神一类的角色。\r\n——洗刷不去的颜色所代表的是，绝不容许消逝的一切瞬间。"
+                },
+                "DyeDisplayIcon": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "GoodsID": "None",
+                "SourceID": "None",
+                "SourceText": {
+                  "CultureInvariantString": null
+                },
+                "SourceLockText": {
+                  "CultureInvariantString": null
+                }
+              }
+            }
+          ],
+          "AppearanceOptionRuleMap": [
+            {
+              "Key": "EPlayerAppearanceOptionType::HideOption1",
+              "Value": {
+                "OptionName": {
+                  "TableId": "/Game/Text/ST_Ui_D.ST_Ui_D",
+                  "Key": "appearance_exe_hide_1",
+                  "SourceString": "隐藏雨衣外套",
+                  "LocalizedString": "隐藏雨衣外套"
+                },
+                "ComponentVisibilityRules": [],
+                "MaterialOpacityRules": [
+                  {
+                    "MeshComponentTag": "None",
+                    "SlotName": "cloth03",
+                    "OpacityParameterName": "None",
+                    "DefaultOpacity": 1.0,
+                    "AppliedOpacity": 0.0,
+                    "DefaultDisableGlobalOverlay": false,
+                    "AppliedDisableGlobalOverlay": true
+                  },
+                  {
+                    "MeshComponentTag": "None",
+                    "SlotName": "cloth04",
+                    "OpacityParameterName": "None",
+                    "DefaultOpacity": 1.0,
+                    "AppliedOpacity": 0.0,
+                    "DefaultDisableGlobalOverlay": false,
+                    "AppliedDisableGlobalOverlay": true
+                  },
+                  {
+                    "MeshComponentTag": "None",
+                    "SlotName": "colth05",
+                    "OpacityParameterName": "None",
+                    "DefaultOpacity": 1.0,
+                    "AppliedOpacity": 0.0,
+                    "DefaultDisableGlobalOverlay": false,
+                    "AppliedDisableGlobalOverlay": true
+                  }
+                ],
+                "MorphTargetRules": [],
+                "EmbroideryRule": {
+                  "DefaultDisabled": false,
+                  "AppliedDisabled": false
+                },
+                "MeshMaterials": []
+              }
+            }
+          ],
           "MainFormThemeID": "None"
         },
         "ExtraAwards": [

@@ -15191,7 +15191,7 @@
           "SubPathString": ""
         },
         "BreakParticle": {
-          "AssetPathName": "/Game/FX/Nia/Scene/BrokenObjects/NS_commonbroken_002_bigbox.NS_commonbroken_002_bigbox",
+          "AssetPathName": "/Game/FX/Nia/Scene/BrokenObjects/NS_commonbroken_002_bigbox_tk.NS_commonbroken_002_bigbox_tk",
           "SubPathString": ""
         },
         "PhysicsMatOverride": {
@@ -17428,7 +17428,7 @@
           "SubPathString": ""
         },
         "BreakParticle": {
-          "AssetPathName": "/Game/FX/Nia/Scene/BrokenObjects/NS_commonbroken_002.NS_commonbroken_002",
+          "AssetPathName": "/Game/FX/Nia/Scene/BrokenObjects/NS_commonbroken_002_tk.NS_commonbroken_002_tk",
           "SubPathString": ""
         },
         "PhysicsMatOverride": {
@@ -17487,7 +17487,7 @@
           "SubPathString": ""
         },
         "BreakParticle": {
-          "AssetPathName": "/Game/FX/Nia/Scene/BrokenObjects/NS_commonbroken_002.NS_commonbroken_002",
+          "AssetPathName": "/Game/FX/Nia/Scene/BrokenObjects/NS_commonbroken_002_tk.NS_commonbroken_002_tk",
           "SubPathString": ""
         },
         "PhysicsMatOverride": {
@@ -30703,6 +30703,124 @@
         "BrokenEffectInterval": 0.1,
         "MinBrokenEffectSpeed": 600.0,
         "MinBrokenEffectAngularSpeed": 6000.0,
+        "UpBrokenDistance": 150.0,
+        "UpBrokenRadius": 15.0,
+        "EnableCharacterTouchBreak": false,
+        "CharacterImpactRatio": 0.8,
+        "EnableNPCTouchBreak": false,
+        "NPCImpactRatio": 0.8,
+        "bpawnStatickMesh": true,
+        "bOnlyAttackedByTank": false,
+        "DropConfigList": []
+      },
+      "SM_CherryBlossom_11": {
+        "TargetFoliageType": {
+          "AssetPathName": "/Game/Environment/Plants/Trees/Trees_urban/SM_CherryBlossom_11_FoliageType.SM_CherryBlossom_11_FoliageType",
+          "SubPathString": ""
+        },
+        "BreakableActorType": "EBreakableActorType::BT_Max",
+        "BrokenStaticMesh": {
+          "AssetPathName": "/Game/Environment/Plants/Trees/Trees_urban/SM_CherryBlossom_11.SM_CherryBlossom_11",
+          "SubPathString": ""
+        },
+        "BreakableActorTemplate": {
+          "AssetPathName": "/Game/Environment/Plants/Trees/BreakUp/BP_Broken_FX_CherryBlossom_11.BP_Broken_FX_CherryBlossom_11_C",
+          "SubPathString": ""
+        },
+        "BreakParticle": {
+          "AssetPathName": "/Game/FX/Nia/Scene/Crush/NS_tree_break01.NS_tree_break01",
+          "SubPathString": ""
+        },
+        "PhysicsMatOverride": {
+          "AssetPathName": "/Game/CoreMaterials/Physics/PM_Tree.PM_Tree",
+          "SubPathString": ""
+        },
+        "FadeMaterialList": [
+          {
+            "AssetPathName": "/Game/CoreMaterials/World/Unique/MI_Unique_XL_Mask_Color.MI_Unique_XL_Mask_Color",
+            "SubPathString": ""
+          }
+        ],
+        "BreakNiagaraScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "BrokenLevel": "EBreakableLevel::BL_Low",
+        "RealActorDisappearDelay": 5.0,
+        "RealActorMass": 0.049007,
+        "bBlockVehicle": false,
+        "MinBreakSpeed": 20.0,
+        "bCanBeDamaged": true,
+        "bStillSpawnBrokenMeshAfterParticle": true,
+        "ThreatenRadius": 150.0,
+        "ThreatenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "BrokenEffectInterval": 0.1,
+        "MinBrokenEffectSpeed": 600.0,
+        "MinBrokenEffectAngularSpeed": 180.0,
+        "UpBrokenDistance": 150.0,
+        "UpBrokenRadius": 15.0,
+        "EnableCharacterTouchBreak": false,
+        "CharacterImpactRatio": 0.8,
+        "EnableNPCTouchBreak": false,
+        "NPCImpactRatio": 0.8,
+        "bpawnStatickMesh": true,
+        "bOnlyAttackedByTank": false,
+        "DropConfigList": []
+      },
+      "SM_CherryBlossom_10": {
+        "TargetFoliageType": {
+          "AssetPathName": "/Game/Environment/Plants/Trees/Trees_urban/SM_CherryBlossom_10_FoliageType.SM_CherryBlossom_10_FoliageType",
+          "SubPathString": ""
+        },
+        "BreakableActorType": "EBreakableActorType::BT_Max",
+        "BrokenStaticMesh": {
+          "AssetPathName": "/Game/Environment/Plants/Trees/Trees_urban/SM_CherryBlossom_10.SM_CherryBlossom_10",
+          "SubPathString": ""
+        },
+        "BreakableActorTemplate": {
+          "AssetPathName": "/Game/Environment/Plants/Trees/BreakUp/BP_Broken_FX_CherryBlossom_10.BP_Broken_FX_CherryBlossom_10_C",
+          "SubPathString": ""
+        },
+        "BreakParticle": {
+          "AssetPathName": "/Game/FX/Nia/Scene/Crush/NS_tree_break01.NS_tree_break01",
+          "SubPathString": ""
+        },
+        "PhysicsMatOverride": {
+          "AssetPathName": "/Game/CoreMaterials/Physics/PM_Tree.PM_Tree",
+          "SubPathString": ""
+        },
+        "FadeMaterialList": [
+          {
+            "AssetPathName": "/Game/CoreMaterials/World/Unique/MI_Unique_XL_Mask_Color.MI_Unique_XL_Mask_Color",
+            "SubPathString": ""
+          }
+        ],
+        "BreakNiagaraScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "BrokenLevel": "EBreakableLevel::BL_Low",
+        "RealActorDisappearDelay": 5.0,
+        "RealActorMass": 0.049007,
+        "bBlockVehicle": false,
+        "MinBreakSpeed": 20.0,
+        "bCanBeDamaged": true,
+        "bStillSpawnBrokenMeshAfterParticle": true,
+        "ThreatenRadius": 150.0,
+        "ThreatenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "BrokenEffectInterval": 0.1,
+        "MinBrokenEffectSpeed": 600.0,
+        "MinBrokenEffectAngularSpeed": 180.0,
         "UpBrokenDistance": 150.0,
         "UpBrokenRadius": 15.0,
         "EnableCharacterTouchBreak": false,

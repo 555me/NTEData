@@ -363,7 +363,10 @@
               "Hex": "FFFFFF"
             },
             "icon": null,
-            "HandMaterial": null,
+            "HandMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_BalatroRecoverable_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/UIInstance/MM_BalatroRecoverable_Inst.0"
+            },
             "BuildingBaseMaterial": null,
             "CollectionIconTexture": {
               "AssetPathName": "",
@@ -486,8 +489,8 @@
             "DisplayName": {
               "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
               "Key": "balatrolike_enum_ehtbalatroattacheffect_negativefilm",
-              "SourceString": "负片",
-              "LocalizedString": "负片"
+              "SourceString": "负像",
+              "LocalizedString": "负像"
             },
             "Tint": {
               "R": 1.0,
@@ -628,7 +631,10 @@
               "Hex": "FFFFFF"
             },
             "icon": null,
-            "HandMaterial": null,
+            "HandMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MM_Temporary_Inst'",
+              "ObjectPath": "/Game/UI/UI_Material/Balatro/UIInstance/MM_Temporary_Inst.0"
+            },
             "BuildingBaseMaterial": null,
             "CollectionIconTexture": {
               "AssetPathName": "",
@@ -658,6 +664,593 @@
             "CollectionIconTexture": {
               "AssetPathName": "",
               "SubPathString": ""
+            }
+          }
+        }
+      ],
+      "BuildingVFXByFootprint": [
+        {
+          "Key": "EHTBalatroBuildingVFX::Blocked",
+          "Value": {
+            "Size1x1": {
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_Balatro_chain_1x1'",
+                "ObjectPath": "/Game/FX/Nia/Scene/Balatro/NS_Balatro_chain_1x1.27"
+              },
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 0.0
+            },
+            "Size2x2": {
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_Balatro_chain_2x2'",
+                "ObjectPath": "/Game/FX/Nia/Scene/Balatro/NS_Balatro_chain_2x2.27"
+              },
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 0.0
+            },
+            "Size1x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 0.0
+            },
+            "Size1x3": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroBuildingVFX::Weakened",
+          "Value": {
+            "Size1x1": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size2x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x3": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroBuildingVFX::Upgraded",
+          "Value": {
+            "Size1x1": {
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_Balatro_uparrow_1x1'",
+                "ObjectPath": "/Game/FX/Nia/Scene/Balatro/NS_Balatro_uparrow_1x1.31"
+              },
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size2x2": {
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_Balatro_uparrow_2x2'",
+                "ObjectPath": "/Game/FX/Nia/Scene/Balatro/NS_Balatro_uparrow_2x2.31"
+              },
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x3": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroBuildingVFX::Pollution",
+          "Value": {
+            "Size1x1": {
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_Balatro_Warning_1x1'",
+                "ObjectPath": "/Game/FX/Nia/Scene/Balatro/NS_Balatro_Warning_1x1.31"
+              },
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size2x2": {
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_Balatro_Warning_2x2'",
+                "ObjectPath": "/Game/FX/Nia/Scene/Balatro/NS_Balatro_Warning_2x2.31"
+              },
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x3": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroBuildingVFX::Demolish",
+          "Value": {
+            "Size1x1": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size2x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x3": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroBuildingVFX::DemolishRequiem",
+          "Value": {
+            "Size1x1": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size2x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x3": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            }
+          }
+        },
+        {
+          "Key": "EHTBalatroBuildingVFX::Placement",
+          "Value": {
+            "Size1x1": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size2x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x2": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
+            },
+            "Size1x3": {
+              "System": null,
+              "Location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "MaxLifetime": 10.0
             }
           }
         }
@@ -902,100 +1495,91 @@
         {
           "Key": "EHTBalatroLikeDifficulty::Beginner",
           "Value": {
-            "Namespace": "",
-            "Key": "D198C54745A6022F7CCF0BA641B8C681",
-            "SourceString": "新手",
-            "LocalizedString": "新手"
+            "CultureInvariantString": "新手"
           }
         },
         {
           "Key": "EHTBalatroLikeDifficulty::Normal",
           "Value": {
-            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-            "Key": "Difficulty_1_DisplayName",
-            "SourceString": "正常营业",
-            "LocalizedString": "正常营业"
+            "CultureInvariantString": "1"
           }
         },
         {
           "Key": "EHTBalatroLikeDifficulty::Hard",
           "Value": {
-            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-            "Key": "Difficulty_2_DisplayName",
-            "SourceString": "业绩加码",
-            "LocalizedString": "业绩加码"
+            "CultureInvariantString": "2"
           }
         },
         {
           "Key": "EHTBalatroLikeDifficulty::Hell",
           "Value": {
-            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-            "Key": "Difficulty_3_DisplayName",
-            "SourceString": "调度受限",
-            "LocalizedString": "调度受限"
+            "Namespace": "",
+            "Key": "821E09B34F77B58BDB62D59052A00487",
+            "SourceString": "3",
+            "LocalizedString": "3"
           }
         },
         {
           "Key": "EHTBalatroLikeDifficulty::Hell1",
           "Value": {
-            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-            "Key": "Difficulty_4_DisplayName",
-            "SourceString": "严苛审查",
-            "LocalizedString": "严苛审查"
+            "Namespace": "",
+            "Key": "B13D584B4074D13555E60C875D7E22A6",
+            "SourceString": "4",
+            "LocalizedString": "4"
           }
         },
         {
           "Key": "EHTBalatroLikeDifficulty::Hell2",
           "Value": {
-            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-            "Key": "Difficulty_5_DisplayName",
-            "SourceString": "钉子难题",
-            "LocalizedString": "钉子难题"
+            "Namespace": "",
+            "Key": "DDCFB7B84A7E31A5E4FA609546CE85EC",
+            "SourceString": "5",
+            "LocalizedString": "5"
           }
         },
         {
           "Key": "EHTBalatroLikeDifficulty::Hell3",
           "Value": {
-            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-            "Key": "Difficulty_6_DisplayName",
-            "SourceString": "收益缩水",
-            "LocalizedString": "收益缩水"
+            "Namespace": "",
+            "Key": "5BE4F7794D798F06B3528FA94CA0AD20",
+            "SourceString": "6",
+            "LocalizedString": "6"
           }
         },
         {
           "Key": "EHTBalatroLikeDifficulty::Hell4",
           "Value": {
-            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-            "Key": "Difficulty_7_DisplayName",
-            "SourceString": "负债经营",
-            "LocalizedString": "负债经营"
+            "Namespace": "",
+            "Key": "70D916D8498DD5FA137FE390D3C6D843",
+            "SourceString": "7",
+            "LocalizedString": "7"
           }
         },
         {
           "Key": "EHTBalatroLikeDifficulty::Hell5",
           "Value": {
-            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-            "Key": "Difficulty_8_DisplayName",
-            "SourceString": "业绩重压",
-            "LocalizedString": "业绩重压"
+            "Namespace": "",
+            "Key": "A9074BE8477EC8911816CF9D60B4F965",
+            "SourceString": "8",
+            "LocalizedString": "8"
           }
         },
         {
           "Key": "EHTBalatroLikeDifficulty::Hell6",
           "Value": {
-            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-            "Key": "Difficulty_9_DisplayName",
-            "SourceString": "短租经营",
-            "LocalizedString": "短租经营"
+            "Namespace": "",
+            "Key": "648C41A64C803AAABBC94299D4BBA8D0",
+            "SourceString": "9",
+            "LocalizedString": "9"
           }
         },
         {
           "Key": "EHTBalatroLikeDifficulty::Hell7",
           "Value": {
-            "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
-            "Key": "Difficulty_10_DisplayName",
-            "SourceString": "货架紧缩",
-            "LocalizedString": "货架紧缩"
+            "Namespace": "",
+            "Key": "C0D78F13456DEED5585D79A77181A024",
+            "SourceString": "10",
+            "LocalizedString": "10"
           }
         }
       ],
@@ -1023,8 +1607,8 @@
           "Value": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "balatrolike_enum_ehtbalatroblindtype_boss",
-            "SourceString": "Boss",
-            "LocalizedString": "Boss"
+            "SourceString": "底关",
+            "LocalizedString": "底关"
           }
         }
       ],

@@ -117992,11 +117992,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/Lost_wallet.Lost_wallet",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Lost_wallet_02.Lost_wallet_02",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/Lost_wallet.Lost_wallet",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Lost_wallet_02_100.Lost_wallet_02_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -118006,8 +118006,8 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Lost_wallet_name",
-          "SourceString": "遗失的钱包",
-          "LocalizedString": "遗失的钱包"
+          "SourceString": "团三郎的恶作剧",
+          "LocalizedString": "团三郎的恶作剧"
         },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
@@ -118025,8 +118025,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Lost_wallet_desc",
-          "SourceString": "偶然捡到的遗失钱包，打开使用后获得方斯，不使用并上交治安所后能够降低通缉值。\r\n拿走还是上交，这是个问题。",
-          "LocalizedString": "偶然捡到的遗失钱包，打开使用后获得方斯，不使用并上交治安所后能够降低通缉值。\r\n拿走还是上交，这是个问题。"
+          "SourceString": "团三郎的恶作剧，里面似乎藏有一些方斯。打开使用后获得方斯，不使用并上交治安所后能够降低通缉值。",
+          "LocalizedString": "团三郎的恶作剧，里面似乎藏有一些方斯。打开使用后获得方斯，不使用并上交治安所后能够降低通缉值。"
         },
         "Description": {
           "CultureInvariantString": null
@@ -224872,6 +224872,124 @@
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
       },
+      "TankBattleItem_Bullet_Game": {
+        "ItemType": "EItemType::ITEM_TYPE_TANKBATTLE_BULLET",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Icon/TankBattle_Ammo_07.TankBattle_Ammo_07",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI/TankBattle/Icon/TankBattle_Ammo_07.TankBattle_Ammo_07",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "TankBattleItem_Bullet_Base_name",
+          "SourceString": "标准弹",
+          "LocalizedString": "标准弹"
+        },
+        "MaxAmount": 9999,
+        "bUseMaxAmountLimitID": false,
+        "bNotImmediateSerialize": false,
+        "bIsBind": false,
+        "RelateBindItemID": "None",
+        "RelateUnbindItemID": "None",
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemCDUseRealTime": false,
+        "ExpireTime": [],
+        "ExpireAlarmTime": 259200.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "TankBattleItem_Bullet_Base_usedesc",
+          "SourceString": "基础的炮弹，发射后造成一定的伤害。\r\n炮弹伤害：1000\r\n装填时间：3秒",
+          "LocalizedString": "基础的炮弹，发射后造成一定的伤害。\r\n炮弹伤害：1000\r\n装填时间：3秒"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "TankBattleItem_Bullet_Base_desc",
+          "SourceString": "海量的可用弹药同样极具威胁。",
+          "LocalizedString": "海量的可用弹药同样极具威胁。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {}
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bAutoUseItemNeedPopAwardsWindow": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "ElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NORMAL",
+          "bAvailableInOpenWorld": true,
+          "SkillID": "TankBattleItem_Bullet_Game",
+          "OpenWorldUseContext": {
+            "TableId": "/Game/Text/ST_Item.ST_Item",
+            "Key": "TankBattleItem_Bullet_Base_world_usedesc",
+            "SourceString": "基础的炮弹，发射后造成一定的伤害。\r\n炮弹伤害：{0}\r\n装填时间：3秒\r\n（对Boss单位伤害造成40%伤害）",
+            "LocalizedString": "基础的炮弹，发射后造成一定的伤害。\r\n炮弹伤害：{0}\r\n装填时间：3秒\r\n（对Boss单位伤害造成40%伤害）"
+          },
+          "DescDamageParams": [
+            {
+              "GEID": "GE_VehicleCombatDamage_RPG_General",
+              "ValueType": "EHTTankAmmoDescDamageType::Damage",
+              "HoldTime": 0.0,
+              "Distance": 0.0,
+              "DamageInterval": 1.0
+            }
+          ]
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Enable",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
       "TankBattleItem_Bullet01": {
         "ItemType": "EItemType::ITEM_TYPE_TANKBATTLE_BULLET",
         "ItemClassOverride": null,
@@ -224910,8 +225028,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "TankBattleItem_Bullet01_usedesc",
-          "SourceString": "特殊炮弹，可以通过蓄力提高射击伤害，蓄力越久伤害越高。\r\n炮弹基础伤害：500\r\n蓄力额外伤害：1000 / 秒 （5秒达到最大值）\r\n满蓄力额外伤害：2000\r\n装填时间：3秒",
-          "LocalizedString": "特殊炮弹，可以通过蓄力提高射击伤害，蓄力越久伤害越高。\r\n炮弹基础伤害：500\r\n蓄力额外伤害：1000 / 秒 （5秒达到最大值）\r\n满蓄力额外伤害：2000\r\n装填时间：3秒"
+          "SourceString": "特殊炮弹，可以通过蓄力提高射击伤害，蓄力越久伤害越高。\r\n炮弹基础伤害：800\r\n蓄力额外伤害：400 / 秒 （5秒达到最大值）\r\n满蓄力额外伤害：500\r\n装填时间：3秒",
+          "LocalizedString": "特殊炮弹，可以通过蓄力提高射击伤害，蓄力越久伤害越高。\r\n炮弹基础伤害：800\r\n蓄力额外伤害：400 / 秒 （5秒达到最大值）\r\n满蓄力额外伤害：500\r\n装填时间：3秒"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -225285,8 +225403,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "TankBattleItem_Bullet04_usedesc",
-          "SourceString": "特殊炮弹，在命中点周围生成引力场，将引力场范围内的目标向中心牵引。\r\n炮弹伤害：1200\r\n装填时间：3秒\r\n引力场持续时间：3秒",
-          "LocalizedString": "特殊炮弹，在命中点周围生成引力场，将引力场范围内的目标向中心牵引。\r\n炮弹伤害：1200\r\n装填时间：3秒\r\n引力场持续时间：3秒"
+          "SourceString": "特殊炮弹，在命中点周围生成引力场，将引力场范围内的目标向中心牵引。\r\n炮弹伤害：1200\r\n装填时间：3秒\r\n引力场持续时间：4秒",
+          "LocalizedString": "特殊炮弹，在命中点周围生成引力场，将引力场范围内的目标向中心牵引。\r\n炮弹伤害：1200\r\n装填时间：3秒\r\n引力场持续时间：4秒"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -225325,8 +225443,8 @@
           "OpenWorldUseContext": {
             "TableId": "/Game/Text/ST_Item.ST_Item",
             "Key": "TankBattleItem_Bullet04_world_usedesc",
-            "SourceString": "特殊炮弹，在命中点周围生成引力场，将引力场范围内的目标向中心牵引。\r\n炮弹伤害：{0}\r\n装填时间：3秒\r\n引力场持续时间：3秒\r\n（对Boss单位伤害造成40%伤害）",
-            "LocalizedString": "特殊炮弹，在命中点周围生成引力场，将引力场范围内的目标向中心牵引。\r\n炮弹伤害：{0}\r\n装填时间：3秒\r\n引力场持续时间：3秒\r\n（对Boss单位伤害造成40%伤害）"
+            "SourceString": "特殊炮弹，在命中点周围生成引力场，将引力场范围内的目标向中心牵引。\r\n炮弹伤害：{0}\r\n装填时间：3秒\r\n引力场持续时间：4秒\r\n（对Boss单位伤害造成40%伤害）",
+            "LocalizedString": "特殊炮弹，在命中点周围生成引力场，将引力场范围内的目标向中心牵引。\r\n炮弹伤害：{0}\r\n装填时间：3秒\r\n引力场持续时间：4秒\r\n（对Boss单位伤害造成40%伤害）"
           },
           "DescDamageParams": [
             {
@@ -225521,8 +225639,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "TankBattleItem_Bullet06_usedesc",
-          "SourceString": "特殊炮弹，在命中点周围生成火场，位于火场中的目标将会持续受到灼烧伤害。\r\n炮弹伤害：800\r\n灼烧伤害：500 / 秒\r\n装填时间：3秒\r\n火场持续时间：8秒",
-          "LocalizedString": "特殊炮弹，在命中点周围生成火场，位于火场中的目标将会持续受到灼烧伤害。\r\n炮弹伤害：800\r\n灼烧伤害：500 / 秒\r\n装填时间：3秒\r\n火场持续时间：8秒"
+          "SourceString": "特殊炮弹，在命中点周围生成火场，位于火场中的目标将会持续受到灼烧伤害。\r\n炮弹伤害：600\r\n灼烧伤害：250 / 0.5秒\r\n装填时间：3秒\r\n火场持续时间：8秒",
+          "LocalizedString": "特殊炮弹，在命中点周围生成火场，位于火场中的目标将会持续受到灼烧伤害。\r\n炮弹伤害：600\r\n灼烧伤害：250 / 0.5秒\r\n装填时间：3秒\r\n火场持续时间：8秒"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -225637,7 +225755,7 @@
         "RelateBindItemID": "None",
         "RelateUnbindItemID": "None",
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
-        "ItemCD": 3.0,
+        "ItemCD": 1.0,
         "ItemCDUseRealTime": false,
         "ExpireTime": [],
         "ExpireAlarmTime": 259200.0,
@@ -225646,8 +225764,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "TankBattleItem_Defense01_usedesc",
-          "SourceString": "特殊炮弹，不会造成伤害，在命中点周围生成持续一段时间的烟雾。\r\n冷却时间：3秒\r\n烟雾持续时间：12秒",
-          "LocalizedString": "特殊炮弹，不会造成伤害，在命中点周围生成持续一段时间的烟雾。\r\n冷却时间：3秒\r\n烟雾持续时间：12秒"
+          "SourceString": "特殊炮弹，不会造成伤害，在命中点周围生成持续一段时间的烟雾。\r\n冷却时间：1秒\r\n烟雾持续时间：12秒",
+          "LocalizedString": "特殊炮弹，不会造成伤害，在命中点周围生成持续一段时间的烟雾。\r\n冷却时间：1秒\r\n烟雾持续时间：12秒"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -225736,7 +225854,7 @@
         "RelateBindItemID": "None",
         "RelateUnbindItemID": "None",
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
-        "ItemCD": 15.0,
+        "ItemCD": 1.0,
         "ItemCDUseRealTime": false,
         "ExpireTime": [],
         "ExpireAlarmTime": 259200.0,
@@ -225745,8 +225863,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "TankBattleItem_Defense02_usedesc",
-          "SourceString": "使用后，抵挡若干点伤害的装甲，效果可叠加。存在多个装甲效果时，优先消耗剩余时间较短的装甲。\r\n装甲耐久：4000\r\n冷却时间：15秒\r\n装甲持续时间：30秒",
-          "LocalizedString": "使用后，抵挡若干点伤害的装甲，效果可叠加。存在多个装甲效果时，优先消耗剩余时间较短的装甲。\r\n装甲耐久：4000\r\n冷却时间：15秒\r\n装甲持续时间：30秒"
+          "SourceString": "使用后，抵挡若干点伤害的装甲，效果可叠加。存在多个装甲效果时，优先消耗剩余时间较短的装甲。\r\n装甲耐久：3000\r\n冷却时间：1秒\r\n装甲持续时间：30秒",
+          "LocalizedString": "使用后，抵挡若干点伤害的装甲，效果可叠加。存在多个装甲效果时，优先消耗剩余时间较短的装甲。\r\n装甲耐久：3000\r\n冷却时间：1秒\r\n装甲持续时间：30秒"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -225835,7 +225953,7 @@
         "RelateBindItemID": "None",
         "RelateUnbindItemID": "None",
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
-        "ItemCD": 15.0,
+        "ItemCD": 1.0,
         "ItemCDUseRealTime": false,
         "ExpireTime": [],
         "ExpireAlarmTime": 259200.0,
@@ -225844,8 +225962,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "TankBattleItem_Defense03_usedesc",
-          "SourceString": "使用后，抵挡若干次伤害的装甲，效果可叠加。存在多个装甲效果时，优先消耗剩余时间较短的装甲。\r\n装甲耐久：5次\r\n冷却时间：15秒\r\n装甲持续时间：30秒",
-          "LocalizedString": "使用后，抵挡若干次伤害的装甲，效果可叠加。存在多个装甲效果时，优先消耗剩余时间较短的装甲。\r\n装甲耐久：5次\r\n冷却时间：15秒\r\n装甲持续时间：30秒"
+          "SourceString": "使用后，抵挡若干次伤害的装甲，效果可叠加。存在多个装甲效果时，优先消耗剩余时间较短的装甲。\r\n装甲耐久：3次\r\n冷却时间：1秒\r\n装甲持续时间：30秒",
+          "LocalizedString": "使用后，抵挡若干次伤害的装甲，效果可叠加。存在多个装甲效果时，优先消耗剩余时间较短的装甲。\r\n装甲耐久：3次\r\n冷却时间：1秒\r\n装甲持续时间：30秒"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -225934,7 +226052,7 @@
         "RelateBindItemID": "None",
         "RelateUnbindItemID": "None",
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
-        "ItemCD": 8.0,
+        "ItemCD": 1.0,
         "ItemCDUseRealTime": false,
         "ExpireTime": [],
         "ExpireAlarmTime": 259200.0,
@@ -225943,8 +226061,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "TankBattleItem_Functional01_usedesc",
-          "SourceString": "使用后回复坦克若干点血量。\r\n维修血量：2000\r\n冷却时间：8秒",
-          "LocalizedString": "使用后回复坦克若干点血量。\r\n维修血量：2000\r\n冷却时间：8秒"
+          "SourceString": "使用后回复坦克若干点血量。\r\n维修血量：3000\r\n冷却时间：1秒",
+          "LocalizedString": "使用后回复坦克若干点血量。\r\n维修血量：3000\r\n冷却时间：1秒"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -226033,7 +226151,7 @@
         "RelateBindItemID": "None",
         "RelateUnbindItemID": "None",
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
-        "ItemCD": 10.0,
+        "ItemCD": 1.0,
         "ItemCDUseRealTime": false,
         "ExpireTime": [],
         "ExpireAlarmTime": 259200.0,
@@ -226042,8 +226160,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "TankBattleItem_Functional02_usedesc",
-          "SourceString": "使用后，使坦克速度于炮塔转向速度增加。效果不可叠加，重复使用时刷新持续时间。\r\n速度提升：30%\r\n冷却时间：10秒\r\n持续时间：20秒",
-          "LocalizedString": "使用后，使坦克速度于炮塔转向速度增加。效果不可叠加，重复使用时刷新持续时间。\r\n速度提升：30%\r\n冷却时间：10秒\r\n持续时间：20秒"
+          "SourceString": "使用后，使坦克速度于炮塔转向速度增加。效果不可叠加，重复使用时刷新持续时间。\r\n速度提升：30%\r\n冷却时间：1秒\r\n持续时间：20秒",
+          "LocalizedString": "使用后，使坦克速度于炮塔转向速度增加。效果不可叠加，重复使用时刷新持续时间。\r\n速度提升：30%\r\n冷却时间：1秒\r\n持续时间：20秒"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",

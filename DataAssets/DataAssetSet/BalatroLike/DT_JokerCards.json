@@ -18,8 +18,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_CrowdFrenzy_Desc",
-            "SourceString": "结算时，总客流条每有<green>50客流</>，这张牌提供<red>+0.4倍率</>",
-            "LocalizedString": "结算时，总客流条每有<green>50客流</>，这张牌提供<red>+0.4倍率</>"
+            "SourceString": "结算时，总客流条每有<Emphasis>50客流</>，这张牌提供<red>+0.4倍率</>",
+            "LocalizedString": "结算时，总客流条每有<Emphasis>50客流</>，这张牌提供<red>+0.4倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -145,8 +145,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_NailHouse_Desc",
-            "SourceString": "结算时，场上每有1栋<Default>四周被围合</>的建筑，提供<red>+0.2倍率</>",
-            "LocalizedString": "结算时，场上每有1栋<Default>四周被围合</>的建筑，提供<red>+0.2倍率</>"
+            "SourceString": "结算时，场上每有1栋<Emphasis>四周被围合</>的建筑，提供<red>+0.2倍率</>",
+            "LocalizedString": "结算时，场上每有1栋<Emphasis>四周被围合</>的建筑，提供<red>+0.2倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -269,8 +269,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_LandmarkProject_Desc",
-            "SourceString": "<Default>基础客流容量最高</>的一栋计分建筑，<blue>积分转化率提升100%</>",
-            "LocalizedString": "<Default>基础客流容量最高</>的一栋计分建筑，<blue>积分转化率提升100%</>"
+            "SourceString": "<Emphasis>基础客流容量最高</>的一栋计分建筑，<blue>积分转化率提升100%</>",
+            "LocalizedString": "<Emphasis>基础客流容量最高</>的一栋计分建筑，<blue>积分转化率提升100%</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -360,8 +360,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_FirstCharge_Desc",
-            "SourceString": "规则：本关卡<Default>首次结算</>时提供<red>×3倍率</>；<Default>第二次结算</>最终得分为0",
-            "LocalizedString": "规则：本关卡<Default>首次结算</>时提供<red>×3倍率</>；<Default>第二次结算</>最终得分为0"
+            "SourceString": "规则：本关卡<Emphasis>首次结算</>时提供<red>×3倍率</>；<Emphasis>第二次结算</>最终得分为0",
+            "LocalizedString": "规则：本关卡<Emphasis>首次结算</>时提供<red>×3倍率</>；<Emphasis>第二次结算</>最终得分为0"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -374,7 +374,7 @@
             "LocalizedString": "一鼓作气"
           },
           "Rarity": "EHTCardRarity::Rare",
-          "ShopPrice": 5,
+          "ShopPrice": 6,
           "Effects": [
             {
               "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
@@ -484,8 +484,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_Ramen_Desc",
-            "SourceString": "提供<red>×2倍率</>；每换掉1张牌，这张牌<green>失去</><red>×0.01倍率</>",
-            "LocalizedString": "提供<red>×2倍率</>；每换掉1张牌，这张牌<green>失去</><red>×0.01倍率</>"
+            "SourceString": "提供<red>×2倍率</>；每换掉1张牌，这张牌<green>失去</><red>×0.02倍率</>",
+            "LocalizedString": "提供<red>×2倍率</>；每换掉1张牌，这张牌<green>失去</><red>×0.02倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -501,7 +501,7 @@
             "LocalizedString": "工资帽"
           },
           "Rarity": "EHTCardRarity::Rare",
-          "ShopPrice": 5,
+          "ShopPrice": 7,
           "Effects": [
             {
               "Trigger": "EHTBalatroEffectTrigger::OnDiscard",
@@ -509,7 +509,7 @@
               "ConditionParam": "None",
               "ConditionThreshold": 1,
               "Op": "EHTBalatroEffectOp::GrowXMult",
-              "Value": -0.01,
+              "Value": -0.02,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": true,
               "bAddBaseOneForXMult": false,
@@ -611,8 +611,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_OnSiteDispatch_Desc",
-            "SourceString": "若本回合打出至少2张<Default>功能牌</>，则结算时提供<red>×2.5倍率</>",
-            "LocalizedString": "若本回合打出至少2张<Default>功能牌</>，则结算时提供<red>×2.5倍率</>"
+            "SourceString": "若本回合打出至少2张<Emphasis>功能牌</>，则结算时提供<red>×2.5倍率</>",
+            "LocalizedString": "若本回合打出至少2张<Emphasis>功能牌</>，则结算时提供<red>×2.5倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -625,7 +625,7 @@
             "LocalizedString": "临场调度"
           },
           "Rarity": "EHTCardRarity::Rare",
-          "ShopPrice": 5,
+          "ShopPrice": 7,
           "Effects": [
             {
               "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
@@ -661,7 +661,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_37_OnSiteDispatch_Icon.Joker_37_OnSiteDispatch_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -673,11 +673,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_37_OnSiteDispatch_Icon.Joker_37_OnSiteDispatch_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_37_OnSiteDispatch_Icon.Joker_37_OnSiteDispatch_Icon",
             "SubPathString": ""
           }
         },
@@ -735,8 +735,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_MrBones_Desc",
-            "SourceString": "规则：结算次数耗尽时，若分数≥目标分数的<Default>25%</>则可通过关卡，<Default>生效后自毁</>",
-            "LocalizedString": "规则：结算次数耗尽时，若分数≥目标分数的<Default>25%</>则可通过关卡，<Default>生效后自毁</>"
+            "SourceString": "规则：结算次数耗尽时，若分数≥目标分数的<Emphasis>25%</>则可通过关卡，<Emphasis>生效后自毁</>",
+            "LocalizedString": "规则：结算次数耗尽时，若分数≥目标分数的<Emphasis>25%</>则可通过关卡，<Emphasis>生效后自毁</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -755,7 +755,7 @@
           "ShopPrice": 5,
           "Effects": [],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_45_MrBones_Icon.Joker_45_MrBones_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -767,11 +767,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_45_MrBones_Icon.Joker_45_MrBones_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_45_MrBones_Icon.Joker_45_MrBones_Icon",
             "SubPathString": ""
           }
         },
@@ -829,8 +829,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_GoldenHours_Desc",
-            "SourceString": "结算时，场上建筑<Default>总结算次数</>达到15次时提供<red>+1.5倍率</>；达到30次时额外提供<red>+1.5倍率</>",
-            "LocalizedString": "结算时，场上建筑<Default>总结算次数</>达到15次时提供<red>+1.5倍率</>；达到30次时额外提供<red>+1.5倍率</>"
+            "SourceString": "结算时，场上建筑<Emphasis>总结算次数</>达到15次时提供<red>+1.5倍率</>；达到30次时额外提供<red>+1.5倍率</>",
+            "LocalizedString": "结算时，场上建筑<Emphasis>总结算次数</>达到15次时提供<red>+1.5倍率</>；达到30次时额外提供<red>+1.5倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -985,8 +985,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_BookendEcho_Desc",
-            "SourceString": "结算时，拥有至少3张<Default>策略牌</>，且最上方与最下方<Default>策略牌</>品质相同<Default>时</>，提供<red>+2倍率</>",
-            "LocalizedString": "结算时，拥有至少3张<Default>策略牌</>，且最上方与最下方<Default>策略牌</>品质相同<Default>时</>，提供<red>+2倍率</>"
+            "SourceString": "结算时，拥有至少3张<Emphasis>策略牌</>，且最上方与最下方<Emphasis>策略牌</>品质相同<Emphasis>时</>，提供<red>+2倍率</>",
+            "LocalizedString": "结算时，拥有至少3张<Emphasis>策略牌</>，且最上方与最下方<Emphasis>策略牌</>品质相同<Emphasis>时</>，提供<red>+2倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -1109,8 +1109,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_FoodStreet_Desc",
-            "SourceString": "结算时，每种与不同名称<Default>餐饮</>建筑相邻的<Default>餐饮</>建筑，提供<red>+0.6倍率</>",
-            "LocalizedString": "结算时，每种与不同名称<Default>餐饮</>建筑相邻的<Default>餐饮</>建筑，提供<red>+0.6倍率</>"
+            "SourceString": "结算时，每种与不同名称<Emphasis>餐饮</>建筑相邻的<Emphasis>餐饮</>建筑，提供<red>+0.6倍率</>",
+            "LocalizedString": "结算时，每种与不同名称<Emphasis>餐饮</>建筑相邻的<Emphasis>餐饮</>建筑，提供<red>+0.6倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -1123,7 +1123,7 @@
             "LocalizedString": "满汉全席"
           },
           "Rarity": "EHTCardRarity::Rare",
-          "ShopPrice": 5,
+          "ShopPrice": 6,
           "Effects": [
             {
               "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
@@ -1233,8 +1233,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_CrowdMagnet_Desc",
-            "SourceString": "规则：打出<Default>客流牌</>时，额外为<Default>指定目标相邻</>的建筑提供<green>+15客流</>",
-            "LocalizedString": "规则：打出<Default>客流牌</>时，额外为<Default>指定目标相邻</>的建筑提供<green>+15客流</>"
+            "SourceString": "规则：打出<Emphasis>客流牌</>时，额外为<Emphasis>指定目标相邻</>的建筑提供<Emphasis>+15客流</>",
+            "LocalizedString": "规则：打出<Emphasis>客流牌</>时，额外为<Emphasis>指定目标相邻</>的建筑提供<Emphasis>+15客流</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -1328,8 +1328,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_OneMoreRound_Desc",
-            "SourceString": "规则：所有具有<Default>重复结算</>效果的<Default>娱乐</>建筑，<green>结算次数+2</>",
-            "LocalizedString": "规则：所有具有<Default>重复结算</>效果的<Default>娱乐</>建筑，<green>结算次数+2</>"
+            "SourceString": "规则：所有具有<Emphasis>重复结算</>效果的<Emphasis>娱乐</>建筑，<Emphasis>结算次数+2</>",
+            "LocalizedString": "规则：所有具有<Emphasis>重复结算</>效果的<Emphasis>娱乐</>建筑，<Emphasis>结算次数+2</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -1345,7 +1345,7 @@
             "LocalizedString": "好事成双"
           },
           "Rarity": "EHTCardRarity::Rare",
-          "ShopPrice": 6,
+          "ShopPrice": 7,
           "Effects": [],
           "IconTexture": {
             "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_13_OneMoreRound_Icon.Joker_13_OneMoreRound_Icon",
@@ -1422,8 +1422,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_GreenOasis_Desc",
-            "SourceString": "结算时，每有1栋<Default>自然</>建筑，提供<blue>+10积分</>和<red>+0.1倍率</>；每有1栋与<Default>河景地块</>相邻的建筑，额外提供<blue>+10积分</>和<red>+0.1倍率</>",
-            "LocalizedString": "结算时，每有1栋<Default>自然</>建筑，提供<blue>+10积分</>和<red>+0.1倍率</>；每有1栋与<Default>河景地块</>相邻的建筑，额外提供<blue>+10积分</>和<red>+0.1倍率</>"
+            "SourceString": "结算时，每有1栋<Emphasis>自然</>建筑，提供<blue>+20积分</>和<red>+0.2倍率</>；每有1栋与<Emphasis>河景地块</>相邻的建筑，额外提供<blue>+10积分</>和<red>+0.1倍率</>",
+            "LocalizedString": "结算时，每有1栋<Emphasis>自然</>建筑，提供<blue>+20积分</>和<red>+0.2倍率</>；每有1栋与<Emphasis>河景地块</>相邻的建筑，额外提供<blue>+10积分</>和<red>+0.1倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -1444,7 +1444,7 @@
               "ConditionParam": "Nature",
               "ConditionThreshold": 1,
               "Op": "EHTBalatroEffectOp::AddChips",
-              "Value": 10.0,
+              "Value": 20.0,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": true,
               "bAddBaseOneForXMult": false,
@@ -1476,7 +1476,7 @@
               "ConditionParam": "Nature",
               "ConditionThreshold": 1,
               "Op": "EHTBalatroEffectOp::AddMult",
-              "Value": 0.1,
+              "Value": 0.2,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": true,
               "bAddBaseOneForXMult": false,
@@ -1642,8 +1642,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_CityPass_Desc",
-            "SourceString": "规则：每有2栋不具有重复结算的<Default>娱乐</>建筑，所有重复结算<Default>娱乐</>建筑<Default>结算次数+1</>",
-            "LocalizedString": "规则：每有2栋不具有重复结算的<Default>娱乐</>建筑，所有重复结算<Default>娱乐</>建筑<Default>结算次数+1</>"
+            "SourceString": "规则：每有2栋不具有重复结算的<Emphasis>娱乐</>建筑，所有重复结算<Emphasis>娱乐</>建筑<Emphasis>结算次数+1</>",
+            "LocalizedString": "规则：每有2栋不具有重复结算的<Emphasis>娱乐</>建筑，所有重复结算<Emphasis>娱乐</>建筑<Emphasis>结算次数+1</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -1659,7 +1659,7 @@
           "ShopPrice": 6,
           "Effects": [],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_44_CityPass_Icon.Joker_44_CityPass_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -1671,11 +1671,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_44_CityPass_Icon.Joker_44_CityPass_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_44_CityPass_Icon.Joker_44_CityPass_Icon",
             "SubPathString": ""
           }
         },
@@ -1733,8 +1733,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_ProjectSupervisor_Desc",
-            "SourceString": "每使用一次<Default>修缮</>或<Default>拆除</>，这张牌<green>获得</><red>+0.2倍率</>",
-            "LocalizedString": "每使用一次<Default>修缮</>或<Default>拆除</>，这张牌<green>获得</><red>+0.2倍率</>"
+            "SourceString": "每使用一次<Emphasis>修缮</>或<Emphasis>拆除</>，这张牌<green>获得</><red>+0.2倍率</>",
+            "LocalizedString": "每使用一次<Emphasis>修缮</>或<Emphasis>拆除</>，这张牌<green>获得</><red>+0.2倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -1857,8 +1857,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_FinancialAdvisor_Desc",
-            "SourceString": "通过关卡时，每获得<img id=\"Coin\"/><Yellow>1</><Default>利息</>，<green>获得</><red>+0.06倍率</>",
-            "LocalizedString": "通过关卡时，每获得<img id=\"Coin\"/><Yellow>1</><Default>利息</>，<green>获得</><red>+0.06倍率</>"
+            "SourceString": "通过关卡时，每获得<img id=\"Coin\"/><Yellow>1</><Emphasis>利息</>，<green>获得</><red>+0.06倍率</>",
+            "LocalizedString": "通过关卡时，每获得<img id=\"Coin\"/><Yellow>1</><Emphasis>利息</>，<green>获得</><red>+0.06倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -1981,8 +1981,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_BusPriorityLane_Desc",
-            "SourceString": "<Default>交通</>建筑提供的<green>客流提高50%</>",
-            "LocalizedString": "<Default>交通</>建筑提供的<green>客流提高50%</>"
+            "SourceString": "<Emphasis>交通</>建筑提供的<Emphasis>客流提高50%</>",
+            "LocalizedString": "<Emphasis>交通</>建筑提供的<Emphasis>客流提高50%</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -1995,7 +1995,7 @@
             "LocalizedString": "公交专线"
           },
           "Rarity": "EHTCardRarity::Rare",
-          "ShopPrice": 6,
+          "ShopPrice": 5,
           "Effects": [],
           "IconTexture": {
             "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_58_BusPriorityLane_Icon.Joker_58_BusPriorityLane_Icon",
@@ -2072,8 +2072,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_BrandFranchise_Desc",
-            "SourceString": "结算时，场上每有一种<Default>成对</>的<Default>餐饮</>建筑，提供<red>+0.8倍率</>",
-            "LocalizedString": "结算时，场上每有一种<Default>成对</>的<Default>餐饮</>建筑，提供<red>+0.8倍率</>"
+            "SourceString": "结算时，场上每有一种<Emphasis>成对</>的<Emphasis>餐饮</>建筑，提供<red>+0.8倍率</>",
+            "LocalizedString": "结算时，场上每有一种<Emphasis>成对</>的<Emphasis>餐饮</>建筑，提供<red>+0.8倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -2196,8 +2196,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_CityLightShow_Desc",
-            "SourceString": "结算时，场上建筑每有1种不同的<Default>正面附加效果</>，提供<red>+0.6倍率</>",
-            "LocalizedString": "结算时，场上建筑每有1种不同的<Default>正面附加效果</>，提供<red>+0.6倍率</>"
+            "SourceString": "结算时，场上建筑每有1种不同的<Emphasis>正面附加效果</>，提供<red>+0.6倍率</>",
+            "LocalizedString": "结算时，场上建筑每有1种不同的<Emphasis>正面附加效果</>，提供<red>+0.6倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -2320,8 +2320,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_Biodiversity_Desc",
-            "SourceString": "结算时，<Default>自然</>建筑每影响1种不同类别的<Default>非自然计分建筑</>，提供<red>+0.3加算倍率</>",
-            "LocalizedString": "结算时，<Default>自然</>建筑每影响1种不同类别的<Default>非自然计分建筑</>，提供<red>+0.3加算倍率</>"
+            "SourceString": "结算时，<Emphasis>自然</>建筑每影响1种不同类别的<Emphasis>非自然计分建筑</>，提供<red>+0.3加算倍率</>",
+            "LocalizedString": "结算时，<Emphasis>自然</>建筑每影响1种不同类别的<Emphasis>非自然计分建筑</>，提供<red>+0.3加算倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -2444,8 +2444,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_FullLoadLine_Desc",
-            "SourceString": "结算时，每有1种获得<Default>交通</>建筑客流且客流达到容量上限的<Default>非自然计分建筑</>，提供<red>+0.3倍率</>",
-            "LocalizedString": "结算时，每有1种获得<Default>交通</>建筑客流且客流达到容量上限的<Default>非自然计分建筑</>，提供<red>+0.3倍率</>"
+            "SourceString": "结算时，每有1种获得<Emphasis>交通</>建筑客流且客流达到容量上限的<Emphasis>计分建筑</>，提供<red>+0.4倍率</>",
+            "LocalizedString": "结算时，每有1种获得<Emphasis>交通</>建筑客流且客流达到容量上限的<Emphasis>计分建筑</>，提供<red>+0.4倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -2466,7 +2466,7 @@
               "ConditionParam": "None",
               "ConditionThreshold": 0,
               "Op": "EHTBalatroEffectOp::AddMult",
-              "Value": 0.3,
+              "Value": 0.4,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": true,
               "bAddBaseOneForXMult": false,
@@ -2568,8 +2568,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_DemolitionOffice_Desc",
-            "SourceString": "每拆除一栋<Default>非交通</>建筑，这张牌<green>获得</><red>+0.3倍率</>",
-            "LocalizedString": "每拆除一栋<Default>非交通</>建筑，这张牌<green>获得</><red>+0.3倍率</>"
+            "SourceString": "每拆除一栋<Emphasis>非交通</>建筑，这张牌<green>获得</><red>+0.3倍率</>",
+            "LocalizedString": "每拆除一栋<Emphasis>非交通</>建筑，这张牌<green>获得</><red>+0.3倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -2701,8 +2701,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_OniWarrior_Desc",
-            "SourceString": "进入关卡时，<Default>吞噬上方策略牌</>，吞噬对象的售价每有<img id=\"Coin\"/><Yellow>1</>，鬼郎丸<green>获得</><red>+0.1倍率</>",
-            "LocalizedString": "进入关卡时，<Default>吞噬上方策略牌</>，吞噬对象的售价每有<img id=\"Coin\"/><Yellow>1</>，鬼郎丸<green>获得</><red>+0.1倍率</>"
+            "SourceString": "进入关卡时，<Emphasis>吞噬上方策略牌</>，吞噬对象的售价每有<img id=\"Coin\"/><Yellow>1</>，鬼郎丸<green>获得</><red>+0.1倍率</>",
+            "LocalizedString": "进入关卡时，<Emphasis>吞噬上方策略牌</>，吞噬对象的售价每有<img id=\"Coin\"/><Yellow>1</>，鬼郎丸<green>获得</><red>+0.1倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -2919,8 +2919,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_NewTransitRoute_Desc",
-            "SourceString": "结算时，场上每有1栋受到<Default>交通</>建筑影响的<Default>计分建筑</>，本牌<green>获得</><red>+0.02倍率</>",
-            "LocalizedString": "结算时，场上每有1栋受到<Default>交通</>建筑影响的<Default>计分建筑</>，本牌<green>获得</><red>+0.02倍率</>"
+            "SourceString": "结算时，场上每有1栋受到<Emphasis>交通</>建筑影响的<Emphasis>计分建筑</>，本牌<green>获得</><red>+0.02倍率</>",
+            "LocalizedString": "结算时，场上每有1栋受到<Emphasis>交通</>建筑影响的<Emphasis>计分建筑</>，本牌<green>获得</><red>+0.02倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -3043,8 +3043,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_BigIsGood_Desc",
-            "SourceString": "结算时，每一栋<Default>2格及以上</>的建筑有1/2几率获得<img id=\"Coin\"/><Yellow>1</>",
-            "LocalizedString": "结算时，每一栋<Default>2格及以上</>的建筑有1/2几率获得<img id=\"Coin\"/><Yellow>1</>"
+            "SourceString": "结算时，每一栋<Emphasis>2格及以上</>的建筑有1/3几率获得<img id=\"Coin\"/><Yellow>1</>",
+            "LocalizedString": "结算时，每一栋<Emphasis>2格及以上</>的建筑有1/3几率获得<img id=\"Coin\"/><Yellow>1</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -3167,8 +3167,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_TenantSubsidy_Desc",
-            "SourceString": "随机选择一种主题，本关卡<Default>放置</>该主题建筑时，获得<img id=\"Coin\"/><Yellow>2</>",
-            "LocalizedString": "随机选择一种主题，本关卡<Default>放置</>该主题建筑时，获得<img id=\"Coin\"/><Yellow>2</>"
+            "SourceString": "随机选择一种主题，本关卡<Emphasis>放置</>该主题建筑时，获得<img id=\"Coin\"/><Yellow>2</>",
+            "LocalizedString": "随机选择一种主题，本关卡<Emphasis>放置</>该主题建筑时，获得<img id=\"Coin\"/><Yellow>2</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -3264,8 +3264,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_MembershipPass_Desc",
-            "SourceString": "规则：<Default>娱乐</>建筑触发<Default>【重复结算】</>所需<green>客流-5</>",
-            "LocalizedString": "规则：<Default>娱乐</>建筑触发<Default>【重复结算】</>所需<green>客流-5</>"
+            "SourceString": "规则：<Emphasis>娱乐</>建筑触发<Emphasis>【重复结算】</>所需<Emphasis>客流-5</>",
+            "LocalizedString": "规则：<Emphasis>娱乐</>建筑触发<Emphasis>【重复结算】</>所需<Emphasis>客流-5</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -3355,8 +3355,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_EmptyLand_Desc",
-            "SourceString": "结算时，场上每有1个<Default>未被建筑占据</>的可建设地块，提供<blue>+10积分</>",
-            "LocalizedString": "结算时，场上每有1个<Default>未被建筑占据</>的可建设地块，提供<blue>+10积分</>"
+            "SourceString": "结算时，场上每有1个<Emphasis>未被建筑占据</>的可建设地块，提供<blue>+10积分</>",
+            "LocalizedString": "结算时，场上每有1个<Emphasis>未被建筑占据</>的可建设地块，提供<blue>+10积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -3405,7 +3405,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_98_EmptyLand_Icon.Joker_98_EmptyLand_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -3479,8 +3479,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_LessIsMore_Desc",
-            "SourceString": "结算时，若场上建筑<Default>不超过8栋</>，提供<red>+2倍率</>",
-            "LocalizedString": "结算时，若场上建筑<Default>不超过8栋</>，提供<red>+2倍率</>"
+            "SourceString": "结算时，若场上建筑<Emphasis>不超过8栋</>，提供<red>+2倍率</>",
+            "LocalizedString": "结算时，若场上建筑<Emphasis>不超过8栋</>，提供<red>+2倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -3538,7 +3538,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_99_LessIsMore_Icon.Joker_99_LessIsMore_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -3736,8 +3736,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_HighRiseJoker_Desc",
-            "SourceString": "结算时，场上占地<Default>2格及以上</>的建筑，每栋提供<blue>+20积分</>与<red>+0.4倍率</>",
-            "LocalizedString": "结算时，场上占地<Default>2格及以上</>的建筑，每栋提供<blue>+20积分</>与<red>+0.4倍率</>"
+            "SourceString": "结算时，场上占地<Emphasis>2格及以上</>的建筑，每栋提供<blue>+20积分</>与<red>+0.4倍率</>",
+            "LocalizedString": "结算时，场上占地<Emphasis>2格及以上</>的建筑，每栋提供<blue>+20积分</>与<red>+0.4倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -3892,8 +3892,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_InternalBidding_Desc",
-            "SourceString": "结算时，若本关卡<Default>累计</>拆除至少2格<Default>非交通</>建筑，场上每有1栋交通建筑提供<red>+1倍率</>",
-            "LocalizedString": "结算时，若本关卡<Default>累计</>拆除至少2格<Default>非交通</>建筑，场上每有1栋交通建筑提供<red>+1倍率</>"
+            "SourceString": "结算时，若本关卡<Emphasis>累计</>拆除至少4格<Emphasis>非交通</>建筑，场上每有1栋交通建筑提供<red>+2倍率</>",
+            "LocalizedString": "结算时，若本关卡<Emphasis>累计</>拆除至少4格<Emphasis>非交通</>建筑，场上每有1栋交通建筑提供<red>+2倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -3934,7 +3934,7 @@
                   "Condition": "EHTBalatroEffectCondition::BlindDemolishedNonTrafficCells",
                   "ConditionParam": "None",
                   "PerUnit": 1,
-                  "Threshold": 2,
+                  "Threshold": 4,
                   "ConditionValue": 0.0,
                   "bInvert": false
                 }
@@ -4025,8 +4025,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_LastStand_Desc",
-            "SourceString": "结算时，若本次为本关卡<Default>最后一次结算</>，提供<red>×2倍率</>",
-            "LocalizedString": "结算时，若本次为本关卡<Default>最后一次结算</>，提供<red>×2倍率</>"
+            "SourceString": "结算时，若本次为本关卡<Emphasis>最后一次结算</>，提供<red>×2倍率</>",
+            "LocalizedString": "结算时，若本次为本关卡<Emphasis>最后一次结算</>，提供<red>×2倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -4039,7 +4039,7 @@
             "LocalizedString": "全场结算"
           },
           "Rarity": "EHTCardRarity::Rare",
-          "ShopPrice": 7,
+          "ShopPrice": 6,
           "Effects": [
             {
               "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
@@ -4276,8 +4276,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_NightEconomy_Desc",
-            "SourceString": "结算时，场上每有1栋<Default>消费</>建筑，提供<red>+0.3倍率</>；本关卡<Default>最后一次结算</>时改为每栋提供<red>+0.6倍率</>",
-            "LocalizedString": "结算时，场上每有1栋<Default>消费</>建筑，提供<red>+0.3倍率</>；本关卡<Default>最后一次结算</>时改为每栋提供<red>+0.6倍率</>"
+            "SourceString": "结算时，场上每有1栋<Emphasis>消费</>建筑，提供<red>+0.3倍率</>；本关卡<Emphasis>最后一次结算</>时改为每栋提供<red>+0.6倍率</>",
+            "LocalizedString": "结算时，场上每有1栋<Emphasis>消费</>建筑，提供<red>+0.3倍率</>；本关卡<Emphasis>最后一次结算</>时改为每栋提供<red>+0.6倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -4450,8 +4450,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_CommercialBank_Desc",
-            "SourceString": "规则：关卡结束时，场上每有1栋<Default>消费</>建筑，利息上限<img id=\"Coin\"/><Yellow>+1</>",
-            "LocalizedString": "规则：关卡结束时，场上每有1栋<Default>消费</>建筑，利息上限<img id=\"Coin\"/><Yellow>+1</>"
+            "SourceString": "规则：关卡结束时，场上每有1栋<Emphasis>消费</>建筑，利息上限<img id=\"Coin\"/><Yellow>+1</>",
+            "LocalizedString": "规则：关卡结束时，场上每有1栋<Emphasis>消费</>建筑，利息上限<img id=\"Coin\"/><Yellow>+1</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -4541,8 +4541,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_SignboardStreet_Desc",
-            "SourceString": "每有一种<Default>餐饮</>建筑，所有<Default>餐饮</>建筑获得<green>5客流</>",
-            "LocalizedString": "每有一种<Default>餐饮</>建筑，所有<Default>餐饮</>建筑获得<green>5客流</>"
+            "SourceString": "每有一种<Emphasis>餐饮</>建筑，所有<Emphasis>餐饮</>建筑获得<Emphasis>5客流</>",
+            "LocalizedString": "每有一种<Emphasis>餐饮</>建筑，所有<Emphasis>餐饮</>建筑获得<Emphasis>5客流</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -4635,8 +4635,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_EmpowerDna_Desc",
-            "SourceString": "规则：每个关卡<Default>首次</>成功使用非临时功能牌时，<Default>复制</>该牌并将副本加入抽牌堆",
-            "LocalizedString": "规则：每个关卡<Default>首次</>成功使用非临时功能牌时，<Default>复制</>该牌并将副本加入抽牌堆"
+            "SourceString": "规则：每个关卡<Emphasis>首次</>成功使用非临时功能牌时，<Emphasis>复制</>该牌并将副本加入抽牌堆",
+            "LocalizedString": "规则：每个关卡<Emphasis>首次</>成功使用非临时功能牌时，<Emphasis>复制</>该牌并将副本加入抽牌堆"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -4655,7 +4655,7 @@
           "ShopPrice": 7,
           "Effects": [],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_95_EmpowerDna_Icon.Joker_95_EmpowerDna_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -4729,8 +4729,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_ForestRestaurant_Desc",
-            "SourceString": "规则：所有<Default>自然</>建筑同时被视为<Default>餐饮</>建筑",
-            "LocalizedString": "规则：所有<Default>自然</>建筑同时被视为<Default>餐饮</>建筑"
+            "SourceString": "规则：所有<Emphasis>自然</>建筑同时被视为<Emphasis>餐饮</>建筑",
+            "LocalizedString": "规则：所有<Emphasis>自然</>建筑同时被视为<Emphasis>餐饮</>建筑"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -4823,8 +4823,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_RefinedLifestyle_Desc",
-            "SourceString": "结算时，牌库中每有1张带有<Default>正面附加效果</>的建筑牌，本牌提供的<red>乘算倍率</><green>增加</><red>0.2</>",
-            "LocalizedString": "结算时，牌库中每有1张带有<Default>正面附加效果</>的建筑牌，本牌提供的<red>乘算倍率</><green>增加</><red>0.2</>"
+            "SourceString": "结算时，牌库中每有1张带有<Emphasis>正面附加效果</>的建筑牌，本牌提供的<red>乘算倍率</>增加<red>0.2</>",
+            "LocalizedString": "结算时，牌库中每有1张带有<Emphasis>正面附加效果</>的建筑牌，本牌提供的<red>乘算倍率</>增加<red>0.2</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -4873,7 +4873,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_38_RefinedLifestyle_Icon.Joker_38_RefinedLifestyle_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -4885,11 +4885,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_38_RefinedLifestyle_Icon.Joker_38_RefinedLifestyle_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_38_RefinedLifestyle_Icon.Joker_38_RefinedLifestyle_Icon",
             "SubPathString": ""
           }
         },
@@ -5029,7 +5029,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_46_Consumerism_Icon.Joker_46_Consumerism_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -5041,11 +5041,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_46_Consumerism_Icon.Joker_46_Consumerism_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_46_Consumerism_Icon.Joker_46_Consumerism_Icon",
             "SubPathString": ""
           }
         },
@@ -5103,8 +5103,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_ImportantCustomer_Desc",
-            "SourceString": "利息<img id=\"Coin\"/>获得数量<Default>翻倍</>",
-            "LocalizedString": "利息<img id=\"Coin\"/>获得数量<Default>翻倍</>"
+            "SourceString": "利息<img id=\"Coin\"/>获得数量<Emphasis>翻倍</>",
+            "LocalizedString": "利息<img id=\"Coin\"/>获得数量<Emphasis>翻倍</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -5197,8 +5197,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_PuzzleGame_Desc",
-            "SourceString": "结算时，若场上<Default>所有</>可建设地块均被建筑占据，提供<red>×2.5倍率</>",
-            "LocalizedString": "结算时，若场上<Default>所有</>可建设地块均被建筑占据，提供<red>×2.5倍率</>"
+            "SourceString": "结算时，若场上<Emphasis>所有</>可建设地块均被建筑占据，提供<red>×2.5倍率</>",
+            "LocalizedString": "结算时，若场上<Emphasis>所有</>可建设地块均被建筑占据，提供<red>×2.5倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -5247,7 +5247,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_100_PuzzleGame_Icon.Joker_100_PuzzleGame_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -5321,8 +5321,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_CreditCard_Desc",
-            "SourceString": "规则：允许最多<Default>负债</><img id=\"Coin\"/><Yellow>20</>",
-            "LocalizedString": "规则：允许最多<Default>负债</><img id=\"Coin\"/><Yellow>20</>"
+            "SourceString": "规则：允许最多<Emphasis>负债</><img id=\"Coin\"/><Yellow>20</>",
+            "LocalizedString": "规则：允许最多<Emphasis>负债</><img id=\"Coin\"/><Yellow>20</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -5338,7 +5338,7 @@
           "ShopPrice": 1,
           "Effects": [],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_43_CreditCard_Icon.Joker_43_CreditCard_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -5350,11 +5350,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_43_CreditCard_Icon.Joker_43_CreditCard_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_43_CreditCard_Icon.Joker_43_CreditCard_Icon",
             "SubPathString": ""
           }
         },
@@ -5462,7 +5462,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_90_GrandOpening_Icon.Joker_90_GrandOpening_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -5536,8 +5536,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_GourmetFrenzy_Desc",
-            "SourceString": "结算时，场上每存在1栋<Default>餐饮</>建筑，提供<red>+0.2倍率</>",
-            "LocalizedString": "结算时，场上每存在1栋<Default>餐饮</>建筑，提供<red>+0.2倍率</>"
+            "SourceString": "结算时，场上每存在1栋<Emphasis>餐饮</>建筑，提供<red>+0.2倍率</>",
+            "LocalizedString": "结算时，场上每存在1栋<Emphasis>餐饮</>建筑，提供<red>+0.2倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -5660,8 +5660,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_PlayJoker_Desc",
-            "SourceString": "结算时，场上每次建筑结算提供<blue>+8积分</>",
-            "LocalizedString": "结算时，场上每次建筑结算提供<blue>+8积分</>"
+            "SourceString": "结算时，场上每次建筑结算提供<blue>+10积分</>",
+            "LocalizedString": "结算时，场上每次建筑结算提供<blue>+10积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -5674,7 +5674,7 @@
             "LocalizedString": "基建狂魔"
           },
           "Rarity": "EHTCardRarity::Common",
-          "ShopPrice": 4,
+          "ShopPrice": 5,
           "Effects": [
             {
               "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
@@ -5682,7 +5682,7 @@
               "ConditionParam": "None",
               "ConditionThreshold": 0,
               "Op": "EHTBalatroEffectOp::AddChips",
-              "Value": 8.0,
+              "Value": 10.0,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": true,
               "bAddBaseOneForXMult": false,
@@ -5784,8 +5784,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_MicroDistrict_Desc",
-            "SourceString": "结算时，场上每有一栋<Default>占地1格</>的建筑，提供<blue>+12积分</>",
-            "LocalizedString": "结算时，场上每有一栋<Default>占地1格</>的建筑，提供<blue>+12积分</>"
+            "SourceString": "结算时，场上每有一栋<Emphasis>占地1格</>的建筑，提供<blue>+12积分</>",
+            "LocalizedString": "结算时，场上每有一栋<Emphasis>占地1格</>的建筑，提供<blue>+12积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -5908,8 +5908,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_EarlyShowing_Desc",
-            "SourceString": "结算时，前12次<Default>娱乐</>建筑结算额外<blue>+10积分</>",
-            "LocalizedString": "结算时，前12次<Default>娱乐</>建筑结算额外<blue>+10积分</>"
+            "SourceString": "结算时，前12次<Emphasis>娱乐</>建筑结算额外<blue>+10积分</>",
+            "LocalizedString": "结算时，前12次<Emphasis>娱乐</>建筑结算额外<blue>+10积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -6032,8 +6032,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_LevelUp_Desc",
-            "SourceString": "每使用一张<Default>修缮</>功能牌，这张牌<green>获得</><blue>+15积分</>",
-            "LocalizedString": "每使用一张<Default>修缮</>功能牌，这张牌<green>获得</><blue>+15积分</>"
+            "SourceString": "每使用一张<Emphasis>修缮</>功能牌，这张牌<green>获得</><blue>+15积分</>",
+            "LocalizedString": "每使用一张<Emphasis>修缮</>功能牌，这张牌<green>获得</><blue>+15积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -6156,8 +6156,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_EcoNetwork_Desc",
-            "SourceString": "结算时，场上每有1栋受到<Default>自然</>建筑增益的<Default>非自然计分建筑</>，提供<blue>+15积分</>",
-            "LocalizedString": "结算时，场上每有1栋受到<Default>自然</>建筑增益的<Default>非自然计分建筑</>，提供<blue>+15积分</>"
+            "SourceString": "结算时，场上每有1栋受到<Emphasis>自然</>建筑增益的<Emphasis>非自然计分建筑</>，提供<blue>+15积分</>",
+            "LocalizedString": "结算时，场上每有1栋受到<Emphasis>自然</>建筑增益的<Emphasis>非自然计分建筑</>，提供<blue>+15积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -6280,8 +6280,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_Swashbuckler_Desc",
-            "SourceString": "结算时，<Default>其余</>策略牌售价每有<img id=\"Coin\"/><Yellow>1</>，提供<red>+0.1倍率</>",
-            "LocalizedString": "结算时，<Default>其余</>策略牌售价每有<img id=\"Coin\"/><Yellow>1</>，提供<red>+0.1倍率</>"
+            "SourceString": "结算时，<Emphasis>其余</>策略牌售价每有<img id=\"Coin\"/><Yellow>1</>，提供<red>+0.1倍率</>",
+            "LocalizedString": "结算时，<Emphasis>其余</>策略牌售价每有<img id=\"Coin\"/><Yellow>1</>，提供<red>+0.1倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -6330,7 +6330,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_49_Swashbuckler_Icon.Joker_49_Swashbuckler_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -6342,11 +6342,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_49_Swashbuckler_Icon.Joker_49_Swashbuckler_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_49_Swashbuckler_Icon.Joker_49_Swashbuckler_Icon",
             "SubPathString": ""
           }
         },
@@ -6404,8 +6404,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_GreedyJoker_Desc",
-            "SourceString": "结算时，若场上<Default>餐饮</>建筑<Default>数量最多</>，提供<red>+1.2倍率</>",
-            "LocalizedString": "结算时，若场上<Default>餐饮</>建筑<Default>数量最多</>，提供<red>+1.2倍率</>"
+            "SourceString": "结算时，若场上<Emphasis>餐饮</>建筑<Emphasis>数量最多</>，提供<red>+1.2倍率</>",
+            "LocalizedString": "结算时，若场上<Emphasis>餐饮</>建筑<Emphasis>数量最多</>，提供<red>+1.2倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -6454,7 +6454,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_51_GreedyJoker_Icon.Joker_51_GreedyJoker_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -6466,11 +6466,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_51_GreedyJoker_Icon.Joker_51_GreedyJoker_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_51_GreedyJoker_Icon.Joker_51_GreedyJoker_Icon",
             "SubPathString": ""
           }
         },
@@ -6528,8 +6528,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_LustyJoker_Desc",
-            "SourceString": "结算时，若场上<Default>娱乐</>建筑<Default>数量最多</>，提供<red>+1.2倍率</>",
-            "LocalizedString": "结算时，若场上<Default>娱乐</>建筑<Default>数量最多</>，提供<red>+1.2倍率</>"
+            "SourceString": "结算时，若场上<Emphasis>娱乐</>建筑<Emphasis>数量最多</>，提供<red>+1.2倍率</>",
+            "LocalizedString": "结算时，若场上<Emphasis>娱乐</>建筑<Emphasis>数量最多</>，提供<red>+1.2倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -6578,7 +6578,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_52_LustyJoker_Icon.Joker_52_LustyJoker_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -6590,11 +6590,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_52_LustyJoker_Icon.Joker_52_LustyJoker_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_52_LustyJoker_Icon.Joker_52_LustyJoker_Icon",
             "SubPathString": ""
           }
         },
@@ -6652,8 +6652,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_WrathfulJoker_Desc",
-            "SourceString": "结算时，若场上<Default>消费</>建筑<Default>数量最多</>，提供<red>+1.2倍率</>",
-            "LocalizedString": "结算时，若场上<Default>消费</>建筑<Default>数量最多</>，提供<red>+1.2倍率</>"
+            "SourceString": "结算时，若场上<Emphasis>消费</>建筑<Emphasis>数量最多</>，提供<red>+1.2倍率</>",
+            "LocalizedString": "结算时，若场上<Emphasis>消费</>建筑<Emphasis>数量最多</>，提供<red>+1.2倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -6702,7 +6702,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_53_WrathfulJoker_Icon.Joker_53_WrathfulJoker_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -6714,11 +6714,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_53_WrathfulJoker_Icon.Joker_53_WrathfulJoker_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_53_WrathfulJoker_Icon.Joker_53_WrathfulJoker_Icon",
             "SubPathString": ""
           }
         },
@@ -6776,8 +6776,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_ComparisonShopper_Desc",
-            "SourceString": "规则：每间商店<Default>第一次</>刷新费用不消耗<img id=\"Coin\"/>",
-            "LocalizedString": "规则：每间商店<Default>第一次</>刷新费用不消耗<img id=\"Coin\"/>"
+            "SourceString": "规则：每间商店<Emphasis>第一次</>刷新费用不消耗<img id=\"Coin\"/>",
+            "LocalizedString": "规则：每间商店<Emphasis>第一次</>刷新费用不消耗<img id=\"Coin\"/>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -6867,8 +6867,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_GreenCredit_Desc",
-            "SourceString": "通过关卡时，每有2栋受到<Default>自然</>建筑增益的<Default>非自然计分建筑</>，获得<img id=\"Coin\"/><Yellow>1</>",
-            "LocalizedString": "通过关卡时，每有2栋受到<Default>自然</>建筑增益的<Default>非自然计分建筑</>，获得<img id=\"Coin\"/><Yellow>1</>"
+            "SourceString": "通过关卡时，每有2栋受到<Emphasis>自然</>建筑增益的<Emphasis>非自然计分建筑</>，获得<img id=\"Coin\"/><Yellow>1</>",
+            "LocalizedString": "通过关卡时，每有2栋受到<Emphasis>自然</>建筑增益的<Emphasis>非自然计分建筑</>，获得<img id=\"Coin\"/><Yellow>1</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -6991,8 +6991,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_DelayedGratification_Desc",
-            "SourceString": "通过关卡时，若<Default>未使用换牌</>，则每次换牌机会获得<img id=\"Coin\"/><Yellow>2</>",
-            "LocalizedString": "通过关卡时，若<Default>未使用换牌</>，则每次换牌机会获得<img id=\"Coin\"/><Yellow>2</>"
+            "SourceString": "通过关卡时，若<Emphasis>未使用换牌</>，则每次换牌机会获得<img id=\"Coin\"/><Yellow>2</>",
+            "LocalizedString": "通过关卡时，若<Emphasis>未使用换牌</>，则每次换牌机会获得<img id=\"Coin\"/><Yellow>2</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -7013,7 +7013,7 @@
               "ConditionParam": "None",
               "ConditionThreshold": 1,
               "Op": "EHTBalatroEffectOp::AddMoney",
-              "Value": 3.0,
+              "Value": 2.0,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": true,
               "bAddBaseOneForXMult": false,
@@ -7115,8 +7115,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_TurnoverSpecialist_Desc",
-            "SourceString": "规则：每个关卡<Default>第一次换牌</>不消耗换牌次数",
-            "LocalizedString": "规则：每个关卡<Default>第一次换牌</>不消耗换牌次数"
+            "SourceString": "规则：每个关卡<Emphasis>第一次换牌</>不消耗换牌次数",
+            "LocalizedString": "规则：每个关卡<Emphasis>第一次换牌</>不消耗换牌次数"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -7330,8 +7330,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_ComboMeal_Desc",
-            "SourceString": "结算时，每有1栋与<Default>不同名称餐饮</>建筑相邻的<Default>餐饮</>建筑，提供<blue>+20积分</>",
-            "LocalizedString": "结算时，每有1栋与<Default>不同名称餐饮</>建筑相邻的<Default>餐饮</>建筑，提供<blue>+20积分</>"
+            "SourceString": "结算时，每有1栋与<Emphasis>不同名称餐饮</>建筑相邻的<Emphasis>餐饮</>建筑，提供<blue>+20积分</>",
+            "LocalizedString": "结算时，每有1栋与<Emphasis>不同名称餐饮</>建筑相邻的<Emphasis>餐饮</>建筑，提供<blue>+20积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -7454,8 +7454,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_BustlingAtmosphere_Desc",
-            "SourceString": "<Default>餐饮</>建筑相邻每有另一栋<Default>餐饮</>建筑，其<blue>积分转化率+20%</>",
-            "LocalizedString": "<Default>餐饮</>建筑相邻每有另一栋<Default>餐饮</>建筑，其<blue>积分转化率+20%</>"
+            "SourceString": "<Emphasis>餐饮</>建筑相邻每有另一栋<Emphasis>餐饮</>建筑，其<blue>积分转化率+20%</>",
+            "LocalizedString": "<Emphasis>餐饮</>建筑相邻每有另一栋<Emphasis>餐饮</>建筑，其<blue>积分转化率+20%</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -7471,7 +7471,7 @@
           "ShopPrice": 4,
           "Effects": [],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_85_BustlingAtmosphere_Icon.Joker_85_BustlingAtmosphere_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -7545,8 +7545,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_StreetPerformance_Desc",
-            "SourceString": "结算时，场上每有1栋<Default>娱乐</>建筑，提供<blue>+15积分</>",
-            "LocalizedString": "结算时，场上每有1栋<Default>娱乐</>建筑，提供<blue>+15积分</>"
+            "SourceString": "结算时，场上每有1栋<Emphasis>娱乐</>建筑，提供<blue>+15积分</>",
+            "LocalizedString": "结算时，场上每有1栋<Emphasis>娱乐</>建筑，提供<blue>+15积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -7595,7 +7595,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_86_StreetPerformance_Icon.Joker_86_StreetPerformance_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -7669,8 +7669,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_ArrivalTraffic_Desc",
-            "SourceString": "结算时，每有1栋获得<Default>交通</>建筑客流的<Default>计分建筑</>，提供<blue>+15积分</>",
-            "LocalizedString": "结算时，每有1栋获得<Default>交通</>建筑客流的<Default>计分建筑</>，提供<blue>+15积分</>"
+            "SourceString": "结算时，每有1栋获得<Emphasis>交通</>建筑客流的<Emphasis>计分建筑</>，提供<blue>+15积分</>",
+            "LocalizedString": "结算时，每有1栋获得<Emphasis>交通</>建筑客流的<Emphasis>计分建筑</>，提供<blue>+15积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -7719,7 +7719,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_87_ArrivalTraffic_Icon.Joker_87_ArrivalTraffic_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -7793,8 +7793,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_StrengthInNumbers_Desc",
-            "SourceString": "结算时，每持有1张<Default>策略牌</>，提供<red>+0.3倍率</>，本牌计入数量",
-            "LocalizedString": "结算时，每持有1张<Default>策略牌</>，提供<red>+0.3倍率</>，本牌计入数量"
+            "SourceString": "结算时，每持有1张<Emphasis>策略牌</>，提供<red>+0.3倍率</>，本牌计入数量",
+            "LocalizedString": "结算时，每持有1张<Emphasis>策略牌</>，提供<red>+0.3倍率</>，本牌计入数量"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -7843,7 +7843,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_89_StrengthInNumbers_Icon.Joker_89_StrengthInNumbers_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -7917,8 +7917,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_ViralHit_Desc",
-            "SourceString": "结算时，<Default>随机</>提供<red>0~3倍率</>",
-            "LocalizedString": "结算时，<Default>随机</>提供<red>0~3倍率</>"
+            "SourceString": "结算时，<Emphasis>随机</>提供<red>0~3倍率</>",
+            "LocalizedString": "结算时，<Emphasis>随机</>提供<red>0~3倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -7934,7 +7934,7 @@
           "ShopPrice": 4,
           "Effects": [],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_91_ViralHit_Icon.Joker_91_ViralHit_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -8008,8 +8008,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_SpareRoom_Desc",
-            "SourceString": "结算时，若手牌中至少有一张<Default>建筑牌</>，提供<blue>+100积分</>",
-            "LocalizedString": "结算时，若手牌中至少有一张<Default>建筑牌</>，提供<blue>+100积分</>"
+            "SourceString": "结算时，若手牌中至少有一张<Emphasis>建筑牌</>，提供<blue>+100积分</>",
+            "LocalizedString": "结算时，若手牌中至少有一张<Emphasis>建筑牌</>，提供<blue>+100积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -8058,7 +8058,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_92_SpareRoom_Icon.Joker_92_SpareRoom_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -8256,8 +8256,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_GluttonJoker_Desc",
-            "SourceString": "结算时，场上每有1栋<Default>餐饮</>建筑，提供<blue>+15积分</>",
-            "LocalizedString": "结算时，场上每有1栋<Default>餐饮</>建筑，提供<blue>+15积分</>"
+            "SourceString": "结算时，场上每有1栋<Emphasis>餐饮</>建筑，提供<blue>+15积分</>",
+            "LocalizedString": "结算时，场上每有1栋<Emphasis>餐饮</>建筑，提供<blue>+15积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -8380,8 +8380,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_RoadsideShops_Desc",
-            "SourceString": "结算时，场上每有一栋接触<Default>可建设地块边界</>的建筑，提供<blue>+12积分</>",
-            "LocalizedString": "结算时，场上每有一栋接触<Default>可建设地块边界</>的建筑，提供<blue>+12积分</>"
+            "SourceString": "结算时，场上每有一栋接触<Emphasis>可建设地块边界</>的建筑，提供<blue>+12积分</>",
+            "LocalizedString": "结算时，场上每有一栋接触<Emphasis>可建设地块边界</>的建筑，提供<blue>+12积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -8504,8 +8504,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_CityObserver_Desc",
-            "SourceString": "结算时，场上每有1种<Default>不同名称</>的建筑，提供<blue>+10积分</>",
-            "LocalizedString": "结算时，场上每有1种<Default>不同名称</>的建筑，提供<blue>+10积分</>"
+            "SourceString": "结算时，场上每有1种<Emphasis>不同名称</>的建筑，提供<blue>+10积分</>",
+            "LocalizedString": "结算时，场上每有1种<Emphasis>不同名称</>的建筑，提供<blue>+10积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -8752,8 +8752,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_MysticSummit_Desc",
-            "SourceString": "结算时，若<Default>换牌次数耗尽</>，提供<red>+1.5倍率</>",
-            "LocalizedString": "结算时，若<Default>换牌次数耗尽</>，提供<red>+1.5倍率</>"
+            "SourceString": "结算时，若<Emphasis>换牌次数耗尽</>，提供<red>+1.5倍率</>",
+            "LocalizedString": "结算时，若<Emphasis>换牌次数耗尽</>，提供<red>+1.5倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -8802,7 +8802,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_48_MysticSummit_Icon.Joker_48_MysticSummit_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -8814,11 +8814,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_48_MysticSummit_Icon.Joker_48_MysticSummit_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_48_MysticSummit_Icon.Joker_48_MysticSummit_Icon",
             "SubPathString": ""
           }
         },
@@ -8876,8 +8876,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_ShootTheMoon_Desc",
-            "SourceString": "结算时，手牌中每有一张<Default>功能牌</>，提供<red>+1倍率</>",
-            "LocalizedString": "结算时，手牌中每有一张<Default>功能牌</>，提供<red>+1倍率</>"
+            "SourceString": "结算时，手牌中每有一张<Emphasis>功能牌</>，提供<red>+1倍率</>",
+            "LocalizedString": "结算时，手牌中每有一张<Emphasis>功能牌</>，提供<red>+1倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -8926,7 +8926,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_50_ShootTheMoon_Icon.Joker_50_ShootTheMoon_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -8938,11 +8938,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_50_ShootTheMoon_Icon.Joker_50_ShootTheMoon_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_50_ShootTheMoon_Icon.Joker_50_ShootTheMoon_Icon",
             "SubPathString": ""
           }
         },
@@ -9097,8 +9097,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_ToolkitJoker_Desc",
-            "SourceString": "结算时，完整牌库中每有一张<Default>功能牌</>，提供<blue>+40积分</>",
-            "LocalizedString": "结算时，完整牌库中每有一张<Default>功能牌</>，提供<blue>+40积分</>"
+            "SourceString": "结算时，完整牌库中每有一张<Emphasis>功能牌</>，提供<blue>+40积分</>",
+            "LocalizedString": "结算时，完整牌库中每有一张<Emphasis>功能牌</>，提供<blue>+40积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -9147,7 +9147,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_94_ToolkitJoker_Icon.Joker_94_ToolkitJoker_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -9221,8 +9221,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_TransitKing_Desc",
-            "SourceString": "结算时，场上<Default>交通</>建筑每为其他建筑提供<green>50客流</>，提供<red>+0.4倍率</>",
-            "LocalizedString": "结算时，场上<Default>交通</>建筑每为其他建筑提供<green>50客流</>，提供<red>+0.4倍率</>"
+            "SourceString": "结算时，场上<Emphasis>交通</>建筑每为其他建筑提供<Emphasis>50客流</>，提供<red>+0.4倍率</>",
+            "LocalizedString": "结算时，场上<Emphasis>交通</>建筑每为其他建筑提供<Emphasis>50客流</>，提供<red>+0.4倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -9235,7 +9235,7 @@
             "LocalizedString": "交通枢纽"
           },
           "Rarity": "EHTCardRarity::Common",
-          "ShopPrice": 6,
+          "ShopPrice": 5,
           "Effects": [
             {
               "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
@@ -9345,8 +9345,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_StationPartnership_Desc",
-            "SourceString": "结算时，每有1栋提供客流的<Default>交通</>建筑，提供<red>+0.6加算倍率</>",
-            "LocalizedString": "结算时，每有1栋提供客流的<Default>交通</>建筑，提供<red>+0.6加算倍率</>"
+            "SourceString": "结算时，每有1栋提供客流的<Emphasis>交通</>建筑，提供<red>+0.6加算倍率</>",
+            "LocalizedString": "结算时，每有1栋提供客流的<Emphasis>交通</>建筑，提供<red>+0.6加算倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -9395,7 +9395,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_47_StationPartnership_Icon.Joker_47_StationPartnership_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -9407,11 +9407,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_47_StationPartnership_Icon.Joker_47_StationPartnership_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_47_StationPartnership_Icon.Joker_47_StationPartnership_Icon",
             "SubPathString": ""
           }
         },
@@ -9469,8 +9469,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_GreenJoker_Desc",
-            "SourceString": "每<Default>放置</>1张建筑牌，这张牌<green>获得</><red>×0.02倍率</>；每<Default>换掉</>1张牌，这张牌<green>失去</><red>×0.02倍率</>",
-            "LocalizedString": "每<Default>放置</>1张建筑牌，这张牌<green>获得</><red>×0.02倍率</>；每<Default>换掉</>1张牌，这张牌<green>失去</><red>×0.02倍率</>"
+            "SourceString": "每<Emphasis>放置</>1张建筑牌，这张牌<green>获得</><red>×0.02倍率</>；每<Emphasis>换掉</>1张牌，这张牌<green>失去</><red>×0.02倍率</>",
+            "LocalizedString": "每<Emphasis>放置</>1张建筑牌，这张牌<green>获得</><red>×0.02倍率</>；每<Emphasis>换掉</>1张牌，这张牌<green>失去</><red>×0.02倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -9551,7 +9551,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_54_GreenJoker_Icon.Joker_54_GreenJoker_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -9563,11 +9563,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_54_GreenJoker_Icon.Joker_54_GreenJoker_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_54_GreenJoker_Icon.Joker_54_GreenJoker_Icon",
             "SubPathString": ""
           }
         },
@@ -9675,7 +9675,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_93_PopUpCraze_Icon.Joker_93_PopUpCraze_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -9749,8 +9749,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_MoreGuests_Desc",
-            "SourceString": "规则：每次换牌时生成一张<Default>临时</>的<green>小批客流</>",
-            "LocalizedString": "规则：每次换牌时生成一张<Default>临时</>的<green>小批客流</>"
+            "SourceString": "规则：每次换牌时生成一张<Emphasis>临时</>的<Emphasis>小批客流</>",
+            "LocalizedString": "规则：每次换牌时生成一张<Emphasis>临时</>的<Emphasis>小批客流</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -9799,7 +9799,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_97_MoreGuests_Icon.Joker_97_MoreGuests_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -9873,8 +9873,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_Tycoon_Desc",
-            "SourceString": "结算时，每持有<img id=\"Coin\"/><Yellow>10</>，这张牌提供<red>+0.6加算倍率</>",
-            "LocalizedString": "结算时，每持有<img id=\"Coin\"/><Yellow>10</>，这张牌提供<red>+0.6加算倍率</>"
+            "SourceString": "结算时，每持有<img id=\"Coin\"/><Yellow>10</>，这张牌提供<red>+0.7加算倍率</>",
+            "LocalizedString": "结算时，每持有<img id=\"Coin\"/><Yellow>10</>，这张牌提供<red>+0.7加算倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -9898,7 +9898,7 @@
               "ConditionParam": "None",
               "ConditionThreshold": 0,
               "Op": "EHTBalatroEffectOp::AddMult",
-              "Value": 0.6,
+              "Value": 0.7,
               "PerUnit": 10,
               "bScaleValueWithUnitCount": true,
               "bAddBaseOneForXMult": false,
@@ -10000,8 +10000,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_BoxOfficeChampion_Desc",
-            "SourceString": "结算时，取本次<Default>结算次数最高</>的<Default>娱乐</>建筑，该建筑每结算1次，提供<red>+0.4倍率</>",
-            "LocalizedString": "结算时，取本次<Default>结算次数最高</>的<Default>娱乐</>建筑，该建筑每结算1次，提供<red>+0.4倍率</>"
+            "SourceString": "结算时，取本次<Emphasis>结算次数最高</>的<Emphasis>娱乐</>建筑，该建筑每结算1次，提供<red>+0.4倍率</>",
+            "LocalizedString": "结算时，取本次<Emphasis>结算次数最高</>的<Emphasis>娱乐</>建筑，该建筑每结算1次，提供<red>+0.4倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -10091,8 +10091,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_OnePunch_Desc",
-            "SourceString": "规则：每关卡<Default>结算次数</>降为1，<Default>手牌上限</>+2，<Default>换牌次数</>+1；结算时提供<red>×4倍率</>",
-            "LocalizedString": "规则：每关卡<Default>结算次数</>降为1，<Default>手牌上限</>+2，<Default>换牌次数</>+1；结算时提供<red>×4倍率</>"
+            "SourceString": "规则：每关卡<Emphasis>结算次数</>降为1，<Emphasis>手牌上限</>+2，<Emphasis>换牌次数</>+1；结算时提供<red>×4倍率</>",
+            "LocalizedString": "规则：每关卡<Emphasis>结算次数</>降为1，<Emphasis>手牌上限</>+2，<Emphasis>换牌次数</>+1；结算时提供<red>×4倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -10144,7 +10144,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_96_OnePunch_Icon.Joker_96_OnePunch_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -10218,8 +10218,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_Environmentalist_Desc",
-            "SourceString": "规则：<Default>自然</>建筑可以被升级；升级后，该建筑的<Default>光环效果数值</>提升100%",
-            "LocalizedString": "规则：<Default>自然</>建筑可以被升级；升级后，该建筑的<Default>光环效果数值</>提升100%"
+            "SourceString": "规则：<Emphasis>自然</>建筑可以被升级；升级后，该建筑的<Emphasis>光环效果数值</>提升100%",
+            "LocalizedString": "规则：<Emphasis>自然</>建筑可以被升级；升级后，该建筑的<Emphasis>光环效果数值</>提升100%"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -10312,8 +10312,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_Blueprint_Desc",
-            "SourceString": "规则：<Default>复制</>其上方策略牌的能力",
-            "LocalizedString": "规则：<Default>复制</>其上方策略牌的能力"
+            "SourceString": "规则：<Emphasis>复制</>其上方策略牌的能力",
+            "LocalizedString": "规则：<Emphasis>复制</>其上方策略牌的能力"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -10406,8 +10406,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_Brainstorm_Desc",
-            "SourceString": "规则：<Default>复制</>位于最下方策略牌的能力",
-            "LocalizedString": "规则：<Default>复制</>位于最下方策略牌的能力"
+            "SourceString": "规则：<Emphasis>复制</>位于最下方策略牌的能力",
+            "LocalizedString": "规则：<Emphasis>复制</>位于最下方策略牌的能力"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -10500,8 +10500,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_CoreTeam_Desc",
-            "SourceString": "结算时，若持有的<Default>策略牌</>不超过3张，提供<red>×3倍率</>，本牌计入数量",
-            "LocalizedString": "结算时，若持有的<Default>策略牌</>不超过3张，提供<red>×3倍率</>，本牌计入数量"
+            "SourceString": "结算时，若持有的<Emphasis>策略牌</>不超过4张，提供<red>×3.5倍率</>，本牌计入数量",
+            "LocalizedString": "结算时，若持有的<Emphasis>策略牌</>不超过4张，提供<red>×3.5倍率</>，本牌计入数量"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -10525,7 +10525,7 @@
               "ConditionParam": "None",
               "ConditionThreshold": 0,
               "Op": "EHTBalatroEffectOp::XMult",
-              "Value": 3.0,
+              "Value": 3.5,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": false,
               "bAddBaseOneForXMult": false,
@@ -10545,7 +10545,7 @@
                   "Condition": "EHTBalatroEffectCondition::JokerCount",
                   "ConditionParam": "None",
                   "PerUnit": 1,
-                  "Threshold": 4,
+                  "Threshold": 5,
                   "ConditionValue": 0.0,
                   "bInvert": true
                 }
@@ -10636,8 +10636,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_CommercialEmpire_Desc",
-            "SourceString": "结算时，若场上至少有4种不同名称的<Default>消费</>建筑，提供<red>×2.5倍率</>",
-            "LocalizedString": "结算时，若场上至少有4种不同名称的<Default>消费</>建筑，提供<red>×2.5倍率</>"
+            "SourceString": "结算时，若场上至少有4种不同名称的<Emphasis>消费</>建筑，提供<red>×2倍率</>",
+            "LocalizedString": "结算时，若场上至少有4种不同名称的<Emphasis>消费</>建筑，提供<red>×2倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -10661,7 +10661,7 @@
               "ConditionParam": "Consumption",
               "ConditionThreshold": 4,
               "Op": "EHTBalatroEffectOp::XMult",
-              "Value": 2.5,
+              "Value": 2.0,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": false,
               "bAddBaseOneForXMult": false,
@@ -10763,8 +10763,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_FlagshipStore_Desc",
-            "SourceString": "结算时，若场上存在<Default>餐饮</>建筑本回合产生<blue>积分>=100</>，提供<red>×2倍率</>",
-            "LocalizedString": "结算时，若场上存在<Default>餐饮</>建筑本回合产生<blue>积分>=100</>，提供<red>×2倍率</>"
+            "SourceString": "结算时，若场上存在<Emphasis>餐饮</>建筑本回合产生<blue>积分>=100</>，提供<red>×2倍率</>",
+            "LocalizedString": "结算时，若场上存在<Emphasis>餐饮</>建筑本回合产生<blue>积分>=100</>，提供<red>×2倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -10816,7 +10816,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_40_FlagshipStore_Icon.Joker_40_FlagshipStore_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -10828,11 +10828,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_40_FlagshipStore_Icon.Joker_40_FlagshipStore_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_40_FlagshipStore_Icon.Joker_40_FlagshipStore_Icon",
             "SubPathString": ""
           }
         },
@@ -10890,8 +10890,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_HeadlineStar_Desc",
-            "SourceString": "结算时，若场上有1栋<Default>娱乐</>建筑本次结算至少6次，提供<red>×2倍率</>",
-            "LocalizedString": "结算时，若场上有1栋<Default>娱乐</>建筑本次结算至少6次，提供<red>×2倍率</>"
+            "SourceString": "结算时，若场上有1栋<Emphasis>娱乐</>建筑本次结算至少6次，提供<red>×2倍率</>",
+            "LocalizedString": "结算时，若场上有1栋<Emphasis>娱乐</>建筑本次结算至少6次，提供<red>×2倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -10943,7 +10943,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_41_HeadlineStar_Icon.Joker_41_HeadlineStar_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -10955,11 +10955,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_41_HeadlineStar_Icon.Joker_41_HeadlineStar_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_41_HeadlineStar_Icon.Joker_41_HeadlineStar_Icon",
             "SubPathString": ""
           }
         },
@@ -11017,8 +11017,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_ParallelTransit_Desc",
-            "SourceString": "结算时，若场上有两栋<Default>交通</>建筑<Default>相邻</>，提供<red>×2倍率</>",
-            "LocalizedString": "结算时，若场上有两栋<Default>交通</>建筑<Default>相邻</>，提供<red>×2倍率</>"
+            "SourceString": "结算时，若场上有两栋<Emphasis>交通</>建筑<Emphasis>相邻</>，提供<red>+2.5倍率</>",
+            "LocalizedString": "结算时，若场上有两栋<Emphasis>交通</>建筑<Emphasis>相邻</>，提供<red>+2.5倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -11033,7 +11033,7 @@
             "SourceString": "并线经营",
             "LocalizedString": "并线经营"
           },
-          "Rarity": "EHTCardRarity::Epic",
+          "Rarity": "EHTCardRarity::Rare",
           "ShopPrice": 7,
           "Effects": [
             {
@@ -11041,8 +11041,8 @@
               "Condition": "EHTBalatroEffectCondition::AdjacentTransportPair",
               "ConditionParam": "None",
               "ConditionThreshold": 0,
-              "Op": "EHTBalatroEffectOp::XMult",
-              "Value": 2.0,
+              "Op": "EHTBalatroEffectOp::AddMult",
+              "Value": 2.5,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": false,
               "bAddBaseOneForXMult": false,
@@ -11070,7 +11070,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_42_ParallelTransit_Icon.Joker_42_ParallelTransit_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -11082,11 +11082,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_42_ParallelTransit_Icon.Joker_42_ParallelTransit_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_42_ParallelTransit_Icon.Joker_42_ParallelTransit_Icon",
             "SubPathString": ""
           }
         },
@@ -11144,8 +11144,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_EntertainmentSupremacy_Desc",
-            "SourceString": "结算时，若本次建筑<Default>总计结算次数</>大于30，提供<red>×3倍率</>",
-            "LocalizedString": "结算时，若本次建筑<Default>总计结算次数</>大于30，提供<red>×3倍率</>"
+            "SourceString": "结算时，若本次建筑<Emphasis>总计结算次数</>大于30，提供<red>×3倍率</>",
+            "LocalizedString": "结算时，若本次建筑<Emphasis>总计结算次数</>大于30，提供<red>×3倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -11271,8 +11271,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_RestaurantGroup_Desc",
-            "SourceString": "结算时，若存在3种<Default>成对</>的不同<Default>餐饮</>建筑，提供<red>×3倍率</>",
-            "LocalizedString": "结算时，若存在3种<Default>成对</>的不同<Default>餐饮</>建筑，提供<red>×3倍率</>"
+            "SourceString": "结算时，若存在3种<Emphasis>成对</>的不同<Emphasis>餐饮</>建筑，提供<red>×3倍率</>",
+            "LocalizedString": "结算时，若存在3种<Emphasis>成对</>的不同<Emphasis>餐饮</>建筑，提供<red>×3倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -11398,8 +11398,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_LivableCity_Desc",
-            "SourceString": "结算时，若至少有8种<Default>非自然计分建筑</>受到<Default>自然</>建筑增益，提供<red>×2.5倍率</>",
-            "LocalizedString": "结算时，若至少有8种<Default>非自然计分建筑</>受到<Default>自然</>建筑增益，提供<red>×2.5倍率</>"
+            "SourceString": "结算时，若至少有8种<Emphasis>非自然计分建筑</>受到<Emphasis>自然</>建筑增益，提供<red>×3倍率</>",
+            "LocalizedString": "结算时，若至少有8种<Emphasis>非自然计分建筑</>受到<Emphasis>自然</>建筑增益，提供<red>×3倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -11423,7 +11423,7 @@
               "ConditionParam": "None",
               "ConditionThreshold": 8,
               "Op": "EHTBalatroEffectOp::XMult",
-              "Value": 2.5,
+              "Value": 3.0,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": false,
               "bAddBaseOneForXMult": false,
@@ -11451,7 +11451,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_36_LivableCity_Icon.Joker_36_LivableCity_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -11463,11 +11463,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_36_LivableCity_Icon.Joker_36_LivableCity_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_36_LivableCity_Icon.Joker_36_LivableCity_Icon",
             "SubPathString": ""
           }
         },
@@ -11525,8 +11525,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_SmallThingsAddUp_Desc",
-            "SourceString": "结算时，<Default>本关卡</>每成功放置1栋建筑，本牌提供的<red>乘算倍率</><green>增加</><red>0.1</>",
-            "LocalizedString": "结算时，<Default>本关卡</>每成功放置1栋建筑，本牌提供的<red>乘算倍率</><green>增加</><red>0.1</>"
+            "SourceString": "结算时，<Emphasis>本关卡</>每成功放置1栋建筑，本牌提供的<red>乘算倍率</>增加<red>×0.06</>",
+            "LocalizedString": "结算时，<Emphasis>本关卡</>每成功放置1栋建筑，本牌提供的<red>乘算倍率</>增加<red>×0.06</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -11542,7 +11542,7 @@
             "LocalizedString": "聚沙成塔"
           },
           "Rarity": "EHTCardRarity::Epic",
-          "ShopPrice": 9,
+          "ShopPrice": 8,
           "Effects": [
             {
               "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
@@ -11550,7 +11550,7 @@
               "ConditionParam": "None",
               "ConditionThreshold": 0,
               "Op": "EHTBalatroEffectOp::XMult",
-              "Value": 0.1,
+              "Value": 0.06,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": true,
               "bAddBaseOneForXMult": true,
@@ -11578,7 +11578,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_101_SmallThingsAddUp_Icon.Joker_101_SmallThingsAddUp_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -11652,8 +11652,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_BigSpender_Desc",
-            "SourceString": "规则：<Default>首次结算</>时，若持有至少<img id=\"Coin\"/><Yellow>50</>，<Default>自动支付</><img id=\"Coin\"/><Yellow>10</>，本关卡提供<red>×3倍率</>",
-            "LocalizedString": "规则：<Default>首次结算</>时，若持有至少<img id=\"Coin\"/><Yellow>50</>，<Default>自动支付</><img id=\"Coin\"/><Yellow>10</>，本关卡提供<red>×3倍率</>"
+            "SourceString": "规则：<Emphasis>首次结算</>时，若持有至少<img id=\"Coin\"/><Yellow>50</>，<Emphasis>自动支付</><img id=\"Coin\"/><Yellow>10</>，本关卡提供<red>×2.5倍率</>",
+            "LocalizedString": "规则：<Emphasis>首次结算</>时，若持有至少<img id=\"Coin\"/><Yellow>50</>，<Emphasis>自动支付</><img id=\"Coin\"/><Yellow>10</>，本关卡提供<red>×2.5倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -11669,7 +11669,7 @@
             "LocalizedString": "一掷千金"
           },
           "Rarity": "EHTCardRarity::Epic",
-          "ShopPrice": 9,
+          "ShopPrice": 8,
           "Effects": [],
           "IconTexture": {
             "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_33_BigSpender_Icon.Joker_33_BigSpender_Icon",
@@ -11715,7 +11715,7 @@
         "ZeroScoreOnSettlementNumber": 0,
         "FirstSettlementInvestmentThreshold": 50,
         "FirstSettlementInvestmentCost": 10,
-        "FirstSettlementInvestmentXMult": 3.0,
+        "FirstSettlementInvestmentXMult": 2.5,
         "bCopyFirstEffectCard": false,
         "SettlementLimitPerBlind": 0,
         "ExtraHandSize": 0,
@@ -11746,8 +11746,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_UrbanArtery_Desc",
-            "SourceString": "结算时，若场上存在至少20栋建筑受到<Default>交通</>建筑的增益，提供<red>×3倍率</>",
-            "LocalizedString": "结算时，若场上存在至少20栋建筑受到<Default>交通</>建筑的增益，提供<red>×3倍率</>"
+            "SourceString": "结算时，若场上存在至少20栋建筑受到<Emphasis>交通</>建筑的增益，提供<red>×3倍率</>",
+            "LocalizedString": "结算时，若场上存在至少20栋建筑受到<Emphasis>交通</>建筑的增益，提供<red>×3倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -11763,7 +11763,7 @@
             "LocalizedString": "城市动脉"
           },
           "Rarity": "EHTCardRarity::Epic",
-          "ShopPrice": 9,
+          "ShopPrice": 8,
           "Effects": [
             {
               "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
@@ -11799,7 +11799,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_39_UrbanArtery_Icon.Joker_39_UrbanArtery_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -11811,11 +11811,11 @@
             "SubPathString": ""
           },
           "HandGridIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_39_UrbanArtery_Icon.Joker_39_UrbanArtery_Icon",
             "SubPathString": ""
           },
           "HandTypeIconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_39_UrbanArtery_Icon.Joker_39_UrbanArtery_Icon",
             "SubPathString": ""
           }
         },
@@ -11873,8 +11873,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_CentralHub_Desc",
-            "SourceString": "受到至少三个<Default>交通</>建筑影响的建筑，<blue>积分转化率增加200%</>",
-            "LocalizedString": "受到至少三个<Default>交通</>建筑影响的建筑，<blue>积分转化率增加200%</>"
+            "SourceString": "受到至少三个<Emphasis>交通</>建筑影响的建筑，<blue>积分转化率增加200%</>",
+            "LocalizedString": "受到至少三个<Emphasis>交通</>建筑影响的建筑，<blue>积分转化率增加200%</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -11967,8 +11967,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Epic_PickySelection_Desc",
-            "SourceString": "规则：<Default>手牌上限-1</>，结算时提供<blue>+200积分</>",
-            "LocalizedString": "规则：<Default>手牌上限-1</>，结算时提供<blue>+200积分</>"
+            "SourceString": "规则：<Emphasis>手牌上限-1</>，结算时提供<blue>+250积分</>",
+            "LocalizedString": "规则：<Emphasis>手牌上限-1</>，结算时提供<blue>+250积分</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -11984,7 +11984,7 @@
             "LocalizedString": "精挑细选"
           },
           "Rarity": "EHTCardRarity::Epic",
-          "ShopPrice": 7,
+          "ShopPrice": 8,
           "Effects": [
             {
               "Trigger": "EHTBalatroEffectTrigger::OnSettlement",
@@ -11992,7 +11992,7 @@
               "ConditionParam": "None",
               "ConditionThreshold": 0,
               "Op": "EHTBalatroEffectOp::AddChips",
-              "Value": 200.0,
+              "Value": 250.0,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": false,
               "bAddBaseOneForXMult": false,
@@ -12020,7 +12020,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_88_PickySelection_Icon.Joker_88_PickySelection_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -12094,8 +12094,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_GardenRenewal_Desc",
-            "SourceString": "<Default>拆除</>一栋<Default>自然</>建筑时，获得<img id=\"Coin\"/><Yellow>4</>",
-            "LocalizedString": "<Default>拆除</>一栋<Default>自然</>建筑时，获得<img id=\"Coin\"/><Yellow>4</>"
+            "SourceString": "<Emphasis>拆除</>一栋<Emphasis>自然</>建筑时，获得<img id=\"Coin\"/><Yellow>4</>",
+            "LocalizedString": "<Emphasis>拆除</>一栋<Emphasis>自然</>建筑时，获得<img id=\"Coin\"/><Yellow>4</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -12144,7 +12144,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_102_GardenRenewal_Icon.Joker_102_GardenRenewal_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -12218,8 +12218,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_GreenAudit_Desc",
-            "SourceString": "规则：<Default>首次结算后</>，每有1种<Default>自然</>建筑，抽1张牌",
-            "LocalizedString": "规则：<Default>首次结算后</>，每有1种<Default>自然</>建筑，抽1张牌"
+            "SourceString": "规则：<Emphasis>首次结算后</>，每有1种<Emphasis>自然</>建筑，抽1张牌",
+            "LocalizedString": "规则：<Emphasis>首次结算后</>，每有1种<Emphasis>自然</>建筑，抽1张牌"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -12280,7 +12280,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_103_GreenAudit_Icon.Joker_103_GreenAudit_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -12354,8 +12354,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_ClearanceSale_Desc",
-            "SourceString": "若<img id=\"Coin\"/><Yellow><10</>，结算时，每栋<Default>消费</>建筑提供<blue>+30积分</>",
-            "LocalizedString": "若<img id=\"Coin\"/><Yellow><10</>，结算时，每栋<Default>消费</>建筑提供<blue>+30积分</>"
+            "SourceString": "若<img id=\"Coin\"/><Yellow><10</>，结算时，每栋<Emphasis>消费</>建筑提供<blue>+30积分</>",
+            "LocalizedString": "若<img id=\"Coin\"/><Yellow><10</>，结算时，每栋<Emphasis>消费</>建筑提供<blue>+30积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -12413,7 +12413,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_106_ClearanceSale_Icon.Joker_106_ClearanceSale_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -12487,8 +12487,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_MerchSales_Desc",
-            "SourceString": "结算时，若存在结算至少3次的<Default>娱乐</>建筑，获得<img id=\"Coin\"/><Yellow>2</>",
-            "LocalizedString": "结算时，若存在结算至少3次的<Default>娱乐</>建筑，获得<img id=\"Coin\"/><Yellow>2</>"
+            "SourceString": "结算时，若存在结算至少3次的<Emphasis>娱乐</>建筑，获得<img id=\"Coin\"/><Yellow>2</>",
+            "LocalizedString": "结算时，若存在结算至少3次的<Emphasis>娱乐</>建筑，获得<img id=\"Coin\"/><Yellow>2</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -12537,7 +12537,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_110_MerchSales_Icon.Joker_110_MerchSales_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -12611,8 +12611,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_CreditTerms_Desc",
-            "SourceString": "允许<Default>负债</><img id=\"Coin\"/><Yellow>10</>；结算时，场上每种不同的<Default>消费</>建筑提供<red>＋0.5倍率</>",
-            "LocalizedString": "允许<Default>负债</><img id=\"Coin\"/><Yellow>10</>；结算时，场上每种不同的<Default>消费</>建筑提供<red>＋0.5倍率</>"
+            "SourceString": "允许<Emphasis>负债</><img id=\"Coin\"/><Yellow>10</>；结算时，场上每种不同的<Emphasis>消费</>建筑提供<red>＋0.5倍率</>",
+            "LocalizedString": "允许<Emphasis>负债</><img id=\"Coin\"/><Yellow>10</>；结算时，场上每种不同的<Emphasis>消费</>建筑提供<red>＋0.5倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -12664,7 +12664,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_107_CreditTerms_Icon.Joker_107_CreditTerms_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -12738,8 +12738,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_BrandExpansion_Desc",
-            "SourceString": "每张主题为<Default>消费</>的建筑牌加入牌库时，本牌<green>获得</><red>+0.4倍率</>",
-            "LocalizedString": "每张主题为<Default>消费</>的建筑牌加入牌库时，本牌<green>获得</><red>+0.4倍率</>"
+            "SourceString": "每张主题为<Emphasis>消费</>的建筑牌加入牌库时，本牌<green>获得</><red>+0.4倍率</>",
+            "LocalizedString": "每张主题为<Emphasis>消费</>的建筑牌加入牌库时，本牌<green>获得</><red>+0.4倍率</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -12788,7 +12788,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_108_BrandExpansion_Icon.Joker_108_BrandExpansion_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -12862,8 +12862,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_Greenway_Desc",
-            "SourceString": "结算时，<Default>计分建筑</>相邻每有一栋<Default>自然</>建筑，<blue>积分转化率+20%</>",
-            "LocalizedString": "结算时，<Default>计分建筑</>相邻每有一栋<Default>自然</>建筑，<blue>积分转化率+20%</>"
+            "SourceString": "结算时，<Emphasis>计分建筑</>相邻每有一栋<Emphasis>自然</>建筑，<blue>积分转化率+20%</>",
+            "LocalizedString": "结算时，<Emphasis>计分建筑</>相邻每有一栋<Emphasis>自然</>建筑，<blue>积分转化率+20%</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -12879,7 +12879,7 @@
           "ShopPrice": 5,
           "Effects": [],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_105_Greenway_Icon.Joker_105_Greenway_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -12953,8 +12953,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Common_WarmupShow_Desc",
-            "SourceString": "结算时，若场上所有<Default>娱乐</>建筑一共结算至少8次，提供<blue>+100积分</>",
-            "LocalizedString": "结算时，若场上所有<Default>娱乐</>建筑一共结算至少8次，提供<blue>+100积分</>"
+            "SourceString": "结算时，若场上所有<Emphasis>娱乐</>建筑一共结算至少8次，提供<blue>+120积分</>",
+            "LocalizedString": "结算时，若场上所有<Emphasis>娱乐</>建筑一共结算至少8次，提供<blue>+120积分</>"
           },
           "UnlockConditionText": {
             "CultureInvariantString": null
@@ -12975,7 +12975,7 @@
               "ConditionParam": "None",
               "ConditionThreshold": 1,
               "Op": "EHTBalatroEffectOp::AddChips",
-              "Value": 100.0,
+              "Value": 120.0,
               "PerUnit": 1,
               "bScaleValueWithUnitCount": false,
               "bAddBaseOneForXMult": false,
@@ -13012,7 +13012,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_111_WarmupShow_Icon.Joker_111_WarmupShow_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -13086,8 +13086,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_GreenArchive_Desc",
-            "SourceString": "通关时，每种受<Default>自然</>增益的<Default>计分建筑</>，使本牌<green>获得</><red>＋0.05倍率</>",
-            "LocalizedString": "通关时，每种受<Default>自然</>增益的<Default>计分建筑</>，使本牌<green>获得</><red>＋0.05倍率</>"
+            "SourceString": "通关时，每种受<Emphasis>自然</>增益的<Emphasis>非自然计分建筑</>，使本牌<green>获得</><red>＋0.05倍率</>",
+            "LocalizedString": "通关时，每种受<Emphasis>自然</>增益的<Emphasis>非自然计分建筑</>，使本牌<green>获得</><red>＋0.05倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -13139,7 +13139,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_104_GreenArchive_Icon.Joker_104_GreenArchive_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
@@ -13213,8 +13213,8 @@
           "Description": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
             "Key": "JokerCard_Rare_TourBuzz_Desc",
-            "SourceString": "通关时，如果一栋<Default>娱乐</>建筑本关卡<Default>累计结算</>至少6次，本牌<green>获得</><red>+0.4倍率</>",
-            "LocalizedString": "通关时，如果一栋<Default>娱乐</>建筑本关卡<Default>累计结算</>至少6次，本牌<green>获得</><red>+0.4倍率</>"
+            "SourceString": "通关时，如果一栋<Emphasis>娱乐</>建筑本关卡<Emphasis>累计结算</>至少6次，本牌<green>获得</><red>+0.4倍率</>",
+            "LocalizedString": "通关时，如果一栋<Emphasis>娱乐</>建筑本关卡<Emphasis>累计结算</>至少6次，本牌<green>获得</><red>+0.4倍率</>"
           },
           "UnlockConditionText": {
             "TableId": "/Game/Text/ST_BalatroLike.ST_BalatroLike",
@@ -13266,7 +13266,7 @@
             }
           ],
           "IconTexture": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/UI/UI/BalatroLike/Joker/256/Joker_109_TourBuzz_Icon.Joker_109_TourBuzz_Icon",
             "SubPathString": ""
           },
           "HandFrameTexture": {
